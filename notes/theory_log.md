@@ -577,3 +577,44 @@ The project remains conceptual and non-operational. It must not encode real path
 
 ### Book Note
 هرچه مدل به زبان زیستی نزدیک‌تر می‌شود، باید مرز ایمنی و انتزاع روشن‌تر شود؛ وگرنه نظریه به‌جای توضیح، تبدیل به دستورالعمل می‌شود.
+
+## Experiment 15: Observer Misreading Engine
+
+### Question
+چه زمانی مشاهده‌گر، هم‌راستایی مسیر را با قصد اشتباه می‌گیرد؟
+
+### Result
+The Observer Misreading Engine estimated intentionality misreading across the viral-pattern scenarios:
+
+- abstract_baseline:
+  - Misreading score ≈ 40.44
+  - Weak risk
+  - Reason: strained route can be overread as directed progression
+
+- coherent_viral_pattern:
+  - Misreading score ≈ 91.21
+  - High risk
+  - Reason: full coherent route, high apparent targeting, visible endpoint, and dominant attractor on path
+
+- spatial_context_break:
+  - Misreading score ≈ 13.95
+  - Low risk
+  - Reason: B becomes a tension well and the route becomes crisis-dominated
+
+- regulatory_time_disruption:
+  - Misreading score ≈ 13.95
+  - Low risk
+  - Reason: C becomes a tension well and the route becomes crisis-dominated
+
+### Interpretation
+Observer misreading occurs when a coherent, visible, attractor-supported path is compressed into a narrative of intention.
+
+### Theoretical Importance
+This separates three layers:
+
+1. actual causal fabric
+2. apparent targeting
+3. observer misreading of targeting as intention
+
+### Book Note
+مشاهده‌گر وقتی مسیر هم‌راستا، کوتاه‌روایت و پرجاذبه می‌بیند، آن را با قصد اشتباه می‌گیرد؛ اما قصد، خوانش مشاهده‌گر است نه ویژگی خود مسیر.
