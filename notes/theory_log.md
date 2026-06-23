@@ -144,3 +144,30 @@ Observer projection must become richer. It should report not only perceived orde
 
 ### Book Note
 مشاهده‌گر فقط ترتیب رخدادها را نمی‌بیند؛ شدت، فشار، تنش و برجستگی را هم تجربه می‌کند. اگر projection فقط ترتیب را نشان دهد، بخشی از واقعیت بافت را سانسور کرده‌ایم.
+
+## Experiment 07: Rich Observer Projection
+
+### Question
+آیا projection غنی می‌تواند تغییرات پنهان بافت را نشان دهد، حتی وقتی ترتیب رویدادها در projection ساده ثابت می‌ماند؟
+
+### Result
+For spatial displacement of B:
+
+- Simple projection distance = 0.000
+- Rich projection distance = 1.637
+
+For shifting C earlier on t2:
+
+- Simple projection distance = 0.100
+- Rich projection distance = 1.227
+
+### Interpretation
+Simple observer projection only tracks perceived order. It can miss deep changes in local tension, perceived intensity, fabric pressure, and curvature-like structure.
+
+Rich projection detects changes that simple event order hides.
+
+### Theoretical Importance
+This supports the idea that apparent causal stability may be an artifact of poor observer projection. The fabric may change deeply while the visible sequence remains unchanged.
+
+### Book Note
+مشاهده‌گر خطی، تغییر بافت را به ترتیب رخدادها فرو می‌کاهد؛ مشاهده‌گر غنی، شدت، فشار، تنش و خمیدگی پنهان را هم می‌بیند.
