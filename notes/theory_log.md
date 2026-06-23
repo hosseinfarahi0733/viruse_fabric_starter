@@ -396,3 +396,50 @@ passing through constructive attractors
 
 ### Book Note
 هر جاذب علّی مقصد مسیر نیست؛ بعضی جاذب‌ها چاه تنش‌اند و مسیر پایدار از آن‌ها دور می‌شود.
+
+## Experiment 11: Attractor Type Classifier
+
+### Question
+آیا جاذب‌های علّی مسیرساز هستند یا چاه تنش و بحران؟
+
+### Result
+The classifier separated causal attractors into role types:
+
+- constructive_attractor
+- tension_well
+- strained_gateway
+- passive_corridor
+- background_node
+
+Key cases:
+
+- Original:
+  - Path: A → D → E
+  - D = strained_gateway
+
+- Coupled:
+  - Path: A → B → C → D → E
+  - D = constructive_attractor
+
+- B spatially displaced:
+  - Path: A → D → E
+  - B = tension_well
+
+- C shifted earlier on t2:
+  - Path: A → D → E
+  - C = tension_well
+
+### Interpretation
+High causal gravity alone is not enough. A node must be evaluated by whether the geodesic passes through it or avoids it.
+
+### Theoretical Importance
+This prevents the theory from collapsing back into a simplistic claim that “the strongest attractor is the cause.”
+
+### Apparent Targeting Formula
+Apparent targeting =
+passing through constructive attractors
++ avoiding tension wells
++ being filtered by fabric constraints
+
+### Book Note
+هر جاذب علّی مقصد مسیر نیست؛ بعضی جاذب‌ها چاه تنش‌اند و مسیر پایدار از آن‌ها دور می‌شود.
