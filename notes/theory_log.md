@@ -226,3 +226,41 @@ The D_t3 case is close to the threshold. This suggests the rich projection metri
 
 ### Book Note
 وقتی ترتیب رخدادها ثابت می‌ماند، انسان فکر می‌کند واقعیت عوض نشده؛ اما فشار، شدت و تنش بافتی ممکن است کاملاً جابه‌جا شده باشد.
+
+## Experiment 09: Causal Curvature / Causal Gravity
+
+### Question
+کدام گره‌ها با تمرکز تنش، فشار و اتصال، بافت علّی را خم می‌کنند؟
+
+### Result
+The curvature analyzer identified dominant causal attractors across different fabric states:
+
+- Original MVP fabric:
+  - Dominant attractor: D
+  - Total curvature ≈ 9.523
+
+- Coupled fabric:
+  - Dominant attractor: D
+  - Total curvature ≈ 13.745
+
+- Spatial displacement of B:
+  - Dominant attractor: B
+  - Total curvature ≈ 21.414
+
+- C shifted earlier on t2:
+  - Dominant attractor: C
+  - Total curvature ≈ 20.720
+
+### Interpretation
+Causal importance is not determined by event order alone. A node becomes a causal attractor when tension, pressure, and connectivity concentrate around it.
+
+### Theoretical Importance
+This is the first computational form of the claim:
+
+Causality is not a chain; it is curvature in a fabric of constraints.
+
+### Caution
+Curvature entropy remains relatively high, around 1.45 to 1.54. This suggests that curvature is still distributed, not fully concentrated in a single node. The theory should avoid reducing causality back into one dominant cause.
+
+### Book Note
+جاذب علّی الزاماً اولین رویداد نیست؛ گره‌ای است که تنش، فشار و اتصال در آن متمرکز می‌شوند.
