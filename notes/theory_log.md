@@ -171,3 +171,58 @@ This supports the idea that apparent causal stability may be an artifact of poor
 
 ### Book Note
 مشاهده‌گر خطی، تغییر بافت را به ترتیب رخدادها فرو می‌کاهد؛ مشاهده‌گر غنی، شدت، فشار، تنش و خمیدگی پنهان را هم می‌بیند.
+
+## Experiment 08: Rich Critical Review
+
+### Question
+آیا projection غنی می‌تواند هشدار تغییر پنهان بافت را پاسخ دهد؟
+
+### Result
+Rich projection compares simple event-order distance with a richer observer distance that includes:
+
+- local tension
+- perceived intensity
+- fabric pressure
+- curvature-like hints
+
+### Interpretation
+If simple projection distance is low but rich projection distance is high, then the hidden fabric change was not invisible in principle. It was hidden only from an impoverished observer model.
+
+### Theoretical Importance
+This supports a key claim of Viruse Fabric Theory:
+
+A stable event sequence does not imply a stable causal fabric.
+
+### Book Note
+وقتی ترتیب رخدادها ثابت می‌ماند، انسان فکر می‌کند واقعیت عوض نشده؛ اما فشار، شدت و تنش بافتی ممکن است کاملاً جابه‌جا شده باشد.
+
+## Experiment 08: Rich Critical Review
+
+### Question
+آیا projection غنی می‌تواند هشدار تغییر پنهان بافت را پاسخ دهد؟
+
+### Result
+Rich projection resolved the main hidden-fabric-change warning in 2 of 3 tested cases.
+
+Key outputs:
+- B_spatial_displaced_with_coupling:
+  - Simple distance = 0.000
+  - Rich distance = 1.637
+- C_t2_earlier_with_coupling:
+  - Simple distance = 0.100
+  - Rich distance = 1.227
+- D_t3_earlier_with_coupling:
+  - Simple distance = 0.100
+  - Rich distance = 0.949
+
+### Interpretation
+A simple observer projection sees mostly event order. A rich observer projection also sees local tension, perceived intensity, fabric pressure, and curvature-like hints.
+
+### Theoretical Importance
+A stable event sequence does not imply a stable causal fabric.
+
+### Caution
+The D_t3 case is close to the threshold. This suggests the rich projection metric needs future calibration instead of being treated as final.
+
+### Book Note
+وقتی ترتیب رخدادها ثابت می‌ماند، انسان فکر می‌کند واقعیت عوض نشده؛ اما فشار، شدت و تنش بافتی ممکن است کاملاً جابه‌جا شده باشد.
