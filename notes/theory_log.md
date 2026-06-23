@@ -47,3 +47,23 @@ The weak effect of spatial displacement suggests that the current MVP may be und
 
 ### Book Note
 علت فقط چیزی نیست که اگر حذف شود تغییر ایجاد کند؛ علت چیزی است که اگر جابه‌جا شود، کل بافت مجبور به بازچینی مسیرها شود.
+
+## Experiment 04: Critical Engine
+
+### Question
+آیا شبیه‌ساز می‌تواند تفسیرهای علّی خودش را نقد کند؟
+
+### Result
+The Critical Engine reviews counterfactual and intervention outputs and flags possible model artifacts.
+
+### Key Critical Warnings
+- Raw FabricEnergy can be misleading when deletion removes constraints.
+- Large changes in the full fabric can be hidden inside a small observer projection change.
+- The current MVP under-models spatial coupling.
+- The model is currently dominated by t2 and t3 interventions.
+
+### Interpretation
+A theory of causal fabric must include self-critique. Otherwise, the simulator may confuse artifacts of its own design with evidence for the theory.
+
+### Book Note
+نظریه‌ای که خودش را نقد نمی‌کند، فقط یک داستان منظم‌تر است.
