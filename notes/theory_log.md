@@ -618,3 +618,34 @@ This separates three layers:
 
 ### Book Note
 مشاهده‌گر وقتی مسیر هم‌راستا، کوتاه‌روایت و پرجاذبه می‌بیند، آن را با قصد اشتباه می‌گیرد؛ اما قصد، خوانش مشاهده‌گر است نه ویژگی خود مسیر.
+
+## Experiment 16: Intention Correction Report
+
+### Question
+چطور باید داستان‌های مشاهده‌گر درباره قصد را اصلاح کرد؟
+
+### Result
+The correction engine generates, for each scenario:
+
+- mistaken observer story
+- corrected causal reading
+- correction principle
+- book-style explanatory paragraph
+- main interpretive error source
+
+Key outcome:
+
+- coherent_viral_pattern:
+  - apparent targeting ≈ 88.53
+  - observer misreading ≈ 91.21
+  - main error: route coherence compressed into intentional selection
+  - correction: the constructive attractor D stabilizes the route, but this is route coherence, not intention
+
+### Interpretation
+The model now separates visible pattern, apparent targeting, and observer projection of intention.
+
+### Theoretical Importance
+This turns numerical fabric analysis into a reusable explanatory layer for writing, critique, and theory development.
+
+### Book Note
+قصد، ویژگی مسیر نیست؛ قصد، خوانش فشرده و اشتباه مشاهده‌گر از مسیرهای هم‌راستا و پرجاذبه است.
