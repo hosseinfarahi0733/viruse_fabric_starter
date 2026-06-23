@@ -87,3 +87,29 @@ This experiment directly responds to the Critical Engine warning:
 
 ### Book Note
 اگر مکان در مدل اثر ندارد، نباید نتیجه بگیریم که مکان در نظریه بی‌اهمیت است؛ شاید فقط ما آن را بد مدل کرده‌ایم.
+
+## Experiment 05: Space-Time Coupling Fix
+
+### Question
+آیا اضافه‌کردن coupling زیستی میان فضا و زمان می‌تواند ضعف اثر مکان در MVP را اصلاح کند؟
+
+### Result
+Before biological space-time coupling, spatial displacement of B had almost no effect:
+- ΔEnergy ≈ 0.005
+
+After adding biological space-time coupling, the same spatial displacement became strongly costly:
+- ΔEnergy ≈ 34.311
+
+### Interpretation
+The previous weak spatial effect was likely a model artifact. The MVP had under-modeled spatial coupling.
+
+### Critical Response
+This experiment directly responds to:
+- INT-WEAK-SPACE-COUPLING
+- MODEL-TIME-DOMINANCE
+
+### Caution
+The new coupling may be too strong. Spatial sensitivity is now significant, but the model may need calibration so that space matters without dominating artificially.
+
+### Book Note
+اگر مکان در مدل اثر ندارد، نباید نتیجه بگیریم که مکان در نظریه بی‌اهمیت است؛ شاید فقط ما آن را بد مدل کرده‌ایم.
