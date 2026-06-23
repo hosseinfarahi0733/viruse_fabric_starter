@@ -15,17 +15,16 @@ def main() -> None:
     console.rule("Experiment 02: Counterfactual Deletion")
     console.print(
         "Question: If a node is removed from the full fabric, "
-        "how much does the projected causal story change?"
+        "does it merely reduce raw tension, or does it damage the structure?"
     )
 
     table = Table(title="Counterfactual deletion report")
-    table.add_column("Deleted node")
-    table.add_column("Base energy")
-    table.add_column("New energy")
-    table.add_column("Energy delta")
+    table.add_column("Deleted")
+    table.add_column("Raw ΔEnergy")
+    table.add_column("Structural loss")
     table.add_column("Projection distance")
-    table.add_column("Base order")
-    table.add_column("New order")
+    table.add_column("Removed constraints")
+    table.add_column("Impact")
     table.add_column("Interpretation")
 
     for node_id in fabric.nodes:
@@ -33,12 +32,11 @@ def main() -> None:
 
         table.add_row(
             result.deleted_node,
-            f"{result.base_energy:.3f}",
-            f"{result.new_energy:.3f}",
-            f"{result.energy_delta:.3f}",
-            f"{result.order_distance:.3f}",
-            " → ".join(result.base_order),
-            " → ".join(result.new_order),
+            f"{result.raw_energy_delta:.3f}",
+            f"{result.structural_loss:.3f}",
+            f"{result.projection_distance:.3f}",
+            str(result.removed_constraints),
+            f"{result.counterfactual_impact:.3f}",
             result.interpretation,
         )
 
@@ -46,8 +44,10 @@ def main() -> None:
 
     console.rule("Theory note")
     console.print(
-        "A node is not only important because it appears early in the projected timeline. "
-        "It is important when deleting it destabilizes the fabric or changes the observer's story."
+        "Raw energy can fall after deletion because constraints disappear. "
+        "That does not mean the deleted node was unimportant. "
+        "Counterfactual importance must combine tension relief, structural loss, "
+        "and projection distortion."
     )
 
 

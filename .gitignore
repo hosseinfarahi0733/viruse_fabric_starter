@@ -16,3 +16,16 @@ __pycache__/
 
 # Generated experiment outputs
 outputs/
+
+# Python generated files
+*.egg-info/
+build/
+dist/
+__pycache__/
+.pytest_cache/
+
+# Local environment
+.venv/
+
+# Generated experiment outputs
+outputs/
