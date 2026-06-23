@@ -3,3 +3,16 @@ __pycache__/
 *.pyc
 outputs/
 .ipynb_checkpoints/
+
+# Python generated files
+*.egg-info/
+build/
+dist/
+__pycache__/
+.pytest_cache/
+
+# Local environment
+.venv/
+
+# Generated experiment outputs
+outputs/

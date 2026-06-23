@@ -1,2 +1,0 @@
-[console_scripts]
-viruse-demo = viruse_fabric.experiments.exp_01_projection:main
