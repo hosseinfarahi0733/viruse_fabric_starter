@@ -75,8 +75,12 @@ class AttractorClassificationReport:
             return "mixed fabric: some attractors guide paths while others repel or concentrate crisis"
         if self.tension_wells:
             return "avoidance-dominated fabric: dominant attractors behave like tension wells"
+        if self.constructive_nodes and self.strained_gateways:
+            return "mixed constructive fabric: attractors support the path but some gateways remain strained"
         if self.constructive_nodes:
             return "constructive fabric: attractors support the geodesic path"
+        if self.strained_gateways:
+            return "strained fabric: attractors lie on the path but remain costly gateways"
         return "weakly organized fabric: no strong attractor role detected"
 
 
