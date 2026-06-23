@@ -264,3 +264,65 @@ Curvature entropy remains relatively high, around 1.45 to 1.54. This suggests th
 
 ### Book Note
 جاذب علّی الزاماً اولین رویداد نیست؛ گره‌ای است که تنش، فشار و اتصال در آن متمرکز می‌شوند.
+
+## Experiment 10: Causal Geodesic / Path Bending
+
+### Question
+آیا مسیرهای علّی به سمت مسیرهای کم‌هزینه و پرجاذبه در بافت خم می‌شوند؟
+
+### Result
+The causal geodesic analyzer computes paths from A to E using:
+
+- raw constraint penalty
+- causal gravity pull
+- relation type
+- total curvature
+
+### Interpretation
+A causal path is not simply the earliest visible chain. It is a route through the fabric where constraint cost and causal gravity combine.
+
+### Theoretical Importance
+This is the first computational bridge between causal gravity and apparent targeting.
+
+### Book Note
+ویروس هدفمند انتخاب نمی‌کند؛ مسیرهایی که در بافت کم‌تنش‌تر و پرجاذبه‌ترند، هدفمندتر دیده می‌شوند.
+
+## Experiment 10: Causal Geodesic / Path Bending
+
+### Question
+آیا مسیرهای علّی به سمت مسیرهای کم‌هزینه و پرجاذبه در بافت خم می‌شوند؟
+
+### Result
+The causal geodesic analyzer computed paths from A to E across multiple fabric states:
+
+- Original MVP:
+  - Path: A → D → E
+  - Dominant attractor: D
+  - Interpretation: mostly raw constraint cost
+
+- Coupled fabric:
+  - Path: A → B → C → D → E
+  - Dominant attractor: D
+  - Interpretation: strongly shaped by causal gravity
+
+- B spatially displaced:
+  - Path: A → D → E
+  - Dominant attractor: B
+
+- C shifted earlier on t2:
+  - Path: A → D → E
+  - Dominant attractor: C
+
+### Interpretation
+The observer-visible sequence is not necessarily the causal geodesic. A causal geodesic is the route where constraint cost and causal gravity combine.
+
+When biological space-time coupling is coherent, the geodesic follows the full biological chain. When B or C becomes a high-tension attractor, the geodesic can bend away from it.
+
+### Theoretical Importance
+This experiment creates the first computational bridge between causal gravity and apparent targeting.
+
+### Critical Note
+A causal attractor is not always a destination. Some attractors are crisis centers or tension wells that paths avoid.
+
+### Book Note
+ویروس هدفمند انتخاب نمی‌کند؛ مسیرهایی که در بافت کم‌تنش‌تر و پرجاذبه‌ترند، هدفمندتر دیده می‌شوند.
