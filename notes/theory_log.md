@@ -489,3 +489,60 @@ constructive support
 
 ### Book Note
 هدفمندی ظاهری، قصد نیست؛ نتیجه‌ی هم‌راستایی مسیر، جاذب‌های سازنده و فیلترهای بافت است.
+
+## Experiment 13: Viral Pattern Scenario Layer
+
+### Question
+آیا می‌توان مدل انتزاعی را به زبان سناریوهای زیستیِ امن ترجمه کرد، بدون اینکه برای ویروس قصد یا مدل عملیاتی خطرناک تعریف کنیم؟
+
+### Result
+The scenario layer translated the abstract A/B/C/D/E nodes into safe biological-facing roles:
+
+- A = exposure / boundary contact
+- B = compatibility transition
+- C = regulatory context shift
+- D = persistence stabilization
+- E = observer-visible outcome
+
+The scenarios tested:
+
+- abstract_baseline
+- coherent_viral_pattern
+- spatial_context_break
+- regulatory_time_disruption
+
+Key outcomes:
+
+- abstract_baseline:
+  - Path: A → D → E
+  - Score ≈ 8.70
+  - D = strained gateway
+
+- coherent_viral_pattern:
+  - Path: A → B → C → D → E
+  - Score ≈ 88.53
+  - D = constructive attractor
+
+- spatial_context_break:
+  - Path: A → D → E
+  - Score = 0.00
+  - B = tension well
+
+- regulatory_time_disruption:
+  - Path: A → D → E
+  - Score = 0.00
+  - C = tension well
+
+### Interpretation
+The coherent viral-pattern scenario produces high apparent targeting because the route is complete, efficient, and supported by constructive attractors.
+
+The disrupted scenarios reduce apparent targeting because high-gravity nodes become tension wells rather than stable route organizers.
+
+### Theoretical Importance
+This is the first bridge from the mathematical fabric to a biological-facing narrative layer.
+
+### Safety Boundary
+This layer is non-operational. It does not describe real pathogens, hosts, doses, receptors, protocols, or interventions.
+
+### Book Note
+ویروس قصد ندارد؛ بافتِ سازگار، بعضی مسیرها را آن‌قدر هم‌راستا و پایدار می‌کند که برای مشاهده‌گر شبیه انتخاب هدفمند دیده می‌شوند.
