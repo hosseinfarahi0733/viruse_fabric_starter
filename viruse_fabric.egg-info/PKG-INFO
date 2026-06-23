@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: viruse-fabric
+Version: 0.1.0
+Summary: Unified Causal Fabric simulator: 3 space + 3 real model-times, causal mass, projection, and abstract virus-pattern experiments.
+Requires-Python: <3.14,>=3.11
+Requires-Dist: numpy>=1.26
+Requires-Dist: networkx>=3.2
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: rich>=13.7
+Provides-Extra: gpu
+Requires-Dist: jax[cuda12]>=0.4.31; platform_system == "Linux" and extra == "gpu"

@@ -1,0 +1,23 @@
+[project]
+name = "viruse-fabric"
+version = "0.1.0"
+description = "Unified Causal Fabric simulator: 3 space + 3 real model-times, causal mass, projection, and abstract virus-pattern experiments."
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "numpy>=1.26",
+    "networkx>=3.2",
+    "matplotlib>=3.8",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+gpu = [
+    "jax[cuda12]>=0.4.31; platform_system == 'Linux'",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["viruse_fabric*"]
+
+[project.scripts]
+viruse-demo = "viruse_fabric.experiments.exp_01_projection:main"
