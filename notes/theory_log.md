@@ -649,3 +649,41 @@ This turns numerical fabric analysis into a reusable explanatory layer for writi
 
 ### Book Note
 قصد، ویژگی مسیر نیست؛ قصد، خوانش فشرده و اشتباه مشاهده‌گر از مسیرهای هم‌راستا و پرجاذبه است.
+
+## Experiment 17: Theory Chapter Exporter
+
+### Question
+آیا شبیه‌ساز می‌تواند از خروجی‌های عددی و اصلاحی، یک فصل نظری قابل‌خواندن بسازد؟
+
+### Result
+The exporter generated a Markdown chapter at:
+
+outputs/theory_chapter_v1_7.md
+
+The export produced:
+
+- Title: Apparent Targeting Without Intention
+- Scenario count: 4
+- Safety status: pass
+- Total findings: 0
+- Word count: 1419
+
+The chapter includes:
+
+- problem statement
+- model summary
+- safe viral-pattern scenario layer
+- apparent targeting results
+- observer misreading results
+- intention correction reports
+- safety and abstraction boundary
+- closing theoretical claim
+
+### Interpretation
+The project now has a bridge from runnable model to manuscript-style theory text.
+
+### Theoretical Importance
+This turns the simulator from an analysis engine into a theory-writing engine.
+
+### Book Note
+وقتی مدل بتواند خروجی خود را به فصل نظری تبدیل کند، نظریه از حد ایده و جدول عبور می‌کند و وارد ساختار قابل انتشار می‌شود.
