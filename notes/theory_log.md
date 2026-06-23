@@ -67,3 +67,23 @@ A theory of causal fabric must include self-critique. Otherwise, the simulator m
 
 ### Book Note
 نظریه‌ای که خودش را نقد نمی‌کند، فقط یک داستان منظم‌تر است.
+
+## Experiment 05: Space-Time Coupling Fix
+
+### Question
+آیا اضافه‌کردن coupling زیستی میان فضا و زمان می‌تواند ضعف اثر مکان در MVP را اصلاح کند؟
+
+### Result
+The experiment compares spatial displacement before and after adding biological space-time coupling.
+
+### Interpretation
+If spatial displacement becomes more costly after coupling, then the previous weak spatial effect was likely a model artifact, not a theoretical result.
+
+### Critical Response
+This experiment directly responds to the Critical Engine warning:
+
+- INT-WEAK-SPACE-COUPLING
+- MODEL-TIME-DOMINANCE
+
+### Book Note
+اگر مکان در مدل اثر ندارد، نباید نتیجه بگیریم که مکان در نظریه بی‌اهمیت است؛ شاید فقط ما آن را بد مدل کرده‌ایم.
