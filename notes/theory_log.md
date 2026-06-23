@@ -443,3 +443,49 @@ passing through constructive attractors
 
 ### Book Note
 هر جاذب علّی مقصد مسیر نیست؛ بعضی جاذب‌ها چاه تنش‌اند و مسیر پایدار از آن‌ها دور می‌شود.
+
+## Experiment 12: Apparent Targeting Index
+
+### Question
+چه زمانی یک مسیر علّی بدون داشتن قصد، هدفمند دیده می‌شود؟
+
+### Result
+The Apparent Targeting Index produced the expected separation:
+
+- Original:
+  - Score ≈ 8.70
+  - Low apparent targeting
+  - Reason: costly strained gateway
+
+- Coupled:
+  - Score ≈ 88.53
+  - High apparent targeting
+  - Reason: coherent full path, constructive attractor support, full path coverage, gravity alignment
+
+- B spatially displaced:
+  - Score = 0.00
+  - Low apparent targeting
+  - Reason: B becomes a tension well
+
+- C shifted earlier on t2:
+  - Score = 0.00
+  - Low apparent targeting
+  - Reason: C becomes a tension well
+
+### Interpretation
+A path appears target-like when it is coherent, efficient, supported by constructive attractors, and not dominated by avoided tension wells.
+
+### Theoretical Importance
+This reconnects the simulator to the original viral-targeting question without assigning intention to viral patterns.
+
+### Formula
+Apparent targeting =
+constructive support
++ path coverage
++ gravity alignment
++ cost efficiency
+- tension well penalty
+- strained gateway penalty
+
+### Book Note
+هدفمندی ظاهری، قصد نیست؛ نتیجه‌ی هم‌راستایی مسیر، جاذب‌های سازنده و فیلترهای بافت است.
