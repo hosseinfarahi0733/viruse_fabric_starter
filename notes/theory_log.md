@@ -113,3 +113,34 @@ The new coupling may be too strong. Spatial sensitivity is now significant, but 
 
 ### Book Note
 اگر مکان در مدل اثر ندارد، نباید نتیجه بگیریم که مکان در نظریه بی‌اهمیت است؛ شاید فقط ما آن را بد مدل کرده‌ایم.
+
+## Experiment 06: Critical Review After Space-Time Coupling
+
+### Question
+آیا اضافه‌کردن coupling زیستی فضا-زمان هشدارهای Critical Engine را کاهش می‌دهد؟
+
+### Result
+The Critical Engine score dropped from 16.0 to 6.0.
+
+Previous verdict:
+- model needs revision before strong theoretical claims
+
+New verdict:
+- model is promising but requires targeted correction
+
+### Interpretation
+Adding biological space-time coupling reduced the weak-space problem and improved model balance.
+
+### Remaining Problem
+Large changes in the full fabric are still hidden by the current observer projection, because projection currently tracks mostly event order.
+
+### Next Step
+Observer projection must become richer. It should report not only perceived order, but also:
+
+- perceived intensity
+- local tension
+- fabric pressure
+- curvature hint
+
+### Book Note
+مشاهده‌گر فقط ترتیب رخدادها را نمی‌بیند؛ شدت، فشار، تنش و برجستگی را هم تجربه می‌کند. اگر projection فقط ترتیب را نشان دهد، بخشی از واقعیت بافت را سانسور کرده‌ایم.
