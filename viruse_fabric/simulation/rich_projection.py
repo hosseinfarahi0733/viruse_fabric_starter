@@ -111,8 +111,8 @@ class RichObserverProjection:
             events.append(
                 RichProjectedEvent(
                     node_id=node_id,
-                    event=str(node.state.get("event", "")),
-                    kind=str(node.state.get("kind", "")),
+                    event=str(node.state.get("event", node.label)),
+                    kind=str(node.state.get("kind", node.kind)),
                     perceived_time=self.perceived_time(node),
                     local_tension=local_tension,
                     perceived_intensity=perceived_intensity,
