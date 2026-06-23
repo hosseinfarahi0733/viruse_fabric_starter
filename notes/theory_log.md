@@ -546,3 +546,34 @@ This layer is non-operational. It does not describe real pathogens, hosts, doses
 
 ### Book Note
 ویروس قصد ندارد؛ بافتِ سازگار، بعضی مسیرها را آن‌قدر هم‌راستا و پایدار می‌کند که برای مشاهده‌گر شبیه انتخاب هدفمند دیده می‌شوند.
+
+## Experiment 14: Scenario Safety & Consistency Auditor
+
+### Question
+آیا لایه سناریوی زیستیِ امن هنوز غیرعملیاتی، ایمن و از نظر درونی سازگار است؟
+
+### Result
+The auditor produced:
+
+- Overall status: pass
+- Total findings: 0
+- Interpretation: scenario layer is safe and internally consistent
+
+The checked scenarios were:
+
+- abstract_baseline
+- coherent_viral_pattern
+- spatial_context_break
+- regulatory_time_disruption
+
+### Interpretation
+The scenario layer remains conceptual, safe, non-operational, and internally consistent.
+
+### Theoretical Importance
+This creates a safety and consistency boundary between the mathematical fabric and biological-facing narrative.
+
+### Safety Boundary
+The project remains conceptual and non-operational. It must not encode real pathogen protocols, doses, host details, lab procedures, or actionable intervention recipes.
+
+### Book Note
+هرچه مدل به زبان زیستی نزدیک‌تر می‌شود، باید مرز ایمنی و انتزاع روشن‌تر شود؛ وگرنه نظریه به‌جای توضیح، تبدیل به دستورالعمل می‌شود.
