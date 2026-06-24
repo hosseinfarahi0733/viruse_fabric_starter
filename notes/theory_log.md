@@ -885,3 +885,42 @@ A useful theory must know when to reject a broken interpretation.
 
 ### Book Note
 نظریه‌ای که فقط تأیید می‌کند، نظریه نیست؛ دستگاه توجیه است.
+
+## Experiment 23: Public Demo Package
+
+### Question
+آیا پروژه می‌تواند یک نقطه ورود عمومی برای milestoneها، خروجی‌ها، مرز ایمنی و محدودیت‌های فعلی خودش بسازد؟
+
+### Result
+Experiment 23 generated a public demo report at:
+
+outputs/public_demo_report_v2_3.md
+
+The experiment produced:
+
+- Milestone count: 7
+- Artifact count: 8
+- Missing required artifacts: 0
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The project now has a public-facing entry point.
+
+The demo package explains:
+
+- where to start reading;
+- which outputs matter most;
+- which experiments reproduce the main reports;
+- what the current safety boundary is;
+- what the project does not yet prove.
+
+### Theoretical Importance
+This version does not add a new theory layer.
+
+Instead, it reduces the friction between the project and a new reader.
+
+That matters because a theory that cannot be entered by someone outside the builder's head is not public yet; it is just a private machine with impressive noises.
+
+### Book Note
+نظریه برای زنده ماندن فقط نباید درست باشد؛ باید راه ورود هم داشته باشد.
