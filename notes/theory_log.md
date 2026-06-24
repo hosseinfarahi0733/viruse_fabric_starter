@@ -1126,3 +1126,47 @@ The result supports the claim that apparent targeting is not reducible to route 
 
 ### Book Note
 اگر baseline ساده همان کار را انجام دهد، نظریه فقط با لباس رسمی‌تر وارد اتاق شده است. در این آزمون، لباس تنها تفاوت نبود.
+
+## Experiment 29: Projection Perturbation
+
+### Question
+آیا تغییر projection مشاهده‌گر، قصدخوانی را تغییر می‌دهد در حالی که امتیاز intrinsic fabric همچنان تفکیک‌گر باقی می‌ماند؟
+
+### Result
+Experiment 29 generated a projection perturbation report at:
+
+outputs/projection_perturbation_v2_9.md
+
+The experiment produced:
+
+- Case count: 6
+- Projection count: 6
+- Run count: 36
+- Intrinsic false positives: 0
+- Observer false intentions: 22
+- Corrected false intentions: 3
+- Correction drop percent: 86.36%
+- Supported intrinsic margin: 46.50
+- Finding count: 2
+- Errors: 0
+- Warnings: 2
+- Passed: True
+
+### Interpretation
+Projection shifts produced observer false-intention events without causing intrinsic fabric scoring to produce false positives.
+
+The correction layer reduced false-intention events from 22 to 3.
+
+This supports the distinction between apparent targeting in the constraint fabric and observer misreading under projection.
+
+### Theoretical Importance
+This is the fifth implemented validation test after ablation, moderate sensitivity, adversarial sensitivity, and baseline comparison.
+
+It directly tests one of the project’s central claims:
+
+Intention is not a property of the route; it is an observer-side compression of aligned, salient, and attractor-like structure.
+
+The result supports the claim that observer misreading can vary while intrinsic fabric discrimination remains stable.
+
+### Book Note
+قصد، روی مسیر نوشته نشده است؛ مشاهده‌گر آن را از مسیرهای هم‌راستا و پرجاذبه استخراج می‌کند، بعد فراموش می‌کند که خودش این ترجمه را ساخته است.
