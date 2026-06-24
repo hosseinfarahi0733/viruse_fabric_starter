@@ -1004,3 +1004,42 @@ The result supports the claim that apparent targeting is not produced by route s
 
 ### Book Note
 اگر حذف یک مفهوم هیچ چیز را تغییر ندهد، آن مفهوم فقط تزئین است. در این آزمون، جاذب سازنده تزئین نبود.
+
+## Experiment 26: Parameter Sensitivity Sweep
+
+### Question
+آیا نتیجه‌ی اصلی اعتبارسنجی در برابر تغییرات متوسط وزن‌ها پایدار می‌ماند؟
+
+### Result
+Experiment 26 generated a parameter sensitivity report at:
+
+outputs/parameter_sensitivity_v2_6.md
+
+The experiment produced:
+
+- Case count: 4
+- Profile count: 729
+- Stable count: 729
+- Unstable count: 0
+- Stability rate: 100.00%
+- Finding count: 1
+- Errors: 0
+- Warnings: 0
+- Passed: True
+
+### Interpretation
+The supported constructive route remained dominant across all tested moderate weight perturbations.
+
+The ablated route, shortcut gateway route, and tension well route did not become strongly target-like under the tested sweep.
+
+### Theoretical Importance
+This is the second implemented validation test after the constructive attractor ablation.
+
+It suggests that the current validation result is not dependent on a single fragile weight setting.
+
+This does not prove full robustness. It only supports stability under moderate perturbation.
+
+A stronger future test should use harsher adversarial or extreme sensitivity sweeps.
+
+### Book Note
+مدلی که فقط با یک تنظیم وزن زنده بماند، نظریه نیست؛ گلدان حساس عددی است. این نسخه دست‌کم از نسیم متوسط جان سالم به در برد.
