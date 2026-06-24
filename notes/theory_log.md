@@ -1043,3 +1043,46 @@ A stronger future test should use harsher adversarial or extreme sensitivity swe
 
 ### Book Note
 مدلی که فقط با یک تنظیم وزن زنده بماند، نظریه نیست؛ گلدان حساس عددی است. این نسخه دست‌کم از نسیم متوسط جان سالم به در برد.
+
+## Experiment 27: Adversarial Sensitivity Sweep
+
+### Question
+آیا مدل در برابر تنظیمات خصمانه‌ی وزن‌ها و فشار سناریوهای فریبنده همچنان قابل استفاده می‌ماند؟
+
+### Result
+Experiment 27 generated an adversarial sensitivity report at:
+
+outputs/adversarial_sensitivity_v2_7.md
+
+The experiment produced:
+
+- Case count: 7
+- Profile count: 8640
+- Stable count: 7004
+- Unstable count: 1636
+- Stability rate: 81.06%
+- Finding count: 3
+- Errors: 0
+- Warnings: 3
+- Passed: True
+
+### Interpretation
+The model remained above the adversarial stability threshold.
+
+Unlike the moderate parameter sensitivity sweep, this test produced unstable regions and warnings.
+
+This is useful because it shows where the model becomes fragile under hostile but still interpretable scoring conditions.
+
+The supported constructive route did not collapse globally, but decoy pressure exposed regions where the separation margin becomes weaker.
+
+### Theoretical Importance
+This is the third implemented validation test after constructive attractor ablation and moderate parameter sensitivity.
+
+It strengthens the validation layer because it does not merely confirm stability under friendly settings.
+
+It tests whether apparent targeting can be faked by high observer salience, visually efficient shortcuts, or weakened tension penalties.
+
+The model passed, but not perfectly. That imperfection is informative.
+
+### Book Note
+آزمونی که هیچ ترک و فشار نشان ندهد، همیشه نشانه‌ی قدرت نیست؛ گاهی فقط یعنی آزمون زیادی مهربان بوده. در این نسخه، ترک‌ها دیده شدند و سازه هنوز فرو نریخت.
