@@ -802,3 +802,45 @@ That matters because a theory becomes stronger when it can state not only what i
 
 ### Book Note
 نظریه‌ای که ضعف‌های خودش را نام نمی‌برد، هنوز نظریه نیست؛ اعتمادبه‌نفس است با لباس مفهومی.
+
+## Experiment 21: Visual Explanation
+
+### Question
+آیا پروژه می‌تواند یک لایه تصویری بسازد که به مسیرها، امتیازها، نقش جاذب‌ها و خطای مشاهده‌گر وصل باشد؟
+
+### Result
+Experiment 21 generated a visual explanation diagram and report at:
+
+outputs/fabric_diagram_v2_1.png  
+outputs/visual_explanation_report_v2_1.md
+
+The experiment produced:
+
+- Scenario count: 4
+- Node count: 5
+- Edge count: 5
+- Image generated: True
+- Report generated: True
+- Missing required report phrases: 0
+- Visual complexity: 4.615
+
+### Interpretation
+The project now has a visual explanation layer.
+
+The diagram connects:
+
+- coherent route;
+- shortcut / disrupted route;
+- constructive attractor;
+- tension well;
+- strained gateway;
+- apparent targeting;
+- observer misreading.
+
+### Theoretical Importance
+This moves Viruse Fabric from text-only theory writing toward visual explanation.
+
+The image is not presentation-grade yet, but it is conceptually useful because it remains tied to computed scenario structure and previous experiment results.
+
+### Book Note
+نظریه وقتی قابل دفاع‌تر می‌شود که فقط خوانده نشود، بلکه مسیرها و فشارهایش دیده شوند.
