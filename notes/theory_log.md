@@ -1214,3 +1214,44 @@ It still cannot support strong public claims, real biological prediction claims,
 
 ### Book Note
 جمع‌بندی validation یعنی بفهمیم کجا ایستاده‌ایم، نه اینکه هر نتیجه‌ی پاس‌شده را تبدیل به تاج پادشاهی کنیم. این نسخه تاج نمی‌گذارد؛ نقشه می‌دهد.
+
+## Experiment 31: Manuscript Skeleton
+
+### Question
+آیا research prototype اعتبارسنجی‌شده می‌تواند به ساختار محتاطانه‌ی یک manuscript علمی تبدیل شود؟
+
+### Result
+Experiment 31 generated a manuscript skeleton at:
+
+outputs/manuscript_skeleton_v3_1.md
+
+The experiment produced:
+
+- Section count: 10
+- Validation section count: 5
+- Source artifact count: 14
+- Allowed claim count: 5
+- Disallowed claim count: 5
+- Readiness status: manuscript skeleton for cautious technical review
+- Word count: 1117
+- Finding count: 2
+- Errors: 0
+- Warnings: 2
+- Passed: True
+
+### Interpretation
+The manuscript skeleton converts the validated research prototype into a cautious technical paper structure.
+
+It preserves the boundary between internal validation and external validation.
+
+It also keeps allowed and disallowed claims visible, which is useful because humans see one passed test and immediately start designing a TED Talk.
+
+### Theoretical Importance
+This is the first manuscript-facing milestone after the v3.0 validation synthesis.
+
+The project now has a structured path toward a full technical paper.
+
+The skeleton includes abstract, introduction, core thesis, formal model, validation protocol, validation results, limitations, claim boundaries, and future work.
+
+### Book Note
+جایی که هوش و اراده ترکیب می‌شوند، خروجی نباید فقط هیجان باشد؛ باید ساختار، مرز، و متن قابل دفاع تولید کند.
