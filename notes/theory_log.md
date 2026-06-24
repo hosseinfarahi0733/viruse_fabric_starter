@@ -1170,3 +1170,47 @@ The result supports the claim that observer misreading can vary while intrinsic 
 
 ### Book Note
 قصد، روی مسیر نوشته نشده است؛ مشاهده‌گر آن را از مسیرهای هم‌راستا و پرجاذبه استخراج می‌کند، بعد فراموش می‌کند که خودش این ترجمه را ساخته است.
+
+## Experiment 30: Validation Synthesis and Research Readiness
+
+### Question
+پس از زنجیره‌ی validation داخلی، Viruse Fabric مسئولانه چه چیزهایی می‌تواند ادعا کند و چه چیزهایی را هنوز نباید ادعا کند؟
+
+### Result
+Experiment 30 generated a validation synthesis and research readiness report at:
+
+outputs/validation_synthesis_v3_0.md
+
+The experiment produced:
+
+- Milestone count: 6
+- Implemented validation count: 5
+- Passed validation count: 5
+- Total errors: 0
+- Total warnings: 9
+- Missing report count: 0
+- Readiness score: 68
+- Research status: research prototype with internal validation
+- Finding count: 2
+- Errors: 0
+- Warnings: 2
+- Passed: True
+
+### Interpretation
+The validation synthesis consolidated the internal validation sequence from v2.4 through v2.9.
+
+The project now has a coherent internal validation layer, but the synthesis explicitly preserves limitations and warns that external validation has not been completed.
+
+The current responsible status is:
+
+research prototype with internal validation
+
+### Theoretical Importance
+This is the transition point from scattered validation artifacts to a research-readiness frame.
+
+The project can now support cautious manuscript development and technical review.
+
+It still cannot support strong public claims, real biological prediction claims, operational claims, or claims of external validation.
+
+### Book Note
+جمع‌بندی validation یعنی بفهمیم کجا ایستاده‌ایم، نه اینکه هر نتیجه‌ی پاس‌شده را تبدیل به تاج پادشاهی کنیم. این نسخه تاج نمی‌گذارد؛ نقشه می‌دهد.
