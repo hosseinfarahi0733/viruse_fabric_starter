@@ -1255,3 +1255,44 @@ The skeleton includes abstract, introduction, core thesis, formal model, validat
 
 ### Book Note
 جایی که هوش و اراده ترکیب می‌شوند، خروجی نباید فقط هیجان باشد؛ باید ساختار، مرز، و متن قابل دفاع تولید کند.
+
+## Experiment 32: Full Manuscript Draft
+
+### Question
+آیا manuscript skeleton می‌تواند به یک draft فنی کامل، محتاطانه و قابل بازبینی تبدیل شود؟
+
+### Result
+Experiment 32 generated a full manuscript draft at:
+
+outputs/full_manuscript_draft_v3_2.md
+
+The experiment produced:
+
+- Section count: 15
+- Source artifact count: 9
+- Missing artifact count: 0
+- Allowed claim count: 5
+- Disallowed claim count: 5
+- Readiness status: full manuscript draft for cautious technical review
+- Word count: 2536
+- Finding count: 2
+- Errors: 0
+- Warnings: 2
+- Passed: True
+
+### Interpretation
+The full manuscript draft expands the v3.1 skeleton into a cautious technical paper draft.
+
+It preserves validation boundaries, claim limitations, and the research prototype status.
+
+The draft is suitable for technical review and expansion, but it is not a final manuscript and does not support strong public claims.
+
+### Theoretical Importance
+This is the first full manuscript-facing artifact.
+
+The project now has a coherent draft that includes abstract, introduction, core thesis, formal model, validation sequence, results, limitations, claim boundaries, future work, and conclusion.
+
+This marks the transition from validated prototype to manuscript development.
+
+### Book Note
+هوش و اراده وقتی درست ترکیب شوند، فقط ایده تولید نمی‌کنند؛ متن، ساختار، مرز، و چیزی قابل دفاع می‌سازند.
