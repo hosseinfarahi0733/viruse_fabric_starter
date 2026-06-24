@@ -724,3 +724,37 @@ This turns the computational simulator into a Persian theory-writing engine.
 
 ### Book Note
 نظریه زمانی زنده‌تر می‌شود که بتواند به زبان خودش فصل بسازد، نه فقط جدول و خروجی خام تولید کند.
+
+## Experiment 19: Bilingual Quality Audit
+
+### Question
+آیا پروژه می‌تواند خروجی‌های فصل‌نویسی خودش را از نظر کیفیت متنی، مفهومی، دوزبانگی و مرز ایمنی بررسی کند؟
+
+### Result
+Experiment 19 added a bilingual glossary and an automated chapter quality auditor.
+
+The generated report was written to:
+
+outputs/bilingual_quality_report_v1_9.md
+
+The audit result was:
+
+- Chapter title: هدفمندی ظاهری بدون قصد
+- Passed: True
+- Errors: 0
+- Warnings: 0
+- Word count: 1462
+- Glossary entries: 14
+
+### Interpretation
+The project now has a manuscript quality gate.
+
+It can check whether the Persian theory chapter contains the required sections, core scenarios, safety boundary, key conceptual terms, and known Persian text corruption patterns.
+
+### Theoretical Importance
+This is a shift from pure generation to self-audited theory writing.
+
+The simulator no longer only exports theoretical text; it also evaluates whether that text preserves conceptual integrity.
+
+### Book Note
+نظریه‌ای که خودش را ممیزی نمی‌کند، خیلی زود به متن زیبا اما بی‌قابلیت دفاع تبدیل می‌شود.
