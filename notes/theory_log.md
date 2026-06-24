@@ -967,3 +967,40 @@ The next serious step is to implement the validation protocol rather than merely
 
 ### Book Note
 تا وقتی نظریه نگفته باشد چه چیزی می‌تواند آن را شکست دهد، هنوز بیشتر شبیه ادعاست تا شناخت.
+
+## Experiment 25: Constructive Attractor Ablation
+
+### Question
+اگر جاذب سازنده حذف شود، آیا هدفمندی ظاهری و قصدخوانی مشاهده‌گر واقعاً سقوط می‌کنند؟
+
+### Result
+Experiment 25 generated a constructive attractor ablation report at:
+
+outputs/constructive_attractor_ablation_v2_5.md
+
+The experiment produced:
+
+- Case count: 4
+- Finding count: 1
+- Errors: 0
+- Warnings: 0
+- Apparent targeting drop: 59.84%
+- Observer misreading drop: 65.37%
+- Passed: True
+
+### Interpretation
+The constructive attractor passed the ablation test.
+
+When constructive support was removed from the coherent route, apparent targeting dropped from 92.75 to 37.25, and observer misreading dropped from 87.65 to 30.35.
+
+This suggests that constructive attractor support is doing real explanatory work in the model.
+
+### Theoretical Importance
+This is the first implemented validation test from the v2.4 validation protocol.
+
+It tests whether one of the project’s core concepts is necessary for the behavior it claims to explain.
+
+The result supports the claim that apparent targeting is not produced by route shape alone; it depends on constructive support, alignment, and observer salience.
+
+### Book Note
+اگر حذف یک مفهوم هیچ چیز را تغییر ندهد، آن مفهوم فقط تزئین است. در این آزمون، جاذب سازنده تزئین نبود.
