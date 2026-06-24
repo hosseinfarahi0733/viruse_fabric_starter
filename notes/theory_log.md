@@ -758,3 +758,47 @@ The simulator no longer only exports theoretical text; it also evaluates whether
 
 ### Book Note
 نظریه‌ای که خودش را ممیزی نمی‌کند، خیلی زود به متن زیبا اما بی‌قابلیت دفاع تبدیل می‌شود.
+
+## Experiment 20: Theory Manifest
+
+### Question
+آیا پروژه می‌تواند ادعاها، مرزها، شواهد محاسباتی و ضعف‌های باز خودش را مستقیم و قابل دفاع بیان کند؟
+
+### Result
+Experiment 20 generated a theory manifest at:
+
+outputs/theory_manifest_v2_0.md
+
+The export produced:
+
+- Title: Viruse Fabric Theory Manifest v2.0
+- Section count: 9
+- Claim count: 5
+- Weak point count: 5
+- Word count: 1351
+- Missing sections: 0
+- Missing boundary phrases: 0
+- Overindented lines: 0
+
+### Interpretation
+The project now has a direct theory manifest.
+
+It states:
+
+- the core claim;
+- what the project explains;
+- what it does not claim;
+- the computational evidence so far;
+- the conceptual boundary;
+- the biological safety boundary;
+- why the theory is not merely metaphor;
+- open weak points;
+- next research questions.
+
+### Theoretical Importance
+This is the first version where Viruse Fabric explicitly limits itself.
+
+That matters because a theory becomes stronger when it can state not only what it claims, but also what it refuses to claim.
+
+### Book Note
+نظریه‌ای که ضعف‌های خودش را نام نمی‌برد، هنوز نظریه نیست؛ اعتمادبه‌نفس است با لباس مفهومی.
