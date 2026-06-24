@@ -687,3 +687,40 @@ This turns the simulator from an analysis engine into a theory-writing engine.
 
 ### Book Note
 وقتی مدل بتواند خروجی خود را به فصل نظری تبدیل کند، نظریه از حد ایده و جدول عبور می‌کند و وارد ساختار قابل انتشار می‌شود.
+
+## Experiment 18: Persian Theory Chapter Exporter
+
+### Question
+آیا شبیه‌ساز می‌تواند از خروجی‌های عددی و اصلاحی، یک فصل نظری فارسی قابل‌خواندن بسازد؟
+
+### Result
+The Persian exporter generated a Persian Markdown chapter at:
+
+outputs/theory_chapter_fa_v1_8.md
+
+The export produced:
+
+- Title: هدفمندی ظاهری بدون قصد
+- Scenario count: 4
+- Safety status: pass
+- Total findings: 0
+
+The chapter includes:
+
+- مسئله
+- مدل نظری
+- لایه سناریوهای انتزاعی زیستی
+- نتایج هدفمندی ظاهری
+- خطای مشاهده‌گر
+- اصلاح خوانش قصد
+- مرز ایمنی و انتزاع
+- جمع‌بندی فصل
+
+### Interpretation
+The project now has a Persian manuscript-facing output layer.
+
+### Theoretical Importance
+This turns the computational simulator into a Persian theory-writing engine.
+
+### Book Note
+نظریه زمانی زنده‌تر می‌شود که بتواند به زبان خودش فصل بسازد، نه فقط جدول و خروجی خام تولید کند.
