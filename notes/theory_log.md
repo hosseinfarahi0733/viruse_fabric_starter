@@ -924,3 +924,46 @@ That matters because a theory that cannot be entered by someone outside the buil
 
 ### Book Note
 نظریه برای زنده ماندن فقط نباید درست باشد؛ باید راه ورود هم داشته باشد.
+
+## Experiment 24: Validation Protocol
+
+### Question
+آیا پروژه می‌تواند معیارهایی تعریف کند که نشان دهند چه چیزی ادعاهای فعلی آن را قوی‌تر، ضعیف‌تر یا رد می‌کند؟
+
+### Result
+Experiment 24 generated a validation protocol at:
+
+outputs/validation_protocol_v2_4.md
+
+The protocol produced:
+
+- Criterion count: 8
+- High priority count: 7
+- Failure condition count: 8
+- Presentation status: research prototype only
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The project now has a validation protocol.
+
+It defines validation pressure through:
+
+- constructive attractor ablation;
+- tension well injection;
+- strained gateway penalty;
+- parameter sensitivity sweeps;
+- baseline comparison;
+- projection perturbation;
+- negative control scenarios;
+- external validation boundary.
+
+### Theoretical Importance
+This version explicitly prevents the project from presenting itself as stronger than its evidence.
+
+Viruse Fabric is currently a conceptual-computational research prototype, not an empirically validated theory.
+
+The next serious step is to implement the validation protocol rather than merely describe it.
+
+### Book Note
+تا وقتی نظریه نگفته باشد چه چیزی می‌تواند آن را شکست دهد، هنوز بیشتر شبیه ادعاست تا شناخت.
