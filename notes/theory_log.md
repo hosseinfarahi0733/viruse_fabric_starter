@@ -844,3 +844,44 @@ The image is not presentation-grade yet, but it is conceptually useful because i
 
 ### Book Note
 نظریه وقتی قابل دفاع‌تر می‌شود که فقط خوانده نشود، بلکه مسیرها و فشارهایش دیده شوند.
+
+## Experiment 22: Scenario Stress Tests
+
+### Question
+آیا پروژه می‌تواند سناریوهای خراب را رد کند، بدون اینکه سناریوهای معتبر را بی‌دلیل خراب کند؟
+
+### Result
+Experiment 22 generated a scenario stress report at:
+
+outputs/scenario_stress_report_v2_2.md
+
+The experiment produced:
+
+- Scenario count: 7
+- Finding count: 2
+- Errors: 0
+- Warnings: 0
+- Rejected invalid scenarios: 2
+- Passed: True
+
+### Interpretation
+The project now has an internal stress-test layer.
+
+It checks whether the model preserves sane relationships between:
+
+- route coherence;
+- constructive attractors;
+- tension wells;
+- strained gateways;
+- apparent targeting;
+- observer misreading.
+
+### Theoretical Importance
+This is a shift from explanation to resistance.
+
+Viruse Fabric should not make everything look target-like. It should also not flatten every scenario into zero meaning.
+
+A useful theory must know when to reject a broken interpretation.
+
+### Book Note
+نظریه‌ای که فقط تأیید می‌کند، نظریه نیست؛ دستگاه توجیه است.
