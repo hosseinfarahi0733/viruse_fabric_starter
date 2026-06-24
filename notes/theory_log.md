@@ -1086,3 +1086,43 @@ The model passed, but not perfectly. That imperfection is informative.
 
 ### Book Note
 آزمونی که هیچ ترک و فشار نشان ندهد، همیشه نشانه‌ی قدرت نیست؛ گاهی فقط یعنی آزمون زیادی مهربان بوده. در این نسخه، ترک‌ها دیده شدند و سازه هنوز فرو نریخت.
+
+## Experiment 28: Baseline Comparison
+
+### Question
+آیا Viruse Fabric واقعاً بهتر از baselineهای ساده، مورد هدفمند-نما را توضیح می‌دهد؟
+
+### Result
+Experiment 28 generated a baseline comparison report at:
+
+outputs/baseline_comparison_v2_8.md
+
+The experiment produced:
+
+- Case count: 7
+- Model count: 5
+- Baseline count: 4
+- Baseline failure count: 4
+- Fabric margin: 44.15
+- Fabric false positives: 0
+- Finding count: 4
+- Errors: 0
+- Warnings: 4
+- Passed: True
+
+### Interpretation
+Viruse Fabric outperformed the tested simple baselines.
+
+The route-shape baseline, observer-salience baseline, efficiency baseline, and reduced linear baseline were weaker than the full model.
+
+This suggests that constructive support, curvature-like alignment, penalties, and observer filtering are not merely decorative terms in the current validation setup.
+
+### Theoretical Importance
+This is the fourth implemented validation test after ablation, moderate sensitivity, and adversarial sensitivity.
+
+It checks whether the theory explains more than simpler scoring rules.
+
+The result supports the claim that apparent targeting is not reducible to route shape, salience, or efficiency alone.
+
+### Book Note
+اگر baseline ساده همان کار را انجام دهد، نظریه فقط با لباس رسمی‌تر وارد اتاق شده است. در این آزمون، لباس تنها تفاوت نبود.
