@@ -4097,3 +4097,149 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone دو citation record ساخته‌شده در v7.0 را audit می‌کند. CIT-REC-0001 و CIT-REC-0002 هر دو audit pass می‌گیرند، اما citation جدید اضافه نمی‌شود، manuscript citation marker همچنان صفر است، و manuscript revision انجام نمی‌شود. بنابراین پروژه اکنون citation records added و audited دارد، اما هنوز citation-grounded manuscript revision ندارد.
 
+## Experiment 72: First Manuscript Citation Insertion Plan
+
+### Question
+آیا Viruse Fabric می‌تواند manuscript citation insertion را از روی audited citation records برنامه‌ریزی کند، در حالی که manuscript citation markers، manuscript revision، و new citation additions صفر بمانند؟
+
+### Result
+Experiment 72 generated a first manuscript citation insertion plan artifact at:
+
+outputs/first_manuscript_citation_insertion_plan_v7_2.md
+
+The experiment produced:
+
+- Source artifact count: 22
+- Missing source artifact count: 0
+- Manuscript citation insertion plan count: 1
+- Audited citation record count: 2
+- Planned manuscript citation slot count: 2
+- Manuscript citation insertion execution count: 0
+- Manuscript citation marker count: 0
+- Manuscript revised count: 0
+- New citation added count: 0
+- Conditional hold count: 1
+- Manuscript citation insertion plan field count: 14
+- Manuscript citation insertion action value count: 4
+- Manuscript citation insertion plan gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1427
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.2 artifact plans future manuscript citation insertion for two audited citation records while keeping markers, manuscript revision, and new citation additions at zero.
+
+It confirms:
+
+- manuscript citation insertion plan count: 1
+- audited citation record count: 2
+- planned manuscript citation slot count: 2
+- manuscript citation insertion execution count: 0
+- manuscript citation marker count: 0
+- manuscript revised count: 0
+- new citation added count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Manuscript citation insertion is planned, but no markers are inserted.
+- Manuscript citation insertion planning does not revise the manuscript.
+
+### Planned Manuscript Citation Slots
+Experiment 72 plans two future manuscript citation insertion slots:
+
+- MCIS-PLAN-0001 from CIT-REC-0001
+- MCIS-PLAN-0002 from CIT-REC-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Boundary
+This milestone does not insert manuscript citation markers.
+
+It does not revise manuscript prose.
+
+It does not strengthen conclusions.
+
+It does not upgrade any theory claim.
+
+It does not add new citations.
+
+It only plans where audited citation records may later be inserted as bounded manuscript citation markers.
+
+### Claim Boundary Toward v7.5
+This milestone permits a slightly stronger internal workflow claim than v7.1.
+
+Allowed after v7.2:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation-planned workflow
+- verified citation records added
+- citation records audited
+- manuscript citation insertion planned
+- manuscript still unrevised
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first manuscript citation insertion planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one conditional hold
+- zero manuscript citation markers
+- zero manuscript revision
+- zero new citations
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار manuscript citation insertion را plan می‌کند. MCIS-PLAN-0001 و MCIS-PLAN-0002 از روی audited citation records ساخته می‌شوند، اما هنوز citation marker وارد manuscript نمی‌شود، manuscript revision انجام نمی‌شود، و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون برای ورود citation به manuscript مسیر دارد، اما هنوز citation-grounded manuscript revision ندارد.
+
