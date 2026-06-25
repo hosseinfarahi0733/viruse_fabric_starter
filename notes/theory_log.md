@@ -1853,3 +1853,60 @@ The project remains a research prototype with internal validation.
 ### Book Note
 چک‌لیست شاید هیجان‌انگیز نباشد، اما جلوی آن لحظه انسانی را می‌گیرد که کسی می‌گوید «این جمله محدودکننده را حذف کنیم، متن قشنگ‌تر می‌شود» و ناگهان کل پروژه از پژوهش محتاط به تبلیغ بادشده تبدیل می‌شود.
 
+## Experiment 46: Public Release Readiness Audit
+
+### Question
+آیا مسیر public-safe release برای cautious public orientation آماده است، در حالی که همچنان روشن بماند پروژه submission-ready نیست، externally validated نیست، و final paper نیست؟
+
+### Result
+Experiment 46 generated a public release readiness audit at:
+
+outputs/public_release_readiness_audit_v4_6.md
+
+The experiment produced:
+
+- Public artifact count: 6
+- Missing public artifact count: 0
+- Supporting artifact count: 3
+- Missing supporting artifact count: 0
+- Readiness dimension count: 10
+- Boundary phrase count: 11
+- Readiness statement count: 10
+- Release gate count: 12
+- Risk item count: 8
+- Approved use case count: 6
+- Disallowed use case count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Readiness score: 100
+- Word count: 956
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Verdict
+ready for cautious public orientation, not ready for submission
+
+### Interpretation
+The v4.6 readiness audit confirms that the public-safe release path is internally complete, bounded, citation-safe, and free from overclaim.
+
+It supports cautious public orientation only.
+
+It does not certify external validation, submission readiness, biological applicability, clinical relevance, laboratory relevance, operational usefulness, or empirical adequacy.
+
+The warnings are acceptable:
+
+- Readiness is limited to cautious public orientation, not submission.
+- Any visual, slide, landing-page, or shorter public artifact requires a separate audit.
+
+### Theoretical Importance
+This milestone closes the public-safe release readiness layer.
+
+Viruse Fabric now has a bounded public orientation path: public preview, public audit, one-page preview, one-page audit, bundle index, checklist, and final readiness audit.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+آمادگی برای معرفی عمومی یعنی خواننده بتواند بفهمد پروژه چیست، نه اینکه پروژه را چیزی بداند که هنوز نشده است. v4.6 همین مرز را رسمی می‌کند: آماده برای orientation محتاطانه، نه آماده برای submission.
+
