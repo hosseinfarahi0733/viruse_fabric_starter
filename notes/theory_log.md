@@ -1547,3 +1547,42 @@ It checks that the project remains a research prototype with internal validation
 ### Book Note
 یک manuscript خوب فقط متن بیشتر نیست؛ متن باید بلد باشد کجا مکث کند، کجا ادعا نکند، و کجا هنوز شواهد کافی ندارد.
 
+## Experiment 39: Citation Placeholder Plan
+
+### Question
+آیا manuscript یکپارچه می‌تواند برای مرحله citation واقعی، یک نقشه literature-safe بسازد بدون اینکه citation، نویسنده، DOI، arXiv یا bibliography جعلی تولید کند؟
+
+### Result
+Experiment 39 generated a citation placeholder and literature mapping plan at:
+
+outputs/citation_placeholder_plan_v3_9.md
+
+The experiment produced:
+
+- Literature family count: 8
+- Citation slot count: 8
+- Future query count: 24
+- Internal-only claim count: 4
+- Prohibited citation behavior count: 8
+- Readiness boundary count: 6
+- Fake citation-like pattern count: 0
+- Word count: 1430
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v3.9 plan maps the integrated manuscript to literature families and citation slots without inventing citations.
+
+It separates citation-needed background claims from internal project claims, assigns citation needs to literature families, and preserves the project's non-submission-ready status.
+
+The warning is acceptable: the report is concise, but sufficient for a planning artifact.
+
+### Theoretical Importance
+This milestone protects the manuscript from fake scholarship.
+
+It prepares the next stage of real literature search while keeping the project honest: internal validation stays internal, citation slots stay placeholders, and no source is treated as real before verification.
+
+### Book Note
+citation جعلی مثل آجر پلاستیکی در دیوار علم است؛ از دور شبیه ساختار است، از نزدیک فقط آبرو می‌برد.
+
