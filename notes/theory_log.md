@@ -3134,3 +3134,98 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone نشان می‌دهد که candidate source داشتن هنوز به معنی retained source داشتن نیست. metadata audit فقط بررسی می‌کند که رکوردهای candidate از نظر title، authors، venue یا repository، year یا access date، access route، source type، claim mapping، inclusion rationale، و exclusion risk به اندازه‌ی کافی structured هستند یا نه. حتی metadata pass هم citation readiness نیست. retention باید در milestone جداگانه تصمیم‌گیری شود.
 
+## Experiment 63: First Retained Source Decision Plan
+
+### Question
+آیا Viruse Fabric می‌تواند اولین retained-source decision plan را بعد از candidate metadata audit بسازد، در حالی که retention execution، retained sources، citations، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 63 generated a first retained source decision plan artifact at:
+
+outputs/first_retained_source_decision_plan_v6_3.md
+
+The experiment produced:
+
+- Source artifact count: 13
+- Missing source artifact count: 0
+- Retained source decision plan count: 1
+- Candidate source count: 3
+- Metadata audit pass count: 2
+- Metadata audit conditional pass count: 1
+- Planned retention candidate count: 2
+- Conditional hold count: 1
+- Retention decision execution count: 0
+- Retained source count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Retention criteria count: 14
+- Retention decision value count: 4
+- Retention plan gate count: 12
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1407
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.3 artifact plans future retained-source decisions for two metadata-pass candidate sources while keeping retention execution, retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- retained source decision plan count: 1
+- candidate source count: 3
+- metadata audit pass count: 2
+- metadata audit conditional pass count: 1
+- planned retention candidate count: 2
+- conditional hold count: 1
+- retention decision execution count: 0
+- retained source count: 0
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Retained source decision plan creates no retained sources.
+- Retention planning does not add citations, evidence rows, or manuscript revisions.
+
+### Retention Planning Decisions
+Experiment 63 plans future retention decision handling as follows:
+
+- CAND-0001: eligible_for_retention_decision_later
+- CAND-0002: eligible_for_retention_decision_later
+- CAND-0003: hold_for_update_before_retention_decision
+
+No retained source is created in this milestone.
+
+### Theoretical Importance
+This milestone creates the first retained-source decision planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- two planned retention candidates
+- one conditional hold
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone retained-source decision را فقط plan می‌کند. دو candidate با metadata pass برای تصمیم retention آینده eligible می‌شوند، اما هنوز retained نیستند. یک candidate با conditional metadata pass روی hold می‌ماند تا metadata uncertainty آن قبل از retention decision حل شود. این milestone به‌عمد retention execution را صفر نگه می‌دارد تا برنامه‌ریزی با اجرای تصمیم اشتباه گرفته نشود.
+
