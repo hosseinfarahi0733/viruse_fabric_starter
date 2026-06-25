@@ -1379,3 +1379,46 @@ It also prepares the manuscript for the next stage: formal notation.
 
 ### Book Note
 قید یعنی آنچه مسیرهای ممکن را شکل می‌دهد؛ نه اراده، نه دستور، نه قصد. همین تمایز ساده جلوی مقدار زیادی آشفتگی باشکوه انسانی را می‌گیرد.
+
+## Experiment 35: Formal Notation Scaffold
+
+### Question
+آیا Viruse Fabric می‌تواند یک زبان نمادین محتاط داشته باشد، بدون اینکه وانمود کند به proof کامل رسیده است؟
+
+### Result
+Experiment 35 generated a formal notation scaffold at:
+
+outputs/formal_notation_scaffold_v3_5.md
+
+The experiment produced:
+
+- Notation count: 12
+- Relation count: 9
+- Definition count: 9
+- Boundary count: 7
+- Example count: 4
+- Word count: 1375
+- Errors: 0
+- Warnings: 3
+- Passed: True
+
+### Interpretation
+The formal notation scaffold gives Viruse Fabric a cautious symbolic vocabulary.
+
+It defines the fabric as:
+
+F = (C, P, A, O)
+
+where C is the constraint set, P is the path space, A is the constructive attractor set, and O is observer projection.
+
+The scaffold also introduces notation for compatibility, attractor concentration, apparent intentionality, false intentionality, and correction.
+
+### Theoretical Importance
+This milestone turns the manuscript’s conceptual language into a first symbolic structure.
+
+It does not prove the theory, but it makes the commitments explicit enough to be criticized, refined, and later formalized.
+
+This protects the manuscript from vague language while also preventing false mathematical overconfidence.
+
+### Book Note
+نماد وقتی ارزش دارد که ابهام را روشن کند، نه اینکه برای ابهام لباس رسمی بدوزد.
