@@ -1504,3 +1504,46 @@ It also preserves the central status: research prototype with internal validatio
 ### Book Note
 یک نظریه وقتی جدی‌تر می‌شود که قطعاتش فقط کنار هم نباشند؛ باید در یک بدن واحد نفس بکشد، بدون اینکه ادعای بیشتر از شواهدش کند.
 
+## Experiment 38: Integrated Manuscript Quality Audit
+
+### Question
+آیا draft یکپارچه v3.7 بعد از ادغام positioning، formal notation، validation mapping و research boundaries هنوز کیفیت، احتیاط و انسجام داخلی خود را حفظ می‌کند؟
+
+### Result
+Experiment 38 generated an integrated manuscript quality audit at:
+
+outputs/integrated_manuscript_quality_audit_v3_8.md
+
+The experiment produced:
+
+- Source manuscript: outputs/integrated_manuscript_draft_v3_7.md
+- Section count: 20
+- Word count: 2511
+- Boundary phrase count: 6
+- Formal notation integration count: 14
+- Related-work positioning count: 9
+- Validation mapping count: 8
+- Validation table present: True
+- Overclaim count: 0
+- Possible fake citation count: 0
+- Submission-ready claim count: 0
+- Recommendation count: 6
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v3.8 audit confirms that the integrated manuscript preserves cautious internal-validation language while combining the manuscript base, related-work positioning, formal notation, validation mapping, and explicit research boundaries.
+
+The warning is acceptable: boundary coverage is sufficient, but should remain visible during later edits.
+
+The audit found no overclaiming, no fake citation pattern, and no submission-ready claim.
+
+### Theoretical Importance
+This milestone protects the integrated manuscript from inflation.
+
+It checks that the project remains a research prototype with internal validation rather than drifting into unsupported claims, invented citations, or premature submission language.
+
+### Book Note
+یک manuscript خوب فقط متن بیشتر نیست؛ متن باید بلد باشد کجا مکث کند، کجا ادعا نکند، و کجا هنوز شواهد کافی ندارد.
+
