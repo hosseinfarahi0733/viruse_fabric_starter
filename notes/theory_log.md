@@ -3705,3 +3705,123 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone دو evidence matrix row ساخته‌شده در v6.7 را audit می‌کند. EMR-0001 و EMR-0002 هر دو row pass می‌گیرند، اما citation نمی‌شوند و manuscript را تغییر نمی‌دهند. بنابراین evidence matrix اکنون populated و audited است، ولی citation integration و manuscript revision هنوز اجرا نشده‌اند. CAND-0003 همچنان conditional hold باقی می‌ماند.
 
+## Experiment 69: First Citation Integration Plan
+
+### Question
+آیا Viruse Fabric می‌تواند اولین citation integration plan را از روی audited evidence rows بسازد، در حالی که citation execution، citation added، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 69 generated a first citation integration plan artifact at:
+
+outputs/first_citation_integration_plan_v6_9.md
+
+The experiment produced:
+
+- Source artifact count: 19
+- Missing source artifact count: 0
+- Citation integration plan count: 1
+- Audited evidence row count: 2
+- Planned citation slot count: 2
+- Citation integration execution count: 0
+- Citation added count: 0
+- Manuscript revised count: 0
+- Conditional hold count: 1
+- Citation plan field count: 12
+- Citation plan action value count: 4
+- Citation plan gate count: 15
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1300
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.9 artifact plans future citation integration for two audited evidence rows while keeping citation execution, added citations, and manuscript revision at zero.
+
+It confirms:
+
+- citation integration plan count: 1
+- audited evidence row count: 2
+- planned citation slot count: 2
+- citation integration execution count: 0
+- citation added count: 0
+- manuscript revised count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Citation integration is planned, but no citations are added.
+- Citation planning does not revise the manuscript.
+
+### Planned Citation Slots
+Experiment 69 plans two future citation slots:
+
+- CIT-PLAN-0001 from EMR-0001 and RET-0001
+- CIT-PLAN-0002 from EMR-0002 and RET-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Claim Boundary Toward v7.5
+This milestone moves the project closer to bounded citation-grounded claims, but it does not authorize strong claims.
+
+Allowed direction after later milestones:
+
+- internally staged
+- source-retained
+- evidence-mapped
+- evidence-row-audited
+- citation-planned
+- later citation-grounded if citation execution and citation audit pass
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+
+### Theoretical Importance
+This milestone creates the first citation integration planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one conditional hold
+- zero citation execution
+- zero added citations
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار citation integration را plan می‌کند. CIT-PLAN-0001 و CIT-PLAN-0002 از روی audited evidence rows ساخته می‌شوند، اما هنوز citation واقعی اضافه نمی‌شود و manuscript revision انجام نمی‌شود. از این مرحله به بعد پروژه به claimهای محدود و citation-grounded نزدیک‌تر می‌شود، اما هنوز external validation، proof، یا submission-readiness قابل ادعا نیست.
+
