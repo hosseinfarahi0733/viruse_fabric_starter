@@ -3606,3 +3606,102 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار evidence matrix را واقعاً populate می‌کند. EMR-0001 و EMR-0002 از روی retained sourceهای role-audited ساخته می‌شوند. با این حال citation هنوز صفر است و manuscript revision هنوز صفر است. یعنی evidence organization انجام شده، اما citation integration و manuscript support هنوز اجرا نشده‌اند. CAND-0003 نیز همچنان conditional hold باقی می‌ماند.
 
+## Experiment 68: First Evidence Matrix Row Audit
+
+### Question
+آیا Viruse Fabric می‌تواند دو evidence matrix row ساخته‌شده در v6.7 را audit کند، در حالی که citation و manuscript revision صفر بمانند؟
+
+### Result
+Experiment 68 generated a first evidence matrix row audit artifact at:
+
+outputs/first_evidence_matrix_row_audit_v6_8.md
+
+The experiment produced:
+
+- Source artifact count: 18
+- Missing source artifact count: 0
+- Evidence matrix row audit count: 1
+- Evidence matrix row count: 2
+- Evidence matrix row audited count: 2
+- Evidence row audit pass count: 2
+- Evidence row audit conditional count: 0
+- Evidence row audit fail count: 0
+- Conditional hold count: 1
+- Citation added count: 0
+- Manuscript revised count: 0
+- Row audit field count: 14
+- Row audit decision value count: 4
+- Row audit gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1251
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.8 artifact audits two populated evidence matrix rows while keeping citations and manuscript revision at zero.
+
+It confirms:
+
+- evidence matrix row audit count: 1
+- evidence matrix row count: 2
+- evidence matrix row audited count: 2
+- evidence row audit pass count: 2
+- evidence row audit conditional count: 0
+- evidence row audit fail count: 0
+- conditional hold count: 1
+- citation added count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Evidence matrix rows are audited, but no citations are added.
+- Evidence row audit does not revise the manuscript.
+
+### Evidence Row Audit Results
+Experiment 68 audits the first two populated evidence matrix rows:
+
+- EMR-0001: row_pass_not_cited
+- EMR-0002: row_pass_not_cited
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Theoretical Importance
+This milestone creates the first evidence matrix row audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one conditional hold
+- zero citations
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone دو evidence matrix row ساخته‌شده در v6.7 را audit می‌کند. EMR-0001 و EMR-0002 هر دو row pass می‌گیرند، اما citation نمی‌شوند و manuscript را تغییر نمی‌دهند. بنابراین evidence matrix اکنون populated و audited است، ولی citation integration و manuscript revision هنوز اجرا نشده‌اند. CAND-0003 همچنان conditional hold باقی می‌ماند.
+
