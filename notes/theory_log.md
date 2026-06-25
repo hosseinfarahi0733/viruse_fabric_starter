@@ -1340,3 +1340,42 @@ This reduces the risk that the manuscript turns validation results into unsuppor
 
 ### Book Note
 متنی که ادعایش را مهار نکند، علم نیست؛ تبلیغات با پاورقی است. این audit افسار متن را کشید و متن هنوز ایستاد.
+
+## Experiment 34: Related Work and Positioning Scaffold
+
+### Question
+آیا manuscript می‌تواند Viruse Fabric را نسبت به خانواده‌های مفهومی نزدیک جای‌گذاری کند و هم‌زمان مفهوم constraint را روشن‌تر توضیح دهد؟
+
+### Result
+Experiment 34 generated a related work and positioning scaffold at:
+
+outputs/related_work_positioning_v3_4.md
+
+The experiment produced:
+
+- Family count: 7
+- Distinction count: 7
+- Glossary count: 6
+- Boundary count: 6
+- Recommendation count: 6
+- Word count: 1293
+- Errors: 0
+- Warnings: 2
+- Passed: True
+
+### Interpretation
+The scaffold positions Viruse Fabric against neighboring conceptual families including causal-chain models, network causality, dynamical systems, constraint-based explanation, observer-dependent interpretation, teleology, and validation frameworks.
+
+It clarifies that a constraint is any abstract condition, pressure, relation, or filter that shapes the space of possible paths.
+
+It also explains apparent intentionality as the appearance of purpose produced by constraint-shaped paths and observer projection, without requiring actual intention.
+
+### Theoretical Importance
+This milestone makes the manuscript easier to read and harder to misinterpret.
+
+It prevents the theory from sounding like a vague claim about purpose by grounding the word constraint in plain language.
+
+It also prepares the manuscript for the next stage: formal notation.
+
+### Book Note
+قید یعنی آنچه مسیرهای ممکن را شکل می‌دهد؛ نه اراده، نه دستور، نه قصد. همین تمایز ساده جلوی مقدار زیادی آشفتگی باشکوه انسانی را می‌گیرد.
