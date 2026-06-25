@@ -2444,3 +2444,84 @@ The project remains a research prototype with internal validation.
 ### Book Note
 اولین search واقعی نباید مثل پرتاب تور ماهیگیری در اقیانوس باشد. v5.4 family، query، criteria، و gateها را قبل از search مشخص می‌کند. این یعنی اگر بعداً source وارد شد، می‌دانیم از کجا آمده، چرا آمده، و چه کاری اجازه دارد انجام دهد.
 
+## Experiment 55: First Search Run Artifact
+
+### Question
+آیا Viruse Fabric می‌تواند یک first-search run shell کنترل‌شده بسازد، بدون اینکه live search اجرا کند، source اضافه کند، citation اضافه کند، evidence matrix را populate کند، manuscript را revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 55 generated a first search run artifact at:
+
+outputs/first_search_run_artifact_v5_5.md
+
+The experiment produced:
+
+- Source artifact count: 6
+- Missing source artifact count: 0
+- Run shell count: 1
+- Executed search count: 0
+- Run shell field count: 19
+- Pending field count: 9
+- Execution gate count: 12
+- Inclusion link count: 8
+- Exclusion link count: 8
+- Audit check count: 11
+- Boundary phrase count: 14
+- Prohibited behavior count: 11
+- Next step count: 8
+- Search run count: 0
+- Candidate source count: 0
+- Retained source count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1240
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.5 artifact instantiates one controlled first-search run shell without executing live search, adding sources, adding citations, populating the evidence matrix, or revising the manuscript.
+
+It creates one run shell.
+
+It does not execute live search.
+
+It does not add sources.
+
+It does not add citations.
+
+It does not populate the evidence matrix.
+
+It does not revise the manuscript.
+
+The warnings are acceptable:
+
+- Artifact creates a search-run shell only; no live search is executed.
+- Artifact does not add sources, citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone creates the first controlled search-run object before real search execution.
+
+Viruse Fabric now has:
+
+- a selected first search run shell
+- planned query identity
+- planned venue
+- linked literature family
+- linked claim category
+- pending execution fields
+- zero candidate sources
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+search-run shell یعنی لحظه‌ی قبل از ورود شواهد. این artifact اجازه می‌دهد اولین جست‌وجوی واقعی بعداً با diff مشخص، fieldهای pending، و countهای کنترل‌شده وارد شود. بدون این مرحله، search واقعی می‌تواند مثل یک مهمان بی‌دعوت وارد manuscript شود و همه وانمود کنند از اول دعوت بوده است.
+
