@@ -1422,3 +1422,43 @@ This protects the manuscript from vague language while also preventing false mat
 
 ### Book Note
 نماد وقتی ارزش دارد که ابهام را روشن کند، نه اینکه برای ابهام لباس رسمی بدوزد.
+
+## Experiment 36: Manuscript Integration Plan
+
+### Question
+آیا مسیر بازنویسی manuscript می‌تواند related work و formal notation را وارد متن کند و هم‌زمان به warningهای audit پاسخ دهد؟
+
+### Result
+Experiment 36 generated a manuscript integration plan at:
+
+outputs/manuscript_integration_plan_v3_6.md
+
+The experiment produced:
+
+- Source artifact count: 4
+- Missing source artifact count: 0
+- Integration step count: 11
+- Warning action count: 3
+- Boundary count: 8
+- Next action count: 6
+- Word count: 1301
+- Errors: 0
+- Warnings: 3
+- Passed: True
+
+### Interpretation
+The manuscript integration plan maps the v3.4 positioning scaffold and v3.5 formal notation scaffold onto the v3.2 full manuscript draft.
+
+It responds to the v3.3 audit warnings by assigning concrete manuscript actions for related work, formal notation, and submission readiness.
+
+The plan does not produce the integrated manuscript yet; it defines the controlled revision path.
+
+### Theoretical Importance
+This milestone prevents the manuscript from becoming a stitched-together collection of artifacts.
+
+It defines where conceptual positioning, constraint clarification, symbolic notation, validation mapping, and boundary language should enter the manuscript.
+
+It prepares the project for an integrated manuscript revision while preserving the status: research prototype with internal validation.
+
+### Book Note
+متن جدی فقط با افزودن قطعات بهتر نمی‌شود؛ باید دانست هر قطعه کجا بنشیند، وگرنه ساختار تبدیل می‌شود به هیولای مرتب‌نمای دانشگاهی.
