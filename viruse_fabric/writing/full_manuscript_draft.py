@@ -329,7 +329,9 @@ This project is the product of a particular collaboration: computational structu
 
 ## Research Boundary
 
-This manuscript draft is conceptual and non-operational. It does not use real pathogens, real hosts, biological protocols, laboratory procedures, or executable interventions. The project must remain framed as a research prototype with internal validation until external validation and serious peer critique are completed.
+This manuscript draft is conceptual and non-operational. It does not use real pathogens, real hosts, biological protocols, laboratory procedures, or executable interventions. The project is not externally validated. It does not support operational intervention. The project must remain framed as a research prototype with internal validation until external validation and serious peer critique are completed.
+
+Boundary checklist: This draft does not support strong public claims. It remains a research prototype with internal validation and is not externally validated.
 
 ## Conclusion
 
