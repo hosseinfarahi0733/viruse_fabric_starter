@@ -3958,3 +3958,142 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار citation integration را اجرا می‌کند و دو verified citation record می‌سازد. CIT-REC-0001 و CIT-REC-0002 وارد workflow می‌شوند، اما manuscript citation marker هنوز صفر است و manuscript revision انجام نمی‌شود. بنابراین پروژه اکنون citation records دارد، اما هنوز citation-grounded manuscript revision ندارد. CAND-0003 همچنان conditional hold باقی می‌ماند.
 
+## Experiment 71: First Citation Record Audit
+
+### Question
+آیا Viruse Fabric می‌تواند دو verified citation record ساخته‌شده در v7.0 را audit کند، در حالی که new citation additions، manuscript citation markers، و manuscript revision صفر بمانند؟
+
+### Result
+Experiment 71 generated a first citation record audit artifact at:
+
+outputs/first_citation_record_audit_v7_1.md
+
+The experiment produced:
+
+- Source artifact count: 21
+- Missing source artifact count: 0
+- Citation record audit count: 1
+- Citation record count: 2
+- Citation record audited count: 2
+- Citation record audit pass count: 2
+- Citation record audit conditional count: 0
+- Citation record audit fail count: 0
+- New citation added count: 0
+- Manuscript citation marker count: 0
+- Manuscript revised count: 0
+- Conditional hold count: 1
+- Citation record audit field count: 24
+- Citation record audit decision value count: 4
+- Citation record audit gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1508
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.1 artifact audits two verified citation records while keeping new citation additions, manuscript citation markers, and manuscript revision at zero.
+
+It confirms:
+
+- citation record audit count: 1
+- citation record count: 2
+- citation record audited count: 2
+- citation record audit pass count: 2
+- citation record audit conditional count: 0
+- citation record audit fail count: 0
+- new citation added count: 0
+- manuscript citation marker count: 0
+- manuscript revised count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Citation records are audited, but no new citations are added.
+- Citation record audit does not insert manuscript markers or revise the manuscript.
+
+### Citation Record Audit Results
+Experiment 71 audits two citation records:
+
+- CIT-REC-0001: citation_record_pass_not_manuscript_marker
+- CIT-REC-0002: citation_record_pass_not_manuscript_marker
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Source Metadata Boundary
+The audit confirms that both citation records preserve required metadata fields, stable source routes, and linkage boundaries.
+
+The citation records remain internal workflow records. They are not manuscript prose, not manuscript citation markers, not manuscript revision, and not external validation.
+
+### Claim Boundary Toward v7.5
+This milestone permits a slightly stronger internal claim than v7.0.
+
+Allowed after v7.1:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation-planned workflow
+- first verified citation records added
+- first citation records audited
+- manuscript still unrevised
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first citation record audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one conditional hold
+- zero new citations
+- zero manuscript citation markers
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone دو citation record ساخته‌شده در v7.0 را audit می‌کند. CIT-REC-0001 و CIT-REC-0002 هر دو audit pass می‌گیرند، اما citation جدید اضافه نمی‌شود، manuscript citation marker همچنان صفر است، و manuscript revision انجام نمی‌شود. بنابراین پروژه اکنون citation records added و audited دارد، اما هنوز citation-grounded manuscript revision ندارد.
+
