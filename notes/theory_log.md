@@ -1714,3 +1714,51 @@ It makes the project easier to introduce while keeping the central status unchan
 ### Book Note
 خلاصه‌کردن یک نظریه مثل فشرده‌کردن فنر است؛ اگر مرزهای احتیاط را حذف کنی، متن از کنترل خارج می‌شود و با اعتمادبه‌نفس بی‌جا به صورتت برمی‌گردد.
 
+## Experiment 43: One-Page Public Preview Audit
+
+### Question
+آیا نسخه فشرده one-page public preview v4.2 همچنان compact، bounded، citation-safe و بدون overclaim باقی مانده است؟
+
+### Result
+Experiment 43 generated a one-page public preview audit at:
+
+outputs/one_page_public_preview_audit_v4_3.md
+
+The experiment produced:
+
+- Source preview exists: True
+- Full public preview exists: True
+- Public preview quality audit exists: True
+- Section count: 9
+- Word count: 669
+- Required section count: 9
+- Missing required section count: 0
+- Boundary phrase count: 11
+- Core term coverage count: 9
+- Limitation language count: 32
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Compactness status: compact
+- One-page readiness score: 95
+- Recommendation count: 6
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v4.3 audit confirms that the compressed v4.2 one-page public preview retains required sections, boundaries, limitation language, citation safety, and anti-overclaim controls.
+
+It supports cautious public-facing orientation, not external validation or submission readiness.
+
+The warning is acceptable: any visual or shorter version must be re-audited before broad public use.
+
+### Theoretical Importance
+This milestone closes the public-safe compression loop.
+
+Viruse Fabric now has a full public technical preview, a public-preview audit, a one-page public preview, and an audit of that one-page version.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+نسخه کوتاه وقتی ارزش دارد که فقط کوتاه نشده باشد؛ باید هنوز مرز، احتیاط و صداقت علمی را با خودش حمل کند، وگرنه فقط یک شعار خوش‌فرم است.
+
