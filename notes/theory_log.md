@@ -2605,3 +2605,84 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این audit مثل مهر سربی روی درِ اتاق شواهد است: هنوز باز نشده، چیزی وارد نشده، و کسی حق ندارد پوسته‌ی search را به‌عنوان literature grounding معرفی کند. اگر milestone بعدی search واقعی را اجرا کند، باید دقیقاً معلوم باشد چه fieldهایی تغییر کرده‌اند: search date، searcher، raw result count، screened result count، و فقط بعد از آن candidate sourceها.
 
+## Experiment 57: First Controlled Live Search Execution
+
+### Question
+آیا Viruse Fabric می‌تواند اولین controlled live search execution را ثبت کند، در حالی که raw results را از candidate sources، retained sources، citations، evidence matrix population، و manuscript revision جدا نگه دارد؟
+
+### Result
+Experiment 57 generated a first controlled live search execution artifact at:
+
+outputs/first_controlled_live_search_execution_v5_7.md
+
+The experiment produced:
+
+- Source artifact count: 7
+- Missing source artifact count: 0
+- Executed search count: 1
+- Executed query count: 3
+- Raw result count: 23
+- Raw result observation count: 5
+- Screened result count: 0
+- Candidate source count: 0
+- Retained source count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Execution field count: 15
+- Execution gate count: 12
+- Raw result boundary count: 10
+- Boundary phrase count: 15
+- Prohibited behavior count: 10
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1365
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.7 artifact records one controlled live search execution with raw results observed, while keeping screened results, candidate sources, retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- one executed search
+- three executed query strings
+- twenty-three raw results observed
+- five raw result observations recorded
+- zero screened results
+- zero candidate sources
+- zero retained sources
+- zero sources added
+- zero citations added
+- zero evidence matrix population
+- zero manuscript revision
+- zero overclaim
+- zero fake citation-like pattern
+
+The warnings are acceptable:
+
+- Execution records raw search results only; no candidate sources are created.
+- Execution does not add citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone is the first controlled contact between Viruse Fabric and live external literature search.
+
+It changes the project state from planned search shell to executed raw search event, while preserving the evidence boundary.
+
+Raw results are not candidate sources.
+
+Candidate sources are not retained sources.
+
+Retained sources are not citations.
+
+Citations are not external validation.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone اولین نقطه‌ی تماس واقعی با بیرون است، اما هنوز evidence نیست. فقط یک retrieval event ثبت شده است. قدم بعدی باید screening باشد، نه citation. اگر پروژه همین‌جا raw result را به citation تبدیل کند، کل citation-grounded workflow تبدیل می‌شود به یک نمایش کاغذی با کفش‌های براق و ستون فقرات ژله‌ای.
+
