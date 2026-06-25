@@ -1462,3 +1462,45 @@ It prepares the project for an integrated manuscript revision while preserving t
 
 ### Book Note
 متن جدی فقط با افزودن قطعات بهتر نمی‌شود؛ باید دانست هر قطعه کجا بنشیند، وگرنه ساختار تبدیل می‌شود به هیولای مرتب‌نمای دانشگاهی.
+
+## Experiment 37: Integrated Manuscript Draft
+
+### Question
+آیا manuscript می‌تواند positioning، formal notation، validation mapping، و research boundaries را در یک draft یکپارچه جمع کند؟
+
+### Result
+Experiment 37 generated an integrated manuscript draft at:
+
+outputs/integrated_manuscript_draft_v3_7.md
+
+The experiment produced:
+
+- Source artifact count: 5
+- Missing source artifact count: 0
+- Section count: 20
+- Related family count: 7
+- Notation count: 13
+- Validation row count: 8
+- Boundary count: 8
+- Word count: 2634
+- Errors: 0
+- Warnings: 3
+- Passed: True
+
+### Interpretation
+The integrated manuscript draft combines the v3.2 manuscript base with the v3.4 positioning scaffold, the v3.5 formal notation scaffold, and the v3.6 integration plan.
+
+It adds related-work positioning, plain-language constraint clarification, symbolic notation, validation mapping, compact validation results, and explicit research boundaries.
+
+The draft remains a cautious technical-review artifact, not a final paper and not a submission-ready manuscript.
+
+### Theoretical Importance
+This is the first manuscript artifact where the project’s conceptual thesis, validation history, positioning, notation, and boundaries appear together in one body.
+
+It moves Viruse Fabric from manuscript planning to an integrated manuscript form.
+
+It also preserves the central status: research prototype with internal validation.
+
+### Book Note
+یک نظریه وقتی جدی‌تر می‌شود که قطعاتش فقط کنار هم نباشند؛ باید در یک بدن واحد نفس بکشد، بدون اینکه ادعای بیشتر از شواهدش کند.
+
