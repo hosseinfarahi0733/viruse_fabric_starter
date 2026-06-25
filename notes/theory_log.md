@@ -1673,3 +1673,44 @@ It confirms that the project can be explained publicly without claiming external
 ### Book Note
 وقتی متن عمومی کوتاه می‌شود، معمولاً اول مرزهای احتیاط حذف می‌شوند؛ یعنی دقیقاً همان چیزهایی که مانع تبدیل علم به بروشور تبلیغاتی می‌شوند.
 
+## Experiment 42: One-Page Public Preview
+
+### Question
+آیا Viruse Fabric می‌تواند یک نسخه one-page public preview بسازد که کوتاه، قابل معرفی، bounded، بدون overclaim و بدون citation جعلی باشد؟
+
+### Result
+Experiment 42 generated a one-page public preview at:
+
+outputs/one_page_public_preview_v4_2.md
+
+The experiment produced:
+
+- Source preview exists: True
+- Source audit exists: True
+- Section count: 9
+- Word count: 669
+- Boundary phrase count: 10
+- Required section count: 9
+- Missing required section count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Limitation language count: 25
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v4.2 artifact compresses the v4.0 public technical preview into a one-page public-safe version.
+
+It preserves the project's internal-validation status, limitation language, citation safety, and anti-overclaim boundaries.
+
+The warning is acceptable: this shortened artifact must be audited before broad public use.
+
+### Theoretical Importance
+This milestone creates a compact public-facing version of Viruse Fabric without sacrificing the scientific boundaries that protect the project from inflation.
+
+It makes the project easier to introduce while keeping the central status unchanged: research prototype with internal validation.
+
+### Book Note
+خلاصه‌کردن یک نظریه مثل فشرده‌کردن فنر است؛ اگر مرزهای احتیاط را حذف کنی، متن از کنترل خارج می‌شود و با اعتمادبه‌نفس بی‌جا به صورتت برمی‌گردد.
+
