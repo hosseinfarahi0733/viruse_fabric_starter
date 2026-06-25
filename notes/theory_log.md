@@ -1296,3 +1296,47 @@ This marks the transition from validated prototype to manuscript development.
 
 ### Book Note
 هوش و اراده وقتی درست ترکیب شوند، فقط ایده تولید نمی‌کنند؛ متن، ساختار، مرز، و چیزی قابل دفاع می‌سازند.
+
+## Experiment 33: Manuscript Quality Audit
+
+### Question
+آیا full manuscript draft شواهد validation، مرزهای ادعا، و احتیاط پژوهشی را حفظ کرده است؟
+
+### Result
+Experiment 33 generated a manuscript quality audit report at:
+
+outputs/manuscript_quality_audit_v3_3.md
+
+The experiment produced:
+
+- Section count: 15
+- Word count: 2571
+- Required section count: 15
+- Missing required section count: 0
+- Boundary phrase count: 12
+- Missing boundary phrase count: 0
+- Validation metric count: 12
+- Overclaim count: 0
+- Weak phrase count: 0
+- Recommendation count: 6
+- Finding count: 3
+- Errors: 0
+- Warnings: 3
+- Passed: True
+
+### Interpretation
+The manuscript quality audit confirmed that the v3.2 draft preserves validation evidence and claim boundaries.
+
+The audit found no unsupported overclaims and no hype phrases.
+
+It produced recommendations for related work, formal notation, and submission readiness.
+
+### Theoretical Importance
+This is the first manuscript-level quality gate.
+
+The project now has not only a full draft, but also an internal audit showing that the draft remains cautious and boundary-aware.
+
+This reduces the risk that the manuscript turns validation results into unsupported public claims.
+
+### Book Note
+متنی که ادعایش را مهار نکند، علم نیست؛ تبلیغات با پاورقی است. این audit افسار متن را کشید و متن هنوز ایستاد.
