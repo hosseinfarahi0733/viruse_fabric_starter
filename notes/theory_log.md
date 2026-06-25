@@ -1965,3 +1965,61 @@ The project remains a research prototype with internal validation.
 ### Book Note
 ادبیات پژوهش جایی نیست که بعد از نوشتن نظریه، چند نام براق روی متن بپاشیم و وانمود کنیم ساختمان علمی ساخته شده است. v4.7 جلوی همین شعبده را می‌گیرد: اول پروتکل، بعد جست‌وجوی واقعی، بعد citation واقعی.
 
+## Experiment 48: Literature Family Evidence Matrix
+
+### Question
+آیا Viruse Fabric می‌تواند برای منابع واقعی آینده یک evidence matrix خالی بسازد، بدون اینکه citation اختراعی وارد کند، source rowها را زودتر از جست‌وجوی واقعی پر کند، overclaim بسازد، یا boundaryهای پروژه را ضعیف کند؟
+
+### Result
+Experiment 48 generated a literature family evidence matrix at:
+
+outputs/literature_family_evidence_matrix_v4_8.md
+
+The experiment produced:
+
+- Source protocol exists: True
+- Literature family count: 8
+- Claim category count: 8
+- Matrix row count: 64
+- Source status count: 5
+- Source role count: 6
+- Decision value count: 4
+- Evidence field count: 12
+- Boundary phrase count: 11
+- Matrix rule count: 10
+- Next step count: 8
+- Prohibited behavior count: 10
+- Populated source count: 0
+- Invented source count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 3069
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v4.8 matrix creates an empty evidence structure that maps literature families to claim categories while preserving citation integrity, boundary language, and the internal-validation status.
+
+It does not add citations.
+
+It does not add real sources.
+
+It does not invent sources.
+
+The warnings are acceptable:
+
+- Matrix contains no real sources; real literature search must happen later.
+- Any populated source rows must be audited before manuscript citation use.
+
+### Theoretical Importance
+This milestone creates the bridge between the literature search protocol and future citation-grounded manuscript revision.
+
+Viruse Fabric now has a 64-row matrix that can receive real sources later, while preserving role, decision, claim mapping, and boundary discipline.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+یک ماتریس خالی اگر درست ساخته شود، از یک bibliography پر از منابع تزئینی ارزشمندتر است. v4.8 همین اصل ساده و کمی تحقیرآمیز را رسمی می‌کند: اول ساختار صداقت، بعد منبع واقعی.
+
