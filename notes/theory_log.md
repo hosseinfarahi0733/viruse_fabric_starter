@@ -3042,3 +3042,95 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone اولین candidate source entries واقعی را می‌سازد، اما آن‌ها را evidence یا citation نمی‌کند. candidate source یعنی رکورد قابل audit، نه منبع پذیرفته‌شده. source تا وقتی retain نشده باشد، وارد evidence matrix نمی‌شود؛ تا وقتی evidence matrix و retention audit انجام نشده باشد، citation نمی‌شود؛ و تا وقتی citation-grounded integration انجام نشده باشد، manuscript را تغییر نمی‌دهد. این مرز برای جلوگیری از تبدیل metadata اولیه به اقتدار علمی ضروری است.
 
+## Experiment 62: Candidate Source Metadata Audit
+
+### Question
+آیا Viruse Fabric می‌تواند metadata سه candidate source entry را audit کند، در حالی که retained sources، citations، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 62 generated a candidate source metadata audit artifact at:
+
+outputs/candidate_source_metadata_audit_v6_2.md
+
+The experiment produced:
+
+- Source artifact count: 12
+- Missing source artifact count: 0
+- Candidate metadata audit count: 1
+- Candidate source count: 3
+- Candidate source audited count: 3
+- Metadata audit pass count: 2
+- Metadata audit conditional pass count: 1
+- Metadata audit fail count: 0
+- Retained source count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Audit field check count: 16
+- Audit decision value count: 4
+- Retention gate not executed count: 10
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 10
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1397
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.2 artifact audits metadata for three candidate source entries while keeping retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- candidate metadata audit count: 1
+- candidate source count: 3
+- candidate source audited count: 3
+- metadata audit pass count: 2
+- metadata audit conditional pass count: 1
+- metadata audit fail count: 0
+- retained source count: 0
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Candidate metadata is audited, but no sources are retained.
+- Metadata audit does not add citations, evidence rows, or manuscript revisions.
+
+### Audit Decisions
+Experiment 62 audits the three candidate source entries created in v6.1:
+
+- CAND-0001: metadata_pass_not_retained
+- CAND-0002: metadata_pass_not_retained
+- CAND-0003: metadata_conditional_pass_not_retained
+
+No candidate source is retained in this milestone.
+
+### Theoretical Importance
+This milestone creates the first metadata audit layer for real candidate source entries.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- two metadata pass decisions
+- one conditional metadata pass decision
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone نشان می‌دهد که candidate source داشتن هنوز به معنی retained source داشتن نیست. metadata audit فقط بررسی می‌کند که رکوردهای candidate از نظر title، authors، venue یا repository، year یا access date، access route، source type، claim mapping، inclusion rationale، و exclusion risk به اندازه‌ی کافی structured هستند یا نه. حتی metadata pass هم citation readiness نیست. retention باید در milestone جداگانه تصمیم‌گیری شود.
+
