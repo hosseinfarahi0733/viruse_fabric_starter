@@ -1910,3 +1910,58 @@ The project remains a research prototype with internal validation.
 ### Book Note
 آمادگی برای معرفی عمومی یعنی خواننده بتواند بفهمد پروژه چیست، نه اینکه پروژه را چیزی بداند که هنوز نشده است. v4.6 همین مرز را رسمی می‌کند: آماده برای orientation محتاطانه، نه آماده برای submission.
 
+## Experiment 47: Literature Search Protocol
+
+### Question
+آیا Viruse Fabric می‌تواند پیش از افزودن citation، یک پروتکل واقعی برای literature search تعریف کند، بدون اینکه citation جعلی، منبع اختراعی، overclaim یا زبان submission-ready وارد پروژه شود؟
+
+### Result
+Experiment 47 generated a literature search protocol at:
+
+outputs/literature_search_protocol_v4_7.md
+
+The experiment produced:
+
+- Source artifact count: 4
+- Missing source artifact count: 0
+- Search venue count: 8
+- Literature family count: 8
+- Future query count: 32
+- Claim category count: 8
+- Inclusion criteria count: 8
+- Exclusion criteria count: 8
+- Search step count: 10
+- Boundary phrase count: 10
+- Prohibited behavior count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1448
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v4.7 protocol prepares real literature search by defining venues, literature families, future queries, claim categories, inclusion rules, exclusion rules, search-log expectations, and citation-integrity boundaries.
+
+It does not add citations.
+
+It does not claim that sources have been found.
+
+It does not replace real source search, external review, or validation.
+
+The warnings are acceptable:
+
+- Protocol creates no citations; real source search must happen later.
+- Search venues and query strings must be reviewed before live use.
+
+### Theoretical Importance
+This milestone begins the transition from public-safe internal packaging toward citation-grounded scholarship.
+
+Viruse Fabric now has a controlled protocol for moving from citation placeholders to real literature mapping without inventing references or inflating claims.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+ادبیات پژوهش جایی نیست که بعد از نوشتن نظریه، چند نام براق روی متن بپاشیم و وانمود کنیم ساختمان علمی ساخته شده است. v4.7 جلوی همین شعبده را می‌گیرد: اول پروتکل، بعد جست‌وجوی واقعی، بعد citation واقعی.
+
