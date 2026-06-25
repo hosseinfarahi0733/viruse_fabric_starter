@@ -2686,3 +2686,94 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone اولین نقطه‌ی تماس واقعی با بیرون است، اما هنوز evidence نیست. فقط یک retrieval event ثبت شده است. قدم بعدی باید screening باشد، نه citation. اگر پروژه همین‌جا raw result را به citation تبدیل کند، کل citation-grounded workflow تبدیل می‌شود به یک نمایش کاغذی با کفش‌های براق و ستون فقرات ژله‌ای.
 
+## Experiment 58: First Raw Result Screening Plan
+
+### Question
+آیا Viruse Fabric می‌تواند برای raw resultهای ثبت‌شده در v5.7 یک first raw-result screening plan بسازد، بدون اینکه screening واقعی اجرا کند، candidate source بسازد، source retain کند، citation اضافه کند، evidence matrix را populate کند، manuscript را revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 58 generated a first raw result screening plan at:
+
+outputs/first_raw_result_screening_plan_v5_8.md
+
+The experiment produced:
+
+- Source artifact count: 8
+- Missing source artifact count: 0
+- Raw result count: 23
+- Raw result observation count: 5
+- Screening plan count: 1
+- Screening execution count: 0
+- Screening field count: 12
+- Inclusion criteria count: 8
+- Exclusion criteria count: 8
+- Screening step count: 10
+- Screening recommendation value count: 5
+- Screening row count: 5
+- Screening gate count: 12
+- Screened result count: 0
+- Candidate source count: 0
+- Retained source count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Boundary phrase count: 17
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1296
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.8 artifact plans the first raw-result screening step while keeping screening execution, candidate sources, retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- raw result count: 23
+- raw result observation count: 5
+- screening plan count: 1
+- screening execution count: 0
+- screened result count: 0
+- candidate source count: 0
+- retained source count: 0
+- source added count: 0
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Screening plan does not execute screening or create candidate sources.
+- Screening plan does not add citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone creates the first controlled screening plan after live search execution.
+
+Viruse Fabric now has:
+
+- a controlled live search execution
+- raw results observed
+- raw result observations recorded
+- a screening plan for those observations
+- explicit inclusion criteria
+- explicit exclusion criteria
+- explicit screening gates
+- zero screening execution
+- zero candidate sources
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone مرز بین raw retrieval و screening را رسمی می‌کند. raw result هنوز evidence نیست. screening plan هم هنوز screening نیست. اگر مرحله‌ی بعد درست اجرا شود، هر raw observation باید با inclusion/exclusion criteria بررسی شود و فقط بعد از آن ممکن است candidate source ساخته شود. این همان نقطه‌ای است که جلوی تبدیل شدن «نتیجه‌ی جست‌وجو» به «اقتدار علمی» را می‌گیرد.
+
