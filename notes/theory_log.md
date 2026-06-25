@@ -2149,3 +2149,76 @@ The project remains a research prototype with internal validation.
 ### Book Note
 citation-grounded revision نباید با citation insertion اشتباه گرفته شود. اول باید بدانیم manuscript کجا تغییر می‌کند، کدام claim چه evidence need دارد، و کدام boundary نباید حذف شود. اگر این مرحله حذف شود، citationها فقط لباس رسمی برای ادعاهای نپخته می‌شوند.
 
+## Experiment 51: Literature Search Log Template
+
+### Question
+آیا Viruse Fabric می‌تواند برای جست‌وجوی ادبیات آینده یک search log template کنترل‌شده بسازد، بدون اینکه source اضافه کند، citation اضافه کند، evidence matrix را populate کند، manuscript را revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 51 generated a literature search log template at:
+
+outputs/literature_search_log_template_v5_1.md
+
+The experiment produced:
+
+- Source artifact count: 5
+- Missing source artifact count: 0
+- Search log field count: 17
+- Source review field count: 16
+- Claim mapping field count: 11
+- Source status value count: 6
+- Source role value count: 6
+- Decision value count: 5
+- Audit rule count: 10
+- Boundary phrase count: 13
+- Prohibited behavior count: 10
+- Next step count: 8
+- Source added count: 0
+- Citation added count: 0
+- Populated source count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1391
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.1 template defines a controlled log structure for future real literature searches without adding sources, citations, evidence rows, or manuscript revisions.
+
+It does not add sources.
+
+It does not add citations.
+
+It does not populate the evidence matrix.
+
+It does not revise the manuscript.
+
+The warnings are acceptable:
+
+- Template adds no sources or citations; real search must happen later.
+- Template does not populate the evidence matrix or revise the manuscript.
+
+### Theoretical Importance
+This milestone creates the operational bridge between the literature search protocol and future evidence matrix population.
+
+Viruse Fabric now has a controlled template for recording:
+
+- search runs
+- query strings
+- search venues
+- candidate sources
+- source status
+- source roles
+- claim links
+- decision rationale
+- audit notes
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+search log یعنی حافظه‌ی روش‌شناختی پروژه. بدون آن، sourceها از مسیرهای مبهم وارد manuscript می‌شوند و بعد همه وانمود می‌کنند که citationها همیشه همان‌جا بوده‌اند. v5.1 جلوی این شعبده‌ی کوچک اما خطرناک را می‌گیرد.
+
