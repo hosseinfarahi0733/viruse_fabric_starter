@@ -1586,3 +1586,46 @@ It prepares the next stage of real literature search while keeping the project h
 ### Book Note
 citation جعلی مثل آجر پلاستیکی در دیوار علم است؛ از دور شبیه ساختار است، از نزدیک فقط آبرو می‌برد.
 
+## Experiment 40: Public Technical Preview Package
+
+### Question
+آیا Viruse Fabric می‌تواند یک public-safe technical preview بسازد که پروژه را قابل معرفی کند، بدون overclaim، citation جعلی، یا ادعای external validation؟
+
+### Result
+Experiment 40 generated a public technical preview package at:
+
+outputs/public_technical_preview_package_v4_0.md
+
+The experiment produced:
+
+- Source artifact count: 6
+- Missing source artifact count: 0
+- Section count: 18
+- Word count: 1534
+- Boundary phrase count: 17
+- Public section count: 15
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Limitation language count: 67
+- Next-step count: 6
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v4.0 package summarizes Viruse Fabric for cautious public-facing technical review while preserving the internal-validation boundary.
+
+It presents the thesis, core concepts, validation status, manuscript status, citation status, limitations, safe public description, suggested public abstract, review checklist, and next steps.
+
+The warning is acceptable: the preview is concise and can be expanded only if a public context requires more explanation.
+
+### Theoretical Importance
+This milestone moves Viruse Fabric from internal manuscript preparation toward a controlled public technical preview.
+
+It does not make the project submission-ready. It does not add external validation. It does not convert citation placeholders into real citations.
+
+It protects the project from public-facing inflation while making the work explainable.
+
+### Book Note
+معرفی عمومی یک نظریه یعنی راه رفتن روی طناب: اگر کم بگویی فهمیده نمی‌شود، اگر زیاد بگویی تبدیل می‌شود به ادعای بی‌پشتوانه با کفش رسمی.
+
