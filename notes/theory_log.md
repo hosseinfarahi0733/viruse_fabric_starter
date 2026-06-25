@@ -2777,3 +2777,95 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone مرز بین raw retrieval و screening را رسمی می‌کند. raw result هنوز evidence نیست. screening plan هم هنوز screening نیست. اگر مرحله‌ی بعد درست اجرا شود، هر raw observation باید با inclusion/exclusion criteria بررسی شود و فقط بعد از آن ممکن است candidate source ساخته شود. این همان نقطه‌ای است که جلوی تبدیل شدن «نتیجه‌ی جست‌وجو» به «اقتدار علمی» را می‌گیرد.
 
+## Experiment 59: First Raw Result Screening Execution
+
+### Question
+آیا Viruse Fabric می‌تواند first raw-result screening را روی پنج raw observation اجرا کند، در حالی که candidate sources، retained sources، citations، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 59 generated a first raw result screening execution artifact at:
+
+outputs/first_raw_result_screening_execution_v5_9.md
+
+The experiment produced:
+
+- Source artifact count: 9
+- Missing source artifact count: 0
+- Screening execution count: 1
+- Raw result count: 23
+- Raw result observation count: 5
+- Screened result count: 5
+- Screening decision count: 5
+- Pass to candidate planning count: 3
+- Defer to candidate planning count: 2
+- Exclude from candidate planning count: 0
+- Screening decision value count: 3
+- Screening execution field count: 12
+- Inclusion check count: 8
+- Exclusion check count: 8
+- Screening gate count: 12
+- Candidate source count: 0
+- Retained source count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Boundary phrase count: 18
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1308
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.9 artifact executes first raw-result screening over five raw observations while keeping candidate sources, retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- screening execution count: 1
+- raw result observation count: 5
+- screened result count: 5
+- screening decision count: 5
+- pass to candidate planning count: 3
+- defer to candidate planning count: 2
+- exclude from candidate planning count: 0
+- candidate source count: 0
+- retained source count: 0
+- source added count: 0
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Screening execution creates decisions only; no candidate sources are created.
+- Screening execution does not add citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone creates the first interpretive filter after live search execution.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening plan
+- one raw-result screening execution
+- five screened raw observations
+- three pass-to-candidate-planning decisions
+- two defer-to-candidate-planning decisions
+- zero candidate sources
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone raw results را از مرحله‌ی «دیده شده» به مرحله‌ی «screened decision» منتقل می‌کند، اما هنوز evidence نمی‌سازد. تصمیم screening فقط می‌گوید کدام raw observation شاید در آینده ارزش candidate-source entry داشته باشد. candidate source هنوز ساخته نشده، citation هنوز اضافه نشده، و manuscript هنوز هیچ پشتیبانی تازه‌ای نگرفته است. این همان مرزی است که جلوی تبدیل شدن جست‌وجوی خام به اقتدار علمی نمایشی را می‌گیرد.
+
