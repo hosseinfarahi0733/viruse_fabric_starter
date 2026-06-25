@@ -2869,3 +2869,88 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone raw results را از مرحله‌ی «دیده شده» به مرحله‌ی «screened decision» منتقل می‌کند، اما هنوز evidence نمی‌سازد. تصمیم screening فقط می‌گوید کدام raw observation شاید در آینده ارزش candidate-source entry داشته باشد. candidate source هنوز ساخته نشده، citation هنوز اضافه نشده، و manuscript هنوز هیچ پشتیبانی تازه‌ای نگرفته است. این همان مرزی است که جلوی تبدیل شدن جست‌وجوی خام به اقتدار علمی نمایشی را می‌گیرد.
 
+## Experiment 60: First Candidate Source Entry Plan
+
+### Question
+آیا Viruse Fabric می‌تواند بعد از screening execution یک first candidate source entry plan بسازد، بدون اینکه candidate source واقعی بسازد، source retain کند، citation اضافه کند، evidence matrix را populate کند، manuscript را revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 60 generated a first candidate source entry plan at:
+
+outputs/first_candidate_source_entry_plan_v6_0.md
+
+The experiment produced:
+
+- Source artifact count: 10
+- Missing source artifact count: 0
+- Candidate entry plan count: 1
+- Planned candidate entry row count: 5
+- Pass to candidate planning count: 3
+- Defer to candidate planning count: 2
+- Candidate source count: 0
+- Retained source count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Required metadata field count: 16
+- Candidate status value count: 5
+- Proposed source role count: 6
+- Entry creation gate count: 12
+- Metadata audit requirement count: 12
+- Boundary phrase count: 18
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1200
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.0 artifact plans the first candidate source entry workflow after screening execution while keeping candidate sources, retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- candidate entry plan count: 1
+- planned candidate entry row count: 5
+- pass to candidate planning count: 3
+- defer to candidate planning count: 2
+- candidate source count: 0
+- retained source count: 0
+- source added count: 0
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Candidate source entry plan creates no candidate sources.
+- Candidate source entry plan does not add citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone creates the first candidate-source-entry planning layer after raw-result screening execution.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- five screened raw observations
+- three pass-to-candidate-planning decisions
+- two defer-to-candidate-planning decisions
+- one candidate source entry plan
+- zero candidate sources
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone فقط برنامه‌ی ورود candidate source را می‌سازد. هنوز candidate source واقعی نداریم. تفاوتش مهم است: screening decision می‌گوید کدام raw observation شاید ارزش source-entry داشته باشد؛ candidate-entry plan می‌گوید چه metadata لازم است؛ اما خود candidate source فقط وقتی ساخته می‌شود که metadata واقعی و قابل audit وارد شود. این مرز جلوی تبدیل شدن titleهای خام به bibliography تزئینی را می‌گیرد.
+
