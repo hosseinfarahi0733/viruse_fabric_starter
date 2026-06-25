@@ -2954,3 +2954,91 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone فقط برنامه‌ی ورود candidate source را می‌سازد. هنوز candidate source واقعی نداریم. تفاوتش مهم است: screening decision می‌گوید کدام raw observation شاید ارزش source-entry داشته باشد؛ candidate-entry plan می‌گوید چه metadata لازم است؛ اما خود candidate source فقط وقتی ساخته می‌شود که metadata واقعی و قابل audit وارد شود. این مرز جلوی تبدیل شدن titleهای خام به bibliography تزئینی را می‌گیرد.
 
+## Experiment 61: First Candidate Source Entry Creation
+
+### Question
+آیا Viruse Fabric می‌تواند اولین candidate source entries واقعی را از pass-to-candidate-planning decisions بسازد، در حالی که retained sources، citations، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 61 generated a first candidate source entry creation artifact at:
+
+outputs/first_candidate_source_entry_creation_v6_1.md
+
+The experiment produced:
+
+- Source artifact count: 11
+- Missing source artifact count: 0
+- Candidate entry creation count: 1
+- Candidate source count: 3
+- Deferred source count: 2
+- Retained source count: 0
+- Source added count: 3
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Candidate entry field count: 16
+- Candidate audit gate count: 14
+- Boundary phrase count: 18
+- Prohibited behavior count: 11
+- Next step count: 9
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1203
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.1 artifact creates three candidate source entries from pass-to-candidate-planning decisions while keeping retained sources, citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- candidate entry creation count: 1
+- candidate source count: 3
+- deferred source count: 2
+- retained source count: 0
+- source added count: 3
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Candidate source entries are created, but none are retained.
+- Candidate source entries do not add citations, evidence rows, or manuscript revisions.
+
+### Candidate Entries Created
+Experiment 61 creates three candidate source entries:
+
+- CAND-0001 from raw_result_observation_02
+- CAND-0002 from raw_result_observation_03
+- CAND-0003 from raw_result_observation_05
+
+The two deferred raw observations remain outside candidate source creation:
+
+- raw_result_observation_01
+- raw_result_observation_04
+
+### Theoretical Importance
+This milestone is the first point where the literature workflow contains nonzero candidate source entries.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- two deferred raw observations
+- zero retained sources
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone اولین candidate source entries واقعی را می‌سازد، اما آن‌ها را evidence یا citation نمی‌کند. candidate source یعنی رکورد قابل audit، نه منبع پذیرفته‌شده. source تا وقتی retain نشده باشد، وارد evidence matrix نمی‌شود؛ تا وقتی evidence matrix و retention audit انجام نشده باشد، citation نمی‌شود؛ و تا وقتی citation-grounded integration انجام نشده باشد، manuscript را تغییر نمی‌دهد. این مرز برای جلوگیری از تبدیل metadata اولیه به اقتدار علمی ضروری است.
+
