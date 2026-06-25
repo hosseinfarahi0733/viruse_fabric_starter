@@ -3229,3 +3229,92 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone retained-source decision را فقط plan می‌کند. دو candidate با metadata pass برای تصمیم retention آینده eligible می‌شوند، اما هنوز retained نیستند. یک candidate با conditional metadata pass روی hold می‌ماند تا metadata uncertainty آن قبل از retention decision حل شود. این milestone به‌عمد retention execution را صفر نگه می‌دارد تا برنامه‌ریزی با اجرای تصمیم اشتباه گرفته نشود.
 
+## Experiment 64: First Retained Source Decision Execution
+
+### Question
+آیا Viruse Fabric می‌تواند اولین retained-source decision execution را انجام دهد و دو retained source record بسازد، در حالی که citation، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 64 generated a first retained source decision execution artifact at:
+
+outputs/first_retained_source_decision_execution_v6_4.md
+
+The experiment produced:
+
+- Source artifact count: 14
+- Missing source artifact count: 0
+- Retention decision execution count: 1
+- Candidate source count: 3
+- Retained source count: 2
+- Conditional hold count: 1
+- Source added count: 2
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Retained source field count: 17
+- Retention execution gate count: 13
+- Boundary phrase count: 18
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1398
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.4 artifact creates two retained source records from metadata-pass candidates while keeping citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- retention decision execution count: 1
+- candidate source count: 3
+- retained source count: 2
+- conditional hold count: 1
+- source added count: 2
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Retained source records are created, but no citations are added.
+- Retention execution does not populate evidence rows or revise the manuscript.
+
+### Retained Source Records
+Experiment 64 creates the first two retained source records:
+
+- RET-0001 from CAND-0001
+- RET-0002 from CAND-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Theoretical Importance
+This milestone creates the first nonzero retained-source layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one conditional hold
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار retained source record واقعی می‌سازد. دو candidate با metadata pass به retained source تبدیل می‌شوند، اما citation نیستند و هنوز وارد evidence matrix یا manuscript نشده‌اند. CAND-0003 به دلیل conditional metadata pass همچنان روی hold می‌ماند. این milestone مرز بین retained source، citation، evidence، و manuscript support را عمداً جدا نگه می‌دارد.
+
