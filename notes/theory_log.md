@@ -2086,3 +2086,66 @@ The project remains a research prototype with internal validation.
 ### Book Note
 ادعاها قبل از citation باید رام شوند. اگر ندانیم هر claim چه نوع منبع، چه سطح استفاده، و چه مرزی لازم دارد، citation تبدیل می‌شود به آرایش صورت متن. v4.9 جلوی همین نمایش آکادمیک را می‌گیرد.
 
+## Experiment 50: Citation-Grounded Manuscript Revision Plan
+
+### Question
+آیا Viruse Fabric می‌تواند manuscript، literature search protocol، evidence matrix، و claim-to-citation readiness map را به یک برنامه‌ی کنترل‌شده برای revision آینده وصل کند، بدون اینکه source اضافه کند، citation اضافه کند، manuscript را واقعاً revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 50 generated a citation-grounded manuscript revision plan at:
+
+outputs/citation_grounded_manuscript_revision_plan_v5_0.md
+
+The experiment produced:
+
+- Source artifact count: 6
+- Missing source artifact count: 0
+- Revision target count: 8
+- Revision phase count: 8
+- Manuscript gate count: 10
+- Boundary phrase count: 12
+- Readiness statement count: 8
+- Prohibited behavior count: 10
+- Next step count: 8
+- Source added count: 0
+- Citation added count: 0
+- Manuscript revised count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1317
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.0 plan connects the literature search protocol, evidence matrix, and claim readiness map to future manuscript revision without adding sources, citations, or manuscript changes.
+
+It does not add citations.
+
+It does not add sources.
+
+It does not revise the manuscript.
+
+It does not make the manuscript submission-ready.
+
+The warnings are acceptable:
+
+- Plan adds no citations; real literature search and source mapping must happen later.
+- Plan does not revise the manuscript or make it submission-ready.
+
+### Theoretical Importance
+This milestone creates the transition from claim-level citation readiness to manuscript-level revision planning.
+
+Viruse Fabric now has a controlled path from:
+
+- literature search protocol
+- empty evidence matrix
+- claim-to-citation readiness map
+- future manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+citation-grounded revision نباید با citation insertion اشتباه گرفته شود. اول باید بدانیم manuscript کجا تغییر می‌کند، کدام claim چه evidence need دارد، و کدام boundary نباید حذف شود. اگر این مرحله حذف شود، citationها فقط لباس رسمی برای ادعاهای نپخته می‌شوند.
+
