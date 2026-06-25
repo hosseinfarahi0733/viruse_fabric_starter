@@ -1762,3 +1762,48 @@ The project remains a research prototype with internal validation.
 ### Book Note
 نسخه کوتاه وقتی ارزش دارد که فقط کوتاه نشده باشد؛ باید هنوز مرز، احتیاط و صداقت علمی را با خودش حمل کند، وگرنه فقط یک شعار خوش‌فرم است.
 
+## Experiment 44: Public Release Bundle Index
+
+### Question
+آیا Viruse Fabric می‌تواند public-safe artifactهای خود را در قالب یک release bundle index منظم کند، بدون اینکه boundaryها ضعیف شوند، overclaim ایجاد شود، یا citation جعلی وارد شود؟
+
+### Result
+Experiment 44 generated a public release bundle index at:
+
+outputs/public_release_bundle_index_v4_4.md
+
+The experiment produced:
+
+- Artifact count: 8
+- Missing artifact count: 0
+- Audience count: 8
+- Status count: 7
+- Boundary phrase count: 10
+- Unsafe use count: 7
+- Release gate count: 6
+- Next step count: 6
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1093
+- Errors: 0
+- Warnings: 1
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v4.4 public release bundle index organizes the public-safe outputs into a navigable release map while preserving project boundaries, citation safety, and the internal-validation status.
+
+It does not certify external validation, submission readiness, biological applicability, clinical relevance, laboratory relevance, or operational usefulness.
+
+The warning is acceptable: any visual, slide, or landing-page version must be separately audited.
+
+### Theoretical Importance
+This milestone creates a controlled public-release map.
+
+Viruse Fabric now has public-safe artifacts, audits for those artifacts, and a bundle index that explains which artifact is for which audience and what each artifact must not be used for.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+انتشار عمومی بدون نقشه، معمولاً یعنی یک متن خوب را برداری، مرزهایش را حذف کنی، یک عنوان براق بزنی، و بعد تعجب کنی چرا سوءبرداشت ساخته شد. v4.4 برای جلوگیری از همین نمایش انسانی ساخته شد.
+
