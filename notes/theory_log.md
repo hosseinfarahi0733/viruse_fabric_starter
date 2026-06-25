@@ -2364,3 +2364,83 @@ The project remains a research prototype with internal validation.
 ### Book Note
 صفر هم باید audit شود. اگر baseline خالی دقیقاً ثبت و تأیید نشود، بعداً معلوم نیست اولین source از کجا آمده، اولین citation چرا وارد شده، یا manuscript دقیقاً چه زمانی اقتدار علمی پیدا کرده است. v5.3 جلوی همین جادوی کثیف را می‌گیرد.
 
+## Experiment 54: First Literature Family Search Plan
+
+### Question
+آیا Viruse Fabric می‌تواند اولین literature family را برای جست‌وجوی واقعی آینده انتخاب کند و search plan کنترل‌شده بسازد، بدون اینکه search اجرا کند، source اضافه کند، citation اضافه کند، evidence matrix را populate کند، manuscript را revise کند، یا submission readiness القا کند؟
+
+### Result
+Experiment 54 generated a first literature family search plan at:
+
+outputs/first_literature_family_search_plan_v5_4.md
+
+The experiment produced:
+
+- Source artifact count: 6
+- Missing source artifact count: 0
+- Selected family count: 1
+- Planned venue count: 8
+- Planned query count: 10
+- Claim category count: 6
+- Inclusion criteria count: 8
+- Exclusion criteria count: 8
+- Search run field count: 17
+- Screening step count: 8
+- Search run gate count: 11
+- Boundary phrase count: 14
+- Prohibited behavior count: 11
+- Next step count: 8
+- Search run count: 0
+- Source added count: 0
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1416
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v5.4 plan selects the first literature family and defines controlled future search parameters without running searches, adding sources, adding citations, populating the evidence matrix, or revising the manuscript.
+
+Selected literature family:
+
+constraint-based causality and dynamical-systems framing
+
+It does not perform literature search.
+
+It does not add sources.
+
+It does not add citations.
+
+It does not add evidence rows.
+
+It does not revise the manuscript.
+
+The warnings are acceptable:
+
+- Plan defines future search only; it does not perform literature search.
+- Plan does not add sources, citations, evidence rows, or manuscript revisions.
+
+### Theoretical Importance
+This milestone moves the project from empty-search infrastructure toward the first controlled real literature search.
+
+Viruse Fabric now has:
+
+- a selected first literature family
+- planned search venues
+- planned query strings
+- claim categories
+- inclusion criteria
+- exclusion criteria
+- screening steps
+- search-run gates
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+اولین search واقعی نباید مثل پرتاب تور ماهیگیری در اقیانوس باشد. v5.4 family، query، criteria، و gateها را قبل از search مشخص می‌کند. این یعنی اگر بعداً source وارد شد، می‌دانیم از کجا آمده، چرا آمده، و چه کاری اجازه دارد انجام دهد.
+
