@@ -1629,3 +1629,47 @@ It protects the project from public-facing inflation while making the work expla
 ### Book Note
 معرفی عمومی یک نظریه یعنی راه رفتن روی طناب: اگر کم بگویی فهمیده نمی‌شود، اگر زیاد بگویی تبدیل می‌شود به ادعای بی‌پشتوانه با کفش رسمی.
 
+## Experiment 41: Public Preview Quality Audit
+
+### Question
+آیا public technical preview v4.0 همچنان bounded، قابل فهم، citation-safe و بدون public-facing overclaim باقی مانده است؟
+
+### Result
+Experiment 41 generated a public preview quality audit at:
+
+outputs/public_preview_quality_audit_v4_1.md
+
+The experiment produced:
+
+- Source preview: outputs/public_technical_preview_package_v4_0.md
+- Source section count: 18
+- Source word count: 1534
+- Required public section count: 17
+- Missing required section count: 0
+- Boundary phrase count: 16
+- Core concept coverage count: 9
+- Public clarity count: 10
+- Limitation language count: 90
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Public readiness score: 90
+- Recommendation count: 6
+- Errors: 0
+- Warnings: 1
+- Passed: True
+
+### Interpretation
+The v4.1 audit confirms that the v4.0 public technical preview remains bounded, understandable, citation-safe, and free from overclaiming.
+
+It supports cautious public-facing technical review while preserving the project's internal-validation status.
+
+The warning is acceptable: any shortened version should be re-audited because compression often removes boundaries first.
+
+### Theoretical Importance
+This milestone protects the public-facing version from losing the caution that made it safe in the first place.
+
+It confirms that the project can be explained publicly without claiming external validation, submission readiness, fake citation support, or biological, clinical, laboratory, or operational applicability.
+
+### Book Note
+وقتی متن عمومی کوتاه می‌شود، معمولاً اول مرزهای احتیاط حذف می‌شوند؛ یعنی دقیقاً همان چیزهایی که مانع تبدیل علم به بروشور تبلیغاتی می‌شوند.
+
