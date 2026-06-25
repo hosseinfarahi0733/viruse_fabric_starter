@@ -2023,3 +2023,66 @@ The project remains a research prototype with internal validation.
 ### Book Note
 یک ماتریس خالی اگر درست ساخته شود، از یک bibliography پر از منابع تزئینی ارزشمندتر است. v4.8 همین اصل ساده و کمی تحقیرآمیز را رسمی می‌کند: اول ساختار صداقت، بعد منبع واقعی.
 
+## Experiment 49: Claim-to-Citation Readiness Map
+
+### Question
+آیا Viruse Fabric می‌تواند claimهای فعلی پروژه را بر اساس citation readiness، evidence need، allowed use، و validation boundary دسته‌بندی کند، بدون اینکه source یا citation اضافه کند، reference اختراعی بسازد، یا submission readiness القا کند؟
+
+### Result
+Experiment 49 generated a claim-to-citation readiness map at:
+
+outputs/claim_to_citation_readiness_map_v4_9.md
+
+The experiment produced:
+
+- Source artifact count: 4
+- Missing source artifact count: 0
+- Claim count: 8
+- Readiness category count: 6
+- Citation action count: 6
+- Claim use level count: 6
+- Evidence need count: 8
+- Map row count: 8
+- Citation-ready count: 3
+- Literature-needed count: 2
+- Future-validation-needed count: 0
+- Boundary rule count: 3
+- Internal status count: 1
+- Source added count: 0
+- Citation added count: 0
+- Boundary phrase count: 11
+- Map rule count: 10
+- Prohibited behavior count: 10
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1490
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v4.9 map classifies current claims by citation readiness, evidence need, allowed use, and validation boundary without adding sources or citations.
+
+It does not add citations.
+
+It does not add sources.
+
+It does not claim that literature search has been completed.
+
+The warnings are acceptable:
+
+- Map adds no citations; real literature search must happen later.
+- Citation readiness does not imply external validation or submission readiness.
+
+### Theoretical Importance
+This milestone creates the bridge between the empty evidence matrix and future citation-grounded manuscript revision.
+
+Viruse Fabric now has claim-level discipline: each claim has a citation action, evidence need, allowed use level, and validation boundary before any real source is inserted.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+ادعاها قبل از citation باید رام شوند. اگر ندانیم هر claim چه نوع منبع، چه سطح استفاده، و چه مرزی لازم دارد، citation تبدیل می‌شود به آرایش صورت متن. v4.9 جلوی همین نمایش آکادمیک را می‌گیرد.
+
