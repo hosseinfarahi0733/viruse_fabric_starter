@@ -3825,3 +3825,136 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار citation integration را plan می‌کند. CIT-PLAN-0001 و CIT-PLAN-0002 از روی audited evidence rows ساخته می‌شوند، اما هنوز citation واقعی اضافه نمی‌شود و manuscript revision انجام نمی‌شود. از این مرحله به بعد پروژه به claimهای محدود و citation-grounded نزدیک‌تر می‌شود، اما هنوز external validation، proof، یا submission-readiness قابل ادعا نیست.
 
+## Experiment 70: First Citation Integration Execution
+
+### Question
+آیا Viruse Fabric می‌تواند اولین citation integration execution را با افزودن verified citation records اجرا کند، در حالی که manuscript citation markers و manuscript revision صفر بمانند؟
+
+### Result
+Experiment 70 generated a first citation integration execution artifact at:
+
+outputs/first_citation_integration_execution_v7_0.md
+
+The experiment produced:
+
+- Source artifact count: 20
+- Missing source artifact count: 0
+- Citation integration execution count: 1
+- Planned citation slot count: 2
+- Executed citation slot count: 2
+- Citation record count: 2
+- Citation added count: 2
+- Manuscript citation marker count: 0
+- Manuscript revised count: 0
+- Conditional hold count: 1
+- Citation execution field count: 20
+- Citation execution status value count: 4
+- Citation execution gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1385
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.0 artifact executes first citation integration by adding two verified citation records while keeping manuscript citation markers and manuscript revision at zero.
+
+It confirms:
+
+- citation integration execution count: 1
+- planned citation slot count: 2
+- executed citation slot count: 2
+- citation record count: 2
+- citation added count: 2
+- manuscript citation marker count: 0
+- manuscript revised count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Citation records are added, but manuscript citation markers remain zero.
+- Citation integration execution does not revise the manuscript.
+
+### Citation Records Added
+Experiment 70 adds two citation records:
+
+- CIT-REC-0001 from CIT-PLAN-0001, EMR-0001, RET-0001, and CAND-0001
+- CIT-REC-0002 from CIT-PLAN-0002, EMR-0002, RET-0002, and CAND-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Source Metadata Boundary
+The citation records are structured source metadata records.
+
+They add traceable citation records to the internal workflow, but they do not insert citation markers into the manuscript, do not revise manuscript prose, and do not externally validate Viruse Fabric.
+
+Citation records support future citation audit and later manuscript revision planning. They do not prove the framework.
+
+### Claim Boundary Toward v7.5
+This milestone permits a slightly stronger internal claim than v6.9.
+
+Allowed after v7.0:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation-planned workflow
+- first verified citation records added
+- manuscript still unrevised
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first citation integration execution layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one conditional hold
+- zero manuscript citation markers
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار citation integration را اجرا می‌کند و دو verified citation record می‌سازد. CIT-REC-0001 و CIT-REC-0002 وارد workflow می‌شوند، اما manuscript citation marker هنوز صفر است و manuscript revision انجام نمی‌شود. بنابراین پروژه اکنون citation records دارد، اما هنوز citation-grounded manuscript revision ندارد. CAND-0003 همچنان conditional hold باقی می‌ماند.
+
