@@ -3318,3 +3318,99 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار retained source record واقعی می‌سازد. دو candidate با metadata pass به retained source تبدیل می‌شوند، اما citation نیستند و هنوز وارد evidence matrix یا manuscript نشده‌اند. CAND-0003 به دلیل conditional metadata pass همچنان روی hold می‌ماند. این milestone مرز بین retained source، citation، evidence، و manuscript support را عمداً جدا نگه می‌دارد.
 
+## Experiment 65: First Retained Source Role Audit
+
+### Question
+آیا Viruse Fabric می‌تواند نقش دو retained source record را audit کند، در حالی که citation، evidence matrix population، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 65 generated a first retained source role audit artifact at:
+
+outputs/first_retained_source_role_audit_v6_5.md
+
+The experiment produced:
+
+- Source artifact count: 15
+- Missing source artifact count: 0
+- Retained source role audit count: 1
+- Retained source count: 2
+- Retained source audited count: 2
+- Source role pass count: 2
+- Source role conditional count: 0
+- Source role fail count: 0
+- Conditional hold count: 1
+- Citation added count: 0
+- Evidence matrix populated count: 0
+- Manuscript revised count: 0
+- Role audit field count: 12
+- Role decision value count: 4
+- Role audit gate count: 13
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1232
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.5 artifact audits roles for two retained source records while keeping citations, evidence matrix population, and manuscript revision at zero.
+
+It confirms:
+
+- retained source role audit count: 1
+- retained source count: 2
+- retained source audited count: 2
+- source role pass count: 2
+- source role conditional count: 0
+- source role fail count: 0
+- conditional hold count: 1
+- citation added count: 0
+- evidence matrix populated count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Retained source roles are audited, but no citations are added.
+- Role audit does not populate evidence rows or revise the manuscript.
+
+### Role Audit Results
+Experiment 65 audits the first two retained source records:
+
+- RET-0001: role_pass_not_cited
+- RET-0002: role_pass_not_cited
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Theoretical Importance
+This milestone creates the first retained-source role audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one conditional hold
+- zero citations
+- zero evidence matrix population
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone نقش دو retained source را audit می‌کند. RET-0001 و RET-0002 هر دو role pass می‌گیرند، اما citation نمی‌شوند و وارد evidence matrix یا manuscript نمی‌شوند. CAND-0003 همچنان روی conditional hold باقی می‌ماند. این مرحله فقط نقش آینده‌ی محدود منابع retained را روشن می‌کند و مرز بین role audit، citation، evidence، و manuscript support را جدا نگه می‌دارد.
+
