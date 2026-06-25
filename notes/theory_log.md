@@ -1807,3 +1807,49 @@ The project remains a research prototype with internal validation.
 ### Book Note
 انتشار عمومی بدون نقشه، معمولاً یعنی یک متن خوب را برداری، مرزهایش را حذف کنی، یک عنوان براق بزنی، و بعد تعجب کنی چرا سوءبرداشت ساخته شد. v4.4 برای جلوگیری از همین نمایش انسانی ساخته شد.
 
+## Experiment 45: Public Release Checklist
+
+### Question
+آیا Viruse Fabric می‌تواند public release bundle را به یک checklist اجرایی تبدیل کند، بدون اینکه boundaryها ضعیف شوند، overclaim ایجاد شود، یا citation جعلی وارد شود؟
+
+### Result
+Experiment 45 generated a public release checklist at:
+
+outputs/public_release_checklist_v4_5.md
+
+The experiment produced:
+
+- Source bundle index exists: True
+- Required artifact count: 8
+- Missing artifact count: 0
+- Release gate count: 12
+- Allowed language count: 9
+- Disallowed language count: 10
+- Boundary phrase count: 10
+- Audit requirement count: 6
+- Next step count: 6
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 976
+- Errors: 0
+- Warnings: 1
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v4.5 checklist converts the public release bundle into practical release gates while preserving boundary language, citation safety, and the internal-validation status.
+
+It does not replace real literature search, external review, or external validation.
+
+The checklist is suitable as an internal public-release gatekeeping artifact.
+
+### Theoretical Importance
+This milestone closes the controlled public-release preparation path.
+
+Viruse Fabric now has public-safe artifacts, audits, a bundle index, and an executable checklist for deciding whether public-facing material can be shared safely.
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+چک‌لیست شاید هیجان‌انگیز نباشد، اما جلوی آن لحظه انسانی را می‌گیرد که کسی می‌گوید «این جمله محدودکننده را حذف کنیم، متن قشنگ‌تر می‌شود» و ناگهان کل پروژه از پژوهش محتاط به تبلیغ بادشده تبدیل می‌شود.
+
