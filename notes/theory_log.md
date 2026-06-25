@@ -3414,3 +3414,100 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone نقش دو retained source را audit می‌کند. RET-0001 و RET-0002 هر دو role pass می‌گیرند، اما citation نمی‌شوند و وارد evidence matrix یا manuscript نمی‌شوند. CAND-0003 همچنان روی conditional hold باقی می‌ماند. این مرحله فقط نقش آینده‌ی محدود منابع retained را روشن می‌کند و مرز بین role audit، citation، evidence، و manuscript support را جدا نگه می‌دارد.
 
+## Experiment 66: First Evidence Matrix Population Plan
+
+### Question
+آیا Viruse Fabric می‌تواند اولین evidence matrix population plan را از روی audited retained-source roles بسازد، در حالی که evidence matrix population execution، citation، و manuscript revision همگی صفر بمانند؟
+
+### Result
+Experiment 66 generated a first evidence matrix population plan artifact at:
+
+outputs/first_evidence_matrix_population_plan_v6_6.md
+
+The experiment produced:
+
+- Source artifact count: 16
+- Missing source artifact count: 0
+- Evidence matrix population plan count: 1
+- Retained source count: 2
+- Retained source role audited count: 2
+- Planned evidence mapping count: 2
+- Conditional hold count: 1
+- Evidence matrix population execution count: 0
+- Evidence matrix populated count: 0
+- Citation added count: 0
+- Manuscript revised count: 0
+- Planning field count: 11
+- Planned matrix action value count: 4
+- Population plan gate count: 14
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1253
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.6 artifact plans future evidence matrix population for two audited retained source roles while keeping matrix population execution, citations, and manuscript revision at zero.
+
+It confirms:
+
+- evidence matrix population plan count: 1
+- retained source count: 2
+- retained source role audited count: 2
+- planned evidence mapping count: 2
+- conditional hold count: 1
+- evidence matrix population execution count: 0
+- evidence matrix populated count: 0
+- citation added count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Evidence matrix population is planned, but no evidence rows are populated.
+- Evidence planning does not add citations or revise the manuscript.
+
+### Planned Evidence Mapping Results
+Experiment 66 plans two future evidence matrix mappings:
+
+- EMP-ROW-0001 for RET-0001
+- EMP-ROW-0002 for RET-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Theoretical Importance
+This milestone creates the first evidence matrix population planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one conditional hold
+- zero evidence matrix population execution
+- zero evidence matrix populated rows
+- zero citations
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار evidence matrix population را plan می‌کند. RET-0001 و RET-0002، چون retained شده‌اند و role audit pass دارند، برای future evidence mapping plan می‌شوند. اما این milestone هنوز evidence matrix را populate نمی‌کند، citation اضافه نمی‌کند، و manuscript را revise نمی‌کند. CAND-0003 همچنان روی conditional hold می‌ماند.
+
