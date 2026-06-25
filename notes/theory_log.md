@@ -3511,3 +3511,98 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار evidence matrix population را plan می‌کند. RET-0001 و RET-0002، چون retained شده‌اند و role audit pass دارند، برای future evidence mapping plan می‌شوند. اما این milestone هنوز evidence matrix را populate نمی‌کند، citation اضافه نمی‌کند، و manuscript را revise نمی‌کند. CAND-0003 همچنان روی conditional hold می‌ماند.
 
+## Experiment 67: First Evidence Matrix Population Execution
+
+### Question
+آیا Viruse Fabric می‌تواند اولین evidence matrix population execution را انجام دهد و دو evidence matrix row بسازد، در حالی که citation و manuscript revision صفر بمانند؟
+
+### Result
+Experiment 67 generated a first evidence matrix population execution artifact at:
+
+outputs/first_evidence_matrix_population_execution_v6_7.md
+
+The experiment produced:
+
+- Source artifact count: 17
+- Missing source artifact count: 0
+- Evidence matrix population execution count: 1
+- Retained source count: 2
+- Planned evidence mapping count: 2
+- Evidence matrix populated count: 2
+- Evidence matrix row count: 2
+- Conditional hold count: 1
+- Citation added count: 0
+- Manuscript revised count: 0
+- Evidence row field count: 13
+- Matrix population decision value count: 4
+- Population execution gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Fake citation-like pattern count: 0
+- Word count: 1240
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v6.7 artifact creates two evidence matrix rows from planned retained-source mappings while keeping citations and manuscript revision at zero.
+
+It confirms:
+
+- evidence matrix population execution count: 1
+- retained source count: 2
+- planned evidence mapping count: 2
+- evidence matrix populated count: 2
+- evidence matrix row count: 2
+- conditional hold count: 1
+- citation added count: 0
+- manuscript revised count: 0
+- overclaim count: 0
+- fake citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Evidence matrix rows are populated, but no citations are added.
+- Evidence matrix population does not revise the manuscript.
+
+### Evidence Matrix Rows
+Experiment 67 creates the first two populated evidence matrix rows:
+
+- EMR-0001 from EMP-ROW-0001 and RET-0001
+- EMR-0002 from EMP-ROW-0002 and RET-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Theoretical Importance
+This milestone creates the first nonzero evidence matrix population layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one conditional hold
+- zero citations
+- zero manuscript revision
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار evidence matrix را واقعاً populate می‌کند. EMR-0001 و EMR-0002 از روی retained sourceهای role-audited ساخته می‌شوند. با این حال citation هنوز صفر است و manuscript revision هنوز صفر است. یعنی evidence organization انجام شده، اما citation integration و manuscript support هنوز اجرا نشده‌اند. CAND-0003 نیز همچنان conditional hold باقی می‌ماند.
+
