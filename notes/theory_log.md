@@ -6278,3 +6278,77 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار manuscript submission readiness decision plan را می‌سازد. SRDP-ROW-0001 و SRDP-ROW-0002 از روی SRAE-ROW-0001 و SRAE-ROW-0002 plan می‌شوند. اما decision execution انجام نمی‌شود، manuscript submission-ready اعلام نمی‌شود، formal mathematical proof نداریم، independent experiment نداریم، external validation نداریم، citation جدید اضافه نمی‌شود، و CAND-0003 همچنان conditional hold می‌ماند. بنابراین پروژه اکنون first manuscript submission readiness decision plan دارد، اما هنوز submission-ready manuscript، final paper، external validation، peer-reviewed manuscript، formal proof، یا independent experiment ندارد.
 
+
+
+## Experiment 84: Manuscript Submission Readiness Decision Execution
+
+Experiment 84 generated:
+outputs/manuscript_submission_readiness_decision_execution_v8_4.md
+
+Main artifact commit:
+57637b4 Add manuscript submission readiness decision execution
+
+Counts:
+Source artifact count: 34
+Missing source artifact count: 0
+Submission readiness decision execution count: 1
+Executed decision row count: 2
+Manuscript submission ready count: 0
+Not-ready decision count: 2
+New citation added count: 0
+Conditional hold count: 1
+Hard gate count: 12
+Boundary phrase count: 8
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Word count: 761
+Errors: 0
+Warnings: 2
+Passed: True
+Missing required report phrases: 0
+
+Interpretation:
+The v8.4 artifact executes two planned manuscript submission readiness decision rows, and both executed decisions remain not-ready while formal proof, independent experiment, external validation, manuscript submission readiness, and new citation additions remain unavailable.
+
+Rows:
+MSRDE-ROW-0001 executes the planned decision check from SRDP-ROW-0001 and returns not_ready.
+MSRDE-ROW-0002 executes the planned decision check from SRDP-ROW-0002 and returns not_ready.
+
+Chains:
+MSRDE-ROW-0001 -> SRDP-ROW-0001 -> SRAE-ROW-0001 -> SRCP-ROW-0001 -> FMRPA-ROW-0001 -> FMRPE-ROW-0001 -> CIT-REC-0001 -> CAND-0001
+MSRDE-ROW-0002 -> SRDP-ROW-0002 -> SRAE-ROW-0002 -> SRCP-ROW-0002 -> FMRPA-ROW-0002 -> FMRPE-ROW-0002 -> CIT-REC-0002 -> CAND-0002
+
+Decision outcome:
+decision_execution_exists: yes
+decision_outcome: not_ready
+manuscript_submission_ready: no
+formal_mathematical_proof: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Decision execution exists, but the executed decision is not-ready.
+No formal mathematical proof, independent experiment, or external validation is created.
+
+Still disallowed:
+proven theory
+formal mathematical proof
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+readiness approval
+
+Boundary:
+This milestone executes the manuscript submission readiness decision layer only. It does not approve submission readiness and does not create a submission-ready manuscript.
