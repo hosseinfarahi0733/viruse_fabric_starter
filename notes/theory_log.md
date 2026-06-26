@@ -9034,3 +9034,116 @@ venue acceptance
 Boundary:
 This milestone executes controlled formal definition completion readiness decision work only. It allows future controlled formal definition completion attempt planning, but it does not complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
 
+## Experiment 111: Controlled Formal Definition Completion Attempt Plan
+
+Experiment 111 generated:
+outputs/controlled_formal_definition_completion_attempt_plan_v8_31.md
+
+Main artifact commit:
+c26830a Add controlled formal definition completion attempt plan
+
+Counts:
+Source artifact count: 61
+Missing source artifact count: 0
+Controlled formal definition completion attempt plan count: 1
+Controlled formal definition completion attempt plan row count: 4
+Controlled formal definition completion readiness decision execution source row count: 4
+Controlled formal definition completion readiness decision executed count: 1
+Formal definition execution count: 1
+Definition pre-execution checklist completed count: 1
+Checklist completion approved count: 1
+Definition execution approved count: 1
+Formal definition completed count: 0
+Controlled formal definition completion attempt execution count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 13
+Boundary phrase count: 19
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.31 artifact plans controlled formal definition completion attempts from four completion-readiness-decision-executed source rows while keeping completion attempt execution, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+CFDCAP-ROW-0001 plans a controlled formal definition completion attempt for constraint geometry.
+CFDCAP-ROW-0002 plans a controlled formal definition completion attempt for attractor concentration.
+CFDCAP-ROW-0003 plans a controlled formal definition completion attempt for path compatibility.
+CFDCAP-ROW-0004 plans a controlled formal definition completion attempt for observer projection.
+
+Controlled formal definition completion readiness decision execution source rows:
+CFDCRDE-ROW-0001 remains a controlled formal definition completion readiness decision execution source row only.
+CFDCRDE-ROW-0002 remains a controlled formal definition completion readiness decision execution source row only.
+CFDCRDE-ROW-0003 remains a controlled formal definition completion readiness decision execution source row only.
+CFDCRDE-ROW-0004 remains a controlled formal definition completion readiness decision execution source row only.
+
+Controlled formal definition completion attempt plan boundary:
+controlled_formal_definition_completion_attempt_plan_exists: yes
+completion_attempt_plan_scope: controlled_formal_definition_completion_attempt_planning_only
+controlled_formal_definition_completion_attempt_planned: yes
+controlled_formal_definition_completion_attempt_executed: no
+controlled_formal_definition_completion_readiness_decision_execution_source: yes
+controlled_formal_definition_completion_readiness_decision_executed_source: yes
+formal_definition_execution_source: yes
+formal_definition_execution_count_status: one
+formal_definition_completed: no
+definition_execution_approved_source: yes
+definition_pre_execution_checklist_completed_source: yes
+checklist_completion_approved_source: yes
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Controlled formal definition completion attempt is planned, but attempt execution remains absent.
+Completed formal definitions remain absent and no proof execution is created.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+controlled formal definition completion attempt execution
+completed formal definitions
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans controlled formal definition completion attempts only. It does not execute completion attempts, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
+
