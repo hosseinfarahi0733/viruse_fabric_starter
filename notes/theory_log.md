@@ -10651,3 +10651,78 @@ The project has executed controlled authorization for formal definition completi
 
 Critical reviewer note:
 This milestone executes authorization only. It does not execute approval, does not approve completion, does not complete formal definitions, does not execute proof work, does not add citations, does not provide external validation, and does not make the manuscript submission-ready. The next milestone should be approval execution planning, not direct approval execution.
+
+## Experiment 130: Formal Proof Track Entry and Proof Obligation Plan
+
+Milestone: v8.50 — Formal Proof Track Entry and Proof Obligation Plan
+
+Branch:
+v8-50-formal-proof-track-entry-and-proof-obligation-plan
+
+Main artifact:
+outputs/formal_proof_track_entry_and_proof_obligation_plan_v8_50.md
+
+Source artifact:
+outputs/controlled_formal_definition_completion_approval_execution_authorization_execution_v8_49.md
+
+Builder:
+viruse_fabric/writing/formal_proof_track_entry_and_proof_obligation_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_130_formal_proof_track_entry_and_proof_obligation_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Controlled formal proof track entry plan count: 1
+- Proof obligation plan count: 1
+- Proof obligation row count: 6
+- Theorem candidate count: 2
+- Lemma candidate count: 2
+- Definition candidate count: 2
+- Proof strategy plan required count: 1
+- Proof obligation registry required count: 1
+- Carried controlled formal definition completion approval execution authorization execution count: 1
+- Carried approval execution authorization execution count: 1
+- Carried approval execution authorized count: 1
+- Carried approval execution plan required count: 1
+- Carried approval execution count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 33
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.50 artifact opens a formal proof track and plans proof obligations while keeping completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has opened a formal proof track and planned proof obligations, theorem candidates, lemma candidates, and definition candidates, without completing formal definitions, executing proof work, proving theorems, proving lemmas, adding citations, validating externally, or making the manuscript submission-ready.
+
+Critical reviewer note:
+This milestone redirects the project away from approval-execution planning and toward proof-track preparation. It does not execute proof, does not prove any theorem or lemma, and does not complete formal definitions. The next milestone should execute the proof obligation registry, not claim proof completion.
