@@ -6522,3 +6522,92 @@ venue acceptance
 Boundary:
 This milestone plans formal proof requirements only. It does not execute a proof, prove a theorem, prove a lemma, complete formalization, approve readiness, or create a submission-ready manuscript.
 
+## Experiment 87: Formal Proof Skeleton Plan
+
+Experiment 87 generated:
+outputs/formal_proof_skeleton_plan_v8_7.md
+
+Main artifact commit:
+8a9416d Add formal proof skeleton plan
+
+Counts:
+Source artifact count: 37
+Missing source artifact count: 0
+Formal proof skeleton plan count: 1
+Formal proof skeleton component row count: 5
+Formal proof requirement source row count: 1
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 11
+Boundary phrase count: 13
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.7 artifact plans five formal proof skeleton components while keeping proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+FPSP-ROW-0001 plans formal object skeleton placeholders.
+FPSP-ROW-0002 plans assumption boundary skeleton placeholders.
+FPSP-ROW-0003 plans lemma dependency skeleton placeholders.
+FPSP-ROW-0004 plans theorem target skeleton placeholders.
+FPSP-ROW-0005 plans verification gate skeleton placeholders.
+
+Proof boundary:
+formal_proof_skeleton_plan_exists: yes
+formal_proof_requirements_plan_exists: yes
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Formal proof skeleton is planned, but no formal proof is executed.
+No theorem or lemma is proven.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans a formal proof skeleton only. It does not execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
+
