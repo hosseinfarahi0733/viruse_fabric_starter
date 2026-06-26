@@ -8495,3 +8495,107 @@ venue acceptance
 Boundary:
 This milestone plans controlled formal definition execution only. It does not execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
 
+## Experiment 106: Controlled Formal Definition Execution
+
+Experiment 106 generated:
+outputs/controlled_formal_definition_execution_v8_26.md
+
+Main artifact commit:
+644093a Add controlled formal definition execution
+
+Counts:
+Source artifact count: 56
+Missing source artifact count: 0
+Controlled formal definition execution count: 1
+Formal definition execution count: 1
+Formal definition execution row count: 4
+Controlled formal definition execution plan source row count: 4
+Definition pre-execution checklist completed count: 1
+Checklist completion approved count: 1
+Definition execution approved count: 1
+Formal definition completed count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 12
+Boundary phrase count: 19
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.26 artifact executes controlled formal definition traces from four execution-plan source rows while keeping completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+CFDE-ROW-0001 executes a controlled formal definition trace for constraint geometry.
+CFDE-ROW-0002 executes a controlled formal definition trace for attractor concentration.
+CFDE-ROW-0003 executes a controlled formal definition trace for path compatibility.
+CFDE-ROW-0004 executes a controlled formal definition trace for observer projection.
+
+Controlled execution plan source rows:
+CFDEP-ROW-0001 remains a controlled execution plan source row only.
+CFDEP-ROW-0002 remains a controlled execution plan source row only.
+CFDEP-ROW-0003 remains a controlled execution plan source row only.
+CFDEP-ROW-0004 remains a controlled execution plan source row only.
+
+Controlled formal definition execution boundary:
+controlled_formal_definition_execution_exists: yes
+execution_scope: controlled_formal_definition_execution_trace_only
+controlled_formal_definition_execution_executed: yes
+formal_definition_executed: yes
+formal_definition_execution_exists: yes
+formal_definition_completed: no
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Controlled formal definition execution exists, but completed formal definitions remain absent.
+No proof execution, theorem proof, or lemma proof is created.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+completed formal definitions
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone executes controlled formal definition traces only. It does not complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
+
