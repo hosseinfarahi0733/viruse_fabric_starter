@@ -10726,3 +10726,78 @@ The project has opened a formal proof track and planned proof obligations, theor
 
 Critical reviewer note:
 This milestone redirects the project away from approval-execution planning and toward proof-track preparation. It does not execute proof, does not prove any theorem or lemma, and does not complete formal definitions. The next milestone should execute the proof obligation registry, not claim proof completion.
+
+## Experiment 131: Proof Obligation Registry Execution
+
+Milestone: v8.51 — Proof Obligation Registry Execution
+
+Branch:
+v8-51-proof-obligation-registry-execution
+
+Main artifact:
+outputs/proof_obligation_registry_execution_v8_51.md
+
+Source artifact:
+outputs/formal_proof_track_entry_and_proof_obligation_plan_v8_50.md
+
+Builder:
+viruse_fabric/writing/proof_obligation_registry_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_131_proof_obligation_registry_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Proof obligation registry execution count: 1
+- Proof obligation registry row count: 6
+- Registered proof obligation count: 6
+- Unresolved proof obligation count: 6
+- Resolved proof obligation count: 0
+- Proof obligation plan count: 1
+- Proof obligation plan source row count: 6
+- Controlled formal proof track entry plan count: 1
+- Theorem candidate count: 2
+- Lemma candidate count: 2
+- Definition candidate count: 2
+- Proof strategy plan required count: 1
+- Formal definition candidate registry required count: 1
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 34
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.51 artifact executes a proof obligation registry while keeping all proof execution, proof resolution, theorem proof, lemma proof, formalization completion, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed a proof obligation registry with six registered unresolved proof obligations, without executing proof work, resolving proof obligations, proving theorems, proving lemmas, completing formal definitions, adding citations, validating externally, or making the manuscript submission-ready.
+
+Critical reviewer note:
+This milestone converts the v8.50 proof obligation plan into a registered proof obligation set. It is real progress toward proof execution, but it is not proof execution, not proof completion, not theorem proof, and not lemma proof. The next milestone should register formal definition candidates before any proof attempt.
