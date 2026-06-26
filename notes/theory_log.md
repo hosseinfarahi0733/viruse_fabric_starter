@@ -10877,3 +10877,81 @@ The project has registered two formal definition candidates required by the proo
 
 Critical reviewer note:
 This milestone registers the formal definition candidates needed for later theorem and lemma skeletons. It does not complete formal definitions, does not execute proof work, and does not resolve proof obligations. The next milestone should create theorem and lemma skeletons, not attempt proof execution.
+
+## Experiment 133: Theorem and Lemma Skeleton Plan
+
+Milestone: v8.53 — Theorem and Lemma Skeleton Plan
+
+Branch:
+v8-53-theorem-and-lemma-skeleton-plan
+
+Main artifact:
+outputs/theorem_and_lemma_skeleton_plan_v8_53.md
+
+Source artifact:
+outputs/formal_definition_candidate_registry_v8_52.md
+
+Builder:
+viruse_fabric/writing/theorem_and_lemma_skeleton_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_133_theorem_and_lemma_skeleton_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Theorem and lemma skeleton plan count: 1
+- Theorem and lemma skeleton row count: 4
+- Theorem skeleton count: 2
+- Lemma skeleton count: 2
+- Theorem candidate count: 2
+- Lemma candidate count: 2
+- Carried formal definition candidate registry count: 1
+- Carried registered formal definition candidate count: 2
+- Carried unresolved formal definition candidate count: 2
+- Carried completed formal definition candidate count: 0
+- Carried proof obligation registry execution count: 1
+- Carried registered proof obligation count: 6
+- Carried unresolved proof obligation count: 6
+- Carried resolved proof obligation count: 0
+- Proof strategy plan required count: 1
+- Proof execution attempt plan required count: 1
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 36
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.53 artifact creates theorem and lemma skeletons while keeping formal definition completion, proof execution, proof resolution, theorem proof, lemma proof, formalization completion, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has planned two theorem skeletons and two lemma skeletons grounded in the registered formal definition candidates and proof obligations, without completing formal definitions, executing proof work, resolving proof obligations, proving theorems, proving lemmas, adding citations, validating externally, or making the manuscript submission-ready.
+
+Critical reviewer note:
+This milestone gives theorem and lemma candidates usable skeletons before proof strategy planning. It is preparation for proof work only. It does not execute proof, does not resolve obligations, does not complete formal definitions, and does not establish theorem or lemma proof. The next milestone should define a proof strategy plan.
