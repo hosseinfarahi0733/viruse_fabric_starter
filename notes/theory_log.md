@@ -4889,3 +4889,185 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار citation-grounded manuscript claim revision را اجرا می‌کند. CGRX-0001 و CGRX-0002 از روی CGRP-0001 و CGRP-0002 ساخته می‌شوند و دو bounded revised claim record ایجاد می‌کنند. اما full manuscript rewrite صفر است، citation جدید اضافه نمی‌شود، و manuscript هنوز submission-ready نیست. بنابراین پروژه اکنون executed bounded claim revision دارد، اما هنوز full manuscript rewrite، revised manuscript package، یا submission readiness ندارد.
 
+## Experiment 77: First Bounded Revised Claim Audit
+
+### Question
+آیا Viruse Fabric می‌تواند bounded revised claim records را audit کند، در حالی که full manuscript rewrite و new citation additions صفر بمانند؟
+
+### Result
+Experiment 77 generated a first bounded revised claim audit artifact at:
+
+outputs/first_bounded_revised_claim_audit_v7_7.md
+
+The experiment produced:
+
+- Source artifact count: 27
+- Missing source artifact count: 0
+- Bounded revised claim audit count: 1
+- Bounded revised claim record count: 2
+- Bounded revised claim audited count: 2
+- Revised claim audit pass count: 2
+- Revised claim audit conditional count: 0
+- Revised claim audit fail count: 0
+- Full manuscript rewrite count: 0
+- New citation added count: 0
+- Conditional hold count: 1
+- Revised claim audit field count: 21
+- Revised claim audit status value count: 6
+- Revised claim audit gate count: 20
+- Boundary phrase count: 25
+- Prohibited behavior count: 13
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1857
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.7 artifact audits two bounded revised claim records and confirms linkage, boundary preservation, and overclaim absence while keeping full manuscript rewrite and new citation additions at zero.
+
+It confirms:
+
+- bounded revised claim audit count: 1
+- bounded revised claim record count: 2
+- bounded revised claim audited count: 2
+- revised claim audit pass count: 2
+- revised claim audit conditional count: 0
+- revised claim audit fail count: 0
+- full manuscript rewrite count: 0
+- new citation added count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Bounded revised claim records are audited, but the full manuscript is not rewritten.
+- Bounded revised claim audit does not add new citations.
+
+### Revised Claim Audit Rows
+Experiment 77 audits two bounded revised claim records:
+
+- BRCA-ROW-0001 audits CGRX-0001
+- BRCA-ROW-0002 audits CGRX-0002
+
+The audited revised claim chains are:
+
+- BRCA-ROW-0001 -> CGRX-0001 -> CGRP-0001 -> MCMA-ROW-0001 -> MCM-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- BRCA-ROW-0002 -> CGRX-0002 -> CGRP-0002 -> MCMA-ROW-0002 -> MCM-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+Both revised claim audit rows pass:
+
+- BRCA-ROW-0001: revised_claim_linkage_pass and overclaim_absent
+- BRCA-ROW-0002: revised_claim_linkage_pass and overclaim_absent
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Claim Boundary
+This milestone audits bounded revised claim records.
+
+It confirms linkage and boundary preservation.
+
+It confirms overclaim absence.
+
+It does not rewrite the full manuscript.
+
+It does not produce a full manuscript package.
+
+It does not produce a final paper.
+
+It does not make the manuscript submission-ready.
+
+It does not add new citation records.
+
+The audited revised claims remain bounded contextual or methodological records. They do not become external validation, biological prediction, clinical relevance, laboratory guidance, operational readiness, or accepted scientific theory. Because apparently even a well-behaved claim needs a leash.
+
+### Claim Boundary Toward v7.8
+This milestone permits a slightly stronger internal workflow claim than v7.6.
+
+Allowed after v7.7:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- bounded revised claim records audited
+- full manuscript still not rewritten
+- manuscript still not submission-ready
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first bounded revised claim audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one bounded revised claim audit
+- two audited bounded revised claim records
+- two revised claim audit passes
+- zero revised claim audit conditionals
+- zero revised claim audit failures
+- zero full manuscript rewrites
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار bounded revised claim records را audit می‌کند. BRCA-ROW-0001 و BRCA-ROW-0002 linkage و boundary preservation برای CGRX-0001 و CGRX-0002 را بررسی می‌کنند. هر دو revised claim pass می‌شوند و overclaim_absent دارند. اما full manuscript rewrite هنوز صفر است، citation جدید اضافه نمی‌شود، و manuscript هنوز submission-ready نیست. بنابراین پروژه اکنون audited bounded revised claims دارد، اما هنوز full manuscript package یا submission readiness ندارد.
+
