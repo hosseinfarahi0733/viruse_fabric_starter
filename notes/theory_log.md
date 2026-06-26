@@ -4394,3 +4394,169 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار manuscript citation insertion را اجرا می‌کند و دو bounded citation marker record می‌سازد. MCM-0001 و MCM-0002 وارد workflow می‌شوند، اما manuscript claim revision هنوز صفر است و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون marker insertion دارد، اما هنوز citation-grounded manuscript claim revision ندارد.
 
+## Experiment 74: First Manuscript Citation Marker Audit
+
+### Question
+آیا Viruse Fabric می‌تواند bounded manuscript citation marker records را audit کند، در حالی که manuscript claim revision و new citation additions صفر بمانند؟
+
+### Result
+Experiment 74 generated a first manuscript citation marker audit artifact at:
+
+outputs/first_manuscript_citation_marker_audit_v7_4.md
+
+The experiment produced:
+
+- Source artifact count: 24
+- Missing source artifact count: 0
+- Manuscript citation marker audit count: 1
+- Manuscript citation marker count: 2
+- Manuscript citation marker audited count: 2
+- Marker audit pass count: 2
+- Marker audit conditional count: 0
+- Marker audit fail count: 0
+- Manuscript revised count: 0
+- New citation added count: 0
+- Conditional hold count: 1
+- Marker audit field count: 16
+- Marker audit status value count: 4
+- Marker audit gate count: 16
+- Boundary phrase count: 20
+- Prohibited behavior count: 11
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1421
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.4 artifact audits two manuscript citation marker records and confirms their internal linkage while keeping manuscript claim revision and new citation additions at zero.
+
+It confirms:
+
+- manuscript citation marker audit count: 1
+- manuscript citation marker count: 2
+- manuscript citation marker audited count: 2
+- marker audit pass count: 2
+- marker audit conditional count: 0
+- marker audit fail count: 0
+- manuscript revised count: 0
+- new citation added count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Manuscript citation markers are audited, but manuscript claims are not revised.
+- Manuscript citation marker audit does not add new citations.
+
+### Marker Audit Rows
+Experiment 74 audits two manuscript citation marker records:
+
+- MCMA-ROW-0001 audits MCM-0001
+- MCMA-ROW-0002 audits MCM-0002
+
+The audited marker chain is:
+
+- MCM-0001 -> MCIS-PLAN-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- MCM-0002 -> MCIS-PLAN-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+Both marker audit rows pass linkage audit:
+
+- MCMA-ROW-0001: marker_linkage_pass
+- MCMA-ROW-0002: marker_linkage_pass
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Claim Boundary
+This milestone audits bounded manuscript citation marker records.
+
+It does not revise manuscript claims.
+
+It does not rewrite paragraphs.
+
+It does not strengthen conclusions.
+
+It does not upgrade validation language.
+
+It does not add new citation records.
+
+The marker audit layer exists, but claim revision remains a later milestone.
+
+### Claim Boundary Toward v7.5
+This milestone permits a slightly stronger internal workflow claim than v7.3.
+
+Allowed after v7.4:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- manuscript claims still unrevised
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first manuscript citation marker audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- zero marker audit conditionals
+- zero marker audit failures
+- one conditional hold
+- zero manuscript claim revisions
+- zero new citations
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار manuscript citation markerها را audit می‌کند. MCMA-ROW-0001 و MCMA-ROW-0002 linkage داخلی MCM-0001 و MCM-0002 را از marker تا planned slot، citation record، evidence row، retained source، و candidate entry بررسی می‌کنند. هر دو marker pass می‌شوند، اما manuscript claim revision هنوز صفر است و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون audited manuscript citation markers دارد، اما هنوز citation-grounded manuscript claim revision ندارد.
+
