@@ -10102,3 +10102,75 @@ The project has planned a controlled preflight decision for formal definition co
 
 Critical reviewer note:
 This milestone is a preflight decision plan only. It does not execute the preflight decision, does not approve preflight, and does not authorize approval execution. The next milestone should be preflight decision execution, not approval execution itself. Any future approval execution must still preserve approved completion, completed formal definitions, proof execution, formal proof, external validation, citation additions, and submission readiness at zero unless a separate audited milestone explicitly changes those counts.
+
+## Experiment 123: Controlled Formal Definition Completion Approval Execution Preflight Decision Execution
+
+Milestone: v8.43 — Controlled Formal Definition Completion Approval Execution Preflight Decision Execution
+
+Branch:
+v8-43-controlled-formal-definition-completion-approval-execution-preflight-decision-execution
+
+Main artifact:
+outputs/controlled_formal_definition_completion_approval_execution_preflight_decision_execution_v8_43.md
+
+Source artifact:
+outputs/controlled_formal_definition_completion_approval_execution_preflight_decision_plan_v8_42.md
+
+Builder:
+viruse_fabric/writing/controlled_formal_definition_completion_approval_execution_preflight_decision_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_123_controlled_formal_definition_completion_approval_execution_preflight_decision_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Controlled formal definition completion approval execution preflight decision execution count: 1
+- Controlled formal definition completion approval execution preflight decision execution row count: 4
+- Controlled formal definition completion approval execution preflight decision plan source row count: 4
+- Controlled formal definition completion approval execution preflight decision plan count: 1
+- Controlled formal definition completion approval execution preflight execution count: 1
+- Approval execution preflight required count: 1
+- Approval execution preflight decision execution count: 1
+- Approval execution preflight approval plan required count: 1
+- Approval execution preflight approved count: 0
+- Approval execution immediate execution approved count: 0
+- Approval execution transition approved count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 26
+- Prohibited behavior count: 19
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.43 artifact executes a controlled preflight decision for formal definition completion approval execution while keeping preflight approval, approval execution, approved completion, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed a controlled preflight decision for formal definition completion approval execution, with preflight approval not granted and a separate preflight approval plan required before any approval execution path can advance.
+
+Critical reviewer note:
+This milestone executes the preflight decision only. It does not grant preflight approval and does not authorize approval execution. The next milestone should be a preflight approval plan, not approval execution itself. Any future approval execution must still preserve approved completion, completed formal definitions, proof execution, formal proof, external validation, citation additions, and submission readiness at zero unless a separate audited milestone explicitly changes those counts.
