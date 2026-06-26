@@ -6890,3 +6890,102 @@ venue acceptance
 Boundary:
 This milestone plans formal definition execution readiness gates only. It does not approve definition execution, execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
 
+## Experiment 91: Formal Definition Pre-Execution Checklist Plan
+
+Experiment 91 generated:
+outputs/formal_definition_pre_execution_checklist_plan_v8_11.md
+
+Main artifact commit:
+79913b8 Add formal definition pre-execution checklist plan
+
+Counts:
+Source artifact count: 41
+Missing source artifact count: 0
+Formal definition pre-execution checklist plan count: 1
+Definition pre-execution checklist row count: 4
+Definition execution readiness gate source row count: 4
+Definition pre-execution checklist completed count: 0
+Formal definition completed count: 0
+Formal definition execution count: 0
+Definition execution approved count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 15
+Boundary phrase count: 16
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.11 artifact plans four formal definition pre-execution checklist rows while keeping checklist completion, completed formal definitions, definition execution approval, definition execution, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+FDECP-ROW-0001 plans the pre-execution checklist for constraint geometry.
+FDECP-ROW-0002 plans the pre-execution checklist for attractor concentration.
+FDECP-ROW-0003 plans the pre-execution checklist for path compatibility.
+FDECP-ROW-0004 plans the pre-execution checklist for observer projection.
+
+Checklist boundary:
+formal_definition_pre_execution_checklist_plan_exists: yes
+definition_pre_execution_checklist_completed: no
+definition_execution_approved: no
+formal_definition_execution_exists: no
+formal_definition_completed: no
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Formal definition pre-execution checklist rows are planned, but no checklist is completed.
+No execution approval, formal definition execution, proof execution, theorem proof, or lemma proof is created.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+completed checklist
+completed formal definitions
+formal definition execution
+definition execution approval
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans formal definition pre-execution checklist rows only. It does not complete the checklist, approve definition execution, execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
+
