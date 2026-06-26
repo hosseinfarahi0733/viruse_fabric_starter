@@ -6050,3 +6050,231 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار submission readiness audit را اجرا می‌کند. SRAE-ROW-0001 و SRAE-ROW-0002 از روی SRCP-ROW-0001 و SRCP-ROW-0002 اجرا می‌شوند. هر دو readiness criterion pass می‌شوند، اما manuscript_submission_ready_count همچنان 0 می‌ماند. یعنی readiness audit اجرا شده و معیارها pass شده‌اند، ولی manuscript هنوز submission-ready، final paper، external validation، peer-reviewed manuscript، یا venue accepted نیست. همچنین پروژه هنوز formal mathematical proof یا independent experiment ندارد.
 
+## Experiment 83: Manuscript Submission Readiness Decision Plan
+
+### Question
+آیا Viruse Fabric می‌تواند از روی readiness audit pass rows یک manuscript submission readiness decision layer را plan کند، در حالی که decision execution، manuscript submission readiness، formal proof، independent experiment، external validation و new citation additions همگی صفر بمانند؟
+
+### Result
+Experiment 83 generated a manuscript submission readiness decision plan artifact at:
+
+outputs/manuscript_submission_readiness_decision_plan_v8_3.md
+
+The experiment produced:
+
+- Source artifact count: 33
+- Missing source artifact count: 0
+- Submission readiness decision plan count: 1
+- Executed readiness criterion count: 2
+- Planned decision row count: 2
+- Submission readiness decision execution count: 0
+- Manuscript submission ready count: 0
+- Full manuscript rewrite count: 1
+- New citation added count: 0
+- Conditional hold count: 1
+- Decision plan field count: 18
+- Decision plan status value count: 8
+- Decision plan gate count: 24
+- Boundary phrase count: 27
+- Prohibited behavior count: 15
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1844
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v8.3 artifact plans two manuscript submission readiness decision rows from executed readiness audit pass rows while keeping decision execution, manuscript submission readiness, formal proof, independent experiment, external validation, and new citation additions at zero.
+
+It confirms:
+
+- submission_readiness_decision_plan_count: 1
+- executed_readiness_criterion_count: 2
+- planned_decision_row_count: 2
+- submission_readiness_decision_execution_count: 0
+- manuscript_submission_ready_count: 0
+- full_manuscript_rewrite_count: 1
+- new_citation_added_count: 0
+- conditional_hold_count: 1
+- overclaim_count: 0
+- invented_citation_like_pattern_count: 0
+- formal_mathematical_proof: no
+- independent_experiment: no
+- external_validation: no
+
+The warnings are acceptable:
+
+- Decision layer is planned, but readiness decision is not executed.
+- No formal mathematical proof or independent experiment is created.
+
+### Planned Decision Rows
+Experiment 83 plans two manuscript submission readiness decision rows:
+
+- SRDP-ROW-0001 plans a future decision check for SRAE-ROW-0001
+- SRDP-ROW-0002 plans a future decision check for SRAE-ROW-0002
+
+The planned decision chains are:
+
+- SRDP-ROW-0001 -> SRAE-ROW-0001 -> SRCP-ROW-0001 -> FMRPA-ROW-0001 -> FMRPE-ROW-0001 -> CIT-REC-0001 -> CAND-0001
+- SRDP-ROW-0002 -> SRAE-ROW-0002 -> SRCP-ROW-0002 -> FMRPA-ROW-0002 -> FMRPE-ROW-0002 -> CIT-REC-0002 -> CAND-0002
+
+Both planned decision rows remain:
+
+- not_executed_plan_only
+- future_decision_required_not_ready_now
+- manuscript_submission_ready: no
+- formal_mathematical_proof: no
+- independent_experiment: no
+- external_validation: no
+- new_citation_added: no
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Submission Readiness Boundary
+This milestone plans a decision layer only.
+
+It does not execute submission readiness decision.
+
+It does not approve manuscript submission readiness.
+
+It does not make the manuscript submission-ready.
+
+It does not produce a final paper.
+
+It does not claim external validation.
+
+It does not provide formal mathematical proof.
+
+It does not provide independent experiment.
+
+It does not add new citations.
+
+It does not provide biological, clinical, laboratory, or operational guidance.
+
+A decision plan is not a decision execution. A readiness audit pass is not a submission approval. A future decision box exists now, which is apparently enough to make documents feel important. They should calm down.
+
+### Claim Boundary Toward v8.4
+This milestone permits a slightly stronger internal workflow claim than v8.2.
+
+Allowed after v8.3:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- bounded revised claim records audited
+- full manuscript revision package planned
+- first full manuscript revision package executed
+- controlled manuscript rewrite artifact exists
+- full manuscript revision package audited
+- first submission readiness criteria planned
+- first submission readiness audit executed
+- two readiness criteria passed
+- first manuscript submission readiness decision plan created
+- manuscript still not submission-ready
+- no readiness decision executed
+- no formal mathematical proof
+- no independent experiment
+- no external validation
+- no new citations added during decision planning
+
+Still disallowed:
+
+- proven theory
+- formal mathematical proof
+- independent experiment
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+- final paper
+- peer-reviewed manuscript
+- venue acceptance
+
+### Theoretical Importance
+This milestone creates the first manuscript submission readiness decision planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one bounded revised claim audit
+- two audited bounded revised claim records
+- two revised claim audit passes
+- one full manuscript revision package plan
+- two planned package revision rows
+- one full manuscript revision package execution
+- two executed package revision rows
+- one controlled manuscript rewrite artifact
+- two controlled package sections
+- one full manuscript revision package audit
+- two audited package revision rows
+- two package audit passes
+- two controlled package section audit passes
+- one submission readiness criteria plan
+- two planned readiness criteria rows
+- one submission readiness audit execution
+- two executed readiness criterion rows
+- two readiness criterion passes
+- one manuscript submission readiness decision plan
+- two planned decision rows
+- zero decision executions
+- zero manuscript submission-ready approvals
+- zero formal mathematical proofs
+- zero independent experiments
+- zero external validations
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار manuscript submission readiness decision plan را می‌سازد. SRDP-ROW-0001 و SRDP-ROW-0002 از روی SRAE-ROW-0001 و SRAE-ROW-0002 plan می‌شوند. اما decision execution انجام نمی‌شود، manuscript submission-ready اعلام نمی‌شود، formal mathematical proof نداریم، independent experiment نداریم، external validation نداریم، citation جدید اضافه نمی‌شود، و CAND-0003 همچنان conditional hold می‌ماند. بنابراین پروژه اکنون first manuscript submission readiness decision plan دارد، اما هنوز submission-ready manuscript، final paper، external validation، peer-reviewed manuscript، formal proof، یا independent experiment ندارد.
+
