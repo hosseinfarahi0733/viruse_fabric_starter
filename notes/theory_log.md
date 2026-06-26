@@ -6438,3 +6438,87 @@ venue acceptance
 Boundary:
 This milestone registers blocking gaps only. It does not resolve any gap, does not approve readiness, and does not create a submission-ready manuscript.
 
+## Experiment 86: Formal Proof Requirements Plan
+
+Experiment 86 generated:
+outputs/formal_proof_requirements_plan_v8_6.md
+
+Main artifact commit:
+0271de8 Add formal proof requirements plan
+
+Counts:
+Source artifact count: 36
+Missing source artifact count: 0
+Formal proof requirements plan count: 1
+Formal proof requirement row count: 4
+Proof gap source count: 1
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 10
+Boundary phrase count: 12
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.6 artifact plans four formal proof requirements while keeping proof execution, formal mathematical proof, theorem proof, lemma proof, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+FPRP-ROW-0001 plans formal object definitions.
+FPRP-ROW-0002 plans assumption boundary definitions.
+FPRP-ROW-0003 plans lemma dependency requirements.
+FPRP-ROW-0004 plans proof verification gates.
+
+Proof boundary:
+formal_proof_requirements_plan_exists: yes
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Formal proof requirements are planned, but no formal proof is executed.
+No theorem or lemma is proven.
+Manuscript submission readiness remains unavailable.
+
+Still disallowed:
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans formal proof requirements only. It does not execute a proof, prove a theorem, prove a lemma, complete formalization, approve readiness, or create a submission-ready manuscript.
+
