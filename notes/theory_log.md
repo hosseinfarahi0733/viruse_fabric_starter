@@ -4560,3 +4560,164 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار manuscript citation markerها را audit می‌کند. MCMA-ROW-0001 و MCMA-ROW-0002 linkage داخلی MCM-0001 و MCM-0002 را از marker تا planned slot، citation record، evidence row، retained source، و candidate entry بررسی می‌کنند. هر دو marker pass می‌شوند، اما manuscript claim revision هنوز صفر است و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون audited manuscript citation markers دارد، اما هنوز citation-grounded manuscript claim revision ندارد.
 
+## Experiment 75: First Citation-Grounded Manuscript Claim Revision Plan
+
+### Question
+آیا Viruse Fabric می‌تواند citation-grounded manuscript claim revision را از روی audited manuscript citation markers برنامه‌ریزی کند، در حالی که manuscript claim revision execution، manuscript revision، و new citation additions صفر بمانند؟
+
+### Result
+Experiment 75 generated a first citation-grounded manuscript claim revision plan artifact at:
+
+outputs/first_citation_grounded_manuscript_claim_revision_plan_v7_5.md
+
+The experiment produced:
+
+- Source artifact count: 25
+- Missing source artifact count: 0
+- Citation-grounded manuscript claim revision plan count: 1
+- Audited manuscript citation marker count: 2
+- Planned claim revision count: 2
+- Manuscript claim revision execution count: 0
+- Manuscript revised count: 0
+- New citation added count: 0
+- Conditional hold count: 1
+- Claim revision plan field count: 19
+- Claim revision plan status value count: 4
+- Claim revision plan gate count: 18
+- Boundary phrase count: 22
+- Prohibited behavior count: 12
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1686
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.5 artifact plans two citation-grounded manuscript claim revisions from audited manuscript citation markers while keeping claim revision execution, manuscript revision, and new citation additions at zero.
+
+It confirms:
+
+- citation-grounded manuscript claim revision plan count: 1
+- audited manuscript citation marker count: 2
+- planned claim revision count: 2
+- manuscript claim revision execution count: 0
+- manuscript revised count: 0
+- new citation added count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Citation-grounded manuscript claim revision is planned, but not executed.
+- Planned claim language is not applied manuscript prose.
+
+### Planned Claim Revision Rows
+Experiment 75 plans two bounded citation-grounded manuscript claim revisions:
+
+- CGRP-0001 from MCMA-ROW-0001 and MCM-0001
+- CGRP-0002 from MCMA-ROW-0002 and MCM-0002
+
+The planned revision chains are:
+
+- CGRP-0001 -> MCMA-ROW-0001 -> MCM-0001 -> MCIS-PLAN-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- CGRP-0002 -> MCMA-ROW-0002 -> MCM-0002 -> MCIS-PLAN-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Claim Boundary
+This milestone plans citation-grounded manuscript claim revision.
+
+It does not execute manuscript claim revision.
+
+It does not apply planned claim language to the manuscript.
+
+It does not rewrite paragraphs.
+
+It does not strengthen conclusions.
+
+It does not upgrade validation language.
+
+It does not add new citation records.
+
+The plan exists, but manuscript claim revision execution remains a later milestone. Planning is not prose, because apparently this needs to be said before documents start wearing a lab coat.
+
+### Claim Boundary Toward v7.6
+This milestone permits a slightly stronger internal workflow claim than v7.4.
+
+Allowed after v7.5:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- manuscript claims still unrevised
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first citation-grounded manuscript claim revision planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- zero manuscript claim revision executions
+- zero manuscript revisions
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار citation-grounded manuscript claim revision را plan می‌کند. CGRP-0001 و CGRP-0002 از روی audited manuscript citation markers ساخته می‌شوند و مسیر bounded برای claim revision آینده می‌سازند. اما planned claim language هنوز applied manuscript prose نیست، manuscript claim revision execution صفر است، manuscript revised count صفر است، و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون citation-grounded claim revision plan دارد، اما هنوز executed citation-grounded manuscript revision ندارد.
+
