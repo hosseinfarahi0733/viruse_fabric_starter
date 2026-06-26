@@ -9620,3 +9620,70 @@ venue acceptance
 Boundary:
 This milestone executes controlled formal definition completion approval decision work only. It does not execute approval, approve completion, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
 
+
+## Experiment 116: Controlled Formal Definition Completion Approval Execution Plan
+
+Milestone: v8.36 — Controlled Formal Definition Completion Approval Execution Plan
+
+Branch:
+v8-36-controlled-formal-definition-completion-approval-execution-plan
+
+Main artifact:
+outputs/controlled_formal_definition_completion_approval_execution_plan_v8_36.md
+
+Builder:
+viruse_fabric/writing/controlled_formal_definition_completion_approval_execution_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_116_controlled_formal_definition_completion_approval_execution_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 3
+
+Critical counts:
+- Source artifact count: 66
+- Missing source artifact count: 0
+- Controlled formal definition completion approval execution plan count: 1
+- Controlled formal definition completion approval execution plan row count: 4
+- Controlled formal definition completion approval decision execution source row count: 4
+- Controlled formal definition completion approval decision executed count: 1
+- Controlled formal definition completion approval plan count: 1
+- Controlled formal definition completion attempt executed count: 1
+- Controlled formal definition completion attempt execution count: 1
+- Formal definition execution count: 1
+- Definition pre-execution checklist completed count: 1
+- Checklist completion approved count: 1
+- Definition execution approved count: 1
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 14
+- Boundary phrase count: 19
+- Prohibited behavior count: 15
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.36 artifact plans controlled formal definition completion approval execution while keeping approval execution, formal definition completion approval, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has planned controlled formal definition completion approval execution, without approval execution, approved completion, completed formal definitions, or proof execution.
+
+Critical reviewer note:
+This milestone advances the project by converting the v8.35 approval decision execution into a controlled approval execution plan. It does not approve completion, complete formal definitions, execute proof work, add citations, or make the manuscript submission-ready. The next step should not automatically be treated as approval execution unless the v8.36 plan is audited as sufficient for that transition.
