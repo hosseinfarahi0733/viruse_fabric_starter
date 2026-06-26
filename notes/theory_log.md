@@ -8387,3 +8387,111 @@ venue acceptance
 Boundary:
 This milestone executes formal definition execution readiness approval only. It does not execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
 
+## Experiment 105: Controlled Formal Definition Execution Plan
+
+Experiment 105 generated:
+outputs/controlled_formal_definition_execution_plan_v8_25.md
+
+Main artifact commit:
+971a354 Add controlled formal definition execution plan
+
+Counts:
+Source artifact count: 55
+Missing source artifact count: 0
+Controlled formal definition execution plan count: 1
+Controlled formal definition execution plan row count: 4
+Definition execution approval source row count: 4
+Definition pre-execution checklist completed count: 1
+Checklist completion approved count: 1
+Definition execution approved count: 1
+Formal definition execution count: 0
+Formal definition completed count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 13
+Boundary phrase count: 19
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.25 artifact plans controlled formal definition execution from four definition-execution-approved source rows while keeping formal definition execution, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+CFDEP-ROW-0001 plans controlled formal definition execution for constraint geometry.
+CFDEP-ROW-0002 plans controlled formal definition execution for attractor concentration.
+CFDEP-ROW-0003 plans controlled formal definition execution for path compatibility.
+CFDEP-ROW-0004 plans controlled formal definition execution for observer projection.
+
+Definition execution approval source rows:
+FDERAE-ROW-0001 remains a definition execution approval source row only.
+FDERAE-ROW-0002 remains a definition execution approval source row only.
+FDERAE-ROW-0003 remains a definition execution approval source row only.
+FDERAE-ROW-0004 remains a definition execution approval source row only.
+
+Controlled execution plan boundary:
+controlled_formal_definition_execution_plan_exists: yes
+execution_plan_scope: controlled_formal_definition_execution_planning_only
+controlled_formal_definition_execution_planned: yes
+definition_execution_approved_source: yes
+definition_pre_execution_checklist_completed_source: yes
+checklist_completion_approved_source: yes
+formal_definition_execution: no
+formal_definition_execution_exists: no
+formal_definition_completed: no
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Controlled formal definition execution is planned, but formal definition execution remains absent.
+No completed formal definition, proof execution, theorem proof, or lemma proof is created.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+formal definition execution
+completed formal definitions
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans controlled formal definition execution only. It does not execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve manuscript readiness, or create a submission-ready manuscript.
+
