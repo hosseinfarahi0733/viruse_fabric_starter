@@ -10801,3 +10801,79 @@ The project has executed a proof obligation registry with six registered unresol
 
 Critical reviewer note:
 This milestone converts the v8.50 proof obligation plan into a registered proof obligation set. It is real progress toward proof execution, but it is not proof execution, not proof completion, not theorem proof, and not lemma proof. The next milestone should register formal definition candidates before any proof attempt.
+
+## Experiment 132: Formal Definition Candidate Registry
+
+Milestone: v8.52 — Formal Definition Candidate Registry
+
+Branch:
+v8-52-formal-definition-candidate-registry
+
+Main artifact:
+outputs/formal_definition_candidate_registry_v8_52.md
+
+Source artifact:
+outputs/proof_obligation_registry_execution_v8_51.md
+
+Builder:
+viruse_fabric/writing/formal_definition_candidate_registry.py
+
+Experiment:
+viruse_fabric/experiments/exp_132_formal_definition_candidate_registry.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Formal definition candidate registry count: 1
+- Formal definition candidate registry row count: 2
+- Registered formal definition candidate count: 2
+- Unresolved formal definition candidate count: 2
+- Completed formal definition candidate count: 0
+- Carried proof obligation registry execution count: 1
+- Carried registered proof obligation count: 6
+- Carried unresolved proof obligation count: 6
+- Carried resolved proof obligation count: 0
+- Carried definition candidate count: 2
+- Carried theorem candidate count: 2
+- Carried lemma candidate count: 2
+- Proof strategy plan required count: 1
+- Theorem and lemma skeleton plan required count: 1
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 35
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.52 artifact registers formal definition candidates while keeping formal definition completion, proof execution, proof resolution, theorem proof, lemma proof, formalization completion, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has registered two formal definition candidates required by the proof obligation registry, without completing formal definitions, executing proof work, resolving proof obligations, proving theorems, proving lemmas, adding citations, validating externally, or making the manuscript submission-ready.
+
+Critical reviewer note:
+This milestone registers the formal definition candidates needed for later theorem and lemma skeletons. It does not complete formal definitions, does not execute proof work, and does not resolve proof obligations. The next milestone should create theorem and lemma skeletons, not attempt proof execution.
