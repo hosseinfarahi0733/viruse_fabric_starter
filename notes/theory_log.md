@@ -9687,3 +9687,68 @@ The project has planned controlled formal definition completion approval executi
 
 Critical reviewer note:
 This milestone advances the project by converting the v8.35 approval decision execution into a controlled approval execution plan. It does not approve completion, complete formal definitions, execute proof work, add citations, or make the manuscript submission-ready. The next step should not automatically be treated as approval execution unless the v8.36 plan is audited as sufficient for that transition.
+
+## Experiment 117: Controlled Formal Definition Completion Approval Execution Readiness Audit
+
+Milestone: v8.37 — Controlled Formal Definition Completion Approval Execution Readiness Audit
+
+Branch:
+v8-37-controlled-formal-definition-completion-approval-execution-readiness-audit
+
+Main artifact:
+outputs/controlled_formal_definition_completion_approval_execution_readiness_audit_v8_37.md
+
+Source artifact:
+outputs/controlled_formal_definition_completion_approval_execution_plan_v8_36.md
+
+Builder:
+viruse_fabric/writing/controlled_formal_definition_completion_approval_execution_readiness_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_117_controlled_formal_definition_completion_approval_execution_readiness_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Controlled formal definition completion approval execution readiness audit count: 1
+- Controlled formal definition completion approval execution readiness audit row count: 4
+- Controlled formal definition completion approval execution plan source row count: 4
+- Controlled formal definition completion approval execution plan count: 1
+- Approval execution readiness approved count: 0
+- Approval execution transition approved count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 14
+- Boundary phrase count: 18
+- Prohibited behavior count: 15
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.37 artifact audits readiness for a future controlled formal definition completion approval execution milestone while keeping approval execution, approval readiness approval, formal definition completion approval, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has audited readiness for controlled formal definition completion approval execution, without executing approval, approving completion, completing formal definitions, or executing proof work.
+
+Critical reviewer note:
+This milestone adds a gate between planning and execution. It is not approval execution and does not authorize approved completion. The next milestone may plan or execute a transition decision, but should not claim completed formal definitions, proof execution, formal proof, external validation, citation additions, or submission readiness unless a separate audited milestone explicitly changes those counts.
