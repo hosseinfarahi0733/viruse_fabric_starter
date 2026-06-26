@@ -5249,3 +5249,188 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار full manuscript revision package را فقط plan می‌کند. FMRPP-ROW-0001 و FMRPP-ROW-0002 از روی BRCA-ROW-0001 و BRCA-ROW-0002 ساخته می‌شوند و دو future package revision row ایجاد می‌کنند. اما package execution هنوز صفر است، full manuscript rewrite هنوز صفر است، citation جدید اضافه نمی‌شود، و manuscript هنوز submission-ready نیست. بنابراین پروژه اکنون full manuscript revision package plan دارد، اما هنوز executed package، rewritten manuscript، final paper، یا submission readiness ندارد.
 
+## Experiment 79: First Full Manuscript Revision Package Execution
+
+### Question
+آیا Viruse Fabric می‌تواند اولین full manuscript revision package را execute کند، در حالی که new citation additions صفر بماند و non-submission-ready boundaries حفظ شوند؟
+
+### Result
+Experiment 79 generated a first full manuscript revision package execution artifact at:
+
+outputs/first_full_manuscript_revision_package_execution_v7_9.md
+
+The experiment produced:
+
+- Source artifact count: 29
+- Missing source artifact count: 0
+- Full manuscript revision package execution count: 1
+- Planned package revision count: 2
+- Executed package revision count: 2
+- Full manuscript revision package count: 1
+- Full manuscript rewrite count: 1
+- New citation added count: 0
+- Conditional hold count: 1
+- Package execution field count: 21
+- Package execution status value count: 6
+- Package execution gate count: 22
+- Controlled package section count: 2
+- Boundary phrase count: 26
+- Prohibited behavior count: 14
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 2036
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.9 artifact executes a controlled full manuscript revision package from two planned package revision rows, creates one controlled manuscript rewrite artifact, and keeps new citation additions at zero.
+
+It confirms:
+
+- full manuscript revision package execution count: 1
+- planned package revision count: 2
+- executed package revision count: 2
+- full manuscript revision package count: 1
+- full manuscript rewrite count: 1
+- new citation added count: 0
+- conditional hold count: 1
+- controlled package section count: 2
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Full manuscript revision package is executed, but it is not submission-ready.
+- Full manuscript rewrite count is one, but no new citations are added.
+
+### Executed Package Revision Rows
+Experiment 79 executes two package revision rows:
+
+- FMRPE-ROW-0001 executes FMRPP-ROW-0001
+- FMRPE-ROW-0002 executes FMRPP-ROW-0002
+
+The executed package revision chains are:
+
+- FMRPE-ROW-0001 -> FMRPP-ROW-0001 -> BRCA-ROW-0001 -> CGRX-0001 -> CGRP-0001 -> MCM-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- FMRPE-ROW-0002 -> FMRPP-ROW-0002 -> BRCA-ROW-0002 -> CGRX-0002 -> CGRP-0002 -> MCM-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+Both executed package revision rows remain bounded:
+
+- FMRPE-ROW-0001: executed_bounded_package_revision
+- FMRPE-ROW-0002: executed_bounded_package_revision
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Package Boundary
+This milestone executes a controlled full manuscript revision package.
+
+It creates one controlled manuscript rewrite artifact.
+
+It creates two controlled package sections.
+
+It does not add new citation records.
+
+It does not produce a final paper.
+
+It does not make the manuscript submission-ready.
+
+It does not provide external validation.
+
+The full manuscript rewrite count is one, but this means only that one controlled package artifact exists. It does not mean the manuscript is accepted, externally validated, peer-reviewed, final, or submission-ready. Apparently even a rewritten manuscript needs adult supervision. Astonishing, but here we are.
+
+### Claim Boundary Toward v8.0
+This milestone permits a slightly stronger internal workflow claim than v7.8.
+
+Allowed after v7.9:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- bounded revised claim records audited
+- full manuscript revision package planned
+- first full manuscript revision package executed
+- controlled manuscript rewrite artifact exists
+- manuscript still not submission-ready
+- no new citations added during package execution
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+- final paper
+
+### Theoretical Importance
+This milestone creates the first full manuscript revision package execution layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one bounded revised claim audit
+- two audited bounded revised claim records
+- two revised claim audit passes
+- one full manuscript revision package plan
+- two planned package revision rows
+- one full manuscript revision package execution
+- two executed package revision rows
+- one controlled manuscript rewrite artifact
+- two controlled package sections
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار full manuscript revision package را execute می‌کند. FMRPE-ROW-0001 و FMRPE-ROW-0002 از روی FMRPP-ROW-0001 و FMRPP-ROW-0002 اجرا می‌شوند و یک controlled manuscript rewrite artifact با دو controlled package section ایجاد می‌کنند. اما citation جدید اضافه نمی‌شود، CAND-0003 همچنان conditional hold است، و manuscript هنوز submission-ready، final paper، external validation، یا accepted scientific theory نیست. بنابراین پروژه اکنون executed full manuscript revision package دارد، اما هنوز submission readiness یا external validation ندارد.
+
