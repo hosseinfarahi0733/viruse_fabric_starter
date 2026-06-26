@@ -6351,3 +6351,90 @@ readiness approval
 Boundary:
 This milestone executes the manuscript submission readiness decision layer only. It does not approve submission readiness and does not create a submission-ready manuscript.
 
+## Experiment 85: Manuscript Submission Readiness Blocking Gap Register
+
+Experiment 85 generated:
+outputs/manuscript_submission_readiness_blocking_gap_register_v8_5.md
+
+Main artifact commit:
+1d6f82f Add manuscript submission readiness blocking gap register
+
+Counts:
+Source artifact count: 35
+Missing source artifact count: 0
+Blocking gap register count: 1
+Blocking gap row count: 4
+Primary submission blocker count: 3
+Citation boundary gap count: 1
+Unresolved gap count: 4
+Gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+Formal mathematical proof count: 0
+Independent experiment count: 0
+External validation count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 7
+Boundary phrase count: 10
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Word count: 735
+Errors: 0
+Warnings: 3
+Passed: True
+Missing required report phrases: 0
+
+Interpretation:
+The v8.5 artifact registers four unresolved blocking gaps after the v8.4 not-ready decision execution while keeping gap resolution, submission readiness, formal proof, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+MSRBG-ROW-0001 registers the unresolved formal mathematical proof gap.
+MSRBG-ROW-0002 registers the unresolved independent experiment gap.
+MSRBG-ROW-0003 registers the unresolved external validation gap.
+MSRBG-ROW-0004 registers the unresolved CAND-0003 retention boundary gap.
+
+Blocking gaps:
+formal_mathematical_proof_gap: unresolved hard blocker
+independent_experiment_gap: unresolved hard blocker
+external_validation_gap: unresolved hard blocker
+CAND_0003_retention_boundary_gap: conditional hold unresolved
+
+Decision boundary:
+blocking_gap_register_exists: yes
+gap_resolution_exists: no
+manuscript_submission_ready: no
+readiness_approval: no
+formal_mathematical_proof: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Blocking gaps are registered, but no gap is resolved.
+Manuscript submission readiness remains unavailable.
+No formal proof, independent experiment, or external validation is created.
+
+Still disallowed:
+proven theory
+resolved blocking gaps
+formal mathematical proof
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone registers blocking gaps only. It does not resolve any gap, does not approve readiness, and does not create a submission-ready manuscript.
+
