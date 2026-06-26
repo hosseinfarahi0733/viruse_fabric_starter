@@ -6794,3 +6794,99 @@ venue acceptance
 Boundary:
 This milestone plans formal definition completion criteria only. It does not complete formal definitions, execute definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
 
+## Experiment 90: Formal Definition Execution Readiness Gate Plan
+
+Experiment 90 generated:
+outputs/formal_definition_execution_readiness_gate_plan_v8_10.md
+
+Main artifact commit:
+b525af4 Add formal definition execution readiness gate plan
+
+Counts:
+Source artifact count: 40
+Missing source artifact count: 0
+Formal definition execution readiness gate plan count: 1
+Definition execution readiness gate row count: 4
+Definition completion criteria source row count: 4
+Formal definition completed count: 0
+Formal definition execution count: 0
+Definition execution approved count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 14
+Boundary phrase count: 15
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.10 artifact plans four formal definition execution readiness gate rows while keeping completed formal definitions, definition execution approval, definition execution, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+FDERG-ROW-0001 plans the execution readiness gate for constraint geometry.
+FDERG-ROW-0002 plans the execution readiness gate for attractor concentration.
+FDERG-ROW-0003 plans the execution readiness gate for path compatibility.
+FDERG-ROW-0004 plans the execution readiness gate for observer projection.
+
+Execution boundary:
+formal_definition_execution_readiness_gate_plan_exists: yes
+definition_execution_approved: no
+formal_definition_execution_exists: no
+formal_definition_completed: no
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Formal definition execution readiness gates are planned, but no execution is approved.
+No formal definition execution, proof execution, theorem proof, or lemma proof is created.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+completed formal definitions
+formal definition execution
+definition execution approval
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone plans formal definition execution readiness gates only. It does not approve definition execution, execute definitions, complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
+
