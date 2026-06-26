@@ -6611,3 +6611,93 @@ venue acceptance
 Boundary:
 This milestone plans a formal proof skeleton only. It does not execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
 
+## Experiment 88: Formal Definition Skeleton Audit
+
+Experiment 88 generated:
+outputs/formal_definition_skeleton_audit_v8_8.md
+
+Main artifact commit:
+659d672 Add formal definition skeleton audit
+
+Counts:
+Source artifact count: 38
+Missing source artifact count: 0
+Formal definition skeleton audit count: 1
+Definition skeleton audit row count: 4
+Proof skeleton source component count: 1
+Formal definition completed count: 0
+Formal mathematical proof count: 0
+Proof execution count: 0
+Theorem proven count: 0
+Lemma proven count: 0
+Formalization complete count: 0
+Proof gap resolution count: 0
+Manuscript submission ready count: 0
+Readiness approval count: 0
+New citation added count: 0
+Conditional hold count: 1
+Hard zero count: 12
+Boundary phrase count: 14
+Prohibited behavior count: 15
+Next step count: 8
+Overclaim count: 0
+Invented citation-like pattern count: 0
+Errors: 0
+Warnings: 3
+Passed: True
+
+Interpretation:
+The v8.8 artifact audits four formal definition skeleton targets while keeping completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, proof gap resolution, submission readiness, readiness approval, independent experiment, external validation, and new citation additions at zero.
+
+Rows:
+FDSA-ROW-0001 audits the constraint geometry definition skeleton.
+FDSA-ROW-0002 audits the attractor concentration definition skeleton.
+FDSA-ROW-0003 audits the path compatibility definition skeleton.
+FDSA-ROW-0004 audits the observer projection definition skeleton.
+
+Definition boundary:
+formal_definition_skeleton_audit_exists: yes
+formal_definition_completed: no
+formal_mathematical_proof_exists: no
+proof_execution_exists: no
+theorem_proven: no
+lemma_proven: no
+formalization_complete: no
+proof_gap_resolved: no
+manuscript_submission_ready: no
+readiness_approval: no
+independent_experiment: no
+external_validation: no
+new_citation_added: no
+CAND-0003_status: hold_for_update_before_retention_decision
+
+Warnings:
+Formal definition skeletons are audited, but no formal definitions are completed.
+No proof is executed and no theorem or lemma is proven.
+Formalization remains incomplete and manuscript submission readiness remains unavailable.
+
+Still disallowed:
+completed formal definitions
+proven theory
+formal mathematical proof
+proof execution
+theorem proven
+lemma proven
+formalization complete
+resolved proof gap
+independent experiment
+external validation
+biological prediction
+clinical relevance
+laboratory guidance
+operational readiness
+submission-ready manuscript
+readiness approval
+accepted scientific theory
+final paper
+peer-reviewed manuscript
+venue acceptance
+
+Boundary:
+This milestone audits formal definition skeletons only. It does not complete formal definitions, execute a proof, prove a theorem, prove a lemma, complete formalization, resolve the proof gap, approve readiness, or create a submission-ready manuscript.
+
