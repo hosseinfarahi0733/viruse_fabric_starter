@@ -5635,3 +5635,209 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار controlled full manuscript revision package را audit می‌کند. FMRPA-ROW-0001 و FMRPA-ROW-0002 از روی FMRPE-ROW-0001 و FMRPE-ROW-0002 ساخته می‌شوند و linkage، controlled text boundary، و overclaim absence را بررسی می‌کنند. هر دو package audit pass می‌شوند. full_manuscript_rewrite_count همچنان 1 است، اما citation جدید اضافه نمی‌شود، CAND-0003 conditional hold می‌ماند، و manuscript هنوز submission-ready، final paper، external validation، یا peer-reviewed manuscript نیست. بنابراین پروژه اکنون audited full manuscript revision package دارد، اما هنوز submission readiness یا external validation ندارد.
 
+## Experiment 81: First Submission Readiness Criteria Plan
+
+### Question
+آیا Viruse Fabric می‌تواند از روی audited manuscript package، معیارهای submission readiness را plan کند، در حالی که readiness audit اجرا نشود، manuscript submission-ready اعلام نشود، و new citation additions صفر بماند؟
+
+### Result
+Experiment 81 generated a first submission readiness criteria plan artifact at:
+
+outputs/first_submission_readiness_criteria_plan_v8_1.md
+
+The experiment produced:
+
+- Source artifact count: 31
+- Missing source artifact count: 0
+- Submission readiness criteria plan count: 1
+- Audited package revision count: 2
+- Planned readiness criterion count: 2
+- Submission readiness audit execution count: 0
+- Manuscript submission ready count: 0
+- Full manuscript rewrite count: 1
+- New citation added count: 0
+- Conditional hold count: 1
+- Readiness criteria field count: 17
+- Readiness criteria status value count: 5
+- Readiness criteria gate count: 20
+- Boundary phrase count: 26
+- Prohibited behavior count: 14
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1830
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v8.1 artifact plans two submission readiness criteria from audited package revision rows while keeping readiness audit execution, manuscript submission readiness, and new citation additions at zero.
+
+It confirms:
+
+- submission_readiness_criteria_plan_count: 1
+- audited_package_revision_count: 2
+- planned_readiness_criterion_count: 2
+- submission_readiness_audit_execution_count: 0
+- manuscript_submission_ready_count: 0
+- full_manuscript_rewrite_count: 1
+- new_citation_added_count: 0
+- conditional_hold_count: 1
+- overclaim_count: 0
+- invented_citation_like_pattern_count: 0
+
+The warnings are acceptable:
+
+- Submission readiness criteria are planned, but readiness audit is not executed.
+- Manuscript submission ready count remains zero.
+
+### Planned Readiness Criteria Rows
+Experiment 81 plans two readiness criteria rows:
+
+- SRCP-ROW-0001 plans a future readiness criterion for FMRPA-ROW-0001
+- SRCP-ROW-0002 plans a future readiness criterion for FMRPA-ROW-0002
+
+The planned readiness chains are:
+
+- SRCP-ROW-0001 -> FMRPA-ROW-0001 -> FMRPE-ROW-0001 -> FMRPP-ROW-0001 -> BRCA-ROW-0001 -> CGRX-0001 -> CIT-REC-0001 -> CAND-0001
+- SRCP-ROW-0002 -> FMRPA-ROW-0002 -> FMRPE-ROW-0002 -> FMRPP-ROW-0002 -> BRCA-ROW-0002 -> CGRX-0002 -> CIT-REC-0002 -> CAND-0002
+
+The planned readiness dimensions are:
+
+- SRCP-ROW-0001: conceptual-framing boundedness
+- SRCP-ROW-0002: methodological-context boundedness
+
+Both planned readiness criteria remain:
+
+- not_executed_plan_only
+- submission_readiness_audit_execution: no
+- manuscript_submission_ready: no
+- new_citation_added: no
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Submission Readiness Boundary
+This milestone plans submission readiness criteria only.
+
+It does not execute submission readiness audit.
+
+It does not approve readiness.
+
+It does not make the manuscript submission-ready.
+
+It does not produce a final paper.
+
+It does not claim external validation.
+
+It does not add new citations.
+
+It does not provide biological, clinical, laboratory, or operational guidance.
+
+The criteria define what a future readiness audit must check. They do not certify that the manuscript already passes those checks. A checklist is not an acceptance letter, despite what every overeager document secretly believes.
+
+### Claim Boundary Toward v8.2
+This milestone permits a slightly stronger internal workflow claim than v8.0.
+
+Allowed after v8.1:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- bounded revised claim records audited
+- full manuscript revision package planned
+- first full manuscript revision package executed
+- controlled manuscript rewrite artifact exists
+- full manuscript revision package audited
+- first submission readiness criteria planned
+- manuscript still not submission-ready
+- no readiness audit executed
+- no new citations added during readiness criteria planning
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+- final paper
+- peer-reviewed manuscript
+
+### Theoretical Importance
+This milestone creates the first submission readiness criteria planning layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one bounded revised claim audit
+- two audited bounded revised claim records
+- two revised claim audit passes
+- one full manuscript revision package plan
+- two planned package revision rows
+- one full manuscript revision package execution
+- two executed package revision rows
+- one controlled manuscript rewrite artifact
+- two controlled package sections
+- one full manuscript revision package audit
+- two audited package revision rows
+- two package audit passes
+- two controlled package section audit passes
+- one submission readiness criteria plan
+- two planned readiness criteria rows
+- zero readiness audit executions
+- zero manuscript submission-ready approvals
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار submission readiness criteria را plan می‌کند. SRCP-ROW-0001 و SRCP-ROW-0002 از روی audited package rows یعنی FMRPA-ROW-0001 و FMRPA-ROW-0002 ساخته می‌شوند. این دو row معیارهای آینده برای conceptual-framing boundedness و methodological-context boundedness را مشخص می‌کنند. اما readiness audit اجرا نمی‌شود، manuscript submission-ready اعلام نمی‌شود، citation جدید اضافه نمی‌شود، و CAND-0003 همچنان conditional hold می‌ماند. بنابراین پروژه اکنون first submission readiness criteria plan دارد، اما هنوز submission-ready manuscript، final paper، external validation، یا peer-reviewed manuscript ندارد.
+
