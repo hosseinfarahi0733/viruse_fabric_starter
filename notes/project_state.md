@@ -87,6 +87,19 @@ Expected v8.1 target counts:
 - Overclaim count: 0
 - Invented citation-like pattern count: 0
 
+Machine-checkable v8.1 target keys:
+
+- submission_readiness_criteria_plan_count: 1
+- audited_package_revision_count: 2
+- planned_readiness_criterion_count: 2
+- submission_readiness_audit_execution_count: 0
+- manuscript_submission_ready_count: 0
+- full_manuscript_rewrite_count: 1
+- new_citation_added_count: 0
+- conditional_hold_count: 1
+- overclaim_count: 0
+- invented_citation_like_pattern_count: 0
+
 ## v8.1 Planned Readiness Rows
 
 Expected planned readiness criteria:
