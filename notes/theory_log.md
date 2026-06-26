@@ -4721,3 +4721,171 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار citation-grounded manuscript claim revision را plan می‌کند. CGRP-0001 و CGRP-0002 از روی audited manuscript citation markers ساخته می‌شوند و مسیر bounded برای claim revision آینده می‌سازند. اما planned claim language هنوز applied manuscript prose نیست، manuscript claim revision execution صفر است، manuscript revised count صفر است، و citation جدید اضافه نمی‌شود. بنابراین پروژه اکنون citation-grounded claim revision plan دارد، اما هنوز executed citation-grounded manuscript revision ندارد.
 
+## Experiment 76: First Citation-Grounded Manuscript Claim Revision Execution
+
+### Question
+آیا Viruse Fabric می‌تواند bounded citation-grounded manuscript claim revision را اجرا کند، در حالی که full manuscript rewrite و new citation additions صفر بمانند؟
+
+### Result
+Experiment 76 generated a first citation-grounded manuscript claim revision execution artifact at:
+
+outputs/first_citation_grounded_manuscript_claim_revision_execution_v7_6.md
+
+The experiment produced:
+
+- Source artifact count: 26
+- Missing source artifact count: 0
+- Citation-grounded claim revision execution count: 1
+- Planned claim revision count: 2
+- Executed claim revision count: 2
+- Bounded revised claim record count: 2
+- Manuscript revised count: 1
+- Full manuscript rewrite count: 0
+- New citation added count: 0
+- Conditional hold count: 1
+- Claim revision execution field count: 20
+- Claim revision execution status value count: 4
+- Claim revision execution gate count: 19
+- Boundary phrase count: 24
+- Prohibited behavior count: 12
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 1780
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v7.6 artifact executes two citation-grounded manuscript claim revisions by creating bounded revised claim records while keeping full manuscript rewrite and new citation additions at zero.
+
+It confirms:
+
+- citation-grounded claim revision execution count: 1
+- planned claim revision count: 2
+- executed claim revision count: 2
+- bounded revised claim record count: 2
+- manuscript revised count: 1
+- full manuscript rewrite count: 0
+- new citation added count: 0
+- conditional hold count: 1
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Bounded revised claim records are created, but the full manuscript is not rewritten.
+- Citation-grounded claim revision execution does not add new citations.
+
+### Executed Claim Revision Rows
+Experiment 76 executes two bounded citation-grounded manuscript claim revisions:
+
+- CGRX-0001 executes CGRP-0001
+- CGRX-0002 executes CGRP-0002
+
+The executed revision chains are:
+
+- CGRX-0001 -> CGRP-0001 -> MCMA-ROW-0001 -> MCM-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- CGRX-0002 -> CGRP-0002 -> MCMA-ROW-0002 -> MCM-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Revision Boundary
+This milestone executes bounded citation-grounded manuscript claim revision.
+
+It creates bounded revised claim records.
+
+It does not rewrite the full manuscript.
+
+It does not produce a full manuscript package.
+
+It does not produce a final paper.
+
+It does not make the manuscript submission-ready.
+
+It does not add new citation records.
+
+`manuscript_revised_count: 1` means one controlled claim revision execution artifact exists. It does not mean the full manuscript has been rewritten. Apparently even counters need adult supervision now.
+
+### Claim Boundary Toward v7.7
+This milestone permits a slightly stronger internal workflow claim than v7.5.
+
+Allowed after v7.6:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- full manuscript still not rewritten
+- manuscript still not submission-ready
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+
+### Theoretical Importance
+This milestone creates the first bounded citation-grounded manuscript claim revision execution layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one controlled manuscript revision artifact
+- zero full manuscript rewrites
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار citation-grounded manuscript claim revision را اجرا می‌کند. CGRX-0001 و CGRX-0002 از روی CGRP-0001 و CGRP-0002 ساخته می‌شوند و دو bounded revised claim record ایجاد می‌کنند. اما full manuscript rewrite صفر است، citation جدید اضافه نمی‌شود، و manuscript هنوز submission-ready نیست. بنابراین پروژه اکنون executed bounded claim revision دارد، اما هنوز full manuscript rewrite، revised manuscript package، یا submission readiness ندارد.
+
