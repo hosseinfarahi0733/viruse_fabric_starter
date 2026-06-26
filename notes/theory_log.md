@@ -10324,3 +10324,82 @@ The project has executed controlled preflight approval for formal definition com
 
 Critical reviewer note:
 This milestone grants preflight approval only for moving into a separate approval execution gate planning milestone. It does not authorize approval execution, approve completion, complete formal definitions, execute proof work, add citations, provide external validation, or make the manuscript submission-ready. The next milestone should be an approval execution gate plan, not approval execution itself.
+
+## Experiment 126: Controlled Formal Definition Completion Approval Execution Gate Plan
+
+Milestone: v8.46 — Controlled Formal Definition Completion Approval Execution Gate Plan
+
+Branch:
+v8-46-controlled-formal-definition-completion-approval-execution-gate-plan
+
+Main artifact:
+outputs/controlled_formal_definition_completion_approval_execution_gate_plan_v8_46.md
+
+Source artifact:
+outputs/controlled_formal_definition_completion_approval_execution_preflight_approval_execution_v8_45.md
+
+Builder:
+viruse_fabric/writing/controlled_formal_definition_completion_approval_execution_gate_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_126_controlled_formal_definition_completion_approval_execution_gate_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Controlled formal definition completion approval execution gate plan count: 1
+- Controlled formal definition completion approval execution gate plan row count: 4
+- Controlled formal definition completion approval execution preflight approval execution source row count: 4
+- Controlled formal definition completion approval execution preflight approval execution count: 1
+- Controlled formal definition completion approval execution preflight approval plan count: 1
+- Controlled formal definition completion approval execution preflight decision execution count: 1
+- Controlled formal definition completion approval execution preflight execution count: 1
+- Approval execution preflight required count: 1
+- Approval execution preflight decision execution count: 1
+- Approval execution preflight approval plan required count: 1
+- Approval execution preflight approval execution count: 1
+- Approval execution preflight approved count: 1
+- Approval execution gate plan required count: 1
+- Approval execution gate plan count: 1
+- Approval execution gate execution count: 0
+- Approval execution authorized count: 0
+- Approval execution immediate execution approved count: 0
+- Approval execution transition approved count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 29
+- Prohibited behavior count: 20
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.46 artifact plans a controlled approval execution gate for formal definition completion approval execution while keeping approval execution, approval execution authorization, approved completion, completed formal definitions, proof execution, formal mathematical proof, theorem proof, lemma proof, formalization completion, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has planned a controlled approval execution gate for formal definition completion approval execution, without executing approval, authorizing approval execution, approving completion, completing formal definitions, or executing proof work.
+
+Critical reviewer note:
+This milestone is an approval execution gate plan only. It does not execute the gate, does not authorize approval execution, does not execute approval, does not approve completion, does not complete formal definitions, does not execute proof work, does not add citations, does not provide external validation, and does not make the manuscript submission-ready. The next milestone should be approval execution gate execution, not direct approval execution.
