@@ -11039,3 +11039,89 @@ The project has planned a proof strategy route for the registered theorem and le
 
 Critical reviewer note:
 This milestone defines a conservative proof strategy route only. It does not execute proof, does not complete formal definitions, does not resolve proof obligations, and does not establish theorem or lemma proof. The next milestone should select a proof environment and plan the first proof attempt without executing it.
+
+## Experiment 135: Proof Environment Selection and First Proof Attempt Plan
+
+Milestone: v8.55 — Proof Environment Selection and First Proof Attempt Plan
+
+Branch:
+v8-55-proof-environment-selection-and-first-proof-attempt-plan
+
+Main artifact:
+outputs/proof_environment_selection_and_first_proof_attempt_plan_v8_55.md
+
+Source artifact:
+outputs/proof_strategy_plan_v8_54.md
+
+Builder:
+viruse_fabric/writing/proof_environment_selection_and_first_proof_attempt_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_135_proof_environment_selection_and_first_proof_attempt_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Proof environment selection plan count: 1
+- Proof environment candidate count: 3
+- Selected proof environment count: 1
+- Selected manual markdown environment count: 1
+- Deferred formal assistant environment count: 2
+- First proof attempt plan count: 1
+- First proof attempt plan row count: 4
+- Carried proof strategy plan count: 1
+- Carried proof strategy plan row count: 4
+- Carried manual derivation track count: 1
+- Carried formal assistant readiness track count: 1
+- Carried counterexample audit track count: 1
+- Carried boundary audit track count: 1
+- Carried proof environment selection required count: 1
+- Carried proof execution attempt plan required count: 1
+- Carried theorem skeleton count: 2
+- Carried lemma skeleton count: 2
+- Carried registered proof obligation count: 6
+- Carried unresolved proof obligation count: 6
+- Carried resolved proof obligation count: 0
+- Carried registered formal definition candidate count: 2
+- Carried unresolved formal definition candidate count: 2
+- Carried completed formal definition candidate count: 0
+
+Hard-zero counts preserved:
+- First proof attempt execution count: 0
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 17
+- Boundary phrase count: 38
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.55 artifact selects manual markdown derivation as the first proof environment and plans a first proof attempt route while keeping first proof attempt execution, proof execution, theorem proof, lemma proof, completed formal definitions, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has selected manual markdown derivation as the first proof environment and planned a first proof attempt route, while keeping first proof attempt execution, proof execution, theorem proof, lemma proof, completed formal definitions, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This milestone selects the environment and first attempt route only. It does not execute the first proof attempt, does not execute proof work, does not establish theorem proof, does not establish lemma proof, does not complete formal definitions, and does not resolve proof gaps. The next milestone may execute the first manual proof attempt as an attempt only, not as a proven theorem or proven lemma.
