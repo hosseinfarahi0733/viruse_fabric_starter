@@ -5434,3 +5434,204 @@ The project remains a research prototype with internal validation.
 ### Book Note
 این milestone برای اولین‌بار full manuscript revision package را execute می‌کند. FMRPE-ROW-0001 و FMRPE-ROW-0002 از روی FMRPP-ROW-0001 و FMRPP-ROW-0002 اجرا می‌شوند و یک controlled manuscript rewrite artifact با دو controlled package section ایجاد می‌کنند. اما citation جدید اضافه نمی‌شود، CAND-0003 همچنان conditional hold است، و manuscript هنوز submission-ready، final paper، external validation، یا accepted scientific theory نیست. بنابراین پروژه اکنون executed full manuscript revision package دارد، اما هنوز submission readiness یا external validation ندارد.
 
+## Experiment 80: First Full Manuscript Revision Package Audit
+
+### Question
+آیا Viruse Fabric می‌تواند اولین controlled full manuscript revision package را audit کند، در حالی که non-submission-ready boundaries حفظ شوند و new citation additions صفر بماند؟
+
+### Result
+Experiment 80 generated a first full manuscript revision package audit artifact at:
+
+outputs/first_full_manuscript_revision_package_audit_v8_0.md
+
+The experiment produced:
+
+- Source artifact count: 30
+- Missing source artifact count: 0
+- Full manuscript revision package audit count: 1
+- Executed package revision count: 2
+- Executed package revision audited count: 2
+- Package audit pass count: 2
+- Package audit conditional count: 0
+- Package audit fail count: 0
+- Full manuscript rewrite count: 1
+- New citation added count: 0
+- Conditional hold count: 1
+- Package audit field count: 22
+- Package audit status value count: 9
+- Package audit gate count: 23
+- Controlled package section audit count: 2
+- Boundary phrase count: 26
+- Prohibited behavior count: 14
+- Next step count: 8
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Word count: 2001
+- Errors: 0
+- Warnings: 2
+- Passed: True
+- Missing required report phrases: 0
+
+### Interpretation
+The v8.0 artifact audits two executed package revision rows, confirms package linkage and controlled text boundaries, preserves one controlled manuscript rewrite artifact, and keeps new citation additions at zero.
+
+It confirms:
+
+- full manuscript revision package audit count: 1
+- executed package revision count: 2
+- executed package revision audited count: 2
+- package audit pass count: 2
+- package audit conditional count: 0
+- package audit fail count: 0
+- full manuscript rewrite count: 1
+- new citation added count: 0
+- conditional hold count: 1
+- controlled package section audit count: 2
+- overclaim count: 0
+- invented citation-like pattern count: 0
+
+The warnings are acceptable:
+
+- Full manuscript revision package is audited, but it is not submission-ready.
+- Package audit confirms boundaries but does not create external validation.
+
+### Package Audit Rows
+Experiment 80 audits two executed package revision rows:
+
+- FMRPA-ROW-0001 audits FMRPE-ROW-0001
+- FMRPA-ROW-0002 audits FMRPE-ROW-0002
+
+The audited package revision chains are:
+
+- FMRPA-ROW-0001 -> FMRPE-ROW-0001 -> FMRPP-ROW-0001 -> BRCA-ROW-0001 -> CGRX-0001 -> CGRP-0001 -> MCM-0001 -> CIT-REC-0001 -> EMR-0001 -> RET-0001 -> CAND-0001
+- FMRPA-ROW-0002 -> FMRPE-ROW-0002 -> FMRPP-ROW-0002 -> BRCA-ROW-0002 -> CGRX-0002 -> CGRP-0002 -> MCM-0002 -> CIT-REC-0002 -> EMR-0002 -> RET-0002 -> CAND-0002
+
+Both package audit rows pass:
+
+- FMRPA-ROW-0001: package_linkage_pass, controlled_text_boundary_pass, overclaim_absent
+- FMRPA-ROW-0002: package_linkage_pass, controlled_text_boundary_pass, overclaim_absent
+
+CAND-0003 remains on conditional hold:
+
+- CAND-0003: hold_for_update_before_retention_decision
+
+### Manuscript Package Audit Boundary
+This milestone audits the controlled full manuscript revision package from v7.9.
+
+It confirms package linkage.
+
+It confirms controlled text boundary preservation.
+
+It confirms overclaim absence.
+
+It preserves full_manuscript_rewrite_count: 1.
+
+It does not add new citation records.
+
+It does not produce a final paper.
+
+It does not make the manuscript submission-ready.
+
+It does not provide external validation.
+
+The package audit confirms that the controlled rewrite remains bounded. It does not mean the manuscript is accepted, externally validated, peer-reviewed, final, or submission-ready. Apparently even audited manuscripts do not become immortal scientific objects. Tragic, yet operationally useful.
+
+### Claim Boundary Toward v8.1
+This milestone permits a slightly stronger internal workflow claim than v7.9.
+
+Allowed after v8.0:
+
+- internally staged prototype
+- retained-source workflow
+- evidence-mapped workflow
+- evidence-row-audited workflow
+- citation records added and audited
+- manuscript citation insertion planned
+- first manuscript citation markers inserted
+- manuscript citation markers audited
+- citation-grounded manuscript claim revision planned
+- first bounded citation-grounded claim revisions executed
+- bounded revised claim records audited
+- full manuscript revision package planned
+- first full manuscript revision package executed
+- controlled manuscript rewrite artifact exists
+- full manuscript revision package audited
+- manuscript still not submission-ready
+- no new citations added during package audit
+
+Still disallowed:
+
+- proven theory
+- external validation
+- biological prediction
+- clinical relevance
+- laboratory guidance
+- operational readiness
+- submission-ready manuscript
+- accepted scientific theory
+- final paper
+- peer-reviewed manuscript
+
+### Theoretical Importance
+This milestone creates the first full manuscript revision package audit layer.
+
+Viruse Fabric now has:
+
+- one live search execution
+- one raw-result screening execution
+- one candidate source entry plan
+- three candidate source entries
+- one candidate metadata audit
+- one retained-source decision plan
+- one retained-source decision execution
+- two retained source records
+- one retained-source role audit
+- two audited retained source roles
+- one evidence matrix population plan
+- two planned evidence mappings
+- one evidence matrix population execution
+- two populated evidence matrix rows
+- one evidence matrix row audit
+- two audited evidence matrix rows
+- one citation integration plan
+- two planned citation slots
+- one citation integration execution
+- two executed citation slots
+- two verified citation records
+- one citation record audit
+- two audited citation records
+- one manuscript citation insertion plan
+- two planned manuscript citation insertion slots
+- one manuscript citation insertion execution
+- two inserted manuscript citation markers
+- one manuscript citation marker audit
+- two audited manuscript citation markers
+- two marker linkage passes
+- one citation-grounded manuscript claim revision plan
+- two planned citation-grounded claim revisions
+- one citation-grounded manuscript claim revision execution
+- two executed bounded claim revisions
+- two bounded revised claim records
+- one bounded revised claim audit
+- two audited bounded revised claim records
+- two revised claim audit passes
+- one full manuscript revision package plan
+- two planned package revision rows
+- one full manuscript revision package execution
+- two executed package revision rows
+- one controlled manuscript rewrite artifact
+- two controlled package sections
+- one full manuscript revision package audit
+- two audited package revision rows
+- two package audit passes
+- two controlled package section audit passes
+- zero package audit conditionals
+- zero package audit failures
+- zero new citations
+- one conditional hold
+
+The project remains a research prototype with internal validation.
+
+### Book Note
+این milestone برای اولین‌بار controlled full manuscript revision package را audit می‌کند. FMRPA-ROW-0001 و FMRPA-ROW-0002 از روی FMRPE-ROW-0001 و FMRPE-ROW-0002 ساخته می‌شوند و linkage، controlled text boundary، و overclaim absence را بررسی می‌کنند. هر دو package audit pass می‌شوند. full_manuscript_rewrite_count همچنان 1 است، اما citation جدید اضافه نمی‌شود، CAND-0003 conditional hold می‌ماند، و manuscript هنوز submission-ready، final paper، external validation، یا peer-reviewed manuscript نیست. بنابراین پروژه اکنون audited full manuscript revision package دارد، اما هنوز submission readiness یا external validation ندارد.
+
