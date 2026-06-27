@@ -12225,3 +12225,99 @@ The project has audited the boundary of one limited finite R-path kernel theorem
 
 Critical reviewer note:
 The v8.67 theorem remains useful but narrow. v8.68 prevents the theorem from being overstated as a proof of the wider Viruse Fabric framework.
+
+## Experiment 149: Second Path Kernel Theorem Attempt
+
+Milestone: v8.69 — Second Path Kernel Theorem Attempt
+
+Branch:
+v8-69-second-path-kernel-theorem-attempt
+
+Main artifact:
+outputs/second_path_kernel_theorem_attempt_v8_69.md
+
+Source artifact:
+outputs/path_kernel_theorem_proof_boundary_audit_v8_68.md
+
+Builder:
+viruse_fabric/writing/second_path_kernel_theorem_attempt.py
+
+Experiment:
+viruse_fabric/experiments/exp_149_second_path_kernel_theorem_attempt.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Repair note:
+The first quick run failed because carried_audited_theorem_proven_count was supplied twice in the dataclass initialization. The duplicate field/init keyword was removed and the repaired official experiment passed.
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Second path kernel theorem attempt count: 1
+- Theorem attempt count: 1
+- Theorem statement count: 1
+- Theorem proof execution count: 1
+- New theorem proven count: 1
+- Carried audited theorem proven count: 1
+- Cumulative limited theorem proven count: 2
+- Lemma dependency count: 3
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.68 signals:
+- Carried path kernel theorem proof boundary audit count: 1
+- Carried audited theorem count: 1
+- Carried audited theorem proven count: 1
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 53
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Limited theorem:
+- PKT-002: Finite R-path concatenation identity theorem.
+
+Theorem statement:
+For every finite R-path p = (s_0, ..., s_n), the singleton path (s_0) is a left identity for p and the singleton path (s_n) is a right identity for p under endpoint-compatible concatenation; moreover, endpoint-compatible concatenation is associative for triples of finite R-paths.
+
+Dependencies:
+- LMP-002: Endpoint-compatible concatenation closure.
+- LMP-003: Singleton path admissibility.
+- PKT-001: Finite R-path kernel closure theorem.
+
+Interpretation:
+The v8.69 artifact proves one additional limited finite R-path concatenation identity theorem while keeping proof assistant verification, completed formalization, completed definitions, full-framework proof, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed one additional limited manual theorem proof for finite R-path concatenation identities, bringing the cumulative limited theorem count to two while keeping proof assistant verification, completed formalization, completed definitions, full-framework proof, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+PKT-002 is intentionally narrow. It establishes singleton identities and associativity for endpoint-compatible concatenation inside the finite R-path kernel only. It is not a full-framework proof.
