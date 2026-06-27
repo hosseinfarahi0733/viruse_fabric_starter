@@ -11702,3 +11702,91 @@ The project has audited ten boundary issues across five drafted formal definitio
 
 Critical reviewer note:
 The five drafted formal definition items remain useful scaffolding only. They are blocked by domain, axiom, semantic, and dependency boundary issues. Completion cannot be claimed until a later milestone resolves and audits those boundaries.
+
+## Experiment 143: Draft Boundary Resolution Targeting Plan
+
+Milestone: v8.63 — Draft Boundary Resolution Targeting Plan
+
+Branch:
+v8-63-draft-boundary-resolution-targeting-plan
+
+Main artifact:
+outputs/draft_boundary_resolution_targeting_plan_v8_63.md
+
+Source artifact:
+outputs/drafted_formal_definition_boundary_audit_v8_62.md
+
+Builder:
+viruse_fabric/writing/draft_boundary_resolution_targeting_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_143_draft_boundary_resolution_targeting_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Draft boundary resolution targeting plan count: 1
+- Resolution target row count: 4
+- Targeted draft boundary issue count: 10
+- High-priority resolution target count: 3
+- Medium-priority resolution target count: 1
+- Resolution execution count: 0
+- Draft boundary issue resolution count: 0
+- Unresolved targeted draft boundary issue count: 10
+- Resolved draft boundary issue count: 0
+- Completed definition item count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Carried drafted formal definition boundary audit count: 1
+- Carried audited drafted definition item count: 5
+- Carried draft boundary issue count: 10
+- Carried domain boundary issue count: 3
+- Carried axiom boundary issue count: 3
+- Carried semantic boundary issue count: 2
+- Carried dependency boundary issue count: 2
+- Carried unresolved draft boundary issue count: 10
+- Carried resolved draft boundary issue count: 0
+- Carried completed definition item count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 46
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.63 artifact targets resolution work for unresolved draft boundary issues while keeping resolution execution, draft boundary issue resolution, definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has planned four draft boundary resolution targets covering ten unresolved draft boundary issues while keeping resolution execution, draft boundary issue resolution, definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+The ten unresolved draft boundary issues are grouped into four resolution targets so that later execution can be controlled and audited. Targeting is not resolution. No formal definition completion can be claimed from this milestone.
