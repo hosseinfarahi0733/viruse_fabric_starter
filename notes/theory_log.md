@@ -12047,3 +12047,94 @@ The project has executed three additional minimal manual lemma proofs for the fi
 
 Critical reviewer note:
 This milestone expands the dependency base needed for later theorem attempts. The new lemmas are deliberately small, local, and manually checked. They strengthen the path-kernel scaffold without claiming a full formal proof of Viruse Fabric.
+
+## Experiment 147: First Path Kernel Theorem Attempt
+
+Milestone: v8.67 — First Path Kernel Theorem Attempt
+
+Branch:
+v8-67-first-path-kernel-theorem-attempt
+
+Main artifact:
+outputs/first_path_kernel_theorem_attempt_v8_67.md
+
+Source artifact:
+outputs/minimal_path_lemma_dependency_expansion_v8_66.md
+
+Builder:
+viruse_fabric/writing/first_path_kernel_theorem_attempt.py
+
+Experiment:
+viruse_fabric/experiments/exp_147_first_path_kernel_theorem_attempt.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- First path kernel theorem attempt count: 1
+- Theorem attempt count: 1
+- Theorem statement count: 1
+- Theorem proof execution count: 1
+- Theorem proven count: 1
+- Lemma dependency count: 5
+- Carried cumulative lemma proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.66 signals:
+- Carried minimal path lemma dependency expansion count: 1
+- Carried new lemma proven count: 3
+- Carried theorem proven count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 51
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Limited theorem:
+- PKT-001: Finite R-path kernel closure theorem.
+
+Theorem statement:
+Path_R contains every singleton sequence, is closed under endpoint-compatible concatenation, and is closed under taking contiguous subpaths.
+
+Lemma dependencies:
+- LMP-001: Prefix closure of finite R-paths.
+- LMP-002: Concatenation closure of endpoint-compatible finite R-paths.
+- LMP-003: Singleton sequence is a finite R-path.
+- LMP-004: Suffix closure of finite R-paths.
+- LMP-005: Contiguous subpath closure of finite R-paths.
+
+Interpretation:
+The v8.67 artifact proves one limited finite R-path kernel theorem using five lemma dependencies while keeping proof assistant verification, formalization completion, completed formal definitions, full-framework proof, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed one limited manual theorem proof for the finite R-path kernel using five prior lemma dependencies while keeping proof assistant verification, formalization completion, completed formal definitions, definition completion execution, full-framework proof, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This theorem is intentionally narrow. It packages five local path lemmas into a closure theorem for the finite R-path kernel. It is a valid proof step, not a full proof of the Viruse Fabric framework.
