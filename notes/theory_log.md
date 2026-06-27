@@ -11536,3 +11536,83 @@ The project has executed controlled authorization for one later formal definitio
 
 Critical reviewer note:
 This milestone authorizes FDCT-001 for a later controlled definition drafting milestone because it blocks multiple downstream definition gaps. Authorization is not definition completion. The next milestone should execute limited definition drafting for FDCT-001 while keeping completed formal definitions at zero unless a separate audit explicitly supports completion.
+
+## Experiment 141: First Controlled Formal Definition Drafting Execution
+
+Milestone: v8.61 — First Controlled Formal Definition Drafting Execution
+
+Branch:
+v8-61-first-controlled-formal-definition-drafting-execution
+
+Main artifact:
+outputs/first_controlled_formal_definition_drafting_execution_v8_61.md
+
+Source artifact:
+outputs/formal_definition_completion_execution_authorization_v8_60.md
+
+Builder:
+viruse_fabric/writing/first_controlled_formal_definition_drafting_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_141_first_controlled_formal_definition_drafting_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Controlled formal definition drafting execution count: 1
+- Drafted definition package count: 1
+- Drafted definition item count: 5
+- Drafted signature count: 5
+- Unresolved drafting boundary count: 5
+- Completed definition item count: 0
+- Completed formal definition count: 0
+- Formal definition completion audit required count: 1
+- Definition completion execution count: 0
+- Carried formal definition completion execution authorization execution count: 1
+- Carried authorization execution row count: 3
+- Carried selected authorization execution candidate count: 1
+- Carried deferred authorization execution candidate count: 2
+- Carried definition completion execution authorized count: 1
+- Carried definition completion execution count: 0
+- Carried definition gap count: 3
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 44
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.61 artifact executes a first controlled formal definition drafting pass for FDCT-001 while keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed a first controlled formal definition drafting pass for FDCT-001, producing five drafted definition items while keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This milestone drafts the first FDCT-001 signatures needed for later proof work. The drafted signatures remain open because their axioms, domains, codomains, compatibility rules, and observer semantics still require audit before completion can be considered. Drafting is not completion.
