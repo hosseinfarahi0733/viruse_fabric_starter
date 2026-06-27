@@ -11209,3 +11209,89 @@ The project has recorded a first manual proof attempt execution as an attempt-le
 
 Critical reviewer note:
 This milestone is the first attempt-level movement beyond planning. It records dependency chains, missing definitions, and unresolved assumptions. It does not establish theorem proof, does not establish lemma proof, does not complete formal definitions, and does not resolve proof obligations. The next milestone should audit the manual proof attempt gaps before trying to upgrade any attempt into a proof claim.
+
+## Experiment 137: Manual Proof Attempt Gap Audit
+
+Milestone: v8.57 — Manual Proof Attempt Gap Audit
+
+Branch:
+v8-57-manual-proof-attempt-gap-audit
+
+Main artifact:
+outputs/manual_proof_attempt_gap_audit_v8_57.md
+
+Source artifact:
+outputs/first_manual_proof_attempt_execution_v8_56.md
+
+Builder:
+viruse_fabric/writing/manual_proof_attempt_gap_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_137_manual_proof_attempt_gap_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Manual proof attempt gap audit count: 1
+- Audited manual proof attempt row count: 4
+- Proof attempt gap row count: 8
+- Definition gap count: 3
+- Assumption gap count: 2
+- Dependency gap count: 1
+- Boundary gap count: 2
+- Unresolved proof attempt gap count: 8
+- Resolved proof attempt gap count: 0
+- Proof attempt gap resolution count: 0
+- Carried first manual proof attempt execution count: 1
+- Carried manual proof attempt row count: 4
+- Carried attempted lemma skeleton count: 2
+- Carried attempted theorem skeleton count: 2
+- Carried partial derivation note count: 4
+- Carried unresolved attempt item count: 4
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+- Carried registered proof obligation count: 6
+- Carried unresolved proof obligation count: 6
+- Carried resolved proof obligation count: 0
+- Carried registered formal definition candidate count: 2
+- Carried unresolved formal definition candidate count: 2
+- Carried completed formal definition candidate count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 40
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.57 artifact audits manual proof attempt gaps while keeping proof gap resolution, theorem proof, lemma proof, completed formal definitions, formal mathematical proof, formal proof execution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has audited eight manual proof attempt gaps from the first manual attempt, with all audited gaps still open and with theorem proof, lemma proof, completed formal definitions, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness kept at zero.
+
+Critical reviewer note:
+This milestone prevents the first manual attempt from being overread. The attempt revealed definition, assumption, dependency, and boundary gaps. Those gaps remain open. The next milestone should target formal definition completion before any proof-success claim is considered.
