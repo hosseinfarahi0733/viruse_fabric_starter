@@ -13416,3 +13416,115 @@ The project has audited the controlled Sigma_A draft clause set and preserved th
 
 Critical reviewer note:
 The v8.79 draft clause set is useful because it gives Sigma_A a controlled predicate shape. It remains draft-level. It must not be treated as completed formal definition, attractor theory, theorem proof, proof assistant verification, external validation, or submission readiness.
+
+## Experiment 161: Stabilization Predicate Completion Criteria Plan
+
+Milestone: v8.81 — Stabilization Predicate Completion Criteria Plan
+
+Branch:
+v8-81-stabilization-predicate-completion-criteria-plan
+
+Main artifact:
+outputs/stabilization_predicate_completion_criteria_plan_v8_81.md
+
+Source artifact:
+outputs/stabilization_predicate_draft_boundary_audit_v8_80.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_completion_criteria_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_161_stabilization_predicate_completion_criteria_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Stabilization predicate completion criteria plan count: 1
+- Completion criterion row count: 7
+- Selected completion criterion count: 7
+- Completion decision count: 0
+- Completion execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.80 signals:
+- Carried stabilization predicate draft boundary audit count: 1
+- Carried audited stabilization predicate draft count: 1
+- Carried draft clause boundary row count: 6
+- Carried allowed claim count: 6
+- Carried blocked claim count: 6
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried controlled definition execution count: 1
+- Carried prior definition execution count: 1
+- Carried prior draft clause count: 6
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 65
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Completion criteria:
+- SPCC-001: Carrier-domain exactness.
+- SPCC-002: Local persistence testability.
+- SPCC-003: Recurrence witness condition.
+- SPCC-004: Exclusion and failure condition.
+- SPCC-005: Constraint-dependency isolation.
+- SPCC-006: Boundary-audit requirement.
+- SPCC-007: Completion-decision gate.
+
+Plan summary:
+The v8.81 artifact plans criteria for a future Sigma_A completion decision only. It adds no completion decision, no completion execution, no definition execution, no new draft clause, no stabilization predicate definition completion, no attractor-class definition completion, no constraint-region definition completion, no causal-mass completion, no observer-projection completion, no theorem proof, no proof execution, no proof assistant verification, no completed formalization, no framework-level proof, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has planned completion criteria for the Sigma_A draft predicate while preserving the distinction between completion criteria, completion decision, definition execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The purpose of this milestone is to stop the draft predicate from being promoted by assumption. Completion must require explicit carrier-domain exactness, persistence testability, recurrence witness discipline, exclusion handling, dependency isolation, boundary audit, and an explicit future decision gate.
