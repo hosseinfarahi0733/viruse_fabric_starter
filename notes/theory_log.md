@@ -15751,3 +15751,95 @@ This milestone produces evidence only. SPCHG-006 remains unresolved. It does not
 
 Next target:
 v8.99 residual ambiguity evidence boundary audit plus gap resolution decision for SPCHG-006 / SPCC-006.
+
+## Experiment 179: Residual Ambiguity Evidence Boundary Audit Plus Gap Resolution Decision
+
+Milestone: v8.99 - Residual Ambiguity Evidence Boundary Audit Plus Gap Resolution Decision
+
+Branch:
+v8-99-residual-ambiguity-evidence-boundary-audit-plus-gap-resolution-decision
+
+Main commit:
+1d66bc9 Add residual ambiguity evidence boundary audit plus gap resolution decision
+
+Source artifact:
+outputs/residual_ambiguity_condition_evidence_execution_v8_98.md
+
+Generated artifact:
+outputs/residual_ambiguity_evidence_boundary_audit_plus_gap_resolution_decision_v8_99.md
+
+Builder:
+viruse_fabric/writing/residual_ambiguity_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Experiment:
+viruse_fabric/experiments/exp_179_residual_ambiguity_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Result:
+The v8.99 experiment passed and audited residual ambiguity condition evidence, then recorded a targeted gap resolution decision for SPCHG-006 / SPCC-006.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Residual ambiguity evidence boundary audit count: 1
+- Audited residual ambiguity evidence count: 1
+- Residual ambiguity boundary audit row count: 5
+- Accepted claim count: 5
+- Blocked claim count: 5
+- Gap resolution decision count: 1
+- Targeted gap resolution decision count: 1
+- Targeted gap count: 1
+- Targeted gap ID count: 1
+- Targeted criterion count: 1
+- Evidence supported gap count: 1
+- Previously resolved gaps retained count: 5
+- Resolved gap count: 6
+- Newly resolved gap count: 1
+- Unresolved gap count: 1
+- Remaining blocking gap count: 1
+- Gap resolution authorized count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Carried residual ambiguity condition evidence execution count: 1
+- Carried resolved gap count: 5
+- Carried unresolved gap count: 2
+- Carried remaining blocking gap count: 2
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has audited residual ambiguity condition evidence and recorded a targeted resolution decision for SPCHG-006 while preserving the distinction between gap resolution, completion decision, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, independent experiment, manuscript readiness, readiness approval, and new citation additions.
+
+Boundary:
+This milestone resolves SPCHG-006 only. It does not authorize completion execution, does not complete Sigma_A, does not complete any formal definition, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not complete formalization, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations. One unresolved and blocking conditional-hold gap remains.
+
+Next target:
+v8.100 final residual condition evidence execution for the final remaining unresolved conditional-hold gap.
