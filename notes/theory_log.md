@@ -11295,3 +11295,86 @@ The project has audited eight manual proof attempt gaps from the first manual at
 
 Critical reviewer note:
 This milestone prevents the first manual attempt from being overread. The attempt revealed definition, assumption, dependency, and boundary gaps. Those gaps remain open. The next milestone should target formal definition completion before any proof-success claim is considered.
+
+## Experiment 138: Formal Definition Completion Targeting Plan
+
+Milestone: v8.58 — Formal Definition Completion Targeting Plan
+
+Branch:
+v8-58-formal-definition-completion-targeting-plan
+
+Main artifact:
+outputs/formal_definition_completion_targeting_plan_v8_58.md
+
+Source artifact:
+outputs/manual_proof_attempt_gap_audit_v8_57.md
+
+Builder:
+viruse_fabric/writing/formal_definition_completion_targeting_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_138_formal_definition_completion_targeting_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Formal definition completion targeting plan count: 1
+- Formal definition completion target row count: 3
+- High-priority definition target count: 2
+- Medium-priority definition target count: 1
+- Unresolved definition target count: 3
+- Completed definition target count: 0
+- Definition completion execution count: 0
+- Carried manual proof attempt gap audit count: 1
+- Carried proof attempt gap row count: 8
+- Carried definition gap count: 3
+- Carried assumption gap count: 2
+- Carried dependency gap count: 1
+- Carried boundary gap count: 2
+- Carried unresolved proof attempt gap count: 8
+- Carried resolved proof attempt gap count: 0
+- Carried proof attempt gap resolution count: 0
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+- Carried registered formal definition candidate count: 2
+- Carried unresolved formal definition candidate count: 2
+- Carried completed formal definition candidate count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 41
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.58 artifact targets formal definition completion work while keeping definition completion execution, proof gap resolution, theorem proof, lemma proof, formal mathematical proof, formal proof execution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has targeted three formal definition completion work packages from the manual proof attempt gap audit, with all definition targets still open and with definition completion execution, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness kept at zero.
+
+Critical reviewer note:
+This milestone responds to the definition gaps found in v8.57. It prioritizes definition packages before any proof gap resolution attempt. The targets remain open and require a later controlled execution milestone.
