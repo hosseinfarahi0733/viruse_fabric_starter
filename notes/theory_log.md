@@ -12504,3 +12504,99 @@ The project has executed one additional limited manual theorem proof showing tha
 
 Critical reviewer note:
 PKT-003 is important because it turns finite R-path existence into a preorder relation. It remains a local path-kernel theorem, not a complete theory result.
+
+## Experiment 152: Mutual Reachability Equivalence Theorem Attempt
+
+Milestone: v8.72 — Mutual Reachability Equivalence Theorem Attempt
+
+Branch:
+v8-72-mutual-reachability-equivalence-theorem-attempt
+
+Main artifact:
+outputs/mutual_reachability_equivalence_theorem_attempt_v8_72.md
+
+Source artifact:
+outputs/reachability_preorder_theorem_attempt_v8_71.md
+
+Builder:
+viruse_fabric/writing/mutual_reachability_equivalence_theorem_attempt.py
+
+Experiment:
+viruse_fabric/experiments/exp_152_mutual_reachability_equivalence_theorem_attempt.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Mutual reachability equivalence theorem attempt count: 1
+- Theorem attempt count: 1
+- Theorem statement count: 1
+- Theorem proof execution count: 1
+- New theorem proven count: 1
+- Carried cumulative limited theorem proven count: 3
+- Cumulative limited theorem proven count: 4
+- Mutual reachability relation definition count: 1
+- Equivalence property count: 3
+- Theorem dependency count: 1
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.71 signals:
+- Carried reachability preorder theorem attempt count: 1
+- Carried reachability relation definition count: 1
+- Carried preorder property count: 2
+- Carried new theorem proven count: 1
+- Carried proof execution count: 1
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 56
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Limited theorem:
+- PKT-004: finite R-path mutual reachability equivalence theorem.
+
+Theorem statement:
+The relation ~_R is reflexive, symmetric, and transitive on S; therefore ~_R is an equivalence relation on S.
+
+Definition:
+Mutual reachability a ~_R b holds exactly when Reach_R(a,b) and Reach_R(b,a).
+
+Dependency:
+- PKT-003: finite R-path reachability preorder theorem.
+
+Interpretation:
+The v8.72 artifact proves one additional limited theorem showing mutual finite R-path reachability is an equivalence relation while keeping proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed one additional limited manual theorem proof showing that mutual finite R-path reachability is an equivalence relation, bringing the cumulative limited theorem count to four while keeping proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+PKT-004 is important because it turns the preorder from PKT-003 into an equivalence kernel by mutual reachability. It remains a local path-kernel theorem, not a complete theory result.
