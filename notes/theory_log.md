@@ -12138,3 +12138,90 @@ The project has executed one limited manual theorem proof for the finite R-path 
 
 Critical reviewer note:
 This theorem is intentionally narrow. It packages five local path lemmas into a closure theorem for the finite R-path kernel. It is a valid proof step, not a full proof of the Viruse Fabric framework.
+
+## Experiment 148: Path Kernel Theorem Proof Boundary Audit
+
+Milestone: v8.68 — Path Kernel Theorem Proof Boundary Audit
+
+Branch:
+v8-68-path-kernel-theorem-proof-boundary-audit
+
+Main artifact:
+outputs/path_kernel_theorem_proof_boundary_audit_v8_68.md
+
+Source artifact:
+outputs/first_path_kernel_theorem_attempt_v8_67.md
+
+Builder:
+viruse_fabric/writing/path_kernel_theorem_proof_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_148_path_kernel_theorem_proof_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Repair note:
+The first v8.68 run failed because blocked-claim text reused exact prohibited overclaim phrases. The wording was patched so the audit can describe blocked claims without triggering false positive overclaim detection.
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Path kernel theorem proof boundary audit count: 1
+- Audited theorem count: 1
+- Audited theorem proven count: 1
+- Theorem scope boundary count: 1
+- Proof boundary audit row count: 6
+- Allowed claim count: 6
+- Blocked claim count: 6
+- Lemma dependency count: 5
+- New theorem proven count: 0
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.67 signals:
+- Carried first path kernel theorem attempt count: 1
+- Carried theorem attempt count: 1
+- Carried theorem statement count: 1
+- Carried theorem proof execution count: 1
+- Carried theorem proven count: 1
+- Carried lemma dependency count: 5
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 52
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Audit summary:
+The v8.68 artifact audits the boundary of the limited finite R-path kernel theorem from v8.67. It adds no new theorem proof, no proof assistant verification, no completed formalization, no completed definitions, no full-framework proof, no proof gap resolution, no citation additions, no external validation, and no manuscript submission readiness.
+
+Safe claim:
+The project has audited the boundary of one limited finite R-path kernel theorem and preserved the distinction between that theorem and full-framework proof, proof assistant verification, completed formalization, completed definitions, citation additions, external validation, and manuscript submission readiness.
+
+Critical reviewer note:
+The v8.67 theorem remains useful but narrow. v8.68 prevents the theorem from being overstated as a proof of the wider Viruse Fabric framework.
