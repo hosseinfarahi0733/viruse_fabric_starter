@@ -12406,3 +12406,101 @@ The project has audited two limited manual finite R-path kernel theorems and pre
 
 Critical reviewer note:
 The theorem pair is meaningful scaffolding for the path kernel, but it remains far below a complete theory result. The cumulative limited theorem count is two, not a license to inflate the project claim.
+
+## Experiment 151: Reachability Preorder Theorem Attempt
+
+Milestone: v8.71 — Reachability Preorder Theorem Attempt
+
+Branch:
+v8-71-reachability-preorder-theorem-attempt
+
+Main artifact:
+outputs/reachability_preorder_theorem_attempt_v8_71.md
+
+Source artifact:
+outputs/limited_theorem_pair_boundary_audit_v8_70.md
+
+Builder:
+viruse_fabric/writing/reachability_preorder_theorem_attempt.py
+
+Experiment:
+viruse_fabric/experiments/exp_151_reachability_preorder_theorem_attempt.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Reachability preorder theorem attempt count: 1
+- Theorem attempt count: 1
+- Theorem statement count: 1
+- Theorem proof execution count: 1
+- New theorem proven count: 1
+- Carried cumulative limited theorem proven count: 2
+- Cumulative limited theorem proven count: 3
+- Reachability relation definition count: 1
+- Preorder property count: 2
+- Lemma dependency count: 4
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.70 signals:
+- Carried limited theorem pair boundary audit count: 1
+- Carried audited limited theorem count: 2
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 55
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Limited theorem:
+- PKT-003: finite R-path reachability preorder theorem.
+
+Theorem statement:
+The relation Reach_R is reflexive and transitive on S; therefore Reach_R is a preorder on S.
+
+Definition:
+Reach_R(a,b) holds exactly when there exists a finite R-path p = (s_0, ..., s_n) with s_0 = a and s_n = b.
+
+Dependencies:
+- LMP-003: singleton path admissibility.
+- LMP-002: endpoint-compatible concatenation closure.
+- PKT-001: finite R-path kernel closure theorem.
+- PKT-002: finite R-path concatenation identity theorem.
+
+Interpretation:
+The v8.71 artifact proves one additional limited theorem showing finite R-path reachability is a preorder while keeping proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed one additional limited manual theorem proof showing that finite R-path reachability is a preorder, bringing the cumulative limited theorem count to three while keeping proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+PKT-003 is important because it turns finite R-path existence into a preorder relation. It remains a local path-kernel theorem, not a complete theory result.
