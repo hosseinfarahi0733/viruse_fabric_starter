@@ -18076,3 +18076,128 @@ After v8.119 closes, the project should audit the typed-product carrier refineme
 
 Next target:
 v8.120 Sigma_A typed-product carrier refinement boundary audit.
+
+## Experiment 200: Sigma_A Typed-Product Carrier Refinement Boundary Audit
+
+Milestone: v8.120 - Sigma_A Typed-Product Carrier Refinement Boundary Audit
+
+Branch:
+v8-120-sigma-a-typed-product-carrier-refinement-boundary-audit
+
+Main commit:
+3549626 Add Sigma_A typed-product carrier refinement boundary audit
+
+Source artifact:
+outputs/sigma_a_typed_product_carrier_refinement_execution_v8_119.md
+
+Generated artifact:
+outputs/sigma_a_typed_product_carrier_refinement_boundary_audit_v8_120.md
+
+Builder:
+viruse_fabric/writing/sigma_a_typed_product_carrier_refinement_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_200_sigma_a_typed_product_carrier_refinement_boundary_audit.py
+
+Result:
+The v8.120 experiment passed and audited Sigma_A typed-product carrier refinement boundaries after the v8.119 typed-product carrier refinement execution milestone.
+
+Boundary audit result:
+- The refined typed-product carrier candidate remains a carrier-level candidate only.
+- The eight-coordinate assembly remains preserved without completing Sigma_A.
+- Six dependent objects remain open: Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A.
+- The selected typed-product carrier type is carried without reselection.
+- Generic carrier refinement remains absent.
+- Time-index refinement remains absent.
+- Sigma_A refinement and Sigma_A definition completion remain absent.
+- Theorem, proof, validation, citation, and readiness layers remain absent.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A typed-product carrier refinement boundary audit count: 1
+- Typed-product carrier refinement boundary audit count: 1
+- Full typed-product carrier refinement boundary audit count: 1
+- Typed-product carrier refinement boundary audit row count: 8
+- Typed-product carrier refinement boundary preserved count: 8
+- Refined typed-product carrier candidate audited count: 1
+- Dependent object boundary preserved count: 6
+- Open dependency preserved count: 8
+- Carrier refinement boundary blocker count: 8
+- Typed-product carrier refinement boundary audit finding count: 8
+- Carried Sigma_A typed-product carrier refinement execution count: 1
+- Carried full typed-product carrier refinement execution count: 1
+- Carried typed-product carrier refinement execution count: 1
+- Carried typed-product carrier refinement row count: 8
+- Carried typed-product carrier refinement check count: 8
+- Carried refined typed-product carrier component count: 8
+- Carried refined typed-product carrier candidate count: 1
+- Carried carrier-level notation candidate count: 1
+- Carried dependent object preserved open count: 6
+- Carried selected typed-product carrier count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- New typed-product carrier refinement execution count: 0
+- New full typed-product carrier refinement execution count: 0
+- New Sigma_A typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- Time-index refinement execution count: 0
+- Sigma_A refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- New Sigma_A draft clause count: 0
+- New definition draft execution count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed a Sigma_A typed-product carrier refinement boundary audit after the typed-product carrier refinement execution milestone. It audited the refined typed-product carrier candidate, preserved dependent-object boundaries, confirmed open dependencies, and preserved blockers against generic carrier refinement, time-index refinement, Sigma_A refinement, definition execution, Sigma_A definition completion, theorem candidate planning, theorem proof, proof assistant verification, validation, readiness, and new citation additions.
+
+Boundary:
+This milestone is a typed-product carrier refinement boundary audit only. It does not execute new typed-product carrier refinement, does not execute new full typed-product carrier refinement, does not execute new Sigma_A typed-product carrier refinement, does not execute generic carrier refinement, does not execute carrier-type refinement, does not execute time-index refinement, does not execute Sigma_A refinement, does not execute new component-slot integration, does not execute new component-slot refinement, does not perform a new carrier type selection, does not create new Sigma_A draft clauses, does not execute a new definition draft, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.120 closes, the project can plan Sigma_A carrier-level draft assembly in a bounded milestone. That future milestone should be a planning milestone only. It must not execute Sigma_A refinement, definition execution, Sigma_A definition completion, theorem candidate planning, theorem proof, proof assistant verification, validation, manuscript readiness, or new citations unless those are separate milestones.
+
+Next target:
+v8.121 Sigma_A carrier-level draft assembly execution plan.
