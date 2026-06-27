@@ -14121,3 +14121,129 @@ The project has registered the conditional-hold gaps that block Sigma_A completi
 
 Critical reviewer note:
 The conditional hold should remain active until each registered gap has a standalone resolving artifact and a later boundary audit. The register is not a resolution.
+
+## Experiment 167: Stabilization Predicate Conditional Hold Gap Register Boundary Audit
+
+Milestone: v8.87 - Stabilization Predicate Conditional Hold Gap Register Boundary Audit
+
+Branch:
+v8-87-stabilization-predicate-conditional-hold-gap-register-boundary-audit
+
+Main artifact:
+outputs/stabilization_predicate_conditional_hold_gap_register_boundary_audit_v8_87.md
+
+Source artifact:
+outputs/stabilization_predicate_conditional_hold_gap_register_v8_86.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_conditional_hold_gap_register_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_167_stabilization_predicate_conditional_hold_gap_register_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Stabilization predicate conditional hold gap register boundary audit count: 1
+- Audited conditional hold gap register count: 1
+- Audited conditional hold gap row count: 7
+- Gap register boundary row count: 7
+- Allowed claim count: 7
+- Blocked claim count: 7
+- Unresolved gap count: 7
+- Resolved gap count: 0
+- Blocking gap count: 7
+- Primary blocker count: 4
+- New gap resolution count: 0
+- New completion decision count: 0
+- New completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.86 signals:
+- Carried stabilization predicate conditional hold gap register count: 1
+- Carried conditional hold gap row count: 7
+- Carried unresolved gap count: 7
+- Carried resolved gap count: 0
+- Carried blocking gap count: 7
+- Carried primary blocker count: 4
+- Carried new completion decision count: 0
+- Carried new completion execution count: 0
+- Carried completion execution authorized count: 0
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried new completion criterion count: 0
+- Carried new completion decision plan count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 71
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Audited gap-register boundary rows:
+- SPCHGBA-001: Carrier-domain exactness remains unresolved.
+- SPCHGBA-002: Local persistence testability remains unresolved.
+- SPCHGBA-003: Recurrence witness discipline remains unresolved.
+- SPCHGBA-004: Exclusion and failure handling remains unresolved.
+- SPCHGBA-005: Constraint-dependency completion remains unresolved.
+- SPCHGBA-006: Post-evidence boundary audit remains required.
+- SPCHGBA-007: Completion execution authorization remains blocked.
+
+Audit summary:
+The v8.87 artifact audits the v8.86 conditional-hold gap register. It resolves no gap, creates no new completion decision, authorizes no completion execution, performs no definition execution, creates no new draft clause, creates no new completion criterion, completes no stabilization predicate definition, completes no attractor-class definition, completes no constraint-region definition, completes no causal-mass definition, completes no observer-projection definition, proves no theorem, performs no proof execution, performs no proof assistant verification, adds no citation, completes no external validation, and creates no manuscript readiness.
+
+Safe claim:
+The project has audited the conditional-hold gap register that blocks Sigma_A completion execution while preserving the distinction between gap registration, gap-register audit, gap resolution, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+All seven registered gaps remain unresolved and blocking. The next useful move should not be another generic planning loop. A targeted standalone evidence execution for carrier-domain exactness is now justified.
