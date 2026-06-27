@@ -13196,3 +13196,115 @@ The project has planned the later definition of the stabilization predicate plac
 
 Critical reviewer note:
 The plan is necessary because Sigma_A must not become a decorative symbol pretending to be a definition. The next execution milestone must define the predicate under explicit carrier, persistence, recurrence, exclusion, and audit conditions.
+
+## Experiment 159: Stabilization Predicate Controlled Definition Execution
+
+Milestone: v8.79 — Stabilization Predicate Controlled Definition Execution
+
+Branch:
+v8-79-stabilization-predicate-controlled-definition-execution
+
+Main artifact:
+outputs/stabilization_predicate_controlled_definition_execution_v8_79.md
+
+Source artifact:
+outputs/stabilization_predicate_definition_plan_v8_78.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_controlled_definition_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_159_stabilization_predicate_controlled_definition_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Stabilization predicate controlled definition execution count: 1
+- Definition execution count: 1
+- Stabilization predicate draft clause count: 6
+- Carrier domain clause count: 1
+- Local persistence clause count: 1
+- Recurrence clause count: 1
+- Exclusion clause count: 1
+- Audit dependency clause count: 1
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.78 signals:
+- Carried stabilization predicate definition plan count: 1
+- Carried stabilization predicate requirement row count: 6
+- Carried selected predicate placeholder count: 1
+- Carried planned predicate symbol count: 1
+- Carried planned definition target count: 1
+- Carried definition execution count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 63
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Controlled draft clauses:
+- SPD-EXEC-001: Carrier domain draft clause.
+- SPD-EXEC-002: Local persistence draft clause.
+- SPD-EXEC-003: Recurrence draft clause.
+- SPD-EXEC-004: Exclusion draft clause.
+- SPD-EXEC-005: Constraint placeholder draft clause.
+- SPD-EXEC-006: Audit dependency draft clause.
+
+Draft predicate shape:
+- Draft symbol: Sigma_A.
+- Draft carrier: class_R(a), the finite R-path quotient carrier from the audited scaffold.
+- Draft reading: a quotient carrier is accepted only when carrier-domain, local-persistence, recurrence, exclusion, and future audit conditions are all respected.
+- Completion status: not completed in this milestone.
+
+Execution summary:
+The v8.79 artifact executes a controlled draft clause set for Sigma_A. It adds one definition execution count, but keeps stabilization predicate definition completion, attractor-class definition completion, constraint-region definition completion, causal-mass definition completion, observer-projection definition completion, theorem proof, proof execution, proof assistant verification, completed formalization, framework-level proof, citation additions, external validation, and manuscript readiness at zero.
+
+Safe claim:
+The project has executed a controlled draft clause set for the stabilization predicate placeholder Sigma_A while preserving the distinction between draft-level definition execution and definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+This is the first disciplined move from a placeholder toward an actual predicate shape. It remains draft-level and must be audited before any theorem attempt or readiness claim.
