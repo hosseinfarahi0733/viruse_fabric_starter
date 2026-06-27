@@ -14973,3 +14973,154 @@ The project has executed standalone recurrence witness evidence for SPCHG-003 li
 
 Critical reviewer note:
 This artifact advances the third conditional-hold gap by creating recurrence witness evidence only. SPCHG-003 still requires a later boundary audit plus resolution decision before the unresolved-gap count can fall again.
+
+## Experiment 173: Recurrence Witness Evidence Boundary Audit Plus Gap Resolution Decision
+
+Milestone: v8.93 - Recurrence Witness Evidence Boundary Audit Plus Gap Resolution Decision
+
+Branch:
+v8-93-recurrence-witness-evidence-boundary-audit-plus-gap-resolution-decision
+
+Main artifact:
+outputs/recurrence_witness_evidence_boundary_audit_plus_gap_resolution_decision_v8_93.md
+
+Source artifact:
+outputs/recurrence_witness_evidence_execution_v8_92.md
+
+Builder:
+viruse_fabric/writing/recurrence_witness_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Experiment:
+viruse_fabric/experiments/exp_173_recurrence_witness_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Recurrence witness evidence boundary audit count: 1
+- Audited recurrence witness evidence count: 1
+- Recurrence witness boundary audit row count: 5
+- Accepted claim count: 5
+- Blocked claim count: 5
+- Gap resolution decision count: 1
+- Targeted gap resolution decision count: 1
+- Targeted gap count: 1
+- Targeted criterion count: 1
+- Evidence supported gap count: 1
+- Previously resolved gaps retained count: 2
+- Resolved gap count: 3
+- Newly resolved gap count: 1
+- Unresolved gap count: 4
+- Remaining blocking gap count: 4
+- Gap resolution authorized count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.92 signals:
+- Carried recurrence witness evidence execution count: 1
+- Carried recurrence witness evidence row count: 5
+- Carried recurrence witness scope rule count: 3
+- Carried recurrence witness acceptance test count: 5
+- Carried recurrence witness blocked overreach count: 5
+- Carried targeted gap count: 1
+- Carried targeted gap ID count: 1
+- Carried targeted criterion count: 1
+- Carried evidence support count: 1
+- Carried prior resolved gaps retained count: 2
+- Carried gap resolution decision count: 0
+- Carried targeted gap resolution decision count: 0
+- Carried newly resolved gap count: 0
+- Carried resolved gap count: 2
+- Carried unresolved gap count: 5
+- Carried remaining blocking gap count: 5
+- Carried gap resolution authorized count: 0
+- Carried completion decision count: 0
+- Carried completion execution count: 0
+- Carried completion execution authorized count: 0
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried new completion criterion count: 0
+- Carried new completion decision plan count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 77
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Resolution decision:
+- Targeted gap: SPCHG-003
+- Targeted criterion: SPCC-003
+- Decision: targeted gap resolved
+- Previously resolved gaps retained: SPCHG-001 and SPCHG-002
+- Resolved gap count: 3
+- Newly resolved gap count: 1
+- Unresolved gap count after decision: 4
+- Remaining blocking gap count: 4
+- Completion execution authorized: no
+
+Audit rows:
+- RWBA-001: Recurrence domain anchor.
+- RWBA-002: Return relation.
+- RWBA-003: Witness repeatability.
+- RWBA-004: Non-recurrence failure case.
+- RWBA-005: Draft-predicate boundary.
+
+Decision summary:
+The v8.93 artifact audits the v8.92 recurrence witness evidence and records a targeted gap resolution decision for SPCHG-003 only. It does not create a completion decision, does not authorize completion execution, performs no definition execution, creates no new draft clause, creates no new completion criterion, completes no stabilization predicate definition, completes no attractor-class definition, completes no constraint-region definition, completes no causal-mass definition, completes no observer-projection definition, proves no theorem, performs no proof execution, performs no proof assistant verification, adds no citation, completes no external validation, and creates no manuscript readiness.
+
+Safe claim:
+The project has audited recurrence witness evidence and recorded a targeted resolution decision for SPCHG-003 while preserving the distinction between gap resolution, completion decision, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+Resolving SPCHG-003 reduces the conditional-hold gap register from five unresolved blocking gaps to four unresolved blocking gaps. It does not lift the conditional hold on Sigma_A completion execution.
