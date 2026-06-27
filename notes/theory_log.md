@@ -16528,3 +16528,114 @@ After v8.106 closes, the project should resolve Sigma_A draft obligations throug
 
 Next target:
 v8.107 Sigma_A carrier and time-index refinement plan.
+
+## Experiment 187: Sigma_A Carrier and Time-Index Refinement Plan
+
+Milestone: v8.107 - Sigma_A Carrier and Time-Index Refinement Plan
+
+Branch:
+v8-107-sigma-a-carrier-and-time-index-refinement-plan
+
+Main commit:
+2d6e884 Add Sigma_A carrier and time-index refinement plan
+
+Source artifact:
+outputs/sigma_a_draft_consistency_boundary_audit_v8_106.md
+
+Generated artifact:
+outputs/sigma_a_carrier_and_time_index_refinement_plan_v8_107.md
+
+Builder:
+viruse_fabric/writing/sigma_a_carrier_and_time_index_refinement_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_187_sigma_a_carrier_and_time_index_refinement_plan.py
+
+Result:
+The v8.107 experiment passed and produced a Sigma_A carrier and time-index refinement plan after the Sigma_A draft consistency boundary audit.
+
+Planned refinement scope:
+- X_A carrier kind planning.
+- X_A component typing planning.
+- X_A compatibility with C_reg planning.
+- X_A compatibility with Pi_obs planning.
+- T_A time-index kind planning.
+- Temporal order relation planning.
+- Trajectory horizon planning.
+- Event-index compatibility planning.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A carrier time-index refinement plan count: 1
+- Carrier refinement plan row count: 4
+- Time-index refinement plan row count: 4
+- Total refinement plan row count: 8
+- Refinement question count: 10
+- Carrier option family count: 5
+- Time-index option family count: 5
+- Planned compatibility check count: 4
+- Carried Sigma_A draft consistency boundary audit count: 1
+- Carried Sigma_A draft clause audited count: 10
+- Carried consistency check row count: 8
+- Carried open definition obligation count: 10
+- Carried Sigma_A formal definition draft execution count: 1
+- Carried definition draft execution count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- Carrier refinement execution count: 0
+- Time-index refinement execution count: 0
+- Sigma_A refinement execution count: 0
+- New Sigma_A draft clause count: 0
+- New definition draft execution count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has produced a Sigma_A carrier and time-index refinement plan after the Sigma_A draft consistency boundary audit. It planned carrier typing and time-index refinement while preserving the distinction between refinement planning, refinement execution, new draft execution, definition execution, Sigma_A definition completion, completed formal definitions, theorem candidate planning, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, independent experiment, manuscript readiness, readiness approval, and new citation additions.
+
+Boundary:
+This milestone is a refinement plan only. It does not execute carrier refinement, does not execute time-index refinement, does not execute Sigma_A refinement, does not create new Sigma_A draft clauses, does not execute a new definition draft, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.107 closes, the project should execute a controlled carrier-type option audit before selecting or refining a carrier definition. The next milestone should audit carrier options, not execute Sigma_A refinement or claim Sigma_A completion.
+
+Next target:
+v8.108 Sigma_A carrier-type option audit execution.
