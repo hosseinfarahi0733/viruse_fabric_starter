@@ -11458,3 +11458,81 @@ The project has planned controlled authorization for a later formal definition c
 
 Critical reviewer note:
 This milestone selects FDCT-001 as the first execution candidate because it blocks multiple definition gaps and supports later causal mass, boundedness, and projection work. Selection is not execution. Authorization execution remains a later milestone.
+
+## Experiment 140: Formal Definition Completion Execution Authorization
+
+Milestone: v8.60 — Formal Definition Completion Execution Authorization
+
+Branch:
+v8-60-formal-definition-completion-execution-authorization
+
+Main artifact:
+outputs/formal_definition_completion_execution_authorization_v8_60.md
+
+Source artifact:
+outputs/formal_definition_completion_execution_authorization_plan_v8_59.md
+
+Builder:
+viruse_fabric/writing/formal_definition_completion_execution_authorization.py
+
+Experiment:
+viruse_fabric/experiments/exp_140_formal_definition_completion_execution_authorization.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Formal definition completion execution authorization execution count: 1
+- Authorization execution row count: 3
+- Selected authorization execution candidate count: 1
+- Deferred authorization execution candidate count: 2
+- Definition completion execution authorized count: 1
+- Definition completion execution count: 0
+- Carried formal definition completion execution authorization plan count: 1
+- Carried authorization plan row count: 3
+- Carried selected execution candidate count: 1
+- Carried deferred execution candidate count: 2
+- Carried authorization execution required count: 1
+- Carried authorization execution count: 0
+- Carried definition completion execution count: 0
+- Carried definition gap count: 3
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 43
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.60 artifact executes controlled authorization for one later formal definition completion execution target while keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed controlled authorization for one later formal definition completion execution target, while keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This milestone authorizes FDCT-001 for a later controlled definition drafting milestone because it blocks multiple downstream definition gaps. Authorization is not definition completion. The next milestone should execute limited definition drafting for FDCT-001 while keeping completed formal definitions at zero unless a separate audit explicitly supports completion.
