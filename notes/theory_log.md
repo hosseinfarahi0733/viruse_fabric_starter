@@ -16217,3 +16217,106 @@ The project should now move from administrative boundary closure toward formal o
 
 Next target:
 v8.104 core formal object inventory execution.
+
+## Experiment 184: Core Formal Object Inventory Execution
+
+Milestone: v8.104 - Core Formal Object Inventory Execution
+
+Branch:
+v8-104-core-formal-object-inventory-execution
+
+Main commit:
+37f158a Add core formal object inventory execution
+
+Source artifact:
+outputs/formal_definition_transition_boundary_audit_plan_v8_103.md
+
+Generated artifact:
+outputs/core_formal_object_inventory_execution_v8_104.md
+
+Builder:
+viruse_fabric/writing/core_formal_object_inventory_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_184_core_formal_object_inventory_execution.py
+
+Result:
+The v8.104 experiment passed and executed a core formal object inventory with six object families, candidate symbols, dependency rows, and definition obligations.
+
+Inventoried core formal object families:
+- CFO-001: Sigma_A state-space / admissible-trajectory object
+- CFO-002: stabilization predicate
+- CFO-003: attractor-class object
+- CFO-004: constraint-region object
+- CFO-005: causal-mass object
+- CFO-006: observer-projection object
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory row count: 6
+- Candidate symbol count: 6
+- Dependency row count: 12
+- Definition obligation count: 6
+- Inventory obligation count: 6
+- Inventoried only status count: 6
+- Gap resolution closure carried count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- Formal definition transition boundary audit plan count: 1
+- Definition transition plan count: 1
+- Formal object inventory execution count: 1
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Definition draft execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Theorem candidate plan count: 0
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed a core formal object inventory after the formal-definition transition plan. It identified six core object families, candidate symbols, dependency rows, and definition obligations while preserving the distinction between inventory execution, definition execution, completed formal definitions, theorem candidate planning, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, independent experiment, manuscript readiness, readiness approval, and new citation additions.
+
+Boundary:
+This milestone executes inventory only. Candidate symbols are inventory labels, not completed definitions. It does not execute definitions, does not execute definition drafts, does not complete Sigma_A, does not complete any formal definition, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not complete formalization, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.104 closes, the project can safely begin staged definition drafting. The next milestone should draft Sigma_A as a formal definition draft only. Sigma_A draft execution must remain separate from Sigma_A definition completion, theorem candidate planning, theorem proof, proof assistant verification, validation, and manuscript readiness.
+
+Next target:
+v8.105 Sigma_A formal definition draft execution.
