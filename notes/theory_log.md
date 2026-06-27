@@ -15843,3 +15843,99 @@ This milestone resolves SPCHG-006 only. It does not authorize completion executi
 
 Next target:
 v8.100 final residual condition evidence execution for the final remaining unresolved conditional-hold gap.
+
+## Experiment 180: Final Residual Condition Evidence Execution
+
+Milestone: v8.100 - Final Residual Condition Evidence Execution
+
+Branch:
+v8-100-final-residual-condition-evidence-execution
+
+Main commit:
+4db3416 Add final residual condition evidence execution
+
+Source artifact:
+outputs/residual_ambiguity_evidence_boundary_audit_plus_gap_resolution_decision_v8_99.md
+
+Generated artifact:
+outputs/final_residual_condition_evidence_execution_v8_100.md
+
+Builder:
+viruse_fabric/writing/final_residual_condition_evidence_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_180_final_residual_condition_evidence_execution.py
+
+Result:
+The v8.100 experiment passed and produced final residual condition evidence for SPCHG-007 / SPCC-007.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Final residual condition evidence execution count: 1
+- Final residual evidence row count: 5
+- Final residual scope rule count: 3
+- Final residual acceptance test count: 5
+- Final residual blocked overreach count: 5
+- Target gap count: 1
+- Target gap ID count: 1
+- Target criterion count: 1
+- Evidence support count: 1
+- Previously resolved gaps retained count: 6
+- Gap resolution decision count: 0
+- Targeted gap resolution decision count: 0
+- Newly resolved gap count: 0
+- Resolved gap count: 6
+- Unresolved gap count: 1
+- Remaining blocking gap count: 1
+- Gap resolution authorized count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Carried residual ambiguity evidence boundary audit count: 1
+- Carried gap resolution decision count: 1
+- Carried targeted gap resolution decision count: 1
+- Carried newly resolved gap count: 1
+- Carried resolved gap count: 6
+- Carried unresolved gap count: 1
+- Carried remaining blocking gap count: 1
+- Carried gap resolution authorized count: 1
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has produced final residual condition evidence for SPCHG-007 / SPCC-007 while preserving the distinction between evidence execution, gap resolution decision, completion decision, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, independent experiment, manuscript readiness, readiness approval, and new citation additions.
+
+Boundary:
+This milestone produces evidence only. SPCHG-007 remains unresolved. It does not record a gap resolution decision, does not authorize completion execution, does not complete Sigma_A, does not complete any formal definition, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not complete formalization, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations. One unresolved and blocking conditional-hold gap remains.
+
+Next target:
+v8.101 final residual evidence boundary audit plus gap resolution decision for SPCHG-007 / SPCC-007.
