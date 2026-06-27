@@ -16757,3 +16757,123 @@ After v8.108 closes, the project can move toward a controlled carrier-type selec
 
 Next target:
 v8.109 Sigma_A carrier-type selection decision boundary plan.
+
+## Experiment 189: Sigma_A Carrier-Type Selection Decision Boundary Plan
+
+Milestone: v8.109 - Sigma_A Carrier-Type Selection Decision Boundary Plan
+
+Branch:
+v8-109-sigma-a-carrier-type-selection-decision-boundary-plan
+
+Main commit:
+14a77f3 Add Sigma_A carrier-type selection decision boundary plan
+
+Source artifact:
+outputs/sigma_a_carrier_type_option_audit_execution_v8_108.md
+
+Generated artifact:
+outputs/sigma_a_carrier_type_selection_decision_boundary_plan_v8_109.md
+
+Builder:
+viruse_fabric/writing/sigma_a_carrier_type_selection_decision_boundary_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_189_sigma_a_carrier_type_selection_decision_boundary_plan.py
+
+Result:
+The v8.109 experiment passed and produced a Sigma_A carrier-type selection decision boundary plan after the carrier-type option audit.
+
+Planned decision-boundary scope:
+- Admissibility compatibility.
+- Constraint-region compatibility.
+- Observer-projection compatibility.
+- Causal-mass compatibility.
+- Trajectory compatibility.
+- Proof-readiness without premature formalization.
+- Manuscript explainability.
+- Audit traceability.
+
+Candidate carrier options carried from v8.108:
+- Set-like carrier.
+- Typed-product carrier.
+- Graph-state carrier.
+- Measurable-space carrier.
+- Structured-schema carrier.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A carrier-type selection decision boundary plan count: 1
+- Selection boundary criterion count: 8
+- Selection decision question count: 8
+- Candidate carrier option carried count: 5
+- Selection boundary blocked overreach count: 8
+- Carried Sigma_A carrier-type option audit execution count: 1
+- Carried carrier type option audited count: 5
+- Carried carrier type option audit row count: 5
+- Carried carrier option evaluation criterion count: 8
+- Carried carrier option not selected status count: 5
+- Carried Sigma_A carrier time-index refinement plan count: 1
+- Carried Sigma_A draft consistency boundary audit count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- Carrier type selection count: 0
+- Carrier type selection decision count: 0
+- Carrier type selection execution count: 0
+- Carrier type refinement execution count: 0
+- Carrier refinement execution count: 0
+- Time-index refinement execution count: 0
+- Sigma_A refinement execution count: 0
+- New Sigma_A draft clause count: 0
+- New definition draft execution count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has produced a Sigma_A carrier-type selection decision boundary plan after the carrier-type option audit. It defined selection boundary criteria and decision questions while preserving the distinction between decision-boundary planning, carrier selection, carrier selection decision execution, carrier refinement execution, Sigma_A refinement execution, new draft execution, definition execution, Sigma_A definition completion, completed formal definitions, theorem candidate planning, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, independent experiment, manuscript readiness, readiness approval, and new citation additions.
+
+Boundary:
+This milestone is a carrier-type selection decision boundary plan only. It does not select a carrier type, does not execute a carrier-type selection decision, does not execute carrier refinement, does not execute time-index refinement, does not execute Sigma_A refinement, does not create new Sigma_A draft clauses, does not execute a new definition draft, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.109 closes, the project can execute a controlled carrier-type selection decision. That future milestone may select a carrier type, but it still must not execute carrier refinement, execute Sigma_A refinement, complete Sigma_A, complete formal definitions, create theorem candidates, prove theorems, provide proof assistant verification, validate externally, approve manuscript readiness, or add citations unless those are explicitly separate milestones.
+
+Next target:
+v8.110 Sigma_A carrier-type selection decision execution.
