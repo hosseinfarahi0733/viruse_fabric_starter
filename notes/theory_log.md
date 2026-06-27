@@ -12980,3 +12980,110 @@ The project has executed one controlled bridge from finite R-path quotient class
 
 Critical reviewer note:
 The scaffold is useful because it creates a controlled target for later attractor-class definition work. It is not yet a theorem, not yet a completed formal definition, and not yet a biological or operational claim.
+
+## Experiment 157: Attractor Class Scaffold Boundary Audit
+
+Milestone: v8.77 — Attractor Class Scaffold Boundary Audit
+
+Branch:
+v8-77-attractor-class-scaffold-boundary-audit
+
+Main artifact:
+outputs/attractor_class_scaffold_boundary_audit_v8_77.md
+
+Source artifact:
+outputs/attractor_class_bridge_execution_v8_76.md
+
+Builder:
+viruse_fabric/writing/attractor_class_scaffold_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_157_attractor_class_scaffold_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Attractor class scaffold boundary audit count: 1
+- Audited scaffold count: 1
+- Scaffold boundary row count: 6
+- Allowed claim count: 6
+- Blocked claim count: 6
+- New bridge execution count: 0
+- New attractor class candidate scaffold count: 0
+- New theorem proven count: 0
+- Proof execution count: 0
+- Attractor class theorem attempt count: 0
+- Attractor class theorem proven count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.76 signals:
+- Carried attractor class bridge execution count: 1
+- Carried authorized bridge consumed count: 1
+- Carried attractor class candidate scaffold count: 1
+- Carried quotient carrier count: 1
+- Carried stabilization predicate placeholder count: 1
+- Carried bridge boundary row count: 6
+- Carried attractor class theorem attempt count: 0
+- Carried attractor class theorem proven count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried cumulative limited theorem proven count: 5
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 61
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Audited scaffold:
+- ACSA-001: finite R-path quotient carrier [a]_R.
+- ACSA-002: stabilization predicate placeholder Sigma_A.
+- ACSA-003: AttractorClassCandidate shape.
+- ACSA-004: constraint-region relation.
+- ACSA-005: causal mass and observer projection.
+- ACSA-006: research readiness boundary.
+
+Audit summary:
+The v8.77 artifact audits the attractor-class candidate scaffold created in v8.76. It adds no new scaffold, no theorem proof, no proof execution, no completed attractor-class definition, no completed constraint-region definition, no completed causal-mass definition, no completed observer-projection definition, no proof assistant verification, no completed formalization, no framework-level proof, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has audited the attractor-class candidate scaffold created in v8.76 and preserved the distinction between that scaffold and theorem proof, completed attractor-class definition, completed constraint-region definition, causal-mass completion, observer-projection completion, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The scaffold is useful but fragile. It must not be treated as attractor theory, biological validation, causal-mass completion, observer-projection completion, or submission readiness.
