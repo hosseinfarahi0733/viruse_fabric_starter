@@ -12698,3 +12698,95 @@ The project has executed one additional limited manual theorem proof showing tha
 
 Critical reviewer note:
 PKT-005 is important because it turns the mutual reachability equivalence kernel into quotient classes. It remains a local path-kernel theorem, not a complete theory result.
+
+## Experiment 154: Path Kernel Theorem Stack Boundary Audit
+
+Milestone: v8.74 — Path Kernel Theorem Stack Boundary Audit
+
+Branch:
+v8-74-path-kernel-theorem-stack-boundary-audit
+
+Main artifact:
+outputs/path_kernel_theorem_stack_boundary_audit_v8_74.md
+
+Source artifact:
+outputs/equivalence_class_quotient_structure_theorem_attempt_v8_73.md
+
+Builder:
+viruse_fabric/writing/path_kernel_theorem_stack_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_154_path_kernel_theorem_stack_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Path kernel theorem stack boundary audit count: 1
+- Audited limited theorem count: 5
+- Theorem stack count: 1
+- Theorem stack boundary audit row count: 7
+- Allowed claim count: 7
+- Blocked claim count: 7
+- Stack scope boundary count: 1
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.73 signals:
+- Carried equivalence class quotient structure theorem attempt count: 1
+- Carried equivalence class definition count: 1
+- Carried quotient family definition count: 1
+- Carried quotient structure property count: 5
+- Carried cumulative limited theorem proven count: 5
+- Carried new theorem proven count: 1
+- Carried proof execution count: 1
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 58
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Audited theorem stack:
+- PKT-001: finite R-path kernel closure theorem.
+- PKT-002: finite R-path concatenation identity theorem.
+- PKT-003: finite R-path reachability preorder theorem.
+- PKT-004: finite R-path mutual reachability equivalence theorem.
+- PKT-005: finite R-path equivalence class quotient structure theorem.
+
+Audit summary:
+The v8.74 artifact audits five already recorded limited theorem results over the finite R-path kernel. It adds no new theorem proof, no new proof execution, no proof assistant verification, no completed formalization, no completed definitions, no framework-level proof, no proof gap resolution, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has audited five limited manual finite R-path kernel theorems as a stack and preserved the distinction between this stack and proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, citation additions, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The stack is now mathematically meaningful, but still local. It supports the path kernel only. It does not justify claims about the full Viruse Fabric framework, biological validity, causal mass, observer projection, or submission readiness.
