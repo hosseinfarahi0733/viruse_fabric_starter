@@ -11961,3 +11961,89 @@ The project has executed two minimal manual lemma proofs for the finite R-path k
 
 Critical reviewer note:
 This milestone finally moves from planning to proof execution, but only at the minimal lemma level. The result is mathematically useful scaffolding, not a full formal proof of the Viruse Fabric framework. The abandoned branch v8-65-draft-boundary-resolution-authorization-execution must not be tagged, merged, or treated as the official v8.65 milestone.
+
+## Experiment 146: Minimal Path Lemma Dependency Expansion
+
+Milestone: v8.66 — Minimal Path Lemma Dependency Expansion
+
+Branch:
+v8-66-minimal-path-lemma-dependency-expansion
+
+Main artifact:
+outputs/minimal_path_lemma_dependency_expansion_v8_66.md
+
+Source artifact:
+outputs/first_minimal_formal_lemma_proof_execution_v8_65.md
+
+Builder:
+viruse_fabric/writing/minimal_path_lemma_dependency_expansion.py
+
+Experiment:
+viruse_fabric/experiments/exp_146_minimal_path_lemma_dependency_expansion.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Minimal path lemma dependency expansion count: 1
+- Dependency expansion kernel count: 1
+- New lemma statement count: 3
+- New lemma proof execution count: 3
+- New lemma proven count: 3
+- Carried lemma proven count: 2
+- Cumulative lemma proven count: 5
+- Theorem statement count: 0
+- Theorem proven count: 0
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried corrected v8.65 signals:
+- Carried first minimal formal lemma proof execution count: 1
+- Carried formal definition kernel count: 1
+- Carried lemma statement count: 2
+- Carried lemma proof execution count: 2
+- Carried theorem proven count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 14
+- Boundary phrase count: 50
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+New proven minimal lemmas:
+- LMP-003: Singleton sequence is a finite R-path.
+- LMP-004: Suffix closure of finite R-paths.
+- LMP-005: Contiguous subpath closure of finite R-paths.
+
+Interpretation:
+The v8.66 artifact expands the finite R-path proof kernel with three additional minimal manual lemma proofs while keeping theorem proof, proof assistant verification, formalization completion, definition completion execution, completed formal definitions, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed three additional minimal manual lemma proofs for the finite R-path kernel, bringing the cumulative minimal lemma count to five while keeping theorem proof, proof assistant verification, formalization completion, completed formal definitions, definition completion execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This milestone expands the dependency base needed for later theorem attempts. The new lemmas are deliberately small, local, and manually checked. They strengthen the path-kernel scaffold without claiming a full formal proof of Viruse Fabric.
