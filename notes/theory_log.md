@@ -15573,3 +15573,90 @@ The project has executed standalone minimal adequacy condition evidence for SPCH
 
 Critical reviewer note:
 This artifact advances the fifth conditional-hold gap by creating minimal adequacy condition evidence only. SPCHG-005 still requires a later boundary audit plus resolution decision before the unresolved-gap count can fall again.
+
+## Experiment 177: Minimal Adequacy Evidence Boundary Audit Plus Gap Resolution Decision
+
+Milestone: v8.97 - Minimal Adequacy Evidence Boundary Audit Plus Gap Resolution Decision
+
+Branch:
+v8-97-minimal-adequacy-evidence-boundary-audit-plus-gap-resolution-decision
+
+Main commit:
+8a3cdcd Add minimal adequacy evidence boundary audit plus gap resolution decision
+
+Source artifact:
+outputs/minimal_adequacy_condition_evidence_execution_v8_96.md
+
+Generated artifact:
+outputs/minimal_adequacy_evidence_boundary_audit_plus_gap_resolution_decision_v8_97.md
+
+Builder:
+viruse_fabric/writing/minimal_adequacy_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Experiment:
+viruse_fabric/experiments/exp_177_minimal_adequacy_evidence_boundary_audit_plus_gap_resolution_decision.py
+
+Result:
+The v8.97 experiment passed and produced a targeted boundary audit plus gap resolution decision for SPCHG-005 / SPCC-005.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Minimal adequacy evidence boundary audit count: 1
+- Audited minimal adequacy evidence count: 1
+- Minimal adequacy boundary audit row count: 5
+- Accepted claim count: 5
+- Blocked claim count: 5
+- Gap resolution decision count: 1
+- Targeted gap resolution decision count: 1
+- Targeted gap count: 1
+- Targeted criterion count: 1
+- Evidence supported gap count: 1
+- Previously resolved gaps retained count: 4
+- Resolved gap count: 5
+- Newly resolved gap count: 1
+- Unresolved gap count: 2
+- Remaining blocking gap count: 2
+- Gap resolution authorized count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has audited minimal adequacy condition evidence and recorded a targeted resolution decision for SPCHG-005 while preserving the distinction between gap resolution, completion decision, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Boundary:
+This milestone resolves SPCHG-005 only after note commit, tag, fast-forward merge to master, and final master verification. It does not authorize completion execution, Sigma_A completion, theorem proof, proof assistant verification, framework-level proof, external validation, independent experiment, manuscript readiness, or new citation additions.
+
+Next target:
+v8.98 residual ambiguity condition evidence execution for SPCHG-006 / SPCC-006.
