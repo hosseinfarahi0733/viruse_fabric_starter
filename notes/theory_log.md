@@ -12321,3 +12321,88 @@ The project has executed one additional limited manual theorem proof for finite 
 
 Critical reviewer note:
 PKT-002 is intentionally narrow. It establishes singleton identities and associativity for endpoint-compatible concatenation inside the finite R-path kernel only. It is not a full-framework proof.
+
+## Experiment 150: Limited Theorem Pair Boundary Audit
+
+Milestone: v8.70 — Limited Theorem Pair Boundary Audit
+
+Branch:
+v8-70-limited-theorem-pair-boundary-audit
+
+Main artifact:
+outputs/limited_theorem_pair_boundary_audit_v8_70.md
+
+Source artifact:
+outputs/second_path_kernel_theorem_attempt_v8_69.md
+
+Builder:
+viruse_fabric/writing/limited_theorem_pair_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_150_limited_theorem_pair_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Limited theorem pair boundary audit count: 1
+- Audited limited theorem count: 2
+- Audited theorem pair count: 1
+- Pair boundary audit row count: 5
+- Allowed claim count: 5
+- Blocked claim count: 5
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 2
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.69 signals:
+- Carried second path kernel theorem attempt count: 1
+- Carried new theorem proven count: 1
+- Carried cumulative limited theorem proven count: 2
+- Carried proof execution count: 1
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 54
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Audited limited theorem pair:
+- PKT-001: finite R-path kernel closure theorem.
+- PKT-002: finite R-path concatenation identity theorem.
+
+Audit summary:
+The v8.70 artifact audits two already recorded limited finite R-path kernel theorem results. It adds no new theorem proof, no new proof execution, no proof assistant verification, no completed formalization, no completed definitions, no framework-level proof, no proof gap resolution, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has audited two limited manual finite R-path kernel theorems and preserved the distinction between this theorem pair and proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, citation additions, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The theorem pair is meaningful scaffolding for the path kernel, but it remains far below a complete theory result. The cumulative limited theorem count is two, not a license to inflate the project claim.
