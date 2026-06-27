@@ -13999,3 +13999,125 @@ The project has executed a controlled completion decision for the Sigma_A draft 
 
 Critical reviewer note:
 The conditional-hold outcome is intentional. The project has planning and boundary-audit artifacts, but it does not yet have standalone completion evidence for all seven Sigma_A criteria.
+
+## Experiment 166: Stabilization Predicate Conditional Hold Gap Register
+
+Milestone: v8.86 — Stabilization Predicate Conditional Hold Gap Register
+
+Branch:
+v8-86-stabilization-predicate-conditional-hold-gap-register
+
+Main artifact:
+outputs/stabilization_predicate_conditional_hold_gap_register_v8_86.md
+
+Source artifact:
+outputs/stabilization_predicate_completion_decision_execution_v8_85.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_conditional_hold_gap_register.py
+
+Experiment:
+viruse_fabric/experiments/exp_166_stabilization_predicate_conditional_hold_gap_register.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Stabilization predicate conditional hold gap register count: 1
+- Conditional hold gap row count: 7
+- Unresolved gap count: 7
+- Resolved gap count: 0
+- Blocking gap count: 7
+- Primary blocker count: 4
+- New completion decision count: 0
+- New completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.85 signals:
+- Carried stabilization predicate completion decision execution count: 1
+- Carried completion decision count: 1
+- Carried conditional hold decision count: 1
+- Carried ready for completion execution decision count: 0
+- Carried completion execution authorized count: 0
+- Carried criterion decision row count: 7
+- Carried passed criterion count: 0
+- Carried deferred criterion count: 7
+- Carried failed criterion count: 0
+- Carried completion execution count: 0
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried new completion criterion count: 0
+- Carried new completion decision plan count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 70
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Registered conditional-hold gaps:
+- SPCHG-001: Carrier-domain exactness evidence gap.
+- SPCHG-002: Local persistence testability gap.
+- SPCHG-003: Recurrence witness gap.
+- SPCHG-004: Exclusion and failure condition gap.
+- SPCHG-005: Constraint-dependency completion gap.
+- SPCHG-006: Post-evidence boundary audit gap.
+- SPCHG-007: Completion execution authorization gap.
+
+Register summary:
+The v8.86 artifact registers the unresolved conditional-hold gaps that block Sigma_A completion execution. It creates no new completion decision, authorizes no completion execution, performs no definition execution, creates no new draft clause, creates no new completion criterion, completes no stabilization predicate definition, completes no attractor-class definition, completes no constraint-region definition, completes no causal-mass definition, completes no observer-projection definition, proves no theorem, performs no proof execution, performs no proof assistant verification, adds no citation, completes no external validation, and creates no manuscript readiness.
+
+Safe claim:
+The project has registered the conditional-hold gaps that block Sigma_A completion execution while preserving the distinction between gap registration, gap resolution, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The conditional hold should remain active until each registered gap has a standalone resolving artifact and a later boundary audit. The register is not a resolution.
