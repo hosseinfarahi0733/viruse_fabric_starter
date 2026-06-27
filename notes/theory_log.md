@@ -11880,3 +11880,84 @@ The project has planned draft boundary resolution authorization targets and sele
 
 Critical reviewer note:
 DBRTP-001 is selected first because state carrier admissibility and interpretation boundary language constrain later transition, compatibility, path, and projection work. Selection for later authorization execution is not authorization execution and is not resolution.
+
+## Experiment 145: First Minimal Formal Lemma Proof Execution
+
+Milestone: v8.65 — First Minimal Formal Lemma Proof Execution
+
+Branch:
+v8-65-first-minimal-formal-lemma-proof-execution
+
+Main artifact:
+outputs/first_minimal_formal_lemma_proof_execution_v8_65.md
+
+Source artifact:
+outputs/draft_boundary_resolution_authorization_plan_v8_64.md
+
+Builder:
+viruse_fabric/writing/first_minimal_formal_lemma_proof_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_145_first_minimal_formal_lemma_proof_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- First minimal formal lemma proof execution count: 1
+- Formal definition kernel count: 1
+- Lemma statement count: 2
+- Lemma proof execution count: 2
+- Lemma proven count: 2
+- Theorem statement count: 0
+- Theorem proven count: 0
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 1
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.64 signals:
+- Carried draft boundary resolution authorization plan count: 1
+- Carried selected resolution authorization candidate count: 1
+- Carried resolution authorization execution count: 0
+- Carried resolution execution count: 0
+- Carried draft boundary issue resolution count: 0
+- Carried resolved draft boundary issue count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 14
+- Boundary phrase count: 49
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Proven minimal lemmas:
+- LMP-001: Prefix closure of finite R-paths.
+- LMP-002: Concatenation closure of endpoint-compatible finite R-paths.
+
+Interpretation:
+The v8.65 artifact executes two minimal manual lemma proofs for the finite R-path kernel while keeping theorem proof, proof assistant verification, formalization completion, definition completion execution, completed formal definitions, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has executed two minimal manual lemma proofs for the finite R-path kernel while keeping theorem proof, proof assistant verification, formalization completion, completed formal definitions, definition completion execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+This milestone finally moves from planning to proof execution, but only at the minimal lemma level. The result is mathematically useful scaffolding, not a full formal proof of the Viruse Fabric framework. The abandoned branch v8-65-draft-boundary-resolution-authorization-execution must not be tagged, merged, or treated as the official v8.65 milestone.
