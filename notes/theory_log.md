@@ -13087,3 +13087,112 @@ The project has audited the attractor-class candidate scaffold created in v8.76 
 
 Critical reviewer note:
 The scaffold is useful but fragile. It must not be treated as attractor theory, biological validation, causal-mass completion, observer-projection completion, or submission readiness.
+
+## Experiment 158: Stabilization Predicate Definition Plan
+
+Milestone: v8.78 — Stabilization Predicate Definition Plan
+
+Branch:
+v8-78-stabilization-predicate-definition-plan
+
+Main artifact:
+outputs/stabilization_predicate_definition_plan_v8_78.md
+
+Source artifact:
+outputs/attractor_class_scaffold_boundary_audit_v8_77.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_definition_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_158_stabilization_predicate_definition_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Stabilization predicate definition plan count: 1
+- Stabilization predicate requirement row count: 6
+- Selected predicate placeholder count: 1
+- Planned predicate symbol count: 1
+- Planned definition target count: 1
+- Definition execution count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.77 signals:
+- Carried attractor class scaffold boundary audit count: 1
+- Carried audited scaffold count: 1
+- Carried scaffold boundary row count: 6
+- Carried new bridge execution count: 0
+- Carried new attractor class candidate scaffold count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried attractor class theorem attempt count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried cumulative limited theorem proven count: 5
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 62
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Planned predicate target:
+- Predicate placeholder: Sigma_A.
+- Planned carrier: finite R-path quotient carrier [a]_R.
+- Planned definition status: not executed and not completed in this milestone.
+- Future dependency: later controlled definition execution and boundary audit.
+
+Requirement rows:
+- SPD-REQ-001: Carrier domain.
+- SPD-REQ-002: Local persistence condition.
+- SPD-REQ-003: Recurrence or return condition.
+- SPD-REQ-004: Constraint-compatibility placeholder.
+- SPD-REQ-005: Failure and exclusion clause.
+- SPD-REQ-006: Audit requirements.
+
+Plan summary:
+The v8.78 artifact plans the later definition of Sigma_A only. It adds no definition execution, no stabilization predicate definition completion, no completed attractor-class definition, no completed constraint-region definition, no causal-mass completion, no observer-projection completion, no theorem proof, no proof execution, no proof assistant verification, no completed formalization, no framework-level proof, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has planned the later definition of the stabilization predicate placeholder Sigma_A while preserving the distinction between a definition plan and definition execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+The plan is necessary because Sigma_A must not become a decorative symbol pretending to be a definition. The next execution milestone must define the predicate under explicit carrier, persistence, recurrence, exclusion, and audit conditions.
