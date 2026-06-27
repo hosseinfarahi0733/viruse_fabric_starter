@@ -11790,3 +11790,93 @@ The project has planned four draft boundary resolution targets covering ten unre
 
 Critical reviewer note:
 The ten unresolved draft boundary issues are grouped into four resolution targets so that later execution can be controlled and audited. Targeting is not resolution. No formal definition completion can be claimed from this milestone.
+
+## Experiment 144: Draft Boundary Resolution Authorization Plan
+
+Milestone: v8.64 — Draft Boundary Resolution Authorization Plan
+
+Branch:
+v8-64-draft-boundary-resolution-authorization-plan
+
+Main artifact:
+outputs/draft_boundary_resolution_authorization_plan_v8_64.md
+
+Source artifact:
+outputs/draft_boundary_resolution_targeting_plan_v8_63.md
+
+Builder:
+viruse_fabric/writing/draft_boundary_resolution_authorization_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_144_draft_boundary_resolution_authorization_plan.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Draft boundary resolution authorization plan count: 1
+- Authorization target row count: 4
+- Selected resolution authorization candidate count: 1
+- Deferred resolution authorization candidate count: 3
+- Authorization planned boundary issue count: 10
+- Selected authorization boundary issue count: 2
+- Deferred authorization boundary issue count: 8
+- Resolution authorization execution count: 0
+- Resolution execution count: 0
+- Draft boundary issue resolution count: 0
+- Resolved draft boundary issue count: 0
+- Completed definition item count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Carried draft boundary resolution targeting plan count: 1
+- Carried resolution target row count: 4
+- Carried targeted draft boundary issue count: 10
+- Carried high-priority resolution target count: 3
+- Carried medium-priority resolution target count: 1
+- Carried resolution execution count: 0
+- Carried draft boundary issue resolution count: 0
+- Carried unresolved targeted draft boundary issue count: 10
+- Carried resolved draft boundary issue count: 0
+- Carried completed definition item count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 47
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.64 artifact plans authorization for later draft boundary resolution work while keeping resolution authorization execution, resolution execution, draft boundary issue resolution, resolved draft boundary issues, definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has planned draft boundary resolution authorization targets and selected one candidate for later authorization execution while keeping resolution authorization execution, resolution execution, draft boundary issue resolution, resolved draft boundary issues, definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+DBRTP-001 is selected first because state carrier admissibility and interpretation boundary language constrain later transition, compatibility, path, and projection work. Selection for later authorization execution is not authorization execution and is not resolution.
