@@ -14247,3 +14247,138 @@ The project has audited the conditional-hold gap register that blocks Sigma_A co
 
 Critical reviewer note:
 All seven registered gaps remain unresolved and blocking. The next useful move should not be another generic planning loop. A targeted standalone evidence execution for carrier-domain exactness is now justified.
+
+## Experiment 168: Stabilization Predicate Carrier-Domain Exactness Evidence Execution
+
+Milestone: v8.88 - Stabilization Predicate Carrier-Domain Exactness Evidence Execution
+
+Branch:
+v8-88-stabilization-predicate-carrier-domain-exactness-evidence-execution
+
+Main artifact:
+outputs/stabilization_predicate_carrier_domain_exactness_evidence_execution_v8_88.md
+
+Source artifact:
+outputs/stabilization_predicate_conditional_hold_gap_register_boundary_audit_v8_87.md
+
+Builder:
+viruse_fabric/writing/stabilization_predicate_carrier_domain_exactness_evidence_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_168_stabilization_predicate_carrier_domain_exactness_evidence_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Carrier domain exactness evidence execution count: 1
+- Carrier domain evidence row count: 5
+- Carrier domain scope rule count: 3
+- Carrier domain acceptance test count: 5
+- Carrier domain blocked overreach count: 5
+- Targeted gap count: 1
+- Targeted gap ID count: 1
+- Targeted criterion count: 1
+- Evidence support count: 1
+- Gap resolution count: 0
+- Resolved gap count: 0
+- Unresolved gap count: 7
+- Remaining blocking gap count: 7
+- New completion decision count: 0
+- New completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.87 signals:
+- Carried gap register boundary audit count: 1
+- Carried audited gap register count: 1
+- Carried audited gap row count: 7
+- Carried unresolved gap count: 7
+- Carried resolved gap count: 0
+- Carried blocking gap count: 7
+- Carried primary blocker count: 4
+- Carried new gap resolution count: 0
+- Carried new completion decision count: 0
+- Carried new completion execution count: 0
+- Carried completion execution authorized count: 0
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried new completion criterion count: 0
+- Carried new completion decision plan count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 72
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Target:
+- Targeted gap: SPCHG-001
+- Targeted criterion: SPCC-001
+- Targeted evidence theme: carrier-domain exactness
+- Evidence support produced: yes
+- Gap resolution recorded: no
+
+Evidence rows:
+- SPCDEE-001: Carrier source.
+- SPCDEE-002: Carrier element shape.
+- SPCDEE-003: No domain import.
+- SPCDEE-004: Finite closure guard.
+- SPCDEE-005: Draft-predicate boundary.
+
+Evidence summary:
+The v8.88 artifact executes carrier-domain exactness evidence for SPCHG-001 and SPCC-001. It records evidence support but resolves no gap, creates no new completion decision, authorizes no completion execution, performs no definition execution, creates no new draft clause, creates no new completion criterion, completes no stabilization predicate definition, completes no attractor-class definition, completes no constraint-region definition, completes no causal-mass definition, completes no observer-projection definition, proves no theorem, performs no proof execution, performs no proof assistant verification, adds no citation, completes no external validation, and creates no manuscript readiness.
+
+Safe claim:
+The project has executed standalone carrier-domain exactness evidence for SPCHG-001 linked to SPCC-001 while preserving the distinction between evidence execution, gap resolution, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+This is real progress because it provides standalone carrier-domain evidence for the first conditional-hold gap. It still requires a later targeted audit and resolution decision before the gap can be considered resolved.
