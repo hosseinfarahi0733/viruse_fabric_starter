@@ -12879,3 +12879,104 @@ The project has authorized one controlled bridge from the audited finite R-path 
 
 Critical reviewer note:
 ACB-001 is intentionally narrow. It allows the next milestone to define an attractor-class candidate using quotient classes plus an explicit stabilization predicate, but it does not claim that attractor theory, causal mass, observer projection, or constraint-compatible regions are complete.
+
+## Experiment 156: Attractor Class Bridge Execution
+
+Milestone: v8.76 — Attractor Class Bridge Execution
+
+Branch:
+v8-76-attractor-class-bridge-execution
+
+Main artifact:
+outputs/attractor_class_bridge_execution_v8_76.md
+
+Source artifact:
+outputs/attractor_class_bridge_authorization_plan_v8_75.md
+
+Builder:
+viruse_fabric/writing/attractor_class_bridge_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_156_attractor_class_bridge_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Attractor class bridge execution count: 1
+- Authorized bridge consumed count: 1
+- Attractor class candidate scaffold count: 1
+- Quotient carrier count: 1
+- Stabilization predicate placeholder count: 1
+- Bridge boundary row count: 6
+- Attractor class theorem attempt count: 0
+- Attractor class theorem proven count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.75 signals:
+- Carried attractor class bridge authorization plan count: 1
+- Carried bridge candidate count: 3
+- Carried selected bridge candidate count: 1
+- Carried authorized bridge candidate count: 1
+- Carried bridge execution count: 0
+- Carried attractor class theorem attempt count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried cumulative limited theorem proven count: 5
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 60
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Executed scaffold:
+- ACB-EXEC-001: attractor-class candidate scaffold.
+- Source bridge: ACB-001, quotient class as attractor-class carrier.
+- Source carrier: finite R-path quotient class [a]_R from PKT-005.
+- Local predicate: Sigma_A([a]_R), a named stabilization predicate placeholder.
+- Candidate shape: AttractorClassCandidate([a]_R, Sigma_A, boundary_status).
+
+Execution summary:
+The v8.76 artifact executes the authorized bridge only by creating an attractor-class candidate scaffold from a finite R-path quotient carrier plus an explicit stabilization predicate placeholder. It adds no theorem proof, no proof execution, no completed attractor-class definition, no completed constraint-region definition, no completed causal-mass definition, no completed observer-projection definition, no proof assistant verification, no completed formalization, no framework-level proof, no citation additions, no external validation, and no manuscript readiness.
+
+Safe claim:
+The project has executed one controlled bridge from finite R-path quotient classes to an attractor-class candidate scaffold while keeping theorem proof, proof execution, proof assistant verification, completed formalization, completed definitions, framework-level proof, proof gap resolution, citation additions, external validation, and manuscript readiness at zero.
+
+Critical reviewer note:
+The scaffold is useful because it creates a controlled target for later attractor-class definition work. It is not yet a theorem, not yet a completed formal definition, and not yet a biological or operational claim.
