@@ -11616,3 +11616,89 @@ The project has executed a first controlled formal definition drafting pass for 
 
 Critical reviewer note:
 This milestone drafts the first FDCT-001 signatures needed for later proof work. The drafted signatures remain open because their axioms, domains, codomains, compatibility rules, and observer semantics still require audit before completion can be considered. Drafting is not completion.
+
+## Experiment 142: Drafted Formal Definition Boundary Audit
+
+Milestone: v8.62 — Drafted Formal Definition Boundary Audit
+
+Branch:
+v8-62-drafted-formal-definition-boundary-audit
+
+Main artifact:
+outputs/drafted_formal_definition_boundary_audit_v8_62.md
+
+Source artifact:
+outputs/first_controlled_formal_definition_drafting_execution_v8_61.md
+
+Builder:
+viruse_fabric/writing/drafted_formal_definition_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_142_drafted_formal_definition_boundary_audit.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Drafted formal definition boundary audit count: 1
+- Audited drafted definition item count: 5
+- Draft boundary issue count: 10
+- Domain boundary issue count: 3
+- Axiom boundary issue count: 3
+- Semantic boundary issue count: 2
+- Dependency boundary issue count: 2
+- Unresolved draft boundary issue count: 10
+- Resolved draft boundary issue count: 0
+- Completed definition item count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Formal definition completion audit required count: 1
+- Carried controlled formal definition drafting execution count: 1
+- Carried drafted definition package count: 1
+- Carried drafted definition item count: 5
+- Carried drafted signature count: 5
+- Carried unresolved drafting boundary count: 5
+- Carried completed definition item count: 0
+- Carried completed formal definition count: 0
+- Carried formal definition completion audit required count: 1
+- Carried definition completion execution count: 0
+- Carried successful theorem proof count: 0
+- Carried successful lemma proof count: 0
+
+Hard-zero counts preserved:
+- Formal definition completion approval execution count: 0
+- Formal definition completion approved count: 0
+- Formal definition completed count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Theorem proven count: 0
+- Lemma proven count: 0
+- Formalization complete count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 16
+- Boundary phrase count: 45
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Interpretation:
+The v8.62 artifact audits boundary issues in drafted formal definition items while keeping all draft boundary issues unresolved and keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, external validation, independent experiment, submission readiness, readiness approval, and new citation additions at zero.
+
+Safe claim:
+The project has audited ten boundary issues across five drafted formal definition items while keeping all draft boundary issues unresolved and keeping definition completion execution, completed formal definitions, theorem proof, lemma proof, formal mathematical proof, formal proof execution, proof gap resolution, citation additions, external validation, and manuscript submission readiness at zero.
+
+Critical reviewer note:
+The five drafted formal definition items remain useful scaffolding only. They are blocked by domain, axiom, semantic, and dependency boundary issues. Completion cannot be claimed until a later milestone resolves and audits those boundaries.
