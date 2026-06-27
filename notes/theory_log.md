@@ -18468,3 +18468,140 @@ After v8.122 closes, the project should audit the Sigma_A carrier-level draft as
 
 Next target:
 v8.123 Sigma_A carrier-level draft assembly boundary audit.
+
+## Experiment 203: Sigma_A Carrier-Level Draft Assembly Boundary Audit
+
+Milestone: v8.123 - Sigma_A Carrier-Level Draft Assembly Boundary Audit
+
+Branch:
+v8-123-sigma-a-carrier-level-draft-assembly-boundary-audit
+
+Main commit:
+b797b82 Add Sigma_A carrier-level draft assembly boundary audit
+
+Source artifact:
+outputs/sigma_a_carrier_level_draft_assembly_execution_v8_122.md
+
+Generated artifact:
+outputs/sigma_a_carrier_level_draft_assembly_boundary_audit_v8_123.md
+
+Builder:
+viruse_fabric/writing/sigma_a_carrier_level_draft_assembly_boundary_audit.py
+
+Experiment:
+viruse_fabric/experiments/exp_203_sigma_a_carrier_level_draft_assembly_boundary_audit.py
+
+Result:
+The v8.123 experiment passed and audited Sigma_A carrier-level draft assembly boundaries after the v8.122 carrier-level draft assembly execution milestone.
+
+Boundary audit result:
+- X_A^tp remains only a carrier-level candidate for Draft Sigma_A.
+- Carrier slot placement remains recorded without new Sigma_A draft clause creation.
+- Six dependent objects remain deferred: Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A.
+- T_A remains outside the carrier-level draft assembly.
+- Whole Sigma_A draft assembly remains absent.
+- Sigma_A refinement and Sigma_A definition completion remain absent.
+- Definition execution and completed formal definitions remain absent.
+- Theorem, proof, validation, citation, and readiness layers remain absent.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A carrier-level draft assembly boundary audit count: 1
+- Carrier-level draft assembly boundary audit count: 1
+- Carrier-level draft assembly boundary audit row count: 8
+- Carrier-level draft assembly boundary preserved count: 8
+- Carrier-level draft assembly boundary audit finding count: 8
+- Assembled carrier candidate audited count: 1
+- Carrier slot placement audited count: 1
+- Carrier candidate import boundary preserved count: 1
+- Dependent object deferral preserved count: 6
+- Whole Sigma_A draft assembly blocker count: 1
+- New Sigma_A draft clause blocker count: 1
+- Sigma_A refinement blocker count: 1
+- Definition execution blocker count: 1
+- Proof-readiness blocker count: 1
+- Carried Sigma_A carrier-level draft assembly execution count: 1
+- Carried carrier-level draft assembly execution count: 1
+- Carried carrier-level draft assembly row count: 8
+- Carried carrier-level draft assembly check count: 8
+- Carried assembled carrier candidate count: 1
+- Carried carrier slot placement count: 1
+- Carried carrier candidate import count: 1
+- Carried dependent object deferred count: 6
+- Carried audit traceability carried count: 1
+- Carried Sigma_A carrier-level draft assembly execution plan count: 1
+- Carried carrier-level draft assembly execution plan count: 1
+- Carried Sigma_A draft assembly execution plan count: 1
+- Carried Sigma_A typed-product carrier refinement boundary audit count: 1
+- Carried refined typed-product carrier candidate audited count: 1
+- Carried dependent object boundary preserved count: 6
+- Carried Sigma_A typed-product carrier refinement execution count: 1
+- Carried refined typed-product carrier candidate count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- New carrier-level draft assembly execution count: 0
+- Whole Sigma_A draft assembly execution count: 0
+- New Sigma_A draft assembly execution count: 0
+- New Sigma_A draft clause count: 0
+- New definition draft execution count: 0
+- New typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- Time-index refinement execution count: 0
+- Sigma_A refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed a Sigma_A carrier-level draft assembly boundary audit after the carrier-level draft assembly execution milestone. It audited that X_A^tp remains only a carrier-level candidate, carrier slot placement remains recorded without new Sigma_A draft clause creation, dependent objects remain deferred, and blockers remain preserved against whole Sigma_A draft assembly execution, time-index refinement, Sigma_A refinement, definition execution, Sigma_A definition completion, theorem candidate planning, theorem proof, proof assistant verification, validation, readiness, and new citation additions.
+
+Boundary:
+This milestone is a Sigma_A carrier-level draft assembly boundary audit only. It does not execute new carrier-level draft assembly, does not execute whole Sigma_A draft assembly, does not execute new Sigma_A draft assembly, does not create new Sigma_A draft clauses, does not execute a new definition draft, does not execute new typed-product carrier refinement, does not execute generic carrier refinement, does not execute carrier-type refinement, does not execute time-index refinement, does not execute Sigma_A refinement, does not execute new component-slot integration, does not execute new component-slot refinement, does not perform a new carrier type selection, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.123 closes, the project can plan new Sigma_A carrier draft clause creation in a bounded milestone. That future milestone must remain a plan unless explicitly executed later. It must not execute whole Sigma_A draft assembly, time-index refinement, Sigma_A refinement, definition execution, Sigma_A definition completion, theorem candidate planning, theorem proof, validation, manuscript readiness, or new citations unless those are separate milestones.
+
+Next target:
+v8.124 Sigma_A carrier draft clause creation execution plan.
