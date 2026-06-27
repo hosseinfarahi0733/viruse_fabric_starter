@@ -15424,3 +15424,152 @@ The project has audited exclusion and failure condition evidence and recorded a 
 
 Critical reviewer note:
 Resolving SPCHG-004 reduces the conditional-hold gap register from four unresolved blocking gaps to three unresolved blocking gaps. It does not lift the conditional hold on Sigma_A completion execution.
+
+## Experiment 176: Minimal Adequacy Condition Evidence Execution
+
+Milestone: v8.96 - Minimal Adequacy Condition Evidence Execution
+
+Branch:
+v8-96-minimal-adequacy-condition-evidence-execution
+
+Main artifact:
+outputs/minimal_adequacy_condition_evidence_execution_v8_96.md
+
+Source artifact:
+outputs/exclusion_and_failure_evidence_boundary_audit_plus_gap_resolution_decision_v8_95.md
+
+Builder:
+viruse_fabric/writing/minimal_adequacy_condition_evidence_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_176_minimal_adequacy_condition_evidence_execution.py
+
+Result:
+Passed: True
+Errors: 0
+Warnings: 4
+
+Critical counts:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Minimal adequacy condition evidence execution count: 1
+- Minimal adequacy evidence row count: 5
+- Minimal adequacy scope rule count: 3
+- Minimal adequacy acceptance test count: 5
+- Minimal adequacy blocked overreach count: 5
+- Targeted gap count: 1
+- Targeted gap ID count: 1
+- Targeted criterion count: 1
+- Evidence support count: 1
+- Prior resolved gaps retained count: 4
+- Gap resolution decision count: 0
+- Targeted gap resolution decision count: 0
+- Newly resolved gap count: 0
+- Resolved gap count: 4
+- Unresolved gap count: 3
+- Remaining blocking gap count: 3
+- Gap resolution authorized count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- New stabilization predicate draft clause count: 0
+- New completion criterion count: 0
+- New completion decision plan count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formalization complete count: 0
+- Completed formal definition count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+
+Carried v8.95 signals:
+- Carried exclusion and failure evidence boundary audit count: 1
+- Carried audited exclusion and failure evidence count: 1
+- Carried exclusion and failure boundary audit row count: 5
+- Carried accepted claim count: 5
+- Carried blocked claim count: 5
+- Carried gap resolution decision count: 1
+- Carried targeted gap resolution decision count: 1
+- Carried evidence supported gap count: 1
+- Carried previously resolved gaps retained count: 3
+- Carried resolved gap count: 4
+- Carried newly resolved gap count: 1
+- Carried unresolved gap count: 3
+- Carried remaining blocking gap count: 3
+- Carried gap resolution authorized count: 1
+- Carried completion decision count: 0
+- Carried completion execution count: 0
+- Carried completion execution authorized count: 0
+- Carried definition execution count: 0
+- Carried new definition execution count: 0
+- Carried new stabilization predicate draft clause count: 0
+- Carried new completion criterion count: 0
+- Carried new completion decision plan count: 0
+- Carried stabilization predicate definition completion count: 0
+- Carried attractor class definition completion count: 0
+- Carried constraint region definition completion count: 0
+- Carried causal mass definition completion count: 0
+- Carried observer projection definition completion count: 0
+- Carried new theorem proven count: 0
+- Carried proof execution count: 0
+- Carried proof assistant verification count: 0
+- Carried formalization complete count: 0
+- Carried completed formal definition count: 0
+- Carried definition completion execution count: 0
+- Carried full framework formal proof count: 0
+- Carried proof gap resolution count: 0
+- Carried external validation count: 0
+- Carried new citation added count: 0
+- Carried cumulative limited theorem proven count: 5
+
+Boundary audit:
+- Conditional hold count: 1
+- Hard zero count: 13
+- Boundary phrase count: 80
+- Prohibited behavior count: 18
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+
+Target:
+- Targeted gap: SPCHG-005
+- Targeted criterion: SPCC-005
+- Targeted evidence theme: minimal adequacy condition
+- Evidence support produced: yes
+- Gap resolution decision recorded: no
+- Prior resolved gaps retained: SPCHG-001, SPCHG-002, SPCHG-003, and SPCHG-004
+- Total resolved gap count: 4
+- Unresolved gap count after evidence: 3
+- Remaining blocking gap count after evidence: 3
+
+Evidence rows:
+- MAC-EE-001: Minimal input set.
+- MAC-EE-002: Adequacy threshold.
+- MAC-EE-003: Insufficiency witness.
+- MAC-EE-004: Non-expansive guard.
+- MAC-EE-005: Draft-predicate boundary.
+
+Evidence summary:
+The v8.96 artifact executes minimal adequacy condition evidence for SPCHG-005 and SPCC-005. It records evidence support but records no gap resolution decision, creates no completion decision, authorizes no completion execution, performs no definition execution, creates no new draft clause, creates no new completion criterion, completes no stabilization predicate definition, completes no attractor-class definition, completes no constraint-region definition, completes no causal-mass definition, completes no observer-projection definition, proves no theorem, performs no proof execution, performs no proof assistant verification, adds no citation, completes no external validation, and creates no manuscript readiness.
+
+Safe claim:
+The project has executed standalone minimal adequacy condition evidence for SPCHG-005 linked to SPCC-005 while preserving the distinction between evidence execution, gap resolution decision, completion decision, completion execution, definition completion, theorem proof, proof assistant verification, completed formalization, framework-level proof, external validation, and manuscript readiness.
+
+Critical reviewer note:
+This artifact advances the fifth conditional-hold gap by creating minimal adequacy condition evidence only. SPCHG-005 still requires a later boundary audit plus resolution decision before the unresolved-gap count can fall again.
