@@ -22270,3 +22270,67 @@ This milestone is not theorem candidate planning.
 This milestone is not proof execution.
 This milestone is not validation.
 This milestone is not manuscript readiness.
+
+## v8.149.0 — Controlled Adm_A Definition Completion Execution Close Notes
+
+Status: official close candidate for v8.149.0.
+
+This close note records that v8.149 executes the first controlled dependent-object definition completion after official v8.148 dependent-object definition completion planning.
+
+Official claim after tag and final master test:
+- Controlled Adm_A definition completion execution count: 1
+- New controlled Adm_A definition completion execution count: 1
+- Adm_A definition completion execution count: 1
+- Dependent-object definition completion execution count: 1
+- Definition completion execution count: 1
+- Completion execution count: 1
+- Definition execution count: 1
+- New definition execution count: 1
+- Adm_A definition completion count: 1
+- Completed Adm_A definition count: 1
+- Dependent-object definition completion count: 1
+- Completed dependent-object definition count: 1
+- Imported dependent-object definition completion planning count: 1
+- Imported planned dependent-object count: 6
+- Imported completed Sigma_A definition count: 1
+- Imported completed formal definition count: 1
+
+Boundary counters preserved:
+- C_reg definition completion count: 0
+- Pi_obs definition completion count: 0
+- M_c definition completion count: 0
+- R_A definition completion count: 0
+- Traj_A definition completion count: 0
+- All dependent-object definition completion count: 0
+- Dependent-object completion bundle integration count: 0
+- Formalization complete count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Anti-overclaim boundary:
+- v8.149.0 completes Adm_A only.
+- v8.149.0 does not complete C_reg.
+- v8.149.0 does not complete Pi_obs.
+- v8.149.0 does not complete M_c.
+- v8.149.0 does not complete R_A.
+- v8.149.0 does not complete Traj_A.
+- v8.149.0 does not complete all dependent objects.
+- v8.149.0 does not integrate the dependent-object completion bundle.
+- v8.149.0 does not complete full formalization.
+- v8.149.0 does not create theorem candidates.
+- v8.149.0 does not prove new theorems.
+- v8.149.0 does not provide proof assistant verification.
+- v8.149.0 does not provide external validation.
+- v8.149.0 does not provide independent experiments.
+- v8.149.0 does not make the manuscript submission ready.
+- v8.149.0 does not approve readiness.
+- v8.149.0 does not add new citations.
+
+Next target after official close:
+v8.150 should execute controlled C_reg definition completion unless a concrete blocker appears.
