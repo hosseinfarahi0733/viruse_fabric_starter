@@ -22334,3 +22334,50 @@ Anti-overclaim boundary:
 
 Next target after official close:
 v8.150 should execute controlled C_reg definition completion unless a concrete blocker appears.
+
+## v8.150 — Controlled C_reg Definition Completion Execution
+
+Status: main execution completed on branch `v8-150-controlled-c-reg-definition-completion-execution`.
+
+This milestone executes the second controlled dependent-object definition completion after v8.149 Adm_A completion.
+
+Positive execution claims:
+- Controlled C_reg definition completion execution count: 1
+- New controlled C_reg definition completion execution count: 1
+- C_reg definition completion execution count: 1
+- Dependent-object definition completion execution count: 1
+- C_reg definition completion count: 1
+- Completed C_reg definition count: 1
+- Adm_A definition completion count: 1
+- Completed Adm_A definition count: 1
+- Dependent-object definition completion count: 2
+- Completed dependent-object definition count: 2
+
+Boundary claims:
+- Pi_obs definition completion count: 0
+- M_c definition completion count: 0
+- R_A definition completion count: 0
+- Traj_A definition completion count: 0
+- All dependent-object definition completion count: 0
+- Dependent-object completion bundle integration count: 0
+- Formalization complete count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not Pi_obs completion.
+This milestone is not M_c completion.
+This milestone is not R_A completion.
+This milestone is not Traj_A completion.
+This milestone is not all-dependent-object completion.
+This milestone is not dependent-object bundle integration.
+This milestone is not full formalization.
+This milestone is not theorem candidate planning.
+This milestone is not proof execution.
+This milestone is not validation.
+This milestone is not manuscript readiness.
