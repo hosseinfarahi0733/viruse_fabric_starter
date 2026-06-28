@@ -23224,3 +23224,41 @@ Anti-overclaim boundary:
 
 Next target after official close:
 v8.158 should plan controlled proof strategy for TC-001 only unless a concrete blocker appears.
+
+## v8.158 — Controlled TC-001 Proof Strategy Planning
+
+Status: main planning completed on branch `v8-158-controlled-tc-001-proof-strategy-planning`.
+
+This milestone selects TC-001 from the v8.157 theorem candidate plan and plans a controlled proof strategy only.
+
+Positive planning claims:
+- Controlled TC-001 proof strategy planning count: 1
+- New controlled TC-001 proof strategy planning count: 1
+- TC-001 proof strategy planning count: 1
+- Selected theorem candidate count: 1
+- Selected TC-001 count: 1
+- Planned proof strategy count: 1
+- Planned proof obligation count: 6
+- Theorem candidate plan count: 1
+- Planned theorem candidate count: 4
+- Accepted theorem candidate plan count: 1
+
+Boundary claims:
+- Formalization complete count: 0
+- New theorem proven count: 0
+- Theorem proof execution count: 0
+- TC-001 proof execution count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not theorem proof execution.
+This milestone is not TC-001 proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not independent experimentation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
