@@ -21591,3 +21591,151 @@ After v8.143 closes, the dependent-object draft bundle exists as an integrated d
 
 Next target:
 v8.144 dependent-object draft bundle boundary audit or Sigma_A definition completion readiness plan.
+
+## Experiment 224: Sigma_A Definition Completion Readiness Plan
+
+Milestone: v8.144 - Sigma_A Definition Completion Readiness Plan
+
+Branch:
+v8-144-sigma-a-definition-completion-readiness-plan
+
+Main commit:
+5f453d2 Add Sigma_A definition completion readiness plan
+
+Source artifact:
+outputs/dependent_object_draft_bundle_integration_execution_v8_143.md
+
+Generated artifact:
+outputs/sigma_a_definition_completion_readiness_plan_v8_144.md
+
+Builder:
+viruse_fabric/writing/sigma_a_definition_completion_readiness_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_224_sigma_a_definition_completion_readiness_plan.py
+
+Result:
+The v8.144 experiment passed and created one controlled Sigma_A definition completion readiness plan after the dependent-object draft bundle integration milestone.
+
+Execution result:
+- Exactly one Sigma_A definition completion readiness plan is created.
+- Exactly one new Sigma_A definition completion readiness plan is created.
+- Exactly one definition completion readiness plan is created.
+- The integrated dependent-object draft bundle is imported.
+- Exactly six integrated dependent-object drafts are imported.
+- The imported drafts are Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A.
+- The imported bundle remains linked to the refined Draft Sigma_A shell.
+- Bundle dependency coherence is imported.
+- Remaining dependent-object deferral count remains zero.
+- All dependent-object draft slots remain created.
+- All dependent-object draft slots remain integrated.
+- Future Sigma_A definition completion scope is planned.
+- Future completion gates are planned.
+- A future gap scan is planned.
+- Boundary preservation is planned.
+- No new definition draft execution is performed.
+- No new dependent-object definition draft execution is performed.
+- No dependent-object definition draft execution is performed.
+- No definition completion execution is performed.
+- No Sigma_A definition completion execution is performed.
+- No Sigma_A definition completion is performed.
+- No dependent-object definition completion is performed.
+- No final definition execution is performed.
+- No completed formal definition is claimed.
+- No formalization completion is claimed.
+- No theorem candidate planning is performed.
+- No theorem proof is performed.
+- No proof assistant verification is performed.
+- No validation, readiness approval, or citation work is performed.
+
+Readiness question:
+Can the integrated dependent-object draft bundle be used to plan controlled readiness for future Sigma_A definition completion while keeping definition completion execution, completed formal definitions, theorem candidate planning, theorem proof, validation, readiness approval, and citations at zero?
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A definition completion readiness plan count: 1
+- New Sigma_A definition completion readiness plan count: 1
+- Definition completion readiness plan count: 1
+- Readiness plan row count: 8
+- Readiness plan check count: 8
+- Readiness plan boundary gate count: 8
+- Imported dependent-object draft bundle count: 1
+- Imported dependent-object draft count: 6
+- Imported Adm_A draft count: 1
+- Imported C_reg draft count: 1
+- Imported Pi_obs draft count: 1
+- Imported M_c draft count: 1
+- Imported R_A draft count: 1
+- Imported Traj_A draft count: 1
+- Imported bundle linked to refined Sigma_A count: 1
+- Imported bundle dependency coherence count: 1
+- Remaining dependent-object deferral count: 0
+- All dependent-object draft slots created count: 1
+- All dependent-object draft slots integrated count: 1
+- Planned future Sigma_A definition completion scope count: 1
+- Planned future completion gate count: 8
+- Planned gap scan count: 1
+- Planned boundary preservation count: 1
+- Carried dependent-object draft bundle integration execution count: 1
+- Carried integrated dependent-object draft count: 6
+- Carried Sigma_A refinement execution count: 1
+- Carried refined Draft Sigma_A shell count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 14
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- New definition draft execution count: 0
+- New dependent-object definition draft execution count: 0
+- Dependent-object definition draft execution count: 0
+- New dependent-object draft bundle integration execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Definition completion execution count: 0
+- Sigma_A definition completion execution count: 0
+- Sigma_A definition completion count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Dependent-object definition completion count: 0
+- Adm_A definition completion count: 0
+- C_reg definition completion count: 0
+- Pi_obs definition completion count: 0
+- M_c definition completion count: 0
+- R_A definition completion count: 0
+- Traj_A definition completion count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has created one Sigma_A definition completion readiness plan after dependent-object draft bundle integration. It imports the integrated Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A draft bundle linked to the refined Draft Sigma_A shell, plans future Sigma_A definition completion scope, plans future completion gates, and preserves completion execution at zero. It does not execute definition completion, does not execute final definitions, does not complete Sigma_A, does not complete dependent objects, does not complete formalization, does not create theorem candidates, does not prove theorems, does not provide proof assistant verification, does not validate externally, does not approve manuscript readiness, and does not add citations.
+
+Boundary:
+This milestone is Sigma_A definition completion readiness planning only. It creates a controlled readiness plan for future Sigma_A definition completion, but it does not execute definition completion, does not execute final definitions, does not complete Sigma_A, does not complete Adm_A, does not complete C_reg, does not complete Pi_obs, does not complete M_c, does not complete R_A, does not complete Traj_A, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.144 closes, the project has moved forward from draft-bundle integration into controlled Sigma_A definition completion readiness planning. The next target should not default to a long audit loop. A single readiness boundary audit is acceptable if needed; otherwise the next forward-progress target is controlled Sigma_A definition completion execution planning.
+
+Next target:
+v8.145 Sigma_A definition completion readiness boundary audit, then v8.146 controlled Sigma_A definition completion execution plan.
