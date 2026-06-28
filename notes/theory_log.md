@@ -22848,3 +22848,78 @@ This milestone is not theorem candidate planning.
 This milestone is not proof execution.
 This milestone is not validation.
 This milestone is not manuscript readiness.
+
+## v8.154.0 — Controlled Traj_A Definition Completion Execution Close Notes
+
+Status: official close candidate for v8.154.0.
+
+This close note records that v8.154 executes the sixth controlled dependent-object definition completion after official v8.153 R_A definition completion.
+
+Official claim after tag and final master test:
+- Controlled Traj_A definition completion execution count: 1
+- New controlled Traj_A definition completion execution count: 1
+- Traj_A definition completion execution count: 1
+- Dependent-object definition completion execution count: 1
+- Definition completion execution count: 1
+- Completion execution count: 1
+- Definition execution count: 1
+- New definition execution count: 1
+- Adm_A definition completion count: 1
+- Completed Adm_A definition count: 1
+- C_reg definition completion count: 1
+- Completed C_reg definition count: 1
+- Pi_obs definition completion count: 1
+- Completed Pi_obs definition count: 1
+- M_c definition completion count: 1
+- Completed M_c definition count: 1
+- R_A definition completion count: 1
+- Completed R_A definition count: 1
+- Traj_A definition completion count: 1
+- Completed Traj_A definition count: 1
+- Dependent-object definition completion count: 6
+- Completed dependent-object definition count: 6
+- All dependent-object definition completion count: 1
+- Imported controlled R_A definition completion execution count: 1
+- Imported completed Adm_A definition count: 1
+- Imported completed C_reg definition count: 1
+- Imported completed Pi_obs definition count: 1
+- Imported completed M_c definition count: 1
+- Imported completed R_A definition count: 1
+- Imported dependent-object definition completion count: 5
+- Imported completed dependent-object definition count: 5
+- Imported completed Sigma_A definition count: 1
+- Imported completed formal definition count: 1
+
+Boundary counters preserved:
+- Dependent-object completion bundle integration count: 0
+- Formalization complete count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Anti-overclaim boundary:
+- v8.154.0 preserves completed Adm_A.
+- v8.154.0 preserves completed C_reg.
+- v8.154.0 preserves completed Pi_obs.
+- v8.154.0 preserves completed M_c.
+- v8.154.0 preserves completed R_A.
+- v8.154.0 completes Traj_A only as the sixth completed dependent-object definition.
+- v8.154.0 records all six dependent-object definitions as completed.
+- v8.154.0 does not integrate the dependent-object completion bundle.
+- v8.154.0 does not complete full formalization.
+- v8.154.0 does not create theorem candidates.
+- v8.154.0 does not prove new theorems.
+- v8.154.0 does not provide proof assistant verification.
+- v8.154.0 does not provide external validation.
+- v8.154.0 does not provide independent experiments.
+- v8.154.0 does not make the manuscript submission ready.
+- v8.154.0 does not approve readiness.
+- v8.154.0 does not add new citations.
+
+Next target after official close:
+v8.155 should integrate completed dependent-object definitions into a controlled completion bundle unless a concrete blocker appears.
