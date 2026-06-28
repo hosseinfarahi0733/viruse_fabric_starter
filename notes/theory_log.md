@@ -25527,3 +25527,59 @@ Presentation note:
 
 Next target after official close:
 v8.175 should run one controlled TC-001 proof acceptance and boundary audit.
+
+## v8.175 - Controlled TC-001 Proof Acceptance / Boundary Audit
+
+Status: main audit completed on branch `v8-175-controlled-tc-001-proof-acceptance-boundary-audit`.
+
+This milestone accepts the v8.174 internal TC-001 proof claim only at project proof-development level.
+
+Positive audit claims:
+- Controlled TC-001 proof acceptance boundary audit count: 1
+- New controlled TC-001 proof acceptance boundary audit count: 1
+- TC-001 proof acceptance boundary audit count: 1
+- TC-001 proof acceptance audit pass count: 1
+- TC-001 proof acceptance audit blocker count: 0
+- Unresolved TC-001 proof boundary gap count: 0
+- Accepted internal TC-001 theorem proof count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+
+Imported proof claims:
+- Controlled TC-001 proof execution count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Executed TC-001 proof step count: 8
+- Proved TC-001 theorem candidate count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Accepted presentation-safe wording:
+TC-001 has an accepted internal controlled theorem-candidate proof execution within the project proof-development framework.
+
+Mandatory boundary wording:
+The proof is not proof-assistant verified, not externally validated, not an independent experiment result, not manuscript-submission ready, and not supported by new citation additions in this milestone.
+
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not independent experimentation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
