@@ -20332,3 +20332,152 @@ After v8.135 closes, the project can execute bounded Sigma_A refinement. That ex
 
 Next target:
 v8.136 Sigma_A refinement execution.
+
+## Experiment 216: Sigma_A Refinement Execution
+
+Milestone: v8.136 - Sigma_A Refinement Execution
+
+Branch:
+v8-136-sigma-a-refinement-execution
+
+Main commit:
+5cb91fb Add Sigma_A refinement execution
+
+Source artifact:
+outputs/sigma_a_refinement_execution_plan_boundary_audit_v8_135.md
+
+Generated artifact:
+outputs/sigma_a_refinement_execution_v8_136.md
+
+Builder:
+viruse_fabric/writing/sigma_a_refinement_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_216_sigma_a_refinement_execution.py
+
+Result:
+The v8.136 experiment passed and executed bounded Sigma_A refinement after the v8.135 Sigma_A refinement execution plan boundary audit.
+
+Execution result:
+- Exactly one bounded Sigma_A refinement execution is performed.
+- Exactly one new Sigma_A refinement execution is performed.
+- Exactly one Draft Sigma_A refinement execution is performed.
+- The audited T_A/time-index refinement layer is integrated into the refined Draft Sigma_A shell.
+- The existing assembled Draft Sigma_A shell is refined, not reassembled.
+- The carrier-slot clause carrier(Draft Sigma_A) := X_A^tp remains preserved.
+- Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A remain deferred.
+- Ann_A remains auxiliary audit traceability only.
+- Definition execution remains absent.
+- Sigma_A definition completion remains absent.
+- Completed formal definitions remain absent.
+- Theorem candidate planning remains absent.
+- Theorem proof and proof assistant verification remain absent.
+- Validation, readiness, and new citation additions remain absent.
+
+Refined Sigma_A statement:
+Refined Draft Sigma_A := assembled Draft Sigma_A shell plus the audited T_A/time-index layer, with carrier(Draft Sigma_A) := X_A^tp preserved and dependent objects {Adm_A, C_reg, Pi_obs, M_c, R_A, Traj_A} retained as deferred slots. This is Sigma_A refinement execution only, not definition execution and not Sigma_A definition completion.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Sigma_A refinement execution count: 1
+- New Sigma_A refinement execution count: 1
+- Draft Sigma_A refinement execution count: 1
+- Executed Sigma_A refinement layer count: 1
+- Refined Draft Sigma_A shell count: 1
+- Integrated time-index layer count: 1
+- Integrated T_A refinement layer count: 1
+- Draft shell refinement link executed count: 1
+- Carrier clause preserved count: 1
+- Dependent object slots retained as deferred count: 6
+- Audit traceability carried count: 1
+- Sigma_A refinement execution row count: 8
+- Sigma_A refinement execution check count: 8
+- Sigma_A refinement boundary preserved count: 8
+- Carried Sigma_A refinement execution plan boundary audit count: 1
+- Carried Sigma_A refinement plan boundary audit count: 1
+- Carried Draft Sigma_A refinement execution plan boundary audit count: 1
+- Carried Sigma_A refinement plan boundary audit row count: 8
+- Carried Sigma_A refinement plan boundary preserved count: 8
+- Carried Sigma_A refinement plan boundary audit finding count: 8
+- Carried planned Sigma_A refinement scope audited count: 1
+- Carried planned time-index layer integration audited count: 1
+- Carried planned draft shell refinement link audited count: 1
+- Carried planned carrier clause preservation audited count: 1
+- Carried planned dependent object integration schedule audited count: 6
+- Carried time-index refinement execution count: 1
+- Carried T_A refinement execution count: 1
+- Carried Sigma_A time-index refinement execution count: 1
+- Carried whole Sigma_A draft assembly boundary audit count: 1
+- Carried assembled whole Sigma_A draft shell audited count: 1
+- Carried imported carrier-slot clause audited count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- New time-index refinement execution count: 0
+- New T_A refinement execution count: 0
+- Time-index refinement execution count: 0
+- T_A refinement execution count: 0
+- New whole Sigma_A draft assembly execution count: 0
+- New Sigma_A draft assembly execution count: 0
+- New Sigma_A draft clause count: 0
+- New Sigma_A draft clause creation count: 0
+- New carrier draft clause creation execution count: 0
+- New carrier-level draft assembly execution count: 0
+- New definition draft execution count: 0
+- New typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed bounded Sigma_A refinement after the Sigma_A refinement execution plan boundary audit. It executed exactly one new Sigma_A refinement layer, integrated the audited T_A/time-index refinement layer into the refined Draft Sigma_A shell, preserved carrier(Draft Sigma_A) := X_A^tp, and retained Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A as deferred slots. It does not execute definitions, does not complete Sigma_A, does not complete formal definitions, does not create theorem candidates, does not prove theorems, does not provide proof assistant verification, does not provide validation, does not approve manuscript readiness, and does not add citations.
+
+Boundary:
+This milestone is Sigma_A refinement execution only. It executes bounded Sigma_A refinement, but it does not execute new time-index refinement, does not execute new T_A refinement, does not execute new whole Sigma_A draft assembly, does not execute new Sigma_A draft assembly, does not create a new Sigma_A draft clause, does not execute new carrier draft clause creation, does not execute new carrier-level draft assembly, does not execute a new definition draft, does not execute new typed-product carrier refinement, does not execute generic carrier refinement, does not execute carrier-type refinement, does not execute new component-slot integration, does not execute new component-slot refinement, does not perform a new carrier type selection, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.136 closes, the project should move toward dependent-object definition work rather than another default audit loop. The recommended next target is Adm_A definition draft execution planning or, if the project policy permits, direct bounded Adm_A definition draft execution. That work must remain separate from Sigma_A definition completion, theorem candidate planning, theorem proof, validation, manuscript readiness, and new citations.
+
+Next target:
+v8.137 Adm_A definition draft execution plan.
