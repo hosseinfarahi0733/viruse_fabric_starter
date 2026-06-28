@@ -19441,3 +19441,146 @@ After v8.129 closes, the project can plan time-index refinement in a bounded mil
 
 Next target:
 v8.130 Time-index refinement execution plan.
+
+## Experiment 210: Time-index Refinement Execution Plan
+
+Milestone: v8.130 - Time-index Refinement Execution Plan
+
+Branch:
+v8-130-time-index-refinement-execution-plan
+
+Main commit:
+354e53f Add time-index refinement execution plan
+
+Source artifact:
+outputs/whole_sigma_a_draft_assembly_boundary_audit_v8_129.md
+
+Generated artifact:
+outputs/time_index_refinement_execution_plan_v8_130.md
+
+Builder:
+viruse_fabric/writing/time_index_refinement_execution_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_210_time_index_refinement_execution_plan.py
+
+Result:
+The v8.130 experiment passed and produced a Time-index refinement execution plan after the v8.129 Whole Sigma_A draft assembly boundary audit.
+
+Planning result:
+- Future T_A refinement is planned only.
+- Time-index refinement execution is not executed in v8.130.
+- T_A refinement execution is not executed in v8.130.
+- The plan targets the deferred T_A slot carried by the assembled and audited whole Draft Sigma_A shell.
+- The plan preserves the carrier-slot clause carrier(Draft Sigma_A) := X_A^tp.
+- The plan preserves the assembled whole Draft Sigma_A shell boundary.
+- Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A remain deferred.
+- Sigma_A refinement remains absent.
+- Definition execution and Sigma_A definition completion remain absent.
+- Theorem, proof, validation, citation, and readiness layers remain absent.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Time-index refinement execution plan count: 1
+- Sigma_A time-index refinement execution plan count: 1
+- T_A refinement execution plan count: 1
+- Time-index refinement plan row count: 8
+- Time-index refinement execution gate count: 8
+- Planned T_A refinement scope count: 1
+- Planned draft shell time-index link count: 1
+- Planned three-time structure count: 1
+- Planned time-index boundary guard count: 8
+- Planned time-index blocked-overreach count: 8
+- Planned carrier clause preservation count: 1
+- Planned dependent object deferral count: 6
+- Carried whole Sigma_A draft assembly boundary audit count: 1
+- Carried Sigma_A whole draft assembly boundary audit count: 1
+- Carried Sigma_A draft assembly boundary audit count: 1
+- Carried whole Sigma_A draft assembly boundary audit row count: 8
+- Carried whole Sigma_A draft assembly boundary preserved count: 8
+- Carried whole Sigma_A draft assembly boundary audit finding count: 8
+- Carried assembled whole Sigma_A draft audited count: 1
+- Carried assembled whole Sigma_A draft shell audited count: 1
+- Carried imported carrier-slot clause audited count: 1
+- Carried dependent object slot deferral preserved count: 6
+- Carried time-index slot deferral preserved count: 1
+- Carried new whole Sigma_A draft assembly blocker count: 1
+- Carried new Sigma_A draft clause blocker count: 1
+- Carried time-index refinement blocker count: 1
+- Carried Sigma_A refinement blocker count: 1
+- Carried definition execution blocker count: 1
+- Carried proof-readiness blocker count: 1
+- Carried whole Sigma_A draft assembly execution count: 1
+- Carried Sigma_A whole draft assembly execution count: 1
+- Carried Sigma_A draft assembly execution count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 7
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- Time-index refinement execution count: 0
+- T_A refinement execution count: 0
+- Sigma_A refinement execution count: 0
+- New whole Sigma_A draft assembly execution count: 0
+- New Sigma_A draft assembly execution count: 0
+- New Sigma_A draft clause count: 0
+- New Sigma_A draft clause creation count: 0
+- New carrier draft clause creation execution count: 0
+- New carrier-level draft assembly execution count: 0
+- New definition draft execution count: 0
+- New typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- Definition inventory execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- Completion decision plan count: 1
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has produced a Time-index refinement execution plan after the Whole Sigma_A draft assembly boundary audit. It plans future T_A/time-index refinement around the deferred T_A slot carried by the assembled and audited whole Draft Sigma_A shell while preserving the distinction between time-index refinement planning, time-index refinement execution, T_A refinement execution, Sigma_A refinement execution, definition execution, Sigma_A definition completion, completed formal definitions, theorem candidate planning, theorem proof, proof assistant verification, validation, readiness, and new citation additions.
+
+Boundary:
+This milestone is a Time-index refinement execution plan only. It plans a future T_A refinement scope, but it does not execute time-index refinement, does not execute T_A refinement, does not execute Sigma_A refinement, does not execute new whole Sigma_A draft assembly, does not execute new Sigma_A draft assembly, does not create a new Sigma_A draft clause, does not execute new carrier draft clause creation, does not execute new carrier-level draft assembly, does not execute a new definition draft, does not execute new typed-product carrier refinement, does not execute generic carrier refinement, does not execute carrier-type refinement, does not execute new component-slot integration, does not execute new component-slot refinement, does not perform a new carrier type selection, does not execute definitions, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.130 closes, the project should audit the time-index refinement execution plan before executing T_A refinement. That audit must remain separate from time-index refinement execution, Sigma_A refinement, definition execution, Sigma_A definition completion, theorem candidate planning, theorem proof, validation, manuscript readiness, and new citations.
+
+Next target:
+v8.131 Time-index refinement execution plan boundary audit.
