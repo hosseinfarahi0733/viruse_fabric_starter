@@ -23377,3 +23377,90 @@ This milestone is not external validation.
 This milestone is not independent experimentation.
 This milestone is not manuscript readiness.
 This milestone is not citation work.
+
+## v8.159.0 — Controlled TC-001 Proof Obligation Lemma Planning Close Notes
+
+Status: official close candidate for v8.159.0.
+
+This close note records that v8.159 decomposes the six TC-001 planned proof obligations from official v8.158 into six controlled lemma plans only.
+
+Official claim after tag and final master test:
+- Controlled TC-001 proof obligation lemma planning count: 1
+- New controlled TC-001 proof obligation lemma planning count: 1
+- TC-001 proof obligation lemma planning count: 1
+- Proof obligation lemma planning count: 1
+- Planned proof obligation count: 6
+- Planned lemma count: 6
+- TC-001 planned lemma count: 6
+- Accepted lemma plan count: 1
+- Selected theorem candidate count: 1
+- Selected TC-001 count: 1
+- Planned proof strategy count: 1
+- TC-001 proof strategy planning count: 1
+- Theorem candidate plan count: 1
+- Planned theorem candidate count: 4
+- Accepted theorem candidate plan count: 1
+- Dependency closure boundary audit count: 1
+- Full dependency closure audit count: 1
+- Dependency closure boundary pass count: 1
+- Dependency closure blocker count: 0
+- Unresolved dependency gap count: 0
+- Dependent-object completion bundle integration count: 1
+- Completed dependent-object completion bundle count: 1
+- Dependent-object definition completion count: 6
+- Completed dependent-object definition count: 6
+- All dependent-object definition completion count: 1
+- Imported controlled TC-001 proof strategy planning count: 1
+- Imported TC-001 proof strategy planning count: 1
+- Imported selected TC-001 count: 1
+- Imported planned proof strategy count: 1
+- Imported planned proof obligation count: 6
+- Imported theorem candidate plan count: 1
+- Imported planned theorem candidate count: 4
+- Imported dependency closure boundary pass count: 1
+- Imported dependency closure blocker count: 0
+- Imported unresolved dependency gap count: 0
+- Imported completed dependent-object completion bundle count: 1
+
+Boundary counters preserved:
+- Formalization complete count: 0
+- New theorem proven count: 0
+- Theorem proof execution count: 0
+- TC-001 proof execution count: 0
+- Lemma proof execution count: 0
+- TC-001 lemma proof execution count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Anti-overclaim boundary:
+- v8.159.0 plans TC-001 proof obligation lemmas only.
+- v8.159.0 records planned lemma count: 6.
+- v8.159.0 records TC-001 planned lemma count: 6.
+- v8.159.0 records accepted lemma plan count: 1.
+- v8.159.0 preserves planned proof obligation count: 6.
+- v8.159.0 preserves selected TC-001 count: 1.
+- v8.159.0 does not prove any lemma.
+- v8.159.0 does not execute lemma proof.
+- v8.159.0 does not prove TC-001.
+- v8.159.0 does not execute TC-001 proof.
+- v8.159.0 does not prove new theorems.
+- v8.159.0 does not execute theorem proof.
+- v8.159.0 does not provide proof assistant verification.
+- v8.159.0 does not complete full formalization.
+- v8.159.0 does not provide external validation.
+- v8.159.0 does not provide independent experiments.
+- v8.159.0 does not make the manuscript submission ready.
+- v8.159.0 does not approve readiness.
+- v8.159.0 does not add new citations.
+
+Book/manuscript note:
+- v8.159.0 contributes formal source material for future book/manuscript chapters.
+- v8.159.0 does not make the book/manuscript ready.
+- v8.159.0 does not claim manuscript submission readiness.
+
+Next target after official close:
+v8.160 should plan controlled L-001 lemma proof strategy only unless a concrete blocker appears.
