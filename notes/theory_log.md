@@ -23334,3 +23334,46 @@ Anti-overclaim boundary:
 
 Next target after official close:
 v8.159 should decompose TC-001 planned proof obligations into controlled lemma plans unless a concrete blocker appears.
+
+## v8.159 — Controlled TC-001 Proof Obligation Lemma Planning
+
+Status: main planning completed on branch `v8-159-controlled-tc-001-proof-obligation-lemma-planning`.
+
+This milestone decomposes the six TC-001 planned proof obligations from v8.158 into six controlled lemma plans only.
+
+Positive planning claims:
+- Controlled TC-001 proof obligation lemma planning count: 1
+- New controlled TC-001 proof obligation lemma planning count: 1
+- TC-001 proof obligation lemma planning count: 1
+- Proof obligation lemma planning count: 1
+- Planned proof obligation count: 6
+- Planned lemma count: 6
+- TC-001 planned lemma count: 6
+- Accepted lemma plan count: 1
+- Selected theorem candidate count: 1
+- Selected TC-001 count: 1
+- Planned proof strategy count: 1
+- TC-001 proof strategy planning count: 1
+
+Boundary claims:
+- Formalization complete count: 0
+- New theorem proven count: 0
+- Theorem proof execution count: 0
+- TC-001 proof execution count: 0
+- Lemma proof execution count: 0
+- TC-001 lemma proof execution count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not lemma proof execution.
+This milestone is not TC-001 proof execution.
+This milestone is not theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not independent experimentation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
