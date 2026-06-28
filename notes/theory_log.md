@@ -25397,3 +25397,54 @@ Presentation note:
 
 Next target after official close:
 v8.174 should execute controlled TC-001 proof only.
+
+## v8.174 - Controlled TC-001 Proof Execution
+
+Status: main execution completed on branch `v8-174-controlled-tc-001-proof-execution`.
+
+This milestone executes and internally proves TC-001 as a controlled theorem-candidate proof using the officially audited completed supporting lemma chain.
+
+Positive execution claims:
+- Controlled TC-001 proof execution count: 1
+- New controlled TC-001 proof execution count: 1
+- TC-001 proof execution count: 1
+- New TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- New theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Executed TC-001 proof step count: 8
+- Proved TC-001 theorem candidate count: 1
+
+Imported supporting proof claims:
+- Completed TC-001 supporting lemma chain count: 1
+- Supporting lemma chain audit pass count: 1
+- Supporting lemma chain audit blocker count: 0
+- Unresolved supporting lemma chain gap count: 0
+- L-001 lemma proof execution count: 1
+- L-002 lemma proof execution count: 1
+- L-003 lemma proof execution count: 1
+- L-004 lemma proof execution count: 1
+- L-005 lemma proof execution count: 1
+- L-006 lemma proof execution count: 1
+- Lemma proof execution count: 6
+- TC-001 lemma proof execution count: 6
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not independent experimentation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
