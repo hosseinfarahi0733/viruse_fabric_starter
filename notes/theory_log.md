@@ -25674,3 +25674,51 @@ Presentation/manuscript note:
 
 Next target after official close:
 v8.176 should extract a controlled presentation/manuscript proof section from the accepted internal TC-001 proof claim.
+
+## v8.176 - Controlled TC-001 Presentation / Manuscript Proof Section Extraction
+
+Status: main extraction completed on branch `v8-176-controlled-tc-001-presentation-manuscript-proof-section-extraction`.
+
+This milestone extracts a controlled proof-section draft from the accepted internal TC-001 proof claim.
+
+Positive extraction claims:
+- Controlled TC-001 proof section extraction count: 1
+- New controlled TC-001 proof section extraction count: 1
+- TC-001 presentation proof section extraction count: 1
+- TC-001 manuscript proof section extraction count: 1
+- Extracted TC-001 theorem statement count: 1
+- Extracted TC-001 proof outline count: 1
+- Extracted TC-001 proof section count: 1
+- Extracted TC-001 boundary wording count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+
+Imported proof claims:
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is proof-section extraction only.
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
