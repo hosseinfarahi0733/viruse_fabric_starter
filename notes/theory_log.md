@@ -25818,3 +25818,61 @@ Presentation/manuscript note:
 
 Next target after official close:
 v8.177 should map the remaining route to proof assistant verification, citation expansion, and manuscript readiness as separate tracks.
+
+## v8.177 - Controlled TC-001 Presentation Claim Package
+
+Status: main package completed on branch `v8-177-controlled-tc-001-presentation-claim-package`.
+
+This milestone packages the accepted internal TC-001 proof claim into precise presentation wording.
+
+Positive package claims:
+- Controlled TC-001 presentation claim package count: 1
+- New controlled TC-001 presentation claim package count: 1
+- TC-001 presentation claim package count: 1
+- Extracted TC-001 primary presentation claim count: 1
+- Extracted TC-001 Persian presentation claim count: 1
+- Extracted TC-001 30-second explanation count: 1
+- Extracted TC-001 slide outline count: 1
+- Extracted TC-001 boundary slide count: 1
+- Extracted TC-001 remaining-work slide count: 1
+- Extracted TC-001 prohibited-claim list count: 1
+- Presentation package ready count: 1
+
+Imported proof-section claims:
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Primary presentation claim:
+At this stage, TC-001 has an accepted internal controlled theorem-candidate proof execution within the project proof-development framework.
+
+Mandatory boundary:
+This is not proof-assistant verified, not externally validated, not independently experimentally validated, not manuscript-submission ready, not readiness-approved, and not supported by new citation additions in this milestone.
+
+This milestone is presentation claim packaging only.
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
