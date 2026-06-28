@@ -21412,3 +21412,182 @@ After v8.142 closes, all dependent-object draft slots are created. The recommend
 
 Next target:
 v8.143 dependent-object draft bundle integration execution.
+
+## Experiment 223: Dependent-object Draft Bundle Integration Execution
+
+Milestone: v8.143 - Dependent-object Draft Bundle Integration Execution
+
+Branch:
+v8-143-dependent-object-draft-bundle-integration-execution
+
+Main commit:
+b3b5a2d Add dependent-object draft bundle integration execution
+
+Source artifact:
+outputs/traj_a_definition_draft_execution_v8_142.md
+
+Generated artifact:
+outputs/dependent_object_draft_bundle_integration_execution_v8_143.md
+
+Builder:
+viruse_fabric/writing/dependent_object_draft_bundle_integration_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_223_dependent_object_draft_bundle_integration_execution.py
+
+Result:
+The v8.143 experiment passed and executed one dependent-object draft bundle integration after all six dependent-object draft slots were created.
+
+Execution result:
+- Exactly one dependent-object draft bundle integration execution is performed.
+- Exactly one new dependent-object draft bundle integration execution is performed.
+- Exactly one draft bundle integration execution is performed.
+- Exactly one integrated dependent-object draft bundle is recorded.
+- Exactly six carried dependent-object drafts are integrated.
+- The carried Adm_A draft is integrated.
+- The carried C_reg draft is integrated.
+- The carried Pi_obs draft is integrated.
+- The carried M_c draft is integrated.
+- The carried R_A draft is integrated.
+- The carried Traj_A draft is integrated.
+- The bundle is linked to the refined Draft Sigma_A shell.
+- Bundle dependency coherence is recorded.
+- Remaining dependent-object deferral count remains zero.
+- All dependent-object draft slots are recorded as created.
+- All dependent-object draft slots are recorded as integrated.
+- No new definition draft is created.
+- No new dependent-object definition draft is created.
+- No final definition execution is performed.
+- No dependent-object definition completion is performed.
+- Sigma_A definition completion remains absent.
+- Completed formal definitions remain absent.
+- Theorem candidate planning remains absent.
+- Theorem proof and proof assistant verification remain absent.
+- Validation, readiness, and new citation additions remain absent.
+
+Bundle statement:
+Draft bundle B_dep := the carried dependent-object draft bundle attached to the refined Draft Sigma_A shell. It integrates the already-created draft slots Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A as a bundle-level bookkeeping object. This integration records dependency coherence among the carried drafts only. It does not create new dependent-object drafts, does not execute final definitions, does not complete any dependent object, does not complete Sigma_A, and does not execute theorem or proof work.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Dependent-object draft bundle integration execution count: 1
+- New dependent-object draft bundle integration execution count: 1
+- Draft bundle integration execution count: 1
+- Integrated dependent-object draft bundle count: 1
+- Integrated dependent-object draft count: 6
+- Integrated Adm_A draft count: 1
+- Integrated C_reg draft count: 1
+- Integrated Pi_obs draft count: 1
+- Integrated M_c draft count: 1
+- Integrated R_A draft count: 1
+- Integrated Traj_A draft count: 1
+- Bundle linked to refined Sigma_A count: 1
+- Bundle dependency coherence recorded count: 1
+- Remaining dependent-object deferral count: 0
+- All dependent-object draft slots created count: 1
+- All dependent-object draft slots integrated count: 1
+- Bundle integration row count: 8
+- Bundle integration check count: 8
+- Bundle integration boundary preserved count: 8
+- Carried Traj_A definition draft execution count: 1
+- Carried new Traj_A definition draft execution count: 1
+- Carried Traj_A draft slot created count: 1
+- Carried Traj_A draft linked to refined Sigma_A count: 1
+- Carried Traj_A linked to Adm_A draft count: 1
+- Carried Traj_A linked to C_reg draft count: 1
+- Carried Traj_A linked to Pi_obs draft count: 1
+- Carried Traj_A linked to M_c draft count: 1
+- Carried Traj_A linked to R_A draft count: 1
+- Carried Traj_A trajectory-family placeholder count: 1
+- Carried remaining dependent-object deferral count: 0
+- Carried R_A definition draft execution count: 1
+- Carried M_c definition draft execution count: 1
+- Carried Pi_obs definition draft execution count: 1
+- Carried C_reg definition draft execution count: 1
+- Carried Adm_A definition draft execution count: 1
+- Carried Sigma_A refinement execution count: 1
+- Carried refined Draft Sigma_A shell count: 1
+- Carried integrated time-index layer count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 14
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- New definition draft execution count: 0
+- New dependent-object definition draft execution count: 0
+- Dependent-object definition draft execution count: 0
+- New Traj_A definition draft execution count: 0
+- New R_A definition draft execution count: 0
+- New M_c definition draft execution count: 0
+- New Pi_obs definition draft execution count: 0
+- New C_reg definition draft execution count: 0
+- New Adm_A definition draft execution count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Traj_A definition completion count: 0
+- R_A definition completion count: 0
+- M_c definition completion count: 0
+- Pi_obs definition completion count: 0
+- C_reg definition completion count: 0
+- Adm_A definition completion count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New Sigma_A refinement execution count: 0
+- New time-index refinement execution count: 0
+- New T_A refinement execution count: 0
+- New whole Sigma_A draft assembly execution count: 0
+- New Sigma_A draft assembly execution count: 0
+- New Sigma_A draft clause count: 0
+- New Sigma_A draft clause creation count: 0
+- New carrier draft clause creation execution count: 0
+- New carrier-level draft assembly execution count: 0
+- New typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed one dependent-object draft bundle integration after all six dependent-object draft slots were created. It integrated the carried Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A drafts into one bundle linked to the refined Draft Sigma_A shell, recorded bundle dependency coherence, preserved remaining dependent-object deferral at zero, and recorded all dependent-object draft slots as integrated. It does not create new definition drafts, does not execute final definitions, does not complete any dependent object, does not complete Sigma_A, does not complete formal definitions, does not create theorem candidates, does not prove theorems, does not provide proof assistant verification, does not validate externally, does not approve manuscript readiness, and does not add citations.
+
+Boundary:
+This milestone is dependent-object draft bundle integration execution only. It integrates the carried Adm_A, C_reg, Pi_obs, M_c, R_A, and Traj_A draft slots into one bundle linked to the refined Draft Sigma_A shell, but it does not create new dependent-object drafts, does not execute final definitions, does not complete Adm_A, does not complete C_reg, does not complete Pi_obs, does not complete M_c, does not complete R_A, does not complete Traj_A, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.143 closes, the dependent-object draft bundle exists as an integrated draft-level bookkeeping object. The next target should be chosen carefully. If the goal is boundary safety, run a dependent-object draft bundle boundary audit. If the goal is forward progress, run a Sigma_A definition completion readiness plan. Neither target should pretend bundle integration is definition completion.
+
+Next target:
+v8.144 dependent-object draft bundle boundary audit or Sigma_A definition completion readiness plan.
