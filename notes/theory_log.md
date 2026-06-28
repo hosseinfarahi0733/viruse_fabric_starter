@@ -23158,3 +23158,69 @@ This milestone is not external validation.
 This milestone is not independent experimentation.
 This milestone is not manuscript readiness.
 This milestone is not citation work.
+
+## v8.157.0 — Controlled Theorem Candidate Planning over Dependency-closed Bundle Close Notes
+
+Status: official close candidate for v8.157.0.
+
+This close note records that v8.157 plans four controlled theorem candidates over the dependency-closed integrated dependent-object completion bundle after official v8.156 dependency closure boundary audit.
+
+Official claim after tag and final master test:
+- Controlled theorem candidate planning count: 1
+- New controlled theorem candidate planning count: 1
+- Theorem candidate plan count: 1
+- Theorem candidate planning over dependency-closed bundle count: 1
+- Planned theorem candidate count: 4
+- Accepted theorem candidate plan count: 1
+- Dependency closure boundary audit count: 1
+- Full dependency closure audit count: 1
+- Dependency closure boundary pass count: 1
+- Dependency closure blocker count: 0
+- Unresolved dependency gap count: 0
+- Dependent-object completion bundle integration count: 1
+- Integrated dependent-object completion bundle count: 1
+- Completed dependent-object completion bundle count: 1
+- Dependent-object definition completion count: 6
+- Completed dependent-object definition count: 6
+- All dependent-object definition completion count: 1
+- Imported controlled full dependency closure boundary audit count: 1
+- Imported full dependency closure audit count: 1
+- Imported dependency closure boundary pass count: 1
+- Imported dependency closure blocker count: 0
+- Imported unresolved dependency gap count: 0
+- Imported dependent-object completion bundle integration count: 1
+- Imported integrated dependent-object completion bundle count: 1
+- Imported completed dependent-object completion bundle count: 1
+- Imported completed Sigma_A definition count: 1
+- Imported completed formal definition count: 1
+
+Boundary counters preserved:
+- Formalization complete count: 0
+- New theorem proven count: 0
+- Theorem proof execution count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Anti-overclaim boundary:
+- v8.157.0 plans theorem candidates only.
+- v8.157.0 records planned theorem candidate count: 4.
+- v8.157.0 records theorem candidate plan count: 1.
+- v8.157.0 preserves dependency closure boundary pass count: 1.
+- v8.157.0 preserves dependency closure blocker count: 0.
+- v8.157.0 preserves unresolved dependency gap count: 0.
+- v8.157.0 does not prove new theorems.
+- v8.157.0 does not execute theorem proof.
+- v8.157.0 does not provide proof assistant verification.
+- v8.157.0 does not complete full formalization.
+- v8.157.0 does not provide external validation.
+- v8.157.0 does not provide independent experiments.
+- v8.157.0 does not make the manuscript submission ready.
+- v8.157.0 does not approve readiness.
+- v8.157.0 does not add new citations.
+
+Next target after official close:
+v8.158 should plan controlled proof strategy for TC-001 only unless a concrete blocker appears.
