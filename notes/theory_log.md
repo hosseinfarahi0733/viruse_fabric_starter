@@ -22923,3 +22923,38 @@ Anti-overclaim boundary:
 
 Next target after official close:
 v8.155 should integrate completed dependent-object definitions into a controlled completion bundle unless a concrete blocker appears.
+
+## v8.155 — Controlled Dependent-object Completion Bundle Integration
+
+Status: main integration completed on branch `v8-155-controlled-dependent-object-completion-bundle-integration`.
+
+This milestone integrates the six completed dependent-object definitions into one controlled completion bundle after v8.154 Traj_A completion.
+
+Positive integration claims:
+- Controlled dependent-object completion bundle integration count: 1
+- New controlled dependent-object completion bundle integration count: 1
+- Dependent-object completion bundle integration count: 1
+- Integrated dependent-object completion bundle count: 1
+- Completed dependent-object completion bundle count: 1
+- Dependent-object definition completion count: 6
+- Completed dependent-object definition count: 6
+- All dependent-object definition completion count: 1
+
+Boundary claims:
+- Full dependency closure audit count: 0
+- Formalization complete count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not a full dependency closure audit.
+This milestone is not full formalization.
+This milestone is not theorem candidate planning.
+This milestone is not proof execution.
+This milestone is not validation.
+This milestone is not manuscript readiness.
