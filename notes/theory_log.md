@@ -21900,3 +21900,71 @@ After v8.145 closes, the readiness boundary has been checked once. The next targ
 
 Next target:
 v8.146 controlled Sigma_A definition completion execution plan.
+
+## Experiment 226: Controlled Sigma_A Definition Completion Execution Plan
+
+Milestone: v8.146 - Controlled Sigma_A Definition Completion Execution Plan
+
+Branch:
+v8-146-controlled-sigma-a-definition-completion-execution-plan
+
+Main commit:
+d0c003c Add controlled Sigma_A definition completion execution plan
+
+Source artifact:
+outputs/sigma_a_definition_completion_readiness_boundary_audit_v8_145.md
+
+Generated artifact:
+outputs/controlled_sigma_a_definition_completion_execution_plan_v8_146.md
+
+Builder:
+viruse_fabric/writing/controlled_sigma_a_definition_completion_execution_plan.py
+
+Experiment:
+viruse_fabric/experiments/exp_226_controlled_sigma_a_definition_completion_execution_plan.py
+
+Result:
+The v8.146 experiment passed and created one controlled Sigma_A definition completion execution plan after the v8.145 readiness boundary audit.
+
+Safe claim:
+The project has created one controlled Sigma_A definition completion execution plan after the readiness boundary audit. It plans controlled execution scope and gates for future Sigma_A definition completion while keeping actual completion execution, Sigma_A completion, dependent-object completion, theorem planning, theorem proof, validation, readiness approval, and citations at zero.
+
+Boundary:
+This milestone is execution planning only. It does not execute definition completion, does not complete Sigma_A, does not complete dependent objects, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not provide proof assistant verification, does not validate externally, does not approve manuscript readiness, and does not add citations.
+
+Counters:
+- Controlled Sigma_A definition completion execution plan count: 1
+- New controlled Sigma_A definition completion execution plan count: 1
+- Sigma_A definition completion execution plan count: 1
+- Definition completion execution plan count: 1
+- Execution plan row count: 8
+- Execution plan check count: 8
+- Execution plan gate count: 8
+- Imported Sigma_A definition completion readiness boundary audit count: 1
+- Imported audited dependent-object draft count: 6
+- Imported audited planned future completion gate count: 8
+- Planned controlled Sigma_A completion execution scope count: 1
+- Planned controlled execution gate count: 8
+- Planned execution source lock count: 1
+- Planned execution zero preservation count: 1
+- Planned no-default-readiness-audit count: 1
+- Definition completion execution count: 0
+- Sigma_A definition completion execution count: 0
+- Sigma_A definition completion count: 0
+- Dependent-object definition completion count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Strategic transition:
+After v8.146 closes, the next target is v8.147 controlled Sigma_A definition completion execution. Do not run another readiness audit by default.
