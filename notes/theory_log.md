@@ -23123,3 +23123,38 @@ Anti-overclaim boundary:
 
 Next target after official close:
 v8.157 should plan controlled theorem candidates over the dependency-closed integrated bundle unless a concrete blocker appears.
+
+## v8.157 — Controlled Theorem Candidate Planning over Dependency-closed Bundle
+
+Status: main planning completed on branch `v8-157-controlled-theorem-candidate-planning-over-dependency-closed-bundle`.
+
+This milestone plans theorem candidates over the dependency-closed integrated dependent-object completion bundle after v8.156.
+
+Positive planning claims:
+- Controlled theorem candidate planning count: 1
+- New controlled theorem candidate planning count: 1
+- Theorem candidate plan count: 1
+- Theorem candidate planning over dependency-closed bundle count: 1
+- Planned theorem candidate count: 4
+- Accepted theorem candidate plan count: 1
+- Dependency closure boundary pass count: 1
+- Dependency closure blocker count: 0
+- Unresolved dependency gap count: 0
+
+Boundary claims:
+- Formalization complete count: 0
+- New theorem proven count: 0
+- Theorem proof execution count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is not theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not independent experimentation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
