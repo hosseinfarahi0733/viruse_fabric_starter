@@ -25448,3 +25448,82 @@ This milestone is not external validation.
 This milestone is not independent experimentation.
 This milestone is not manuscript readiness.
 This milestone is not citation work.
+
+## v8.174.0 - Controlled TC-001 Proof Execution Close Notes
+
+Status: official close candidate for v8.174.0.
+
+This close note records that v8.174 executes and internally proves TC-001 as a controlled theorem-candidate proof using the officially audited completed supporting lemma chain and the official v8.173 proof execution strategy.
+
+Official claim after tag and final master test:
+- Controlled TC-001 proof execution count: 1
+- New controlled TC-001 proof execution count: 1
+- TC-001 proof execution count: 1
+- New TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- New theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Executed TC-001 proof step count: 8
+- Proved TC-001 theorem candidate count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Supporting lemma chain audit pass count: 1
+- Supporting lemma chain audit blocker count: 0
+- Unresolved supporting lemma chain gap count: 0
+- L-001 lemma proof execution count: 1
+- L-002 lemma proof execution count: 1
+- L-003 lemma proof execution count: 1
+- L-004 lemma proof execution count: 1
+- L-005 lemma proof execution count: 1
+- L-006 lemma proof execution count: 1
+- Lemma proof execution count: 6
+- TC-001 lemma proof execution count: 6
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary counters preserved:
+- New lemma proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Anti-overclaim boundary:
+- v8.174.0 executes and internally proves TC-001 inside the project proof-development framework.
+- v8.174.0 records TC-001 proof execution count: 1.
+- v8.174.0 records new TC-001 proof execution count: 1.
+- v8.174.0 records TC-001 theorem proven count: 1.
+- v8.174.0 records new theorem proven count: 1.
+- v8.174.0 records theorem proof execution count: 1.
+- v8.174.0 records internal theorem proof count: 1.
+- v8.174.0 records executed TC-001 proof step count: 8.
+- v8.174.0 uses the completed and audited TC-001 supporting lemma chain as prerequisite material.
+- v8.174.0 preserves proved TC-001 supporting lemma count: 6.
+- v8.174.0 preserves internal lemma proof count: 6.
+- v8.174.0 records proof assistant verification count: 0.
+- v8.174.0 records formalization complete count: 0.
+- v8.174.0 records external validation count: 0.
+- v8.174.0 records independent experiment count: 0.
+- v8.174.0 records manuscript submission ready count: 0.
+- v8.174.0 records readiness approval count: 0.
+- v8.174.0 records new citation added count: 0.
+- v8.174.0 does not provide proof assistant verification.
+- v8.174.0 does not complete full formalization.
+- v8.174.0 does not provide external validation.
+- v8.174.0 does not provide independent experiments.
+- v8.174.0 does not make the manuscript submission ready.
+- v8.174.0 does not approve readiness.
+- v8.174.0 does not add new citations.
+
+Presentation note:
+- v8.174.0 is the first internal theorem-candidate proof execution for TC-001.
+- The presentation-safe claim after v8.174.0 is: TC-001 has an internal controlled theorem-candidate proof execution.
+- The claim must explicitly exclude proof assistant verification, external validation, manuscript readiness, readiness approval, and citation additions.
+- One final proof acceptance and boundary audit is still needed before using the claim as a polished presentation/manuscript statement.
+
+Next target after official close:
+v8.175 should run one controlled TC-001 proof acceptance and boundary audit.
