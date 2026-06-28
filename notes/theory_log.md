@@ -21240,3 +21240,175 @@ After v8.141 closes, the project should continue dependent-object draft executio
 
 Next target:
 v8.142 Traj_A definition draft execution.
+
+## Experiment 222: Traj_A Definition Draft Execution
+
+Milestone: v8.142 - Traj_A Definition Draft Execution
+
+Branch:
+v8-142-traj-a-definition-draft-execution
+
+Main commit:
+fb4fb4c Add Traj_A definition draft execution
+
+Source artifact:
+outputs/r_a_definition_draft_execution_v8_141.md
+
+Generated artifact:
+outputs/traj_a_definition_draft_execution_v8_142.md
+
+Builder:
+viruse_fabric/writing/traj_a_definition_draft_execution.py
+
+Experiment:
+viruse_fabric/experiments/exp_222_traj_a_definition_draft_execution.py
+
+Result:
+The v8.142 experiment passed and executed one Traj_A definition draft after the R_A definition draft execution milestone.
+
+Execution result:
+- Exactly one Traj_A definition draft execution is performed.
+- Exactly one new Traj_A definition draft execution is performed.
+- Exactly one new definition draft execution is performed.
+- Exactly one dependent-object definition draft execution is performed.
+- One Traj_A draft slot is created.
+- The Traj_A draft is linked to the refined Draft Sigma_A shell.
+- The Traj_A draft is linked to the carried Adm_A draft.
+- The Traj_A draft is linked to the carried C_reg draft.
+- The Traj_A draft is linked to the carried Pi_obs draft.
+- The Traj_A draft is linked to the carried M_c draft.
+- The Traj_A draft is linked to the carried R_A draft.
+- Traj_A is recorded as a trajectory-family placeholder.
+- All dependent-object draft slots are now created.
+- Remaining dependent-object deferral count is zero.
+- Final definition execution remains absent.
+- Traj_A definition completion remains absent.
+- R_A definition completion remains absent.
+- M_c definition completion remains absent.
+- Pi_obs definition completion remains absent.
+- C_reg definition completion remains absent.
+- Adm_A definition completion remains absent.
+- Sigma_A definition completion remains absent.
+- Completed formal definitions remain absent.
+- Theorem candidate planning remains absent.
+- Theorem proof and proof assistant verification remain absent.
+- Validation, readiness, and new citation additions remain absent.
+
+Traj_A draft statement:
+Draft Traj_A := a trajectory-family placeholder for the refined Draft Sigma_A shell, tracking how later trajectory bookkeeping may be attached to admissible, constrained, observable, causal-mass, and recurrence-witness draft configurations carried by Adm_A, C_reg, Pi_obs, M_c, and R_A. It remains a dependent-object draft slot only. This draft does not complete Traj_A, does not complete R_A, does not complete M_c, does not complete Pi_obs, does not complete C_reg, does not complete Adm_A, does not complete Sigma_A, and does not execute theorem or proof work.
+
+Counters:
+- Source artifact count: 1
+- Missing source artifact count: 0
+- Traj_A definition draft execution count: 1
+- New Traj_A definition draft execution count: 1
+- New definition draft execution count: 1
+- Dependent-object definition draft execution count: 1
+- Traj_A draft slot created count: 1
+- Traj_A draft linked to refined Sigma_A count: 1
+- Traj_A linked to Adm_A draft count: 1
+- Traj_A linked to C_reg draft count: 1
+- Traj_A linked to Pi_obs draft count: 1
+- Traj_A linked to M_c draft count: 1
+- Traj_A linked to R_A draft count: 1
+- Traj_A trajectory-family placeholder count: 1
+- Remaining dependent-object deferral count: 0
+- All dependent-object draft slots created count: 1
+- Definition draft execution row count: 8
+- Definition draft execution check count: 8
+- Definition draft boundary preserved count: 8
+- Carried R_A definition draft execution count: 1
+- Carried new R_A definition draft execution count: 1
+- Carried R_A draft slot created count: 1
+- Carried R_A draft linked to refined Sigma_A count: 1
+- Carried R_A linked to Adm_A draft count: 1
+- Carried R_A linked to C_reg draft count: 1
+- Carried R_A linked to Pi_obs draft count: 1
+- Carried R_A linked to M_c draft count: 1
+- Carried R_A recurrence-witness placeholder count: 1
+- Carried remaining dependent-object deferral count: 1
+- Carried M_c definition draft execution count: 1
+- Carried Pi_obs definition draft execution count: 1
+- Carried C_reg definition draft execution count: 1
+- Carried Adm_A definition draft execution count: 1
+- Carried Sigma_A refinement execution count: 1
+- Carried refined Draft Sigma_A shell count: 1
+- Carried integrated time-index layer count: 1
+- Core formal object inventory execution count: 1
+- Core formal object count: 6
+- Formal object inventory execution count: 1
+- Resolved gap count: 13
+- Unresolved gap count: 0
+- Remaining blocking gap count: 0
+- Conditional hold count: 0
+- Definition execution count: 0
+- New definition execution count: 0
+- Completed formal definition count: 0
+- Formalization complete count: 0
+- Traj_A definition completion count: 0
+- R_A definition completion count: 0
+- M_c definition completion count: 0
+- Pi_obs definition completion count: 0
+- C_reg definition completion count: 0
+- Adm_A definition completion count: 0
+- Sigma_A definition completion count: 0
+- Stabilization predicate definition completion count: 0
+- Attractor class definition completion count: 0
+- Constraint region definition completion count: 0
+- Causal mass definition completion count: 0
+- Observer projection definition completion count: 0
+- New R_A definition draft execution count: 0
+- New M_c definition draft execution count: 0
+- New Pi_obs definition draft execution count: 0
+- New C_reg definition draft execution count: 0
+- New Adm_A definition draft execution count: 0
+- New Sigma_A refinement execution count: 0
+- New time-index refinement execution count: 0
+- New T_A refinement execution count: 0
+- New whole Sigma_A draft assembly execution count: 0
+- New Sigma_A draft assembly execution count: 0
+- New Sigma_A draft clause count: 0
+- New Sigma_A draft clause creation count: 0
+- New carrier draft clause creation execution count: 0
+- New carrier-level draft assembly execution count: 0
+- New typed-product carrier refinement execution count: 0
+- Generic carrier refinement execution count: 0
+- Carrier refinement execution count: 0
+- Carrier type refinement execution count: 0
+- New component-slot integration execution count: 0
+- New component-slot refinement execution count: 0
+- New carrier type selection count: 0
+- Completion decision count: 0
+- Completion execution count: 0
+- Completion execution authorized count: 0
+- Theorem candidate plan count: 0
+- New theorem proven count: 0
+- Cumulative limited theorem proven count: 5
+- Proof assistant verification count: 0
+- Formal mathematical proof count: 0
+- Formal proof execution count: 0
+- Proof execution count: 0
+- Proof gap resolution count: 0
+- Definition completion execution count: 0
+- Full framework formal proof count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- New citation added count: 0
+- Overclaim count: 0
+- Invented citation-like pattern count: 0
+- Errors: 0
+- Passed: True
+
+Safe claim:
+The project has executed one Traj_A definition draft after the R_A definition draft execution milestone. It created one Traj_A draft slot, linked it to the refined Draft Sigma_A shell and the carried Adm_A, C_reg, Pi_obs, M_c, and R_A drafts, recorded Traj_A as a trajectory-family placeholder, and reduced remaining dependent-object deferrals to zero. It does not execute final definitions, does not complete Traj_A, does not complete R_A, does not complete M_c, does not complete Pi_obs, does not complete C_reg, does not complete Adm_A, does not complete Sigma_A, does not complete formal definitions, does not create theorem candidates, does not prove theorems, does not provide proof assistant verification, does not validate externally, does not approve manuscript readiness, and does not add citations.
+
+Boundary:
+This milestone is Traj_A definition draft execution only. It executes one Traj_A draft, but it does not execute final definitions, does not complete Traj_A, does not complete R_A, does not complete M_c, does not complete Pi_obs, does not complete C_reg, does not complete Adm_A, does not complete Sigma_A, does not complete any formal definition, does not complete formalization, does not create theorem candidates, does not prove a theorem, does not run proof execution, does not provide proof assistant verification, does not prove the full framework, does not provide external validation, does not perform an independent experiment, does not approve manuscript submission readiness, and does not add new citations.
+
+Strategic transition:
+After v8.142 closes, all dependent-object draft slots are created. The recommended next target is dependent-object draft bundle integration execution. That work must remain separate from Traj_A completion, dependent-object definition completion, Sigma_A definition completion, theorem candidate planning, theorem proof, validation, manuscript readiness, and new citations.
+
+Next target:
+v8.143 dependent-object draft bundle integration execution.
