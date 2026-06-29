@@ -1,0 +1,201 @@
+{
+  "abstract_graphs_only": true,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "audit_items": [
+    {
+      "boundary_note": "Consistency audit reads source scope only and performs no patch application.",
+      "check": "Source finding register declares finding-register-only scope.",
+      "expected": "finding-register-only",
+      "id": "CA-01",
+      "observed": "finding-register-only",
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit does not add, remove, complete, or execute finding items.",
+      "check": "Source finding register contains exactly nine finding items.",
+      "expected": 9,
+      "id": "CA-02",
+      "observed": 9,
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit only records boundary-note count consistency.",
+      "check": "Source finding register contains exactly nine boundary notes.",
+      "expected": 9,
+      "id": "CA-03",
+      "observed": 9,
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit records pass/failure consistency but grants no approval.",
+      "check": "Source finding-register pass/failure counters are internally consistent.",
+      "expected": {
+        "failure_count": 0,
+        "item_count": 9,
+        "registered_pass_count": 9
+      },
+      "id": "CA-04",
+      "observed": {
+        "failure_count": 0,
+        "item_count": 9,
+        "registered_pass_count": 9
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit does not complete or execute checklist steps.",
+      "check": "Checklist completion and checklist execution remain zero.",
+      "expected": {
+        "completion": 0,
+        "execution": 0
+      },
+      "id": "CA-05",
+      "observed": {
+        "completion": 0,
+        "execution": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit grants no permission and applies no patch.",
+      "check": "Application permission and applied patch counts remain zero.",
+      "expected": {
+        "applied_patch": 0,
+        "permission": 0
+      },
+      "id": "CA-06",
+      "observed": {
+        "applied_patch": 0,
+        "permission": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit does not edit manuscript files.",
+      "check": "Manuscript file modification and manuscript mutation remain zero.",
+      "expected": {
+        "file_modified": 0,
+        "mutation": 0
+      },
+      "id": "CA-07",
+      "observed": {
+        "file_modified": 0,
+        "mutation": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit creates no readiness approval, validation, proof, experiment, or citation.",
+      "check": "Readiness, validation, proof, experiment, and citation counters remain zero.",
+      "expected": {
+        "external_validation": 0,
+        "independent_experiment": 0,
+        "new_citation": 0,
+        "proof_assistant": 0,
+        "readiness_approval": 0,
+        "submission_ready": 0
+      },
+      "id": "CA-08",
+      "observed": {
+        "external_validation": 0,
+        "independent_experiment": 0,
+        "new_citation": 0,
+        "proof_assistant": 0,
+        "readiness_approval": 0,
+        "submission_ready": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Consistency audit preserves safe abstract toy-only boundaries.",
+      "check": "Real-biological operational counters remain zero.",
+      "expected": {
+        "actionable_biosafety": 0,
+        "host_range": 0,
+        "host_targeting": 0,
+        "immune_evasion": 0,
+        "infectivity_optimization": 0,
+        "real_dataset": 0,
+        "real_pathogen": 0,
+        "real_receptor": 0,
+        "wet_lab": 0
+      },
+      "id": "CA-09",
+      "observed": {
+        "actionable_biosafety": 0,
+        "host_range": 0,
+        "host_targeting": 0,
+        "immune_evasion": 0,
+        "infectivity_optimization": 0,
+        "real_dataset": 0,
+        "real_pathogen": 0,
+        "real_receptor": 0,
+        "wet_lab": 0
+      },
+      "status": "pass"
+    }
+  ],
+  "audit_phrase": "finding_register_consistency_audited_but_no_application_permission_or_execution",
+  "boundary_notes": [
+    "Consistency audit reads source scope only and performs no patch application.",
+    "Consistency audit does not add, remove, complete, or execute finding items.",
+    "Consistency audit only records boundary-note count consistency.",
+    "Consistency audit records pass/failure consistency but grants no approval.",
+    "Consistency audit does not complete or execute checklist steps.",
+    "Consistency audit grants no permission and applies no patch.",
+    "Consistency audit does not edit manuscript files.",
+    "Consistency audit creates no readiness approval, validation, proof, experiment, or citation.",
+    "Consistency audit preserves safe abstract toy-only boundaries."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy manuscript patch application decision ledger audit finding register consistency audit count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy manuscript patch application decision ledger audit finding register consistency audit count": 1,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit JSON export count": 1,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit boundary note count": 9,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit direct execution count": 1,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit execution count": 1,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit failure count": 0,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit item count": 9,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit non-readiness disclaimer count": 1,
+    "Toy manuscript patch application decision ledger audit finding register consistency audit pass count": 9,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.207 artifact audits consistency of the v8.206 finding register only. It does not complete checklist items, execute checklist steps, grant application permission, apply manuscript patches, modify manuscript files, approve readiness, or establish submission readiness.",
+  "passed": true,
+  "safe_abstract_toy_only": true,
+  "scope": "consistency-audit-only",
+  "source_json": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_v8_206.json",
+  "source_markdown": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_v8_206.md",
+  "source_markdown_character_count": 5871,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Manuscript Patch Application Decision Ledger Audit Finding Register Consistency Audit",
+  "unitless_parameters_only": true,
+  "version": "v8.207"
+}
