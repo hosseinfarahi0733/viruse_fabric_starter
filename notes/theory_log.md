@@ -26144,3 +26144,58 @@ Presentation note:
 
 Next target after official close:
 Use v8.178.0 as the official slide-content source for building the actual presentation deck.
+
+## v8.179 - Controlled TC-001 Actual Presentation Deck Draft
+
+Status: main draft completed on branch `v8-179-controlled-tc-001-actual-presentation-deck-draft`.
+
+This milestone drafts the actual TC-001 presentation deck content from the official v8.178 slide content.
+
+Positive draft claims:
+- Controlled TC-001 actual presentation deck draft count: 1
+- New controlled TC-001 actual presentation deck draft count: 1
+- TC-001 actual presentation deck draft count: 1
+- Drafted TC-001 presentation slide count: 8
+- Drafted TC-001 slide title count: 8
+- Drafted TC-001 slide bullet set count: 8
+- Drafted TC-001 speaker note count: 8
+- Drafted TC-001 defense Q&A count: 6
+- Drafted TC-001 opening script count: 1
+- Drafted TC-001 closing script count: 1
+- Drafted TC-001 final defense sentence count: 1
+- Actual presentation deck draft ready count: 1
+
+Imported presentation-content claims:
+- Controlled TC-001 slide deck content extraction count: 1
+- Presentation deck content ready count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is actual presentation deck drafting only.
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
