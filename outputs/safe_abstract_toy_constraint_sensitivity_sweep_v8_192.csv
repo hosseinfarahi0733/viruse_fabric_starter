@@ -1,0 +1,16 @@
+sweep_run_id,sweep_kind,config_id,fixture_id,step_count,node_count,edge_count,agent_count,final_activity_sum,final_observation_score,targeted_looking_pattern_score,passed_safety_guard,compatibility_weight,transport_weight,capacity_weight,defense_weight,memory_weight,activity_decay
+toy_sensitivity_run_001,toy_synthetic_abstract_unitless_non-operational,toy_sweep_baseline,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.6,True,0.35,0.25,0.2,0.3,0.1,0.03
+toy_sensitivity_run_002,toy_synthetic_abstract_unitless_non-operational,toy_sweep_baseline,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.5525,True,0.35,0.25,0.2,0.3,0.1,0.03
+toy_sensitivity_run_003,toy_synthetic_abstract_unitless_non-operational,toy_sweep_baseline,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.6775,True,0.35,0.25,0.2,0.3,0.1,0.03
+toy_sensitivity_run_004,toy_synthetic_abstract_unitless_non-operational,toy_sweep_compatibility_weight_high,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.6425,True,0.5,0.2,0.15,0.3,0.1,0.03
+toy_sensitivity_run_005,toy_synthetic_abstract_unitless_non-operational,toy_sweep_compatibility_weight_high,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.60875,True,0.5,0.2,0.15,0.3,0.1,0.03
+toy_sensitivity_run_006,toy_synthetic_abstract_unitless_non-operational,toy_sweep_compatibility_weight_high,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.70875,True,0.5,0.2,0.15,0.3,0.1,0.03
+toy_sensitivity_run_007,toy_synthetic_abstract_unitless_non-operational,toy_sweep_transport_weight_high,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.57875,True,0.3,0.45,0.15,0.3,0.1,0.03
+toy_sensitivity_run_008,toy_synthetic_abstract_unitless_non-operational,toy_sweep_transport_weight_high,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.5075,True,0.3,0.45,0.15,0.3,0.1,0.03
+toy_sensitivity_run_009,toy_synthetic_abstract_unitless_non-operational,toy_sweep_transport_weight_high,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.68375,True,0.3,0.45,0.15,0.3,0.1,0.03
+toy_sensitivity_run_010,toy_synthetic_abstract_unitless_non-operational,toy_sweep_capacity_weight_high,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.5725,True,0.3,0.2,0.4,0.3,0.1,0.03
+toy_sensitivity_run_011,toy_synthetic_abstract_unitless_non-operational,toy_sweep_capacity_weight_high,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.5275,True,0.3,0.2,0.4,0.3,0.1,0.03
+toy_sensitivity_run_012,toy_synthetic_abstract_unitless_non-operational,toy_sweep_capacity_weight_high,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.665,True,0.3,0.2,0.4,0.3,0.1,0.03
+toy_sensitivity_run_013,toy_synthetic_abstract_unitless_non-operational,toy_sweep_defense_weight_high,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.64,True,0.35,0.25,0.2,0.5,0.1,0.03
+toy_sensitivity_run_014,toy_synthetic_abstract_unitless_non-operational,toy_sweep_defense_weight_high,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.5875,True,0.35,0.25,0.2,0.5,0.1,0.03
+toy_sensitivity_run_015,toy_synthetic_abstract_unitless_non-operational,toy_sweep_defense_weight_high,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.7175,True,0.35,0.25,0.2,0.5,0.1,0.03
