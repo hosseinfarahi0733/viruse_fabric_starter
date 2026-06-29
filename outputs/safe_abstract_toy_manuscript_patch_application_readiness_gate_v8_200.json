@@ -1,0 +1,71 @@
+{
+  "application_execution_count": 0,
+  "application_permission_count": 0,
+  "applied_patch_count": 0,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "gate_check_count": 8,
+  "gate_checks": [
+    {
+      "check_id": "dry_run_preview_count_check",
+      "detail": "Expected six dry-run previews.",
+      "passed": true
+    },
+    {
+      "check_id": "source_proposal_count_check",
+      "detail": "Expected six source patch proposals.",
+      "passed": true
+    },
+    {
+      "check_id": "applied_patch_zero_check",
+      "detail": "No manuscript patch may be applied at gate stage.",
+      "passed": true
+    },
+    {
+      "check_id": "manuscript_file_modified_zero_check",
+      "detail": "No manuscript file may be modified at gate stage.",
+      "passed": true
+    },
+    {
+      "check_id": "manuscript_mutation_zero_check",
+      "detail": "No manuscript mutation may occur at gate stage.",
+      "passed": true
+    },
+    {
+      "check_id": "preview_status_check",
+      "detail": "Observed preview statuses: ['preview_only_not_applied']",
+      "passed": true
+    },
+    {
+      "check_id": "preview_action_check",
+      "detail": "Observed preview actions: ['would_insert_if_later_approved']",
+      "passed": true
+    },
+    {
+      "check_id": "boundary_zero_check",
+      "detail": "Boundary failures: []",
+      "passed": true
+    }
+  ],
+  "gate_decision": "structurally_passed_but_application_not_permitted_or_executed",
+  "manuscript_file_modified_count": 0,
+  "manuscript_mutation_count": 0,
+  "non_readiness_disclaimer_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_patch_application_readiness_gate",
+  "source_dry_run_preview_count": 6,
+  "source_proposed_patch_count": 6,
+  "structural_gate_failure_count": 0,
+  "structural_gate_pass_count": 1
+}
