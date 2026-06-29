@@ -1,0 +1,81 @@
+{
+  "application_execution_count": 0,
+  "application_permission_count": 0,
+  "application_plan_execution_count": 0,
+  "applied_patch_count": 0,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "boundary_note_count": 7,
+  "manuscript_file_modified_count": 0,
+  "manuscript_mutation_count": 0,
+  "non_readiness_disclaimer_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_patch_application_plan",
+  "plan_decision": "plan_created_but_application_not_permitted_or_executed",
+  "plan_step_count": 7,
+  "plan_steps": [
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Review the v8.200 structural gate report before any future manual manuscript action.",
+      "step_id": "manual_review_gate_report",
+      "step_kind": "manual_review",
+      "step_order": 1
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Confirm that every future insertion remains synthetic, abstract, unitless, and non-operational.",
+      "step_id": "confirm_toy_scope",
+      "step_kind": "scope_check",
+      "step_order": 2
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Confirm zero real biological dataset import, real pathogen simulation, receptor parameterization, host targeting, wet-lab protocol, and actionable biosafety-risk instruction.",
+      "step_id": "confirm_zero_real_biological_scope",
+      "step_kind": "safety_check",
+      "step_order": 3
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Confirm that the plan does not make the manuscript submission ready and does not approve readiness.",
+      "step_id": "confirm_non_readiness_boundary",
+      "step_kind": "readiness_boundary_check",
+      "step_order": 4
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Confirm zero external validation, zero independent experiment, zero proof assistant verification, and zero new citation additions.",
+      "step_id": "confirm_no_validation_or_citation_claim",
+      "step_kind": "research_boundary_check",
+      "step_order": 5
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Prepare only a future manual diff pathway; do not execute it in this milestone.",
+      "step_id": "prepare_future_manual_diff_only",
+      "step_kind": "future_manual_diff_preparation",
+      "step_order": 6
+    },
+    {
+      "boundary_note": "Plan-only step. No permission, execution, manuscript modification, readiness approval, validation, citation addition, or real-biological operational claim is created.",
+      "description": "Stop before any application, manuscript file modification, or manuscript mutation.",
+      "step_id": "stop_before_application",
+      "step_kind": "hard_stop",
+      "step_order": 7
+    }
+  ],
+  "source_gate_check_count": 8,
+  "source_structural_gate_failure_count": 0,
+  "source_structural_gate_pass_count": 1
+}
