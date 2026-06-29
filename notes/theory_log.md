@@ -26199,3 +26199,117 @@ This milestone is not proof assistant verification.
 This milestone is not external validation.
 This milestone is not manuscript readiness.
 This milestone is not citation work.
+
+## v8.179.0 - Controlled TC-001 Actual Presentation Deck Draft Close Notes
+
+Status: official close candidate for v8.179.0.
+
+This close note records that v8.179 drafts the actual TC-001 presentation deck content from the official v8.178 slide-content source.
+
+Official claim after tag and final master test:
+- Controlled TC-001 actual presentation deck draft count: 1
+- New controlled TC-001 actual presentation deck draft count: 1
+- TC-001 actual presentation deck draft count: 1
+- Drafted TC-001 presentation slide count: 8
+- Drafted TC-001 slide title count: 8
+- Drafted TC-001 slide bullet set count: 8
+- Drafted TC-001 speaker note count: 8
+- Drafted TC-001 defense Q&A count: 6
+- Drafted TC-001 opening script count: 1
+- Drafted TC-001 closing script count: 1
+- Drafted TC-001 final defense sentence count: 1
+- Actual presentation deck draft ready count: 1
+- Controlled TC-001 slide deck content extraction count: 1
+- Presentation deck content ready count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary counters preserved:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Official presentation-draft source:
+outputs/controlled_tc_001_actual_presentation_deck_draft_v8_179.md
+
+Presentation deck content:
+- Slide 1: وضعیت اثبات TC-001.
+- Slide 2: گزاره TC-001.
+- Slide 3: زنجیره پشتیبان L-001 تا L-006.
+- Slide 4: مسیر شواهد.
+- Slide 5: claim پذیرفته‌شده.
+- Slide 6: مرزهای ادعا.
+- Slide 7: کارهای باقی‌مانده.
+- Slide 8: جمله نهایی دفاع.
+
+Final defense wording:
+TC-001 has an accepted internal controlled theorem-candidate proof execution within the project proof-development framework, with explicit boundaries excluding proof assistant verification, external validation, independent experimental validation, manuscript readiness, readiness approval, and new citation additions.
+
+Persian final defense wording:
+TC-001 دارای یک اثبات داخلی پذیرفته‌شده و کنترل‌شده در سطح theorem-candidate در چارچوب توسعه اثبات پروژه است، با مرزهای مشخص مبنی بر اینکه این نتیجه هنوز proof-assistant verified نیست، external validation ندارد، independent experimental validation ندارد، آماده ارسال مقاله نیست، readiness-approved نیست و در این milestone با citation جدید پشتیبانی نشده است.
+
+Anti-overclaim boundary:
+- v8.179.0 drafts the actual presentation deck content only.
+- v8.179.0 records drafted TC-001 presentation slide count: 8.
+- v8.179.0 records drafted TC-001 slide title count: 8.
+- v8.179.0 records drafted TC-001 slide bullet set count: 8.
+- v8.179.0 records drafted TC-001 speaker note count: 8.
+- v8.179.0 records drafted TC-001 defense Q&A count: 6.
+- v8.179.0 records drafted TC-001 opening script count: 1.
+- v8.179.0 records drafted TC-001 closing script count: 1.
+- v8.179.0 records drafted TC-001 final defense sentence count: 1.
+- v8.179.0 preserves presentation deck content ready count: 1.
+- v8.179.0 preserves presentation-safe internal TC-001 proof claim count: 1.
+- v8.179.0 preserves accepted internal TC-001 theorem proof count: 1.
+- v8.179.0 preserves TC-001 proof execution count: 1.
+- v8.179.0 preserves TC-001 theorem proven count: 1.
+- v8.179.0 preserves theorem proof execution count: 1.
+- v8.179.0 preserves internal theorem proof count: 1.
+- v8.179.0 preserves completed TC-001 supporting lemma chain count: 1.
+- v8.179.0 preserves proved TC-001 supporting lemma count: 6.
+- v8.179.0 records new lemma proof execution count: 0.
+- v8.179.0 records new TC-001 proof execution count: 0.
+- v8.179.0 records new theorem proven count: 0.
+- v8.179.0 records new theorem proof execution count: 0.
+- v8.179.0 records proof assistant verification count: 0.
+- v8.179.0 records formalization complete count: 0.
+- v8.179.0 records external validation count: 0.
+- v8.179.0 records independent experiment count: 0.
+- v8.179.0 records manuscript submission ready count: 0.
+- v8.179.0 records readiness approval count: 0.
+- v8.179.0 records new citation added count: 0.
+- v8.179.0 does not execute a new TC-001 proof.
+- v8.179.0 does not add a new theorem proof.
+- v8.179.0 does not provide proof assistant verification.
+- v8.179.0 does not complete full formalization.
+- v8.179.0 does not provide external validation.
+- v8.179.0 does not provide independent experiments.
+- v8.179.0 does not make the manuscript submission ready.
+- v8.179.0 does not approve readiness.
+- v8.179.0 does not add new citations.
+
+Presentation note:
+- v8.179.0 is suitable as the official draft source for the actual TC-001 presentation.
+- v8.179.0 does not generate a .pptx file.
+- v8.179.0 does not make the manuscript ready.
+- v8.179.0 does not add citations.
+- v8.179.0 does not provide proof assistant verification.
+
+Next target after official close:
+Use v8.179.0 as the official actual presentation draft source. Future work should stay separate: proof assistant verification, external validation, independent experiments, citation expansion, and manuscript readiness.
