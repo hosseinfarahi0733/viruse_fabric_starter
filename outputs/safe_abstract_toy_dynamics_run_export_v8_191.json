@@ -1,0 +1,60 @@
+{
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "operational_host_targeting_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "export_kind": "toy_synthetic_abstract_unitless_non-operational",
+  "metrics_summary": {
+    "max_targeted_looking_pattern_score": 0.6775,
+    "mean_final_observation_score": 1.0,
+    "mean_targeted_looking_pattern_score": 0.61,
+    "min_targeted_looking_pattern_score": 0.5525,
+    "toy_run_all_safety_passed": true,
+    "toy_run_record_count": 3
+  },
+  "records": [
+    {
+      "agent_count": 1,
+      "edge_count": 1,
+      "final_activity_sum": 1.0,
+      "final_observation_score": 1.0,
+      "fixture_id": "toy_fixture_alpha_two_node",
+      "node_count": 2,
+      "passed_safety_guard": true,
+      "run_id": "toy_run_001",
+      "run_kind": "toy_synthetic_abstract_unitless_non-operational",
+      "step_count": 4,
+      "targeted_looking_pattern_score": 0.6
+    },
+    {
+      "agent_count": 1,
+      "edge_count": 2,
+      "final_activity_sum": 1.0,
+      "final_observation_score": 1.0,
+      "fixture_id": "toy_fixture_beta_three_node_chain",
+      "node_count": 3,
+      "passed_safety_guard": true,
+      "run_id": "toy_run_002",
+      "run_kind": "toy_synthetic_abstract_unitless_non-operational",
+      "step_count": 4,
+      "targeted_looking_pattern_score": 0.5525
+    },
+    {
+      "agent_count": 1,
+      "edge_count": 2,
+      "final_activity_sum": 1.0,
+      "final_observation_score": 1.0,
+      "fixture_id": "toy_fixture_gamma_star",
+      "node_count": 3,
+      "passed_safety_guard": true,
+      "run_id": "toy_run_003",
+      "run_kind": "toy_synthetic_abstract_unitless_non-operational",
+      "step_count": 4,
+      "targeted_looking_pattern_score": 0.6775
+    }
+  ]
+}

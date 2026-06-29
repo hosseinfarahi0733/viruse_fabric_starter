@@ -1,0 +1,4 @@
+run_id,run_kind,fixture_id,step_count,node_count,edge_count,agent_count,final_activity_sum,final_observation_score,targeted_looking_pattern_score,passed_safety_guard
+toy_run_001,toy_synthetic_abstract_unitless_non-operational,toy_fixture_alpha_two_node,4,2,1,1,1.0,1.0,0.6,True
+toy_run_002,toy_synthetic_abstract_unitless_non-operational,toy_fixture_beta_three_node_chain,4,3,2,1,1.0,1.0,0.5525,True
+toy_run_003,toy_synthetic_abstract_unitless_non-operational,toy_fixture_gamma_star,4,3,2,1,1.0,1.0,0.6775,True
