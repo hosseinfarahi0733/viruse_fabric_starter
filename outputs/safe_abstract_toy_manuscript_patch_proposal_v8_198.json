@@ -1,0 +1,88 @@
+{
+  "applied_patch_count": 0,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "boundary_note_count": 6,
+  "non_readiness_disclaimer_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_patch_proposal",
+  "patch_proposals": [
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "results_paragraphs",
+      "patch_id": "toy_patch_proposal_01",
+      "placement_rule": "Use only as toy-results wording; do not present as biological, empirical, validation, or readiness evidence.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "Across the safe abstract toy sensitivity ranking package, five synthetic, unitless, non-operational configurations were summarized from 15 toy source records. The package identifies a top-ranked toy configuration by mean targeted-looking pattern score while preserving all explicit safety and anti-overclaim boundaries.\n\nThe top-ranked toy configuration was `toy_sweep_compatibility_weight_high` with a mean targeted-looking pattern score of 0.653333. The bottom-ranked toy configuration was `toy_sweep_capacity_weight_high` with a mean targeted-looking pattern score of 0.588333. The baseline configuration was `toy_sweep_baseline` with a mean targeted-looking pattern score of 0.61.\n\nThese results are interpreted only as behavior of a synthetic toy constraint system. They are not biological measurements, not real-world predictions, not external validation, not independent experimental evidence, and not manuscript-submission readiness evidence.",
+      "source_slot_id": "toy_results_text_slot",
+      "target_manuscript_location": "Results subsection for safe abstract toy outputs"
+    },
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "figure_caption",
+      "patch_id": "toy_patch_proposal_02",
+      "placement_rule": "Use only with the toy figure-ready outputs; preserve the non-biological and non-validation boundary.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "Figure X. Safe abstract toy sensitivity ranking over five synthetic, unitless, non-operational configurations. Rows summarize figure-ready toy scores and baseline deltas derived from 15 toy records. The figure reports only toy-system behavior and carries no biological, clinical, virological, external-validation, or manuscript-readiness claim.",
+      "source_slot_id": "toy_figure_caption_slot",
+      "target_manuscript_location": "Caption for toy sensitivity ranking figure or table"
+    },
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "limitation_paragraph",
+      "patch_id": "toy_patch_proposal_03",
+      "placement_rule": "Keep near any toy results discussion to prevent overclaiming.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "The analysis is intentionally limited to synthetic toy fixtures and abstract unitless scores. No real biological dataset, pathogen model, receptor parameter, operational host-targeting procedure, wet-lab protocol, or actionable biosafety-risk instruction is introduced.",
+      "source_slot_id": "toy_limitation_slot",
+      "target_manuscript_location": "Limitations or boundary subsection"
+    },
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "safety_boundary_statement",
+      "patch_id": "toy_patch_proposal_04",
+      "placement_rule": "Keep explicit zero-boundary wording unchanged.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "All reported outputs remain toy, synthetic, abstract, unitless, and non-operational; real biological dataset import, real pathogen simulation, real receptor parameters, operational host targeting, wet-lab protocols, actionable biosafety-risk instructions, proof assistant verification, external validation, independent experiment, manuscript submission readiness, readiness approval, and new citation additions remain zero.",
+      "source_slot_id": "toy_safety_boundary_slot",
+      "target_manuscript_location": "Safety and anti-overclaim boundary subsection"
+    },
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "controlled_claim_sentence",
+      "patch_id": "toy_patch_proposal_05",
+      "placement_rule": "Use as a controlled scope sentence only.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "The project now has manuscript-safe toy wording for presenting figure-ready abstract toy ranking outputs without converting them into biological, validation, readiness, or citation claims.",
+      "source_slot_id": "toy_controlled_claim_slot",
+      "target_manuscript_location": "End of toy results subsection or transition sentence"
+    },
+    {
+      "boundary_note": "This is a proposed placement for synthetic, abstract, unitless toy wording only; it is not an applied manuscript patch, not manuscript submission readiness, not external validation, not independent experimental evidence, not proof assistant verification, and not a new citation addition.",
+      "content_kind": "non_readiness_disclaimer",
+      "patch_id": "toy_patch_proposal_06",
+      "placement_rule": "Use whenever the toy wording is moved into a broader manuscript draft.",
+      "proposal_status": "proposal_only_not_applied",
+      "proposed_insertion_text": "This toy-results wording package does not make the manuscript submission ready, does not add external validation, does not add independent experimental evidence, does not add proof assistant verification, and does not add new citations.",
+      "source_slot_id": "toy_non_readiness_disclaimer_slot",
+      "target_manuscript_location": "Readiness boundary note"
+    }
+  ],
+  "proposal_statuses": [
+    "proposal_only_not_applied"
+  ],
+  "proposed_patch_count": 6,
+  "source_audit_pass_count": 1,
+  "source_slot_count": 6
+}
