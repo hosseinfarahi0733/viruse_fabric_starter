@@ -26545,3 +26545,120 @@ This milestone is not proof assistant verification.
 This milestone is not external validation.
 This milestone is not manuscript readiness.
 This milestone is not citation work.
+
+## v8.181.0 - Controlled TC-001 Renderable Presentation Source Close Notes
+
+Status: official close candidate for v8.181.0.
+
+This close note records that v8.181 builds a renderable markdown presentation source for TC-001 from the official v8.180 presentation delivery package.
+
+Official claim after tag and final master test:
+- Controlled TC-001 renderable presentation source count: 1
+- New controlled TC-001 renderable presentation source count: 1
+- TC-001 renderable presentation source count: 1
+- Renderable TC-001 slide source count: 1
+- Renderable TC-001 slide count: 8
+- Renderable TC-001 title slide count: 1
+- Renderable TC-001 content slide count: 7
+- Renderable TC-001 speaker cue count: 8
+- Renderable TC-001 defense appendix count: 1
+- Renderable TC-001 Q&A count: 6
+- Renderable TC-001 boundary slide count: 1
+- Renderable TC-001 final defense sentence count: 1
+- Renderable presentation source ready count: 1
+- Controlled TC-001 presentation delivery package count: 1
+- Display-ready TC-001 presentation package count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary counters preserved:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Official renderable presentation source:
+outputs/controlled_tc_001_renderable_presentation_source_v8_181.md
+
+Renderable presentation content:
+- Slide 1: وضعیت اثبات TC-001.
+- Slide 2: TC-001 چه می‌گوید؟
+- Slide 3: زنجیره پشتیبان L-001 تا L-006.
+- Slide 4: مسیر شواهد.
+- Slide 5: claim پذیرفته‌شده.
+- Slide 6: مرزهای ادعا.
+- Slide 7: مسیرهای باقی‌مانده.
+- Slide 8: جمله نهایی دفاع.
+- Appendix: Compact Defense Q&A.
+
+Final defense wording:
+TC-001 has an accepted internal controlled theorem-candidate proof execution within the project proof-development framework, with explicit boundaries excluding proof assistant verification, external validation, independent experimental validation, manuscript readiness, readiness approval, and new citation additions.
+
+Persian final defense wording:
+TC-001 دارای یک اثبات داخلی پذیرفته‌شده و کنترل‌شده در سطح theorem-candidate در چارچوب توسعه اثبات پروژه است، با مرزهای مشخص مبنی بر اینکه این نتیجه هنوز proof-assistant verified نیست، external validation ندارد، independent experimental validation ندارد، آماده ارسال مقاله نیست، readiness-approved نیست و با citation جدید پشتیبانی نشده است.
+
+Anti-overclaim boundary:
+- v8.181.0 builds the renderable markdown presentation source only.
+- v8.181.0 records renderable TC-001 slide source count: 1.
+- v8.181.0 records renderable TC-001 slide count: 8.
+- v8.181.0 records renderable TC-001 title slide count: 1.
+- v8.181.0 records renderable TC-001 content slide count: 7.
+- v8.181.0 records renderable TC-001 speaker cue count: 8.
+- v8.181.0 records renderable TC-001 defense appendix count: 1.
+- v8.181.0 records renderable TC-001 Q&A count: 6.
+- v8.181.0 records renderable TC-001 boundary slide count: 1.
+- v8.181.0 records renderable TC-001 final defense sentence count: 1.
+- v8.181.0 preserves display-ready TC-001 presentation package count: 1.
+- v8.181.0 preserves presentation-safe internal TC-001 proof claim count: 1.
+- v8.181.0 preserves accepted internal TC-001 theorem proof count: 1.
+- v8.181.0 preserves TC-001 proof execution count: 1.
+- v8.181.0 preserves TC-001 theorem proven count: 1.
+- v8.181.0 preserves theorem proof execution count: 1.
+- v8.181.0 preserves internal theorem proof count: 1.
+- v8.181.0 preserves completed TC-001 supporting lemma chain count: 1.
+- v8.181.0 preserves proved TC-001 supporting lemma count: 6.
+- v8.181.0 records new lemma proof execution count: 0.
+- v8.181.0 records new TC-001 proof execution count: 0.
+- v8.181.0 records new theorem proven count: 0.
+- v8.181.0 records new theorem proof execution count: 0.
+- v8.181.0 records proof assistant verification count: 0.
+- v8.181.0 records formalization complete count: 0.
+- v8.181.0 records external validation count: 0.
+- v8.181.0 records independent experiment count: 0.
+- v8.181.0 records manuscript submission ready count: 0.
+- v8.181.0 records readiness approval count: 0.
+- v8.181.0 records new citation added count: 0.
+- v8.181.0 does not execute a new TC-001 proof.
+- v8.181.0 does not add a new theorem proof.
+- v8.181.0 does not provide proof assistant verification.
+- v8.181.0 does not complete full formalization.
+- v8.181.0 does not provide external validation.
+- v8.181.0 does not provide independent experiments.
+- v8.181.0 does not make the manuscript submission ready.
+- v8.181.0 does not approve readiness.
+- v8.181.0 does not add new citations.
+
+Presentation note:
+- v8.181.0 is suitable as the official renderable markdown source for the TC-001 presentation.
+- v8.181.0 does not generate a .pptx file.
+- v8.181.0 does not make the manuscript ready.
+- v8.181.0 does not add citations.
+- v8.181.0 does not provide proof assistant verification.
+
+Next target after official close:
+Use v8.181.0 as the official renderable presentation source. If a file artifact is required later, convert this source into a slide deck without changing the proof, validation, citation, or readiness status.
