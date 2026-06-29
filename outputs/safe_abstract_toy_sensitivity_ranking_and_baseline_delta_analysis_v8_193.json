@@ -1,0 +1,93 @@
+{
+  "analysis_kind": "toy_synthetic_abstract_unitless_non-operational_sensitivity_ranking",
+  "baseline_config_id": "toy_sweep_baseline",
+  "bottom_mean_targeted_looking_pattern_score": 0.588333,
+  "bottom_pattern_score_config_id": "toy_sweep_capacity_weight_high",
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "config_rows": [
+    {
+      "all_safety_passed": true,
+      "config_id": "toy_sweep_baseline",
+      "delta_mean_final_observation_score_vs_baseline": 0.0,
+      "delta_mean_targeted_looking_pattern_score_vs_baseline": 0.0,
+      "fixture_count": 3,
+      "max_targeted_looking_pattern_score": 0.6775,
+      "mean_final_observation_score": 1.0,
+      "mean_targeted_looking_pattern_score": 0.61,
+      "min_targeted_looking_pattern_score": 0.5525,
+      "pattern_score_range": 0.125,
+      "pattern_score_rank_desc": 3,
+      "record_count": 3
+    },
+    {
+      "all_safety_passed": true,
+      "config_id": "toy_sweep_capacity_weight_high",
+      "delta_mean_final_observation_score_vs_baseline": 0.0,
+      "delta_mean_targeted_looking_pattern_score_vs_baseline": -0.021667,
+      "fixture_count": 3,
+      "max_targeted_looking_pattern_score": 0.665,
+      "mean_final_observation_score": 1.0,
+      "mean_targeted_looking_pattern_score": 0.588333,
+      "min_targeted_looking_pattern_score": 0.5275,
+      "pattern_score_range": 0.1375,
+      "pattern_score_rank_desc": 5,
+      "record_count": 3
+    },
+    {
+      "all_safety_passed": true,
+      "config_id": "toy_sweep_compatibility_weight_high",
+      "delta_mean_final_observation_score_vs_baseline": 0.0,
+      "delta_mean_targeted_looking_pattern_score_vs_baseline": 0.043333,
+      "fixture_count": 3,
+      "max_targeted_looking_pattern_score": 0.70875,
+      "mean_final_observation_score": 1.0,
+      "mean_targeted_looking_pattern_score": 0.653333,
+      "min_targeted_looking_pattern_score": 0.60875,
+      "pattern_score_range": 0.1,
+      "pattern_score_rank_desc": 1,
+      "record_count": 3
+    },
+    {
+      "all_safety_passed": true,
+      "config_id": "toy_sweep_defense_weight_high",
+      "delta_mean_final_observation_score_vs_baseline": 0.0,
+      "delta_mean_targeted_looking_pattern_score_vs_baseline": 0.038333,
+      "fixture_count": 3,
+      "max_targeted_looking_pattern_score": 0.7175,
+      "mean_final_observation_score": 1.0,
+      "mean_targeted_looking_pattern_score": 0.648333,
+      "min_targeted_looking_pattern_score": 0.5875,
+      "pattern_score_range": 0.13,
+      "pattern_score_rank_desc": 2,
+      "record_count": 3
+    },
+    {
+      "all_safety_passed": true,
+      "config_id": "toy_sweep_transport_weight_high",
+      "delta_mean_final_observation_score_vs_baseline": 0.0,
+      "delta_mean_targeted_looking_pattern_score_vs_baseline": -0.02,
+      "fixture_count": 3,
+      "max_targeted_looking_pattern_score": 0.68375,
+      "mean_final_observation_score": 1.0,
+      "mean_targeted_looking_pattern_score": 0.59,
+      "min_targeted_looking_pattern_score": 0.5075,
+      "pattern_score_range": 0.17625,
+      "pattern_score_rank_desc": 4,
+      "record_count": 3
+    }
+  ],
+  "config_summary_count": 5,
+  "source_record_count": 15,
+  "top_mean_targeted_looking_pattern_score": 0.653333,
+  "top_pattern_score_config_id": "toy_sweep_compatibility_weight_high"
+}

@@ -1,0 +1,6 @@
+config_id,pattern_score_rank_desc,fixture_count,record_count,all_safety_passed,mean_final_observation_score,mean_targeted_looking_pattern_score,max_targeted_looking_pattern_score,min_targeted_looking_pattern_score,pattern_score_range,delta_mean_final_observation_score_vs_baseline,delta_mean_targeted_looking_pattern_score_vs_baseline
+toy_sweep_compatibility_weight_high,1,3,3,True,1.0,0.653333,0.70875,0.60875,0.1,0.0,0.043333
+toy_sweep_defense_weight_high,2,3,3,True,1.0,0.648333,0.7175,0.5875,0.13,0.0,0.038333
+toy_sweep_baseline,3,3,3,True,1.0,0.61,0.6775,0.5525,0.125,0.0,0.0
+toy_sweep_transport_weight_high,4,3,3,True,1.0,0.59,0.68375,0.5075,0.17625,0.0,-0.02
+toy_sweep_capacity_weight_high,5,3,3,True,1.0,0.588333,0.665,0.5275,0.1375,0.0,-0.021667
