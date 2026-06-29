@@ -1,0 +1,98 @@
+{
+  "application_execution_count": 0,
+  "application_permission_count": 0,
+  "applied_patch_count": 0,
+  "audit_decision": "audit_passed_but_no_checklist_completion_or_application_execution",
+  "audit_failure_count": 0,
+  "audit_item_count": 9,
+  "audit_items": [
+    {
+      "audit_id": "checklist_item_count",
+      "audit_order": 1,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist contains exactly nine plan-only items.",
+      "passed": true
+    },
+    {
+      "audit_id": "checklist_completion_zero",
+      "audit_order": 2,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist completes zero items.",
+      "passed": true
+    },
+    {
+      "audit_id": "checklist_execution_zero",
+      "audit_order": 3,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist executes zero steps.",
+      "passed": true
+    },
+    {
+      "audit_id": "application_permission_zero",
+      "audit_order": 4,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist grants zero application permission.",
+      "passed": true
+    },
+    {
+      "audit_id": "application_execution_zero",
+      "audit_order": 5,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist executes zero application actions.",
+      "passed": true
+    },
+    {
+      "audit_id": "applied_patch_zero",
+      "audit_order": 6,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist applies zero manuscript patches.",
+      "passed": true
+    },
+    {
+      "audit_id": "manuscript_file_modified_zero",
+      "audit_order": 7,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist modifies zero manuscript files.",
+      "passed": true
+    },
+    {
+      "audit_id": "manuscript_mutation_zero",
+      "audit_order": 8,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Checklist creates zero manuscript mutations.",
+      "passed": true
+    },
+    {
+      "audit_id": "boundary_zeros_preserved",
+      "audit_order": 9,
+      "boundary_note": "Audit-only item. It does not complete checklist items, execute checklist steps, grant permission, apply patches, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "All explicit real-biological, validation, proof, readiness, approval, and citation boundary counters remain zero.",
+      "passed": true
+    }
+  ],
+  "audit_pass_count": 9,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "boundary_note_count": 9,
+  "checklist_completion_count": 0,
+  "checklist_execution_count": 0,
+  "manuscript_file_modified_count": 0,
+  "manuscript_mutation_count": 0,
+  "non_readiness_disclaimer_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_patch_application_checklist_audit",
+  "source_checklist_completion_count": 0,
+  "source_checklist_execution_count": 0,
+  "source_checklist_item_count": 9
+}
