@@ -1,0 +1,68 @@
+{
+  "audit_checks": [
+    {
+      "check_id": "slot_count_check",
+      "detail": "Expected 6 integration slots and found 6.",
+      "passed": true
+    },
+    {
+      "check_id": "required_slot_id_check",
+      "detail": "Missing slots: []",
+      "passed": true
+    },
+    {
+      "check_id": "boundary_zero_check",
+      "detail": "Boundary failures: []",
+      "passed": true
+    },
+    {
+      "check_id": "positive_overclaim_marker_check",
+      "detail": "Positive overclaim hits: []",
+      "passed": true
+    },
+    {
+      "check_id": "non_readiness_disclaimer_check",
+      "detail": "Non-readiness disclaimer slot and wording checked.",
+      "passed": true
+    },
+    {
+      "check_id": "safety_boundary_slot_check",
+      "detail": "Safety boundary slot checked.",
+      "passed": true
+    }
+  ],
+  "audited_slot_count": 6,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "boundary_failure_count": 0,
+  "boundary_failures": [],
+  "consistency_pass_count": 1,
+  "missing_slot_count": 0,
+  "missing_slots": [],
+  "non_readiness_disclaimer_present_count": 1,
+  "observed_slot_ids": [
+    "toy_controlled_claim_slot",
+    "toy_figure_caption_slot",
+    "toy_limitation_slot",
+    "toy_non_readiness_disclaimer_slot",
+    "toy_results_text_slot",
+    "toy_safety_boundary_slot"
+  ],
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_consistency_audit",
+  "positive_overclaim_hits": [],
+  "positive_overclaim_marker_count": 0,
+  "safety_boundary_slot_present_count": 1,
+  "source_integration_slot_count": 6
+}
