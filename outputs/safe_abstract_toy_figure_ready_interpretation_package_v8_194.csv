@@ -1,0 +1,6 @@
+figure_row_id,figure_kind,rank,figure_role,config_id,record_count,fixture_count,mean_final_observation_score,delta_mean_final_observation_score_vs_baseline,mean_targeted_looking_pattern_score,delta_mean_targeted_looking_pattern_score_vs_baseline,pattern_score_range,all_safety_passed
+figure_row_01,toy_synthetic_abstract_unitless_non-operational_ranking,1,top,toy_sweep_compatibility_weight_high,3,3,1.0,0.0,0.653333,0.043333,0.1,True
+figure_row_02,toy_synthetic_abstract_unitless_non-operational_ranking,2,middle,toy_sweep_defense_weight_high,3,3,1.0,0.0,0.648333,0.038333,0.13,True
+figure_row_03,toy_synthetic_abstract_unitless_non-operational_ranking,3,baseline,toy_sweep_baseline,3,3,1.0,0.0,0.61,0.0,0.125,True
+figure_row_04,toy_synthetic_abstract_unitless_non-operational_ranking,4,middle,toy_sweep_transport_weight_high,3,3,1.0,0.0,0.59,-0.02,0.17625,True
+figure_row_05,toy_synthetic_abstract_unitless_non-operational_ranking,5,bottom,toy_sweep_capacity_weight_high,3,3,1.0,0.0,0.588333,-0.021667,0.1375,True
