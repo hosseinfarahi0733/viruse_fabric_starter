@@ -27564,3 +27564,113 @@ This milestone is not real receptor parameterization.
 This milestone is not operational host targeting.
 This milestone is not wet-lab protocol work.
 This milestone is not actionable biosafety-risk instruction.
+
+## v8.187.0 - Safe Toy Simulation Safety Guard Unit Test Package Close Notes
+
+Status: official close candidate for v8.187.0.
+
+This close note records that v8.187 packages the safety guard behavior into explicit unit tests while preserving zero counts for simulator implementation, dynamics implementation, executable toy simulator, real biological dataset import, real pathogen simulation, real receptor parameters, operational host targeting, wet-lab protocols, actionable biosafety-risk instructions, verification, validation, readiness, and citations.
+
+Official claim after tag and final master test:
+- Safe toy simulation safety guard unit test package count: 1
+- New safe toy simulation safety guard unit test package count: 1
+- Safety guard unit test file count: 1
+- Safety guard unittest case count: 10
+- Safe text pass unit test count: 1
+- Safe fixture pass unit test count: 1
+- Required safe marker enforcement unit test count: 1
+- Prohibited category marker unit test count: 1
+- Prohibited phrase marker unit test count: 1
+- Assert safe accept unit test count: 1
+- Assert safe reject unit test count: 1
+- Normalization unit test count: 1
+- Guard summary consistency unit test count: 1
+- Required safe marker stability unit test count: 1
+- Safety guard unit test execution count: 1
+
+Imported guard claims:
+- Safe toy simulation safety guard module count: 1
+- Safety guard module implementation count: 1
+- Safety guard test harness count: 1
+- Safe toy fixture builder count: 1
+- Safe toy fixture pass check count: 1
+- Prohibited category marker family count: 11
+- Prohibited phrase marker family count: 8
+- Required safe marker count: 5
+- Allowed synthetic fixture test count: 1
+- Blocked synthetic category test count: 8
+- Safety guard summary count: 1
+
+Safety counters preserved:
+- Simulator implementation count: 0
+- Dynamics implementation count: 0
+- Executable toy simulator count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Research boundary counters preserved:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Official unit-test package source:
+tests/safety/test_toy_simulation_safety_guard.py
+
+Official unit-test package report:
+outputs/safe_toy_simulation_safety_guard_unit_test_package_v8_187.md
+
+Unit-test package content:
+- Safe text pass unit test.
+- Safe fixture pass unit test.
+- Required safe marker enforcement unit test.
+- Prohibited category marker rejection unit test.
+- Prohibited phrase marker rejection unit test.
+- Assert-safe accept unit test.
+- Assert-safe reject unit test.
+- Normalization behavior unit test.
+- Guard summary consistency unit test.
+- Required safe marker stability unit test.
+
+Safe unit-test principle:
+The unit-test package verifies the guard behavior. It does not implement simulator dynamics and does not provide an executable simulator.
+
+Safety boundary:
+- v8.187.0 adds unit tests only.
+- v8.187.0 does not implement simulator code.
+- v8.187.0 does not implement dynamics.
+- v8.187.0 does not provide an executable toy simulator.
+- v8.187.0 does not import real biological datasets.
+- v8.187.0 does not provide real pathogen simulation.
+- v8.187.0 does not provide real receptor parameters.
+- v8.187.0 does not provide operational host targeting.
+- v8.187.0 does not provide wet-lab protocols.
+- v8.187.0 does not provide actionable biosafety-risk instructions.
+- v8.187.0 does not provide real-world infectivity optimization.
+- v8.187.0 does not provide immune evasion optimization.
+- v8.187.0 does not provide real host range prediction.
+- v8.187.0 does not execute a new TC-001 proof.
+- v8.187.0 does not add a new theorem proof.
+- v8.187.0 does not provide proof assistant verification.
+- v8.187.0 does not provide external validation.
+- v8.187.0 does not provide independent experiments.
+- v8.187.0 does not make the manuscript submission ready.
+- v8.187.0 does not approve readiness.
+- v8.187.0 does not add new citations.
+
+Next target after official close:
+Use v8.187.0 as the official safety guard unit-test package. The next safe step may package synthetic toy fixtures or add a non-executable toy fixture catalog, while keeping simulator implementation count: 0 and dynamics implementation count: 0 unless a later milestone explicitly and safely changes that.
