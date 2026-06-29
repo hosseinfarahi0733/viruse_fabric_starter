@@ -1,0 +1,195 @@
+{
+  "abstract_graphs_only": true,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "audit_items": [
+    {
+      "boundary_note": "Audit reads source metadata only and performs no patch application.",
+      "check": "Source ledger exists and declares decision-record-only scope.",
+      "expected": "decision-record-only",
+      "id": "AUD-01",
+      "observed": "decision-record-only",
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit does not complete, execute, or modify any decision item.",
+      "check": "Source ledger contains exactly nine record-only decision items.",
+      "expected": 9,
+      "id": "AUD-02",
+      "observed": 9,
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit confirms zero checklist activity without changing checklist state.",
+      "check": "Checklist completion and checklist execution remain zero.",
+      "expected": {
+        "completion": 0,
+        "execution": 0
+      },
+      "id": "AUD-03",
+      "observed": {
+        "completion": 0,
+        "execution": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit grants no permission and applies no patch.",
+      "check": "Application permission and application execution remain zero.",
+      "expected": {
+        "applied_patch": 0,
+        "permission": 0
+      },
+      "id": "AUD-04",
+      "observed": {
+        "applied_patch": 0,
+        "permission": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit does not edit manuscript files.",
+      "check": "Manuscript file modification and manuscript mutation remain zero.",
+      "expected": {
+        "file_modified": 0,
+        "mutation": 0
+      },
+      "id": "AUD-05",
+      "observed": {
+        "file_modified": 0,
+        "mutation": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit is not readiness approval and is not submission readiness.",
+      "check": "Readiness approval and manuscript submission readiness remain zero.",
+      "expected": {
+        "readiness_approval": 0,
+        "submission_ready": 0
+      },
+      "id": "AUD-06",
+      "observed": {
+        "readiness_approval": 0,
+        "submission_ready": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit adds no validation, experiment, proof, or citation.",
+      "check": "External validation, independent experiment, proof assistant verification, and new citation remain zero.",
+      "expected": {
+        "external_validation": 0,
+        "independent_experiment": 0,
+        "new_citation": 0,
+        "proof_assistant": 0
+      },
+      "id": "AUD-07",
+      "observed": {
+        "external_validation": 0,
+        "independent_experiment": 0,
+        "new_citation": 0,
+        "proof_assistant": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit preserves safe abstract toy-only boundaries.",
+      "check": "Real-biological operational counters remain zero.",
+      "expected": {
+        "actionable_biosafety": 0,
+        "host_range": 0,
+        "host_targeting": 0,
+        "immune_evasion": 0,
+        "infectivity_optimization": 0,
+        "real_dataset": 0,
+        "real_pathogen": 0,
+        "real_receptor": 0,
+        "wet_lab": 0
+      },
+      "id": "AUD-08",
+      "observed": {
+        "actionable_biosafety": 0,
+        "host_range": 0,
+        "host_targeting": 0,
+        "immune_evasion": 0,
+        "infectivity_optimization": 0,
+        "real_dataset": 0,
+        "real_pathogen": 0,
+        "real_receptor": 0,
+        "wet_lab": 0
+      },
+      "status": "pass"
+    },
+    {
+      "boundary_note": "Audit records findings only and creates no operational capability.",
+      "check": "Decision ledger audit remains audit-only and non-operational.",
+      "expected": "audit-only",
+      "id": "AUD-09",
+      "observed": "audit-only",
+      "status": "pass"
+    }
+  ],
+  "audit_phrase": "decision_ledger_audited_but_no_application_permission_or_execution",
+  "boundary_notes": [
+    "Audit reads source metadata only and performs no patch application.",
+    "Audit does not complete, execute, or modify any decision item.",
+    "Audit confirms zero checklist activity without changing checklist state.",
+    "Audit grants no permission and applies no patch.",
+    "Audit does not edit manuscript files.",
+    "Audit is not readiness approval and is not submission readiness.",
+    "Audit adds no validation, experiment, proof, or citation.",
+    "Audit preserves safe abstract toy-only boundaries.",
+    "Audit records findings only and creates no operational capability."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy manuscript patch application decision ledger audit count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy manuscript patch application decision ledger audit count": 1,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application decision ledger audit JSON export count": 1,
+    "Toy manuscript patch application decision ledger audit boundary note count": 9,
+    "Toy manuscript patch application decision ledger audit direct execution count": 1,
+    "Toy manuscript patch application decision ledger audit execution count": 1,
+    "Toy manuscript patch application decision ledger audit failure count": 0,
+    "Toy manuscript patch application decision ledger audit item count": 9,
+    "Toy manuscript patch application decision ledger audit non-readiness disclaimer count": 1,
+    "Toy manuscript patch application decision ledger audit pass count": 9,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.205 artifact audits the v8.204 decision ledger only. It does not complete checklist items, execute checklist steps, grant application permission, apply manuscript patches, modify manuscript files, approve readiness, or establish submission readiness.",
+  "passed": true,
+  "safe_abstract_toy_only": true,
+  "scope": "audit-only",
+  "source_json": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_v8_204.json",
+  "source_markdown": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_v8_204.md",
+  "source_markdown_character_count": 6052,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Manuscript Patch Application Decision Ledger Audit",
+  "unitless_parameters_only": true,
+  "version": "v8.205"
+}
