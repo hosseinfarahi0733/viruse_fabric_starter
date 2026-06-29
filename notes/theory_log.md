@@ -25979,3 +25979,56 @@ Presentation note:
 
 Next target after official close:
 Use v8.177.0 as the presentation claim source. Future tracks should remain separate: proof assistant verification, citation expansion, manuscript readiness, and external validation.
+
+## v8.178 - Controlled TC-001 Slide Deck Content Extraction
+
+Status: main extraction completed on branch `v8-178-controlled-tc-001-slide-deck-content-extraction`.
+
+This milestone extracts precise slide-deck content for presenting the accepted internal TC-001 proof claim.
+
+Positive extraction claims:
+- Controlled TC-001 slide deck content extraction count: 1
+- New controlled TC-001 slide deck content extraction count: 1
+- TC-001 slide deck content extraction count: 1
+- Extracted TC-001 slide count: 8
+- Extracted TC-001 speaker note count: 8
+- Extracted TC-001 defense answer count: 6
+- Extracted TC-001 transition script count: 1
+- Extracted TC-001 opening statement count: 1
+- Extracted TC-001 closing statement count: 1
+- Extracted TC-001 forbidden presentation claim list count: 1
+- Presentation deck content ready count: 1
+
+Imported presentation claims:
+- Controlled TC-001 presentation claim package count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is slide-deck content extraction only.
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
