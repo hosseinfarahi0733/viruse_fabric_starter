@@ -29070,3 +29070,68 @@ Safety boundary:
 
 Next target after official close:
 Use v8.195.0 as the official safe abstract toy results paragraph and caption package. The next safe step should add a controlled manuscript integration map for placing the toy results wording into the manuscript draft without claiming manuscript readiness, external validation, independent experiment, proof assistant verification, or new citations.
+
+## v8.196 - Safe Abstract Toy Manuscript Integration Map
+
+Status: main manuscript integration map completed on branch `v8-196-safe-abstract-toy-manuscript-integration-map`.
+
+This milestone creates a controlled manuscript integration map for placing the v8.195 manuscript-safe toy wording into a manuscript draft without claiming manuscript submission readiness, external validation, independent experiment, proof assistant verification, or new citations.
+
+Positive package claims:
+- Safe abstract toy manuscript integration map count: 1
+- New safe abstract toy manuscript integration map count: 1
+- Toy manuscript integration map JSON export count: 1
+- Toy manuscript integration slot count: 6
+- Toy manuscript results slot count: 1
+- Toy manuscript figure caption slot count: 1
+- Toy manuscript limitation slot count: 1
+- Toy manuscript safety boundary slot count: 1
+- Toy manuscript controlled claim slot count: 1
+- Toy manuscript non-readiness disclaimer slot count: 1
+- Manuscript-safe placement map count: 1
+- Toy manuscript integration direct execution count: 1
+
+Imported wording/figure-ready/ranking/sweep/kernel claims:
+- Safe abstract toy results paragraph and caption package count: 1
+- Toy results paragraph count: 3
+- Toy figure caption count: 1
+- Toy limitation paragraph count: 1
+- Toy safety boundary statement count: 1
+- Toy controlled claim sentence count: 1
+- Safe abstract toy figure-ready interpretation package count: 1
+- Safe abstract toy sensitivity ranking and baseline delta analysis count: 1
+- Safe abstract toy constraint sensitivity sweep count: 1
+- Simulator implementation count: 1
+- Dynamics implementation count: 1
+- Executable toy simulator count: 1
+
+Safety boundary claims:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Research boundary claims:
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone creates a placement map for toy wording only.
+This milestone is not real biological dataset import.
+This milestone is not real pathogen simulation.
+This milestone is not real receptor parameterization.
+This milestone is not operational host targeting.
+This milestone is not wet-lab protocol work.
+This milestone is not actionable biosafety-risk instruction.
+This milestone is not external validation.
+This milestone is not independent experiment evidence.
+This milestone is not manuscript submission readiness.
+This milestone does not add citations.
