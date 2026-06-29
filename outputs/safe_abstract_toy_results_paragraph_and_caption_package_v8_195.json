@@ -1,0 +1,38 @@
+{
+  "all_figure_rows_safety_passed": true,
+  "baseline_config_id": "toy_sweep_baseline",
+  "bottom_config_id": "toy_sweep_capacity_weight_high",
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "config_summary_count": 5,
+  "controlled_claim_sentence": "The project now has manuscript-safe toy wording for presenting figure-ready abstract toy ranking outputs without converting them into biological, validation, readiness, or citation claims.",
+  "controlled_claim_sentence_count": 1,
+  "figure_caption": "Figure X. Safe abstract toy sensitivity ranking over five synthetic, unitless, non-operational configurations. Rows summarize figure-ready toy scores and baseline deltas derived from 15 toy records. The figure reports only toy-system behavior and carries no biological, clinical, virological, external-validation, or manuscript-readiness claim.",
+  "figure_caption_count": 1,
+  "figure_ready_row_count": 5,
+  "limitation_paragraph": "The analysis is intentionally limited to synthetic toy fixtures and abstract unitless scores. No real biological dataset, pathogen model, receptor parameter, operational host-targeting procedure, wet-lab protocol, or actionable biosafety-risk instruction is introduced.",
+  "limitation_paragraph_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_results_paragraph_and_caption",
+  "results_paragraph_count": 3,
+  "results_paragraphs": [
+    "Across the safe abstract toy sensitivity ranking package, five synthetic, unitless, non-operational configurations were summarized from 15 toy source records. The package identifies a top-ranked toy configuration by mean targeted-looking pattern score while preserving all explicit safety and anti-overclaim boundaries.",
+    "The top-ranked toy configuration was `toy_sweep_compatibility_weight_high` with a mean targeted-looking pattern score of 0.653333. The bottom-ranked toy configuration was `toy_sweep_capacity_weight_high` with a mean targeted-looking pattern score of 0.588333. The baseline configuration was `toy_sweep_baseline` with a mean targeted-looking pattern score of 0.61.",
+    "These results are interpreted only as behavior of a synthetic toy constraint system. They are not biological measurements, not real-world predictions, not external validation, not independent experimental evidence, and not manuscript-submission readiness evidence."
+  ],
+  "safety_boundary_statement": "All reported outputs remain toy, synthetic, abstract, unitless, and non-operational; real biological dataset import, real pathogen simulation, real receptor parameters, operational host targeting, wet-lab protocols, actionable biosafety-risk instructions, proof assistant verification, external validation, independent experiment, manuscript submission readiness, readiness approval, and new citation additions remain zero.",
+  "safety_boundary_statement_count": 1,
+  "source_record_count": 15,
+  "top_config_id": "toy_sweep_compatibility_weight_high"
+}
