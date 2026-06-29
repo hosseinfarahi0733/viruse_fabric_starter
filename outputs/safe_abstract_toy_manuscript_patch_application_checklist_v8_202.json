@@ -1,0 +1,95 @@
+{
+  "application_execution_count": 0,
+  "application_permission_count": 0,
+  "applied_patch_count": 0,
+  "boundary": {
+    "actionable_biosafety_risk_instruction_count": 0,
+    "external_validation_count": 0,
+    "independent_experiment_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "proof_assistant_verification_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "boundary_note_count": 9,
+  "checklist_completion_count": 0,
+  "checklist_decision": "checklist_created_but_not_completed_or_executed",
+  "checklist_execution_count": 0,
+  "checklist_item_count": 9,
+  "checklist_items": [
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm the v8.201 plan is the sole source for this checklist.",
+      "item_id": "check_plan_source",
+      "item_order": 1,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm all future wording remains synthetic, abstract, unitless, and non-operational.",
+      "item_id": "check_toy_scope",
+      "item_order": 2,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm this checklist grants zero application permission.",
+      "item_id": "check_no_application_permission",
+      "item_order": 3,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm this checklist executes zero application steps.",
+      "item_id": "check_no_application_execution",
+      "item_order": 4,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm this checklist applies zero manuscript patches.",
+      "item_id": "check_no_manuscript_patch",
+      "item_order": 5,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm this checklist modifies zero manuscript files.",
+      "item_id": "check_no_manuscript_file_modification",
+      "item_order": 6,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm no manuscript readiness or readiness approval is claimed.",
+      "item_id": "check_no_readiness_or_approval",
+      "item_order": 7,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm no external validation, proof assistant verification, independent experiment, or citation addition is claimed.",
+      "item_id": "check_no_validation_proof_or_citation",
+      "item_order": 8,
+      "status": "unchecked_plan_only"
+    },
+    {
+      "boundary_note": "Checklist-only item. It does not grant permission, execute application, modify manuscript files, approve readiness, validate, cite, prove, or create real-biological operational content.",
+      "description": "Confirm zero real biological dataset import, real pathogen simulation, receptor parameterization, operational host targeting, wet-lab protocol, actionable biosafety-risk instruction, infectivity optimization, immune evasion optimization, or host range prediction.",
+      "item_id": "check_no_real_biological_scope",
+      "item_order": 9,
+      "status": "unchecked_plan_only"
+    }
+  ],
+  "manuscript_file_modified_count": 0,
+  "manuscript_mutation_count": 0,
+  "non_readiness_disclaimer_count": 1,
+  "package_kind": "toy_synthetic_abstract_unitless_non-operational_manuscript_patch_application_checklist",
+  "source_application_plan_execution_count": 0,
+  "source_plan_step_count": 7
+}
