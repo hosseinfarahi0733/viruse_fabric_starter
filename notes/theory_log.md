@@ -26662,3 +26662,59 @@ Presentation note:
 
 Next target after official close:
 Use v8.181.0 as the official renderable presentation source. If a file artifact is required later, convert this source into a slide deck without changing the proof, validation, citation, or readiness status.
+
+## v8.182 - Controlled TC-001 Presentation Export Package
+
+Status: main export package completed on branch `v8-182-controlled-tc-001-presentation-export-package`.
+
+This milestone builds an export-ready presentation package from the official v8.181 renderable presentation source.
+
+Positive export claims:
+- Controlled TC-001 presentation export package count: 1
+- New controlled TC-001 presentation export package count: 1
+- TC-001 presentation export package count: 1
+- Export-ready TC-001 presentation package count: 1
+- PowerPoint copy-ready TC-001 layout count: 1
+- Marp-ready TC-001 markdown source count: 1
+- Presenter checklist count: 1
+- Export instruction count: 1
+- Boundary lock count: 1
+- Export-safe TC-001 slide count: 8
+- Export-safe TC-001 Q&A count: 6
+- Export-safe TC-001 final defense sentence count: 1
+- Presentation export package ready count: 1
+
+Imported renderable-source claims:
+- Controlled TC-001 renderable presentation source count: 1
+- Renderable presentation source ready count: 1
+- Presentation-safe internal TC-001 proof claim count: 1
+- Accepted internal TC-001 theorem proof count: 1
+- TC-001 proof execution count: 1
+- TC-001 theorem proven count: 1
+- Theorem proof execution count: 1
+- Internal theorem proof count: 1
+- Controlled internal TC-001 theorem proof count: 1
+- Completed TC-001 supporting lemma chain count: 1
+- Proved TC-001 supporting lemma count: 6
+- Internal lemma proof count: 6
+
+Boundary claims:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+This milestone is presentation export packaging only.
+This milestone is not new TC-001 proof execution.
+This milestone is not new theorem proof execution.
+This milestone is not proof assistant verification.
+This milestone is not external validation.
+This milestone is not manuscript readiness.
+This milestone is not citation work.
