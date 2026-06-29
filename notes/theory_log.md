@@ -29135,3 +29135,121 @@ This milestone is not external validation.
 This milestone is not independent experiment evidence.
 This milestone is not manuscript submission readiness.
 This milestone does not add citations.
+
+## v8.196.0 - Safe Abstract Toy Manuscript Integration Map Close Notes
+
+Status: official close candidate for v8.196.0.
+
+This close note records that v8.196 creates a controlled manuscript integration map for placing v8.195 manuscript-safe toy wording into a manuscript draft without claiming manuscript submission readiness, external validation, independent experiment, proof assistant verification, new citation additions, or any real-biological operational capability.
+
+Official claim after tag and final master test:
+- Safe abstract toy manuscript integration map count: 1
+- New safe abstract toy manuscript integration map count: 1
+- Toy manuscript integration map JSON export count: 1
+- Toy manuscript integration slot count: 6
+- Toy manuscript results slot count: 1
+- Toy manuscript figure caption slot count: 1
+- Toy manuscript limitation slot count: 1
+- Toy manuscript safety boundary slot count: 1
+- Toy manuscript controlled claim slot count: 1
+- Toy manuscript non-readiness disclaimer slot count: 1
+- Manuscript-safe placement map count: 1
+- Toy manuscript integration direct execution count: 1
+
+Imported wording/figure-ready/ranking/sweep/kernel claims:
+- Safe abstract toy results paragraph and caption package count: 1
+- Toy results paragraph package JSON export count: 1
+- Toy results paragraph count: 3
+- Toy figure caption count: 1
+- Toy limitation paragraph count: 1
+- Toy safety boundary statement count: 1
+- Toy controlled claim sentence count: 1
+- Manuscript-safe toy wording package count: 1
+- Safe abstract toy figure-ready interpretation package count: 1
+- Safe abstract toy sensitivity ranking and baseline delta analysis count: 1
+- Safe abstract toy constraint sensitivity sweep count: 1
+- Safe abstract toy dynamics run export and metrics report count: 1
+- Safe abstract toy dynamics kernel unit test package count: 1
+- Safe abstract toy dynamics kernel implementation count: 1
+- Simulator implementation count: 1
+- Dynamics implementation count: 1
+- Executable toy simulator count: 1
+- Unitless dynamics execution count: 1
+- Abstract graph dynamics execution count: 1
+- Synthetic fixture execution count: 3
+
+Safety counters preserved:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Research boundary counters preserved:
+- New lemma proof execution count: 0
+- New TC-001 proof execution count: 0
+- New theorem proven count: 0
+- New theorem proof execution count: 0
+- Formalization complete count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+
+Official manuscript integration map writer:
+viruse_fabric/writing/safe_abstract_toy_manuscript_integration_map.py
+
+Official manuscript integration map experiment:
+viruse_fabric/experiments/exp_276_safe_abstract_toy_manuscript_integration_map.py
+
+Official report:
+outputs/safe_abstract_toy_manuscript_integration_map_v8_196.md
+
+Official exported artifact:
+outputs/safe_abstract_toy_manuscript_integration_map_v8_196.json
+
+Package content:
+- 6 manuscript integration slots.
+- 1 toy results text slot.
+- 1 toy figure caption slot.
+- 1 toy limitation slot.
+- 1 toy safety boundary slot.
+- 1 toy controlled claim slot.
+- 1 toy non-readiness disclaimer slot.
+- JSON export.
+- Explicit zero safety boundary fields in JSON.
+
+Safe integration principle:
+The manuscript integration map only places existing toy wording into controlled manuscript locations. It does not make the manuscript submission ready, does not add external validation, does not add independent experimental evidence, does not add proof assistant verification, does not add new citations, and does not add any real-biological operational capability.
+
+Safety boundary:
+- v8.196.0 creates a manuscript placement map for toy wording only.
+- v8.196.0 preserves simulator implementation count: 1.
+- v8.196.0 preserves dynamics implementation count: 1.
+- v8.196.0 preserves executable toy simulator count: 1.
+- v8.196.0 does not import real biological datasets.
+- v8.196.0 does not provide real pathogen simulation.
+- v8.196.0 does not provide real receptor parameters.
+- v8.196.0 does not provide operational host targeting.
+- v8.196.0 does not provide wet-lab protocols.
+- v8.196.0 does not provide actionable biosafety-risk instructions.
+- v8.196.0 does not provide real-world infectivity optimization.
+- v8.196.0 does not provide immune evasion optimization.
+- v8.196.0 does not provide real host range prediction.
+- v8.196.0 does not execute a new TC-001 proof.
+- v8.196.0 does not add a new theorem proof.
+- v8.196.0 does not provide proof assistant verification.
+- v8.196.0 does not provide external validation.
+- v8.196.0 does not provide independent experiments.
+- v8.196.0 does not make the manuscript submission ready.
+- v8.196.0 does not approve readiness.
+- v8.196.0 does not add new citations.
+
+Next target after official close:
+Use v8.196.0 as the official safe abstract toy manuscript integration map. The next safe step should add a controlled manuscript consistency audit over the integrated toy wording without claiming manuscript readiness, external validation, independent experiment, proof assistant verification, or new citations.
