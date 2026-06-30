@@ -31446,3 +31446,92 @@ v8.214 audits safe manuscript section draft text only. It grants no application 
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.214.0 on master, and final master verification passes.
+
+## v8.215.0 close note — Safe Abstract Toy Manuscript Assembly Preview Package
+
+Status: close-note prepared on the v8.215 feature branch after successful main artifact generation.
+
+Main hash:
+2e119ee
+
+Main subject:
+Add safe abstract toy manuscript assembly preview package
+
+Scope:
+Manuscript-assembly-preview-package-only artifact that assembles a readable preview from audited safe section drafts without modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_manuscript_assembly_preview_package.py
+- viruse_fabric/experiments/exp_295_safe_abstract_toy_manuscript_assembly_preview_package.py
+- outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.md
+- outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.json
+
+Validation:
+- V8_215_SAFE_ABSTRACT_TOY_MANUSCRIPT_ASSEMBLY_PREVIEW_PACKAGE_OK
+- TOY_MANUSCRIPT_ASSEMBLY_PREVIEW_PACKAGE_DIRECT_CHECK_OK
+- V8_215_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Package phrase:
+safe_manuscript_assembly_preview_packaged_but_no_manuscript_file_modified
+
+Assembly preview result:
+- Assembly preview section count: 9
+- Source draft item count: 9
+- Source audit item count: 11
+- Source audit pass count: 11
+- Source audit failure count: 0
+
+Preview title:
+A Safety-Bounded Governance Pipeline for Safe Abstract Toy Manuscript Claim Control
+
+Assembled manuscript sections:
+- Abstract
+- Introduction
+- Method Scope
+- Pipeline Overview
+- Safety Controls
+- Claim Governance
+- Limitations
+- Safety Exclusions
+- Future Work
+
+Required safe phrases preserved:
+- internally audited, safety-bounded, safe abstract toy-only governance pipeline
+- does not import real biological datasets
+- does not model real pathogens
+- zero applied patches
+- does not establish external validation
+- Future work may only introduce stronger claims
+
+Counters preserved at zero:
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.215 assembles a safe manuscript preview only. It grants no application permission, performs no checklist execution, completes no checklist item, applies no manuscript patch, modifies no manuscript file, creates no readiness approval, validates no scientific claim, adds no proof, adds no citation, and adds no real-biological operational capability.
+
+Path correction:
+v8.215 deliberately shifts the project from repeated audit-only milestones toward a readable manuscript preview while preserving strict safety and anti-overclaim boundaries.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.215.0 on master, and final master verification passes.
