@@ -34201,3 +34201,50 @@ v9.6 converts the project from broad theory presentation to narrow scientific yi
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.6.0 on master, and final master verification passes.
+
+## v9.7 opening note - Safe Toy Replicate Grid and Signal Robustness Check
+
+Status:
+v9.7 opened from official v9.6.0 on master.
+
+Purpose:
+v9.7 tests whether the v9.6 reduced toy core, memory-ledger-driven toy dynamics, remains visible across a safe abstract toy replicate grid. The milestone checks signal robustness rather than adding new theory claims.
+
+Reason:
+v9.6 extracted a narrow scientific yield: VF-H2 was the only not-falsified toy hypothesis, with ledger_effect_size as the primary measurable signal. VF-H1, VF-H3, and VF-H4 remained unresolved or unsupported. A single toy audit is not enough to treat the memory-ledger signal as robust. v9.7 therefore checks whether the signal survives across multiple safe toy seeds and graph configurations.
+
+Primary signal under test:
+ledger_effect_size
+
+Reduced toy core under test:
+memory-ledger-driven toy dynamics
+
+Primary hypothesis under test:
+VF-H2
+
+Hypotheses not upgraded:
+- VF-H1 remains unresolved or unsupported.
+- VF-H3 remains unresolved or unsupported.
+- VF-H4 remains unresolved or unsupported.
+
+Required v9.7 outputs:
+- safe toy replicate grid specification
+- replicate run table
+- memory-ledger signal robustness summary
+- seed sensitivity summary
+- robustness verdict for VF-H2
+- non-upgrade record for VF-H1, VF-H3, and VF-H4
+- allowed robustness claims register
+- forbidden robustness claims register
+
+Allowed direction:
+Run safe abstract toy replicate checks only. Report whether the memory-ledger signal is stable, unstable, or inconclusive across the replicate grid.
+
+Disallowed direction:
+Do not validate the full theory. Do not claim manuscript readiness. Do not approve submission readiness. Do not mutate manuscript files. Do not add citations. Do not introduce real biological datasets, real pathogen models, receptor parameters, operational targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction.
+
+Boundary:
+Safe abstract toy replicate grid and signal robustness check only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No external validation is performed. No independent experiment is performed.
+
+Official v9.7 direction:
+NEXT_LINE_V9_7_SAFE_TOY_REPLICATE_GRID_AND_SIGNAL_ROBUSTNESS_CHECK_OK
