@@ -1,0 +1,196 @@
+{
+  "ablation_tests_executed": false,
+  "artifact": "safe_artifact_resistance_and_ablation_test_design_v1",
+  "artifact_resistance_tests_executed": false,
+  "base_robustness_interpretation_commit": "bc52af7",
+  "claim_expansion_allowed": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Ablation execution count": 0,
+    "Artifact-resistance and ablation design count": 1,
+    "Artifact-resistance execution count": 0,
+    "Claim expansion count": 0,
+    "Documentation-only artifact count": 1,
+    "Dry-run authorization count": 0,
+    "Dry-run execution count": 0,
+    "Engine execution count": 0,
+    "Engine modification count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New milestone created count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Planned ablation test count": 6,
+    "Planned artifact-resistance test count": 4,
+    "Planned safe toy replicate count": 64,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Sweep execution count": 0,
+    "Theory validation claim count": 0,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "design_type": "artifact_resistance_and_ablation_test_design",
+  "documentation_only": true,
+  "dry_run_authorized": false,
+  "dry_run_executed": false,
+  "engine_executed": false,
+  "engine_modified": false,
+  "hypothesis": "VF-H2",
+  "interpretation_boundary": "internal_safe_toy_artifact_resistance_design_only_not_theory_validation",
+  "next_allowed_action": "implement_and_run_safe_artifact_resistance_and_ablation_tests_no_real_bio_no_claim_validation",
+  "no_new_source_code_added": true,
+  "passed": true,
+  "planned_ablation_tests": [
+    {
+      "expected_if_vf_h2_specific": "effect size decreases substantially or becomes non-positive",
+      "failure_signal": "effect remains strongly positive without persistent memory ledger",
+      "id": "ABL-001",
+      "name": "remove_persistent_memory_ledger",
+      "purpose": "Check whether the positive ledger_effect_size collapses when persistent ledger memory is removed."
+    },
+    {
+      "expected_if_vf_h2_specific": "effect size decreases under shuffled ledger history",
+      "failure_signal": "effect remains unchanged after ledger history shuffle",
+      "id": "ABL-002",
+      "name": "shuffle_ledger_history",
+      "purpose": "Check whether temporal ordering of ledger history matters."
+    },
+    {
+      "expected_if_vf_h2_specific": "effect size weakens under randomized gates",
+      "failure_signal": "effect remains strongly positive under randomized gates",
+      "id": "ABL-003",
+      "name": "randomize_symbolic_gate",
+      "purpose": "Check whether signal depends on structured symbolic gates rather than arbitrary scoring."
+    },
+    {
+      "expected_if_vf_h2_specific": "memory-ledger condition remains positive against strengthened null",
+      "failure_signal": "strengthened null closes or reverses the effect",
+      "id": "ABL-004",
+      "name": "strengthened_null_control",
+      "purpose": "Compare against a stronger abstract null that allows same-step duplicate structure but no persistent memory."
+    },
+    {
+      "expected_if_vf_h2_specific": "positive effect remains above preregistered threshold across seed permutations",
+      "failure_signal": "effect collapses under seed permutation",
+      "id": "ABL-005",
+      "name": "seed_permutation_stability",
+      "purpose": "Check whether the result is overfit to deterministic seed layout."
+    },
+    {
+      "expected_if_vf_h2_specific": "no single score component fully explains the result",
+      "failure_signal": "one component alone recreates the full positive effect",
+      "id": "ABL-006",
+      "name": "score_component_ablation",
+      "purpose": "Check whether one scoring component alone forces the result."
+    }
+  ],
+  "planned_artifact_resistance_tests": [
+    {
+      "fail_rule": "constant or near-constant effect sizes detected",
+      "id": "ART-001",
+      "name": "constant_effect_guard",
+      "pass_rule": "effect sizes vary across parameter grid and are not near-constant",
+      "purpose": "Flag constant or near-constant effect sizes."
+    },
+    {
+      "fail_rule": "support is concentrated in one narrow parameter subgroup",
+      "id": "ART-002",
+      "name": "parameter_subgroup_consistency",
+      "pass_rule": "positive support appears in every preregistered subgroup family",
+      "purpose": "Check whether support appears across node_count, packet_count, and step_count subgroups."
+    },
+    {
+      "fail_rule": "any null-control leak detected",
+      "id": "ART-003",
+      "name": "null_leak_guard",
+      "pass_rule": "zero null-control leaks",
+      "purpose": "Detect whether null controls accidentally encode memory-ledger behavior."
+    },
+    {
+      "fail_rule": "mean positive but median or lower quartile non-positive",
+      "id": "ART-004",
+      "name": "effect_size_distribution_guard",
+      "pass_rule": "positive median and positive lower-quartile effect size",
+      "purpose": "Check whether mean support hides unstable or bimodal effects."
+    }
+  ],
+  "planned_safe_parameter_space": {
+    "biological_semantics_allowed": false,
+    "node_count_values": [
+      12,
+      14,
+      16,
+      18
+    ],
+    "packet_count_values": [
+      18,
+      21,
+      24,
+      27
+    ],
+    "replicate_count": 64,
+    "reuse_preregistered_grid": true,
+    "seed_policy": "deterministic abstract integer seeds only",
+    "step_count_values": [
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "preregistered_success_rules": {
+    "ablation_specificity_rule": "at least four of six ablation tests must weaken the effect in the expected direction",
+    "artifact_guard_rule": "no constant-effect artifact and zero null-control leaks",
+    "interpretation_if_failed": "current VF-H2 support may be toy-artifact dependent and claims must be reduced",
+    "interpretation_if_passed": "artifact-resistant internal toy support only, not theory validation",
+    "memory_removal_rule": "remove_persistent_memory_ledger must substantially reduce ledger_effect_size",
+    "minimum_valid_replicates": 64,
+    "strengthened_null_rule": "memory-ledger condition must remain positive against strengthened null"
+  },
+  "reason_for_tests": [
+    "The preregistered larger safe toy robustness check produced strong internal toy support.",
+    "The next risk is that the signal may be an artifact of toy construction, scoring, seeds, or weak null controls.",
+    "Artifact-resistance and ablation tests are required before any stronger internal claim can be considered."
+  ],
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_design": {
+    "ablation_tests_executed": false,
+    "artifact_resistance_design_created": true,
+    "artifact_resistance_tests_executed": false,
+    "artifact_resistant_support_established": false,
+    "claim_expansion": false,
+    "external_validation": false,
+    "independent_validation": false,
+    "internal_toy_evidence_for_vf_h2": true,
+    "manuscript_readiness": false,
+    "real_evidence": false,
+    "stronger_internal_toy_robustness_evidence_for_vf_h2": true,
+    "submission_readiness": false,
+    "theory_validation": false
+  },
+  "scope": "design-safe-artifact-resistance-and-ablation-tests-no-execution",
+  "signal": "ledger_effect_size",
+  "source_preregistered_design_artifact": "preregistered_larger_safe_toy_robustness_check_design_v1",
+  "source_robustness_artifact": "preregistered_larger_safe_toy_robustness_check_v1",
+  "source_robustness_interpretation_artifact": "preregistered_larger_safe_toy_robustness_result_interpretation_v1",
+  "sweep_executed": false
+}
