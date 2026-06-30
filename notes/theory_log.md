@@ -33660,3 +33660,118 @@ v9.2 turns the v9.1 executable-ready specification into an implemented safe abst
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.2.0 on master, and final master verification passes.
+
+## v9.3.0 close note — Viruse Fabric Safe Toy Baseline Comparison
+
+Status:
+Close-note prepared on the v9.3 feature branch after successful safe toy simulation execution and safe toy baseline comparison.
+
+Main hash:
+aae1290
+
+Main subject:
+Add Viruse Fabric safe toy baseline comparison
+
+Scope:
+Safe-toy-baseline-comparison-only artifact. This milestone performs safe abstract toy simulation runs and safe toy baseline comparison for Viruse Fabric. It produces safe toy run records and safe toy comparison records only. It does not produce a formal results report, does not execute a falsification audit, does not validate the theory, does not approve manuscript readiness, does not modify manuscript files, and does not add citations.
+
+Plan phrase:
+v9_3_safe_toy_baseline_comparison_without_validation_or_falsification_audit
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_safe_toy_baseline_comparison.py
+- viruse_fabric/experiments/exp_903_viruse_fabric_safe_toy_baseline_comparison.py
+- outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.md
+- outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.json
+
+Validation:
+- V9_3_VIRUSE_FABRIC_SAFE_TOY_BASELINE_COMPARISON_OK
+- VIRUSE_FABRIC_SAFE_TOY_BASELINE_COMPARISON_DIRECT_CHECK_OK
+- V9_3_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Safe toy execution structure:
+- V9 safe toy baseline comparison artifact count: 1
+- V9 simulation execution count: 1
+- V9 baseline comparison execution count: 1
+- V9 safe toy run record count: 6
+- V9 safe toy baseline comparison record count: 5
+- Toy simulation actual run count: 6
+- Toy simulation result count: 6
+- Toy baseline comparison execution count: 1
+- Toy baseline comparison result count: 5
+
+Run variants:
+- VF-FULL
+- VF-BASE-A
+- VF-BASE-B
+- VF-BASE-C
+- VF-BASE-D
+- VF-BASE-E
+
+Comparison records:
+- VF-FULL versus VF-BASE-A
+- VF-FULL versus VF-BASE-B
+- VF-FULL versus VF-BASE-C
+- VF-FULL versus VF-BASE-D
+- VF-FULL versus VF-BASE-E
+
+Source continuity:
+- V9 source reframing artifact count: 1
+- V9 source specification artifact count: 1
+- V9 source detailed simulation specification completed count: 1
+- V9 source engine implementation count: 1
+- V9 source toy engine created count: 1
+- V9 source engine contract component count: 8
+
+Deferred to later v9 milestones:
+- v9.4: Results and Falsification Audit
+
+Counters intentionally preserved at zero:
+- V9 formal results report count: 0
+- V9 results report count: 0
+- V9 falsification audit execution count: 0
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Safe toy baseline comparison only. Safe abstract toy simulation runs are performed. Safe toy baseline comparison is executed. No formal results report is produced. No falsification audit is executed. No validation claim is made. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Path correction:
+v9.3 is the first milestone in this line where safe toy execution and safe toy baseline comparison occur. It is still not a formal results report, not a falsification audit, not external validation, not empirical evidence, not manuscript readiness, and not a theory validation claim. Evidence interpretation and falsification auditing remain deferred to a later official milestone.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.3.0 on master, and final master verification passes.
