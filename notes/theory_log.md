@@ -31634,3 +31634,104 @@ v8.216 continues the output-oriented path after v8.215 by identifying the scient
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.216.0 on master, and final master verification passes.
+
+## v8.217.0 close note — Safe Abstract Toy Evaluation Design Plan
+
+Status: close-note prepared on the v8.217 feature branch after successful main artifact generation.
+
+Main hash:
+0e51cdd
+
+Main subject:
+Add safe abstract toy evaluation design plan
+
+Scope:
+Toy-evaluation-design-plan-only artifact that designs a future synthetic, abstract, unitless, non-operational toy evaluation without executing the evaluation or producing results.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_evaluation_design_plan.py
+- viruse_fabric/experiments/exp_297_safe_abstract_toy_evaluation_design_plan.py
+- outputs/safe_abstract_toy_evaluation_design_plan_v8_217.md
+- outputs/safe_abstract_toy_evaluation_design_plan_v8_217.json
+
+Validation:
+- V8_217_SAFE_ABSTRACT_TOY_EVALUATION_DESIGN_PLAN_OK
+- TOY_EVALUATION_DESIGN_PLAN_DIRECT_CHECK_OK
+- V8_217_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Plan phrase:
+toy_evaluation_design_planned_but_not_executed_or_validated
+
+Evaluation design result:
+- Evaluation design module count: 10
+- Evaluation metric definition count: 10
+- Evaluation gap link count: 9
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source P0 gap count: 6
+- Source P1 gap count: 4
+- Actual evaluation run count: 0
+- Evaluation result count: 0
+- Validation claim count: 0
+- Evidence upgrade completed count: 0
+
+Designed toy evaluation modules:
+- Artifact lineage completeness
+- Zero-counter preservation
+- Blocked-claim coverage
+- Section-boundary consistency
+- Gap-to-evaluation traceability
+- Contribution clarity rubric
+- Limitation balance rubric
+- Citation-slot readiness design
+- Manuscript mutation gate design
+- Reproducibility description design
+
+Required safety phrases preserved:
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+- wet-lab protocols
+
+Counters preserved at zero:
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Rescue note:
+The initial v8.217 validation required the exact safe phrase No real biological datasets. The writer text was adjusted to preserve that exact phrase while keeping the same safe abstract toy-only boundary.
+
+Boundary:
+v8.217 designs a future safe abstract toy evaluation only. It does not execute the evaluation, produce evaluation results, validate scientific claims, complete evidence upgrades, add citations, modify manuscript files, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.217 continues the output-oriented path after v8.215 and v8.216 by designing a concrete safe toy evaluation plan instead of adding another audit-only layer.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.217.0 on master, and final master verification passes.
