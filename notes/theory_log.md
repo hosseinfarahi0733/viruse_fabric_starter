@@ -34007,3 +34007,47 @@ v9.5 is a gatekeeping milestone, not an evidence-upgrade milestone. It prevents 
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.5.0 on master, and final master verification passes.
+
+## v9.6 opening team decision note - Safe Toy Scientific Yield Extraction and Theory Reduction
+
+Status:
+Team decision recorded at the opening of v9.6 after v9.5.0 was already officially tagged on master.
+
+Reason for redirect:
+The v9.4 toy results and falsification audit show a narrow scientific yield rather than broad support for the full Viruse Fabric theory. The useful next step is therefore scientific yield extraction and theory reduction, not another manuscript readiness or administrative gap-planning milestone.
+
+Observed v9.4 toy audit result:
+- VF-H1: falsified_or_unresolved_in_this_safe_toy_audit
+- VF-H2: not_falsified_in_this_safe_toy_audit
+- VF-H3: falsified_or_unresolved_in_this_safe_toy_audit
+- VF-H4: falsified_or_unresolved_in_this_safe_toy_audit
+
+Observed toy divergence:
+- strongest safe toy divergence: VF-BASE-A with absolute_delta_total 3.077813
+- weakest safe toy divergence: VF-BASE-D with absolute_delta_total 0.0
+- main measurable signal: ledger_effect_size
+- current supported toy core: memory-ledger-driven toy dynamics
+
+Team decision:
+v9.6 is redirected to Safe Toy Scientific Yield Extraction and Theory Reduction.
+
+Required v9.6 outputs:
+- hypothesis-by-hypothesis toy verdict table
+- scientific yield summary
+- reduced theory core
+- allowed claims register
+- forbidden claims register
+- mechanism status table
+- next evidence requirement table
+
+Allowed v9.6 direction:
+Extract the actual scientific yield from the safe toy outputs and reduce the theory to the currently defensible toy-supported core.
+
+Disallowed v9.6 direction:
+Do not claim manuscript readiness. Do not approve submission readiness. Do not validate the full theory. Do not mutate manuscript files. Do not add citations. Do not introduce real biological datasets, real pathogen models, receptor parameters, operational targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction.
+
+Boundary:
+Safe abstract toy evidence only. The current safe toy evidence supports only a narrow memory-ledger-centered core. The full Viruse Fabric theory is not validated. VF-H1, VF-H3, and VF-H4 remain unresolved or unsupported in the current safe toy audit.
+
+Official v9.6 direction:
+NEXT_LINE_V9_6_SAFE_TOY_SCIENTIFIC_YIELD_EXTRACTION_AND_THEORY_REDUCTION_OK
