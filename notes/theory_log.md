@@ -32553,3 +32553,141 @@ v8.223 continues the output-oriented path by producing a zero-row ledger instanc
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.223.0 on master, and final master verification passes.
+
+## v8.224.0 close note — Safe Abstract Toy Citation Retrieval Batch 1 Candidate Intake
+
+Status:
+Close-note prepared on the v8.224 feature branch after successful Batch 1 candidate source intake.
+
+Main hash:
+2d0b493
+
+Main subject:
+Add safe abstract toy citation retrieval batch 1 candidate intake
+
+Scope:
+Citation-retrieval-batch-1-candidate-intake-only artifact that records Batch 1 candidate source metadata after the v8.223 empty candidate ledger instance. This milestone performs metadata-only source intake for seven non-operational methodological candidate sources. It does not verify sources, accept sources, reject sources, add actual citations, fabricate references, complete citation integration, modify manuscript files, validate scientific claims, approve readiness, or introduce real-biological operational capability.
+
+Plan phrase:
+batch_1_candidate_sources_recorded_but_not_verified_accepted_or_integrated
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake.py
+- viruse_fabric/experiments/exp_304_safe_abstract_toy_citation_retrieval_batch_1_candidate_intake.py
+- outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.md
+- outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.json
+
+Validation:
+- V8_224_SAFE_ABSTRACT_TOY_CITATION_RETRIEVAL_BATCH_1_CANDIDATE_INTAKE_OK
+- TOY_CITATION_RETRIEVAL_BATCH_1_CANDIDATE_INTAKE_DIRECT_CHECK_OK
+- V8_224_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Candidate intake result:
+- Candidate source row count: 7
+- Candidate source recorded count: 7
+- Retrieved not verified candidate count: 7
+- Metadata-only candidate count: 7
+- Methodological source count: 7
+- Non-operational safety pass count: 7
+- Source retrieval execution count: 1
+- Source retrieval count: 7
+- Verification execution count: 0
+- Verified source count: 0
+- Acceptance decision count: 0
+- Rejection decision count: 0
+- Accepted source count: 0
+- Rejected source count: 0
+- Blocked source count: 0
+- Actual citation count: 0
+- Fabricated reference count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- Manuscript mutation count: 0
+- New citation added count: 0
+
+Candidate source composition:
+- Book source count: 5
+- Article source count: 2
+- DOI locator count: 4
+- ISBN locator count: 3
+- Candidate source retrieval count: 7
+
+Candidate statuses:
+- retrieved_not_verified
+- not_verified
+- pending_review_not_accepted
+- not_integrated
+- no_mutation
+- passed_non_operational_method_source_screen
+
+Required safety and boundary phrases preserved:
+- Candidate source intake only
+- metadata-only-methodological-source-intake
+- No source is claimed as verified
+- No accepted source is recorded
+- No rejected source is recorded
+- No actual citation is added
+- No fabricated reference is introduced
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+
+Counters preserved at zero:
+- Toy citation batch 1 verification execution count: 0
+- Toy citation batch 1 verified source count: 0
+- Toy citation batch 1 acceptance decision count: 0
+- Toy citation batch 1 rejection decision count: 0
+- Toy citation batch 1 accepted source count: 0
+- Toy citation batch 1 rejected source count: 0
+- Toy citation batch 1 blocked source count: 0
+- Toy citation batch 1 actual citation count: 0
+- Toy citation batch 1 fabricated reference count: 0
+- Toy citation batch 1 citation integration completion count: 0
+- Toy citation batch 1 added to manuscript count: 0
+- Toy citation batch 1 manuscript mutation count: 0
+- Toy citation actual citation count: 0
+- Toy citation verified source count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.224 records candidate source metadata only. It does not claim source verification, does not decide source acceptance, does not decide source rejection, does not add citations, does not integrate citations into any manuscript, does not modify manuscript files, does not validate scientific claims, and does not approve submission readiness.
+
+Path correction:
+v8.224 exits the empty-ledger scaffold loop by recording the first controlled batch of real candidate source metadata while preserving every downstream gate at zero.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.224.0 on master, and final master verification passes.
