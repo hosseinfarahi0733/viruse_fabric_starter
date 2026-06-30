@@ -1,0 +1,154 @@
+{
+  "artifact": "engine_redesign_implementation_plan_v1",
+  "base_master_head": "bacb1aa",
+  "claim_expansion_allowed": false,
+  "code_changed_by_this_artifact": false,
+  "engine_modified_by_this_artifact": false,
+  "future_test_plan": [
+    {
+      "name": "Default config regression",
+      "required_result": "Original v9.1/v9.2 default safe toy config still validates and runs.",
+      "test_id": "TEST-001"
+    },
+    {
+      "name": "Safe sweep profile validation",
+      "required_result": "At least node_count, packet_count, and step_count_limit can vary inside declared safe abstract bounds.",
+      "test_id": "TEST-002"
+    },
+    {
+      "name": "Forbidden biological semantics check",
+      "required_result": "Reports preserve zero real biological dataset, pathogen, receptor, targeting, wet-lab, infectivity, immune evasion, and host range counts.",
+      "test_id": "TEST-003"
+    },
+    {
+      "name": "Null-control leakage check",
+      "required_result": "All identical-variant controls produce zero ledger_effect_size leakage.",
+      "test_id": "TEST-004"
+    },
+    {
+      "name": "Artifact-risk check",
+      "required_result": "Constant deltas across sweep cells trigger artifact-risk warning.",
+      "test_id": "TEST-005"
+    },
+    {
+      "name": "Claim boundary check",
+      "required_result": "No report claims validation, empirical support, real biological applicability, or manuscript readiness.",
+      "test_id": "TEST-006"
+    }
+  ],
+  "go_no_go_rules": {
+    "go_for_future_code_branch": [
+      "Specification is on master.",
+      "Implementation plan is on master.",
+      "No new tag is created for documentation-only planning artifacts.",
+      "Implementation branch is separate from documentation branches."
+    ],
+    "no_go_conditions": [
+      "Any real biological semantics are introduced.",
+      "Any manuscript readiness claim is introduced.",
+      "Any validation claim is introduced.",
+      "Any null-control leakage is accepted as harmless.",
+      "Any constant signal is treated as strong evidence without artifact-risk reporting.",
+      "Any VF-H1, VF-H3, or VF-H4 upgrade is attempted without separate evidence."
+    ]
+  },
+  "implementation_allowed_now": false,
+  "implementation_executed": false,
+  "implementation_goal": "Allow a clean safe abstract toy parameter sweep without expanding claims or introducing real biological meaning.",
+  "implementation_phases": [
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "Document exact validation functions before editing them.",
+      "name": "Inspect current engine validation boundary",
+      "phase": "PHASE-001",
+      "purpose": "Identify where fixed v9.1 default-value validation blocks safe abstract toy sweep values."
+    },
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "Every sweep parameter has allowed values, allowed role, and forbidden interpretation.",
+      "name": "Design SafeToySweepProfile structure",
+      "phase": "PHASE-002",
+      "purpose": "Define bounded safe abstract toy parameter registry without biological semantics."
+    },
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "Default v9.1 config still validates exactly, and safe sweep configs validate through a separate profile.",
+      "name": "Separate default config validation from sweep profile validation",
+      "phase": "PHASE-003",
+      "purpose": "Allow declared safe sweep profiles without pretending they are v9.1 default configs."
+    },
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "Identical-variant comparisons produce zero ledger_effect_size delta.",
+      "name": "Add mandatory null-control templates",
+      "phase": "PHASE-004",
+      "purpose": "Make null-control leakage checks first-class and unavoidable."
+    },
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "Reports include distinct delta count, min, max, mean, standard deviation, and artifact-risk verdict.",
+      "name": "Add artifact-risk reporting",
+      "phase": "PHASE-005",
+      "purpose": "Detect mechanically fixed signal patterns such as constant 3.0 deltas."
+    },
+    {
+      "code_change_allowed_in_this_plan": false,
+      "future_acceptance_gate": "A separate code branch must be opened before any engine or experiment file changes.",
+      "name": "Run future safe sweep only after implementation branch",
+      "phase": "PHASE-006",
+      "purpose": "Prevent implementation leakage into the planning artifact."
+    }
+  ],
+  "last_official_tag": "v9.8.0",
+  "last_official_tag_commit": "6773907",
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action_after_plan": "open_separate_code_branch_for_safe_engine_redesign_only_after_plan_review",
+  "planned_files_to_consider": [
+    {
+      "allowed_change": "separate fixed default validation from safe sweep profile validation",
+      "change_now": false,
+      "path": "viruse_fabric/simulation/viruse_fabric_minimal_safe_toy_simulation_engine.py",
+      "role": "candidate engine redesign target"
+    },
+    {
+      "allowed_change": "add future safe abstract toy sweep experiment only after implementation branch opens",
+      "change_now": false,
+      "path": "viruse_fabric/experiments/",
+      "role": "future safe sweep experiment location"
+    },
+    {
+      "allowed_change": "add future report writer with artifact-risk and null-control reporting only after implementation branch opens",
+      "change_now": false,
+      "path": "viruse_fabric/writing/",
+      "role": "future safe sweep report writer location"
+    },
+    {
+      "allowed_change": "this plan may write documentation outputs only",
+      "change_now": true,
+      "path": "outputs/",
+      "role": "artifact output location"
+    }
+  ],
+  "primary_hypothesis_scope": "VF-H2 only",
+  "primary_signal_scope": "ledger_effect_size only",
+  "reduced_core_scope": "memory-ledger-driven toy dynamics only",
+  "safety_boundaries": {
+    "external_validation_count": 0,
+    "host_range_prediction_count": 0,
+    "immune_evasion_optimization_count": 0,
+    "independent_experiment_count": 0,
+    "infectivity_optimization_count": 0,
+    "manuscript_submission_ready_count": 0,
+    "new_citation_added_count": 0,
+    "operational_host_targeting_count": 0,
+    "readiness_approval_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "source_spec": "engine_redesign_specification_v1",
+  "source_spec_commit": "bacb1aa",
+  "v9_loop_status": "stopped"
+}
