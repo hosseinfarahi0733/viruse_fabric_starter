@@ -1,0 +1,304 @@
+{
+  "allowed_claims_register": [
+    {
+      "basis": "VF-H2 selected_delta_total 3.0 and ledger_effect_size signal.",
+      "claim_id": "V9-6-ALLOW-001",
+      "claim_scope": "safe_abstract_toy_only",
+      "claim_text": "In the current safe abstract toy model, the memory-ledger component produces the clearest measurable divergence from baseline behavior."
+    },
+    {
+      "basis": "VF-H2 verdict is not_falsified_in_this_safe_toy_audit.",
+      "claim_id": "V9-6-ALLOW-002",
+      "claim_scope": "safe_abstract_toy_only",
+      "claim_text": "The current safe toy audit does not falsify the memory-ledger stability effect within the tested toy configuration."
+    },
+    {
+      "basis": "Only VF-H2 is not-falsified while VF-H1, VF-H3, and VF-H4 are falsified-or-unresolved.",
+      "claim_id": "V9-6-ALLOW-003",
+      "claim_scope": "safe_abstract_toy_theory_reduction",
+      "claim_text": "The current safe toy evidence supports reducing the defensible toy core to memory-ledger-driven toy dynamics."
+    },
+    {
+      "basis": "VF-H1, VF-H3, and VF-H4 each have selected_delta_total 0.0.",
+      "claim_id": "V9-6-ALLOW-004",
+      "claim_scope": "safe_abstract_toy_only",
+      "claim_text": "The multi-layer constraint, causal-mass, and three-time-layer mechanisms remain unresolved or unsupported in the current safe toy audit."
+    },
+    {
+      "basis": "Current evidence is toy-only and narrow, with readiness denied in v9.5.",
+      "claim_id": "V9-6-ALLOW-005",
+      "claim_scope": "boundary_and_positioning",
+      "claim_text": "The full Viruse Fabric theory should be treated as a broader framework, not as a validated theory."
+    }
+  ],
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation citation-ready source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "V9 allowed claim count": 5,
+    "V9 allowed claims register count": 1,
+    "V9 forbidden claim count": 8,
+    "V9 forbidden claims register count": 1,
+    "V9 hypothesis yield record count": 4,
+    "V9 hypothesis yield table count": 1,
+    "V9 manuscript readiness approval count": 0,
+    "V9 manuscript readiness claim count": 0,
+    "V9 mechanism status record count": 4,
+    "V9 mechanism status table count": 1,
+    "V9 next evidence requirement count": 5,
+    "V9 next evidence requirement table count": 1,
+    "V9 not-falsified toy hypothesis count": 1,
+    "V9 reduced theory core count": 1,
+    "V9 scientific yield extraction artifact count": 1,
+    "V9 scientific yield extraction count": 1,
+    "V9 source falsification audit execution count": 1,
+    "V9 source formal results report count": 1,
+    "V9 source manuscript readiness approval count": 0,
+    "V9 source manuscript readiness denial count": 1,
+    "V9 source reframed hypothesis count": 4,
+    "V9 source toy falsification audit record count": 4,
+    "V9 theory reduction count": 1,
+    "V9 theory validation claim count": 0,
+    "V9 unresolved or unsupported toy hypothesis count": 3,
+    "Wet-lab protocol count": 0
+  },
+  "forbidden_claims_register": [
+    {
+      "claim_id": "V9-6-FORBID-001",
+      "forbidden_claim": "The full Viruse Fabric theory is validated.",
+      "reason": "Only safe toy evidence exists, and only VF-H2 is not-falsified in the current audit."
+    },
+    {
+      "claim_id": "V9-6-FORBID-002",
+      "forbidden_claim": "The causal-mass mechanism is supported.",
+      "reason": "VF-H3 has selected_delta_total 0.0 and is falsified-or-unresolved in this safe toy audit."
+    },
+    {
+      "claim_id": "V9-6-FORBID-003",
+      "forbidden_claim": "The three-time-layer mechanism is supported.",
+      "reason": "VF-H4 has selected_delta_total 0.0 and is falsified-or-unresolved in this safe toy audit."
+    },
+    {
+      "claim_id": "V9-6-FORBID-004",
+      "forbidden_claim": "The multi-layer constraint path-shift mechanism is supported.",
+      "reason": "VF-H1 has selected_delta_total 0.0 and is falsified-or-unresolved in this safe toy audit."
+    },
+    {
+      "claim_id": "V9-6-FORBID-005",
+      "forbidden_claim": "The project is manuscript submission ready.",
+      "reason": "v9.5 readiness gate decision is not_ready_for_manuscript_submission."
+    },
+    {
+      "claim_id": "V9-6-FORBID-006",
+      "forbidden_claim": "The toy audit is empirical evidence.",
+      "reason": "The audit is safe abstract toy only and has no external validation or independent experiment."
+    },
+    {
+      "claim_id": "V9-6-FORBID-007",
+      "forbidden_claim": "The model applies to real biological systems.",
+      "reason": "No real biological datasets, pathogen models, receptor parameters, or operational biological assumptions are introduced."
+    },
+    {
+      "claim_id": "V9-6-FORBID-008",
+      "forbidden_claim": "The current outputs justify manuscript mutation or citation integration.",
+      "reason": "No manuscript mutation or citation integration is authorized in v9.6."
+    }
+  ],
+  "hypothesis_yield_table": [
+    {
+      "allowed_interpretation": "The current safe toy audit does not provide measurable support for the multi-layer constraint path-shift mechanism.",
+      "hypothesis_id": "VF-H1",
+      "interpretation_boundary": "Safe abstract toy interpretation only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "mechanism": "multi_layer_constraint_path_shift",
+      "selected_delta_total": 0.0,
+      "selected_metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "source_toy_verdict": "falsified_or_unresolved_in_this_safe_toy_audit",
+      "yield_status": "unresolved_or_unsupported_in_current_safe_toy_audit"
+    },
+    {
+      "allowed_interpretation": "The current safe toy audit identifies the memory-ledger mechanism as the clearest measurable toy-level signal.",
+      "hypothesis_id": "VF-H2",
+      "interpretation_boundary": "Safe abstract toy interpretation only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "mechanism": "memory_ledger_stability_effect",
+      "selected_delta_total": 3.0,
+      "selected_metric_deltas": {
+        "ledger_effect_size": 3.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "source_toy_verdict": "not_falsified_in_this_safe_toy_audit",
+      "yield_status": "not_falsified_in_current_safe_toy_audit"
+    },
+    {
+      "allowed_interpretation": "The current safe toy audit does not provide measurable support for the causal-mass delayed-effect mechanism.",
+      "hypothesis_id": "VF-H3",
+      "interpretation_boundary": "Safe abstract toy interpretation only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "mechanism": "causal_mass_delayed_effect",
+      "selected_delta_total": 0.0,
+      "selected_metric_deltas": {
+        "ledger_effect_size": 0.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "source_toy_verdict": "falsified_or_unresolved_in_this_safe_toy_audit",
+      "yield_status": "unresolved_or_unsupported_in_current_safe_toy_audit"
+    },
+    {
+      "allowed_interpretation": "The current safe toy audit does not provide measurable support for the three-time-layer predictive-difference mechanism.",
+      "hypothesis_id": "VF-H4",
+      "interpretation_boundary": "Safe abstract toy interpretation only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "mechanism": "three_time_layer_predictive_difference",
+      "selected_delta_total": 0.0,
+      "selected_metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "source_toy_verdict": "falsified_or_unresolved_in_this_safe_toy_audit",
+      "yield_status": "unresolved_or_unsupported_in_current_safe_toy_audit"
+    }
+  ],
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "mechanism_status_table": [
+    {
+      "current_status": "retained_as_reduced_toy_core",
+      "evidence_basis": "selected_delta_total 3.0 in VF-H2 toy audit and ledger_effect_size signal",
+      "linked_hypothesis": "VF-H2",
+      "mechanism_id": "VF-MECH-001",
+      "mechanism_name": "memory_ledger",
+      "next_action": "Keep as the central reduced toy-supported mechanism."
+    },
+    {
+      "current_status": "unresolved_or_unsupported",
+      "evidence_basis": "selected_delta_total 0.0 in VF-H1 toy audit",
+      "linked_hypothesis": "VF-H1",
+      "mechanism_id": "VF-MECH-002",
+      "mechanism_name": "multi_layer_constraint_path_shift",
+      "next_action": "Redesign metrics or demote from central theory claim."
+    },
+    {
+      "current_status": "unresolved_or_unsupported",
+      "evidence_basis": "selected_delta_total 0.0 in VF-H3 toy audit",
+      "linked_hypothesis": "VF-H3",
+      "mechanism_id": "VF-MECH-003",
+      "mechanism_name": "causal_mass_delayed_effect",
+      "next_action": "Redesign engine exposure and delayed-effect metrics before claiming support."
+    },
+    {
+      "current_status": "unresolved_or_unsupported",
+      "evidence_basis": "selected_delta_total 0.0 in VF-H4 toy audit",
+      "linked_hypothesis": "VF-H4",
+      "mechanism_id": "VF-MECH-004",
+      "mechanism_name": "three_time_layer_predictive_difference",
+      "next_action": "Redesign time-layer intervention and predictive-difference metrics before claiming support."
+    }
+  ],
+  "new_citation_added": false,
+  "next_evidence_requirements": [
+    {
+      "boundary": "safe abstract toy only",
+      "description": "Run additional safe abstract toy replicates across seed grids and graph configurations.",
+      "name": "expanded_safe_toy_replicates",
+      "requirement_id": "V9-6-NEXT-001"
+    },
+    {
+      "boundary": "safe abstract toy metric design only",
+      "description": "Redesign metrics for multi-layer constraints, causal mass, and three-time-layer effects.",
+      "name": "mechanism_specific_metric_redesign",
+      "requirement_id": "V9-6-NEXT-002"
+    },
+    {
+      "boundary": "safe abstract toy engine only",
+      "description": "Increase safe toy visibility of causal-mass effects without introducing real biological semantics.",
+      "name": "causal_mass_engine_exposure",
+      "requirement_id": "V9-6-NEXT-003"
+    },
+    {
+      "boundary": "safe abstract toy intervention only",
+      "description": "Create safe toy interventions that can distinguish single-time and three-time-layer behavior.",
+      "name": "time_layer_intervention_test",
+      "requirement_id": "V9-6-NEXT-004"
+    },
+    {
+      "boundary": "non-validation claim control",
+      "description": "Keep claim language restricted to toy evidence and reduced theory core until stronger evidence exists.",
+      "name": "claim_language_control",
+      "requirement_id": "V9-6-NEXT-005"
+    }
+  ],
+  "non_validation_disclaimer": "Safe toy scientific yield extraction and theory reduction only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.",
+  "passed": true,
+  "plan_phrase": "v9_6_safe_toy_scientific_yield_extraction_and_theory_reduction_without_validation_or_readiness",
+  "readiness_approval_recorded": false,
+  "reduced_theory_core": {
+    "boundary": "Safe abstract toy reduction only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+    "core_id": "V9-6-REDUCED-CORE-001",
+    "core_name": "memory-ledger-driven toy dynamics",
+    "core_statement": "The currently defensible toy-supported core of Viruse Fabric is memory-ledger-driven toy dynamics. The broader theory remains a framework, not a validated theory.",
+    "demoted_or_unresolved_hypotheses": [
+      "VF-H1",
+      "VF-H3",
+      "VF-H4"
+    ],
+    "retained_hypothesis": "VF-H2",
+    "retained_mechanism": "memory_ledger"
+  },
+  "reduced_theory_core_identified": true,
+  "safe_abstract_toy_only": true,
+  "scientific_yield_extracted": true,
+  "scientific_yield_summary": {
+    "not_falsified_toy_hypothesis_count": 1,
+    "primary_signal": "ledger_effect_size",
+    "primary_supported_hypothesis": "VF-H2",
+    "readiness_gate_decision": "not_ready_for_manuscript_submission",
+    "strongest_safe_toy_divergence": {
+      "absolute_delta_total": 3.077813,
+      "baseline_id": "VF-BASE-A"
+    },
+    "summary_id": "V9-6-SCIENTIFIC-YIELD-SUMMARY-001",
+    "summary_statement": "The v9.4 safe toy audit yields a narrow signal centered on the memory ledger. Only VF-H2 is not-falsified in the current safe toy audit. VF-H1, VF-H3, and VF-H4 remain unresolved or unsupported. v9.5 denies manuscript submission readiness.",
+    "unresolved_or_unsupported_hypothesis_count": 3,
+    "weakest_safe_toy_divergence": {
+      "absolute_delta_total": 0.0,
+      "baseline_id": "VF-BASE-D"
+    },
+    "yield_type": "narrow_safe_toy_signal"
+  },
+  "scope": "safe-toy-scientific-yield-extraction-and-theory-reduction-only",
+  "source_readiness_gate_json": "outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.json",
+  "source_reframing_json": "outputs/viruse_fabric_abstract_simulation_reframing_v9_0.json",
+  "source_results_audit_json": "outputs/viruse_fabric_results_and_falsification_audit_v9_4.json",
+  "theory_reduction_performed": true,
+  "title": "Viruse Fabric Safe Toy Scientific Yield Extraction and Theory Reduction",
+  "validation_claim_made": false,
+  "version": "v9.6"
+}
