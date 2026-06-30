@@ -1,0 +1,291 @@
+{
+  "analysis_boundary": "analysis_only_no_new_theorem_no_validation_no_real_bio",
+  "artifact": "vf_h2_toy_theorem_assumption_tightening_analysis_v1",
+  "assumption_tightening_analysis_executed": true,
+  "base_assumption_tightening_plan_commit": "b9a7a5f",
+  "biological_validation_claim_made": false,
+  "blocking_gap_for_current_conditional_theorem_count": 0,
+  "blocking_gap_for_tightened_theorem_count": 2,
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "conditional_toy_theorem_proved": true,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Assumption tightening analysis executed count": 1,
+    "Biological validation claim count": 0,
+    "Blocking gap for current conditional theorem count": 0,
+    "Blocking gap for tightened theorem count": 2,
+    "Claim expansion count": 0,
+    "Complete manuscript created count": 0,
+    "Conditional toy theorem proved count": 1,
+    "Empirical validation count": 0,
+    "External validation claim count": 0,
+    "Full theory proved count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent empirical validation claim count": 0,
+    "Literature support claim count": 0,
+    "Literature validation claim count": 0,
+    "Manuscript readiness claim count": 0,
+    "New theorem proved count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Operational usefulness claim count": 0,
+    "Primitive condition count": 12,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Real-world relevance claim count": 0,
+    "Submission readiness claim count": 0,
+    "Submission ready manuscript created count": 0,
+    "Theory validation claim count": 0,
+    "Tightened theorem candidate count": 4,
+    "Tightening finding count": 5,
+    "Tightening gap count": 3,
+    "Wet-lab protocol count": 0
+  },
+  "existing_conditional_toy_theorem_preserved": true,
+  "external_validation_claim_made": false,
+  "formal_proof_completed_for_conditional_toy_theorem": true,
+  "full_viruse_fabric_theory_proved": false,
+  "hypothesis": "VF-H2",
+  "independent_empirical_validation_claim_made": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "new_theorem_proved": false,
+  "next_allowed_action": "draft_vf_h2_toy_theorem_tightened_proof_plan_no_claim_validation",
+  "operational_usefulness_claim_made": false,
+  "passed": true,
+  "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+  "primitive_condition_count": 12,
+  "primitive_condition_map": [
+    {
+      "analysis_result": "sufficient_candidate",
+      "condition_id": "PRIM-VF-H2-001",
+      "primitive_condition": "ledger increments are nonnegative under the selected order",
+      "replaces_or_supports": "A5 ledger monotonicity"
+    },
+    {
+      "analysis_result": "sufficient_candidate",
+      "condition_id": "PRIM-VF-H2-002",
+      "primitive_condition": "ledger readout map is order-preserving",
+      "replaces_or_supports": "A5 ledger monotonicity"
+    },
+    {
+      "analysis_result": "sufficient_candidate",
+      "condition_id": "PRIM-VF-H2-003",
+      "primitive_condition": "state component of transition is order-preserving",
+      "replaces_or_supports": "A6 transition monotonicity"
+    },
+    {
+      "analysis_result": "sufficient_candidate",
+      "condition_id": "PRIM-VF-H2-004",
+      "primitive_condition": "activation map is monotone in ledger readout",
+      "replaces_or_supports": "A6 transition monotonicity"
+    },
+    {
+      "analysis_result": "partial_candidate",
+      "condition_id": "PRIM-VF-H2-005",
+      "primitive_condition": "there exists a reachable node-time pair receiving positive ledger increment",
+      "replaces_or_supports": "A8 strict witness"
+    },
+    {
+      "analysis_result": "partial_candidate",
+      "condition_id": "PRIM-VF-H2-006",
+      "primitive_condition": "the witness node-time pair is not saturated in the memory-ledger trajectory",
+      "replaces_or_supports": "A8 strict witness"
+    },
+    {
+      "analysis_result": "partial_candidate",
+      "condition_id": "PRIM-VF-H2-007",
+      "primitive_condition": "the null trajectory lacks the same positive ledger contribution at the witness pair",
+      "replaces_or_supports": "A8 strict witness"
+    },
+    {
+      "analysis_result": "partial_candidate",
+      "condition_id": "PRIM-VF-H2-008",
+      "primitive_condition": "the activation map is strictly increasing at the witness margin",
+      "replaces_or_supports": "A8 strict witness"
+    },
+    {
+      "analysis_result": "sufficient_for_sign",
+      "condition_id": "PRIM-VF-H2-009",
+      "primitive_condition": "aggregation weights are nonnegative",
+      "replaces_or_supports": "A7 positive aggregation"
+    },
+    {
+      "analysis_result": "sufficient_for_strict_sign",
+      "condition_id": "PRIM-VF-H2-010",
+      "primitive_condition": "the witness node-time pair has positive aggregation weight",
+      "replaces_or_supports": "A7 positive aggregation"
+    },
+    {
+      "analysis_result": "sufficient_for_sign_candidate",
+      "condition_id": "PRIM-VF-H2-011",
+      "primitive_condition": "ordered cone or partially ordered bounded domain exists for sign proof",
+      "replaces_or_supports": "state range [0,1]"
+    },
+    {
+      "analysis_result": "sufficient_for_boundedness",
+      "condition_id": "PRIM-VF-H2-012",
+      "primitive_condition": "bounded normalized range is retained only for upper-bound theorem",
+      "replaces_or_supports": "state range [0,1]"
+    }
+  ],
+  "real_world_relevance_claim_made": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_assumption_tightening_analysis": {
+    "assumption_tightening_analysis_executed": true,
+    "biological_validation": false,
+    "claim_expansion": false,
+    "complete_manuscript_created": false,
+    "conditional_toy_theorem_proved": true,
+    "external_validation": false,
+    "full_viruse_fabric_theory_proved": false,
+    "independent_validation": false,
+    "literature_support_claim": false,
+    "literature_validation": false,
+    "manuscript_readiness": false,
+    "new_theorem_proved": false,
+    "operational_usefulness": false,
+    "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+    "real_world_relevance": false,
+    "submission_readiness": false,
+    "submission_ready_manuscript_created": false,
+    "theory_validation": false,
+    "tightened_theorem_candidates_created": true,
+    "vf_h2_empirically_validated": false
+  },
+  "scope": "execute-vf-h2-toy-theorem-assumption-tightening-analysis-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_assumption_tightening_plan_artifact": "vf_h2_toy_theorem_assumption_tightening_plan_v1",
+  "source_formalization_artifact": "vf_h2_mathematical_core_formalization_v1",
+  "source_proof_attempt_artifact": "vf_h2_toy_theorem_formal_proof_attempt_v1",
+  "source_proof_attempt_audit_artifact": "vf_h2_toy_theorem_formal_proof_attempt_v1_audit",
+  "submission_readiness_claim_made": false,
+  "submission_ready_manuscript_created": false,
+  "theory_validation_claim_made": false,
+  "tightened_theorem_candidate_count": 4,
+  "tightened_theorem_candidates": [
+    {
+      "candidate_id": "TTC-VF-H2-001",
+      "candidate_statement": "If ledger increments are nonnegative, ledger readout is order-preserving, and activation is monotone in state and ledger readout, then the ledger trajectory dominates the no-persistent-memory null trajectory.",
+      "depends_on": [
+        "PRIM-VF-H2-001",
+        "PRIM-VF-H2-002",
+        "PRIM-VF-H2-003",
+        "PRIM-VF-H2-004"
+      ],
+      "name": "decomposed monotonicity nonnegative theorem",
+      "status": "candidate_not_proved"
+    },
+    {
+      "candidate_id": "TTC-VF-H2-002",
+      "candidate_statement": "If the decomposed monotonicity conditions hold and a reachable non-saturated node-time pair receives a positive ledger contribution absent in the null trajectory with strict activation margin and positive aggregation weight, then ledger_effect_size > 0.",
+      "depends_on": [
+        "TTC-VF-H2-001",
+        "PRIM-VF-H2-005",
+        "PRIM-VF-H2-006",
+        "PRIM-VF-H2-007",
+        "PRIM-VF-H2-008",
+        "PRIM-VF-H2-010"
+      ],
+      "name": "structural witness strict positivity theorem",
+      "status": "candidate_not_proved"
+    },
+    {
+      "candidate_id": "TTC-VF-H2-003",
+      "candidate_statement": "If aggregation weights are nonnegative and at least one strict witness receives positive weight, then strict positivity holds even without normalized weights.",
+      "depends_on": [
+        "PRIM-VF-H2-009",
+        "PRIM-VF-H2-010"
+      ],
+      "name": "sign theorem without normalized aggregation",
+      "status": "candidate_not_proved"
+    },
+    {
+      "candidate_id": "TTC-VF-H2-004",
+      "candidate_statement": "If the state domain is normalized to [0,1] and aggregation weights are normalized, then the already-positive effect size is bounded above by 1.",
+      "depends_on": [
+        "PRIM-VF-H2-012"
+      ],
+      "name": "separated boundedness theorem",
+      "status": "candidate_not_proved"
+    }
+  ],
+  "tightening_finding_count": 5,
+  "tightening_findings": [
+    {
+      "finding": "Global ledger monotonicity can be decomposed into nonnegative ledger increments plus an order-preserving ledger readout map.",
+      "finding_id": "FIND-TIGHTEN-001",
+      "new_theorem_proved": false,
+      "status": "tightened_candidate",
+      "target": "A5 ledger monotonicity"
+    },
+    {
+      "finding": "Transition monotonicity can be decomposed into state-order preservation and monotonicity of the activation map in ledger readout.",
+      "finding_id": "FIND-TIGHTEN-002",
+      "new_theorem_proved": false,
+      "status": "tightened_candidate",
+      "target": "A6 transition monotonicity"
+    },
+    {
+      "finding": "The strict witness condition is partially reducible to reachability, positive ledger increment, non-saturation, null absence, strict activation margin, and positive aggregation weight.",
+      "finding_id": "FIND-TIGHTEN-003",
+      "new_theorem_proved": false,
+      "status": "partial_derivation_candidate",
+      "target": "A8 strict witness"
+    },
+    {
+      "finding": "Normalization is not required for sign or strict positivity; nonnegative weights and one positive witness weight are sufficient. Normalization is only needed for the upper-bound statement.",
+      "finding_id": "FIND-TIGHTEN-004",
+      "new_theorem_proved": false,
+      "status": "tightened_candidate",
+      "target": "A7 positive aggregation"
+    },
+    {
+      "finding": "The sign theorem can be separated from boundedness. Ordered-domain conditions are enough for sign, while [0,1] normalization is needed for 0 <= ledger_effect_size <= 1.",
+      "finding_id": "FIND-TIGHTEN-005",
+      "new_theorem_proved": false,
+      "status": "tightened_candidate",
+      "target": "state range [0,1]"
+    }
+  ],
+  "tightening_gap_count": 3,
+  "tightening_gap_register": [
+    {
+      "blocking_for_current_conditional_theorem": false,
+      "blocking_for_tightened_theorem": true,
+      "description": "The structural witness derivation still requires an explicit strict activation margin condition.",
+      "gap_id": "TGAP-VF-H2-001",
+      "severity": "medium"
+    },
+    {
+      "blocking_for_current_conditional_theorem": false,
+      "blocking_for_tightened_theorem": true,
+      "description": "The exact partial order for a generalized ordered-domain sign theorem must be fixed before proof.",
+      "gap_id": "TGAP-VF-H2-002",
+      "severity": "medium"
+    },
+    {
+      "blocking_for_current_conditional_theorem": false,
+      "blocking_for_tightened_theorem": false,
+      "description": "The relationship between unnormalized aggregation and boundedness needs a separate theorem split.",
+      "gap_id": "TGAP-VF-H2-003",
+      "severity": "low"
+    }
+  ],
+  "vf_h2_empirically_validated": false
+}
