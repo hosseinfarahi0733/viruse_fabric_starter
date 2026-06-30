@@ -31960,3 +31960,135 @@ v8.219 continues the output-oriented path by mapping citation needs to unresolve
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.219.0 on master, and final master verification passes.
+
+## v8.220.0 close note — Safe Abstract Toy Citation Source Eligibility and Query Plan
+
+Status: close-note prepared on the v8.220 feature branch after successful main artifact generation.
+
+Main hash:
+05107e5
+
+Main subject:
+Add safe abstract toy citation source eligibility and query plan
+
+Scope:
+Citation-source-eligibility-and-query-plan-only artifact that creates eligibility rules, query plans, and exclusion groups for unresolved citation slots without performing source retrieval, claiming verified sources, adding citations, completing citation integration, or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_source_eligibility_and_query_plan.py
+- viruse_fabric/experiments/exp_300_safe_abstract_toy_citation_source_eligibility_and_query_plan.py
+- outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.md
+- outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.json
+
+Validation:
+- V8_220_SAFE_ABSTRACT_TOY_CITATION_SOURCE_ELIGIBILITY_AND_QUERY_PLAN_OK
+- TOY_CITATION_SOURCE_ELIGIBILITY_AND_QUERY_PLAN_DIRECT_CHECK_OK
+- V8_220_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Plan phrase:
+citation_source_eligibility_and_queries_planned_but_no_source_retrieval_performed
+
+Eligibility and query result:
+- Eligibility rule count: 12
+- Query plan count: 12
+- Exclusion group count: 4
+- Source retrieval count: 0
+- Verified source count: 0
+- Accepted source count: 0
+- Rejected source count: 0
+- Actual citation count: 0
+- Fabricated reference count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- New citation added count: 0
+
+Source continuity:
+- Source slot count: 12
+- Source unresolved slot count: 12
+- Source slot group count: 4
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source P0 gap count: 6
+- Source evidence upgrade completed count: 0
+- Source evaluation design module count: 10
+- Source actual evaluation run count: 0
+- Source validation claim count: 0
+- Source coherence improvement item count: 10
+- Source coherence rewrite application count: 0
+
+Exclusion groups:
+- No fabricated or unverifiable references
+- No citation integration or manuscript mutation
+- No validation, readiness, proof, or evidence upgrade
+- No real-biological operational content
+
+Required safety and boundary phrases preserved:
+- citation source eligibility and query plan
+- planned eligibility rule only
+- Query plans are planned search instructions only
+- No source retrieval is performed
+- No actual citation is added
+- No fabricated reference is introduced
+- No source is claimed as verified
+- Future source retrieval requires a separate official milestone
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+- Future work may only introduce stronger claims
+
+Counters preserved at zero:
+- Toy citation source retrieval count: 0
+- Toy citation source verified source count: 0
+- Toy citation source accepted source count: 0
+- Toy citation source rejected source count: 0
+- Toy citation source actual citation count: 0
+- Toy citation source fabricated reference count: 0
+- Toy citation source integration completion count: 0
+- Toy citation source added to manuscript count: 0
+- Toy citation actual citation count: 0
+- Toy citation verified source count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation source retrieval execution count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.220 creates citation source eligibility rules and query plans only. It does not retrieve sources, claim verified sources, record accepted sources, add actual citations, fabricate references, complete citation integration, validate claims, execute evaluation, complete evidence upgrades, modify manuscript files, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.220 continues the output-oriented path by defining future source eligibility and planned search templates before any separately authorized retrieval or citation-integration milestone.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.220.0 on master, and final master verification passes.
