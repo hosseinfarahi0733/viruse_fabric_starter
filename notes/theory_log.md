@@ -34051,3 +34051,153 @@ Safe abstract toy evidence only. The current safe toy evidence supports only a n
 
 Official v9.6 direction:
 NEXT_LINE_V9_6_SAFE_TOY_SCIENTIFIC_YIELD_EXTRACTION_AND_THEORY_REDUCTION_OK
+
+## v9.6.0 close note - Viruse Fabric Safe Toy Scientific Yield Extraction and Theory Reduction
+
+Status:
+Close-note prepared on the v9.6 feature branch after successful safe toy scientific yield extraction and theory reduction.
+
+Opening hash:
+87b8c35
+
+Main hash:
+08361cd
+
+Main subject:
+Add Viruse Fabric safe toy scientific yield extraction
+
+Scope:
+Safe-toy-scientific-yield-extraction-and-theory-reduction-only artifact. This milestone extracts the actual scientific yield from the v9.4 safe toy results and v9.5 readiness gate, then reduces the defensible theory core to the part currently supported by toy evidence.
+
+Plan phrase:
+v9_6_safe_toy_scientific_yield_extraction_and_theory_reduction_without_validation_or_readiness
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction.py
+- viruse_fabric/experiments/exp_906_viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction.py
+- outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.md
+- outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.json
+
+Validation:
+- V9_6_VIRUSE_FABRIC_SAFE_TOY_SCIENTIFIC_YIELD_EXTRACTION_AND_THEORY_REDUCTION_OK
+- VIRUSE_FABRIC_SAFE_TOY_SCIENTIFIC_YIELD_EXTRACTION_AND_THEORY_REDUCTION_DIRECT_CHECK_OK
+- V9_6_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Scientific yield:
+- Primary supported hypothesis: VF-H2
+- Primary signal: ledger_effect_size
+- Reduced theory core: memory-ledger-driven toy dynamics
+- Not-falsified toy hypothesis count: 1
+- Unresolved or unsupported toy hypothesis count: 3
+- Strongest safe toy divergence: VF-BASE-A with absolute_delta_total 3.077813
+- Weakest safe toy divergence: VF-BASE-D with absolute_delta_total 0.0
+- Readiness gate decision carried forward from v9.5: not_ready_for_manuscript_submission
+
+Hypothesis verdict:
+- VF-H1: unresolved_or_unsupported_in_current_safe_toy_audit
+- VF-H2: not_falsified_in_current_safe_toy_audit
+- VF-H3: unresolved_or_unsupported_in_current_safe_toy_audit
+- VF-H4: unresolved_or_unsupported_in_current_safe_toy_audit
+
+Reduced theory core:
+The currently defensible toy-supported core is memory-ledger-driven toy dynamics. The retained mechanism is memory_ledger. The retained hypothesis is VF-H2. VF-H1, VF-H3, and VF-H4 are demoted or kept unresolved in the current safe toy audit. The broader Viruse Fabric theory remains a framework, not a validated theory.
+
+Mechanism status:
+- memory_ledger: retained_as_reduced_toy_core
+- multi_layer_constraint_path_shift: unresolved_or_unsupported
+- causal_mass_delayed_effect: unresolved_or_unsupported
+- three_time_layer_predictive_difference: unresolved_or_unsupported
+
+Allowed claims:
+- In the current safe abstract toy model, the memory-ledger component produces the clearest measurable divergence from baseline behavior.
+- The current safe toy audit does not falsify the memory-ledger stability effect within the tested toy configuration.
+- The current safe toy evidence supports reducing the defensible toy core to memory-ledger-driven toy dynamics.
+- The multi-layer constraint, causal-mass, and three-time-layer mechanisms remain unresolved or unsupported in the current safe toy audit.
+- The full Viruse Fabric theory should be treated as a broader framework, not as a validated theory.
+
+Forbidden claims:
+- The full Viruse Fabric theory is validated.
+- The causal-mass mechanism is supported.
+- The three-time-layer mechanism is supported.
+- The multi-layer constraint path-shift mechanism is supported.
+- The project is manuscript submission ready.
+- The toy audit is empirical evidence.
+- The model applies to real biological systems.
+- The current outputs justify manuscript mutation or citation integration.
+
+Next evidence requirements:
+- expanded_safe_toy_replicates
+- mechanism_specific_metric_redesign
+- causal_mass_engine_exposure
+- time_layer_intervention_test
+- claim_language_control
+
+Counters:
+- V9 scientific yield extraction artifact count: 1
+- V9 scientific yield extraction count: 1
+- V9 theory reduction count: 1
+- V9 reduced theory core count: 1
+- V9 hypothesis yield table count: 1
+- V9 hypothesis yield record count: 4
+- V9 not-falsified toy hypothesis count: 1
+- V9 unresolved or unsupported toy hypothesis count: 3
+- V9 mechanism status table count: 1
+- V9 mechanism status record count: 4
+- V9 allowed claims register count: 1
+- V9 allowed claim count: 5
+- V9 forbidden claims register count: 1
+- V9 forbidden claim count: 8
+- V9 next evidence requirement table count: 1
+- V9 next evidence requirement count: 5
+- V9 source reframed hypothesis count: 4
+- V9 source formal results report count: 1
+- V9 source falsification audit execution count: 1
+- V9 source toy falsification audit record count: 4
+- V9 source manuscript readiness denial count: 1
+- V9 source manuscript readiness approval count: 0
+
+Counters intentionally preserved at zero:
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- V9 manuscript readiness approval count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Safe toy scientific yield extraction and theory reduction only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Path correction:
+v9.6 converts the project from broad theory presentation to narrow scientific yield extraction. The current safe toy evidence supports a memory-ledger-centered toy core, while the wider Viruse Fabric theory remains unresolved and must not be overclaimed.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.6.0 on master, and final master verification passes.
