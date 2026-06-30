@@ -1,0 +1,541 @@
+{
+  "abstract_graphs_only": true,
+  "accepted_sources_recorded": false,
+  "actual_citations_added": false,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "boundary_notes": [
+    "Candidate ledger schema only. No candidate source is recorded.",
+    "No actual citation is added.",
+    "Future source retrieval requires a separate official milestone.",
+    "No fabricated reference is introduced.",
+    "No source is claimed as verified.",
+    "No source retrieval is performed.",
+    "No fabricated reference is introduced.",
+    "No evidence upgrade is completed.",
+    "does not validate scientific claims.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "No source is claimed as verified.",
+    "No accepted source and no rejected source is recorded.",
+    "does not complete citation integration.",
+    "No manuscript file is modified.",
+    "Manuscript submission ready count remains zero.",
+    "Future source retrieval requires a separate official milestone.",
+    "No candidate source is recorded.",
+    "No retrieval authorization is granted.",
+    "No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "Accepted source count remains zero.",
+    "Rejected source count remains zero.",
+    "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+    "No new citation is added and does not complete citation integration.",
+    "Future source retrieval requires a separate official milestone.",
+    "No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "Retrieval execution count remains zero.",
+    "No candidate source is recorded.",
+    "No source is claimed as verified.",
+    "No real biological datasets and no real pathogen models are introduced.",
+    "does not validate scientific claims.",
+    "does not complete citation integration.",
+    "No accepted source and no rejected source is recorded.",
+    "Real biological dataset import count remains zero.",
+    "Real pathogen simulation count remains zero.",
+    "Real receptor parameter count remains zero.",
+    "Operational host targeting count and real host range prediction count remain zero.",
+    "Wet-lab protocol count remains zero.",
+    "Actionable biosafety-risk instruction count remains zero.",
+    "Real-world infectivity optimization count remains zero.",
+    "Immune evasion optimization count remains zero.",
+    "External validation count, proof assistant verification count, and readiness approval count remain zero.",
+    "No manuscript file is modified.",
+    "No fabricated reference is introduced.",
+    "No actual citation is added.",
+    "No candidate source is recorded.",
+    "No source is claimed as verified.",
+    "Accepted source count remains zero.",
+    "No manuscript file is modified.",
+    "Source retrieval count and verified source count remain zero.",
+    "Manuscript submission ready count remains zero.",
+    "No evidence upgrade is completed.",
+    "Future source retrieval requires a separate official milestone."
+  ],
+  "candidate_acceptance_decisions_recorded": false,
+  "candidate_ledger_rows_created": false,
+  "candidate_ledger_schema_completed": true,
+  "candidate_rejection_decisions_recorded": false,
+  "candidate_sources_recorded": false,
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "citation_integration_completed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy citation retrieval candidate ledger schema count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy citation retrieval candidate ledger schema count": 1,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation candidate acceptance decision count": 0,
+    "Toy citation candidate accepted source count": 0,
+    "Toy citation candidate actual citation count": 0,
+    "Toy citation candidate added to manuscript count": 0,
+    "Toy citation candidate blocked decision count": 0,
+    "Toy citation candidate fabricated reference count": 0,
+    "Toy citation candidate hallucination control count": 10,
+    "Toy citation candidate integration completion count": 0,
+    "Toy citation candidate ledger field count": 16,
+    "Toy citation candidate ledger row count": 0,
+    "Toy citation candidate ledger schema direct execution count": 1,
+    "Toy citation candidate ledger schema execution count": 1,
+    "Toy citation candidate provenance field count": 10,
+    "Toy citation candidate rejected source count": 0,
+    "Toy citation candidate rejection decision count": 0,
+    "Toy citation candidate retrieval authorization count": 0,
+    "Toy citation candidate retrieval execution count": 0,
+    "Toy citation candidate safety screen field count": 10,
+    "Toy citation candidate source P0 gap count": 6,
+    "Toy citation candidate source acceptance schema field count": 12,
+    "Toy citation candidate source actual evaluation run count": 0,
+    "Toy citation candidate source allowed query family count": 12,
+    "Toy citation candidate source assembly section count": 9,
+    "Toy citation candidate source coherence improvement item count": 10,
+    "Toy citation candidate source coherence rewrite application count": 0,
+    "Toy citation candidate source eligibility rule count": 12,
+    "Toy citation candidate source evaluation design module count": 10,
+    "Toy citation candidate source evidence upgrade completed count": 0,
+    "Toy citation candidate source exclusion group count": 4,
+    "Toy citation candidate source gap item count": 12,
+    "Toy citation candidate source preflight check count": 10,
+    "Toy citation candidate source prior accepted source count": 0,
+    "Toy citation candidate source prior actual citation count": 0,
+    "Toy citation candidate source prior added to manuscript count": 0,
+    "Toy citation candidate source prior fabricated reference count": 0,
+    "Toy citation candidate source prior integration completion count": 0,
+    "Toy citation candidate source prior rejected source count": 0,
+    "Toy citation candidate source prior retrieval authorization count": 0,
+    "Toy citation candidate source prior retrieval execution count": 0,
+    "Toy citation candidate source prior source retrieval count": 0,
+    "Toy citation candidate source prior verified source count": 0,
+    "Toy citation candidate source query plan count": 12,
+    "Toy citation candidate source recorded count": 0,
+    "Toy citation candidate source rejection reason count": 10,
+    "Toy citation candidate source retrieval count": 0,
+    "Toy citation candidate source retrieval gate item count": 12,
+    "Toy citation candidate source slot count": 12,
+    "Toy citation candidate source slot group count": 4,
+    "Toy citation candidate source unresolved slot count": 12,
+    "Toy citation candidate source validation claim count": 0,
+    "Toy citation candidate status enum count": 8,
+    "Toy citation candidate verified source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy citation retrieval candidate ledger schema JSON export count": 1,
+    "Toy citation source retrieval execution count": 0,
+    "Toy citation verified source count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "evaluation_execution_performed": false,
+  "evidence_upgrade_completed": false,
+  "fabricated_references_introduced": false,
+  "hallucination_controls": [
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "control_id": "HALLUCINATION-01",
+      "control_name": "no_memory_based_reference_creation",
+      "control_rule": "Never create candidate metadata from memory or model recall."
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "control_id": "HALLUCINATION-02",
+      "control_name": "no_placeholder_to_reference_upgrade",
+      "control_rule": "Never convert a placeholder citation slot into a reference without retrieval evidence."
+    },
+    {
+      "boundary_note": "No candidate source is recorded.",
+      "control_id": "HALLUCINATION-03",
+      "control_name": "locator_required_for_future_candidate",
+      "control_rule": "A future candidate must have a stable locator or explicit reason for rejection."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "control_id": "HALLUCINATION-04",
+      "control_name": "verification_separate_from_retrieval",
+      "control_rule": "Retrieval alone must not be treated as source verification."
+    },
+    {
+      "boundary_note": "Accepted source count remains zero.",
+      "control_id": "HALLUCINATION-05",
+      "control_name": "acceptance_separate_from_verification",
+      "control_rule": "Verification alone must not be treated as acceptance for citation integration."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "control_id": "HALLUCINATION-06",
+      "control_name": "integration_separate_from_acceptance",
+      "control_rule": "Acceptance alone must not modify manuscript files."
+    },
+    {
+      "boundary_note": "Source retrieval count and verified source count remain zero.",
+      "control_id": "HALLUCINATION-07",
+      "control_name": "no_retroactive_source_claims",
+      "control_rule": "Do not claim earlier milestones retrieved or verified sources."
+    },
+    {
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "control_id": "HALLUCINATION-08",
+      "control_name": "no_readiness_from_citation_presence",
+      "control_rule": "Even future citations must not imply submission readiness by themselves."
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "control_id": "HALLUCINATION-09",
+      "control_name": "no_evidence_upgrade_from_schema",
+      "control_rule": "A schema does not close evidence gaps or validate scientific claims."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "control_id": "HALLUCINATION-10",
+      "control_name": "future_authorization_required",
+      "control_rule": "Future retrieval, verification, and integration require separate official milestones."
+    }
+  ],
+  "ledger_fields": [
+    {
+      "boundary_note": "Candidate ledger schema only. No candidate source is recorded.",
+      "field_id": "LEDGER-FIELD-01",
+      "field_name": "candidate_id",
+      "field_purpose": "Stable identifier for a future retrieval candidate.",
+      "required_rule": "Must remain empty until a separate source retrieval milestone creates a real candidate."
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "field_id": "LEDGER-FIELD-02",
+      "field_name": "slot_id",
+      "field_purpose": "Maps a future candidate to exactly one unresolved citation slot.",
+      "required_rule": "Must reference one CIT-SLOT identifier from the unresolved slot list."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "field_id": "LEDGER-FIELD-03",
+      "field_name": "query_family_id",
+      "field_purpose": "Links a future candidate to an allowed query family from the retrieval gate.",
+      "required_rule": "Must use an allowed query family and must not introduce a new unreviewed search family."
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "field_id": "LEDGER-FIELD-04",
+      "field_name": "candidate_title",
+      "field_purpose": "Stores the title of a future retrieved candidate source.",
+      "required_rule": "Must not be filled from memory, guesswork, placeholder text, or fabricated references."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_id": "LEDGER-FIELD-05",
+      "field_name": "candidate_author_or_body",
+      "field_purpose": "Stores authorship or issuing body after future retrieval.",
+      "required_rule": "Must remain empty until source metadata is retrieved and separately checked."
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "field_id": "LEDGER-FIELD-06",
+      "field_name": "candidate_year",
+      "field_purpose": "Stores candidate publication year after future retrieval.",
+      "required_rule": "Must not be inferred when unavailable."
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "field_id": "LEDGER-FIELD-07",
+      "field_name": "candidate_locator",
+      "field_purpose": "Stores DOI, URL, database record, ISBN, or stable locator after future retrieval.",
+      "required_rule": "Must reject imaginary DOI records, unverifiable URLs, and placeholder locators."
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "field_id": "LEDGER-FIELD-08",
+      "field_name": "source_type",
+      "field_purpose": "Classifies future source type.",
+      "required_rule": "Allowed values must remain within the source type enum and must not imply validation by type alone."
+    },
+    {
+      "boundary_note": "does not validate scientific claims.",
+      "field_id": "LEDGER-FIELD-09",
+      "field_name": "evidence_role",
+      "field_purpose": "States the narrow role the future source may support.",
+      "required_rule": "Must not support project result validation, performance claims, readiness approval, or proof."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "field_id": "LEDGER-FIELD-10",
+      "field_name": "safety_screen_status",
+      "field_purpose": "Records whether a future candidate passes safety exclusion screening.",
+      "required_rule": "Must reject real biological datasets, real pathogen models, receptor parameters, operational targeting, wet-lab protocols, and actionable biosafety-risk instructions."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_id": "LEDGER-FIELD-11",
+      "field_name": "verification_status",
+      "field_purpose": "Records verification state after a future verification milestone.",
+      "required_rule": "Must remain not_verified in this milestone."
+    },
+    {
+      "boundary_note": "No accepted source and no rejected source is recorded.",
+      "field_id": "LEDGER-FIELD-12",
+      "field_name": "acceptance_status",
+      "field_purpose": "Records whether a future candidate is pending, accepted, rejected, or blocked.",
+      "required_rule": "Must remain not_recorded in this milestone because no candidate exists."
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "field_id": "LEDGER-FIELD-13",
+      "field_name": "citation_integration_status",
+      "field_purpose": "Records whether a future verified source has been integrated into a manuscript citation slot.",
+      "required_rule": "Must remain not_integrated in this milestone."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "field_id": "LEDGER-FIELD-14",
+      "field_name": "manuscript_mutation_status",
+      "field_purpose": "Records whether a manuscript file was changed.",
+      "required_rule": "Must remain no_mutation in this milestone."
+    },
+    {
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "field_id": "LEDGER-FIELD-15",
+      "field_name": "readiness_claim_status",
+      "field_purpose": "Records whether a candidate is being misused to imply readiness.",
+      "required_rule": "Must remain no_readiness_claim in this milestone."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "field_id": "LEDGER-FIELD-16",
+      "field_name": "future_authorization_reference",
+      "field_purpose": "Stores the future official milestone that authorizes retrieval, verification, or integration.",
+      "required_rule": "Must state that future source retrieval requires a separate official milestone."
+    }
+  ],
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_rewrite_applied": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.222 artifact creates a citation retrieval candidate ledger schema only. Candidate ledger schema only. No candidate source is recorded. No retrieval authorization is granted. No source retrieval is performed. No actual citation is added. No fabricated reference is introduced. No source is claimed as verified. It does not complete citation integration, does not validate scientific claims, does not modify manuscript files, and No manuscript file is modified. No new citation is added. Future source retrieval requires a separate official milestone.",
+  "passed": true,
+  "plan_phrase": "citation_retrieval_candidate_ledger_schema_created_but_no_candidates_recorded",
+  "provenance_fields": [
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "field_name": "retrieval_milestone_id",
+      "provenance_id": "PROV-01",
+      "required_rule": "Must name the future official milestone that performed source retrieval."
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "field_name": "retrieval_query_used",
+      "provenance_id": "PROV-02",
+      "required_rule": "Must match an allowed query family and must not be invented after the fact."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_name": "retrieval_database_or_index",
+      "provenance_id": "PROV-03",
+      "required_rule": "Must identify the future database, index, publisher site, or stable discovery location."
+    },
+    {
+      "boundary_note": "Retrieval execution count remains zero.",
+      "field_name": "retrieval_timestamp",
+      "provenance_id": "PROV-04",
+      "required_rule": "Must be recorded only when a future retrieval action actually occurs."
+    },
+    {
+      "boundary_note": "No candidate source is recorded.",
+      "field_name": "metadata_capture_method",
+      "provenance_id": "PROV-05",
+      "required_rule": "Must state how title, author, year, and locator were captured."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_name": "verification_method",
+      "provenance_id": "PROV-06",
+      "required_rule": "Must remain not_verified until a future verification step checks the source."
+    },
+    {
+      "boundary_note": "No real biological datasets and no real pathogen models are introduced.",
+      "field_name": "safety_screen_method",
+      "provenance_id": "PROV-07",
+      "required_rule": "Must record how safety exclusions were checked in a future milestone."
+    },
+    {
+      "boundary_note": "does not validate scientific claims.",
+      "field_name": "claim_boundary_review",
+      "provenance_id": "PROV-08",
+      "required_rule": "Must confirm that a future candidate is not used to validate results or claim readiness."
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "field_name": "integration_milestone_id",
+      "provenance_id": "PROV-09",
+      "required_rule": "Must name the future official milestone that integrates a citation."
+    },
+    {
+      "boundary_note": "No accepted source and no rejected source is recorded.",
+      "field_name": "audit_trail_note",
+      "provenance_id": "PROV-10",
+      "required_rule": "Must preserve a plain-language audit note for why a future candidate was accepted, rejected, or blocked."
+    }
+  ],
+  "rejected_sources_recorded": false,
+  "retrieval_authorization_granted": false,
+  "safe_abstract_toy_only": true,
+  "safety_screen_fields": [
+    {
+      "boundary_note": "Real biological dataset import count remains zero.",
+      "screen_id": "SCREEN-01",
+      "screen_name": "real_biological_dataset_screen",
+      "screen_rule": "Reject candidate if it requires importing, analyzing, or operationalizing real biological datasets."
+    },
+    {
+      "boundary_note": "Real pathogen simulation count remains zero.",
+      "screen_id": "SCREEN-02",
+      "screen_name": "real_pathogen_model_screen",
+      "screen_rule": "Reject candidate if it introduces real pathogen simulation or operational biological modeling."
+    },
+    {
+      "boundary_note": "Real receptor parameter count remains zero.",
+      "screen_id": "SCREEN-03",
+      "screen_name": "receptor_parameter_screen",
+      "screen_rule": "Reject candidate if it introduces receptor parameters or real receptor mechanics."
+    },
+    {
+      "boundary_note": "Operational host targeting count and real host range prediction count remain zero.",
+      "screen_id": "SCREEN-04",
+      "screen_name": "operational_targeting_screen",
+      "screen_rule": "Reject candidate if it supports operational targeting, host tropism prediction, or host range prediction."
+    },
+    {
+      "boundary_note": "Wet-lab protocol count remains zero.",
+      "screen_id": "SCREEN-05",
+      "screen_name": "wet_lab_protocol_screen",
+      "screen_rule": "Reject candidate if it contains wet-lab protocols or actionable experimental instructions."
+    },
+    {
+      "boundary_note": "Actionable biosafety-risk instruction count remains zero.",
+      "screen_id": "SCREEN-06",
+      "screen_name": "biosafety_risk_instruction_screen",
+      "screen_rule": "Reject candidate if it enables actionable biosafety-risk instructions."
+    },
+    {
+      "boundary_note": "Real-world infectivity optimization count remains zero.",
+      "screen_id": "SCREEN-07",
+      "screen_name": "infectivity_optimization_screen",
+      "screen_rule": "Reject candidate if it supports real-world infectivity optimization."
+    },
+    {
+      "boundary_note": "Immune evasion optimization count remains zero.",
+      "screen_id": "SCREEN-08",
+      "screen_name": "immune_evasion_screen",
+      "screen_rule": "Reject candidate if it supports immune evasion optimization."
+    },
+    {
+      "boundary_note": "External validation count, proof assistant verification count, and readiness approval count remain zero.",
+      "screen_id": "SCREEN-09",
+      "screen_name": "overclaim_screen",
+      "screen_rule": "Reject candidate if it is used to imply validation, proof, readiness, evidence-gap closure, or evaluation results."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "screen_id": "SCREEN-10",
+      "screen_name": "manuscript_mutation_screen",
+      "screen_rule": "Reject any use of a candidate as permission to mutate manuscript files in this milestone."
+    }
+  ],
+  "scope": "citation-retrieval-candidate-ledger-schema-only",
+  "source_assembly_json": "outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.json",
+  "source_citation_slot_json": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.json",
+  "source_coherence_json": "outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.json",
+  "source_eligibility_json": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.json",
+  "source_evaluation_design_json": "outputs/safe_abstract_toy_evaluation_design_plan_v8_217.json",
+  "source_gap_json": "outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.json",
+  "source_retrieval_gate_json": "outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.json",
+  "source_retrieval_gate_markdown": "outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.md",
+  "source_retrieval_gate_markdown_character_count": 22215,
+  "source_retrieval_performed": false,
+  "status_enums": [
+    {
+      "allowed_use": "Default state for candidate fields in v8.222 because no candidate source is recorded.",
+      "boundary_note": "No candidate source is recorded.",
+      "enum_id": "STATUS-01",
+      "enum_name": "not_recorded"
+    },
+    {
+      "allowed_use": "May describe a future ledger row only after retrieval authorization exists.",
+      "boundary_note": "No retrieval authorization is granted.",
+      "enum_id": "STATUS-02",
+      "enum_name": "pending_future_retrieval"
+    },
+    {
+      "allowed_use": "Reserved for a future retrieval milestone only.",
+      "boundary_note": "No source retrieval is performed.",
+      "enum_id": "STATUS-03",
+      "enum_name": "retrieved_not_verified"
+    },
+    {
+      "allowed_use": "Reserved for a future verification milestone only.",
+      "boundary_note": "No source is claimed as verified.",
+      "enum_id": "STATUS-04",
+      "enum_name": "verified_not_integrated"
+    },
+    {
+      "allowed_use": "Reserved for future accepted candidate records after retrieval and screening.",
+      "boundary_note": "Accepted source count remains zero.",
+      "enum_id": "STATUS-05",
+      "enum_name": "accepted_candidate"
+    },
+    {
+      "allowed_use": "Reserved for future rejected candidate records after retrieval and screening.",
+      "boundary_note": "Rejected source count remains zero.",
+      "enum_id": "STATUS-06",
+      "enum_name": "rejected_candidate"
+    },
+    {
+      "allowed_use": "Reserved for future candidates that violate safety exclusions.",
+      "boundary_note": "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+      "enum_id": "STATUS-07",
+      "enum_name": "blocked_for_safety"
+    },
+    {
+      "allowed_use": "Default citation integration state in v8.222.",
+      "boundary_note": "No new citation is added and does not complete citation integration.",
+      "enum_id": "STATUS-08",
+      "enum_name": "not_integrated"
+    }
+  ],
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Citation Retrieval Candidate Ledger Schema",
+  "unitless_parameters_only": true,
+  "validation_claim_made": false,
+  "verified_sources_claimed": false,
+  "version": "v8.222"
+}
