@@ -32092,3 +32092,146 @@ v8.220 continues the output-oriented path by defining future source eligibility 
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.220.0 on master, and final master verification passes.
+
+## v8.221.0 close note — Safe Abstract Toy Citation Retrieval Readiness Gate
+
+Status: close-note prepared on the v8.221 feature branch after successful main artifact generation.
+
+Main hash:
+bd9855f
+
+Main subject:
+Add safe abstract toy citation retrieval readiness gate
+
+Scope:
+Citation-retrieval-readiness-gate-only artifact that creates retrieval gate items, allowed query families, acceptance schema, rejection schema, and preflight checks without granting retrieval authorization, performing source retrieval, claiming verified sources, recording accepted or rejected sources, adding citations, completing citation integration, or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_retrieval_readiness_gate.py
+- viruse_fabric/experiments/exp_301_safe_abstract_toy_citation_retrieval_readiness_gate.py
+- outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.md
+- outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.json
+
+Validation:
+- V8_221_SAFE_ABSTRACT_TOY_CITATION_RETRIEVAL_READINESS_GATE_OK
+- TOY_CITATION_RETRIEVAL_READINESS_GATE_DIRECT_CHECK_OK
+- V8_221_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Plan phrase:
+citation_retrieval_readiness_gated_but_no_source_retrieval_performed
+
+Retrieval readiness gate result:
+- Retrieval gate item count: 12
+- Allowed query family count: 12
+- Acceptance schema field count: 12
+- Rejection reason count: 10
+- Preflight check count: 10
+- Retrieval authorization count: 0
+- Retrieval execution count: 0
+- Source retrieval count: 0
+- Verified source count: 0
+- Accepted source count: 0
+- Rejected source count: 0
+- Actual citation count: 0
+- Fabricated reference count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- New citation added count: 0
+
+Source continuity:
+- Source eligibility rule count: 12
+- Source query plan count: 12
+- Source exclusion group count: 4
+- Source slot count: 12
+- Source unresolved slot count: 12
+- Source slot group count: 4
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source P0 gap count: 6
+- Source evidence upgrade completed count: 0
+- Source evaluation design module count: 10
+- Source actual evaluation run count: 0
+- Source validation claim count: 0
+- Source coherence improvement item count: 10
+- Source coherence rewrite application count: 0
+
+Gate components:
+- Retrieval gate items
+- Allowed query families
+- Acceptance schema
+- Rejection schema
+- Preflight checks
+
+Required safety and boundary phrases preserved:
+- citation retrieval readiness gate
+- Retrieval readiness gate only
+- not_authorized_for_retrieval
+- No retrieval authorization is granted
+- No source retrieval is performed
+- No actual citation is added
+- No fabricated reference is introduced
+- No source is claimed as verified
+- Future source retrieval requires a separate official milestone
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+- Future work may only introduce stronger claims
+
+Counters preserved at zero:
+- Toy citation retrieval authorization count: 0
+- Toy citation retrieval execution count: 0
+- Toy citation retrieval source retrieval count: 0
+- Toy citation retrieval verified source count: 0
+- Toy citation retrieval accepted source count: 0
+- Toy citation retrieval rejected source count: 0
+- Toy citation retrieval actual citation count: 0
+- Toy citation retrieval fabricated reference count: 0
+- Toy citation retrieval integration completion count: 0
+- Toy citation retrieval added to manuscript count: 0
+- Toy citation actual citation count: 0
+- Toy citation verified source count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation source retrieval execution count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.221 creates a citation retrieval readiness gate only. It does not grant retrieval authorization, perform source retrieval, claim verified sources, record accepted sources, record rejected sources, add actual citations, fabricate references, complete citation integration, validate claims, execute evaluation, complete evidence upgrades, modify manuscript files, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.221 continues the output-oriented path by creating a final readiness gate before any separately authorized source retrieval milestone.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.221.0 on master, and final master verification passes.
