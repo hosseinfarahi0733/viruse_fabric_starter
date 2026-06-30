@@ -1,0 +1,292 @@
+{
+  "artifact": "safe_engine_redesign_sweep_profile_scaffold_v1",
+  "claim_expansion_allowed": false,
+  "code_scaffold_created": true,
+  "counters": {
+    "Claim expansion count": 0,
+    "Code scaffold module count": 1,
+    "Engine modification count": 0,
+    "Engine-supported safe parameter count": 3,
+    "Experiment execution count": 0,
+    "Immune evasion optimization count": 0,
+    "Manuscript readiness claim count": 0,
+    "New milestone created count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Preview safe toy grid record count": 8,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe engine redesign scaffold artifact count": 1,
+    "Safe toy grid cell count": 16384,
+    "Safe toy parameter definition count": 7,
+    "SafeToySweepProfile definition count": 1,
+    "Seed safe parameter count": 4,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "engine_modified": false,
+  "engine_supported_parameter_names": [
+    "node_count",
+    "packet_count",
+    "step_count_limit"
+  ],
+  "experiment_executed": false,
+  "manuscript_readiness_claim_made": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action": "connect_profile_to_engine_validation_on_separate_checked_commit",
+  "passed": true,
+  "profile_summary": {
+    "claim_expansion_allowed": false,
+    "engine_supported_parameter_count": 3,
+    "forbidden_semantics": [
+      "real biological dataset",
+      "real pathogen model",
+      "receptor parameter",
+      "operational host targeting",
+      "wet-lab protocol",
+      "infectivity optimization",
+      "immune evasion optimization",
+      "host range prediction"
+    ],
+    "parameter_count": 7,
+    "preview_record_count": 8,
+    "preview_records": [
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 404,
+          "transition_seed": 303
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0001",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 414,
+          "transition_seed": 303
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0002",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 424,
+          "transition_seed": 303
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0003",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 434,
+          "transition_seed": 303
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0004",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 404,
+          "transition_seed": 313
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0005",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 414,
+          "transition_seed": 313
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0006",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 424,
+          "transition_seed": 313
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0007",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      },
+      {
+        "claim_expansion_allowed": false,
+        "forbidden_semantics": [
+          "real biological dataset",
+          "real pathogen model",
+          "receptor parameter",
+          "operational host targeting",
+          "wet-lab protocol",
+          "infectivity optimization",
+          "immune evasion optimization",
+          "host range prediction"
+        ],
+        "parameter_values": {
+          "graph_seed": 101,
+          "node_count": 12,
+          "packet_count": 24,
+          "packet_seed": 202,
+          "step_count_limit": 2,
+          "symbolic_drift_seed": 434,
+          "transition_seed": 313
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "SAFE-SWEEP-CELL-0008",
+        "scope": "safe-abstract-toy-sweep-profile-only"
+      }
+    ],
+    "profile_id": "safe_toy_sweep_profile_v1",
+    "real_biological_semantics_allowed": false,
+    "scope": "safe-abstract-toy-sweep-profile-only",
+    "seed_parameter_count": 4,
+    "total_grid_cell_count": 16384
+  },
+  "required_markers": [
+    "safe-abstract-toy-sweep-profile-scaffold-only",
+    "SafeToySweepProfile",
+    "safe toy parameter registry",
+    "engine not modified",
+    "experiment not executed",
+    "claim expansion remains forbidden",
+    "No validation claim is made",
+    "No manuscript readiness claim is made",
+    "No real biological datasets",
+    "no real pathogen models",
+    "no receptor parameters",
+    "no operational targeting",
+    "no wet-lab protocol",
+    "no infectivity optimization",
+    "no immune evasion optimization",
+    "no host range prediction"
+  ],
+  "scope": "safe-abstract-toy-sweep-profile-scaffold-only",
+  "seed_parameter_names": [
+    "graph_seed",
+    "packet_seed",
+    "transition_seed",
+    "symbolic_drift_seed"
+  ],
+  "source_plan": "engine_redesign_implementation_plan_v1",
+  "validation_claim_made": false
+}
