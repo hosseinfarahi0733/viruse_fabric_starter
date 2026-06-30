@@ -1,0 +1,184 @@
+{
+  "artifact": "vf_h2_structural_witness_gap_resolution_analysis_v1",
+  "base_structural_witness_gap_resolution_plan_commit": "6ae5d49",
+  "biological_validation_claim_made": false,
+  "blocking_gap_for_next_restricted_proof_plan_count": 0,
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Biological validation claim count": 0,
+    "Blocking gap for next restricted proof plan count": 0,
+    "Complete manuscript created count": 0,
+    "Deferred generalization item count": 2,
+    "Empirical validation count": 0,
+    "Full theory proved count": 0,
+    "Gap resolution finding count": 2,
+    "Generalized order domain theorem ready count": 0,
+    "Immune evasion optimization count": 0,
+    "Literature validation claim count": 0,
+    "New theorem proved count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Original structural witness blocking gap count": 2,
+    "Proof plan readiness for TTP VF-H2 004 R count": 1,
+    "Proof readiness check count": 4,
+    "Proof readiness check passed count": 4,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Resolved as explicit sufficient condition count": 2,
+    "Restricted structural witness condition count": 7,
+    "Structural witness gap resolution analysis executed count": 1,
+    "Submission ready manuscript created count": 0,
+    "TTP VF-H2 004 R proved count": 0,
+    "TTP VF-H2 004 proved count": 0,
+    "Theory validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "deferred_generalization_item_count": 2,
+  "deferred_items": [
+    {
+      "deferred_id": "DEFER-SW-001",
+      "description": "Generalization beyond coordinatewise order remains deferred.",
+      "reason": "The next proof attempt should avoid broad partial-order claims until the restricted theorem is audited."
+    },
+    {
+      "deferred_id": "DEFER-SW-002",
+      "description": "Deriving strict activation margin from still more primitive properties remains deferred.",
+      "reason": "The current analysis treats strict margin as an explicit sufficient assumption, not as a derived fact."
+    }
+  ],
+  "existing_conditional_toy_theorem_preserved": true,
+  "external_validation_claim_made": false,
+  "full_viruse_fabric_theory_proved": false,
+  "gap_resolution_finding_count": 2,
+  "gap_resolution_findings": [
+    {
+      "gap_id": "TGAP-VF-H2-001",
+      "name": "strict activation margin",
+      "prior_status": "blocking_for_structural_witness_theorem",
+      "resolution_mode": "resolved_as_explicit_sufficient_condition",
+      "resolution_statement": "Require a primitive strict activation margin: at the witness pair, the activation map is strictly increasing over the ledger-readout interval created by the persistent ledger advantage.",
+      "status_after_analysis": "ready_for_restricted_proof_plan",
+      "why_this_is_not_circular": "The condition is stated on the activation map and ledger-readout interval, not on the final ledger_effect_size conclusion."
+    },
+    {
+      "gap_id": "TGAP-VF-H2-002",
+      "name": "coordinatewise order restriction",
+      "prior_status": "blocking_for_generalized_ordered_domain_claim",
+      "resolution_mode": "resolved_by_scope_restriction",
+      "resolution_statement": "Restrict the next theorem to finite real-valued toy states in [0,1]^V with coordinatewise order.",
+      "status_after_analysis": "ready_for_restricted_proof_plan",
+      "why_this_is_not_circular": "The order is fixed before the proof and does not depend on the witness conclusion."
+    }
+  ],
+  "generalized_order_domain_theorem_ready": false,
+  "hypothesis": "VF-H2",
+  "independent_empirical_validation_claim_made": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "new_theorem_proved": false,
+  "next_allowed_action": "draft_vf_h2_structural_witness_resolved_proof_plan_no_claim_validation",
+  "original_structural_witness_blocking_gap_count": 2,
+  "passed": true,
+  "planned_next_theorem": {
+    "name": "restricted structural witness strict positivity theorem",
+    "planned_statement": "In the finite coordinatewise toy domain, if the restricted structural witness conditions RSW-VF-H2-001 through RSW-VF-H2-007 hold, then ledger_effect_size > 0.",
+    "status": "ready_for_proof_plan_not_proved",
+    "theorem_id": "TTP-VF-H2-004-R"
+  },
+  "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+  "proof_plan_readiness_for_ttp_vf_h2_004_r": true,
+  "proof_readiness_check_count": 4,
+  "proof_readiness_check_passed_count": 4,
+  "proof_readiness_checks": [
+    {
+      "check_id": "CHECK-SW-001",
+      "description": "The strict margin condition is now a primitive assumption rather than a conclusion.",
+      "passed": true
+    },
+    {
+      "check_id": "CHECK-SW-002",
+      "description": "The next proof is restricted to coordinatewise order, avoiding unspecified partial-order generalization.",
+      "passed": true
+    },
+    {
+      "check_id": "CHECK-SW-003",
+      "description": "The theorem remains safe abstract toy only.",
+      "passed": true
+    },
+    {
+      "check_id": "CHECK-SW-004",
+      "description": "No new theorem is proved in the analysis.",
+      "passed": true
+    }
+  ],
+  "proved_tightened_result_count_preserved": 3,
+  "resolved_as_explicit_sufficient_condition_count": 2,
+  "restricted_structural_witness_condition_count": 7,
+  "restricted_structural_witness_conditions": [
+    {
+      "condition_id": "RSW-VF-H2-001",
+      "name": "finite coordinatewise state domain",
+      "statement": "V is finite and x_t is in [0,1]^V with coordinatewise order."
+    },
+    {
+      "condition_id": "RSW-VF-H2-002",
+      "name": "matched coupled processes",
+      "statement": "Memory-ledger and null processes share initial state, horizon, graph, and symbolic inputs."
+    },
+    {
+      "condition_id": "RSW-VF-H2-003",
+      "name": "decomposed monotonicity",
+      "statement": "Ledger increments are nonnegative, ledger readout is order-preserving, the state component is order-preserving, and activation is monotone in ledger readout."
+    },
+    {
+      "condition_id": "RSW-VF-H2-004",
+      "name": "strict local ledger readout advantage",
+      "statement": "At a reachable witness pair, persistent ledger readout is strictly greater than null ledger readout."
+    },
+    {
+      "condition_id": "RSW-VF-H2-005",
+      "name": "strict activation margin",
+      "statement": "At the witness pair, the activation map is strictly increasing over the relevant ledger-readout interval."
+    },
+    {
+      "condition_id": "RSW-VF-H2-006",
+      "name": "non-saturation",
+      "statement": "The witness coordinate is not clipped or saturated in a way that removes the strict activation difference."
+    },
+    {
+      "condition_id": "RSW-VF-H2-007",
+      "name": "positive aggregation witness weight",
+      "statement": "The witness node-time pair has strictly positive aggregation weight and all aggregation weights are nonnegative."
+    }
+  ],
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scope": "execute-vf-h2-structural-witness-gap-resolution-analysis-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_assumption_tightening_analysis_artifact": "vf_h2_toy_theorem_assumption_tightening_analysis_v1",
+  "source_gap_resolution_plan_artifact": "vf_h2_structural_witness_gap_resolution_plan_v1",
+  "source_tightened_proof_attempt_artifact": "vf_h2_toy_theorem_tightened_proof_attempt_v1",
+  "source_tightened_proof_attempt_audit_artifact": "vf_h2_toy_theorem_tightened_proof_attempt_v1_audit",
+  "structural_witness_gap_resolution_analysis_executed": true,
+  "submission_readiness_claim_made": false,
+  "submission_ready_manuscript_created": false,
+  "theory_validation_claim_made": false,
+  "ttp_vf_h2_004_proved": false,
+  "ttp_vf_h2_004_r_proved": false,
+  "vf_h2_empirically_validated": false
+}
