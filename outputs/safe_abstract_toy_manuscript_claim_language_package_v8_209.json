@@ -1,0 +1,163 @@
+{
+  "abstract_graphs_only": true,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "blocked_language_items": [
+    {
+      "blocked_language": "The manuscript is ready for submission.",
+      "id": "BL-01",
+      "reason": "Readiness approval and manuscript submission ready counters remain zero."
+    },
+    {
+      "blocked_language": "The method has been externally validated.",
+      "id": "BL-02",
+      "reason": "External validation count remains zero."
+    },
+    {
+      "blocked_language": "The framework has been independently experimentally verified.",
+      "id": "BL-03",
+      "reason": "Independent experiment count remains zero."
+    },
+    {
+      "blocked_language": "The method is formally proved.",
+      "id": "BL-04",
+      "reason": "Proof assistant verification count remains zero."
+    },
+    {
+      "blocked_language": "The manuscript includes new citation-supported claims.",
+      "id": "BL-05",
+      "reason": "New citation added count remains zero."
+    },
+    {
+      "blocked_language": "The manuscript patches have been applied.",
+      "id": "BL-06",
+      "reason": "Applied patch and manuscript mutation counters remain zero."
+    },
+    {
+      "blocked_language": "The framework models real pathogens or real receptors.",
+      "id": "BL-07",
+      "reason": "Real biological dataset, pathogen simulation, and receptor parameter counters remain zero."
+    },
+    {
+      "blocked_language": "The framework predicts host range or operational host targeting.",
+      "id": "BL-08",
+      "reason": "Operational host targeting and real host range prediction counters remain zero."
+    },
+    {
+      "blocked_language": "The framework optimizes infectivity or immune evasion.",
+      "id": "BL-09",
+      "reason": "Real-world infectivity optimization and immune evasion optimization counters remain zero."
+    }
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy manuscript claim language package count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy manuscript claim language package count": 1,
+    "Toy manuscript claim language package JSON export count": 1,
+    "Toy manuscript claim language package blocked language item count": 9,
+    "Toy manuscript claim language package boundary note count": 8,
+    "Toy manuscript claim language package direct execution count": 1,
+    "Toy manuscript claim language package execution count": 1,
+    "Toy manuscript claim language package non-readiness disclaimer count": 1,
+    "Toy manuscript claim language package safe language item count": 8,
+    "Toy manuscript claim language package source allowed claim count": 4,
+    "Toy manuscript claim language package source deferred claim count": 3,
+    "Toy manuscript claim language package source prohibited claim count": 2,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.209 artifact packages safe manuscript claim language only. It does not complete checklist items, execute checklist steps, grant application permission, apply manuscript patches, modify manuscript files, approve readiness, establish submission readiness, validate scientific claims, add citations, or add real-biological operational capability.",
+  "package_phrase": "safe_claim_language_packaged_but_no_readiness_or_real_bio_claims",
+  "passed": true,
+  "safe_abstract_toy_only": true,
+  "safe_language_items": [
+    {
+      "boundary_note": "Governance-only claim; no validation or readiness claim.",
+      "id": "SL-01",
+      "language": "This work establishes an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions and claim boundaries.",
+      "section": "contribution",
+      "use_context": "Contribution paragraph."
+    },
+    {
+      "boundary_note": "Explicitly excludes real-biological operation.",
+      "id": "SL-02",
+      "language": "The pipeline operates only on synthetic, abstract, unitless, non-operational toy artifacts.",
+      "section": "method_scope",
+      "use_context": "Scope or methods boundary paragraph."
+    },
+    {
+      "boundary_note": "Lineage description only; no patch application claim.",
+      "id": "SL-03",
+      "language": "The staged artifact lineage includes proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, and claim boundary registration.",
+      "section": "artifact_lineage",
+      "use_context": "Pipeline overview."
+    },
+    {
+      "boundary_note": "Safety-boundary claim only.",
+      "id": "SL-04",
+      "language": "Internal counters preserve zero application permission, zero applied patches, zero manuscript mutation, zero readiness approval, and zero real-biological operational capability.",
+      "section": "safety_controls",
+      "use_context": "Safety-control paragraph."
+    },
+    {
+      "boundary_note": "Claim classification is not submission approval.",
+      "id": "SL-05",
+      "language": "The claim boundary register separates currently allowed manuscript wording from deferred and prohibited claims.",
+      "section": "claim_governance",
+      "use_context": "Claim governance paragraph."
+    },
+    {
+      "boundary_note": "Keeps validation/proof/citation/readiness at zero.",
+      "id": "SL-06",
+      "language": "The current evidence base does not establish external validation, independent experimental support, proof assistant verification, citation-completed claims, or manuscript submission readiness.",
+      "section": "limitations",
+      "use_context": "Limitations paragraph."
+    },
+    {
+      "boundary_note": "Explicit prohibited real-biological claim exclusion.",
+      "id": "SL-07",
+      "language": "The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, or host-range prediction.",
+      "section": "non_claims",
+      "use_context": "Safety exclusion paragraph."
+    },
+    {
+      "boundary_note": "Future evidence requirement only.",
+      "id": "SL-08",
+      "language": "Future work must separately audit any safe manuscript patch application, citation integration, toy evaluation, proof pathway, or submission readiness upgrade before stronger claims are introduced.",
+      "section": "future_work",
+      "use_context": "Future work paragraph."
+    }
+  ],
+  "scope": "claim-language-package-only",
+  "source_json": "outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.json",
+  "source_markdown": "outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.md",
+  "source_markdown_character_count": 8288,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Manuscript Claim Language Package",
+  "unitless_parameters_only": true,
+  "version": "v8.209"
+}
