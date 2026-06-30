@@ -1,0 +1,181 @@
+{
+  "allowed_next_action": "write implementation plan only after this specification is reviewed",
+  "artifact": "engine_redesign_specification_v1",
+  "claim_expansion_allowed": false,
+  "code_change_requested": false,
+  "engine_modified": false,
+  "forbidden_directions": [
+    "Do not add real biological datasets.",
+    "Do not add real pathogen models.",
+    "Do not add receptor parameters.",
+    "Do not add operational host targeting.",
+    "Do not add wet-lab protocol.",
+    "Do not optimize infectivity.",
+    "Do not optimize immune evasion.",
+    "Do not predict host range.",
+    "Do not claim empirical validation.",
+    "Do not claim full theory validation.",
+    "Do not claim manuscript readiness.",
+    "Do not upgrade VF-H1, VF-H3, or VF-H4 without separate mechanism-specific evidence."
+  ],
+  "future_experiment_acceptance_criteria": {
+    "artifact_risk_requirement": "If all valid sweep cells produce identical signal deltas, the result must be flagged as artifact-risk moderate_to_high or worse.",
+    "falsification_requirement": "If positive signal rate falls below 50 percent or null-control leakage is nonzero, claim expansion must stop.",
+    "minimum_clean_sweep_requirement": "At least three safe abstract parameters can vary without violating the safe sweep profile.",
+    "null_control_requirement": "All null controls must have zero ledger_effect_size leakage.",
+    "positive_signal_requirement": "VF-H2 signal must remain positive in at least 80 percent of valid safe sweep cells."
+  },
+  "implementation_allowed_now": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "reason_for_redesign": {
+    "decision": "stop_claim_expansion_and_redesign_engine_before_more_toy_evidence",
+    "loop_guard_verdict": "stop_v9_loop",
+    "next_allowed_action": "engine_redesign_or_limited_technical_note",
+    "v9_7_result": {
+      "mean_signal_delta": 3.0,
+      "positive_signal_replicate_count": 6,
+      "primary_hypothesis": "VF-H2",
+      "primary_signal": "ledger_effect_size",
+      "reduced_core": "memory-ledger-driven toy dynamics",
+      "robustness_verdict": "robust_in_this_safe_toy_replicate_grid"
+    },
+    "v9_8_boundary": {
+      "accepted_candidate_count": 2,
+      "blocked_candidate_count": 4,
+      "candidate_parameter_count": 6,
+      "parameter_sweep_boundary_verdict": "parameter_sweep_partially_blocked_by_engine_spec_boundary"
+    },
+    "v9_8_null_control": {
+      "null_control_count": 4,
+      "null_control_leak_count": 0,
+      "null_control_verdict": "no_null_control_leak_detected"
+    }
+  },
+  "redesign_goal": "Allow a clean safe abstract toy parameter sweep without expanding claims or introducing real biological meaning.",
+  "required_engine_changes": [
+    {
+      "acceptance_criterion": "The engine can validate a declared safe sweep profile without treating every deviation from v9.1 defaults as invalid.",
+      "change": "Separate safe envelope validation from fixed v9.1 default-value validation.",
+      "change_id": "ENG-REDESIGN-001",
+      "reason": "v9.8 showed that some candidate parameter mutations are blocked by fixed toy-value constraints."
+    },
+    {
+      "acceptance_criterion": "Every varied parameter is listed with allowed values, safe abstract role, and forbidden biological interpretation.",
+      "change": "Introduce an explicit SafeToySweepProfile object or equivalent configuration layer.",
+      "change_id": "ENG-REDESIGN-002",
+      "reason": "Parameter sweep must be intentional, bounded, and auditable rather than ad hoc mutation of ToyEngineConfig."
+    },
+    {
+      "acceptance_criterion": "Identical-variant comparisons produce zero ledger_effect_size delta across declared null controls.",
+      "change": "Add null-control templates as first-class experiment checks.",
+      "change_id": "ENG-REDESIGN-003",
+      "reason": "v9.8 null controls were clean and must remain mandatory for future sweeps."
+    },
+    {
+      "acceptance_criterion": "Reports include distinct delta count, min, max, mean, standard deviation, and artifact-risk verdict.",
+      "change": "Add artifact-risk reporting for constant signals.",
+      "change_id": "ENG-REDESIGN-004",
+      "reason": "v9.7 produced a repeated 3.0 signal; a redesign must distinguish robust signal from mechanically fixed artifact."
+    },
+    {
+      "acceptance_criterion": "Reports preserve zero counts for real biological datasets, real pathogen simulation, receptor parameters, targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, and host range prediction.",
+      "change": "Keep real biological semantics explicitly prohibited in engine metadata and reports.",
+      "change_id": "ENG-REDESIGN-005",
+      "reason": "The project must remain safe abstract toy only."
+    }
+  ],
+  "safe_parameter_registry": [
+    {
+      "allowed_role": "abstract toy graph size only",
+      "must_not_mean": "host count, cell count, organism count, population count, or biological entity count",
+      "parameter": "node_count",
+      "proposed_safe_values": [
+        12,
+        16,
+        20,
+        24
+      ],
+      "requires_engine_support": true
+    },
+    {
+      "allowed_role": "abstract toy packet volume only",
+      "must_not_mean": "viral load, dose, infection count, particle count, or biological exposure",
+      "parameter": "packet_count",
+      "proposed_safe_values": [
+        24,
+        32,
+        40,
+        48
+      ],
+      "requires_engine_support": true
+    },
+    {
+      "allowed_role": "abstract discrete iteration count only",
+      "must_not_mean": "incubation time, replication cycle, disease progression time, or biological time",
+      "parameter": "step_count_limit",
+      "proposed_safe_values": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "requires_engine_support": true
+    },
+    {
+      "allowed_role": "abstract randomization seed only",
+      "must_not_mean": "environment, lineage, strain, host type, or empirical scenario",
+      "parameter": "graph_seed",
+      "proposed_safe_values": [
+        101,
+        111,
+        121,
+        131
+      ],
+      "requires_engine_support": false
+    },
+    {
+      "allowed_role": "abstract packet initialization seed only",
+      "must_not_mean": "exposure route, sample source, patient group, or biological sampling",
+      "parameter": "packet_seed",
+      "proposed_safe_values": [
+        202,
+        212,
+        222,
+        232
+      ],
+      "requires_engine_support": false
+    },
+    {
+      "allowed_role": "abstract transition randomization seed only",
+      "must_not_mean": "mutation process, transmission process, replication mechanism, or biological pathway",
+      "parameter": "transition_seed",
+      "proposed_safe_values": [
+        303,
+        313,
+        323,
+        333
+      ],
+      "requires_engine_support": false
+    },
+    {
+      "allowed_role": "abstract symbolic drift randomization seed only",
+      "must_not_mean": "immune evasion, antigenic drift, host adaptation, or biological mutation",
+      "parameter": "symbolic_drift_seed",
+      "proposed_safe_values": [
+        404,
+        414,
+        424,
+        434
+      ],
+      "requires_engine_support": false
+    }
+  ],
+  "source_state": {
+    "base_master_head": "f356e2f",
+    "last_official_tag": "v9.8.0",
+    "last_official_tag_commit": "6773907",
+    "technical_note_commit": "f356e2f"
+  },
+  "v9_loop_status": "stopped"
+}
