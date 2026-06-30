@@ -34248,3 +34248,141 @@ Safe abstract toy replicate grid and signal robustness check only. No validation
 
 Official v9.7 direction:
 NEXT_LINE_V9_7_SAFE_TOY_REPLICATE_GRID_AND_SIGNAL_ROBUSTNESS_CHECK_OK
+
+## v9.7.0 close note - Safe Toy Replicate Grid and Signal Robustness Check
+
+Status:
+Close-note prepared on the v9.7 feature branch after successful safe toy replicate grid and signal robustness check.
+
+Opening hash:
+7a7d3ee
+
+Main hash:
+5570146
+
+Main subject:
+Add Viruse Fabric safe toy replicate grid robustness check
+
+Scope:
+Safe-toy-replicate-grid-and-signal-robustness-check-only artifact. This milestone tests whether the v9.6 reduced toy core, memory-ledger-driven toy dynamics, remains visible across a safe abstract toy replicate grid.
+
+Plan phrase:
+v9_7_safe_toy_replicate_grid_and_signal_robustness_check_without_validation_or_readiness
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check.py
+- viruse_fabric/experiments/exp_907_viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check.py
+- outputs/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check_v9_7.md
+- outputs/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check_v9_7.json
+
+Validation:
+- V9_7_VIRUSE_FABRIC_SAFE_TOY_REPLICATE_GRID_AND_SIGNAL_ROBUSTNESS_CHECK_OK
+- VIRUSE_FABRIC_SAFE_TOY_REPLICATE_GRID_AND_SIGNAL_ROBUSTNESS_CHECK_DIRECT_CHECK_OK
+- V9_7_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Primary hypothesis under test:
+VF-H2
+
+Primary signal under test:
+ledger_effect_size
+
+Reduced toy core under test:
+memory-ledger-driven toy dynamics
+
+Replicate grid result:
+- Replicate count: 6
+- Positive signal replicate count: 6
+- Zero signal replicate count: 0
+- Negative signal replicate count: 0
+- Positive signal rate: 1.0
+- Mean signal delta: 3.0
+- Minimum signal delta: 3.0
+- Maximum signal delta: 3.0
+- Population standard deviation of signal delta: 0.0
+- Robustness verdict: robust_in_this_safe_toy_replicate_grid
+
+Interpretation:
+The VF-H2 memory-ledger signal is robust within this safe abstract toy replicate grid. This is a stronger toy-level result than the single v9.4 audit, because the ledger_effect_size signal remains positive in all six safe toy replicates. The result does not validate the full Viruse Fabric theory.
+
+Non-upgraded hypotheses:
+- VF-H1 remains not upgraded.
+- VF-H3 remains not upgraded.
+- VF-H4 remains not upgraded.
+
+Allowed robustness claims:
+- In this safe abstract toy replicate grid, the VF-H2 memory-ledger signal has verdict robust_in_this_safe_toy_replicate_grid.
+- The tested signal is ledger_effect_size in the VF-FULL versus VF-BASE-C comparison.
+- VF-H1, VF-H3, and VF-H4 are not upgraded by v9.7 and remain unresolved or unsupported.
+
+Forbidden robustness claims:
+- The full Viruse Fabric theory is robustly validated.
+- The memory-ledger signal is empirically validated.
+- VF-H1, VF-H3, or VF-H4 are now supported.
+- The project is manuscript submission ready.
+- The model applies to real biological systems.
+
+Counters:
+- V9 safe toy replicate robustness artifact count: 1
+- V9 safe toy replicate grid execution count: 1
+- V9 safe toy replicate grid config count: 6
+- V9 safe toy replicate run record count: 12
+- V9 VF-H2 robustness comparison record count: 6
+- V9 VF-H2 positive ledger signal replicate count: 6
+- V9 VF-H2 zero ledger signal replicate count: 0
+- V9 VF-H2 negative ledger signal replicate count: 0
+- V9 VF-H2 robustness verdict count: 1
+- V9 non-upgraded hypothesis record count: 3
+- V9 allowed robustness claims register count: 1
+- V9 allowed robustness claim count: 3
+- V9 forbidden robustness claims register count: 1
+- V9 forbidden robustness claim count: 5
+- V9 source primary supported hypothesis count: 1
+- V9 source unresolved or unsupported hypothesis count: 3
+- V9 source manuscript readiness denial count: 1
+- V9 source toy falsification audit record count: 4
+
+Counters intentionally preserved at zero:
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- V9 manuscript readiness approval count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Safe abstract toy replicate grid and signal robustness check only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Path correction:
+v9.7 strengthens only the reduced VF-H2 memory-ledger toy signal. It does not upgrade VF-H1, VF-H3, or VF-H4. It does not validate the full theory and does not move the project into manuscript readiness.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.7.0 on master, and final master verification passes.
