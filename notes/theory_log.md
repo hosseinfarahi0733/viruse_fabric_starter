@@ -33884,3 +33884,126 @@ v9.4 interprets v9.3 safe toy baseline comparison records as a formal toy result
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.4.0 on master, and final master verification passes.
+
+## v9.5.0 close note - Viruse Fabric Toy Evidence Limitation and Manuscript Readiness Gate
+
+Status:
+Close-note prepared on the v9.5 feature branch after successful toy evidence limitation analysis and manuscript readiness gate execution.
+
+Main hash:
+39a8e72
+
+Main subject:
+Add Viruse Fabric toy evidence limitation and manuscript readiness gate
+
+Scope:
+Toy-evidence-limitation-and-manuscript-readiness-gate-only artifact. This milestone analyzes the limits of the v9.4 toy evidence and executes a manuscript readiness gate. The gate decision is not_ready_for_manuscript_submission. The milestone records a readiness denial, not a readiness approval.
+
+Plan phrase:
+v9_5_toy_evidence_limitation_and_manuscript_readiness_gate_without_submission_approval
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate.py
+- viruse_fabric/experiments/exp_905_viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate.py
+- outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.md
+- outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.json
+
+Validation:
+- V9_5_VIRUSE_FABRIC_TOY_EVIDENCE_LIMITATION_AND_MANUSCRIPT_READINESS_GATE_OK
+- VIRUSE_FABRIC_TOY_EVIDENCE_LIMITATION_AND_MANUSCRIPT_READINESS_GATE_DIRECT_CHECK_OK
+- V9_5_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Gate decision:
+- Gate id: V9-5-MANUSCRIPT-READINESS-GATE-001
+- Gate scope: toy-evidence-limitation-and-readiness-denial-only
+- Gate decision: not_ready_for_manuscript_submission
+- Submission ready: False
+- Approval recorded: False
+- Theory validation claim made: False
+
+Readiness gate structure:
+- V9 toy evidence limitation and readiness gate artifact count: 1
+- V9 toy evidence limitation analysis count: 1
+- V9 manuscript readiness gate execution count: 1
+- V9 manuscript readiness denial count: 1
+- V9 manuscript readiness approval count: 0
+- V9 readiness hard requirement count: 7
+- V9 readiness hard requirement passed count: 2
+- V9 readiness hard requirement failed count: 5
+- V9 blocking evidence limitation count: 8
+
+Passed hard requirements:
+- formal_toy_results_available
+- toy_falsification_audit_available
+
+Failed hard requirements:
+- external_validation_available
+- independent_experiment_available
+- citation_integration_available
+- manuscript_mutation_available
+- readiness_approval_available
+
+Blocking limitations:
+- V9-5-LIMIT-001: toy_only_evidence_boundary
+- V9-5-LIMIT-002: no_external_validation
+- V9-5-LIMIT-003: no_independent_experiment
+- V9-5-LIMIT-004: no_proof_assistant_verification
+- V9-5-LIMIT-005: no_citation_integration
+- V9-5-LIMIT-006: no_manuscript_mutation
+- V9-5-LIMIT-007: no_real_biological_validation
+- V9-5-LIMIT-008: no_theory_validation_claim
+
+Source continuity:
+- V9 source formal results report count: 1
+- V9 source results report count: 1
+- V9 source falsification audit execution count: 1
+- V9 source toy result summary count: 1
+- V9 source toy falsification audit record count: 4
+- V9 source theory validation claim count: 0
+- V9 source manuscript readiness claim count: 0
+
+Counters intentionally preserved at zero:
+- V9 manuscript readiness approval count: 0
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Toy evidence limitation and manuscript readiness gate only. The project has safe toy evidence, a formal toy results report, and a toy falsification audit. However, manuscript submission readiness is denied because the project remains toy-only and lacks external validation, independent experiment, proof assistant verification, citation integration, manuscript mutation, and readiness approval. No validation claim is made. No manuscript readiness claim is made. No submission readiness approval is recorded. No external validation is performed. No independent experiment is performed. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Path correction:
+v9.5 is a gatekeeping milestone, not an evidence-upgrade milestone. It prevents v9 toy evidence from being overclaimed as manuscript readiness. It records that safe toy results and toy falsification audit are necessary but not sufficient for manuscript submission readiness.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.5.0 on master, and final master verification passes.
