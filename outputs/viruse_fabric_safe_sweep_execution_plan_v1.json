@@ -1,0 +1,175 @@
+{
+  "artifact": "safe_sweep_execution_plan_v1",
+  "claim_expansion_allowed": false,
+  "counters": {
+    "Bridge source count": 1,
+    "Claim expansion count": 0,
+    "Current engine default boundary route count": 1,
+    "Engine execution count": 0,
+    "Engine modification count": 0,
+    "Engine validation matrix record count": 64,
+    "Experiment execution count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "Matrix consistency check count": 1,
+    "New citation added count": 0,
+    "New milestone created count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Outside safe sweep profile route count": 0,
+    "Plan step count": 6,
+    "Preflight regression source count": 1,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe sweep execution plan artifact count": 1,
+    "Safe sweep profile total abstract grid cell count": 16384,
+    "Safe sweep profile validation route count": 63,
+    "Scaffold source count": 1,
+    "Stop rule count": 5,
+    "Sweep execution count": 0,
+    "Theory validation claim count": 0,
+    "Validation claim count": 0,
+    "Validation route source count": 1,
+    "Wet-lab protocol count": 0
+  },
+  "engine_executed": false,
+  "engine_modified": false,
+  "experiment_executed": false,
+  "external_validation_claim_made": false,
+  "independent_experiment_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "manuscript_submission_ready_claim_made": false,
+  "matrix_consistency": true,
+  "new_citation_added": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action": "implement_safe_sweep_execution_harness_on_separate_checked_commit_without_running_sweep",
+  "passed": true,
+  "plan_created": true,
+  "plan_steps": [
+    {
+      "action": "Require safe engine validation regression to pass before any future sweep execution.",
+      "allowed_now": true,
+      "execution_now": false,
+      "failure_response": "Stop before sweep harness execution.",
+      "step_id": "SAFE-SWEEP-PLAN-001",
+      "title": "Preflight regression lock"
+    },
+    {
+      "action": "Implement a future harness that consumes SafeToySweepProfile cells without adding biological semantics.",
+      "allowed_now": false,
+      "execution_now": false,
+      "failure_response": "Do not run sweep if harness modifies claim scope.",
+      "step_id": "SAFE-SWEEP-PLAN-002",
+      "title": "Execution harness isolation"
+    },
+    {
+      "action": "Pair every future safe sweep batch with null controls that must show zero leak.",
+      "allowed_now": false,
+      "execution_now": false,
+      "failure_response": "Stop claim expansion if any null-control leak is nonzero.",
+      "step_id": "SAFE-SWEEP-PLAN-003",
+      "title": "Null-control pairing"
+    },
+    {
+      "action": "Flag constant or mechanically identical signal deltas as artifact-risk before interpretation.",
+      "allowed_now": false,
+      "execution_now": false,
+      "failure_response": "Stop interpretation if artifact-risk is moderate_to_high or worse.",
+      "step_id": "SAFE-SWEEP-PLAN-004",
+      "title": "Artifact-risk detection"
+    },
+    {
+      "action": "Treat future sweep output as internal toy evidence only, not theory validation.",
+      "allowed_now": false,
+      "execution_now": false,
+      "failure_response": "Block any manuscript readiness or validation language.",
+      "step_id": "SAFE-SWEEP-PLAN-005",
+      "title": "No validation claim gate"
+    },
+    {
+      "action": "After a future safe sweep, produce a decision gate before any next experiment.",
+      "allowed_now": false,
+      "execution_now": false,
+      "failure_response": "Stop if safety counters or route counters deviate from plan.",
+      "step_id": "SAFE-SWEEP-PLAN-006",
+      "title": "Post-run decision gate"
+    }
+  ],
+  "planned_future_scope": {
+    "biological_semantics_allowed": false,
+    "claim_expansion_allowed": false,
+    "execution_allowed_by_this_artifact": false,
+    "full_grid_execution_planned_cells": 64,
+    "future_execution_may_use_engine": true,
+    "interpretation_boundary": "internal_toy_evidence_only",
+    "safe_abstract_toy_only": true
+  },
+  "required_markers": [
+    "safe-sweep-execution-plan-only-no-sweep-execution",
+    "plan only",
+    "no sweep execution",
+    "engine not modified",
+    "engine not executed",
+    "sweep not executed",
+    "claim expansion remains forbidden",
+    "No validation claim is made",
+    "No theory validation claim is made",
+    "No manuscript readiness claim is made",
+    "No manuscript submission readiness claim is made",
+    "No external validation claim is made",
+    "No independent experiment claim is made",
+    "No real biological datasets",
+    "no real pathogen models",
+    "no receptor parameters",
+    "no operational targeting",
+    "no wet-lab protocol",
+    "no infectivity optimization",
+    "no immune evasion optimization",
+    "no host range prediction"
+  ],
+  "scope": "safe-sweep-execution-plan-only-no-sweep-execution",
+  "source_artifacts": {
+    "bridge": "safe_profile_engine_validation_bridge_v1",
+    "regression": "safe_engine_validation_regression_v1",
+    "scaffold": "safe_engine_redesign_sweep_profile_scaffold_v1",
+    "validation_route": "safe_engine_validation_safe_sweep_profile_v1"
+  },
+  "stop_rules": [
+    {
+      "condition": "Any real biological dataset, pathogen model, receptor parameter, host targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction appears.",
+      "decision": "stop_immediately",
+      "rule_id": "STOP-001"
+    },
+    {
+      "condition": "Any future null-control leak count is nonzero.",
+      "decision": "stop_claim_expansion",
+      "rule_id": "STOP-002"
+    },
+    {
+      "condition": "Any future signal delta is constant across all valid cells without a mechanistic toy explanation.",
+      "decision": "artifact_risk_review_required",
+      "rule_id": "STOP-003"
+    },
+    {
+      "condition": "Any future result is framed as theory validation, external validation, independent validation, readiness approval, or submission readiness.",
+      "decision": "block_report",
+      "rule_id": "STOP-004"
+    },
+    {
+      "condition": "Any future sweep harness bypasses SafeToySweepProfile validation.",
+      "decision": "reject_harness",
+      "rule_id": "STOP-005"
+    }
+  ],
+  "sweep_executed": false,
+  "theory_validation_claim_made": false,
+  "validation_claim_made": false
+}
