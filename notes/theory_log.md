@@ -33287,3 +33287,130 @@ v8.228 completes the Batch 1 source intake and acceptance sequence at the method
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.228.0 on master, and final master verification passes.
+
+## v9.0.0 close note — Viruse Fabric Abstract Simulation Reframing
+
+Status:
+Close-note prepared on the v9.0 feature branch after successful abstract simulation reframing generation.
+
+Main hash:
+63595e6
+
+Main subject:
+Add Viruse Fabric abstract simulation reframing
+
+Scope:
+Abstract-simulation-reframing-only artifact. This milestone reframes Viruse Fabric as a formal, simulatable, falsifiable safe abstract toy theory without creating a simulation engine, running simulations, executing baseline comparison, reporting results, executing a falsification audit, validating the theory, modifying manuscript files, or adding citations.
+
+Plan phrase:
+v9_0_abstract_simulation_reframing_without_simulation_execution
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_abstract_simulation_reframing.py
+- viruse_fabric/experiments/exp_900_viruse_fabric_abstract_simulation_reframing.py
+- outputs/viruse_fabric_abstract_simulation_reframing_v9_0.md
+- outputs/viruse_fabric_abstract_simulation_reframing_v9_0.json
+
+Validation:
+- V9_0_VIRUSE_FABRIC_ABSTRACT_SIMULATION_REFRAMING_OK
+- VIRUSE_FABRIC_ABSTRACT_SIMULATION_REFRAMING_DIRECT_CHECK_OK
+- V9_0_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Theory reframing:
+Viruse Fabric is reframed as a safe abstract toy model over graph-based symbolic pattern packets, local and global constraints, causal-mass scoring, memory-ledger path dependence, and t1/t2/t3 time-layered state. This reframing defines a formal, simulatable, and falsifiable theory frame, but it does not yet create or run any simulation.
+
+Defined model structure:
+- Model object definition count: 8
+- State variable definition count: 12
+- Reframed hypothesis count: 4
+- Baseline plan count: 5
+- Metric proposal count: 8
+- Falsification rule count: 6
+- Safety boundary count: 10
+- Roadmap milestone count: 5
+- Abstract simulation reframing completed count: 1
+
+Hypotheses:
+- VF-H1: multi_layer_constraint_path_shift
+- VF-H2: memory_ledger_stability_effect
+- VF-H3: causal_mass_delayed_effect
+- VF-H4: three_time_layer_predictive_difference
+
+Baselines:
+- VF-BASE-A: random_walk_baseline
+- VF-BASE-B: local_constraint_only_baseline
+- VF-BASE-C: no_memory_baseline
+- VF-BASE-D: single_time_layer_baseline
+- VF-BASE-E: no_causal_mass_baseline
+
+Deferred to later v9 milestones:
+- v9.1: Abstract Simulation Specification
+- v9.2: Minimal Safe Toy Simulation Engine
+- v9.3: Baseline Comparison
+- v9.4: Results and Falsification Audit
+
+Counters intentionally preserved at zero:
+- V9 detailed simulation specification completed count: 0
+- V9 simulation engine implementation count: 0
+- V9 simulation execution count: 0
+- V9 baseline comparison execution count: 0
+- V9 results report count: 0
+- V9 falsification audit execution count: 0
+- V9 theory validation claim count: 0
+- Toy simulation engine created count: 0
+- Toy simulation actual run count: 0
+- Toy simulation result count: 0
+- Toy baseline comparison execution count: 0
+- Toy falsification audit execution count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Prior v8 source-pool continuity:
+- Toy citation batch 1 accepted source count: 7
+- Toy citation batch 1 accepted methodological source pool count: 7
+- Toy citation batch 1 accepted not citation-ready source count: 7
+- Toy citation batch 1 citation-ready source count: 0
+- Toy citation batch 1 actual citation count: 0
+- Toy citation batch 1 citation integration completion count: 0
+- Toy citation batch 1 manuscript mutation count: 0
+
+Boundary:
+Abstract simulation reframing only. No simulation engine is created. No simulation run is performed. No baseline comparison is executed. No results are reported. No falsification audit is executed. No validation claim is made. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.
+
+Path correction:
+v9.0 begins the post-v8 pivot from ledger-only process work to simulation-backed theory work. It does not prove or validate the theory. It only converts the theory into a formal abstract toy frame with explicit hypotheses, baselines, metrics, and falsification rules. Validation remains impossible until later official milestones implement and run the safe toy simulation engine and compare against baselines.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.0.0 on master, and final master verification passes.
