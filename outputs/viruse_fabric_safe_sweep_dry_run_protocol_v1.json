@@ -1,0 +1,189 @@
+{
+  "artifact": "safe_sweep_dry_run_protocol_v1",
+  "claim_expansion_allowed": false,
+  "counters": {
+    "Claim expansion count": 0,
+    "Dry-run execution count": 0,
+    "Engine execution count": 0,
+    "Engine modification count": 0,
+    "Experiment execution count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New milestone created count": 0,
+    "Null-control execution count": 0,
+    "Observed null-control leak count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Phase non-execution consistency check count": 1,
+    "Planned future harness cell count": 64,
+    "Planned future null-control pair count": 256,
+    "Planned future null-control template count": 4,
+    "Protocol phase count": 5,
+    "Protocol stop rule count": 6,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe sweep dry-run protocol artifact count": 1,
+    "Source consistency check count": 1,
+    "Sweep execution count": 0,
+    "Theory validation claim count": 0,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "dry_run_boundary": {
+    "allowed_now": false,
+    "future_dry_run_may_build_manifest": true,
+    "future_dry_run_may_execute_engine": false,
+    "future_dry_run_may_execute_null_controls": false,
+    "future_dry_run_may_execute_sweep": false,
+    "future_dry_run_may_make_evidence_claim": false,
+    "interpretation_boundary": "protocol_metadata_only_not_evidence"
+  },
+  "dry_run_executed": false,
+  "engine_executed": false,
+  "engine_modified": false,
+  "experiment_executed": false,
+  "external_validation_claim_made": false,
+  "independent_experiment_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "manuscript_submission_ready_claim_made": false,
+  "new_citation_added": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action": "run_safe_sweep_dry_run_protocol_regression_without_engine_or_sweep_execution",
+  "null_controls_executed": false,
+  "observed_null_control_leak_count": 0,
+  "passed": true,
+  "phase_non_execution_consistency": true,
+  "protocol_created": true,
+  "protocol_phases": [
+    {
+      "allowed_now": true,
+      "executes_engine": false,
+      "executes_null_controls": false,
+      "executes_sweep": false,
+      "failure_response": "stop_before_any_dry_run",
+      "phase_id": "DRY-RUN-PROTOCOL-001",
+      "purpose": "Confirm plan, harness, null-control templates, and null-control regression are all present and passing.",
+      "title": "Artifact preflight"
+    },
+    {
+      "allowed_now": false,
+      "executes_engine": false,
+      "executes_null_controls": false,
+      "executes_sweep": false,
+      "failure_response": "reject_manifest_if_any_execution_flag_is_true",
+      "phase_id": "DRY-RUN-PROTOCOL-002",
+      "purpose": "Future dry-run may build a manifest of intended cells and null-control pairings without scoring or interpretation.",
+      "title": "Dry-run manifest construction"
+    },
+    {
+      "allowed_now": false,
+      "executes_engine": false,
+      "executes_null_controls": false,
+      "executes_sweep": false,
+      "failure_response": "stop_if_refusal_check_fails",
+      "phase_id": "DRY-RUN-PROTOCOL-003",
+      "purpose": "Future dry-run must prove engine, sweep, and null-control execution paths remain disabled.",
+      "title": "Execution refusal checks"
+    },
+    {
+      "allowed_now": false,
+      "executes_engine": false,
+      "executes_null_controls": false,
+      "executes_sweep": false,
+      "failure_response": "block_report_if_any_forbidden_counter_is_nonzero",
+      "phase_id": "DRY-RUN-PROTOCOL-004",
+      "purpose": "Future dry-run must keep all biological, validation, readiness, citation, and claim counters at zero.",
+      "title": "Safety counter audit"
+    },
+    {
+      "allowed_now": false,
+      "executes_engine": false,
+      "executes_null_controls": false,
+      "executes_sweep": false,
+      "failure_response": "stop_claim_expansion",
+      "phase_id": "DRY-RUN-PROTOCOL-005",
+      "purpose": "Future dry-run output must be classified as protocol/dry-run metadata only, not evidence.",
+      "title": "Post dry-run protocol gate"
+    }
+  ],
+  "required_markers": [
+    "safe-sweep-dry-run-protocol-only-no-engine-or-sweep-execution",
+    "dry-run protocol created",
+    "dry-run not executed",
+    "no dry-run execution",
+    "no null-control execution",
+    "no observed null-control leak",
+    "no engine execution",
+    "no sweep execution",
+    "engine not modified",
+    "engine not executed",
+    "sweep not executed",
+    "claim expansion remains forbidden",
+    "No validation claim is made",
+    "No theory validation claim is made",
+    "No manuscript readiness claim is made",
+    "No manuscript submission readiness claim is made",
+    "No external validation claim is made",
+    "No independent experiment claim is made",
+    "No real biological datasets",
+    "no real pathogen models",
+    "no receptor parameters",
+    "no operational targeting",
+    "no wet-lab protocol",
+    "no infectivity optimization",
+    "no immune evasion optimization",
+    "no host range prediction"
+  ],
+  "scope": "safe-sweep-dry-run-protocol-only-no-engine-or-sweep-execution",
+  "source_artifacts": {
+    "harness": "safe_sweep_execution_harness_v1",
+    "null_control_regression": "safe_null_control_template_regression_v1",
+    "null_control_templates": "safe_null_control_templates_v1",
+    "plan": "safe_sweep_execution_plan_v1"
+  },
+  "source_consistency": true,
+  "stop_rules": [
+    {
+      "condition": "Any engine execution flag becomes true.",
+      "decision": "stop_immediately",
+      "rule_id": "DRY-RUN-STOP-001"
+    },
+    {
+      "condition": "Any sweep execution flag becomes true.",
+      "decision": "stop_immediately",
+      "rule_id": "DRY-RUN-STOP-002"
+    },
+    {
+      "condition": "Any null-control execution flag becomes true.",
+      "decision": "stop_immediately",
+      "rule_id": "DRY-RUN-STOP-003"
+    },
+    {
+      "condition": "Any biological semantics, pathogen framing, receptor parameter, targeting, wet-lab, infectivity, immune evasion, or host range content appears.",
+      "decision": "reject_artifact",
+      "rule_id": "DRY-RUN-STOP-004"
+    },
+    {
+      "condition": "Any validation, external validation, independent experiment, manuscript readiness, submission readiness, readiness approval, or citation claim appears.",
+      "decision": "reject_artifact",
+      "rule_id": "DRY-RUN-STOP-005"
+    },
+    {
+      "condition": "Any future dry-run output is interpreted as evidence rather than protocol metadata.",
+      "decision": "stop_claim_expansion",
+      "rule_id": "DRY-RUN-STOP-006"
+    }
+  ],
+  "sweep_executed": false,
+  "theory_validation_claim_made": false,
+  "validation_claim_made": false
+}
