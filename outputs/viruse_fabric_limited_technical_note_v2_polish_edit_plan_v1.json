@@ -1,0 +1,200 @@
+{
+  "artifact": "limited_technical_note_v2_polish_edit_plan_v1",
+  "base_quality_review_commit": "f19d6fe",
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Claim expansion count": 0,
+    "Complete manuscript created count": 0,
+    "External validation count": 0,
+    "Formal proof count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent validation count": 0,
+    "Limited technical note v2 modified count": 0,
+    "Literature support claim count": 0,
+    "Literature validation claim count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "Mathematical core modified count": 0,
+    "New citation added count": 0,
+    "New reference added count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Planned polish action count": 5,
+    "Polish edit executed count": 0,
+    "Polish edit plan count": 1,
+    "Polished v2 artifact created count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Reference removed count": 0,
+    "Result count modified count": 0,
+    "Submission readiness claim count": 0,
+    "Submission ready manuscript created count": 0,
+    "Theorem proved count": 0,
+    "Theory validation claim count": 0,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "expected_post_edit_audit_required": true,
+  "hypothesis": "VF-H2",
+  "limited_technical_note_v2_modified": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "mathematical_core_modified": false,
+  "new_citations_added": false,
+  "new_references_added": false,
+  "next_allowed_action": "execute_limited_technical_note_v2_polish_edit_no_claim_validation",
+  "passed": true,
+  "planned_polish_action_count": 5,
+  "polish_actions": [
+    {
+      "action_id": "POLISH-V2-001",
+      "action_type": "style_and_repetition_reduction",
+      "must_not_do": [
+        "remove Status Boundary",
+        "remove Safety Boundary",
+        "remove Explicit Non-Claims",
+        "convert citations into support or validation"
+      ],
+      "must_preserve": [
+        "citations are background, terminology, conceptual positioning, or methodological framing only",
+        "citations do not validate VF-H2",
+        "citations do not validate Viruse Fabric theory",
+        "no external validation",
+        "no biological validation"
+      ],
+      "planned_change": "Reduce repeated boundary sentences inside related-work subsections by consolidating them into one concise related-work boundary paragraph.",
+      "source_advisory": "ADV-V2-001",
+      "target": "Related Work section"
+    },
+    {
+      "action_id": "POLISH-V2-002",
+      "action_type": "flow_improvement",
+      "must_not_do": [
+        "claim literature support",
+        "claim literature validation",
+        "claim manuscript readiness"
+      ],
+      "must_preserve": [
+        "safe abstract toy framing",
+        "limited technical note framing",
+        "no claim expansion"
+      ],
+      "planned_change": "Add one short transition sentence explaining that related work is contextual rather than evidentiary.",
+      "source_advisory": "ADV-V2-001",
+      "target": "Introduction and transition into Related Work"
+    },
+    {
+      "action_id": "POLISH-V2-003",
+      "action_type": "cohesion_improvement",
+      "must_not_do": [
+        "upgrade internal toy support into validation",
+        "remove limitations",
+        "weaken non-claims"
+      ],
+      "must_preserve": [
+        "strong internal safe toy support only",
+        "artifact-resistance and independent implementation-level replication are internal toy-risk reductions only",
+        "no formal proof",
+        "no external validation"
+      ],
+      "planned_change": "Make the bounded interpretation flow into limitations with less repetition while preserving all non-claims.",
+      "source_advisory": "ADV-V2-001",
+      "target": "Bounded Interpretation and Limitations"
+    },
+    {
+      "action_id": "POLISH-V2-004",
+      "action_type": "reference_formatting_plan",
+      "must_not_do": [
+        "add new references",
+        "remove verified references",
+        "insert rejected or held sources",
+        "claim target-journal compliance"
+      ],
+      "must_preserve": [
+        "11 accepted verified references",
+        "no rejected source",
+        "no held source",
+        "DOI or stable identifier where already recorded"
+      ],
+      "planned_change": "Normalize reference punctuation and consistency within the existing bounded reference list without adding, removing, or reclassifying sources.",
+      "source_advisory": "ADV-V2-002",
+      "target": "References"
+    },
+    {
+      "action_id": "POLISH-V2-005",
+      "action_type": "post_edit_audit_requirement",
+      "must_not_do": [
+        "merge polished v2 without audit",
+        "tag the polish edit as official readiness"
+      ],
+      "must_preserve": [
+        "positive claim hit count remains zero",
+        "forbidden real-bio hit count remains zero",
+        "citation count remains 11",
+        "reference count remains 11"
+      ],
+      "planned_change": "After any polish edit, rerun the block-aware v2 audit and quality review checks.",
+      "source_advisory": "quality_review_general",
+      "target": "Whole v2 document"
+    }
+  ],
+  "polish_edit_executed": false,
+  "polish_edit_plan_boundary": "plan_only_no_polish_execution_no_note_modification_no_validation_claim",
+  "polish_edit_plan_created": true,
+  "polish_edit_plan_text": "# Limited Technical Note v2 Polish Edit Plan v1\n\n## Status\n\nScope: draft-limited-technical-note-v2-polish-edit-plan-no-claim-validation\n\nThis artifact creates a polish edit plan only. It does not execute polish edits, does not modify limited technical note v2, does not add citations, does not add references, does not remove references, does not create a complete manuscript, does not claim manuscript readiness, does not claim submission readiness, and does not claim validation.\n\n## Source Basis\n\nThe plan is based on the limited technical note v2 quality review, which passed with zero failed axes and two minor advisory findings:\n\n- ADV-V2-001: style_and_repetition\n- ADV-V2-002: reference_formatting\n\n## Purpose\n\nThe purpose of the future polish edit is to improve readability and consistency while preserving the current scientific boundary.\n\nThe future edit may:\n\n- reduce repeated boundary wording,\n- improve section transitions,\n- improve cohesion between interpretation and limitations,\n- normalize reference formatting within the existing verified reference list.\n\nThe future edit may not:\n\n- add citations,\n- add references,\n- remove verified references,\n- insert rejected or held sources,\n- modify result counts,\n- change the mathematical core,\n- claim literature support,\n- claim literature validation,\n- claim theory validation,\n- claim external validation,\n- claim independent empirical validation,\n- claim biological validation,\n- claim manuscript readiness,\n- claim submission readiness.\n\n## Required Preservation Rules\n\nThe future polish edit must preserve:\n\n- limited technical note status,\n- safe abstract toy model only,\n- VF-H2 bounded hypothesis language,\n- `ledger_effect_size` as toy signal,\n- no-persistent-memory null control,\n- 8/8 limited simulation count,\n- 64/64 preregistered larger robustness count,\n- 6/6 ablation test count,\n- 4/4 artifact-resistance check count,\n- 64/64 independent implementation-level replication count,\n- 11 verified citation keys,\n- 11 verified references,\n- Status Boundary,\n- Safety Boundary,\n- Explicit Non-Claims.\n\n## Expected Post-Edit Audit\n\nThe expected post-edit audit must confirm:\n\n- expected positive claim hit count remains zero,\n- expected forbidden real-bio hit count remains zero,\n- expected citation count remains 11,\n- expected reference count remains 11,\n- expected result counts remain unchanged,\n- expected mathematical core remains unchanged,\n- expected no manuscript readiness claim,\n- expected no submission readiness claim,\n- expected no literature validation claim.\n\n## Safety Boundary\n\nSafe abstract toy model only. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.\n\n## Execution Rule\n\nThe next step may execute the polish edit in a new v2 polished artifact. It must not overwrite limited technical note v2 silently. The polish edit must be followed by a fresh audit.\n\n## Next Allowed Action\n\nexecute_limited_technical_note_v2_polish_edit_no_claim_validation\n",
+  "polished_v2_artifact_created": false,
+  "preserved_citation_count": 11,
+  "preserved_reference_count": 11,
+  "references_removed": false,
+  "result_counts_modified": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_polish_edit_plan": {
+    "claim_expansion": false,
+    "complete_manuscript_created": false,
+    "external_validation": false,
+    "formal_proof": false,
+    "independent_validation": false,
+    "limited_technical_note_v2_audited": true,
+    "limited_technical_note_v2_created": true,
+    "limited_technical_note_v2_modified": false,
+    "limited_technical_note_v2_quality_reviewed": true,
+    "literature_support_claim": false,
+    "literature_validation": false,
+    "manuscript_readiness": false,
+    "mathematical_core_modified": false,
+    "new_citations_added": false,
+    "new_references_added": false,
+    "polish_edit_executed": false,
+    "polish_edit_plan_created": true,
+    "polished_v2_artifact_created": false,
+    "real_evidence": false,
+    "references_removed": false,
+    "result_counts_modified": false,
+    "submission_readiness": false,
+    "submission_ready_manuscript_created": false,
+    "theorem_proved": false,
+    "theory_validation": false
+  },
+  "scope": "draft-limited-technical-note-v2-polish-edit-plan-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_advisory_finding_count": 2,
+  "source_limited_technical_note_v2_artifact": "limited_technical_note_v2",
+  "source_limited_technical_note_v2_audit_artifact": "limited_technical_note_v2_audit",
+  "source_quality_review_artifact": "limited_technical_note_v2_quality_review_v1",
+  "submission_ready_manuscript_created": false
+}
