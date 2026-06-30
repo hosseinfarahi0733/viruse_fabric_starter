@@ -1,0 +1,121 @@
+{
+  "artifact": "safe_engine_validation_safe_sweep_profile_v1",
+  "claim_expansion_allowed": false,
+  "counters": {
+    "Claim expansion count": 0,
+    "Current engine default boundary route count": 1,
+    "Engine execution count": 0,
+    "Engine modification count": 1,
+    "Engine validation route extension count": 1,
+    "Experiment execution count": 0,
+    "Immune evasion optimization count": 0,
+    "Manuscript readiness claim count": 0,
+    "Matrix record count": 64,
+    "New milestone created count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Outside safe sweep profile route count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe sweep profile validation route count": 63,
+    "Sweep execution count": 0,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "default_result": {
+    "claim_expansion_allowed": false,
+    "config_values": {
+      "node_count": 16,
+      "packet_count": 32,
+      "step_count_limit": 3
+    },
+    "current_engine_default_compatible": true,
+    "engine_execution_allowed_by_this_check": false,
+    "out_of_profile_values": {},
+    "real_biological_semantics_allowed": false,
+    "safe_abstract_toy_only": true,
+    "safe_sweep_profile_validation_passed": true,
+    "sweep_execution_allowed_by_this_check": false,
+    "validation_route": "current_engine_default_boundary"
+  },
+  "engine_executed": false,
+  "engine_validation_route_modified": true,
+  "experiment_executed": false,
+  "manuscript_readiness_claim_made": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action": "run_safe_validation_regression_without_sweep_execution",
+  "outside_profile_result": {
+    "claim_expansion_allowed": false,
+    "config_values": {
+      "node_count": 999,
+      "packet_count": 32,
+      "step_count_limit": 3
+    },
+    "current_engine_default_compatible": false,
+    "engine_execution_allowed_by_this_check": false,
+    "out_of_profile_values": {
+      "node_count": 999
+    },
+    "real_biological_semantics_allowed": false,
+    "safe_abstract_toy_only": true,
+    "safe_sweep_profile_validation_passed": false,
+    "sweep_execution_allowed_by_this_check": false,
+    "validation_route": "outside_safe_sweep_profile"
+  },
+  "passed": true,
+  "required_markers": [
+    "safe-sweep-profile-engine-validation-route-only",
+    "SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_V1",
+    "current_engine_default_boundary",
+    "safe_sweep_profile_validation",
+    "outside_safe_sweep_profile",
+    "engine validation route modified",
+    "engine not executed",
+    "sweep not executed",
+    "claim expansion remains forbidden",
+    "No validation claim is made",
+    "No manuscript readiness claim is made",
+    "No real biological datasets",
+    "no real pathogen models",
+    "no receptor parameters",
+    "no operational targeting",
+    "no wet-lab protocol",
+    "no infectivity optimization",
+    "no immune evasion optimization",
+    "no host range prediction"
+  ],
+  "route_version": "SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_V1",
+  "safe_sweep_result": {
+    "claim_expansion_allowed": false,
+    "config_values": {
+      "node_count": 12,
+      "packet_count": 24,
+      "step_count_limit": 2
+    },
+    "current_engine_default_compatible": false,
+    "engine_execution_allowed_by_this_check": false,
+    "out_of_profile_values": {},
+    "real_biological_semantics_allowed": false,
+    "safe_abstract_toy_only": true,
+    "safe_sweep_profile_validation_passed": true,
+    "sweep_execution_allowed_by_this_check": false,
+    "validation_route": "safe_sweep_profile_validation"
+  },
+  "scope": "safe-sweep-profile-engine-validation-route-only",
+  "sweep_executed": false,
+  "validation_claim_made": false,
+  "validation_matrix_summary": {
+    "engine_validated_field_count": 3,
+    "matrix_record_count": 64,
+    "route_counts": {
+      "current_engine_default_boundary": 1,
+      "outside_safe_sweep_profile": 0,
+      "safe_sweep_profile_validation": 63
+    },
+    "scope": "safe-sweep-profile-engine-validation-route-only"
+  }
+}

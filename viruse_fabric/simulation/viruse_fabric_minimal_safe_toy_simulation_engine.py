@@ -391,3 +391,194 @@ def build_engine_manifest_without_running() -> ToyEngineManifest:
     """Create an engine manifest without executing a simulation run."""
 
     return SafeAbstractToySimulationEngine().manifest()
+# === SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_V1 ===
+#
+# This extension separates the current fixed v9.1 default validation boundary
+# from a bounded safe abstract toy sweep-profile validation route.
+#
+# It does not execute the engine, does not run a sweep, does not add real
+# biological semantics, and does not expand claims.
+
+from typing import Any as _VFAny
+from typing import Dict as _VFDict
+from typing import Mapping as _VFMapping
+from typing import Optional as _VFOptional
+
+from viruse_fabric.simulation.viruse_fabric_safe_toy_sweep_profile import (
+    SafeToySweepProfile as _VFSafeToySweepProfile,
+    build_safe_toy_sweep_profile_v1 as _vf_build_safe_toy_sweep_profile_v1,
+)
+
+
+SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_VERSION = "SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_V1"
+
+SAFE_SWEEP_CURRENT_ENGINE_DEFAULTS: _VFMapping[str, int] = {
+    "node_count": 16,
+    "packet_count": 32,
+    "step_count_limit": 3,
+}
+
+SAFE_SWEEP_ENGINE_VALIDATED_FIELDS = (
+    "node_count",
+    "packet_count",
+    "step_count_limit",
+)
+
+
+def _vf_read_config_value(config: _VFAny, field_name: str) -> int:
+    """Read a config value from a mapping or object without executing engine logic."""
+
+    if isinstance(config, _VFMapping):
+        if field_name not in config:
+            raise ValueError(f"Missing safe toy config field: {field_name}")
+        value = config[field_name]
+    else:
+        if not hasattr(config, field_name):
+            raise ValueError(f"Missing safe toy config attribute: {field_name}")
+        value = getattr(config, field_name)
+
+    if not isinstance(value, int):
+        raise TypeError(f"{field_name} must be an integer in safe toy validation.")
+    if value <= 0:
+        raise ValueError(f"{field_name} must be positive in safe toy validation.")
+
+    return value
+
+
+def classify_config_against_safe_sweep_profile(
+    config: _VFAny,
+    profile: _VFOptional[_VFSafeToySweepProfile] = None,
+) -> _VFDict[str, _VFAny]:
+    """Classify a config against the current default boundary and safe sweep profile.
+
+    This function validates declarations only. It does not instantiate or execute
+    the simulation engine. It keeps claim expansion and biological semantics
+    disabled by construction.
+    """
+
+    active_profile = profile or _vf_build_safe_toy_sweep_profile_v1()
+    active_profile.validate()
+    value_map = active_profile.parameter_value_map()
+
+    config_values = {
+        field_name: _vf_read_config_value(config, field_name)
+        for field_name in SAFE_SWEEP_ENGINE_VALIDATED_FIELDS
+    }
+
+    out_of_profile_values = {
+        field_name: value
+        for field_name, value in config_values.items()
+        if value not in value_map[field_name]
+    }
+
+    if out_of_profile_values:
+        return {
+            "safe_sweep_profile_validation_passed": False,
+            "validation_route": "outside_safe_sweep_profile",
+            "config_values": config_values,
+            "out_of_profile_values": out_of_profile_values,
+            "current_engine_default_compatible": False,
+            "safe_abstract_toy_only": True,
+            "claim_expansion_allowed": False,
+            "real_biological_semantics_allowed": False,
+            "engine_execution_allowed_by_this_check": False,
+            "sweep_execution_allowed_by_this_check": False,
+        }
+
+    current_engine_default_compatible = all(
+        config_values[field_name] == SAFE_SWEEP_CURRENT_ENGINE_DEFAULTS[field_name]
+        for field_name in SAFE_SWEEP_ENGINE_VALIDATED_FIELDS
+    )
+
+    if current_engine_default_compatible:
+        validation_route = "current_engine_default_boundary"
+    else:
+        validation_route = "safe_sweep_profile_validation"
+
+    return {
+        "safe_sweep_profile_validation_passed": True,
+        "validation_route": validation_route,
+        "config_values": config_values,
+        "out_of_profile_values": {},
+        "current_engine_default_compatible": current_engine_default_compatible,
+        "safe_abstract_toy_only": True,
+        "claim_expansion_allowed": False,
+        "real_biological_semantics_allowed": False,
+        "engine_execution_allowed_by_this_check": False,
+        "sweep_execution_allowed_by_this_check": False,
+    }
+
+
+def validate_config_against_safe_sweep_profile(
+    config: _VFAny,
+    profile: _VFOptional[_VFSafeToySweepProfile] = None,
+) -> _VFDict[str, _VFAny]:
+    """Return a passed validation record or raise for outside-profile values."""
+
+    result = classify_config_against_safe_sweep_profile(config=config, profile=profile)
+
+    if not result["safe_sweep_profile_validation_passed"]:
+        raise ValueError(
+            "Config is outside SafeToySweepProfile bounds: "
+            f"{result['out_of_profile_values']}"
+        )
+
+    return result
+
+
+def build_safe_sweep_profile_validation_matrix(
+    profile: _VFOptional[_VFSafeToySweepProfile] = None,
+) -> _VFDict[str, _VFAny]:
+    """Build a declarative validation matrix for engine-validated fields only.
+
+    The matrix classifies the 4 x 4 x 4 engine-validated safe profile cells.
+    It does not execute the engine and does not execute a sweep.
+    """
+
+    active_profile = profile or _vf_build_safe_toy_sweep_profile_v1()
+    active_profile.validate()
+    value_map = active_profile.parameter_value_map()
+
+    records = []
+    route_counts = {
+        "current_engine_default_boundary": 0,
+        "safe_sweep_profile_validation": 0,
+        "outside_safe_sweep_profile": 0,
+    }
+
+    index = 0
+    for node_count in value_map["node_count"]:
+        for packet_count in value_map["packet_count"]:
+            for step_count_limit in value_map["step_count_limit"]:
+                index += 1
+                config = {
+                    "node_count": node_count,
+                    "packet_count": packet_count,
+                    "step_count_limit": step_count_limit,
+                }
+                result = classify_config_against_safe_sweep_profile(
+                    config=config,
+                    profile=active_profile,
+                )
+                route_counts[result["validation_route"]] += 1
+                records.append(
+                    {
+                        "record_id": f"SAFE-VALIDATION-CELL-{index:04d}",
+                        **result,
+                    }
+                )
+
+    return {
+        "route_version": SAFE_SWEEP_PROFILE_VALIDATION_ROUTE_VERSION,
+        "scope": "safe-sweep-profile-engine-validation-route-only",
+        "engine_modified_by_extension": True,
+        "engine_executed": False,
+        "sweep_executed": False,
+        "claim_expansion_allowed": False,
+        "real_biological_semantics_allowed": False,
+        "engine_validated_field_count": len(SAFE_SWEEP_ENGINE_VALIDATED_FIELDS),
+        "matrix_record_count": len(records),
+        "route_counts": route_counts,
+        "records": records,
+    }
+
