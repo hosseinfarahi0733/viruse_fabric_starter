@@ -1,0 +1,48 @@
+{
+  "artifact": "limited_technical_note_v1",
+  "claim_expansion_allowed": false,
+  "created_from": [
+    "v9.3 baseline comparison",
+    "v9.4 falsification audit",
+    "v9.5 readiness gate",
+    "v9.6 theory reduction",
+    "v9.7 replicate robustness",
+    "v9.8 decision gate"
+  ],
+  "forbidden_claims": [
+    "full_theory_validation",
+    "empirical_validation",
+    "real_biological_applicability",
+    "manuscript_submission_readiness",
+    "VF-H1_supported",
+    "VF-H3_supported",
+    "VF-H4_supported",
+    "clean_parameter_sweep_available"
+  ],
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "primary_signal": "ledger_effect_size",
+  "primary_surviving_toy_hypothesis": "VF-H2",
+  "reduced_toy_core": "memory-ledger-driven toy dynamics",
+  "safety_boundaries": {
+    "host_range_prediction_count": 0,
+    "immune_evasion_optimization_count": 0,
+    "infectivity_optimization_count": 0,
+    "operational_host_targeting_count": 0,
+    "real_biological_dataset_import_count": 0,
+    "real_pathogen_simulation_count": 0,
+    "real_receptor_parameter_count": 0,
+    "wet_lab_protocol_count": 0
+  },
+  "v9_7_mean_signal_delta": 3.0,
+  "v9_7_positive_signal_replicate_count": 6,
+  "v9_8_accepted_candidate_count": 2,
+  "v9_8_blocked_candidate_count": 4,
+  "v9_8_decision": "stop_claim_expansion_and_redesign_engine_before_more_toy_evidence",
+  "v9_8_loop_guard_verdict": "stop_v9_loop",
+  "v9_8_next_allowed_action": "engine_redesign_or_limited_technical_note",
+  "v9_8_null_control_leak_count": 0,
+  "v9_8_null_control_verdict": "no_null_control_leak_detected",
+  "v9_8_parameter_sweep_boundary_verdict": "parameter_sweep_partially_blocked_by_engine_spec_boundary",
+  "v9_loop_status": "stopped"
+}
