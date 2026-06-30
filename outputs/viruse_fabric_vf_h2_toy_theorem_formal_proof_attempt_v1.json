@@ -1,0 +1,250 @@
+{
+  "artifact": "vf_h2_toy_theorem_formal_proof_attempt_v1",
+  "assumption_count": 8,
+  "assumptions": [
+    {
+      "id": "A1",
+      "name": "finite bounded toy state",
+      "statement": "V is finite, T is finite, and x_t(v) is in [0,1] for every v and t."
+    },
+    {
+      "id": "A2",
+      "name": "matched initial state",
+      "statement": "The memory-ledger process and null process start from the same x_0."
+    },
+    {
+      "id": "A3",
+      "name": "matched symbolic inputs",
+      "statement": "Both processes receive the same symbolic input sequence u_0,...,u_{T-1}."
+    },
+    {
+      "id": "A4",
+      "name": "null ledger removal",
+      "statement": "The null process is identical except persistent ledger contribution is removed or reset at every step."
+    },
+    {
+      "id": "A5",
+      "name": "ledger monotonicity",
+      "statement": "The persistent ledger contribution is nonnegative under the chosen partial order."
+    },
+    {
+      "id": "A6",
+      "name": "transition monotonicity",
+      "statement": "For fixed non-ledger inputs, increasing ledger contribution cannot decrease the next toy state."
+    },
+    {
+      "id": "A7",
+      "name": "positive aggregation",
+      "statement": "The aggregation weights used in ledger_effect_size are nonnegative and normalized."
+    },
+    {
+      "id": "A8",
+      "name": "strict witness",
+      "statement": "There exists at least one node-time pair (v*,t*) with x^L_{t*}(v*) > x^0_{t*}(v*) and positive aggregation weight."
+    }
+  ],
+  "base_formal_proof_plan_commit": "ae46ca8",
+  "biological_validation_claim_made": false,
+  "blocking_proof_gap_count": 0,
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Assumption count": 8,
+    "Biological validation claim count": 0,
+    "Blocking proof gap count": 0,
+    "Claim expansion count": 0,
+    "Complete manuscript created count": 0,
+    "Conditional toy theorem proved count": 1,
+    "Definition count": 8,
+    "Empirical validation count": 0,
+    "External validation claim count": 0,
+    "Formal proof attempted count": 1,
+    "Formal proof completed count": 1,
+    "Full theory proved count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent empirical validation claim count": 0,
+    "Literature support claim count": 0,
+    "Literature validation claim count": 0,
+    "Manuscript readiness claim count": 0,
+    "Non-blocking proof gap count": 3,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Operational usefulness claim count": 0,
+    "Proved lemma count": 5,
+    "Proved theorem count": 3,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Real-world relevance claim count": 0,
+    "Submission readiness claim count": 0,
+    "Submission ready manuscript created count": 0,
+    "Theory validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "definition_count": 8,
+  "definitions": {
+    "A": "normalized nonnegative aggregation functional",
+    "Delta": "ledger_effect_size",
+    "F": "monotone transition map",
+    "L_t": "persistent toy memory ledger",
+    "T": "finite time horizon",
+    "V": "finite node set",
+    "u_t": "matched symbolic exogenous input",
+    "x_t": "toy state vector in [0,1]^V"
+  },
+  "external_validation_claim_made": false,
+  "formal_proof_attempted": true,
+  "formal_proof_completed": true,
+  "full_viruse_fabric_theory_proved": false,
+  "hypothesis": "VF-H2",
+  "independent_empirical_validation_claim_made": false,
+  "lemmas": [
+    {
+      "id": "L1",
+      "name": "coupled null construction",
+      "proof": "Define both recursions on the same probability-free finite toy schedule. The only difference is that the memory-ledger process carries L_t while the null process uses the reset or removed ledger contribution. Thus the trajectories are comparable step by step.",
+      "statement": "Under A2-A4, the memory-ledger and null trajectories can be coupled on the same finite graph, same initial state, same horizon, and same symbolic inputs.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "L2",
+      "name": "pointwise dominance",
+      "proof": "Use induction on t. At t=0, A2 gives equality. Assume x^L_t >= x^0_t. By A5 the ledger contribution in the memory-ledger process is not smaller than the null contribution. By A6 the transition map is monotone in state and ledger contribution, with matched non-ledger inputs from A3. Therefore x^L_{t+1} >= x^0_{t+1}. Finite induction gives the claim for all t <= T.",
+      "statement": "Under A1-A6, x^L_t(v) >= x^0_t(v) for every node v and time t.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "L3",
+      "name": "nonnegative aggregate effect",
+      "proof": "ledger_effect_size is the normalized aggregate of differences x^L_t(v)-x^0_t(v). By L2 every difference is nonnegative. By A7 every aggregation weight is nonnegative. A nonnegative weighted sum of nonnegative terms is nonnegative.",
+      "statement": "Under A1-A7 and L2, ledger_effect_size >= 0.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "L4",
+      "name": "strict witness positivity",
+      "proof": "By A8 at least one aggregated term has strict positive difference and positive weight. By L2 all other aggregated differences are nonnegative. Therefore the normalized weighted sum contains one strictly positive contribution and no negative contributions, so ledger_effect_size is strictly positive.",
+      "statement": "Under A1-A8 and L2, ledger_effect_size > 0.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "L5",
+      "name": "bounded normalized signal",
+      "proof": "Each state difference is bounded above by 1 and below by -1. Under L2 the relevant differences are in [0,1]. A7 gives normalized nonnegative weights summing to 1. A normalized weighted average of values in [0,1] lies in [0,1].",
+      "statement": "Under A1 and A7, 0 <= ledger_effect_size <= 1 in the normalized [0,1] toy setting.",
+      "status": "proved_for_toy_assumptions"
+    }
+  ],
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "next_allowed_action": "audit_vf_h2_toy_theorem_formal_proof_attempt_no_claim_validation",
+  "non_blocking_proof_gap_count": 3,
+  "operational_usefulness_claim_made": false,
+  "passed": true,
+  "primary_theorem_proved": "VF-H2-TOY-THEOREM-002",
+  "proof_boundary": "conditional_toy_theorem_only_no_empirical_or_theory_validation_claim",
+  "proof_gap_items": [
+    {
+      "description": "The witness condition is assumed rather than derived from primitive graph or ledger parameters.",
+      "future_resolution": "Derive a witness condition from explicit sufficient structural assumptions in a later theorem.",
+      "gap_id": "GAP-PROOF-001",
+      "status": "not_blocking_for_conditional_toy_theorem"
+    },
+    {
+      "description": "The monotonicity assumptions are sufficient but may be stronger than necessary.",
+      "future_resolution": "Search for weaker assumptions that still imply pointwise dominance or aggregate positivity.",
+      "gap_id": "GAP-PROOF-002",
+      "status": "not_blocking_for_conditional_toy_theorem"
+    },
+    {
+      "description": "The proof is mathematical prose rather than machine-checked Lean/Coq/Isabelle.",
+      "future_resolution": "Optionally translate the finite-order proof into a theorem-prover artifact.",
+      "gap_id": "GAP-PROOF-003",
+      "status": "not_blocking_for_conditional_toy_theorem"
+    }
+  ],
+  "proof_limitations": [
+    "The proof is conditional on monotonicity assumptions.",
+    "The proof is conditional on the strict witness assumption for strict positivity.",
+    "The proof applies only to the safe abstract toy model.",
+    "The proof does not validate VF-H2 beyond the stated toy theorem.",
+    "The proof does not validate the full Viruse Fabric theory.",
+    "The proof does not provide biological, empirical, external, or operational validation.",
+    "The proof does not create manuscript readiness or submission readiness."
+  ],
+  "proved_lemma_count": 5,
+  "proved_theorem_count": 3,
+  "real_world_relevance_claim_made": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_formal_proof_attempt": {
+    "biological_validation": false,
+    "claim_expansion": false,
+    "complete_manuscript_created": false,
+    "conditional_toy_theorem_proved": true,
+    "external_validation": false,
+    "formal_proof_attempted": true,
+    "formal_proof_completed": true,
+    "formal_proof_plan_created": true,
+    "full_viruse_fabric_theory_proved": false,
+    "independent_validation": false,
+    "literature_support_claim": false,
+    "literature_validation": false,
+    "manuscript_readiness": false,
+    "operational_usefulness": false,
+    "primary_theorem_proved": "VF-H2-TOY-THEOREM-002",
+    "real_world_relevance": false,
+    "submission_readiness": false,
+    "submission_ready_manuscript_created": false,
+    "theory_validation": false,
+    "toy_theorem_track_started": true,
+    "vf_h2_empirically_validated": false
+  },
+  "scope": "execute-vf-h2-toy-theorem-formal-proof-attempt-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_formal_proof_plan_artifact": "vf_h2_toy_theorem_formal_proof_plan_v1",
+  "source_formalization_artifact": "vf_h2_mathematical_core_formalization_v1",
+  "source_polished_v1_audit_artifact": "limited_technical_note_v2_polished_v1_audit",
+  "submission_readiness_claim_made": false,
+  "submission_ready_manuscript_created": false,
+  "theorem_proved": true,
+  "theorem_proved_scope": "conditional_safe_abstract_toy_theorem_only",
+  "theorems": [
+    {
+      "id": "VF-H2-TOY-THEOREM-001",
+      "name": "nonnegative ledger-effect theorem",
+      "proof": "Immediate from L1, L2, and L3.",
+      "statement": "Under A1-A7, ledger_effect_size >= 0.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "VF-H2-TOY-THEOREM-002",
+      "name": "strict positive ledger-effect theorem under witness condition",
+      "proof": "Immediate from L1, L2, L3, and L4. L2 gives pointwise nonnegative dominance, and A8 supplies a strictly positive aggregated witness. L4 converts this witness into strict positivity of ledger_effect_size.",
+      "statement": "Under A1-A8, ledger_effect_size > 0.",
+      "status": "proved_for_toy_assumptions"
+    },
+    {
+      "id": "VF-H2-TOY-THEOREM-003",
+      "name": "bounded normalized ledger-effect theorem",
+      "proof": "Strict positivity follows from VF-H2-TOY-THEOREM-002. The upper bound follows from L5.",
+      "statement": "Under A1-A8 in the normalized [0,1] setting, 0 < ledger_effect_size <= 1.",
+      "status": "proved_for_toy_assumptions"
+    }
+  ],
+  "theory_validation_claim_made": false,
+  "vf_h2_empirically_validated": false
+}
