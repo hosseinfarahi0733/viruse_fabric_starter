@@ -31839,3 +31839,124 @@ v8.218 continues the output-oriented path by improving narrative coherence, cont
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.218.0 on master, and final master verification passes.
+
+## v8.219.0 close note — Safe Abstract Toy Citation Slot Integration Plan
+
+Status: close-note prepared on the v8.219 feature branch after successful main artifact generation.
+
+Main hash:
+07c30bb
+
+Main subject:
+Add safe abstract toy citation slot integration plan
+
+Scope:
+Citation-slot-integration-plan-only artifact that creates unresolved citation slots without retrieving sources, adding citations, fabricating references, claiming verified sources, completing citation integration, or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_slot_integration_plan.py
+- viruse_fabric/experiments/exp_299_safe_abstract_toy_citation_slot_integration_plan.py
+- outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.md
+- outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.json
+
+Validation:
+- V8_219_SAFE_ABSTRACT_TOY_CITATION_SLOT_INTEGRATION_PLAN_OK
+- TOY_CITATION_SLOT_INTEGRATION_PLAN_DIRECT_CHECK_OK
+- V8_219_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Plan phrase:
+citation_slots_planned_but_no_citations_added
+
+Citation slot result:
+- Citation slot count: 12
+- Unresolved citation slot count: 12
+- Citation slot group count: 4
+- Actual citation count: 0
+- Verified source count: 0
+- Fabricated reference count: 0
+- Source retrieval count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- New citation added count: 0
+
+Source continuity:
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source P0 gap count: 6
+- Source evidence upgrade completed count: 0
+- Source evaluation design module count: 10
+- Source actual evaluation run count: 0
+- Source validation claim count: 0
+- Source coherence improvement item count: 10
+- Source coherence rewrite application count: 0
+
+Citation slot groups:
+- Governance and claim control
+- Toy-only scope and safety exclusions
+- Artifact lineage and evaluation design
+- Coherence, limitations, and future work
+
+Required safety and boundary phrases preserved:
+- Citation slot integration plan
+- unresolved placeholder only
+- No actual citation is added
+- No fabricated reference
+- No source is claimed as verified
+- Future source retrieval requires a separate official milestone
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+- Future work may only introduce stronger claims
+
+Counters preserved at zero:
+- Toy citation actual citation count: 0
+- Toy citation verified source count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation source retrieval count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Rescue notes:
+- The initial v8.219 validation required exact citation-boundary phrases inside report content.
+- The exact phrase No manuscript file is modified was inserted into citation slot content while preserving the same non-mutation boundary.
+
+Boundary:
+v8.219 creates a citation slot integration plan only. It does not retrieve sources, add actual citations, fabricate references, claim verified sources, complete citation integration, validate claims, execute evaluation, complete evidence upgrades, modify manuscript files, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.219 continues the output-oriented path by mapping citation needs to unresolved slots before any future source-retrieval or citation-integration milestone.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.219.0 on master, and final master verification passes.
