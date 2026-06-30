@@ -1,0 +1,592 @@
+{
+  "abstract_graphs_only": true,
+  "acceptance_schema": [
+    {
+      "boundary_note": "Schema only; no accepted source is recorded.",
+      "field_id": "ACCEPT-FIELD-01",
+      "field_name": "slot_id",
+      "required_value_rule": "Must map to exactly one unresolved CIT-SLOT identifier."
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "field_id": "ACCEPT-FIELD-02",
+      "field_name": "candidate_source_title",
+      "required_value_rule": "Must be captured only after a future retrieval milestone finds a real candidate."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_id": "ACCEPT-FIELD-03",
+      "field_name": "source_type",
+      "required_value_rule": "Must classify the future candidate as peer-reviewed article, book chapter, standards document, or other explicitly allowed source type."
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "field_id": "ACCEPT-FIELD-04",
+      "field_name": "evidence_role",
+      "required_value_rule": "Must state whether the source supports governance framing, toy scope, lineage, limitation framing, or evaluation design only."
+    },
+    {
+      "boundary_note": "does not validate scientific claims.",
+      "field_id": "ACCEPT-FIELD-05",
+      "field_name": "claim_boundary",
+      "required_value_rule": "Must state that the source does not validate project results, prove safety, approve readiness, or complete citation integration."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "field_id": "ACCEPT-FIELD-06",
+      "field_name": "safety_screen_result",
+      "required_value_rule": "Must be rejected if it contains real biological datasets, real pathogen simulation, receptor parameters, operational targeting, or actionable biosafety-risk instructions."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "field_id": "ACCEPT-FIELD-07",
+      "field_name": "verification_status",
+      "required_value_rule": "Must remain unverified until a separate retrieval and verification milestone records evidence."
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "field_id": "ACCEPT-FIELD-08",
+      "field_name": "integration_status",
+      "required_value_rule": "Must remain not integrated until a separate citation integration milestone."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "field_id": "ACCEPT-FIELD-09",
+      "field_name": "manuscript_mutation_status",
+      "required_value_rule": "Must remain no manuscript mutation in this milestone."
+    },
+    {
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "field_id": "ACCEPT-FIELD-10",
+      "field_name": "readiness_status",
+      "required_value_rule": "Must not claim submission readiness, external validation, proof, or independent experiment completion."
+    },
+    {
+      "boundary_note": "Unsafe or overclaiming candidates remain excluded.",
+      "field_id": "ACCEPT-FIELD-11",
+      "field_name": "rejection_if_unsafe",
+      "required_value_rule": "Must reject any candidate that violates safety exclusions or overclaim boundaries."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "field_id": "ACCEPT-FIELD-12",
+      "field_name": "future_authorization_reference",
+      "required_value_rule": "Must name the future official milestone that performs retrieval or integration."
+    }
+  ],
+  "accepted_sources_recorded": false,
+  "actual_citations_added": false,
+  "allowed_query_families": [
+    {
+      "allowed_family": "governance pipeline claim control safety-bounded reporting",
+      "boundary_note": "Allowed query family only; no search is run.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-01",
+      "slot_id": "CIT-SLOT-01"
+    },
+    {
+      "allowed_family": "research integrity overclaiming evidence-boundary reporting discipline",
+      "boundary_note": "Allowed query family only; No source retrieval is performed.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-02",
+      "slot_id": "CIT-SLOT-02"
+    },
+    {
+      "allowed_family": "toy model abstract model non-operational simulation boundary methodological scope",
+      "boundary_note": "No real biological datasets are searched, imported, or used.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-03",
+      "slot_id": "CIT-SLOT-03"
+    },
+    {
+      "allowed_family": "artifact lineage traceability staged workflow reproducible artifact tracking",
+      "boundary_note": "No proof or validation result is produced.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-04",
+      "slot_id": "CIT-SLOT-04"
+    },
+    {
+      "allowed_family": "safety case assurance argument invariant checking governance controls",
+      "boundary_note": "No readiness approval is produced.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-05",
+      "slot_id": "CIT-SLOT-05"
+    },
+    {
+      "allowed_family": "claim classification evidence grading responsible reporting validation language",
+      "boundary_note": "No deferred claim is upgraded.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-06",
+      "slot_id": "CIT-SLOT-06"
+    },
+    {
+      "allowed_family": "evidence gap register validation roadmap limitation tracking",
+      "boundary_note": "No evidence upgrade is completed.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-07",
+      "slot_id": "CIT-SLOT-07"
+    },
+    {
+      "allowed_family": "evaluation design toy metrics traceability metrics reproducibility checks",
+      "boundary_note": "No evaluation is executed and no results are reported.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-08",
+      "slot_id": "CIT-SLOT-08"
+    },
+    {
+      "allowed_family": "scientific writing coherence argumentation limitation framing reviewer narrative",
+      "boundary_note": "No manuscript file is modified.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-09",
+      "slot_id": "CIT-SLOT-09"
+    },
+    {
+      "allowed_family": "transparent limitations validation boundary non-readiness responsible evidence restraint",
+      "boundary_note": "No submission readiness claim is made.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-10",
+      "slot_id": "CIT-SLOT-10"
+    },
+    {
+      "allowed_family": "dual-use risk management non-operational research safety boundary exclusion language",
+      "boundary_note": "No wet-lab protocol or actionable biosafety-risk instruction is introduced.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-11",
+      "slot_id": "CIT-SLOT-11"
+    },
+    {
+      "allowed_family": "staged validation responsible claim escalation reproducible artifact package roadmap discipline",
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "execution_status": "not_executed",
+      "family_id": "ALLOW-12",
+      "slot_id": "CIT-SLOT-12"
+    }
+  ],
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "boundary_notes": [
+    "Retrieval readiness gate only. No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "Lineage support remains a future citation need, not evidence completion.",
+    "Zero counters are governance controls only.",
+    "Deferred claims remain deferred and prohibited claims remain prohibited.",
+    "No evidence upgrade is completed.",
+    "Toy evaluation is designed but not executed.",
+    "No manuscript file is modified.",
+    "Manuscript submission ready count remains zero.",
+    "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+    "Future work may only introduce stronger claims after separately audited milestones.",
+    "Allowed query family only; no search is run.",
+    "Allowed query family only; No source retrieval is performed.",
+    "No real biological datasets are searched, imported, or used.",
+    "No proof or validation result is produced.",
+    "No readiness approval is produced.",
+    "No deferred claim is upgraded.",
+    "No evidence upgrade is completed.",
+    "No evaluation is executed and no results are reported.",
+    "No manuscript file is modified.",
+    "No submission readiness claim is made.",
+    "No wet-lab protocol or actionable biosafety-risk instruction is introduced.",
+    "Future source retrieval requires a separate official milestone.",
+    "Schema only; no accepted source is recorded.",
+    "No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "No evidence upgrade is completed.",
+    "does not validate scientific claims.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "No source is claimed as verified.",
+    "does not complete citation integration.",
+    "No manuscript file is modified.",
+    "Manuscript submission ready count remains zero.",
+    "Unsafe or overclaiming candidates remain excluded.",
+    "Future source retrieval requires a separate official milestone.",
+    "No fabricated reference is introduced.",
+    "No real biological datasets and no real pathogen models are introduced.",
+    "No receptor parameters and no operational targeting are introduced.",
+    "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+    "Readiness approval count and external validation count remain zero.",
+    "does not complete citation integration.",
+    "No manuscript file is modified.",
+    "Toy evaluation actual run count remains zero.",
+    "No evidence upgrade is completed.",
+    "Future work may only introduce stronger claims after separately audited milestones.",
+    "This confirms artifact availability, not retrieval execution.",
+    "No actual citation is added.",
+    "Retrieval authorization count remains zero.",
+    "Verified source count remains zero.",
+    "No new citation is added.",
+    "No manuscript file is modified.",
+    "Toy evaluation actual run count remains zero.",
+    "Manuscript submission ready count remains zero.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "Future source retrieval requires a separate official milestone."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "citation_integration_completed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy citation retrieval readiness gate count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy citation retrieval readiness gate count": 1,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy citation retrieval acceptance schema field count": 12,
+    "Toy citation retrieval accepted source count": 0,
+    "Toy citation retrieval actual citation count": 0,
+    "Toy citation retrieval added to manuscript count": 0,
+    "Toy citation retrieval allowed query family count": 12,
+    "Toy citation retrieval authorization count": 0,
+    "Toy citation retrieval execution count": 0,
+    "Toy citation retrieval fabricated reference count": 0,
+    "Toy citation retrieval gate direct execution count": 1,
+    "Toy citation retrieval gate execution count": 1,
+    "Toy citation retrieval gate item count": 12,
+    "Toy citation retrieval integration completion count": 0,
+    "Toy citation retrieval preflight check count": 10,
+    "Toy citation retrieval readiness gate JSON export count": 1,
+    "Toy citation retrieval rejected source count": 0,
+    "Toy citation retrieval rejection reason count": 10,
+    "Toy citation retrieval source P0 gap count": 6,
+    "Toy citation retrieval source actual evaluation run count": 0,
+    "Toy citation retrieval source assembly section count": 9,
+    "Toy citation retrieval source coherence improvement item count": 10,
+    "Toy citation retrieval source coherence rewrite application count": 0,
+    "Toy citation retrieval source eligibility rule count": 12,
+    "Toy citation retrieval source evaluation design module count": 10,
+    "Toy citation retrieval source evidence upgrade completed count": 0,
+    "Toy citation retrieval source exclusion group count": 4,
+    "Toy citation retrieval source gap item count": 12,
+    "Toy citation retrieval source prior actual citation count": 0,
+    "Toy citation retrieval source prior added to manuscript count": 0,
+    "Toy citation retrieval source prior fabricated reference count": 0,
+    "Toy citation retrieval source prior integration completion count": 0,
+    "Toy citation retrieval source prior retrieval count": 0,
+    "Toy citation retrieval source prior verified source count": 0,
+    "Toy citation retrieval source query plan count": 12,
+    "Toy citation retrieval source retrieval count": 0,
+    "Toy citation retrieval source slot count": 12,
+    "Toy citation retrieval source slot group count": 4,
+    "Toy citation retrieval source unresolved slot count": 12,
+    "Toy citation retrieval source validation claim count": 0,
+    "Toy citation retrieval verified source count": 0,
+    "Toy citation source retrieval execution count": 0,
+    "Toy citation verified source count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "evaluation_execution_performed": false,
+  "evidence_upgrade_completed": false,
+  "fabricated_references_introduced": false,
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_rewrite_applied": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.221 artifact creates a citation retrieval readiness gate only. Retrieval readiness gate only. No retrieval authorization is granted. No source retrieval is performed. No actual citation is added. No fabricated reference is introduced. No source is claimed as verified. It does not complete citation integration, does not validate scientific claims, does not modify manuscript files, and No manuscript file is modified. No new citation is added. Future source retrieval requires a separate official milestone.",
+  "passed": true,
+  "plan_phrase": "citation_retrieval_readiness_gated_but_no_source_retrieval_performed",
+  "preflight_checks": [
+    {
+      "boundary_note": "This confirms artifact availability, not retrieval execution.",
+      "check_id": "PREFLIGHT-01",
+      "check_name": "source_eligibility_artifact_available",
+      "observed_status": "available",
+      "required_result": "v8.220 eligibility and query plan artifact must exist before retrieval planning advances."
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "check_id": "PREFLIGHT-02",
+      "check_name": "citation_slots_remain_unresolved",
+      "observed_status": "unresolved",
+      "required_result": "All citation slots remain unresolved placeholders before any retrieval milestone."
+    },
+    {
+      "boundary_note": "Retrieval authorization count remains zero.",
+      "check_id": "PREFLIGHT-03",
+      "check_name": "retrieval_authorization_absent",
+      "observed_status": "absent",
+      "required_result": "No retrieval authorization is granted in this milestone."
+    },
+    {
+      "boundary_note": "Verified source count remains zero.",
+      "check_id": "PREFLIGHT-04",
+      "check_name": "source_verification_absent",
+      "observed_status": "absent",
+      "required_result": "No source is claimed as verified."
+    },
+    {
+      "boundary_note": "No new citation is added.",
+      "check_id": "PREFLIGHT-05",
+      "check_name": "citation_integration_absent",
+      "observed_status": "absent",
+      "required_result": "No citation is integrated into any manuscript file."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "check_id": "PREFLIGHT-06",
+      "check_name": "manuscript_mutation_absent",
+      "observed_status": "absent",
+      "required_result": "No manuscript file is modified."
+    },
+    {
+      "boundary_note": "Toy evaluation actual run count remains zero.",
+      "check_id": "PREFLIGHT-07",
+      "check_name": "evaluation_execution_absent",
+      "observed_status": "absent",
+      "required_result": "No evaluation is executed."
+    },
+    {
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "check_id": "PREFLIGHT-08",
+      "check_name": "readiness_approval_absent",
+      "observed_status": "absent",
+      "required_result": "No manuscript submission readiness or approval is claimed."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "check_id": "PREFLIGHT-09",
+      "check_name": "real_biological_operational_content_absent",
+      "observed_status": "absent",
+      "required_result": "No real biological datasets, pathogen models, receptor parameters, operational targeting, or wet-lab protocols are introduced."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "check_id": "PREFLIGHT-10",
+      "check_name": "future_milestone_required",
+      "observed_status": "required",
+      "required_result": "Future source retrieval requires a separate official milestone."
+    }
+  ],
+  "rejected_sources_recorded": false,
+  "rejection_schema": [
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "reason_id": "REJECT-01",
+      "reason_name": "fabricated_or_unverifiable_reference",
+      "rejection_rule": "Reject imaginary, unverifiable, placeholder, or fabricated references."
+    },
+    {
+      "boundary_note": "No real biological datasets and no real pathogen models are introduced.",
+      "reason_id": "REJECT-02",
+      "reason_name": "real_biological_dataset_or_pathogen_model",
+      "rejection_rule": "Reject candidates that require or describe real biological datasets, real pathogen simulations, or operational biological modeling."
+    },
+    {
+      "boundary_note": "No receptor parameters and no operational targeting are introduced.",
+      "reason_id": "REJECT-03",
+      "reason_name": "receptor_parameter_or_operational_targeting",
+      "rejection_rule": "Reject candidates containing receptor parameters, operational targeting, host tropism mechanics, or host range prediction."
+    },
+    {
+      "boundary_note": "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+      "reason_id": "REJECT-04",
+      "reason_name": "wet_lab_or_actionable_biosafety_risk",
+      "rejection_rule": "Reject wet-lab protocols, actionable biosafety-risk instructions, infectivity optimization, immune evasion optimization, or operational host targeting."
+    },
+    {
+      "boundary_note": "Readiness approval count and external validation count remain zero.",
+      "reason_id": "REJECT-05",
+      "reason_name": "claim_validation_or_readiness_upgrade",
+      "rejection_rule": "Reject candidates used to claim validation, readiness, proof, external validation, or independent experiment completion."
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "reason_id": "REJECT-06",
+      "reason_name": "citation_integration_completion_claim",
+      "rejection_rule": "Reject candidates used to imply citation integration has already been completed."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "reason_id": "REJECT-07",
+      "reason_name": "manuscript_mutation_or_rewrite_permission",
+      "rejection_rule": "Reject candidates used as permission to modify manuscript files or apply rewrites in this milestone."
+    },
+    {
+      "boundary_note": "Toy evaluation actual run count remains zero.",
+      "reason_id": "REJECT-08",
+      "reason_name": "evaluation_result_or_performance_claim",
+      "rejection_rule": "Reject candidates used to imply executed evaluation, project performance results, metric scores, or validation outcomes."
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "reason_id": "REJECT-09",
+      "reason_name": "evidence_gap_closure_claim",
+      "rejection_rule": "Reject candidates used to imply scientific evidence gaps are closed."
+    },
+    {
+      "boundary_note": "Future work may only introduce stronger claims after separately audited milestones.",
+      "reason_id": "REJECT-10",
+      "reason_name": "future_work_overclaim",
+      "rejection_rule": "Reject candidates used to imply future work has already occurred."
+    }
+  ],
+  "retrieval_authorization_granted": false,
+  "retrieval_gate_items": [
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Retrieval readiness gate only. No source retrieval is performed.",
+      "fail_condition": "Reject sources that imply biological validation, operational capability, or submission readiness.",
+      "gate_area": "Governance pipeline positioning",
+      "gate_id": "GATE-01",
+      "pass_condition": "A retrieved candidate must support governance framing without claiming validation, proof, or readiness.",
+      "readiness_requirement": "Future retrieval may search only for governance-pipeline, claim-control, or safety-bounded reporting sources.",
+      "slot_id": "CIT-SLOT-01"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "No source is claimed as verified.",
+      "fail_condition": "Reject sources that only provide generic writing advice without evidence-boundary relevance.",
+      "gate_area": "Overclaim drift and reporting discipline",
+      "gate_id": "GATE-02",
+      "pass_condition": "A retrieved candidate must help separate draft, evidence, validation, and readiness language.",
+      "readiness_requirement": "Future retrieval may search for research integrity, overclaiming, evidence-boundary, or reporting-discipline sources.",
+      "slot_id": "CIT-SLOT-02"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "fail_condition": "Reject real biological datasets, real pathogen models, receptor-parameter sources, and operational targeting sources.",
+      "gate_area": "Synthetic abstract toy scope",
+      "gate_id": "GATE-03",
+      "pass_condition": "A retrieved candidate must support synthetic abstract toy-only scoping without importing real biological material.",
+      "readiness_requirement": "Future retrieval may search for toy-model, abstract-model, non-operational simulation-boundary, or scope-limited-method sources.",
+      "slot_id": "CIT-SLOT-03"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Lineage support remains a future citation need, not evidence completion.",
+      "fail_condition": "Reject sources that treat artifact tracking as proof, safety validation, performance evidence, or readiness approval.",
+      "gate_area": "Staged artifact lineage",
+      "gate_id": "GATE-04",
+      "pass_condition": "A retrieved candidate must support artifact traceability without converting lineage into validation.",
+      "readiness_requirement": "Future retrieval may search for staged workflows, artifact lineage, traceability, reproducible artifact tracking, or software process governance.",
+      "slot_id": "CIT-SLOT-04"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Zero counters are governance controls only.",
+      "fail_condition": "Reject sources that would let zero counters be described as proof, external validation, or readiness approval.",
+      "gate_area": "Zero-counter governance invariants",
+      "gate_id": "GATE-05",
+      "pass_condition": "A retrieved candidate must support explicit control logic without upgrading counters into proof.",
+      "readiness_requirement": "Future retrieval may search for assurance arguments, safety cases, invariant checks, governance controls, or process controls.",
+      "slot_id": "CIT-SLOT-05"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Deferred claims remain deferred and prohibited claims remain prohibited.",
+      "fail_condition": "Reject sources that collapse deferred claims into completed claims or turn prohibited claims into promises.",
+      "gate_area": "Claim governance",
+      "gate_id": "GATE-06",
+      "pass_condition": "A retrieved candidate must support allowed, deferred, and prohibited claim separation.",
+      "readiness_requirement": "Future retrieval may search for evidence grading, claim classification, responsible reporting, and validation-language discipline.",
+      "slot_id": "CIT-SLOT-06"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "No evidence upgrade is completed.",
+      "fail_condition": "Reject sources used to claim citation integration, proof, validation, or readiness is complete.",
+      "gate_area": "Scientific gap register",
+      "gate_id": "GATE-07",
+      "pass_condition": "A retrieved candidate must support evidence-gap mapping without implying that gaps are closed.",
+      "readiness_requirement": "Future retrieval may search for evidence mapping, gap registers, validation roadmaps, and transparent limitation tracking.",
+      "slot_id": "CIT-SLOT-07"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Toy evaluation is designed but not executed.",
+      "fail_condition": "Reject sources that would be used to imply executed evaluation, performance scores, or validation outcomes.",
+      "gate_area": "Toy evaluation design",
+      "gate_id": "GATE-08",
+      "pass_condition": "A retrieved candidate must support evaluation design without reporting project results.",
+      "readiness_requirement": "Future retrieval may search for evaluation design, toy metrics, traceability metrics, reproducibility checks, or non-operational evaluation planning.",
+      "slot_id": "CIT-SLOT-08"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "No manuscript file is modified.",
+      "fail_condition": "Reject sources that would be used as permission to apply a rewrite in this milestone.",
+      "gate_area": "Manuscript coherence and limitations",
+      "gate_id": "GATE-09",
+      "pass_condition": "A retrieved candidate must support narrative coherence or limitation transparency without authorizing manuscript mutation.",
+      "readiness_requirement": "Future retrieval may search for scientific writing coherence, argumentation, limitation framing, reviewer-facing narrative, or future-work sequencing.",
+      "slot_id": "CIT-SLOT-09"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "fail_condition": "Reject sources that soften or remove non-readiness, non-validation, non-proof, or non-evidence statements.",
+      "gate_area": "Limitation transparency and non-readiness",
+      "gate_id": "GATE-10",
+      "pass_condition": "A retrieved candidate must support transparent non-readiness and non-validation language.",
+      "readiness_requirement": "Future retrieval may search for limitation transparency, validation boundaries, non-readiness statements, or responsible evidence restraint.",
+      "slot_id": "CIT-SLOT-10"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Wet-lab protocol count and actionable biosafety-risk instruction count remain zero.",
+      "fail_condition": "Reject wet-lab protocols, actionable biosafety-risk instructions, real-world infectivity optimization, immune evasion optimization, host range prediction, and operational host targeting.",
+      "gate_area": "Safety exclusions and non-operational boundary",
+      "gate_id": "GATE-11",
+      "pass_condition": "A retrieved candidate must support explicit safety exclusions without operational content.",
+      "readiness_requirement": "Future retrieval may search only for safe research boundaries, dual-use risk management, non-operational framing, or exclusion-language sources.",
+      "slot_id": "CIT-SLOT-11"
+    },
+    {
+      "authorization_status": "not_authorized_for_retrieval",
+      "boundary_note": "Future work may only introduce stronger claims after separately audited milestones.",
+      "fail_condition": "Reject sources used to imply citation integration, evaluation execution, readiness, proof, or validation has already happened.",
+      "gate_area": "Future work and claim escalation",
+      "gate_id": "GATE-12",
+      "pass_condition": "A retrieved candidate must support future-work sequencing without implying the work has already occurred.",
+      "readiness_requirement": "Future retrieval may search for staged validation, responsible claim escalation, reproducible artifact packaging, or roadmap discipline.",
+      "slot_id": "CIT-SLOT-12"
+    }
+  ],
+  "retrieval_readiness_gate_completed": true,
+  "safe_abstract_toy_only": true,
+  "scope": "citation-retrieval-readiness-gate-only",
+  "source_assembly_json": "outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.json",
+  "source_citation_slot_json": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.json",
+  "source_citation_slot_markdown": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.md",
+  "source_citation_slot_markdown_character_count": 12908,
+  "source_coherence_json": "outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.json",
+  "source_eligibility_json": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.json",
+  "source_eligibility_markdown": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.md",
+  "source_eligibility_markdown_character_count": 16098,
+  "source_evaluation_design_json": "outputs/safe_abstract_toy_evaluation_design_plan_v8_217.json",
+  "source_gap_json": "outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.json",
+  "source_retrieval_performed": false,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Citation Retrieval Readiness Gate",
+  "unitless_parameters_only": true,
+  "validation_claim_made": false,
+  "verified_sources_claimed": false,
+  "version": "v8.221"
+}
