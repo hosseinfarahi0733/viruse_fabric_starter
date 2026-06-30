@@ -31212,3 +31212,77 @@ v8.211 plans safe claim language placement only. It grants no application permis
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.211.0 on master, and final master verification passes.
+
+## v8.212.0 close note — Safe Abstract Toy Manuscript Claim Language Placement Plan Audit
+
+Status: close-note prepared on the v8.212 feature branch after successful main artifact generation.
+
+Main hash:
+03e2d05
+
+Main subject:
+Add safe abstract toy manuscript claim language placement plan audit
+
+Scope:
+Claim-language-placement-plan-audit-only artifact that audits the v8.211 safe claim language placement plan.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_manuscript_claim_language_placement_plan_audit.py
+- viruse_fabric/experiments/exp_292_safe_abstract_toy_manuscript_claim_language_placement_plan_audit.py
+- outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_audit_v8_212.md
+- outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_audit_v8_212.json
+
+Validation:
+- V8_212_SAFE_ABSTRACT_TOY_MANUSCRIPT_CLAIM_LANGUAGE_PLACEMENT_PLAN_AUDIT_OK
+- TOY_MANUSCRIPT_CLAIM_LANGUAGE_PLACEMENT_PLAN_AUDIT_DIRECT_CHECK_OK
+- V8_212_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Audit phrase:
+safe_claim_language_placement_plan_audited_but_no_manuscript_patch_applied
+
+Audit result:
+- Audit item count: 10
+- Audit pass count: 10
+- Audit failure count: 0
+
+Audited placement families:
+- Source scope remains claim-language-placement-plan-only.
+- Placement item count remains exactly 9.
+- Intended manuscript sections are present.
+- Placement language remains governance, boundary, scope, safety, limitation, and future-work oriented.
+- Blocked expansion wording prevents validation, performance, biological realism, submission readiness, and applied-patch overclaims.
+- Source audit linkage remains successful.
+- Application, checklist, patch, mutation, and readiness counters remain zero.
+- Validation, experiment, proof, and citation counters remain zero.
+- Real-biological operational counters remain zero.
+- Audit remains non-executing and non-authorizing.
+
+Counters preserved at zero:
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.212 audits safe claim language placement planning only. It grants no application permission, performs no checklist execution, completes no checklist item, applies no manuscript patch, modifies no manuscript file, creates no readiness approval, validates no scientific claim, adds no proof, adds no citation, and adds no real-biological operational capability.
+
+Official status:
+Not official until this close note is committed, fast-forward merged to master, tagged as v8.212.0 on master, and final master verification passes.
