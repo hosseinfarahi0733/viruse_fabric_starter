@@ -1,0 +1,639 @@
+{
+  "abstract_graphs_only": true,
+  "acceptance_eligibility_assessments_recorded": true,
+  "acceptance_eligibility_controls": [
+    {
+      "boundary_note": "Acceptance eligibility gate only.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-01",
+      "control_name": "eligibility_gate_only",
+      "control_rule": "v8.227 records acceptance eligibility gate status only."
+    },
+    {
+      "boundary_note": "No accepted source is recorded.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-02",
+      "control_name": "no_acceptance_decision",
+      "control_rule": "Eligibility does not create source acceptance."
+    },
+    {
+      "boundary_note": "No rejected source is recorded.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-03",
+      "control_name": "no_rejection_decision",
+      "control_rule": "Eligibility does not create source rejection."
+    },
+    {
+      "boundary_note": "No source is marked citation-ready.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-04",
+      "control_name": "no_citation_ready_status",
+      "control_rule": "Eligibility does not mark a source citation-ready."
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-05",
+      "control_name": "no_actual_citation",
+      "control_rule": "Eligibility does not add actual citations."
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-06",
+      "control_name": "no_fabricated_reference",
+      "control_rule": "Eligibility does not introduce fabricated references."
+    },
+    {
+      "boundary_note": "does not complete citation integration",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-07",
+      "control_name": "no_citation_integration",
+      "control_rule": "Eligibility does not complete citation integration."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-08",
+      "control_name": "no_manuscript_mutation",
+      "control_rule": "Eligibility does not modify manuscript files."
+    },
+    {
+      "boundary_note": "does not validate scientific claims",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-09",
+      "control_name": "no_scientific_validation",
+      "control_rule": "Eligibility does not validate scientific claims."
+    },
+    {
+      "boundary_note": "No readiness approval is recorded.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-10",
+      "control_name": "no_readiness_approval",
+      "control_rule": "Eligibility does not approve submission readiness."
+    },
+    {
+      "boundary_note": "No new citation is added.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-11",
+      "control_name": "no_new_citation_added",
+      "control_rule": "Eligibility does not add any new citation."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting.",
+      "control_id": "B1-ACCEPT-ELIG-CTRL-12",
+      "control_name": "non_operational_scope",
+      "control_rule": "Eligibility remains methodological and non-operational."
+    }
+  ],
+  "acceptance_eligibility_criteria": [
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+      "criterion_name": "metadata_verification_present",
+      "criterion_rule": "The source must have a v8.226 metadata-only bibliographic verification decision.",
+      "expected_status": "bibliographic_metadata_verified"
+    },
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+      "criterion_name": "not_already_accepted",
+      "criterion_rule": "The source must not already have an acceptance decision.",
+      "expected_status": "no_acceptance_decision_recorded"
+    },
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+      "criterion_name": "not_already_rejected",
+      "criterion_rule": "The source must not already have a rejection decision.",
+      "expected_status": "no_rejection_decision_recorded"
+    },
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+      "criterion_name": "not_citation_ready",
+      "criterion_rule": "The source must not be marked citation-ready inside this gate.",
+      "expected_status": "not_citation_ready"
+    },
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+      "criterion_name": "not_integrated",
+      "criterion_rule": "The source must not be citation-integrated into any manuscript.",
+      "expected_status": "not_integrated"
+    },
+    {
+      "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+      "criterion_name": "non_operational_methodological_scope",
+      "criterion_rule": "The source must remain non-operational and methodological.",
+      "expected_status": "non_operational_methodological_source_only"
+    }
+  ],
+  "acceptance_eligibility_gate_completed": true,
+  "acceptance_eligibility_gate_records": [
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-001",
+      "candidate_title": "Causality: Models, Reasoning, and Inference",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-001",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-001",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-002",
+      "candidate_title": "Probabilistic Graphical Models: Principles and Techniques",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-002",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-002",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-003",
+      "candidate_title": "Networks: An Introduction",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-003",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-003",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-004",
+      "candidate_title": "Agent-based modeling: methods and techniques for simulating human systems",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-004",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-004",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-005",
+      "candidate_title": "Network Science",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-005",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-005",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-006",
+      "candidate_title": "Global Sensitivity Analysis: The Primer",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-006",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-006",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_decision_status": "no_acceptance_decision_recorded",
+      "candidate_id": "CAND-B1-007",
+      "candidate_title": "Tutorial on agent-based modelling and simulation",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-01",
+          "criterion_name": "metadata_verification_present",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-02",
+          "criterion_name": "not_already_accepted",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-03",
+          "criterion_name": "not_already_rejected",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-04",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-05",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        },
+        {
+          "criterion_boundary": "Criterion passes eligibility screening only and does not create acceptance.",
+          "criterion_id": "ACCEPT-ELIG-B1-CRIT-06",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_future_acceptance_review_only"
+        }
+      ],
+      "eligibility_assessment_status": "acceptance_eligibility_recorded_not_decided",
+      "eligibility_gate_status": "eligible_for_future_acceptance_review_not_accepted",
+      "gate_boundary_note": "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+      "gate_record_id": "ACCEPT-ELIG-GATE-B1-007",
+      "gate_scope": "acceptance_eligibility_only",
+      "manuscript_mutation_status": "no_mutation",
+      "metadata_verification_dependency": "bibliographic_metadata_verified",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-007",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    }
+  ],
+  "accepted_sources_recorded": false,
+  "actual_citations_added": false,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "boundary_notes": [
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility is recorded only for future review; source is not accepted, not rejected, not citation-ready, not integrated, and no manuscript mutation is permitted.",
+    "Acceptance eligibility gate only.",
+    "No accepted source is recorded.",
+    "No rejected source is recorded.",
+    "No source is marked citation-ready.",
+    "No actual citation is added.",
+    "No fabricated reference is introduced.",
+    "does not complete citation integration",
+    "No manuscript file is modified.",
+    "does not validate scientific claims",
+    "No readiness approval is recorded.",
+    "No new citation is added.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "citation_integration_completed": false,
+  "citation_ready_sources_recorded": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy citation retrieval batch 1 source acceptance eligibility gate count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy citation retrieval batch 1 source acceptance eligibility gate count": 1,
+    "Toy citation accepted source count": 0,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation batch 1 acceptance decision count": 0,
+    "Toy citation batch 1 acceptance eligibility assessment recorded count": 7,
+    "Toy citation batch 1 acceptance eligibility candidate coverage count": 7,
+    "Toy citation batch 1 acceptance eligibility control count": 12,
+    "Toy citation batch 1 acceptance eligibility criterion evaluation count": 42,
+    "Toy citation batch 1 acceptance eligibility criterion group count": 6,
+    "Toy citation batch 1 acceptance eligibility gate record count": 7,
+    "Toy citation batch 1 accepted source count": 0,
+    "Toy citation batch 1 actual citation count": 0,
+    "Toy citation batch 1 added to manuscript count": 0,
+    "Toy citation batch 1 citation integration completion count": 0,
+    "Toy citation batch 1 citation-ready source count": 0,
+    "Toy citation batch 1 eligible for future acceptance review count": 7,
+    "Toy citation batch 1 fabricated reference count": 0,
+    "Toy citation batch 1 manuscript mutation count": 0,
+    "Toy citation batch 1 prior accepted source count": 0,
+    "Toy citation batch 1 prior actual citation count": 0,
+    "Toy citation batch 1 prior bibliographic metadata verified source count": 7,
+    "Toy citation batch 1 prior candidate source row count": 7,
+    "Toy citation batch 1 prior citation-ready verified source count": 0,
+    "Toy citation batch 1 prior evidence locator claim count": 29,
+    "Toy citation batch 1 prior evidence record count": 7,
+    "Toy citation batch 1 prior full source verification claim count": 0,
+    "Toy citation batch 1 prior metadata verified not accepted source count": 7,
+    "Toy citation batch 1 prior metadata-only verification decision count": 7,
+    "Toy citation batch 1 prior rejected source count": 0,
+    "Toy citation batch 1 prior source verification decision record count": 7,
+    "Toy citation batch 1 rejected source count": 0,
+    "Toy citation batch 1 rejection decision count": 0,
+    "Toy citation batch 1 source acceptance eligibility gate JSON export count": 1,
+    "Toy citation batch 1 source candidate ledger field count": 16,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy citation rejected source count": 0,
+    "Toy citation verified source count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "eligibility_gate_candidate_coverage_complete": true,
+  "eligibility_gate_record_count": 7,
+  "eligible_for_future_acceptance_review_recorded": true,
+  "evaluation_execution_performed": false,
+  "evidence_upgrade_completed": false,
+  "fabricated_references_introduced": false,
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_rewrite_applied": false,
+  "new_citation_added": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.227 artifact records acceptance eligibility gate status only. Acceptance eligibility gate only. eligible for future acceptance review does not mean accepted. No accepted source is recorded. No rejected source is recorded. No source is marked citation-ready. No actual citation is added. No fabricated reference is introduced. It does not complete citation integration, does not validate scientific claims, does not modify manuscript files, and No manuscript file is modified. No readiness approval is recorded. No new citation is added. Future source acceptance, rejection, citation readiness, citation integration, and manuscript mutation require separate official milestones.",
+  "passed": true,
+  "plan_phrase": "batch_1_acceptance_eligibility_gate_recorded_but_not_accepted_rejected_cited_or_integrated",
+  "readiness_approval_recorded": false,
+  "rejected_sources_recorded": false,
+  "safe_abstract_toy_only": true,
+  "scope": "citation-retrieval-batch-1-source-acceptance-eligibility-gate-only",
+  "source_acceptance_performed": false,
+  "source_decision_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_decision_register_v8_226.json",
+  "source_decision_record_count": 7,
+  "source_evidence_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_evidence_packet_v8_225.json",
+  "source_intake_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.json",
+  "source_ledger_schema_json": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.json",
+  "source_rejection_performed": false,
+  "synthetic_project_context_only": true,
+  "title": "Safe Abstract Toy Citation Retrieval Batch 1 Source Acceptance Eligibility Gate",
+  "unitless_parameters_only": true,
+  "validation_claim_made": false,
+  "version": "v8.227"
+}
