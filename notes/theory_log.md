@@ -31535,3 +31535,102 @@ v8.215 deliberately shifts the project from repeated audit-only milestones towar
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.215.0 on master, and final master verification passes.
+
+## v8.216.0 close note — Safe Abstract Toy Scientific Gap and Evidence Upgrade Register
+
+Status: close-note prepared on the v8.216 feature branch after successful main artifact generation.
+
+Main hash:
+d8a52c3
+
+Main subject:
+Add safe abstract toy scientific gap and evidence upgrade register
+
+Scope:
+Scientific-gap-and-evidence-upgrade-register-only artifact that registers future evidence needs without completing evidence upgrades or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register.py
+- viruse_fabric/experiments/exp_296_safe_abstract_toy_scientific_gap_and_evidence_upgrade_register.py
+- outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.md
+- outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.json
+
+Validation:
+- V8_216_SAFE_ABSTRACT_TOY_SCIENTIFIC_GAP_AND_EVIDENCE_UPGRADE_REGISTER_OK
+- TOY_SCIENTIFIC_GAP_AND_EVIDENCE_UPGRADE_REGISTER_DIRECT_CHECK_OK
+- V8_216_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Register phrase:
+scientific_gaps_registered_but_no_evidence_upgrade_completed
+
+Gap register result:
+- Gap item count: 12
+- P0 count: 6
+- P1 count: 4
+- P2 count: 1
+- P3 count: 1
+- Evidence upgrade completed count: 0
+- Source assembly section count: 9
+- Source audit pass count: 11
+- Source audit failure count: 0
+
+Registered gap families:
+- Citation integration
+- Synthetic toy evaluation design
+- Toy evaluation metrics
+- Coherence and narrative
+- Contribution sharpening
+- Related work positioning
+- Limitations balance
+- Proof pathway
+- External validation
+- Submission readiness
+- Reproducibility package
+- Manuscript mutation gate
+
+Critical blocked claims:
+- citation-completed claims
+- evaluation-supported internal performance or utility claims
+- metric-supported claims
+- coherent manuscript candidate
+- strong contribution framing
+- literature-positioned manuscript
+- reviewer-balanced limitations section
+- formally proved claims
+- externally validated claims
+- submission-ready manuscript
+- reproducible artifact package claim
+- applied manuscript patch claims
+
+Counters preserved at zero:
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.216 registers gaps and future evidence-upgrade requirements only. It grants no application permission, performs no checklist execution, completes no checklist item, applies no manuscript patch, modifies no manuscript file, creates no readiness approval, validates no scientific claim, adds no proof, adds no citation, completes no evidence upgrade, and adds no real-biological operational capability.
+
+Path correction:
+v8.216 continues the output-oriented path after v8.215 by identifying the scientific work needed next instead of adding another audit-only layer.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.216.0 on master, and final master verification passes.
