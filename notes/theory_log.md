@@ -34386,3 +34386,48 @@ v9.7 strengthens only the reduced VF-H2 memory-ledger toy signal. It does not up
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.7.0 on master, and final master verification passes.
+
+## v9.8 opening note - Safe Toy Parameter Sweep and Null-Control Stress Test
+
+Status:
+v9.8 opened from official v9.7.0 on master.
+
+Purpose:
+v9.8 stress-tests the v9.7 result by running a safe abstract toy parameter sweep and null-control check around the reduced VF-H2 memory-ledger signal. The goal is not to celebrate the robust v9.7 result, but to test whether the constant ledger_effect_size signal is sensitive to toy configuration or suspiciously mechanical.
+
+Reason:
+v9.7 found that VF-H2 had a robust_in_this_safe_toy_replicate_grid verdict across six safe toy replicates. The signal was positive in all six replicates, with positive signal rate 1.0 and mean signal delta 3.0. However, every replicate produced the same signal delta of 3.0, with minimum 3.0, maximum 3.0, and population standard deviation 0.0. This pattern strengthens the toy-level robustness claim, but it also raises a methodological concern: the effect may be too mechanically fixed by the toy setup. v9.8 therefore tests the signal across parameter variants and null-control variants.
+
+Primary hypothesis under stress:
+VF-H2
+
+Primary signal under stress:
+ledger_effect_size
+
+Reduced toy core under stress:
+memory-ledger-driven toy dynamics
+
+Required v9.8 outputs:
+- safe toy parameter sweep specification
+- null-control specification
+- parameter sweep run table
+- null-control run table
+- VF-H2 signal sensitivity summary
+- null-control leakage summary
+- robustness stress verdict
+- artifact-risk assessment for the constant 3.0 signal
+- non-upgrade record for VF-H1, VF-H3, and VF-H4
+- allowed stress-test claims register
+- forbidden stress-test claims register
+
+Allowed direction:
+Run safe abstract toy parameter sweep and null-control stress tests only. Report whether the VF-H2 ledger_effect_size signal is stable, parameter-sensitive, null-control-leaky, or inconclusive within the safe toy setting.
+
+Disallowed direction:
+Do not validate the full theory. Do not claim empirical validation. Do not claim manuscript readiness. Do not approve submission readiness. Do not mutate manuscript files. Do not add citations. Do not introduce real biological datasets, real pathogen models, receptor parameters, operational targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction.
+
+Boundary:
+Safe abstract toy parameter sweep and null-control stress test only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No external validation is performed. No independent experiment is performed. No real biological or operational content is introduced.
+
+Official v9.8 direction:
+NEXT_LINE_V9_8_SAFE_TOY_PARAMETER_SWEEP_AND_NULL_CONTROL_STRESS_TEST_OK
