@@ -1,0 +1,237 @@
+{
+  "artifact": "vf_h2_toy_theorem_assumption_tightening_plan_v1",
+  "assumption_tightening_executed": false,
+  "assumption_tightening_plan_created": true,
+  "base_proof_attempt_audit_commit": "a714119",
+  "biological_validation_claim_made": false,
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "conditional_toy_theorem_proved": true,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Assumption tightening executed count": 0,
+    "Assumption tightening plan created count": 1,
+    "Biological validation claim count": 0,
+    "Claim expansion count": 0,
+    "Complete manuscript created count": 0,
+    "Conditional toy theorem proved count": 1,
+    "Dependency map count": 6,
+    "Empirical validation count": 0,
+    "External validation claim count": 0,
+    "Full theory proved count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent empirical validation claim count": 0,
+    "Literature support claim count": 0,
+    "Literature validation claim count": 0,
+    "Manuscript readiness claim count": 0,
+    "New theorem proved count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Operational usefulness claim count": 0,
+    "Planned output count": 5,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Real-world relevance claim count": 0,
+    "Submission readiness claim count": 0,
+    "Submission ready manuscript created count": 0,
+    "Theory validation claim count": 0,
+    "Tightening target count": 5,
+    "Wet-lab protocol count": 0
+  },
+  "dependency_map": [
+    {
+      "depends_on": [
+        "A2 matched initial state",
+        "A3 matched symbolic inputs",
+        "A4 null ledger removal"
+      ],
+      "lemma_or_theorem": "L1 coupled null construction"
+    },
+    {
+      "depends_on": [
+        "A1 finite bounded toy state",
+        "A2 matched initial state",
+        "A3 matched symbolic inputs",
+        "A5 ledger monotonicity",
+        "A6 transition monotonicity"
+      ],
+      "lemma_or_theorem": "L2 pointwise dominance"
+    },
+    {
+      "depends_on": [
+        "L2 pointwise dominance",
+        "A7 positive aggregation"
+      ],
+      "lemma_or_theorem": "L3 nonnegative aggregate effect"
+    },
+    {
+      "depends_on": [
+        "L2 pointwise dominance",
+        "A7 positive aggregation",
+        "A8 strict witness"
+      ],
+      "lemma_or_theorem": "L4 strict witness positivity"
+    },
+    {
+      "depends_on": [
+        "A1 finite bounded toy state",
+        "A7 normalized positive aggregation"
+      ],
+      "lemma_or_theorem": "L5 bounded normalized signal"
+    },
+    {
+      "depends_on": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "A8 strict witness"
+      ],
+      "lemma_or_theorem": "VF-H2-TOY-THEOREM-002"
+    }
+  ],
+  "dependency_map_count": 6,
+  "existing_conditional_toy_theorem_preserved": true,
+  "external_validation_claim_made": false,
+  "formal_proof_completed_for_conditional_toy_theorem": true,
+  "full_viruse_fabric_theory_proved": false,
+  "hypothesis": "VF-H2",
+  "independent_empirical_validation_claim_made": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "new_theorem_proved": false,
+  "next_allowed_action": "execute_vf_h2_toy_theorem_assumption_tightening_analysis_no_claim_validation",
+  "non_claims": [
+    "No new theorem is proved by this plan.",
+    "No full Viruse Fabric theory proof is claimed.",
+    "No empirical validation is claimed.",
+    "No literature validation is claimed.",
+    "No biological validation is claimed.",
+    "No external validation is claimed.",
+    "No manuscript readiness is claimed.",
+    "No submission readiness is claimed."
+  ],
+  "operational_usefulness_claim_made": false,
+  "passed": true,
+  "plan_boundary": "plan_only_no_new_theorem_no_validation_no_real_bio",
+  "planned_output_count": 5,
+  "planned_outputs": [
+    {
+      "description": "Map each strong assumption to weaker primitive conditions.",
+      "name": "primitive condition map",
+      "output_id": "OUT-TIGHTEN-001"
+    },
+    {
+      "description": "Draft theorem variants with weaker assumptions.",
+      "name": "tightened theorem candidates",
+      "output_id": "OUT-TIGHTEN-002"
+    },
+    {
+      "description": "Attempt to derive A8 from finite-time structural conditions.",
+      "name": "witness derivation attempt",
+      "output_id": "OUT-TIGHTEN-003"
+    },
+    {
+      "description": "Record which lemma depends on which assumption.",
+      "name": "assumption dependency graph",
+      "output_id": "OUT-TIGHTEN-004"
+    },
+    {
+      "description": "Record unresolved assumption gaps honestly.",
+      "name": "gap register if tightening fails",
+      "output_id": "OUT-TIGHTEN-005"
+    }
+  ],
+  "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+  "real_world_relevance_claim_made": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_assumption_tightening_plan": {
+    "assumption_tightening_executed": false,
+    "assumption_tightening_plan_created": true,
+    "biological_validation": false,
+    "claim_expansion": false,
+    "complete_manuscript_created": false,
+    "conditional_toy_theorem_proved": true,
+    "external_validation": false,
+    "full_viruse_fabric_theory_proved": false,
+    "independent_validation": false,
+    "literature_support_claim": false,
+    "literature_validation": false,
+    "manuscript_readiness": false,
+    "new_theorem_proved": false,
+    "operational_usefulness": false,
+    "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+    "real_world_relevance": false,
+    "submission_readiness": false,
+    "submission_ready_manuscript_created": false,
+    "theory_validation": false,
+    "vf_h2_empirically_validated": false
+  },
+  "scope": "draft-vf-h2-toy-theorem-assumption-tightening-plan-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_formalization_artifact": "vf_h2_mathematical_core_formalization_v1",
+  "source_proof_attempt_artifact": "vf_h2_toy_theorem_formal_proof_attempt_v1",
+  "source_proof_attempt_audit_artifact": "vf_h2_toy_theorem_formal_proof_attempt_v1_audit",
+  "source_proof_plan_artifact": "vf_h2_toy_theorem_formal_proof_plan_v1",
+  "submission_readiness_claim_made": false,
+  "submission_ready_manuscript_created": false,
+  "theory_validation_claim_made": false,
+  "tightening_target_count": 5,
+  "tightening_targets": [
+    {
+      "assumption": "A5 ledger monotonicity",
+      "current_form": "Persistent ledger contribution is nonnegative under the chosen partial order.",
+      "planned_analysis": "Check whether ledger monotonicity follows from nonnegative ledger increments plus an order-preserving ledger readout.",
+      "risk": "medium",
+      "target_id": "TIGHTEN-VF-H2-001",
+      "tightening_goal": "Replace global ledger monotonicity with local sufficient conditions on the ledger update map."
+    },
+    {
+      "assumption": "A6 transition monotonicity",
+      "current_form": "Increasing ledger contribution cannot decrease the next toy state.",
+      "planned_analysis": "Decompose F into state update, ledger readout, and activation map; identify which component needs monotonicity.",
+      "risk": "medium",
+      "target_id": "TIGHTEN-VF-H2-002",
+      "tightening_goal": "Separate monotonicity in state from monotonicity in ledger contribution."
+    },
+    {
+      "assumption": "A8 strict witness",
+      "current_form": "There exists at least one node-time pair with strict ledger advantage and positive aggregation weight.",
+      "planned_analysis": "Search for sufficient conditions: reachable node, positive ledger increment, active edge/path, positive threshold margin, and positive aggregation weight.",
+      "risk": "high",
+      "target_id": "TIGHTEN-VF-H2-003",
+      "tightening_goal": "Derive a witness from primitive finite-time structural conditions rather than assuming it directly."
+    },
+    {
+      "assumption": "A7 positive aggregation",
+      "current_form": "Aggregation weights are nonnegative and normalized.",
+      "planned_analysis": "Show strict positivity only requires at least one positive witness weight and no negative weights; normalization is only needed for boundedness.",
+      "risk": "low",
+      "target_id": "TIGHTEN-VF-H2-004",
+      "tightening_goal": "Allow unnormalized positive weights while preserving sign of ledger_effect_size."
+    },
+    {
+      "assumption": "state range [0,1]",
+      "current_form": "x_t(v) in [0,1].",
+      "planned_analysis": "Check if nonnegative or positive ledger_effect_size works over any ordered cone, while boundedness needs [0,1].",
+      "risk": "medium",
+      "target_id": "TIGHTEN-VF-H2-005",
+      "tightening_goal": "Separate sign proof from boundedness proof."
+    }
+  ],
+  "vf_h2_empirically_validated": false
+}
