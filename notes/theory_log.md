@@ -33128,3 +33128,162 @@ v8.227 moves beyond metadata-only verification decision recording by creating an
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.227.0 on master, and final master verification passes.
+
+## v8.228.0 close note — Safe Abstract Toy Citation Retrieval Batch 1 Source Acceptance Decision Register
+
+Status:
+Close-note prepared on the v8.228 feature branch after successful Batch 1 source acceptance decision register generation.
+
+Main hash:
+1049c2a
+
+Main subject:
+Add safe abstract toy citation retrieval batch 1 source acceptance decision register
+
+Scope:
+Citation-retrieval-batch-1-source-acceptance-decision-register-only artifact that records source acceptance decisions for the seven Batch 1 candidate sources into a methodological source pool. This milestone records source acceptance decisions only. Accepted source does not mean citation-ready source. It does not reject sources, does not mark sources citation-ready, does not add actual citations, does not fabricate references, does not complete citation integration, does not modify manuscript files, does not validate scientific claims, does not approve readiness, and does not introduce real-biological operational capability.
+
+Plan phrase:
+batch_1_source_acceptance_decisions_recorded_but_not_citation_ready_cited_integrated_or_mutated
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register.py
+- viruse_fabric/experiments/exp_308_safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register.py
+- outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register_v8_228.md
+- outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register_v8_228.json
+
+Validation:
+- V8_228_SAFE_ABSTRACT_TOY_CITATION_RETRIEVAL_BATCH_1_SOURCE_ACCEPTANCE_DECISION_REGISTER_OK
+- TOY_CITATION_RETRIEVAL_BATCH_1_SOURCE_ACCEPTANCE_DECISION_REGISTER_DIRECT_CHECK_OK
+- V8_228_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Acceptance decision result:
+- Source acceptance decision record count: 7
+- Acceptance decision count: 7
+- Accepted source count: 7
+- Accepted methodological source pool count: 7
+- Accepted not citation-ready source count: 7
+- Acceptance decision candidate coverage count: 7
+- Acceptance decision criterion group count: 7
+- Acceptance decision criterion evaluation count: 49
+- Acceptance decision control count: 13
+- Rejection decision count: 0
+- Rejected source count: 0
+- Citation-ready source count: 0
+- Actual citation count: 0
+- Fabricated reference count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- Manuscript mutation count: 0
+- New citation added count: 0
+
+Prior continuity:
+- Prior acceptance eligibility gate record count: 7
+- Prior eligible for future acceptance review count: 7
+- Prior acceptance decision count: 0
+- Prior accepted source count: 0
+- Prior citation-ready source count: 0
+- Prior actual citation count: 0
+- Prior source verification decision record count: 7
+- Prior metadata-only verification decision count: 7
+- Prior bibliographic metadata verified source count: 7
+- Prior evidence record count: 7
+- Prior evidence locator claim count: 29
+- Prior candidate source row count: 7
+- Source candidate ledger field count: 16
+
+Acceptance statuses:
+- methodological_source_pool_acceptance_only
+- accepted_for_methodological_source_pool_only
+- accepted_not_citation_ready
+- no_rejection_decision_recorded
+- not_citation_ready
+- not_integrated
+- no_actual_citation_added
+- no_fabricated_reference_introduced
+- no_mutation
+- no_manuscript_file_modified
+- scientific_validation_not_claimed
+- no_readiness_approval_recorded
+- no_new_citation_added
+- non_operational_methodological_source_only
+
+Required safety and boundary phrases preserved:
+- Source acceptance decision register only
+- Accepted for methodological source pool only
+- Accepted source does not mean citation-ready source
+- No rejected source is recorded
+- No source is marked citation-ready
+- No actual citation is added
+- No fabricated reference is introduced
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No readiness approval is recorded
+- No new citation is added
+- No manuscript file is modified
+
+Counters preserved at zero:
+- Toy citation batch 1 rejection decision count: 0
+- Toy citation batch 1 rejected source count: 0
+- Toy citation batch 1 citation-ready source count: 0
+- Toy citation batch 1 actual citation count: 0
+- Toy citation batch 1 fabricated reference count: 0
+- Toy citation batch 1 citation integration completion count: 0
+- Toy citation batch 1 added to manuscript count: 0
+- Toy citation batch 1 manuscript mutation count: 0
+- Toy citation rejected source count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.228 records source acceptance decisions for a methodological source pool only. Accepted source does not mean citation-ready source. It does not reject sources, does not mark sources citation-ready, does not add citations, does not integrate citations into any manuscript, does not modify manuscript files, does not validate scientific claims, and does not approve submission readiness.
+
+Team decision:
+After v8.228.0 becomes official, the v8 line is frozen. No further v8 milestone should be opened unless a safety-critical correction is required. The project pivots from ledger-only process work toward simulation-backed theory work.
+
+Post-v8 roadmap:
+- v9.0: Viruse Fabric Abstract Simulation Reframing
+- v9.1: Abstract Simulation Specification
+- v9.2: Minimal Safe Toy Simulation Engine
+- v9.3: Baseline Comparison
+- v9.4: Results and Falsification Audit
+
+Path correction:
+v8.228 completes the Batch 1 source intake and acceptance sequence at the methodological-source-pool level while preserving every downstream citation-readiness, citation-integration, manuscript-mutation, validation, and readiness gate at zero. The next official line should stop expanding v8 ledgers and begin v9 simulation-backed theory reframing.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.228.0 on master, and final master verification passes.
