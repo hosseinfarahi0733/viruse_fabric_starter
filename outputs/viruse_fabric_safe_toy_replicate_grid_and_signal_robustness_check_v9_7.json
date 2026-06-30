@@ -1,0 +1,712 @@
+{
+  "allowed_robustness_claims_register": [
+    {
+      "claim_id": "V9-7-ALLOW-001",
+      "claim_text": "In this safe abstract toy replicate grid, the VF-H2 memory-ledger signal has verdict robust_in_this_safe_toy_replicate_grid.",
+      "scope": "safe_abstract_toy_replicate_grid_only"
+    },
+    {
+      "claim_id": "V9-7-ALLOW-002",
+      "claim_text": "The tested signal is ledger_effect_size in the VF-FULL versus VF-BASE-C comparison.",
+      "scope": "safe_abstract_toy_replicate_grid_only"
+    },
+    {
+      "claim_id": "V9-7-ALLOW-003",
+      "claim_text": "VF-H1, VF-H3, and VF-H4 are not upgraded by v9.7 and remain unresolved or unsupported.",
+      "scope": "safe_abstract_toy_boundary"
+    }
+  ],
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation citation-ready source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "V9 VF-H2 negative ledger signal replicate count": 0,
+    "V9 VF-H2 positive ledger signal replicate count": 6,
+    "V9 VF-H2 robustness comparison record count": 6,
+    "V9 VF-H2 robustness verdict count": 1,
+    "V9 VF-H2 zero ledger signal replicate count": 0,
+    "V9 allowed robustness claim count": 3,
+    "V9 allowed robustness claims register count": 1,
+    "V9 forbidden robustness claim count": 5,
+    "V9 forbidden robustness claims register count": 1,
+    "V9 manuscript readiness approval count": 0,
+    "V9 manuscript readiness claim count": 0,
+    "V9 non-upgraded hypothesis record count": 3,
+    "V9 safe toy replicate grid config count": 6,
+    "V9 safe toy replicate grid execution count": 1,
+    "V9 safe toy replicate robustness artifact count": 1,
+    "V9 safe toy replicate run record count": 12,
+    "V9 source manuscript readiness denial count": 1,
+    "V9 source primary supported hypothesis count": 1,
+    "V9 source toy falsification audit record count": 4,
+    "V9 source unresolved or unsupported hypothesis count": 3,
+    "V9 theory validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "forbidden_robustness_claims_register": [
+    {
+      "claim_id": "V9-7-FORBID-001",
+      "forbidden_claim": "The full Viruse Fabric theory is robustly validated.",
+      "reason": "v9.7 only checks one safe toy signal for VF-H2 across a small replicate grid."
+    },
+    {
+      "claim_id": "V9-7-FORBID-002",
+      "forbidden_claim": "The memory-ledger signal is empirically validated.",
+      "reason": "The replicate grid is safe abstract toy only and contains no empirical validation."
+    },
+    {
+      "claim_id": "V9-7-FORBID-003",
+      "forbidden_claim": "VF-H1, VF-H3, or VF-H4 are now supported.",
+      "reason": "v9.7 does not upgrade those hypotheses."
+    },
+    {
+      "claim_id": "V9-7-FORBID-004",
+      "forbidden_claim": "The project is manuscript submission ready.",
+      "reason": "v9.7 does not create readiness approval and v9.5 already denied readiness."
+    },
+    {
+      "claim_id": "V9-7-FORBID-005",
+      "forbidden_claim": "The model applies to real biological systems.",
+      "reason": "No real biological datasets, pathogen models, receptor parameters, or operational biological assumptions are introduced."
+    }
+  ],
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "new_citation_added": false,
+  "non_upgrade_records": [
+    {
+      "hypothesis_id": "VF-H1",
+      "mechanism": "multi_layer_constraint_path_shift",
+      "reason": "v9.7 only checks VF-H2 memory-ledger signal robustness.",
+      "status_after_v9_7": "not_upgraded"
+    },
+    {
+      "hypothesis_id": "VF-H3",
+      "mechanism": "causal_mass_delayed_effect",
+      "reason": "v9.7 only checks VF-H2 memory-ledger signal robustness.",
+      "status_after_v9_7": "not_upgraded"
+    },
+    {
+      "hypothesis_id": "VF-H4",
+      "mechanism": "three_time_layer_predictive_difference",
+      "reason": "v9.7 only checks VF-H2 memory-ledger signal robustness.",
+      "status_after_v9_7": "not_upgraded"
+    }
+  ],
+  "non_validation_disclaimer": "Safe toy replicate grid and signal robustness check only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.",
+  "passed": true,
+  "plan_phrase": "v9_7_safe_toy_replicate_grid_and_signal_robustness_check_without_validation_or_readiness",
+  "primary_hypothesis_under_test": "VF-H2",
+  "primary_signal_under_test": "ledger_effect_size",
+  "readiness_approval_recorded": false,
+  "reduced_toy_core_under_test": "memory-ledger-driven toy dynamics",
+  "replicate_grid": [
+    {
+      "graph_seed": 101,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 202,
+      "replicate_id": "V9-7-REP-001",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 404,
+      "transition_seed": 303
+    },
+    {
+      "graph_seed": 111,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 212,
+      "replicate_id": "V9-7-REP-002",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 414,
+      "transition_seed": 313
+    },
+    {
+      "graph_seed": 121,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 222,
+      "replicate_id": "V9-7-REP-003",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 424,
+      "transition_seed": 323
+    },
+    {
+      "graph_seed": 131,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 232,
+      "replicate_id": "V9-7-REP-004",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 434,
+      "transition_seed": 333
+    },
+    {
+      "graph_seed": 141,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 242,
+      "replicate_id": "V9-7-REP-005",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 444,
+      "transition_seed": 343
+    },
+    {
+      "graph_seed": 151,
+      "node_count": 16,
+      "packet_count": 32,
+      "packet_seed": 252,
+      "replicate_id": "V9-7-REP-006",
+      "step_count_limit": 3,
+      "symbolic_drift_seed": 454,
+      "transition_seed": 353
+    }
+  ],
+  "replicate_grid_executed": true,
+  "replicate_run_records": [
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.077813
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.077813
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-001",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 101,
+        "packet_initialization_seed": 202,
+        "symbolic_drift_seed": 404,
+        "transition_choice_seed": 303
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.077813
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.077813
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-001",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 101,
+        "packet_initialization_seed": 202,
+        "symbolic_drift_seed": 404,
+        "transition_choice_seed": 303
+      }
+    },
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.082187
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.082187
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-002",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 111,
+        "packet_initialization_seed": 212,
+        "symbolic_drift_seed": 414,
+        "transition_choice_seed": 313
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.082187
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.082187
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-002",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 111,
+        "packet_initialization_seed": 212,
+        "symbolic_drift_seed": 414,
+        "transition_choice_seed": 313
+      }
+    },
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.075938
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.075938
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-003",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 121,
+        "packet_initialization_seed": 222,
+        "symbolic_drift_seed": 424,
+        "transition_choice_seed": 323
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.075938
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.075938
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-003",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 121,
+        "packet_initialization_seed": 222,
+        "symbolic_drift_seed": 424,
+        "transition_choice_seed": 323
+      }
+    },
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.080312
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.080312
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-004",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 131,
+        "packet_initialization_seed": 232,
+        "symbolic_drift_seed": 434,
+        "transition_choice_seed": 333
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.080312
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.080312
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-004",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 131,
+        "packet_initialization_seed": 232,
+        "symbolic_drift_seed": 434,
+        "transition_choice_seed": 333
+      }
+    },
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.084687
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.084687
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-005",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 141,
+        "packet_initialization_seed": 242,
+        "symbolic_drift_seed": 444,
+        "transition_choice_seed": 343
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.084687
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.084687
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-005",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 141,
+        "packet_initialization_seed": 242,
+        "symbolic_drift_seed": 444,
+        "transition_choice_seed": 343
+      }
+    },
+    {
+      "baseline_id": "VF-FULL",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.078438
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.078438
+      },
+      "model_variant_id": "VF-FULL",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-006",
+      "run_id": "V9-3-RUN-VF-FULL",
+      "seed_record": {
+        "graph_generation_seed": 151,
+        "packet_initialization_seed": 252,
+        "symbolic_drift_seed": 454,
+        "transition_choice_seed": 353
+      }
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "execution_boundary": "safe abstract toy simulation only; not biological, not clinical, not pathogen, not receptor, not host range, not wet-lab, and not operational",
+      "graph_spec_id": "VF-SPEC-GRAPH-001",
+      "metric_results": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.078438
+      },
+      "metrics": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 0.0,
+        "survival_rate": 1.0,
+        "symbolic_drift_rate": 0.078438
+      },
+      "model_variant_id": "VF-BASE-C",
+      "parameter_record": {
+        "node_count": 16,
+        "packet_count": 32,
+        "step_count_limit": 3
+      },
+      "replicate_id": "V9-7-REP-006",
+      "run_id": "V9-3-RUN-VF-BASE-C",
+      "seed_record": {
+        "graph_generation_seed": 151,
+        "packet_initialization_seed": 252,
+        "symbolic_drift_seed": 454,
+        "transition_choice_seed": 353
+      }
+    }
+  ],
+  "robustness_records": [
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-001",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-001",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    },
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-002",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-002",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    },
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-003",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-003",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    },
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-004",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-004",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    },
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-005",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-005",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    },
+    {
+      "ablation_metric_value": 0.0,
+      "ablation_variant": "VF-BASE-C",
+      "boundary": "Safe abstract toy replicate comparison only. This is not empirical evidence, not external validation, not independent validation, not manuscript readiness, and not a theory validation claim.",
+      "hypothesis_id": "VF-H2",
+      "metric_deltas": {
+        "constraint_violation_rate": 0.0,
+        "ledger_effect_size": 3.0,
+        "survival_rate": 0.0,
+        "symbolic_drift_rate": 0.0
+      },
+      "positive_signal": true,
+      "reference_metric_value": 3.0,
+      "reference_variant": "VF-FULL",
+      "replicate_id": "V9-7-REP-006",
+      "robustness_record_id": "V9-7-H2-ROBUSTNESS-006",
+      "signal_delta": 3.0,
+      "signal_metric": "ledger_effect_size"
+    }
+  ],
+  "robustness_summary": {
+    "ablation_variant": "VF-BASE-C",
+    "hypothesis_id": "VF-H2",
+    "max_signal_delta": 3.0,
+    "mean_signal_delta": 3.0,
+    "min_signal_delta": 3.0,
+    "negative_signal_replicate_count": 0,
+    "population_stdev_signal_delta": 0.0,
+    "positive_signal_rate": 1.0,
+    "positive_signal_replicate_count": 6,
+    "reference_variant": "VF-FULL",
+    "replicate_count": 6,
+    "robustness_verdict": "robust_in_this_safe_toy_replicate_grid",
+    "robustness_verdict_options": [
+      "robust_in_this_safe_toy_replicate_grid",
+      "partially_robust_in_this_safe_toy_replicate_grid",
+      "not_robust_in_this_safe_toy_replicate_grid"
+    ],
+    "signal_metric": "ledger_effect_size",
+    "summary_id": "V9-7-MEMORY-LEDGER-ROBUSTNESS-SUMMARY-001",
+    "summary_statement": "The memory-ledger signal is checked across a safe abstract toy replicate grid. The verdict is restricted to this safe toy grid and does not validate the full theory.",
+    "zero_signal_replicate_count": 0
+  },
+  "safe_abstract_toy_only": true,
+  "scope": "safe-toy-replicate-grid-and-signal-robustness-check-only",
+  "signal_robustness_checked": true,
+  "source_v9_4_json": "outputs/viruse_fabric_results_and_falsification_audit_v9_4.json",
+  "source_v9_6_json": "outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.json",
+  "title": "Viruse Fabric Safe Toy Replicate Grid and Signal Robustness Check",
+  "validation_claim_made": false,
+  "version": "v9.7"
+}
