@@ -1,151 +1,200 @@
-# Memory-Ledger Dynamics in a Safe Abstract Toy Model
+# VF-H2 as a Memory-Ledger-Driven Abstract Propagation Toy Model: Formal Core and Bounded Internal Results
 
-## Limited Technical Note v1
+## Status Boundary
 
-This is a limited technical note, not a manuscript submission package, not an empirical validation, and not a full theory validation.
+This is a limited technical note draft. It is not a complete manuscript, not a submission-ready paper, not a formal proof, not theory validation, not external validation, not independent empirical validation, and not biological validation.
 
-## Executive Decision
+The note reports only safe abstract toy-model results. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
 
-The v9 loop is stopped.
+## Abstract
 
-The project should not continue into automatic milestone expansion. The only allowed next paths are:
+VF-H2 is a bounded safe abstract toy hypothesis about memory-ledger-driven propagation over a finite graph-like state space. The hypothesis asks whether persistent ledger memory produces a positive toy signal, `ledger_effect_size`, relative to no-persistent-memory null controls.
 
-1. Engine redesign, if the goal is to produce a cleaner parameter-sensitive toy experiment.
-2. A limited technical report, if the goal is to document the current safe toy finding without expanding claims.
+This note defines the mathematical core of VF-H2 using a finite abstract graph, a three-time coordinate, abstract packets, a persistent memory ledger, causal mass, a memory-ledger transition rule, a no-persistent-memory null control, and the primary toy signal `ledger_effect_size`.
 
-## What Was Actually Built
+The current bounded result is strong internal safe toy support for VF-H2. The evidence chain includes a limited safe toy simulation, a preregistered larger safe toy robustness check, artifact-resistance and ablation checks, and an independent implementation-level replication. These results support only the bounded claim that, within the current safe abstract toy framework, persistent memory-ledger structure is associated with a positive and robust `ledger_effect_size` relative to no-persistent-memory null controls.
 
-The project built a safe abstract toy simulation workflow around Viruse Fabric. The usable result is narrow:
+The note does not claim that VF-H2 is proved, does not validate the full Viruse Fabric theory, and does not establish biological, empirical, external, or real-world validity.
 
-- Primary surviving toy hypothesis: VF-H2
-- Primary signal: ledger_effect_size
-- Reduced toy core: memory-ledger-driven toy dynamics
-- Supported only within the safe abstract toy setting
+## 1. Introduction
 
-The project did not validate the full Viruse Fabric theory.
+Persistent memory can alter the behavior of abstract propagation systems. VF-H2 studies this question in a deliberately safe toy setting: when a propagation process is given access to persistent ledger memory, does it produce a positive effect relative to a null control that lacks persistent memory?
 
-## Source Artifacts
+The purpose of VF-H2 is narrow. It does not model pathogens, receptors, hosts, cells, organisms, infectivity, immune evasion, or host range. The model is only an abstract graph-based propagation toy used to study whether memory-ledger persistence can create a measurable difference under controlled toy conditions.
 
-| Version | Role | Source file |
-|---|---|---|
-| v9.3 | Safe toy baseline comparison | outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.json |
-| v9.4 | Results and falsification audit | outputs/viruse_fabric_results_and_falsification_audit_v9_4.json |
-| v9.5 | Evidence limitation and readiness gate | outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.json |
-| v9.6 | Scientific yield extraction and theory reduction | outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.json |
-| v9.7 | Replicate grid robustness check | outputs/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check_v9_7.json |
-| v9.8 | Decision gate, parameter boundary, null-control | outputs/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test_v9_8.json |
+The central toy question is:
 
-## Key Finding from v9.7
+Can a persistent memory ledger produce a positive and robust `ledger_effect_size` relative to a no-persistent-memory null control?
 
-v9.7 found a robust safe toy signal for VF-H2:
+## 2. Mathematical Core
 
-- Hypothesis: VF-H2
-- Signal: ledger_effect_size
-- Reduced toy core: memory-ledger-driven toy dynamics
-- Replicate count: 6
-- Positive signal replicate count: 6
-- Zero signal replicate count: 0
-- Negative signal replicate count: 0
-- Positive signal rate: 1.0
-- Mean signal delta: 3.0
-- Robustness verdict: robust_in_this_safe_toy_replicate_grid
+Let
 
-Interpretation: VF-H2 has a positive and repeated signal inside the safe toy model. This is not empirical validation.
+\[
+G=(V,E)
+\]
 
-## Decision Gate from v9.8
+be a finite directed or undirected abstract graph. The node set \(V\) is finite, and \(E\subseteq V\times V\) is an abstract adjacency relation.
 
-v9.8 tested whether the v9.7 result could be responsibly expanded.
+A propagation state is indexed by a three-time coordinate
 
-Parameter boundary result:
+\[
+\tau=(t_1,t_2,t_3),
+\]
 
-- Candidate parameter mutation count: 6
-- Blocked candidate count: 4
-- Accepted candidate count: 2
-- Parameter sweep boundary verdict: parameter_sweep_partially_blocked_by_engine_spec_boundary
+where \(t_1\) represents local update time, \(t_2\) represents ledger accumulation time, and \(t_3\) represents projection or observation time.
 
-Null-control result:
+Let \(P_\tau\) be a finite multiset of abstract packets at time \(\tau\). Each packet \(p\in P_\tau\) has an abstract location
 
-- Null-control count: 4
-- Null-control leak count: 0
-- Null-control no-leak count: 4
-- Null-control verdict: no_null_control_leak_detected
+\[
+\ell_\tau(p)\in V.
+\]
 
-Decision:
+The node state is
 
-- Decision: stop_claim_expansion_and_redesign_engine_before_more_toy_evidence
-- Next allowed action: engine_redesign_or_limited_technical_note
-- Loop guard verdict: stop_v9_loop
+\[
+x_\tau(v)\in \mathcal{X}
+\]
 
-Interpretation: The null-control check is clean, but the parameter sweep is partially blocked by the engine specification boundary. Claim expansion must stop until the engine is redesigned or the result is written only as a limited technical note.
+for each node \(v\in V\).
 
-## What Can Be Claimed
+The persistent memory ledger is
 
-The following claim is allowed:
+\[
+L_\tau:V\rightarrow \mathbb{N}_0,
+\]
 
-In a safe abstract toy model, the VF-H2 memory-ledger signal, measured by ledger_effect_size, showed repeated positive toy-level behavior across the v9.7 replicate grid. The v9.8 decision gate found no null-control leakage but also found that the current engine partially blocks clean parameter sweep expansion. Therefore, the result should be reported only as a limited toy-model finding.
+where \(L_\tau(v)\) records accumulated abstract visits or activations at node \(v\). A simple ledger update is
 
-## What Cannot Be Claimed
+\[
+L_{\tau+1}(v)=L_\tau(v)+A_\tau(v),
+\]
 
-The following claims are forbidden:
+where
 
-- The full Viruse Fabric theory is validated.
-- The result is empirically validated.
-- The model applies to real biological systems.
-- The project is manuscript submission ready.
-- VF-H1 is supported.
-- VF-H3 is supported.
-- VF-H4 is supported.
-- The current engine supports a clean parameter sweep.
-- The VF-H2 result should be expanded without engine redesign.
+\[
+A_\tau(v)=\#\{p\in P_\tau:\ell_\tau(p)=v\}.
+\]
 
-## Scientific Status
+Causal mass is defined as a nonnegative abstract functional
 
-| Item | Status |
-|---|---|
-| Safe toy framework | Built |
-| VF-H2 toy signal | Repeated positive signal in v9.7 |
-| Null-control leakage | Not detected in v9.8 |
-| Clean parameter sweep | Not available |
-| Full theory validation | Not available |
-| External validation | Not available |
-| Independent experiment | Not available |
-| Manuscript readiness | Not available |
-| Real biological applicability | Not claimed |
+\[
+M_\tau(v)=\Phi(L_\tau(v),x_\tau(v),A_\tau(v),\tau).
+\]
 
-## Why the Loop Stops Here
+In the simplest toy case, \(M_\tau(v)=L_\tau(v)\). Causal mass remains an abstract quantity and does not represent biological mass, viral load, real-world transmission, or infectivity.
 
-The project reached a meaningful stopping condition:
+A memory-ledger transition has the form
 
-- v9.7 produced a narrow positive toy signal.
-- v9.8 tested whether that signal could be expanded.
-- v9.8 found a boundary: the engine partially blocks parameter sweep.
-- v9.8 also found no null-control leakage.
-- The correct next move is not another automatic milestone.
-- The correct next move is either engine redesign or this limited technical note.
+\[
+x_{\tau+1}(v)=T(x_\tau(v),N_\tau(v),L_\tau(v),M_\tau(v),\eta_\tau),
+\]
 
-## Recommended Next Path
+where \(N_\tau(v)\) is an abstract neighborhood context and \(\eta_\tau\) is a safe symbolic gate or perturbation term.
 
-The recommended next path is engine redesign only if the goal is to continue experimentally.
+The no-persistent-memory null control replaces \(L_\tau\) with an ephemeral ledger \(\tilde{L}_\tau\), reset within each local update window. The null condition is intended to preserve limited same-step structure while removing persistent ledger memory.
 
-A redesign should happen only after defining:
+The primary toy metric is
 
-1. Which parameters are allowed to vary.
-2. Why those parameters are theoretically meaningful.
-3. Which metrics are expected to change.
-4. Which null controls must remain zero.
-5. Which result would falsify the VF-H2 toy signal.
+\[
+\Delta_{\mathrm{ledger}} = S_{\mathrm{ledger}} - S_{\mathrm{null}},
+\]
 
-Until those criteria are written, no additional claim expansion should occur.
+where \(S_{\mathrm{ledger}}\) is the normalized score under the persistent memory-ledger condition and \(S_{\mathrm{null}}\) is the normalized score under the no-persistent-memory null control.
 
-## Boundary Statement
+In the implementation artifacts, this quantity is named `ledger_effect_size`.
 
-Safe abstract toy model only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+## 3. VF-H2 Hypothesis
 
-## Final Decision Record
+VF-H2 is the bounded toy hypothesis:
 
-- Technical note created: yes
-- New milestone created: no
-- New official tag created: no
-- Claim expansion allowed: no
-- v9 loop status: stopped
-- Next allowed path: engine redesign or limited technical note
+\[
+H_{VF-H2}: \Delta_{\mathrm{ledger}}>0
+\]
+
+under a specified safe abstract toy protocol.
+
+A batch form is:
+
+\[
+\Pr(\Delta_{\mathrm{ledger}}>0)\geq \theta,
+\]
+
+with a preregistered threshold such as \(\theta=0.8\), and with zero null-control leaks under the defined toy procedure.
+
+This hypothesis is restricted to the toy framework. It is not a claim about real biological systems or external empirical systems.
+
+## 4. Methods
+
+The evidence chain contains four bounded safe toy stages.
+
+First, a limited safe toy simulation evaluated VF-H2 under a small initial replicate set.
+
+Second, a preregistered larger safe toy robustness check evaluated 64 planned toy replicates using `ledger_effect_size` as the primary signal.
+
+Third, artifact-resistance and ablation tests checked whether the observed signal persisted under specific stress tests, including removal or weakening of memory structure, shuffled or randomized variants, strengthened null controls, seed permutation, score-component checks, constant-effect guards, subgroup consistency checks, null-leak guards, and effect-size distribution checks.
+
+Fourth, an independent safe toy implementation replication rewrote packet generation, memory-ledger dynamics, null control, and metric calculation without importing the earlier robustness or artifact-resistance experiment modules.
+
+All stages remained inside the safe abstract toy boundary.
+
+## 5. Results
+
+The limited safe toy simulation produced positive `ledger_effect_size` in 8 out of 8 toy replicates.
+
+The preregistered larger safe toy robustness check produced positive `ledger_effect_size` in all 64 planned toy replicates. The mean `ledger_effect_size` was 2.4299456776344797, the minimum was 1.375, the maximum was 3.2041666666666666, and the null-control leak count was 0.
+
+The artifact-resistance and ablation stage passed all six planned ablation tests and all four planned artifact-resistance checks. This supported the bounded interpretation that the positive toy signal was not merely a constant-effect artifact, a null-control leak, or an artifact of a single tested implementation assumption.
+
+The independent safe toy implementation replication produced positive `ledger_effect_size` in all 64 independently implemented toy replicates. The positive effect rate was 1.0, the mean `ledger_effect_size` was 2.4857931685405643, the minimum was 1.3888888888888888, the maximum was 2.8851851851851853, and the null-control leak count was 0. The artifact-risk status was low because effect sizes varied across the independent grid.
+
+## 6. Bounded Interpretation
+
+The current evidence chain supports the bounded claim that VF-H2 has strong internal safe toy support with artifact-resistance and independent implementation-level replication.
+
+More specifically, within the current safe abstract toy framework, persistent memory-ledger structure is associated with a positive and robust `ledger_effect_size` relative to no-persistent-memory null controls.
+
+This interpretation is deliberately limited. It does not prove VF-H2. It does not validate the full Viruse Fabric theory. It does not establish external validation, independent empirical validation, real-world relevance, biological relevance, or manuscript readiness.
+
+## 7. Limitations
+
+The current results are internal to safe abstract toy models. They are not empirical validation.
+
+The independent replication is independent at the implementation level, but it is still internal to a toy framework.
+
+No theorem has been proved. No formal proof is claimed.
+
+No real-world dataset is used. No biological interpretation is established.
+
+No citations are added as validation evidence in this draft.
+
+The results do not justify operational use, real-world targeting, or biological extrapolation.
+
+## 8. Next Work
+
+The next defensible work includes:
+
+- auditing the limited technical note for overclaiming,
+- refining the mathematical definitions,
+- designing proof targets without claiming proof,
+- mapping related literature without using citations as validation,
+- designing topology, noise, and sensitivity extensions,
+- preparing a guarded technical note draft only within the current boundaries.
+
+## 9. Safety Boundary
+
+Safe abstract toy model only. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+## 10. Non-Claims
+
+This limited technical note draft does not claim:
+
+- theory validation,
+- formal proof,
+- external validation,
+- independent empirical validation,
+- biological validity,
+- manuscript readiness,
+- submission readiness,
+- real-world applicability,
+- operational usefulness.
