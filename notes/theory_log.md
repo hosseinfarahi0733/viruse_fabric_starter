@@ -33414,3 +33414,114 @@ v9.0 begins the post-v8 pivot from ledger-only process work to simulation-backed
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.0.0 on master, and final master verification passes.
+
+## v9.1.0 close note — Viruse Fabric Abstract Simulation Specification
+
+Status:
+Close-note prepared on the v9.1 feature branch after successful abstract simulation specification generation.
+
+Main hash:
+adedd6b
+
+Main subject:
+Add Viruse Fabric abstract simulation specification
+
+Scope:
+Abstract-simulation-specification-only artifact. This milestone specifies the future safe abstract toy simulation design for Viruse Fabric, including graph generation, random seed control, initialization, update rules, baseline configurations, metrics, output schema, falsification thresholds, and safety boundaries. It does not implement a simulation engine, does not run a simulation, does not execute baseline comparison, does not report results, does not execute a falsification audit, does not validate the theory, does not modify manuscript files, and does not add citations.
+
+Plan phrase:
+v9_1_abstract_simulation_specification_without_engine_execution_or_validation
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_abstract_simulation_specification.py
+- viruse_fabric/experiments/exp_901_viruse_fabric_abstract_simulation_specification.py
+- outputs/viruse_fabric_abstract_simulation_specification_v9_1.md
+- outputs/viruse_fabric_abstract_simulation_specification_v9_1.json
+
+Validation:
+- V9_1_VIRUSE_FABRIC_ABSTRACT_SIMULATION_SPECIFICATION_OK
+- VIRUSE_FABRIC_ABSTRACT_SIMULATION_SPECIFICATION_DIRECT_CHECK_OK
+- V9_1_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Specification structure:
+- Graph specification count: 1
+- Random seed specification count: 1
+- Initialization specification count: 1
+- Update rule specification count: 8
+- Baseline configuration specification count: 5
+- Metric specification count: 8
+- Output schema specification count: 1
+- Falsification threshold specification count: 4
+- Safety boundary specification count: 10
+
+Core specification components:
+- VF-SPEC-GRAPH-001: safe_abstract_toy_graph_generation
+- VF-SPEC-SEED-001: controlled_seed_grid
+- VF-SPEC-INIT-001: abstract_packet_and_node_initialization
+- VF-SPEC-RULE-001 through VF-SPEC-RULE-008: deferred update rules
+- VF-BASE-A through VF-BASE-E: baseline configurations
+- VF-MET-001 through VF-MET-008: metric specifications
+- VF-SPEC-OUTPUT-001: toy_simulation_output_schema
+- VF-THRESH-H1 through VF-THRESH-H4: falsification threshold specifications
+- VF-SPEC-SAFE-001 through VF-SPEC-SAFE-010: safety boundary specifications
+
+Deferred to later v9 milestones:
+- v9.2: Minimal Safe Toy Simulation Engine
+- v9.3: Baseline Comparison
+- v9.4: Results and Falsification Audit
+
+Counters intentionally preserved at zero:
+- V9 simulation engine implementation count: 0
+- V9 simulation execution count: 0
+- V9 baseline comparison execution count: 0
+- V9 results report count: 0
+- V9 falsification audit execution count: 0
+- V9 theory validation claim count: 0
+- Toy simulation engine created count: 0
+- Toy simulation actual run count: 0
+- Toy simulation result count: 0
+- Toy baseline comparison execution count: 0
+- Toy falsification audit execution count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Abstract simulation specification only. No simulation engine is implemented. No simulation run is performed. No baseline comparison is executed. No results are reported. No falsification audit is executed. No validation claim is made. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.
+
+Path correction:
+v9.1 converts the v9.0 formal reframing into an executable-ready but not executed specification. It defines the graph, seeds, initialization, update rules, baselines, metrics, output schema, falsification thresholds, and safety boundaries required before any toy engine implementation. It still does not prove, validate, simulate, compare, report, or mutate manuscript content.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.1.0 on master, and final master verification passes.
