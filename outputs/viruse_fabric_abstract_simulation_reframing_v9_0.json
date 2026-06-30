@@ -1,0 +1,437 @@
+{
+  "baseline_comparison_performed": false,
+  "baseline_plan": [
+    {
+      "baseline_id": "VF-BASE-A",
+      "definition": "Packets move randomly over the abstract graph without local constraint, global constraint, memory ledger, causal mass, or three-time layering.",
+      "name": "random_walk_baseline"
+    },
+    {
+      "baseline_id": "VF-BASE-B",
+      "definition": "Packets are filtered only by node-local abstract constraints without global constraint, memory ledger, or causal mass.",
+      "name": "local_constraint_only_baseline"
+    },
+    {
+      "baseline_id": "VF-BASE-C",
+      "definition": "Packets use local and global constraints but do not retain prior transition or violation history.",
+      "name": "no_memory_baseline"
+    },
+    {
+      "baseline_id": "VF-BASE-D",
+      "definition": "Packets use one abstract time layer instead of the t1, t2, t3 representation.",
+      "name": "single_time_layer_baseline"
+    },
+    {
+      "baseline_id": "VF-BASE-E",
+      "definition": "Packets use constraints and memory but exclude delayed causal-mass scoring.",
+      "name": "no_causal_mass_baseline"
+    }
+  ],
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Toy baseline comparison execution count": 0,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation batch 1 accepted methodological source pool count": 7,
+    "Toy citation batch 1 accepted not citation-ready source count": 7,
+    "Toy citation batch 1 accepted source count": 7,
+    "Toy citation batch 1 actual citation count": 0,
+    "Toy citation batch 1 citation integration completion count": 0,
+    "Toy citation batch 1 citation-ready source count": 0,
+    "Toy citation batch 1 manuscript mutation count": 0,
+    "Toy citation citation-ready source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy falsification audit execution count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Toy simulation actual run count": 0,
+    "Toy simulation engine created count": 0,
+    "Toy simulation result count": 0,
+    "V9 abstract simulation reframing artifact count": 1,
+    "V9 abstract simulation reframing completed count": 1,
+    "V9 baseline comparison execution count": 0,
+    "V9 baseline plan count": 5,
+    "V9 detailed simulation specification completed count": 0,
+    "V9 falsification audit execution count": 0,
+    "V9 falsification rule count": 6,
+    "V9 metric proposal count": 8,
+    "V9 reframed hypothesis count": 4,
+    "V9 results report count": 0,
+    "V9 roadmap milestone count": 5,
+    "V9 safety boundary count": 10,
+    "V9 simulatable model object definition count": 8,
+    "V9 simulation engine implementation count": 0,
+    "V9 simulation execution count": 0,
+    "V9 state variable definition count": 12,
+    "V9 theory reframing record count": 1,
+    "V9 theory validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "falsifiable_hypotheses_declared": true,
+  "falsification_audit_executed": false,
+  "falsification_rules": [
+    {
+      "name": "baseline_non_difference_rule",
+      "rule": "If Viruse Fabric outputs do not differ from all relevant baselines under predeclared metrics, the corresponding hypothesis is not supported.",
+      "rule_id": "VF-FALS-001"
+    },
+    {
+      "name": "ledger_no_effect_rule",
+      "rule": "If memory-ledger variants do not reduce violations or change stability compared with no-memory baselines, the ledger-stability claim is not supported.",
+      "rule_id": "VF-FALS-002"
+    },
+    {
+      "name": "causal_mass_no_delay_rule",
+      "rule": "If causal-mass variants do not generate delayed-effect differences, the causal-mass delayed-effect claim is not supported.",
+      "rule_id": "VF-FALS-003"
+    },
+    {
+      "name": "three_time_no_projection_rule",
+      "rule": "If t1/t2/t3 variants do not differ from single-time variants, the three-time-layer claim is not supported.",
+      "rule_id": "VF-FALS-004"
+    },
+    {
+      "name": "seed_instability_rule",
+      "rule": "If observed effects collapse across controlled random seeds, the result is treated as unstable and not validated.",
+      "rule_id": "VF-FALS-005"
+    },
+    {
+      "name": "no_validation_without_execution_rule",
+      "rule": "No theory validation is claimed until v9.2 engine execution, v9.3 baseline comparison, and v9.4 falsification audit are completed.",
+      "rule_id": "VF-FALS-006"
+    }
+  ],
+  "formal_reframing_only": true,
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "metric_proposals": [
+    {
+      "definition": "Fraction of toy pattern packets remaining active after a fixed number of abstract steps.",
+      "metric_id": "VF-MET-001",
+      "name": "survival_rate"
+    },
+    {
+      "definition": "Diversity of packet positions over the abstract graph.",
+      "metric_id": "VF-MET-002",
+      "name": "spread_entropy"
+    },
+    {
+      "definition": "Fraction of transitions that violate declared abstract constraints.",
+      "metric_id": "VF-MET-003",
+      "name": "constraint_violation_rate"
+    },
+    {
+      "definition": "Degree to which packet paths remain consistent under controlled random seeds.",
+      "metric_id": "VF-MET-004",
+      "name": "path_stability"
+    },
+    {
+      "definition": "Difference between immediate transition outcomes and later t2 or t3 outcomes.",
+      "metric_id": "VF-MET-005",
+      "name": "delayed_effect_score"
+    },
+    {
+      "definition": "Distance between Viruse Fabric model outputs and baseline outputs under predeclared toy metrics.",
+      "metric_id": "VF-MET-006",
+      "name": "baseline_divergence"
+    },
+    {
+      "definition": "Rate of unitless symbolic packet-state perturbation over toy steps.",
+      "metric_id": "VF-MET-007",
+      "name": "symbolic_drift_rate"
+    },
+    {
+      "definition": "Difference between memory-ledger and no-memory model outputs.",
+      "metric_id": "VF-MET-008",
+      "name": "ledger_effect_size"
+    }
+  ],
+  "model_objects": [
+    {
+      "definition": "A finite directed or undirected toy graph whose nodes represent abstract environments and whose edges represent abstract transition channels.",
+      "name": "abstract_environment_graph",
+      "non_operational_boundary": "No real location, host, organism, receptor, pathogen, tissue, or biological substrate is represented.",
+      "object_id": "VF-OBJ-001"
+    },
+    {
+      "definition": "A symbolic toy agent carrying abstract state variables such as compatibility, cost, memory trace, and constraint score.",
+      "name": "pattern_packet",
+      "non_operational_boundary": "The packet is not a biological agent, pathogen, molecule, cell, genome, protein, receptor, or wet-lab object.",
+      "object_id": "VF-OBJ-002"
+    },
+    {
+      "definition": "A unitless rule layer applied at individual nodes to determine whether a pattern packet remains, moves, degrades, or is filtered.",
+      "name": "local_constraint_field",
+      "non_operational_boundary": "The field is mathematical only and contains no real biological parameters.",
+      "object_id": "VF-OBJ-003"
+    },
+    {
+      "definition": "A unitless rule layer that applies cross-node pressure or system-level restrictions over the toy graph.",
+      "name": "global_constraint_field",
+      "non_operational_boundary": "The field does not model real-world biosafety, infectivity, tropism, or host range.",
+      "object_id": "VF-OBJ-004"
+    },
+    {
+      "definition": "A unitless aggregate influence score intended to represent delayed or distributed abstract causal pressure.",
+      "name": "causal_mass",
+      "non_operational_boundary": "Causal mass is not a physical, biological, clinical, or epidemiological measurement.",
+      "object_id": "VF-OBJ-005"
+    },
+    {
+      "definition": "A state history layer that stores prior abstract decisions, violations, transitions, and delayed effects.",
+      "name": "memory_ledger",
+      "non_operational_boundary": "The ledger stores toy simulation state only and does not store real biological or personal data.",
+      "object_id": "VF-OBJ-006"
+    },
+    {
+      "definition": "A tri-temporal representation using t1, t2, and t3 to separate current state, delayed effect, and projected constraint state.",
+      "name": "three_time_layer_state",
+      "non_operational_boundary": "The time layers are abstract simulation indices, not real clinical or biological timelines.",
+      "object_id": "VF-OBJ-007"
+    },
+    {
+      "definition": "A purely symbolic perturbation operator that changes unitless toy attributes of a pattern packet.",
+      "name": "symbolic_mutation_operator",
+      "non_operational_boundary": "This operator is not genetic, biological, molecular, phenotypic, immune, host-range, or infectivity optimization.",
+      "object_id": "VF-OBJ-008"
+    }
+  ],
+  "new_citation_added": false,
+  "non_validation_disclaimer": "Abstract simulation reframing only. No simulation engine is created. No simulation run is performed. No baseline comparison is executed. No results are reported. No falsification audit is executed. No validation claim is made. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+  "passed": true,
+  "plan_phrase": "v9_0_abstract_simulation_reframing_without_simulation_execution",
+  "post_v8_pivot_to_simulation_backed_theory": true,
+  "readiness_approval_recorded": false,
+  "reframed_hypotheses": [
+    {
+      "falsification_condition": "If transition distributions are not detectably different from local-only baseline under predeclared toy metrics, H1 is not supported.",
+      "hypothesis": "In an abstract graph, combining local and global constraints changes packet transition paths compared with a local-only baseline.",
+      "hypothesis_id": "VF-H1",
+      "name": "multi_layer_constraint_path_shift"
+    },
+    {
+      "falsification_condition": "If violation rates and stability metrics do not improve over the no-memory baseline, H2 is not supported.",
+      "hypothesis": "A memory-ledger layer reduces repeated constraint violations and increases path stability compared with a no-memory baseline.",
+      "hypothesis_id": "VF-H2",
+      "name": "memory_ledger_stability_effect"
+    },
+    {
+      "falsification_condition": "If delayed-effect metrics are indistinguishable from the random-walk baseline, H3 is not supported.",
+      "hypothesis": "A causal-mass term produces delayed transition effects that are absent in a memory-free random-walk baseline.",
+      "hypothesis_id": "VF-H3",
+      "name": "causal_mass_delayed_effect"
+    },
+    {
+      "falsification_condition": "If projected constraint outcomes do not differ from a single-time-layer baseline, H4 is not supported.",
+      "hypothesis": "A three-time-layer state representation produces different projected constraint outcomes than a single-time-layer state representation.",
+      "hypothesis_id": "VF-H4",
+      "name": "three_time_layer_predictive_difference"
+    }
+  ],
+  "results_reported": false,
+  "roadmap": [
+    {
+      "milestone": "v9.0",
+      "name": "Viruse Fabric Abstract Simulation Reframing",
+      "purpose": "Define theory as a formal, simulatable, falsifiable abstract toy model.",
+      "status": "current_reframing_only"
+    },
+    {
+      "milestone": "v9.1",
+      "name": "Abstract Simulation Specification",
+      "purpose": "Specify exact graph generation, update rules, metrics, seeds, and output schema.",
+      "status": "planned"
+    },
+    {
+      "milestone": "v9.2",
+      "name": "Minimal Safe Toy Simulation Engine",
+      "purpose": "Implement the first non-operational abstract toy simulation engine.",
+      "status": "planned"
+    },
+    {
+      "milestone": "v9.3",
+      "name": "Baseline Comparison",
+      "purpose": "Compare Viruse Fabric variants against predeclared baselines.",
+      "status": "planned"
+    },
+    {
+      "milestone": "v9.4",
+      "name": "Results and Falsification Audit",
+      "purpose": "Report results and explicitly identify supported, unsupported, or inconclusive hypotheses.",
+      "status": "planned"
+    }
+  ],
+  "safe_abstract_toy_only": true,
+  "safety_boundaries": [
+    {
+      "boundary": "Safe abstract toy only.",
+      "boundary_id": "VF-SAFE-001",
+      "counter_requirement": "Real biological dataset import count remains zero."
+    },
+    {
+      "boundary": "No real pathogen simulation.",
+      "boundary_id": "VF-SAFE-002",
+      "counter_requirement": "Real pathogen simulation count remains zero."
+    },
+    {
+      "boundary": "No receptor parameters.",
+      "boundary_id": "VF-SAFE-003",
+      "counter_requirement": "Real receptor parameter count remains zero."
+    },
+    {
+      "boundary": "No operational host targeting.",
+      "boundary_id": "VF-SAFE-004",
+      "counter_requirement": "Operational host targeting count remains zero."
+    },
+    {
+      "boundary": "No wet-lab protocols.",
+      "boundary_id": "VF-SAFE-005",
+      "counter_requirement": "Wet-lab protocol count remains zero."
+    },
+    {
+      "boundary": "No actionable biosafety-risk instructions.",
+      "boundary_id": "VF-SAFE-006",
+      "counter_requirement": "Actionable biosafety-risk instruction count remains zero."
+    },
+    {
+      "boundary": "No real-world infectivity optimization.",
+      "boundary_id": "VF-SAFE-007",
+      "counter_requirement": "Real-world infectivity optimization count remains zero."
+    },
+    {
+      "boundary": "No immune evasion optimization.",
+      "boundary_id": "VF-SAFE-008",
+      "counter_requirement": "Immune evasion optimization count remains zero."
+    },
+    {
+      "boundary": "No real host range prediction.",
+      "boundary_id": "VF-SAFE-009",
+      "counter_requirement": "Real host range prediction count remains zero."
+    },
+    {
+      "boundary": "No validation, readiness, citation integration, or manuscript mutation in v9.0.",
+      "boundary_id": "VF-SAFE-010",
+      "counter_requirement": "Validation, readiness, citation, and manuscript mutation counters remain zero."
+    }
+  ],
+  "scope": "abstract-simulation-reframing-only",
+  "simulatable_theory_reframed": true,
+  "simulation_engine_created": false,
+  "simulation_run_performed": false,
+  "simulation_specification_deferred_to_v9_1": true,
+  "source_acceptance_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register_v8_228.json",
+  "state_variables": [
+    {
+      "definition": "Toy environment state attached to each graph node.",
+      "name": "node_state",
+      "type": "categorical_or_vector",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-001"
+    },
+    {
+      "definition": "Toy symbolic attributes carried by each pattern packet.",
+      "name": "packet_state",
+      "type": "vector",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-002"
+    },
+    {
+      "definition": "Node-level abstract filtering score.",
+      "name": "local_constraint_score",
+      "type": "float",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-003"
+    },
+    {
+      "definition": "System-level abstract filtering score.",
+      "name": "global_constraint_score",
+      "type": "float",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-004"
+    },
+    {
+      "definition": "Toy match score between packet state and node state.",
+      "name": "compatibility_score",
+      "type": "float",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-005"
+    },
+    {
+      "definition": "Aggregate delayed influence score.",
+      "name": "causal_mass_score",
+      "type": "float",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-006"
+    },
+    {
+      "definition": "Prior transition and constraint history retained for path dependence.",
+      "name": "memory_trace",
+      "type": "vector_or_record",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-007"
+    },
+    {
+      "definition": "Magnitude of symbolic toy-state perturbation over time.",
+      "name": "symbolic_drift",
+      "type": "float",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-008"
+    },
+    {
+      "definition": "Whether a packet remains active in the toy system.",
+      "name": "survival_indicator",
+      "type": "boolean",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-009"
+    },
+    {
+      "definition": "Toy action selected at a step: remain, move, filtered, or symbolic perturbation.",
+      "name": "transition_choice",
+      "type": "categorical",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-010"
+    },
+    {
+      "definition": "Whether a packet violates a declared abstract constraint.",
+      "name": "violation_indicator",
+      "type": "boolean",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-011"
+    },
+    {
+      "definition": "One of t1, t2, or t3 abstract simulation layers.",
+      "name": "time_layer",
+      "type": "categorical",
+      "unit": "unitless",
+      "variable_id": "VF-VAR-012"
+    }
+  ],
+  "theory_reframing_statement": "Viruse Fabric is reframed as a safe abstract toy model over graph-based symbolic pattern packets, local and global constraints, causal-mass scoring, memory-ledger path dependence, and t1/t2/t3 time-layered state. This v9.0 milestone defines a formal, simulatable, and falsifiable theory frame without creating a simulation engine and without executing any simulation.",
+  "title": "Viruse Fabric Abstract Simulation Reframing",
+  "v8_line_frozen": true,
+  "validation_claim_made": false,
+  "version": "v9.0"
+}
