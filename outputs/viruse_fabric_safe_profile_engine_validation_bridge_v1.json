@@ -1,0 +1,285 @@
+{
+  "artifact": "safe_profile_engine_validation_bridge_v1",
+  "bridge_created": true,
+  "bridge_summary": {
+    "baseline_compatible_cell_count": 1,
+    "bridge_records_preview": [
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 24,
+          "step_count_limit": 2
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0001",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 24,
+          "step_count_limit": 3
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0002",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 24,
+          "step_count_limit": 4
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0003",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 24,
+          "step_count_limit": 5
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0004",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 32,
+          "step_count_limit": 2
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0005",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 32,
+          "step_count_limit": 3
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0006",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 32,
+          "step_count_limit": 4
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0007",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 32,
+          "step_count_limit": 5
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0008",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 40,
+          "step_count_limit": 2
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0009",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 40,
+          "step_count_limit": 3
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0010",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 40,
+          "step_count_limit": 4
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0011",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      },
+      {
+        "baseline_compatible": false,
+        "claim_expansion_allowed": false,
+        "engine_parameter_values": {
+          "node_count": 12,
+          "packet_count": 40,
+          "step_count_limit": 5
+        },
+        "real_biological_semantics_allowed": false,
+        "record_id": "ENGINE-BRIDGE-CELL-0012",
+        "safe_abstract_toy_only": true,
+        "validation_route": "future_safe_sweep_profile_validation_required"
+      }
+    ],
+    "bridge_scope": "safe-profile-to-current-engine-validation-boundary-bridge-only",
+    "claim_expansion_allowed": false,
+    "default_value_map": {
+      "node_count": 16,
+      "packet_count": 32,
+      "step_count_limit": 3
+    },
+    "engine_modified": false,
+    "engine_validated_parameter_count": 3,
+    "engine_validated_parameter_values": {
+      "node_count": [
+        12,
+        16,
+        20,
+        24
+      ],
+      "packet_count": [
+        24,
+        32,
+        40,
+        48
+      ],
+      "step_count_limit": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "experiment_executed": false,
+    "forbidden_semantics": [
+      "real biological dataset",
+      "real pathogen model",
+      "receptor parameter",
+      "operational host targeting",
+      "wet-lab protocol",
+      "infectivity optimization",
+      "immune evasion optimization",
+      "host range prediction"
+    ],
+    "next_allowed_action": "modify_engine_validation_to_accept_safe_sweep_profile_on_separate_checked_commit",
+    "profile_id": "safe_toy_sweep_profile_v1",
+    "profile_parameter_count": 7,
+    "scope": "safe-abstract-toy-sweep-profile-only",
+    "sweep_only_cell_count": 63,
+    "sweep_only_values_by_parameter": {
+      "node_count": [
+        12,
+        20,
+        24
+      ],
+      "packet_count": [
+        24,
+        40,
+        48
+      ],
+      "step_count_limit": [
+        2,
+        4,
+        5
+      ]
+    },
+    "sweep_profile_cell_count": 64
+  },
+  "claim_expansion_allowed": false,
+  "counters": {
+    "Baseline-compatible current-engine cell count": 1,
+    "Claim expansion count": 0,
+    "Engine execution count": 0,
+    "Engine modification count": 0,
+    "Engine validated parameter count": 3,
+    "Experiment execution count": 0,
+    "Immune evasion optimization count": 0,
+    "Manuscript readiness claim count": 0,
+    "New milestone created count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Profile-to-engine boundary bridge count": 1,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe profile engine validation bridge artifact count": 1,
+    "Sweep execution count": 0,
+    "Sweep-only future-validation cell count": 63,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "engine_executed": false,
+  "engine_modified": false,
+  "experiment_executed": false,
+  "manuscript_readiness_claim_made": false,
+  "new_milestone_created": false,
+  "new_official_tag_created": false,
+  "next_allowed_action": "modify_engine_validation_to_accept_safe_sweep_profile_on_separate_checked_commit",
+  "passed": true,
+  "required_markers": [
+    "safe-profile-to-current-engine-validation-boundary-bridge-only",
+    "profile-to-engine validation bridge",
+    "current_engine_default_boundary",
+    "future_safe_sweep_profile_validation_required",
+    "engine not modified",
+    "engine not executed",
+    "sweep not executed",
+    "claim expansion remains forbidden",
+    "No validation claim is made",
+    "No manuscript readiness claim is made",
+    "No real biological datasets",
+    "no real pathogen models",
+    "no receptor parameters",
+    "no operational targeting",
+    "no wet-lab protocol",
+    "no infectivity optimization",
+    "no immune evasion optimization",
+    "no host range prediction"
+  ],
+  "scope": "safe-profile-to-current-engine-validation-boundary-bridge-only",
+  "source_scaffold": "safe_engine_redesign_sweep_profile_scaffold_v1",
+  "sweep_executed": false,
+  "validation_claim_made": false
+}
