@@ -31286,3 +31286,80 @@ v8.212 audits safe claim language placement planning only. It grants no applicat
 
 Official status:
 Not official until this close note is committed, fast-forward merged to master, tagged as v8.212.0 on master, and final master verification passes.
+
+## v8.213.0 close note — Safe Abstract Toy Manuscript Section Draft Package
+
+Status: close-note prepared on the v8.213 feature branch after successful rescued main artifact generation.
+
+Main hash:
+0bf8fa8
+
+Main subject:
+Add safe abstract toy manuscript section draft package
+
+Scope:
+Section-draft-package-only artifact that packages safe draft text for manuscript sections without modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_manuscript_section_draft_package.py
+- viruse_fabric/experiments/exp_293_safe_abstract_toy_manuscript_section_draft_package.py
+- outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.md
+- outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.json
+
+Validation:
+- V8_213_SAFE_ABSTRACT_TOY_MANUSCRIPT_SECTION_DRAFT_PACKAGE_OK
+- TOY_MANUSCRIPT_SECTION_DRAFT_PACKAGE_DIRECT_CHECK_OK
+- V8_213_RESCUE_DIRECT_CHECK_OK
+- V8_213_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Package phrase:
+safe_section_drafts_packaged_but_no_manuscript_patch_applied
+
+Draft package result:
+- Section draft item count: 9
+- Source audit pass count: 10
+- Source audit failure count: 0
+
+Packaged manuscript section draft families:
+- Abstract: bounded contribution sentence.
+- Introduction: problem and contribution framing.
+- Method Scope: safe abstract toy-only scope limiter.
+- Pipeline Overview: artifact lineage description.
+- Safety Controls: zero-counter safety statement.
+- Claim Governance: allowed, deferred, and prohibited claim separation.
+- Limitations: evidence boundary.
+- Safety Exclusions: real-bio non-claim.
+- Future Work: conditional evidence-upgrade pathway.
+
+Rescue note:
+The initial v8.213 validation required the exact safe phrase "does not import real biological datasets". The section draft package was corrected to preserve that exact boundary phrase while remaining safe abstract toy-only and non-operational.
+
+Counters preserved at zero:
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.213 packages safe manuscript section draft text only. It grants no application permission, performs no checklist execution, completes no checklist item, applies no manuscript patch, modifies no manuscript file, creates no readiness approval, validates no scientific claim, adds no proof, adds no citation, and adds no real-biological operational capability.
+
+Official status:
+Not official until this close note is committed, fast-forward merged to master, tagged as v8.213.0 on master, and final master verification passes.
