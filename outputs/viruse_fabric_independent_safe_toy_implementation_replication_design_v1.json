@@ -1,0 +1,124 @@
+{
+  "artifact": "independent_safe_toy_implementation_replication_design_v1",
+  "base_artifact_resistance_interpretation_commit": "7448020",
+  "claim_expansion_allowed": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Claim expansion count": 0,
+    "Documentation-only artifact count": 1,
+    "External validation count": 0,
+    "Formal proof claim count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent replication execution count": 0,
+    "Independent safe toy replication design count": 1,
+    "Independent validation count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Planned independent safe toy replicate count": 64,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Replication implementation count": 0,
+    "Theory validation claim count": 0,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "current_supported_status": "artifact_resistant_internal_toy_support_for_vf_h2",
+  "design_type": "final-route-independent-safe-toy-replication-design",
+  "documentation_only": true,
+  "final_route": [
+    "design independent safe toy implementation replication",
+    "implement and run independent safe toy implementation replication",
+    "interpret independent replication result without claim validation",
+    "write limited results section",
+    "formalize VF-H2 mathematical core",
+    "prepare technical note only if boundaries remain satisfied"
+  ],
+  "hypothesis": "VF-H2",
+  "independence_requirements": {
+    "do_not_import_existing_artifact_resistance_experiment": true,
+    "do_not_import_existing_robustness_experiment": true,
+    "real_biological_semantics_allowed": false,
+    "reimplement_ledger_effect_size_metric": true,
+    "reimplement_memory_ledger_condition": true,
+    "reimplement_null_control": true,
+    "reimplement_packet_generation": true,
+    "safe_abstract_toy_only": true,
+    "use_new_deterministic_abstract_seed_schedule": true
+  },
+  "independent_replication_designed": true,
+  "independent_replication_executed": false,
+  "next_allowed_action": "implement_and_run_independent_safe_toy_implementation_replication_no_real_bio_no_claim_validation",
+  "passed": true,
+  "planned_replication_protocol": {
+    "failure_rule": "positive ledger_effect_size below 50 percent, non-positive mean ledger_effect_size, or any null-control leak",
+    "inconclusive_rule": "positive ledger_effect_size from 50 percent to below 80 percent with zero null-control leaks",
+    "minimum_valid_replicates": 64,
+    "planned_replicate_count": 64,
+    "primary_metric": "ledger_effect_size",
+    "strong_support_rule": "positive ledger_effect_size in at least 90 percent of independent safe toy replicates, mean ledger_effect_size greater than 0, and zero null-control leaks",
+    "success_rule": "positive ledger_effect_size in at least 80 percent of independent safe toy replicates and zero null-control leaks"
+  },
+  "planned_safe_parameter_space": {
+    "biological_semantics_allowed": false,
+    "node_count_values": [
+      12,
+      14,
+      16,
+      18
+    ],
+    "packet_count_values": [
+      18,
+      21,
+      24,
+      27
+    ],
+    "replicate_count": 64,
+    "step_count_values": [
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "replication_implementation_created": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_design": {
+    "artifact_resistant_internal_toy_support_for_vf_h2": true,
+    "claim_expansion": false,
+    "external_validation": false,
+    "formal_proof": false,
+    "independent_replication_support_established": false,
+    "independent_safe_toy_replication_design_created": true,
+    "independent_safe_toy_replication_executed": false,
+    "independent_validation": false,
+    "manuscript_readiness": false,
+    "real_evidence": false,
+    "submission_readiness": false,
+    "theory_validation": false
+  },
+  "scope": "design-independent-safe-toy-implementation-replication-no-execution",
+  "signal": "ledger_effect_size",
+  "source_artifact": "safe_artifact_resistance_and_ablation_result_interpretation_v1",
+  "why_this_step_is_needed": [
+    "Current support is strong but internal to the current implementation.",
+    "Independent safe toy replication tests whether VF-H2 survives a separately written implementation.",
+    "This reduces implementation-artifact risk before writing a results section."
+  ]
+}
