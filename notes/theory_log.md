@@ -31735,3 +31735,107 @@ v8.217 continues the output-oriented path after v8.215 and v8.216 by designing a
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.217.0 on master, and final master verification passes.
+
+## v8.218.0 close note — Safe Abstract Toy Manuscript Coherence Improvement Package
+
+Status: close-note prepared on the v8.218 feature branch after successful main artifact generation.
+
+Main hash:
+65968c4
+
+Main subject:
+Add safe abstract toy manuscript coherence improvement package
+
+Scope:
+Manuscript-coherence-improvement-package-only artifact that improves the narrative plan for the safe abstract toy manuscript preview without applying a rewrite or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_manuscript_coherence_improvement_package.py
+- viruse_fabric/experiments/exp_298_safe_abstract_toy_manuscript_coherence_improvement_package.py
+- outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.md
+- outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.json
+
+Validation:
+- V8_218_SAFE_ABSTRACT_TOY_MANUSCRIPT_COHERENCE_IMPROVEMENT_PACKAGE_OK
+- TOY_MANUSCRIPT_COHERENCE_IMPROVEMENT_PACKAGE_DIRECT_CHECK_OK
+- V8_218_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Package phrase:
+manuscript_coherence_improved_but_no_manuscript_file_modified
+
+Coherence improvement result:
+- Coherence improvement item count: 10
+- Improved outline section count: 9
+- Transition text count: 10
+- Retained boundary count: 10
+- Blocked overclaim count: 10
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source evaluation design module count: 10
+- Source actual evaluation run count: 0
+- Source validation claim count: 0
+- Source evidence upgrade completed count: 0
+- Rewrite application count: 0
+
+Improved coherence areas:
+- Global narrative spine
+- Abstract coherence
+- Introduction story arc
+- Method scope bridge
+- Pipeline overview transitions
+- Safety controls framing
+- Claim governance explanation
+- Limitations balance
+- Evaluation design bridge
+- Future work roadmap
+
+Required safety and boundary phrases preserved:
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- zero applied patches
+- zero manuscript mutation
+- zero readiness approval
+- zero external validation
+- zero proof assistant verification
+- zero new citation addition
+- Future work may only introduce stronger claims
+
+Counters preserved at zero:
+- Toy manuscript coherence rewrite application count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.218 improves the manuscript coherence plan only. It does not apply a rewrite, modify any manuscript file, execute evaluation, produce evaluation results, validate claims, complete evidence upgrades, add citations, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.218 continues the output-oriented path by improving narrative coherence, contribution clarity, limitation balance, transition structure, and future-work sequencing instead of adding another audit-only layer.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.218.0 on master, and final master verification passes.
