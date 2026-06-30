@@ -1,0 +1,215 @@
+{
+  "artifact": "limited_technical_note_v2_related_work_integration_plan_v1",
+  "base_related_work_audit_commit": "59f7971",
+  "claim_expansion_allowed": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Claim expansion count": 0,
+    "Complete manuscript created count": 0,
+    "External validation count": 0,
+    "Formal proof count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent validation count": 0,
+    "Limited technical note v1 modified count": 0,
+    "Limited technical note v2 created count": 0,
+    "Literature support claim count": 0,
+    "Literature validation claim count": 0,
+    "Manuscript readiness claim count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New reference added count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Planned integration action count": 5,
+    "Planned reference count": 11,
+    "Planned related work citation count": 11,
+    "Planned v2 section count": 14,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Related work integrated into note count": 0,
+    "Submission readiness claim count": 0,
+    "Submission ready manuscript created count": 0,
+    "Theorem proved count": 0,
+    "Theory validation claim count": 0,
+    "V2 related work integration plan count": 1,
+    "Validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "hypothesis": "VF-H2",
+  "integration_boundary": "integration_plan_only_no_note_modification_no_new_citations_no_validation_claim",
+  "integration_plan_created": true,
+  "integration_plan_text": "# Limited Technical Note v2 Related-Work Integration Plan v1\n\n## Status\n\nScope: draft-limited-technical-note-v2-related-work-integration-plan-no-claim-validation\n\nThis artifact creates an integration plan only. It does not create limited technical note v2, does not modify limited technical note v1, does not insert related work into the technical note, does not add new citations, does not add new references, does not claim literature support, does not claim validation, and does not claim manuscript readiness.\n\n## Purpose\n\nThe purpose of this plan is to define how the audited citation-inserted related-work draft may later be integrated into a limited technical note v2.\n\nThe integration must preserve the existing boundary: VF-H2 has bounded internal safe toy support only. It is not a full theory validation, not a formal proof, not biological validation, not external validation, not independent empirical validation, not manuscript readiness, and not submission readiness.\n\n## Required v2 Structure\n\n1. Title\n2. Status Boundary\n3. Abstract\n4. Introduction\n5. Related Work\n6. Mathematical Core\n7. VF-H2 Hypothesis\n8. Methods\n9. Results\n10. Bounded Interpretation\n11. Limitations\n12. Safety Boundary\n13. References\n14. Explicit Non-Claims\n\n## Related-Work Placement Rule\n\nThe audited related-work draft should be inserted after the Introduction and before the Mathematical Core.\n\nReason:\nThis placement contextualizes terminology and methodology before formal definitions while avoiding the impression that literature validates the mathematical core or toy results.\n\n## Citation Use Boundary\n\nThe inserted citation keys may only support:\n\n- background only,\n- terminology support only,\n- conceptual positioning only,\n- methodological framing only.\n\nThe inserted citation keys may not support:\n\n- VF-H2 validation,\n- Viruse Fabric theory validation,\n- formal proof,\n- empirical validation,\n- biological validation,\n- external validation,\n- manuscript readiness,\n- submission readiness.\n\n## References Rule\n\nThe verified related-work references may be appended as a bounded reference list. The reference list must include only the 11 accepted verified sources.\n\nRejected or held sources must not be inserted:\n\n- SRC-CAND-NM-002 remains rejected due biological/epidemic boundary risk.\n- SRC-CAND-CA-001 remains held pending final bibliographic verification.\n- SRC-CAND-ALIFE-001 remains held pending scope and citation-quality review.\n\n## Preservation Rules\n\nThe v2 integration must preserve:\n\n- safe abstract toy model only,\n- VF-H2 limited hypothesis language,\n- `ledger_effect_size` as toy signal,\n- no-persistent-memory null control boundary,\n- artifact-resistance and independent implementation-level replication as internal toy-risk reduction only,\n- no external validation,\n- no biological validation,\n- no manuscript readiness.\n\n## Explicit Non-Claims\n\nThis integration plan does not claim:\n\n- limited technical note v2 has been created,\n- related work has been integrated,\n- new citations have been added,\n- new references have been added,\n- literature support has been established,\n- literature validation has been established,\n- theory validation,\n- formal proof,\n- external validation,\n- independent empirical validation,\n- biological relevance,\n- real-world relevance,\n- manuscript readiness,\n- submission readiness.\n\n## Safety Boundary\n\nSafe abstract toy model only. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.\n\n## Next Allowed Action\n\nexecute_limited_technical_note_v2_related_work_integration_no_claim_validation\n",
+  "integration_sections": [
+    {
+      "action": "preserve and slightly expand boundary language",
+      "must_include": [
+        "limited technical note",
+        "not a complete manuscript",
+        "not a submission-ready paper",
+        "not a formal proof",
+        "not theory validation",
+        "not biological validation"
+      ],
+      "must_not_include": [
+        "submission ready",
+        "validated theory",
+        "formal proof provided"
+      ],
+      "plan_id": "V2-INTEGRATE-001",
+      "source": "limited_technical_note_v1",
+      "target_v2_section": "Status Boundary"
+    },
+    {
+      "action": "insert audited related-work draft after Introduction and before Mathematical Core",
+      "must_include": [
+        "graph dynamical systems",
+        "memory and non-Markovian processes",
+        "temporal networks",
+        "memory-augmented automata",
+        "reservoir-style analogy",
+        "null models and robustness",
+        "excluded or held sources",
+        "related-work boundary"
+      ],
+      "must_not_include": [
+        "literature validates VF-H2",
+        "references prove VF-H2",
+        "biological validation"
+      ],
+      "plan_id": "V2-INTEGRATE-002",
+      "source": "citation_inserted_related_work_draft_v1",
+      "target_v2_section": "Related Work"
+    },
+    {
+      "action": "preserve existing mathematical core without claim expansion",
+      "must_include": [
+        "finite abstract graph",
+        "persistent memory ledger",
+        "causal mass",
+        "ledger_effect_size",
+        "no-persistent-memory null control"
+      ],
+      "must_not_include": [
+        "formal theorem proved",
+        "full theory validation"
+      ],
+      "plan_id": "V2-INTEGRATE-003",
+      "source": "limited_technical_note_v1",
+      "target_v2_section": "Mathematical Core"
+    },
+    {
+      "action": "preserve bounded safe toy results and internal-toy language",
+      "must_include": [
+        "safe abstract toy",
+        "internal toy support",
+        "artifact-resistance",
+        "independent implementation-level replication"
+      ],
+      "must_not_include": [
+        "external validation",
+        "independent empirical validation",
+        "real-world evidence"
+      ],
+      "plan_id": "V2-INTEGRATE-004",
+      "source": "limited_technical_note_v1",
+      "target_v2_section": "Results"
+    },
+    {
+      "action": "append verified related-work references as a bounded reference list",
+      "must_include": [
+        "Aledo",
+        "Jarrah",
+        "Holme",
+        "Williams",
+        "Lambiotte",
+        "Martínez",
+        "Jaeger",
+        "Barančok",
+        "Váša",
+        "Nature Computational Science Editorial Board",
+        "Ankel-Peters"
+      ],
+      "must_not_include": [
+        "Starnini",
+        "Boguñá",
+        "McAtee",
+        "Szabo"
+      ],
+      "plan_id": "V2-INTEGRATE-005",
+      "source": "verified_related_work_references_v1",
+      "target_v2_section": "References"
+    }
+  ],
+  "limited_technical_note_v1_modified": false,
+  "limited_technical_note_v2_created": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "new_citations_added": false,
+  "new_references_added": false,
+  "next_allowed_action": "execute_limited_technical_note_v2_related_work_integration_no_claim_validation",
+  "passed": true,
+  "planned_integration_action_count": 5,
+  "planned_reference_count": 11,
+  "planned_related_work_citation_count": 11,
+  "planned_v2_outline": [
+    "Title",
+    "Status Boundary",
+    "Abstract",
+    "Introduction",
+    "Related Work",
+    "Mathematical Core",
+    "VF-H2 Hypothesis",
+    "Methods",
+    "Results",
+    "Bounded Interpretation",
+    "Limitations",
+    "Safety Boundary",
+    "References",
+    "Explicit Non-Claims"
+  ],
+  "planned_v2_section_count": 14,
+  "related_work_integrated_into_note": false,
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scientific_state_after_v2_integration_plan": {
+    "citation_inserted_related_work_audit_passed": true,
+    "citation_inserted_related_work_draft_created": true,
+    "claim_expansion": false,
+    "complete_manuscript_created": false,
+    "external_validation": false,
+    "formal_proof": false,
+    "independent_validation": false,
+    "limited_technical_note_v1_created": true,
+    "limited_technical_note_v1_modified": false,
+    "limited_technical_note_v2_created": false,
+    "literature_support_claim": false,
+    "literature_validation": false,
+    "manuscript_readiness": false,
+    "new_citations_added": false,
+    "new_references_added": false,
+    "real_evidence": false,
+    "related_work_integrated_into_note": false,
+    "submission_readiness": false,
+    "submission_ready_manuscript_created": false,
+    "theorem_proved": false,
+    "theory_validation": false,
+    "v2_related_work_integration_plan_created": true
+  },
+  "scope": "draft-limited-technical-note-v2-related-work-integration-plan-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_citation_inserted_related_work_artifact": "citation_inserted_related_work_draft_v1",
+  "source_limited_technical_note_v1_artifact": "limited_technical_note_v1",
+  "source_related_work_audit_artifact": "citation_inserted_related_work_draft_v1_audit"
+}
