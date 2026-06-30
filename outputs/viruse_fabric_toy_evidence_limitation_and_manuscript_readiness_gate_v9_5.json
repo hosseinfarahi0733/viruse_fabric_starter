@@ -1,0 +1,253 @@
+{
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation citation-ready source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "V9 blocking evidence limitation count": 8,
+    "V9 manuscript readiness approval count": 0,
+    "V9 manuscript readiness claim count": 0,
+    "V9 manuscript readiness denial count": 1,
+    "V9 manuscript readiness gate execution count": 1,
+    "V9 readiness hard requirement count": 7,
+    "V9 readiness hard requirement failed count": 5,
+    "V9 readiness hard requirement passed count": 2,
+    "V9 source falsification audit execution count": 1,
+    "V9 source formal results report count": 1,
+    "V9 source manuscript readiness claim count": 0,
+    "V9 source results report count": 1,
+    "V9 source theory validation claim count": 0,
+    "V9 source toy falsification audit record count": 4,
+    "V9 source toy result summary count": 1,
+    "V9 theory validation claim count": 0,
+    "V9 toy evidence limitation analysis count": 1,
+    "V9 toy evidence limitation and readiness gate artifact count": 1,
+    "Wet-lab protocol count": 0
+  },
+  "gate_statement": "v9.5 executes a toy evidence limitation analysis and manuscript readiness gate. The gate denies manuscript submission readiness because the project remains toy-only and lacks external validation, independent experiment, proof assistant verification, citation integration, manuscript mutation, and readiness approval.",
+  "limitation_register": [
+    {
+      "blocking": true,
+      "description": "The available evidence is safe abstract toy evidence only and cannot be treated as empirical or real-world validation.",
+      "limitation_id": "V9-5-LIMIT-001",
+      "name": "toy_only_evidence_boundary"
+    },
+    {
+      "blocking": true,
+      "description": "No external validation has been performed.",
+      "limitation_id": "V9-5-LIMIT-002",
+      "name": "no_external_validation"
+    },
+    {
+      "blocking": true,
+      "description": "No independent experiment has been performed.",
+      "limitation_id": "V9-5-LIMIT-003",
+      "name": "no_independent_experiment"
+    },
+    {
+      "blocking": true,
+      "description": "No proof assistant verification has been performed.",
+      "limitation_id": "V9-5-LIMIT-004",
+      "name": "no_proof_assistant_verification"
+    },
+    {
+      "blocking": true,
+      "description": "No citation integration has been completed and no citation has been added to manuscript text.",
+      "limitation_id": "V9-5-LIMIT-005",
+      "name": "no_citation_integration"
+    },
+    {
+      "blocking": true,
+      "description": "No manuscript file has been modified, patched, or made submission-ready.",
+      "limitation_id": "V9-5-LIMIT-006",
+      "name": "no_manuscript_mutation"
+    },
+    {
+      "blocking": true,
+      "description": "No real biological dataset, real pathogen simulation, receptor parameter, operational targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction has been introduced.",
+      "limitation_id": "V9-5-LIMIT-007",
+      "name": "no_real_biological_validation"
+    },
+    {
+      "blocking": true,
+      "description": "The toy audit does not validate the theory.",
+      "limitation_id": "V9-5-LIMIT-008",
+      "name": "no_theory_validation_claim"
+    }
+  ],
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_readiness_approved": false,
+  "manuscript_readiness_denied": true,
+  "manuscript_readiness_gate_executed": true,
+  "new_citation_added": false,
+  "non_validation_disclaimer": "Toy evidence limitation and readiness gate only. No validation claim is made. No manuscript readiness claim is made. No submission readiness approval is recorded. No external validation is performed. No independent experiment is performed. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.",
+  "passed": true,
+  "plan_phrase": "v9_5_toy_evidence_limitation_and_manuscript_readiness_gate_without_submission_approval",
+  "readiness_approval_recorded": false,
+  "readiness_gate": {
+    "approval_recorded": false,
+    "blocking_limitation_count": 8,
+    "blocking_limitations": [
+      {
+        "blocking": true,
+        "description": "The available evidence is safe abstract toy evidence only and cannot be treated as empirical or real-world validation.",
+        "limitation_id": "V9-5-LIMIT-001",
+        "name": "toy_only_evidence_boundary"
+      },
+      {
+        "blocking": true,
+        "description": "No external validation has been performed.",
+        "limitation_id": "V9-5-LIMIT-002",
+        "name": "no_external_validation"
+      },
+      {
+        "blocking": true,
+        "description": "No independent experiment has been performed.",
+        "limitation_id": "V9-5-LIMIT-003",
+        "name": "no_independent_experiment"
+      },
+      {
+        "blocking": true,
+        "description": "No proof assistant verification has been performed.",
+        "limitation_id": "V9-5-LIMIT-004",
+        "name": "no_proof_assistant_verification"
+      },
+      {
+        "blocking": true,
+        "description": "No citation integration has been completed and no citation has been added to manuscript text.",
+        "limitation_id": "V9-5-LIMIT-005",
+        "name": "no_citation_integration"
+      },
+      {
+        "blocking": true,
+        "description": "No manuscript file has been modified, patched, or made submission-ready.",
+        "limitation_id": "V9-5-LIMIT-006",
+        "name": "no_manuscript_mutation"
+      },
+      {
+        "blocking": true,
+        "description": "No real biological dataset, real pathogen simulation, receptor parameter, operational targeting, wet-lab protocol, infectivity optimization, immune evasion optimization, or host range prediction has been introduced.",
+        "limitation_id": "V9-5-LIMIT-007",
+        "name": "no_real_biological_validation"
+      },
+      {
+        "blocking": true,
+        "description": "The toy audit does not validate the theory.",
+        "limitation_id": "V9-5-LIMIT-008",
+        "name": "no_theory_validation_claim"
+      }
+    ],
+    "decision_reason": "The project has safe toy evidence, a formal toy results report, and a toy falsification audit, but it lacks external validation, independent experiment, proof assistant verification, citation integration, manuscript mutation, and readiness approval. Therefore manuscript submission readiness is denied.",
+    "gate_decision": "not_ready_for_manuscript_submission",
+    "gate_id": "V9-5-MANUSCRIPT-READINESS-GATE-001",
+    "gate_scope": "toy-evidence-limitation-and-readiness-denial-only",
+    "hard_requirement_count": 7,
+    "hard_requirement_failed_count": 5,
+    "hard_requirement_passed_count": 2,
+    "hard_requirements": [
+      {
+        "actual_value": 1,
+        "name": "formal_toy_results_available",
+        "passed": true,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-001"
+      },
+      {
+        "actual_value": 1,
+        "name": "toy_falsification_audit_available",
+        "passed": true,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-002"
+      },
+      {
+        "actual_value": 0,
+        "name": "external_validation_available",
+        "passed": false,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-003"
+      },
+      {
+        "actual_value": 0,
+        "name": "independent_experiment_available",
+        "passed": false,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-004"
+      },
+      {
+        "actual_value": 0,
+        "name": "citation_integration_available",
+        "passed": false,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-005"
+      },
+      {
+        "actual_value": 0,
+        "name": "manuscript_mutation_available",
+        "passed": false,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-006"
+      },
+      {
+        "actual_value": 0,
+        "name": "readiness_approval_available",
+        "passed": false,
+        "required_value": 1,
+        "requirement_id": "V9-5-GATE-REQ-007"
+      }
+    ],
+    "submission_ready": false,
+    "theory_validation_claim_made": false
+  },
+  "safe_abstract_toy_only": true,
+  "scope": "toy-evidence-limitation-and-manuscript-readiness-gate-only",
+  "source_audit_json": "outputs/viruse_fabric_results_and_falsification_audit_v9_4.json",
+  "source_baseline_json": "outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.json",
+  "source_engine_json": "outputs/viruse_fabric_minimal_safe_toy_simulation_engine_v9_2.json",
+  "source_reframing_json": "outputs/viruse_fabric_abstract_simulation_reframing_v9_0.json",
+  "source_spec_json": "outputs/viruse_fabric_abstract_simulation_specification_v9_1.json",
+  "submission_ready": false,
+  "title": "Viruse Fabric Toy Evidence Limitation and Manuscript Readiness Gate",
+  "toy_evidence_limitation_analysis_performed": true,
+  "toy_evidence_summary": {
+    "detailed_specification_completed_count": 1,
+    "engine_implementation_count": 1,
+    "evidence_boundary": "Toy evidence exists only inside the safe abstract toy setting. It is not empirical evidence, not external validation, not independent validation, not a theory validation claim, not manuscript readiness, and not submission readiness.",
+    "formal_toy_results_report_count": 1,
+    "reframed_hypothesis_count": 4,
+    "safe_abstract_toy_only": true,
+    "safe_toy_baseline_comparison_execution_count": 1,
+    "safe_toy_baseline_comparison_record_count": 5,
+    "safe_toy_run_record_count": 6,
+    "safe_toy_simulation_execution_count": 1,
+    "summary_id": "V9-5-TOY-EVIDENCE-SUMMARY-001",
+    "toy_falsification_audit_execution_count": 1,
+    "toy_falsification_audit_record_count": 4
+  },
+  "validation_claim_made": false,
+  "version": "v9.5"
+}
