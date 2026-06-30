@@ -1,0 +1,209 @@
+{
+  "abstract_graphs_only": true,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "audit_items": [
+    {
+      "audit_check": "Source scope remains section-draft-package-only.",
+      "boundary_note": "The source package is draft-package-only and does not modify manuscript files.",
+      "expected": "section-draft-package-only",
+      "id": "DA-01",
+      "observed": "section-draft-package-only",
+      "passed": true
+    },
+    {
+      "audit_check": "Section draft item count and source-audit linkage remain correct.",
+      "boundary_note": "The draft package remains linked to the passing v8.212 placement-plan audit.",
+      "expected": {
+        "draft_items": 9,
+        "source_audit_failure_count": 0,
+        "source_audit_pass_count": 10
+      },
+      "id": "DA-02",
+      "observed": {
+        "draft_items": 9,
+        "source_audit_failure_count": 0,
+        "source_audit_pass_count": 10
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "All intended manuscript sections are present exactly once.",
+      "boundary_note": "Section coverage is stable and contains no extra manuscript section.",
+      "expected": [
+        "Abstract",
+        "Claim Governance",
+        "Future Work",
+        "Introduction",
+        "Limitations",
+        "Method Scope",
+        "Pipeline Overview",
+        "Safety Controls",
+        "Safety Exclusions"
+      ],
+      "id": "DA-03",
+      "observed": [
+        "Abstract",
+        "Claim Governance",
+        "Future Work",
+        "Introduction",
+        "Limitations",
+        "Method Scope",
+        "Pipeline Overview",
+        "Safety Controls",
+        "Safety Exclusions"
+      ],
+      "passed": true
+    },
+    {
+      "audit_check": "Method scope draft preserves safe abstract toy-only and real-bio exclusion wording.",
+      "boundary_note": "The method-scope draft excludes real-biological operation.",
+      "expected": "synthetic toy-only scope and real-bio exclusions",
+      "id": "DA-04",
+      "observed": "This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review.",
+      "passed": true
+    },
+    {
+      "audit_check": "Safety controls draft preserves zero-counter wording.",
+      "boundary_note": "Zero counters are stated as boundary controls only.",
+      "expected": "zero permission, execution, patch, mutation, readiness, evidence, and real-bio capability",
+      "id": "DA-05",
+      "observed": "This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review.",
+      "passed": true
+    },
+    {
+      "audit_check": "Limitations draft preserves non-readiness and non-validation boundaries.",
+      "boundary_note": "The limitation draft blocks evidence and readiness overclaims.",
+      "expected": "no validation, experiment, proof, citation-completed claims, applied patches, or submission readiness",
+      "id": "DA-06",
+      "observed": "This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review.",
+      "passed": true
+    },
+    {
+      "audit_check": "Safety exclusions draft blocks operational biological capabilities.",
+      "boundary_note": "The safety exclusions remain explicit and non-operational.",
+      "expected": "real-bio non-claim coverage",
+      "id": "DA-07",
+      "observed": "This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review.",
+      "passed": true
+    },
+    {
+      "audit_check": "Future work draft remains conditional and does not imply completed milestones.",
+      "boundary_note": "Future work remains conditional, not accomplished.",
+      "expected": "future claims only after separately audited milestones",
+      "id": "DA-08",
+      "observed": "This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review.",
+      "passed": true
+    },
+    {
+      "audit_check": "Blocked expansion and usage-boundary language prevent overclaim drift.",
+      "boundary_note": "Draft usage boundaries and blocked expansions remain protective.",
+      "expected": "blocked expansion coverage across drafts",
+      "id": "DA-09",
+      "observed": "Abstract bounded contribution sentence This work presents an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions, claim boundaries, safe claim language, and planned placement of that language. Use only as a governance contribution statement. Do not add validation, performance, biological realism, or submission readiness. Introduction problem and contribution framing The central contribution is a controlled governance layer for safe abstract toy manuscript development: it records decision lineage, separates allowed from deferred and prohibited claims, and packages audited wording before any manuscript modification is authorized. Use for framing the contribution without implying empirical success. Do not claim the framework has been scientifically validated. Method Scope scope limiter All artifacts in this lineage are synthetic, abstract, unitless, non-operational, and toy-only. The lineage does not import real biological datasets, use real receptor parameters, simulate real pathogens, or support operational biological targeting. Use to define the safe abstract toy-only boundary. Do not add real biological examples, parameters, datasets, or host-targeting language. Pipeline Overview artifact lineage description The staged lineage proceeds through proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, claim language audit, placement planning, and placement-plan audit. Use as artifact history only. Do not state that manuscript patches have been applied. Safety Controls zero-counter safety statement The internal safety counters preserve zero application permission, zero checklist execution, zero applied patches, zero manuscript mutation, zero readiness approval, zero external validation, zero proof assistant verification, zero new citation addition, and zero real-biological operational capability. Use as a boundary-control statement, not as scientific evidence. Do not treat zero counters as validation or proof. Claim Governance allowed/deferred/prohibited claim separation The claim governance layer classifies manuscript wording into currently allowed, deferred, and prohibited families, preventing governance descriptions from drifting into readiness, validation, or real-biological operational claims. Use to explain claim discipline. Do not present claim classification as approval to submit. Limitations evidence boundary The current evidence base does not establish external validation, independent experimental support, formal proof, citation-completed claims, applied manuscript patches, or manuscript submission readiness. Use unchanged until future audited evidence exists. Do not weaken this limitation without a future official evidence-upgrade milestone. Safety Exclusions real-bio non-claim The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, host-range prediction, wet-lab protocols, or actionable biosafety-risk procedures. Use as explicit exclusion language. Do not add operational biological mechanisms or procedures. Future Work conditional evidence-upgrade pathway Future work may only introduce stronger claims after separately audited milestones for safe manuscript patch application, citation integration, non-operational toy evaluation, proof pathway, or submission readiness review. Use to describe conditional future work only. Do not imply that future milestones have already occurred.",
+      "passed": true
+    },
+    {
+      "audit_check": "Application, evidence-upgrade, and real-biological operational counters remain zero.",
+      "boundary_note": "The section draft package performs no application, readiness, evidence, or real-bio upgrade.",
+      "expected": "all forbidden counters zero",
+      "id": "DA-10",
+      "observed": {
+        "Actionable biosafety-risk instruction count": 0,
+        "External validation count": 0,
+        "Immune evasion optimization count": 0,
+        "Independent experiment count": 0,
+        "Manuscript submission ready count": 0,
+        "New citation added count": 0,
+        "Operational host targeting count": 0,
+        "Proof assistant verification count": 0,
+        "Readiness approval count": 0,
+        "Real biological dataset import count": 0,
+        "Real host range prediction count": 0,
+        "Real pathogen simulation count": 0,
+        "Real receptor parameter count": 0,
+        "Real-world infectivity optimization count": 0,
+        "Toy manuscript patch application applied patch count": 0,
+        "Toy manuscript patch application checklist completion count": 0,
+        "Toy manuscript patch application checklist execution count": 0,
+        "Toy manuscript patch application manuscript file modified count": 0,
+        "Toy manuscript patch application manuscript mutation count": 0,
+        "Toy manuscript patch application permission count": 0,
+        "Wet-lab protocol count": 0
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "The audit itself remains non-executing and non-authorizing.",
+      "boundary_note": "This artifact audits the section draft package only and grants no permission.",
+      "expected": "audit-only",
+      "id": "DA-11",
+      "observed": "audit-only",
+      "passed": true
+    }
+  ],
+  "audit_phrase": "safe_section_drafts_audited_but_no_manuscript_patch_applied",
+  "boundary_notes": [
+    "The source package is draft-package-only and does not modify manuscript files.",
+    "The draft package remains linked to the passing v8.212 placement-plan audit.",
+    "Section coverage is stable and contains no extra manuscript section.",
+    "The method-scope draft excludes real-biological operation.",
+    "Zero counters are stated as boundary controls only.",
+    "The limitation draft blocks evidence and readiness overclaims.",
+    "The safety exclusions remain explicit and non-operational.",
+    "Future work remains conditional, not accomplished.",
+    "Draft usage boundaries and blocked expansions remain protective.",
+    "The section draft package performs no application, readiness, evidence, or real-bio upgrade.",
+    "This artifact audits the section draft package only and grants no permission."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy manuscript section draft package audit count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy manuscript section draft package audit count": 1,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy manuscript section draft package audit JSON export count": 1,
+    "Toy manuscript section draft package audit boundary note count": 11,
+    "Toy manuscript section draft package audit direct execution count": 1,
+    "Toy manuscript section draft package audit execution count": 1,
+    "Toy manuscript section draft package audit failure count": 0,
+    "Toy manuscript section draft package audit item count": 11,
+    "Toy manuscript section draft package audit non-readiness disclaimer count": 1,
+    "Toy manuscript section draft package audit pass count": 11,
+    "Wet-lab protocol count": 0
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.214 artifact audits the v8.213 safe section draft package only. It does not complete checklist items, execute checklist steps, grant application permission, apply manuscript patches, modify manuscript files, approve readiness, establish submission readiness, validate scientific claims, add citations, or add real-biological operational capability.",
+  "passed": true,
+  "safe_abstract_toy_only": true,
+  "scope": "section-draft-package-audit-only",
+  "source_json": "outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.json",
+  "source_markdown": "outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.md",
+  "source_markdown_character_count": 6862,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Manuscript Section Draft Package Audit",
+  "unitless_parameters_only": true,
+  "version": "v8.214"
+}
