@@ -30910,3 +30910,80 @@ v8.207 audits consistency of the v8.206 finding register only. It grants no appl
 
 Official status:
 Not official until this close note is committed, fast-forward merged to master, tagged as v8.207.0 on master, and final master verification passes.
+
+## v8.208.0 close note — Safe Abstract Toy Manuscript Claim Boundary Register
+
+Status: close-note prepared on the v8.208 feature branch after successful main artifact generation.
+
+Main hash:
+323e504
+
+Main subject:
+Add safe abstract toy manuscript claim boundary register
+
+Scope:
+Claim-boundary-register-only artifact that separates currently allowed, deferred, and prohibited manuscript claims.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_manuscript_claim_boundary_register.py
+- viruse_fabric/experiments/exp_288_safe_abstract_toy_manuscript_claim_boundary_register.py
+- outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.md
+- outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.json
+
+Validation:
+- V8_208_SAFE_ABSTRACT_TOY_MANUSCRIPT_CLAIM_BOUNDARY_REGISTER_OK
+- TOY_MANUSCRIPT_CLAIM_BOUNDARY_REGISTER_DIRECT_CHECK_OK
+- V8_208_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Register phrase:
+claim_boundaries_registered_but_no_readiness_or_real_bio_claims
+
+Claim boundary counts:
+- Allowed now: 4
+- Deferred until future evidence: 3
+- Prohibited currently: 2
+
+Allowed claim family:
+- Internally audited, safety-bounded, safe abstract toy-only governance pipeline.
+- Staged artifact lineage from proposal through consistency audit.
+- Zero-counter preservation for no permission, no applied patch, no mutation, and no readiness approval.
+- Separation of allowed, deferred, and prohibited manuscript claims.
+
+Deferred claim family:
+- Applied manuscript patch claims.
+- External validation, independent experiment, proof assistant verification, or citation-supported claims.
+- Scientific efficacy, generalizability, performance, or predictive claims.
+
+Prohibited claim family:
+- Real-biological operational claims.
+- Submission readiness, acceptance likelihood, publication readiness, or approval language.
+
+Counters preserved at zero:
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.208 registers claim boundaries only. It grants no application permission, performs no checklist execution, completes no checklist item, applies no manuscript patch, modifies no manuscript file, creates no readiness approval, validates no scientific claim, adds no proof, adds no citation, and adds no real-biological operational capability.
+
+Official status:
+Not official until this close note is committed, fast-forward merged to master, tagged as v8.208.0 on master, and final master verification passes.
