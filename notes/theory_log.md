@@ -33775,3 +33775,112 @@ v9.3 is the first milestone in this line where safe toy execution and safe toy b
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v9.3.0 on master, and final master verification passes.
+
+## v9.4.0 close note - Viruse Fabric Results and Falsification Audit
+
+Status:
+Close-note prepared on the v9.4 feature branch after successful formal toy results reporting and toy falsification audit execution.
+
+Main hash:
+ad2e85c
+
+Main subject:
+Add Viruse Fabric results and falsification audit
+
+Scope:
+Formal-toy-results-and-falsification-audit-only artifact. This milestone produces a formal toy results report and executes a toy falsification audit from the v9.3 safe toy baseline comparison records. It reports toy metric summaries, toy baseline divergences, and toy hypothesis audit records. It does not validate the theory, does not approve manuscript readiness, does not modify manuscript files, does not add citations, does not perform external validation, and does not perform an independent experiment.
+
+Plan phrase:
+v9_4_results_and_falsification_audit_without_validation_or_manuscript_readiness
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_results_and_falsification_audit.py
+- viruse_fabric/experiments/exp_904_viruse_fabric_results_and_falsification_audit.py
+- outputs/viruse_fabric_results_and_falsification_audit_v9_4.md
+- outputs/viruse_fabric_results_and_falsification_audit_v9_4.json
+
+Validation:
+- V9_4_VIRUSE_FABRIC_RESULTS_AND_FALSIFICATION_AUDIT_OK
+- VIRUSE_FABRIC_RESULTS_AND_FALSIFICATION_AUDIT_DIRECT_CHECK_OK
+- V9_4_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Toy result and audit structure:
+- V9 results and falsification audit artifact count: 1
+- V9 formal results report count: 1
+- V9 results report count: 1
+- V9 falsification audit execution count: 1
+- V9 toy result summary count: 1
+- V9 toy falsification audit summary count: 1
+- V9 toy falsification audit record count: 4
+- V9 toy hypothesis audit count: 4
+- Toy evaluation actual run count: 1
+- Toy evaluation result count: 1
+- Toy falsification audit execution count: 1
+- Toy falsification audit result count: 4
+
+Toy audit records:
+- VF-H1
+- VF-H2
+- VF-H3
+- VF-H4
+
+Audited sensitive baselines:
+- VF-H1 uses VF-BASE-B
+- VF-H2 uses VF-BASE-C
+- VF-H3 uses VF-BASE-E
+- VF-H4 uses VF-BASE-D
+
+Source continuity:
+- V9 source safe toy baseline comparison artifact count: 1
+- V9 source simulation execution count: 1
+- V9 source baseline comparison execution count: 1
+- V9 source safe toy run record count: 6
+- V9 source safe toy baseline comparison record count: 5
+- V9 source engine implementation count: 1
+- V9 source detailed simulation specification completed count: 1
+- V9 source reframed hypothesis count: 4
+
+Counters intentionally preserved at zero:
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Formal toy results report and toy falsification audit only. Toy metric summaries and toy baseline divergences are reported. Toy hypothesis audit records are produced. No validation claim is made. No manuscript readiness claim is made. No external validation is performed. No independent experiment is performed. No manuscript file is modified. No citation is added. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Path correction:
+v9.4 interprets v9.3 safe toy baseline comparison records as a formal toy results report and toy falsification audit. This is a stronger evidence-handling milestone than v9.3, but it remains toy-only and non-validating. The audit may produce toy-level not-falsified or falsified-or-unresolved signals, but it does not establish theory validation, empirical evidence, external validation, independent confirmation, manuscript readiness, or submission readiness.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.4.0 on master, and final master verification passes.
