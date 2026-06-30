@@ -32397,3 +32397,159 @@ v8.222 continues the output-oriented path by defining a future candidate source 
 
 Official status:
 Not official until this close note is recorded, fast-forward merged to master, tagged as v8.222.0 on master, and final master verification passes.
+
+## v8.223.0 close note — Safe Abstract Toy Citation Retrieval Empty Candidate Ledger Instance
+
+Status: close-note prepared on the v8.223 feature branch after successful main artifact generation.
+
+Main hash:
+cdc11f0
+
+Main subject:
+Add safe abstract toy citation retrieval empty candidate ledger instance
+
+Scope:
+Citation-retrieval-empty-candidate-ledger-instance-only artifact that creates an empty candidate ledger instance with zero rows, schema conformance checks, zero-row invariants, and empty-ledger controls without creating candidate rows, recording candidate sources, granting retrieval authorization, performing source retrieval, claiming verified sources, recording accepted or rejected sources, adding citations, completing citation integration, or modifying any manuscript file.
+
+Generated artifacts:
+- viruse_fabric/writing/safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance.py
+- viruse_fabric/experiments/exp_303_safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance.py
+- outputs/safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance_v8_223.md
+- outputs/safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance_v8_223.json
+
+Validation:
+- V8_223_SAFE_ABSTRACT_TOY_CITATION_RETRIEVAL_EMPTY_CANDIDATE_LEDGER_INSTANCE_OK
+- TOY_CITATION_RETRIEVAL_EMPTY_CANDIDATE_LEDGER_INSTANCE_DIRECT_CHECK_OK
+- V8_223_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_ZERO_COUNTER_CHECK_OK
+
+Plan phrase:
+empty_candidate_ledger_instance_created_but_no_candidates_recorded
+
+Empty candidate ledger result:
+- Schema conformance check count: 16
+- Zero row invariant count: 12
+- Empty ledger control count: 10
+- Empty ledger row count: 0
+- Candidate source recorded count: 0
+- Acceptance decision count: 0
+- Rejection decision count: 0
+- Blocked decision count: 0
+- Retrieval authorization count: 0
+- Retrieval execution count: 0
+- Source retrieval count: 0
+- Verified source count: 0
+- Accepted source count: 0
+- Rejected source count: 0
+- Actual citation count: 0
+- Fabricated reference count: 0
+- Citation integration completion count: 0
+- Citation added to manuscript count: 0
+- New citation added count: 0
+
+Source continuity:
+- Source candidate ledger field count: 16
+- Source status enum count: 8
+- Source provenance field count: 10
+- Source safety screen field count: 10
+- Source hallucination control count: 10
+- Source retrieval gate item count: 12
+- Source allowed query family count: 12
+- Source acceptance schema field count: 12
+- Source rejection reason count: 10
+- Source preflight check count: 10
+- Source eligibility rule count: 12
+- Source query plan count: 12
+- Source exclusion group count: 4
+- Source slot count: 12
+- Source unresolved slot count: 12
+- Source slot group count: 4
+- Source assembly section count: 9
+- Source gap item count: 12
+- Source P0 gap count: 6
+- Source evidence upgrade completed count: 0
+- Source evaluation design module count: 10
+- Source actual evaluation run count: 0
+- Source validation claim count: 0
+- Source coherence improvement item count: 10
+- Source coherence rewrite application count: 0
+
+Required safety and boundary phrases preserved:
+- empty candidate ledger instance
+- Empty candidate ledger instance only
+- No ledger rows are created
+- No candidate source is recorded
+- zero_rows
+- absent_by_design
+- No retrieval authorization is granted
+- No source retrieval is performed
+- No actual citation is added
+- No fabricated reference is introduced
+- No source is claimed as verified
+- Future source retrieval requires a separate official milestone
+- does not complete citation integration
+- does not validate scientific claims
+- No real biological datasets
+- no real pathogen models
+- no receptor parameters
+- no operational targeting
+- No new citation is added
+- No manuscript file is modified
+
+Counters preserved at zero:
+- Toy citation empty ledger row count: 0
+- Toy citation empty ledger candidate source recorded count: 0
+- Toy citation empty ledger acceptance decision count: 0
+- Toy citation empty ledger rejection decision count: 0
+- Toy citation empty ledger blocked decision count: 0
+- Toy citation empty ledger retrieval authorization count: 0
+- Toy citation empty ledger retrieval execution count: 0
+- Toy citation empty ledger source retrieval count: 0
+- Toy citation empty ledger verified source count: 0
+- Toy citation empty ledger accepted source count: 0
+- Toy citation empty ledger rejected source count: 0
+- Toy citation empty ledger actual citation count: 0
+- Toy citation empty ledger fabricated reference count: 0
+- Toy citation empty ledger integration completion count: 0
+- Toy citation empty ledger added to manuscript count: 0
+- Toy citation actual citation count: 0
+- Toy citation verified source count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation source retrieval execution count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Toy evaluation actual run count: 0
+- Toy evaluation result count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- External validation count: 0
+- Independent experiment count: 0
+- Proof assistant verification count: 0
+- New citation added count: 0
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+v8.223 creates an empty citation retrieval candidate ledger instance only. It does not create candidate rows, record candidate sources, grant retrieval authorization, perform source retrieval, claim verified sources, record accepted sources, record rejected sources, add actual citations, fabricate references, complete citation integration, validate claims, execute evaluation, complete evidence upgrades, modify manuscript files, approve readiness, or introduce real-biological operational capability.
+
+Path correction:
+v8.223 continues the output-oriented path by producing a zero-row ledger instance that conforms to the v8.222 candidate ledger schema before any separately authorized source retrieval, verification, acceptance, rejection, or citation-integration milestone.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v8.223.0 on master, and final master verification passes.
