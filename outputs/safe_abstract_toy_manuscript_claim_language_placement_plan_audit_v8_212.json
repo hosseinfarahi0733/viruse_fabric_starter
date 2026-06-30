@@ -1,0 +1,200 @@
+{
+  "abstract_graphs_only": true,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "audit_items": [
+    {
+      "audit_check": "Source scope remains claim-language-placement-plan-only.",
+      "boundary_note": "The source placement plan is planning-only and does not apply manuscript patches.",
+      "expected": "claim-language-placement-plan-only",
+      "id": "PA-01",
+      "observed": "claim-language-placement-plan-only",
+      "passed": true
+    },
+    {
+      "audit_check": "Placement item count is exactly nine.",
+      "boundary_note": "Placement coverage remains stable.",
+      "expected": 9,
+      "id": "PA-02",
+      "observed": 9,
+      "passed": true
+    },
+    {
+      "audit_check": "All planned manuscript sections are present exactly once.",
+      "boundary_note": "Placement map covers the intended manuscript sections without extra sections.",
+      "expected": [
+        "Abstract",
+        "Claim Governance",
+        "Future Work",
+        "Introduction",
+        "Limitations",
+        "Method Scope",
+        "Pipeline Overview",
+        "Safety Controls",
+        "Safety Exclusions"
+      ],
+      "id": "PA-03",
+      "observed": [
+        "Abstract",
+        "Claim Governance",
+        "Future Work",
+        "Introduction",
+        "Limitations",
+        "Method Scope",
+        "Pipeline Overview",
+        "Safety Controls",
+        "Safety Exclusions"
+      ],
+      "passed": true
+    },
+    {
+      "audit_check": "Placement safe language remains governance, boundary, scope, safety, limitation, and future-work oriented.",
+      "boundary_note": "Safe language remains bounded to allowed claim families.",
+      "expected": "safe abstract toy governance and boundary wording",
+      "id": "PA-04",
+      "observed": "Abstract one-sentence contribution boundary This work establishes an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions and claim boundaries. Do not claim validation, performance, biological realism, or submission readiness. Abstract placement must remain governance-only. Introduction problem framing and contribution scope The contribution is limited to safe abstract toy governance of manuscript patch decisions, claim boundaries, and safe claim language. Do not convert the governance contribution into a scientific efficacy claim. Introduction wording must not imply empirical proof. Method Scope scope limiter The pipeline operates only on synthetic, abstract, unitless, non-operational toy artifacts. Do not mention real biological datasets, real receptors, pathogens, or host targeting. Method scope must explicitly exclude real-biological operation. Pipeline Overview artifact lineage description The staged artifact lineage includes proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, and claim language audit. Do not state that manuscript patches have been applied. Lineage placement is descriptive only. Safety Controls zero-counter safety statement Internal counters preserve zero application permission, zero applied patches, zero manuscript mutation, zero readiness approval, and zero real-biological operational capability. Do not treat zero counters as scientific validation. Safety counters support boundary control only. Claim Governance allowed/deferred/prohibited claim separation The claim governance layer separates currently allowed manuscript wording from deferred and prohibited claims. Do not present claim classification as submission approval. Claim governance is not readiness certification. Limitations evidence boundary The current evidence base does not establish external validation, independent experimental support, proof assistant verification, citation-completed claims, or manuscript submission readiness. Do not soften or remove this limitation until audited evidence exists. Limitations must preserve all zero evidence-upgrade counters. Safety Exclusions real-bio non-claim The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, or host-range prediction. Do not add operational biological examples or parameters. Safety exclusions must remain explicit. Future Work evidence upgrade pathway Future work must separately audit any safe manuscript patch application, citation integration, toy evaluation, proof pathway, or submission readiness upgrade before stronger claims are introduced. Do not imply those future milestones have already occurred. Future work is conditional, not accomplished.",
+      "passed": true
+    },
+    {
+      "audit_check": "Blocked expansions explicitly prevent validation, performance, biological realism, submission readiness, and applied-patch overclaims.",
+      "boundary_note": "Blocked-expansion wording prevents obvious overclaim drift.",
+      "expected": "blocked expansion coverage",
+      "id": "PA-05",
+      "observed": "Abstract one-sentence contribution boundary This work establishes an internally audited, safety-bounded, safe abstract toy-only governance pipeline for organizing manuscript patch decisions and claim boundaries. Do not claim validation, performance, biological realism, or submission readiness. Abstract placement must remain governance-only. Introduction problem framing and contribution scope The contribution is limited to safe abstract toy governance of manuscript patch decisions, claim boundaries, and safe claim language. Do not convert the governance contribution into a scientific efficacy claim. Introduction wording must not imply empirical proof. Method Scope scope limiter The pipeline operates only on synthetic, abstract, unitless, non-operational toy artifacts. Do not mention real biological datasets, real receptors, pathogens, or host targeting. Method scope must explicitly exclude real-biological operation. Pipeline Overview artifact lineage description The staged artifact lineage includes proposal, dry-run, structural gate, plan, checklist, audit, decision ledger, finding register, consistency audit, claim boundary registration, claim language packaging, and claim language audit. Do not state that manuscript patches have been applied. Lineage placement is descriptive only. Safety Controls zero-counter safety statement Internal counters preserve zero application permission, zero applied patches, zero manuscript mutation, zero readiness approval, and zero real-biological operational capability. Do not treat zero counters as scientific validation. Safety counters support boundary control only. Claim Governance allowed/deferred/prohibited claim separation The claim governance layer separates currently allowed manuscript wording from deferred and prohibited claims. Do not present claim classification as submission approval. Claim governance is not readiness certification. Limitations evidence boundary The current evidence base does not establish external validation, independent experimental support, proof assistant verification, citation-completed claims, or manuscript submission readiness. Do not soften or remove this limitation until audited evidence exists. Limitations must preserve all zero evidence-upgrade counters. Safety Exclusions real-bio non-claim The framework does not model real pathogens, real receptors, operational host targeting, infectivity optimization, immune evasion, or host-range prediction. Do not add operational biological examples or parameters. Safety exclusions must remain explicit. Future Work evidence upgrade pathway Future work must separately audit any safe manuscript patch application, citation integration, toy evaluation, proof pathway, or submission readiness upgrade before stronger claims are introduced. Do not imply those future milestones have already occurred. Future work is conditional, not accomplished.",
+      "passed": true
+    },
+    {
+      "audit_check": "Source audit linkage remains successful.",
+      "boundary_note": "The placement plan remains linked to a passing v8.210 source audit.",
+      "expected": {
+        "source_audit_failure_count": 0,
+        "source_audit_pass_count": 10
+      },
+      "id": "PA-06",
+      "observed": {
+        "source_audit_failure_count": 0,
+        "source_audit_pass_count": 10
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "Application, checklist, patch, manuscript mutation, and readiness counters remain zero.",
+      "boundary_note": "No placement item authorizes or performs manuscript patching.",
+      "expected": "all application/readiness counters zero",
+      "id": "PA-07",
+      "observed": {
+        "Manuscript submission ready count": 0,
+        "Readiness approval count": 0,
+        "Toy manuscript patch application applied patch count": 0,
+        "Toy manuscript patch application checklist completion count": 0,
+        "Toy manuscript patch application checklist execution count": 0,
+        "Toy manuscript patch application manuscript file modified count": 0,
+        "Toy manuscript patch application manuscript mutation count": 0,
+        "Toy manuscript patch application permission count": 0
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "Validation, experiment, proof, and citation counters remain zero.",
+      "boundary_note": "The placement plan does not upgrade evidence status.",
+      "expected": "all evidence-upgrade counters zero",
+      "id": "PA-08",
+      "observed": {
+        "External validation count": 0,
+        "Independent experiment count": 0,
+        "New citation added count": 0,
+        "Proof assistant verification count": 0
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "Real-biological operational counters remain zero.",
+      "boundary_note": "No real-biological operational capability is present.",
+      "expected": "all real-biological operational counters zero",
+      "id": "PA-09",
+      "observed": {
+        "Actionable biosafety-risk instruction count": 0,
+        "Immune evasion optimization count": 0,
+        "Operational host targeting count": 0,
+        "Real biological dataset import count": 0,
+        "Real host range prediction count": 0,
+        "Real pathogen simulation count": 0,
+        "Real receptor parameter count": 0,
+        "Real-world infectivity optimization count": 0,
+        "Wet-lab protocol count": 0
+      },
+      "passed": true
+    },
+    {
+      "audit_check": "The audit itself remains non-executing and non-authorizing.",
+      "boundary_note": "This artifact audits placement planning only and grants no permission.",
+      "expected": "audit-only",
+      "id": "PA-10",
+      "observed": "audit-only",
+      "passed": true
+    }
+  ],
+  "audit_phrase": "safe_claim_language_placement_plan_audited_but_no_manuscript_patch_applied",
+  "boundary_notes": [
+    "The source placement plan is planning-only and does not apply manuscript patches.",
+    "Placement coverage remains stable.",
+    "Placement map covers the intended manuscript sections without extra sections.",
+    "Safe language remains bounded to allowed claim families.",
+    "Blocked-expansion wording prevents obvious overclaim drift.",
+    "The placement plan remains linked to a passing v8.210 source audit.",
+    "No placement item authorizes or performs manuscript patching.",
+    "The placement plan does not upgrade evidence status.",
+    "No real-biological operational capability is present.",
+    "This artifact audits placement planning only and grants no permission."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy manuscript claim language placement plan audit count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy manuscript claim language placement plan audit count": 1,
+    "Toy manuscript claim language placement plan audit JSON export count": 1,
+    "Toy manuscript claim language placement plan audit boundary note count": 10,
+    "Toy manuscript claim language placement plan audit direct execution count": 1,
+    "Toy manuscript claim language placement plan audit execution count": 1,
+    "Toy manuscript claim language placement plan audit failure count": 0,
+    "Toy manuscript claim language placement plan audit item count": 10,
+    "Toy manuscript claim language placement plan audit non-readiness disclaimer count": 1,
+    "Toy manuscript claim language placement plan audit pass count": 10,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.212 artifact audits the v8.211 safe claim language placement plan only. It does not complete checklist items, execute checklist steps, grant application permission, apply manuscript patches, modify manuscript files, approve readiness, establish submission readiness, validate scientific claims, add citations, or add real-biological operational capability.",
+  "passed": true,
+  "safe_abstract_toy_only": true,
+  "scope": "claim-language-placement-plan-audit-only",
+  "source_json": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_v8_211.json",
+  "source_markdown": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_v8_211.md",
+  "source_markdown_character_count": 6350,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Manuscript Claim Language Placement Plan Audit",
+  "unitless_parameters_only": true,
+  "version": "v8.212"
+}
