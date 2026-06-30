@@ -34431,3 +34431,148 @@ Safe abstract toy parameter sweep and null-control stress test only. No validati
 
 Official v9.8 direction:
 NEXT_LINE_V9_8_SAFE_TOY_PARAMETER_SWEEP_AND_NULL_CONTROL_STRESS_TEST_OK
+
+## v9.8.0 close note - Decision Gate, Parameter Boundary, and Null-Control Check
+
+Status:
+Close-note prepared on the v9.8 feature branch after successful safe abstract toy decision-gate execution.
+
+Opening hash:
+bf2c1e1
+
+Main hash:
+47a8c4f
+
+Main subject:
+Add Viruse Fabric v9.8 decision gate boundary check
+
+Scope:
+Safe-toy-parameter-sweep-boundary-and-null-control-decision-gate-only artifact. This milestone does not expand claims. It records that the v9.8 attempt to stress-test the VF-H2 memory-ledger toy signal encountered a partial engine specification boundary for parameter sweep, while null controls showed no leakage.
+
+Plan phrase:
+v9_8_safe_toy_parameter_sweep_and_null_control_stress_test_without_validation_or_readiness
+
+Generated artifacts:
+- viruse_fabric/writing/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test.py
+- viruse_fabric/experiments/exp_908_viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test.py
+- outputs/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test_v9_8.md
+- outputs/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test_v9_8.json
+
+Validation:
+- V9_8_VIRUSE_FABRIC_DECISION_GATE_PARAMETER_BOUNDARY_AND_NULL_CONTROL_OK
+- VIRUSE_FABRIC_DECISION_GATE_PARAMETER_BOUNDARY_AND_NULL_CONTROL_DIRECT_CHECK_OK
+- V9_8_CLOSE_NOTE_DIRECT_CHECK_OK
+- STRICT_JSON_CHECK_OK
+
+Primary hypothesis under stress:
+VF-H2
+
+Primary signal under stress:
+ledger_effect_size
+
+Reduced toy core under stress:
+memory-ledger-driven toy dynamics
+
+Parameter boundary result:
+- Candidate parameter mutation count: 6
+- Blocked parameter mutation count: 4
+- Accepted parameter mutation count: 2
+- Parameter sweep boundary verdict: parameter_sweep_partially_blocked_by_engine_spec_boundary
+
+Null-control result:
+- Null-control count: 4
+- Null-control leak count: 0
+- Null-control no-leak count: 4
+- Null-control verdict: no_null_control_leak_detected
+
+Decision gate result:
+- Decision: stop_claim_expansion_and_redesign_engine_before_more_toy_evidence
+- Next allowed action: engine_redesign_or_limited_technical_note
+- Loop guard verdict: stop_v9_loop
+
+Interpretation:
+v9.8 stops claim expansion. The v9.7 VF-H2 toy signal remains recorded as a safe toy result, but v9.8 shows that the current engine does not cleanly permit the intended parameter sweep. Because four of six candidate parameter mutations are blocked by the engine specification boundary, further toy-evidence expansion should not be claimed without engine redesign. The null controls show no leakage, which is useful, but it is not enough to justify wider claims.
+
+Non-upgraded hypotheses:
+- VF-H1 remains not upgraded.
+- VF-H3 remains not upgraded.
+- VF-H4 remains not upgraded.
+
+Allowed conclusions:
+- The v9.8 decision gate passed as a boundary and null-control artifact.
+- The current engine partially blocks parameter sweep.
+- Null controls did not show ledger_effect_size leakage in this v9.8 check.
+- Claim expansion must stop before more toy evidence is asserted.
+- The next allowed path is engine redesign or a limited technical note.
+
+Forbidden conclusions:
+- The full Viruse Fabric theory is validated.
+- The VF-H2 signal is empirically validated.
+- The current engine supports a clean parameter sweep.
+- VF-H1, VF-H3, or VF-H4 are now supported.
+- The project is manuscript submission ready.
+- The model applies to real biological systems.
+
+Counters:
+- V9 decision gate artifact count: 1
+- V9 parameter sweep boundary check count: 1
+- V9 candidate parameter mutation count: 6
+- V9 blocked parameter mutation count: 4
+- V9 accepted parameter mutation count: 2
+- V9 null-control execution count: 1
+- V9 null-control config count: 4
+- V9 null-control run record count: 8
+- V9 null-control comparison record count: 4
+- V9 null-control leak count: 0
+- V9 null-control no-leak count: 4
+- V9 decision gate count: 1
+- V9 loop guard stop count: 1
+- V9 non-upgraded hypothesis record count: 3
+- V9 source v9.7 robust replicate verdict count: 1
+- V9 source v9.7 positive signal replicate count: 6
+- V9 source v9.7 mean signal delta: 3.0
+
+Counters intentionally preserved at zero:
+- V9 theory validation claim count: 0
+- V9 manuscript readiness claim count: 0
+- V9 manuscript readiness approval count: 0
+- Toy evaluation validation claim count: 0
+- Toy scientific evidence upgrade completed count: 0
+- Toy manuscript coherence rewrite application count: 0
+- Toy manuscript patch application checklist completion count: 0
+- Toy manuscript patch application checklist execution count: 0
+- Toy manuscript patch application permission count: 0
+- Toy manuscript patch application applied patch count: 0
+- Toy manuscript patch application manuscript file modified count: 0
+- Toy manuscript patch application manuscript mutation count: 0
+- Toy citation citation-ready source count: 0
+- Toy citation actual citation count: 0
+- Toy citation fabricated reference count: 0
+- Toy citation integration completion count: 0
+- Toy citation added to manuscript count: 0
+- Manuscript submission ready count: 0
+- Readiness approval count: 0
+- New citation added count: 0
+- Proof assistant verification count: 0
+- External validation count: 0
+- Independent experiment count: 0
+
+Safety counters preserved at zero:
+- Real biological dataset import count: 0
+- Real pathogen simulation count: 0
+- Real receptor parameter count: 0
+- Operational host targeting count: 0
+- Wet-lab protocol count: 0
+- Actionable biosafety-risk instruction count: 0
+- Real-world infectivity optimization count: 0
+- Immune evasion optimization count: 0
+- Real host range prediction count: 0
+
+Boundary:
+Safe abstract toy decision gate only. No validation claim is made. No manuscript readiness claim is made. No readiness approval is recorded. No manuscript file is modified. No citation is added. No external validation is performed. No independent experiment is performed. No real biological datasets, no real pathogen models, no receptor parameters, no operational targeting, no wet-lab protocol, no infectivity optimization, no immune evasion optimization, and no host range prediction are introduced.
+
+Loop guard:
+v9.8 records stop_v9_loop. The project must not proceed to automatic v9.9-style milestone expansion. The only allowed next paths are engine_redesign_or_limited_technical_note.
+
+Official status:
+Not official until this close note is recorded, fast-forward merged to master, tagged as v9.8.0 on master, and final master verification passes.
