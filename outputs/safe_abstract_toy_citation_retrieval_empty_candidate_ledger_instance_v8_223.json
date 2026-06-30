@@ -1,0 +1,449 @@
+{
+  "abstract_graphs_only": true,
+  "accepted_sources_recorded": false,
+  "actual_citations_added": false,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "boundary_notes": [
+    "Empty candidate ledger instance only. No ledger rows are created and No candidate source is recorded.",
+    "No candidate source is recorded.",
+    "No actual citation is added.",
+    "Future source retrieval requires a separate official milestone.",
+    "No fabricated reference is introduced.",
+    "No source is claimed as verified.",
+    "No source retrieval is performed.",
+    "No fabricated reference is introduced.",
+    "No evidence upgrade is completed.",
+    "does not validate scientific claims.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "No source is claimed as verified.",
+    "No accepted source and no rejected source is recorded.",
+    "does not complete citation integration.",
+    "No manuscript file is modified.",
+    "Manuscript submission ready count remains zero.",
+    "Future source retrieval requires a separate official milestone.",
+    "No ledger rows are created.",
+    "No candidate source is recorded.",
+    "Accepted source count remains zero.",
+    "Rejected source count remains zero.",
+    "blocked_for_safety remains a future status only.",
+    "No retrieval authorization is granted.",
+    "No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "No actual citation is added.",
+    "No fabricated reference is introduced.",
+    "does not complete citation integration.",
+    "No manuscript file is modified.",
+    "No ledger rows are created.",
+    "No fabricated reference is introduced.",
+    "No source retrieval is performed.",
+    "No source is claimed as verified.",
+    "No accepted source and no rejected source is recorded.",
+    "No new citation is added.",
+    "No evidence upgrade is completed.",
+    "does not validate scientific claims.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+    "Future source retrieval requires a separate official milestone."
+  ],
+  "candidate_acceptance_decisions_recorded": false,
+  "candidate_blocked_decisions_recorded": false,
+  "candidate_ledger_rows_created": false,
+  "candidate_rejection_decisions_recorded": false,
+  "candidate_sources_recorded": false,
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "citation_integration_completed": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy citation retrieval empty candidate ledger instance count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy citation retrieval empty candidate ledger instance count": 1,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation empty ledger acceptance decision count": 0,
+    "Toy citation empty ledger accepted source count": 0,
+    "Toy citation empty ledger actual citation count": 0,
+    "Toy citation empty ledger added to manuscript count": 0,
+    "Toy citation empty ledger blocked decision count": 0,
+    "Toy citation empty ledger candidate source recorded count": 0,
+    "Toy citation empty ledger control count": 10,
+    "Toy citation empty ledger fabricated reference count": 0,
+    "Toy citation empty ledger instance direct execution count": 1,
+    "Toy citation empty ledger instance execution count": 1,
+    "Toy citation empty ledger integration completion count": 0,
+    "Toy citation empty ledger rejected source count": 0,
+    "Toy citation empty ledger rejection decision count": 0,
+    "Toy citation empty ledger retrieval authorization count": 0,
+    "Toy citation empty ledger retrieval execution count": 0,
+    "Toy citation empty ledger row count": 0,
+    "Toy citation empty ledger schema conformance check count": 16,
+    "Toy citation empty ledger source P0 gap count": 6,
+    "Toy citation empty ledger source acceptance schema field count": 12,
+    "Toy citation empty ledger source actual evaluation run count": 0,
+    "Toy citation empty ledger source allowed query family count": 12,
+    "Toy citation empty ledger source assembly section count": 9,
+    "Toy citation empty ledger source candidate ledger field count": 16,
+    "Toy citation empty ledger source coherence improvement item count": 10,
+    "Toy citation empty ledger source coherence rewrite application count": 0,
+    "Toy citation empty ledger source eligibility rule count": 12,
+    "Toy citation empty ledger source evaluation design module count": 10,
+    "Toy citation empty ledger source evidence upgrade completed count": 0,
+    "Toy citation empty ledger source exclusion group count": 4,
+    "Toy citation empty ledger source gap item count": 12,
+    "Toy citation empty ledger source hallucination control count": 10,
+    "Toy citation empty ledger source preflight check count": 10,
+    "Toy citation empty ledger source prior accepted source count": 0,
+    "Toy citation empty ledger source prior actual citation count": 0,
+    "Toy citation empty ledger source prior added to manuscript count": 0,
+    "Toy citation empty ledger source prior candidate source recorded count": 0,
+    "Toy citation empty ledger source prior fabricated reference count": 0,
+    "Toy citation empty ledger source prior integration completion count": 0,
+    "Toy citation empty ledger source prior ledger row count": 0,
+    "Toy citation empty ledger source prior rejected source count": 0,
+    "Toy citation empty ledger source prior retrieval authorization count": 0,
+    "Toy citation empty ledger source prior source retrieval count": 0,
+    "Toy citation empty ledger source prior verified source count": 0,
+    "Toy citation empty ledger source provenance field count": 10,
+    "Toy citation empty ledger source query plan count": 12,
+    "Toy citation empty ledger source rejection reason count": 10,
+    "Toy citation empty ledger source retrieval count": 0,
+    "Toy citation empty ledger source retrieval gate item count": 12,
+    "Toy citation empty ledger source safety screen field count": 10,
+    "Toy citation empty ledger source slot count": 12,
+    "Toy citation empty ledger source slot group count": 4,
+    "Toy citation empty ledger source status enum count": 8,
+    "Toy citation empty ledger source unresolved slot count": 12,
+    "Toy citation empty ledger source validation claim count": 0,
+    "Toy citation empty ledger verified source count": 0,
+    "Toy citation empty ledger zero row invariant count": 12,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy citation retrieval empty candidate ledger instance JSON export count": 1,
+    "Toy citation source retrieval execution count": 0,
+    "Toy citation verified source count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "empty_candidate_ledger_instance_completed": true,
+  "empty_candidate_ledger_rows": [],
+  "empty_ledger_controls": [
+    {
+      "boundary_note": "No ledger rows are created.",
+      "control_id": "EMPTY-LEDGER-CTRL-01",
+      "control_name": "no_synthetic_placeholder_rows",
+      "control_rule": "The empty instance must not create dummy candidate rows for demonstration."
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "control_id": "EMPTY-LEDGER-CTRL-02",
+      "control_name": "no_memory_based_candidate_metadata",
+      "control_rule": "The empty instance must not populate title, author, year, locator, or source type from memory."
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "control_id": "EMPTY-LEDGER-CTRL-03",
+      "control_name": "no_retrieval_execution",
+      "control_rule": "The empty instance must not execute search, scraping, lookup, database access, or source retrieval."
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "control_id": "EMPTY-LEDGER-CTRL-04",
+      "control_name": "no_verification_claim",
+      "control_rule": "The empty instance must not mark any source as verified."
+    },
+    {
+      "boundary_note": "No accepted source and no rejected source is recorded.",
+      "control_id": "EMPTY-LEDGER-CTRL-05",
+      "control_name": "no_acceptance_or_rejection_decision",
+      "control_rule": "The empty instance must not record accepted_candidate, rejected_candidate, or blocked_for_safety decisions."
+    },
+    {
+      "boundary_note": "No new citation is added.",
+      "control_id": "EMPTY-LEDGER-CTRL-06",
+      "control_name": "no_citation_insertion",
+      "control_rule": "The empty instance must not add any citation to manuscript files."
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "control_id": "EMPTY-LEDGER-CTRL-07",
+      "control_name": "no_schema_as_evidence_upgrade",
+      "control_rule": "The empty instance must not treat schema conformance as evidence completion."
+    },
+    {
+      "boundary_note": "does not validate scientific claims.",
+      "control_id": "EMPTY-LEDGER-CTRL-08",
+      "control_name": "no_schema_as_validation",
+      "control_rule": "The empty instance must not treat an empty ledger as validation, proof, or independent experiment."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "control_id": "EMPTY-LEDGER-CTRL-09",
+      "control_name": "no_real_biological_operational_content",
+      "control_rule": "The empty instance must not introduce real biological datasets, real pathogen models, receptor parameters, or operational targeting."
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "control_id": "EMPTY-LEDGER-CTRL-10",
+      "control_name": "future_milestone_required",
+      "control_rule": "Future retrieval, verification, acceptance, rejection, and integration require separate official milestones."
+    }
+  ],
+  "empty_ledger_controls_checked": true,
+  "evaluation_execution_performed": false,
+  "evidence_upgrade_completed": false,
+  "fabricated_references_introduced": false,
+  "instance_metadata": {
+    "boundary_note": "Empty candidate ledger instance only. No ledger rows are created and No candidate source is recorded.",
+    "candidate_state": "no_candidate_source_is_recorded",
+    "instance_id": "EMPTY-CANDIDATE-LEDGER-v8.223",
+    "instance_type": "empty_candidate_ledger_instance",
+    "integration_state": "not_integrated",
+    "ledger_status": "empty",
+    "manuscript_state": "no_manuscript_file_is_modified",
+    "retrieval_state": "not_authorized_and_not_performed",
+    "row_state": "zero_rows",
+    "schema_source": "v8.222 candidate ledger schema",
+    "verification_state": "no_source_is_claimed_as_verified"
+  },
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_rewrite_applied": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.223 artifact creates an empty candidate ledger instance only. Empty candidate ledger instance only. No ledger rows are created. No candidate source is recorded. No retrieval authorization is granted. No source retrieval is performed. No actual citation is added. No fabricated reference is introduced. No source is claimed as verified. It does not complete citation integration, does not validate scientific claims, does not modify manuscript files, and No manuscript file is modified. No new citation is added. Future source retrieval requires a separate official milestone.",
+  "passed": true,
+  "plan_phrase": "empty_candidate_ledger_instance_created_but_no_candidates_recorded",
+  "rejected_sources_recorded": false,
+  "retrieval_authorization_granted": false,
+  "safe_abstract_toy_only": true,
+  "schema_conformance_checked": true,
+  "schema_conformance_checks": [
+    {
+      "boundary_note": "No candidate source is recorded.",
+      "check_id": "CONFORM-01",
+      "empty_instance_rule": "The empty ledger contains no candidate_id values because no candidate rows exist.",
+      "observed_status": "absent_by_design",
+      "schema_field": "candidate_id"
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "check_id": "CONFORM-02",
+      "empty_instance_rule": "The empty ledger contains no slot_id assignments because no candidate rows exist.",
+      "observed_status": "absent_by_design",
+      "schema_field": "slot_id"
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "check_id": "CONFORM-03",
+      "empty_instance_rule": "The empty ledger contains no query_family_id values because no source retrieval is performed.",
+      "observed_status": "absent_by_design",
+      "schema_field": "query_family_id"
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "check_id": "CONFORM-04",
+      "empty_instance_rule": "The empty ledger contains no candidate titles and does not invent placeholder titles.",
+      "observed_status": "absent_by_design",
+      "schema_field": "candidate_title"
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "check_id": "CONFORM-05",
+      "empty_instance_rule": "The empty ledger contains no author or issuing body metadata because no source metadata is retrieved.",
+      "observed_status": "absent_by_design",
+      "schema_field": "candidate_author_or_body"
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "check_id": "CONFORM-06",
+      "empty_instance_rule": "The empty ledger contains no candidate year values and does not infer unavailable dates.",
+      "observed_status": "absent_by_design",
+      "schema_field": "candidate_year"
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "check_id": "CONFORM-07",
+      "empty_instance_rule": "The empty ledger contains no DOI, URL, ISBN, database record, or other locator.",
+      "observed_status": "absent_by_design",
+      "schema_field": "candidate_locator"
+    },
+    {
+      "boundary_note": "No evidence upgrade is completed.",
+      "check_id": "CONFORM-08",
+      "empty_instance_rule": "The empty ledger contains no source_type classification because no candidate is present.",
+      "observed_status": "absent_by_design",
+      "schema_field": "source_type"
+    },
+    {
+      "boundary_note": "does not validate scientific claims.",
+      "check_id": "CONFORM-09",
+      "empty_instance_rule": "The empty ledger contains no evidence_role claims because no source is present.",
+      "observed_status": "absent_by_design",
+      "schema_field": "evidence_role"
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting are introduced.",
+      "check_id": "CONFORM-10",
+      "empty_instance_rule": "The empty ledger contains no safety screen result because no candidate requires screening.",
+      "observed_status": "absent_by_design",
+      "schema_field": "safety_screen_status"
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "check_id": "CONFORM-11",
+      "empty_instance_rule": "The empty ledger contains no verification_status row and does not claim verification.",
+      "observed_status": "absent_by_design",
+      "schema_field": "verification_status"
+    },
+    {
+      "boundary_note": "No accepted source and no rejected source is recorded.",
+      "check_id": "CONFORM-12",
+      "empty_instance_rule": "The empty ledger contains no acceptance_status row because no candidate has been accepted or rejected.",
+      "observed_status": "absent_by_design",
+      "schema_field": "acceptance_status"
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "check_id": "CONFORM-13",
+      "empty_instance_rule": "The empty ledger contains no citation integration status because no citation is integrated.",
+      "observed_status": "absent_by_design",
+      "schema_field": "citation_integration_status"
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "check_id": "CONFORM-14",
+      "empty_instance_rule": "The empty ledger contains no manuscript mutation status row because no manuscript file is modified.",
+      "observed_status": "absent_by_design",
+      "schema_field": "manuscript_mutation_status"
+    },
+    {
+      "boundary_note": "Manuscript submission ready count remains zero.",
+      "check_id": "CONFORM-15",
+      "empty_instance_rule": "The empty ledger contains no readiness claim and does not imply manuscript submission readiness.",
+      "observed_status": "absent_by_design",
+      "schema_field": "readiness_claim_status"
+    },
+    {
+      "boundary_note": "Future source retrieval requires a separate official milestone.",
+      "check_id": "CONFORM-16",
+      "empty_instance_rule": "The empty ledger records no authorization reference because no future retrieval milestone has run yet.",
+      "observed_status": "absent_by_design",
+      "schema_field": "future_authorization_reference"
+    }
+  ],
+  "scope": "citation-retrieval-empty-candidate-ledger-instance-only",
+  "source_assembly_json": "outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.json",
+  "source_citation_slot_json": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.json",
+  "source_coherence_json": "outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.json",
+  "source_eligibility_json": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.json",
+  "source_evaluation_design_json": "outputs/safe_abstract_toy_evaluation_design_plan_v8_217.json",
+  "source_gap_json": "outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.json",
+  "source_ledger_schema_json": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.json",
+  "source_ledger_schema_markdown": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.md",
+  "source_ledger_schema_markdown_character_count": 17882,
+  "source_retrieval_gate_json": "outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.json",
+  "source_retrieval_performed": false,
+  "synthetic_only": true,
+  "title": "Safe Abstract Toy Citation Retrieval Empty Candidate Ledger Instance",
+  "unitless_parameters_only": true,
+  "validation_claim_made": false,
+  "verified_sources_claimed": false,
+  "version": "v8.223",
+  "zero_row_invariants": [
+    {
+      "boundary_note": "No ledger rows are created.",
+      "invariant_id": "ZERO-ROW-01",
+      "invariant_name": "empty_candidate_ledger_length",
+      "required_value": "0 rows"
+    },
+    {
+      "boundary_note": "No candidate source is recorded.",
+      "invariant_id": "ZERO-ROW-02",
+      "invariant_name": "candidate_source_record_count",
+      "required_value": "0 recorded candidate sources"
+    },
+    {
+      "boundary_note": "Accepted source count remains zero.",
+      "invariant_id": "ZERO-ROW-03",
+      "invariant_name": "candidate_acceptance_decision_count",
+      "required_value": "0 acceptance decisions"
+    },
+    {
+      "boundary_note": "Rejected source count remains zero.",
+      "invariant_id": "ZERO-ROW-04",
+      "invariant_name": "candidate_rejection_decision_count",
+      "required_value": "0 rejection decisions"
+    },
+    {
+      "boundary_note": "blocked_for_safety remains a future status only.",
+      "invariant_id": "ZERO-ROW-05",
+      "invariant_name": "candidate_blocked_decision_count",
+      "required_value": "0 blocked decisions"
+    },
+    {
+      "boundary_note": "No retrieval authorization is granted.",
+      "invariant_id": "ZERO-ROW-06",
+      "invariant_name": "retrieval_authorization_count",
+      "required_value": "0 retrieval authorizations"
+    },
+    {
+      "boundary_note": "No source retrieval is performed.",
+      "invariant_id": "ZERO-ROW-07",
+      "invariant_name": "source_retrieval_count",
+      "required_value": "0 source retrieval operations"
+    },
+    {
+      "boundary_note": "No source is claimed as verified.",
+      "invariant_id": "ZERO-ROW-08",
+      "invariant_name": "verified_source_count",
+      "required_value": "0 verified sources"
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "invariant_id": "ZERO-ROW-09",
+      "invariant_name": "actual_citation_count",
+      "required_value": "0 actual citations"
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "invariant_id": "ZERO-ROW-10",
+      "invariant_name": "fabricated_reference_count",
+      "required_value": "0 fabricated references"
+    },
+    {
+      "boundary_note": "does not complete citation integration.",
+      "invariant_id": "ZERO-ROW-11",
+      "invariant_name": "citation_integration_completion_count",
+      "required_value": "0 completed citation integrations"
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "invariant_id": "ZERO-ROW-12",
+      "invariant_name": "manuscript_mutation_count",
+      "required_value": "0 manuscript mutations"
+    }
+  ],
+  "zero_row_invariants_checked": true
+}
