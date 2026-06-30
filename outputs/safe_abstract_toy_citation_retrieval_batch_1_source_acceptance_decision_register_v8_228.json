@@ -1,0 +1,725 @@
+{
+  "abstract_graphs_only": true,
+  "acceptance_decision_candidate_coverage_complete": true,
+  "accepted_for_methodological_source_pool_recorded": true,
+  "accepted_sources_recorded": true,
+  "actual_citations_added": false,
+  "application_execution_performed": false,
+  "application_permission_granted": false,
+  "applied_patch_count": 0,
+  "boundary_notes": [
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+    "Source acceptance decision register only.",
+    "Accepted for methodological source pool only.",
+    "Accepted source does not mean citation-ready source.",
+    "No rejected source is recorded.",
+    "No source is marked citation-ready.",
+    "No actual citation is added.",
+    "No fabricated reference is introduced.",
+    "does not complete citation integration",
+    "No manuscript file is modified.",
+    "does not validate scientific claims",
+    "No readiness approval is recorded.",
+    "No new citation is added.",
+    "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting."
+  ],
+  "checklist_completion_performed": false,
+  "checklist_execution_performed": false,
+  "citation_integration_completed": false,
+  "citation_ready_sources_recorded": false,
+  "counters": {
+    "Actionable biosafety-risk instruction count": 0,
+    "External validation count": 0,
+    "Immune evasion optimization count": 0,
+    "Independent experiment count": 0,
+    "Manuscript submission ready count": 0,
+    "New citation added count": 0,
+    "New safe abstract toy citation retrieval batch 1 source acceptance decision register count": 1,
+    "Operational host targeting count": 0,
+    "Proof assistant verification count": 0,
+    "Readiness approval count": 0,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Safe abstract toy citation retrieval batch 1 source acceptance decision register count": 1,
+    "Toy citation accepted methodological source pool count": 7,
+    "Toy citation accepted not citation-ready source count": 7,
+    "Toy citation accepted source count": 7,
+    "Toy citation actual citation count": 0,
+    "Toy citation added to manuscript count": 0,
+    "Toy citation batch 1 acceptance decision candidate coverage count": 7,
+    "Toy citation batch 1 acceptance decision control count": 13,
+    "Toy citation batch 1 acceptance decision count": 7,
+    "Toy citation batch 1 acceptance decision criterion evaluation count": 49,
+    "Toy citation batch 1 acceptance decision criterion group count": 7,
+    "Toy citation batch 1 accepted methodological source pool count": 7,
+    "Toy citation batch 1 accepted not citation-ready source count": 7,
+    "Toy citation batch 1 accepted source count": 7,
+    "Toy citation batch 1 actual citation count": 0,
+    "Toy citation batch 1 added to manuscript count": 0,
+    "Toy citation batch 1 citation integration completion count": 0,
+    "Toy citation batch 1 citation-ready source count": 0,
+    "Toy citation batch 1 fabricated reference count": 0,
+    "Toy citation batch 1 manuscript mutation count": 0,
+    "Toy citation batch 1 prior acceptance decision count": 0,
+    "Toy citation batch 1 prior acceptance eligibility gate record count": 7,
+    "Toy citation batch 1 prior accepted source count": 0,
+    "Toy citation batch 1 prior actual citation count": 0,
+    "Toy citation batch 1 prior bibliographic metadata verified source count": 7,
+    "Toy citation batch 1 prior candidate source row count": 7,
+    "Toy citation batch 1 prior citation-ready source count": 0,
+    "Toy citation batch 1 prior eligible for future acceptance review count": 7,
+    "Toy citation batch 1 prior evidence locator claim count": 29,
+    "Toy citation batch 1 prior evidence record count": 7,
+    "Toy citation batch 1 prior metadata-only verification decision count": 7,
+    "Toy citation batch 1 prior source verification decision record count": 7,
+    "Toy citation batch 1 rejected source count": 0,
+    "Toy citation batch 1 rejection decision count": 0,
+    "Toy citation batch 1 source acceptance decision record count": 7,
+    "Toy citation batch 1 source acceptance decision register JSON export count": 1,
+    "Toy citation batch 1 source candidate ledger field count": 16,
+    "Toy citation citation-ready source count": 0,
+    "Toy citation fabricated reference count": 0,
+    "Toy citation integration completion count": 0,
+    "Toy citation rejected source count": 0,
+    "Toy evaluation actual run count": 0,
+    "Toy evaluation result count": 0,
+    "Toy evaluation validation claim count": 0,
+    "Toy manuscript coherence rewrite application count": 0,
+    "Toy manuscript patch application applied patch count": 0,
+    "Toy manuscript patch application checklist completion count": 0,
+    "Toy manuscript patch application checklist execution count": 0,
+    "Toy manuscript patch application manuscript file modified count": 0,
+    "Toy manuscript patch application manuscript mutation count": 0,
+    "Toy manuscript patch application permission count": 0,
+    "Toy scientific evidence upgrade completed count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "evaluation_execution_performed": false,
+  "evidence_upgrade_completed": false,
+  "fabricated_references_introduced": false,
+  "manuscript_file_modified": false,
+  "manuscript_mutation": false,
+  "manuscript_rewrite_applied": false,
+  "new_citation_added": false,
+  "non_operational_only": true,
+  "non_readiness_disclaimer": "This v8.228 artifact records source acceptance decisions only. Source acceptance decision register only. Accepted for methodological source pool only. Accepted source does not mean citation-ready source. No rejected source is recorded. No source is marked citation-ready. No actual citation is added. No fabricated reference is introduced. It does not complete citation integration, does not validate scientific claims, does not modify manuscript files, and No manuscript file is modified. No readiness approval is recorded. No new citation is added. Future citation readiness, actual citation insertion, citation integration, manuscript mutation, and readiness approval require separate official milestones.",
+  "passed": true,
+  "plan_phrase": "batch_1_source_acceptance_decisions_recorded_but_not_citation_ready_cited_integrated_or_mutated",
+  "readiness_approval_recorded": false,
+  "rejected_sources_recorded": false,
+  "safe_abstract_toy_only": true,
+  "scope": "citation-retrieval-batch-1-source-acceptance-decision-register-only",
+  "source_acceptance_controls": [
+    {
+      "boundary_note": "Source acceptance decision register only.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-01",
+      "control_name": "acceptance_decision_register_only",
+      "control_rule": "v8.228 records source acceptance decisions only."
+    },
+    {
+      "boundary_note": "Accepted for methodological source pool only.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-02",
+      "control_name": "methodological_source_pool_only",
+      "control_rule": "Accepted sources are accepted only into a methodological source pool."
+    },
+    {
+      "boundary_note": "Accepted source does not mean citation-ready source.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-03",
+      "control_name": "accepted_does_not_mean_citation_ready",
+      "control_rule": "Acceptance does not mark any source citation-ready."
+    },
+    {
+      "boundary_note": "No rejected source is recorded.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-04",
+      "control_name": "no_rejection_decision",
+      "control_rule": "v8.228 does not record rejection decisions."
+    },
+    {
+      "boundary_note": "No source is marked citation-ready.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-05",
+      "control_name": "no_citation_ready_status",
+      "control_rule": "v8.228 does not mark any source citation-ready."
+    },
+    {
+      "boundary_note": "No actual citation is added.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-06",
+      "control_name": "no_actual_citation",
+      "control_rule": "v8.228 does not add actual citations."
+    },
+    {
+      "boundary_note": "No fabricated reference is introduced.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-07",
+      "control_name": "no_fabricated_reference",
+      "control_rule": "v8.228 does not introduce fabricated references."
+    },
+    {
+      "boundary_note": "does not complete citation integration",
+      "control_id": "B1-ACCEPT-DEC-CTRL-08",
+      "control_name": "no_citation_integration",
+      "control_rule": "v8.228 does not complete citation integration."
+    },
+    {
+      "boundary_note": "No manuscript file is modified.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-09",
+      "control_name": "no_manuscript_mutation",
+      "control_rule": "v8.228 does not modify manuscript files."
+    },
+    {
+      "boundary_note": "does not validate scientific claims",
+      "control_id": "B1-ACCEPT-DEC-CTRL-10",
+      "control_name": "no_scientific_validation",
+      "control_rule": "v8.228 does not validate scientific claims."
+    },
+    {
+      "boundary_note": "No readiness approval is recorded.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-11",
+      "control_name": "no_readiness_approval",
+      "control_rule": "v8.228 does not approve submission readiness."
+    },
+    {
+      "boundary_note": "No new citation is added.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-12",
+      "control_name": "no_new_citation_added",
+      "control_rule": "v8.228 does not add any new citation."
+    },
+    {
+      "boundary_note": "No real biological datasets, no real pathogen models, no receptor parameters, and no operational targeting.",
+      "control_id": "B1-ACCEPT-DEC-CTRL-13",
+      "control_name": "non_operational_scope",
+      "control_rule": "v8.228 remains methodological and non-operational."
+    }
+  ],
+  "source_acceptance_criteria": [
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+      "criterion_name": "eligibility_gate_present",
+      "criterion_rule": "The source must have a v8.227 acceptance eligibility gate record.",
+      "expected_status": "eligible_for_future_acceptance_review_not_accepted"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+      "criterion_name": "metadata_verification_dependency_present",
+      "criterion_rule": "The source must depend on v8.226 bibliographic metadata verification.",
+      "expected_status": "bibliographic_metadata_verified"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+      "criterion_name": "not_previously_accepted",
+      "criterion_rule": "The source must not have been accepted before this decision register.",
+      "expected_status": "no_acceptance_decision_recorded"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+      "criterion_name": "not_rejected",
+      "criterion_rule": "The source must not have a rejection decision.",
+      "expected_status": "no_rejection_decision_recorded"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+      "criterion_name": "not_citation_ready",
+      "criterion_rule": "Acceptance must not mark the source citation-ready.",
+      "expected_status": "not_citation_ready"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+      "criterion_name": "not_integrated",
+      "criterion_rule": "Acceptance must not integrate the source into any manuscript.",
+      "expected_status": "not_integrated"
+    },
+    {
+      "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+      "criterion_name": "non_operational_methodological_scope",
+      "criterion_rule": "The accepted source remains methodological and non-operational.",
+      "expected_status": "non_operational_methodological_source_only"
+    }
+  ],
+  "source_acceptance_decision_record_count": 7,
+  "source_acceptance_decision_records": [
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-001",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-001",
+      "candidate_title": "Causality: Models, Reasoning, and Inference",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-001",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-001",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-002",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-002",
+      "candidate_title": "Probabilistic Graphical Models: Principles and Techniques",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-002",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-002",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-003",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-003",
+      "candidate_title": "Networks: An Introduction",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-003",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-003",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-004",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-004",
+      "candidate_title": "Agent-based modeling: methods and techniques for simulating human systems",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-004",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-004",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-005",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-005",
+      "candidate_title": "Network Science",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-005",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-005",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-006",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-006",
+      "candidate_title": "Global Sensitivity Analysis: The Primer",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-006",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-006",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    },
+    {
+      "acceptance_boundary_note": "Source acceptance is recorded for the methodological source pool only; accepted does not mean citation-ready, cited, integrated, manuscript-mutating, scientifically validated, or readiness-approved.",
+      "acceptance_decision_record_id": "ACCEPT-DEC-B1-007",
+      "acceptance_decision_status": "accepted_for_methodological_source_pool_only",
+      "acceptance_scope": "methodological_source_pool_acceptance_only",
+      "accepted_source_status": "accepted_not_citation_ready",
+      "actual_citation_status": "no_actual_citation_added",
+      "candidate_id": "CAND-B1-007",
+      "candidate_title": "Tutorial on agent-based modelling and simulation",
+      "citation_integration_status": "not_integrated",
+      "citation_readiness_status": "not_citation_ready",
+      "criterion_results": [
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-01",
+          "criterion_name": "eligibility_gate_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-02",
+          "criterion_name": "metadata_verification_dependency_present",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-03",
+          "criterion_name": "not_previously_accepted",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-04",
+          "criterion_name": "not_rejected",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-05",
+          "criterion_name": "not_citation_ready",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-06",
+          "criterion_name": "not_integrated",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        },
+        {
+          "criterion_boundary": "Criterion supports source-pool acceptance only and does not create citation readiness, citation insertion, citation integration, manuscript mutation, or readiness approval.",
+          "criterion_id": "ACCEPT-DEC-B1-CRIT-07",
+          "criterion_name": "non_operational_methodological_scope",
+          "criterion_result": "passed_for_methodological_source_pool_acceptance_only"
+        }
+      ],
+      "fabricated_reference_status": "no_fabricated_reference_introduced",
+      "manuscript_file_status": "no_manuscript_file_modified",
+      "manuscript_mutation_status": "no_mutation",
+      "new_citation_status": "no_new_citation_added",
+      "readiness_approval_status": "no_readiness_approval_recorded",
+      "rejection_decision_status": "no_rejection_decision_recorded",
+      "scientific_validation_status": "scientific_validation_not_claimed",
+      "source_decision_record_id": "VERIF-DEC-B1-007",
+      "source_eligibility_gate_record_id": "ACCEPT-ELIG-GATE-B1-007",
+      "source_operational_scope": "non_operational_methodological_source_only"
+    }
+  ],
+  "source_acceptance_decision_register_completed": true,
+  "source_acceptance_decisions_recorded": true,
+  "source_acceptance_performed": true,
+  "source_decision_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_decision_register_v8_226.json",
+  "source_eligibility_gate_record_count": 7,
+  "source_eligibility_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_eligibility_gate_v8_227.json",
+  "source_evidence_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_evidence_packet_v8_225.json",
+  "source_intake_json": "outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.json",
+  "source_ledger_schema_json": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.json",
+  "source_rejection_performed": false,
+  "synthetic_project_context_only": true,
+  "title": "Safe Abstract Toy Citation Retrieval Batch 1 Source Acceptance Decision Register",
+  "unitless_parameters_only": true,
+  "validation_claim_made": false,
+  "version": "v8.228"
+}
