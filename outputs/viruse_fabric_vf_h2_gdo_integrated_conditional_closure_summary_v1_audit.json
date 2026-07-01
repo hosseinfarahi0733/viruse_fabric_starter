@@ -1,0 +1,14 @@
+{
+  "action_id": "audit_vf_h2_gdo_integrated_conditional_closure_summary_no_claim_validation",
+  "audited_source_head": "ce8d1dc",
+  "audit_passed": true,
+  "audit_status": "passed_with_proof_forward_redirect",
+  "closed_theorem": "GDO-INT-T-VF-H2-001-R",
+  "closed_only_under_combined_explicit_assumptions": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "draft_vf_h2_combined_assumption_nonvacuity_model_plan_no_claim_validation"
+}
