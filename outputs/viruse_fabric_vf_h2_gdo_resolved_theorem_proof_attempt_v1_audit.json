@@ -1,0 +1,21 @@
+{
+  "action_id": "audit_vf_h2_gdo_resolved_theorem_proof_attempt_no_claim_validation",
+  "audited_source_head": "5bd7e33",
+  "audit_passed": true,
+  "audit_status": "passed_with_scoped_condition_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "theorem_id": "GDO-T-VF-H2-001-R",
+  "theorem_proved_conditionally": true,
+  "depends_on_gdo_assumptions": true,
+  "required_lemma_count": 5,
+  "required_lemmas_independently_audited_as_proved": false,
+  "conclusion": "ledger_effect_size > 0",
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "prior_restricted_anchor": "TTP-VF-H2-004-R",
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_lemma_independence_review_plan_no_claim_validation"
+}
