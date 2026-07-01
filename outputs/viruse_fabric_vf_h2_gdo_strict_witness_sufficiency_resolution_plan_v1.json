@@ -1,0 +1,20 @@
+{
+  "action_id": "draft_vf_h2_gdo_strict_witness_sufficiency_resolution_plan_no_claim_validation",
+  "source_head": "89cac6a",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "target_lemma": "GDO-L-VF-H2-005",
+  "planned_resolution_type": "sufficiency_only",
+  "strict_witness_existence_derived": false,
+  "already_proved_under_assumptions": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002",
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004-R"
+  ],
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_strict_witness_sufficiency_resolution_attempt_no_claim_validation"
+}
