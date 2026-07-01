@@ -1,0 +1,21 @@
+{
+  "action_id": "audit_vf_h2_gdo_discharged_dependency_summary_no_claim_validation",
+  "audited_source_head": "7e2cf4f",
+  "audit_passed": true,
+  "audit_status": "passed_with_conditional_scope_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "theorem": "GDO-T-VF-H2-001-R",
+  "theorem_status": "scoped_conditional",
+  "conclusion_only_under_assumptions": "ledger_effect_size > 0",
+  "strict_witness_existence_derived": false,
+  "original_gdo_l_vf_h2_004_proved_as_stated": false,
+  "repaired_gdo_l_vf_h2_004_r_proved_under_assumptions": true,
+  "gdo_l_vf_h2_005_resolution": "sufficiency_only",
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_conditional_theorem_closure_summary_no_claim_validation"
+}
