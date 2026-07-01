@@ -1,0 +1,62 @@
+{
+  "action_id": "draft_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_plan_no_claim_submission",
+  "source_head": "d4c8ce3",
+  "scope": "safe_abstract_finite_order_theoretic_toy_vf_h2_only",
+  "artifact_type": "limited_technical_note_consolidation_plan",
+  "new_theorem_proved": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "external_endorsement_claimed": false,
+  "named_mathematician_endorsement_recorded": false,
+  "working_title": "Strict Lyapunov Improvement for Maps with Characterized Fixed Sets on Finite Posets",
+  "primary_anchor": "FFP-LYAP-T-VF-H2-001-R",
+  "confirmed_components": {
+    "fixed_set_finite_poset_theorem": true,
+    "product_lattice_vf_h2_corollary": true,
+    "activation_aggregate_lift_corollary_under_explicit_assumptions": true,
+    "minimality_counterexample_suite": true
+  },
+  "planned_sections": [
+    "Introduction",
+    "Preliminaries",
+    "Main theorem",
+    "Finite dynamics consequence",
+    "Product-lattice VF-H2 corollary",
+    "Activation/aggregate lift",
+    "Minimality and counterexamples",
+    "Boundary and limitations",
+    "Appendix candidate"
+  ],
+  "allowed_claims": [
+    "fixed-set finite poset theorem proved in finite abstract setting",
+    "product-lattice VF-H2 corollary follows",
+    "activation/aggregate lift follows under explicit assumptions",
+    "counterexamples establish necessity of selected assumptions",
+    "monotonicity of f is not required for one-step theorem"
+  ],
+  "forbidden_claims": [
+    "full Viruse Fabric theory proved",
+    "unrestricted TTP-VF-H2-004 proved",
+    "empirical validation achieved",
+    "biological validation achieved",
+    "manuscript ready",
+    "submission ready",
+    "external mathematician endorsement obtained",
+    "journal acceptance or suitability established"
+  ],
+  "execution_step_should_create": [
+    "limited technical note draft skeleton",
+    "main theorem statement and proof",
+    "product lattice corollary",
+    "activation aggregate corollary",
+    "minimality table",
+    "boundary table",
+    "internal artifact inventory"
+  ],
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_draft_no_claim_submission"
+}
