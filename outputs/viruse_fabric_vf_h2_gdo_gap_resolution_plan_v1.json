@@ -1,0 +1,14 @@
+{
+  "action_id": "draft_vf_h2_gdo_gap_resolution_plan_no_claim_validation",
+  "source_head": "2d66643",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "open_gap_count": 5,
+  "planned_lemma_count": 5,
+  "candidate_generalized_theorem_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_gap_resolution_plan_no_claim_validation"
+}
