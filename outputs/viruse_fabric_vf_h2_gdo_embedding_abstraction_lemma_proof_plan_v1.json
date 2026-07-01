@@ -1,0 +1,22 @@
+{
+  "action_id": "draft_vf_h2_gdo_embedding_and_abstraction_lemma_proof_plan_no_claim_validation",
+  "source_head": "91b74fd",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proof_attempt_targets": [
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004"
+  ],
+  "already_proved_under_assumptions": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002"
+  ],
+  "assumption_sensitive_remaining": [
+    "GDO-L-VF-H2-005"
+  ],
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_embedding_and_abstraction_lemma_proof_attempt_no_claim_validation"
+}
