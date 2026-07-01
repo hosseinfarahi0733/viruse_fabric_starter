@@ -1,0 +1,21 @@
+{
+  "action_id": "draft_vf_h2_gdo_lemma_short_proof_plan_no_claim_validation",
+  "source_head": "08ecc3d",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "short_proof_target_count": 2,
+  "short_proof_targets": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002"
+  ],
+  "not_discharged_in_this_plan": [
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004",
+    "GDO-L-VF-H2-005"
+  ],
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_lemma_short_proof_attempt_no_claim_validation"
+}
