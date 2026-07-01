@@ -1,0 +1,27 @@
+{
+  "action_id": "audit_vf_h2_gdo_embedding_abstraction_lemma_proof_attempt_no_claim_validation",
+  "audited_source_head": "25a06c8",
+  "audit_passed": true,
+  "audit_status": "passed_with_one_lemma_failure_confirmed",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_under_explicit_assumptions": [
+    "GDO-L-VF-H2-003"
+  ],
+  "not_proved_as_stated": [
+    "GDO-L-VF-H2-004"
+  ],
+  "requires_repair": {
+    "GDO-L-VF-H2-004": "replace_order_compatibility_with_order_reflecting_or_order_embedding_condition"
+  },
+  "assumption_sensitive_remaining": [
+    "GDO-L-VF-H2-005"
+  ],
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_order_reflecting_abstraction_repair_plan_no_claim_validation"
+}
