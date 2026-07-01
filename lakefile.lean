@@ -13,5 +13,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.ProofBasics,
     `VFH2.RestrictedBridge.UpdateMap,
     `VFH2.RestrictedBridge.UpdateMapBasics,
-    `VFH2.RestrictedBridge.FixedZeroEffect
+    `VFH2.RestrictedBridge.FixedZeroEffect,
+    `VFH2.RestrictedBridge.ActiveTopBridge
   ]
