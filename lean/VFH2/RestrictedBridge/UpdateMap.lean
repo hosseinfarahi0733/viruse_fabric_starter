@@ -26,7 +26,7 @@ namespace RestrictedBridge
 
 /-- Boolean active-index membership for flattened active coordinates. -/
 def isActiveIndex (p : RestrictedParams) (i : Nat) : Bool :=
-  p.active.contains i
+  decide (i ∈ p.active)
 
 /-- Scaffold-level coordinate update.
 
