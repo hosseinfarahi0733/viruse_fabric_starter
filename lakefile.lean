@@ -3,7 +3,9 @@ open Lake DSL
 
 package «viruse_fabric_starter» where
   -- Restricted VF-H2 Lean scaffold only.
-  -- This package does not claim a full formal proof.
+  -- This package does not claim a completed machine-checked proof.
 
+@[default_target]
 lean_lib VFH2 where
+  srcDir := "lean"
   roots := #[`VFH2.RestrictedBridge.Scaffold]
