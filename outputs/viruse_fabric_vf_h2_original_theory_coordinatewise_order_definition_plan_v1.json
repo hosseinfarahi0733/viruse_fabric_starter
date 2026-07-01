@@ -1,0 +1,49 @@
+{
+  "action_id": "draft_vf_h2_original_theory_coordinatewise_order_definition_plan_no_claim_validation",
+  "source_head": "9782fea",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchor": "P_R-STATEDEF-VF-H2-001-R",
+  "target_artifact": "ORD-R-VF-H2-001",
+  "target_theorem": "ORD-R-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "state_space": "P_R(n,d)=L_n^(T_3 x I_d)",
+  "order_definition_planned": {
+    "leq_R": "x <=_R y iff for every tau in T_3 and every i in I_d, x_{tau,i} <= y_{tau,i}",
+    "lt_R": "x <_R y iff x <=_R y and x != y",
+    "equivalent_strict_condition": "coordinatewise <= everywhere and strict < in at least one coordinate"
+  },
+  "proof_obligations": {
+    "reflexivity": "planned",
+    "antisymmetry": "planned",
+    "transitivity": "planned",
+    "finite_poset_conclusion": "planned"
+  },
+  "expected_resolved_after_execution": [
+    "leq_R_defined",
+    "lt_R_defined",
+    "leq_R_reflexive",
+    "leq_R_antisymmetric",
+    "leq_R_transitive",
+    "P_R_leq_R_finite_poset"
+  ],
+  "remaining_blockers": [
+    "update_map_f_R_not_defined",
+    "fixed_set_F_R_not_defined",
+    "saturation_predicate_not_defined",
+    "saturation_equivalence_not_proved",
+    "strict_progressivity_outside_F_R_not_proved",
+    "ledger_functional_V_R_not_defined",
+    "strict_order_preservation_of_V_R_not_proved",
+    "ledger_effect_size_identity_not_proved",
+    "activation_aggregate_assumptions_not_proved_if_used"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_restricted_update_map_definition_plan_no_claim_validation",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_original_theory_coordinatewise_order_definition_no_claim_validation"
+}
