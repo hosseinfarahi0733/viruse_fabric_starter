@@ -1,0 +1,28 @@
+{
+  "action_id": "manual_review_vf_h2_candidate_evidence_files_no_claim_validation",
+  "source_head": "c21dc05",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "candidate_file_count": 45,
+  "new_experiments_run": false,
+  "review_method": "static_content_review_v1_no_execution",
+  "verdict_counts": {
+    "usable_as_boundary_evidence_candidate": 34,
+    "requires_boundary_safety_review": 11
+  },
+  "bucket_counts": {
+    "TESTS_BOUNDARY": 36,
+    "SENSITIVITY_CHECK": 3,
+    "SUPPORTS_ASSUMPTIONS": 2,
+    "SUPPORTS_CLAIM_B": 2,
+    "ROBUSTNESS_CHECK": 2
+  },
+  "claim_counts": {
+    "CLAIM-VF-H2-C-or-D": 36,
+    "CLAIM-VF-H2-B": 7,
+    "CLAIM-VF-H2-A": 2
+  },
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "draft_vf_h2_evidence_review_summary_no_claim_validation"
+}
