@@ -1,0 +1,1072 @@
+{
+  "tool": "detect_loops.py",
+  "checked_commit_subjects": 200,
+  "counts": {
+    "plan": 45,
+    "execute": 39,
+    "audit": 40,
+    "final_status": 1
+  },
+  "loop_signal_count": 1,
+  "loop_signals": [
+    {
+      "type": "high_loopish_commit_density",
+      "counts": {
+        "plan": 45,
+        "execute": 39,
+        "audit": 40,
+        "final_status": 1
+      }
+    }
+  ],
+  "classified_subjects": [
+    {
+      "subject": "Add proofchain tooling and CI validation",
+      "classes": []
+    },
+    {
+      "subject": "Execute VF-H2 original theory final restricted bridge theorem",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory final restricted bridge theorem plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory ledger Lyapunov functional",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory ledger Lyapunov functional plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory fixed set and strict progressivity",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory fixed set and strict progressivity plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory restricted update map definition",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory restricted update map definition plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory coordinatewise order definition",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory coordinatewise order definition plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory restricted finite state definition",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory restricted finite state definition plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 original theory formal instantiation map",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 original theory formal instantiation map plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 fixed set finite poset package final status report",
+      "classes": [
+        "final_status"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 fixed set finite poset limited technical note consolidation draft",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 fixed set finite poset limited technical note consolidation draft",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 fixed set finite poset limited technical note consolidation plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 fixed set finite poset minimality counterexample proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 fixed set finite poset minimality counterexample proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 fixed set finite poset minimality counterexample plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 fixed set finite poset generalization proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 fixed set finite poset generalization proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 fixed set finite poset generalization plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 nonidentity activation aggregate model plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 activation aggregate lift for state dependent update proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 activation aggregate lift for state dependent update proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 activation aggregate lift for state dependent update plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 state dependent saturated coordinate update family proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 state dependent saturated coordinate update family proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 state dependent saturated coordinate update family plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 weighted coordinate subset update family proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 weighted coordinate subset update family proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 weighted coordinate subset update family plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 coordinate subset update family proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 coordinate subset update family proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 coordinate subset update family plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 parametric finite product lattice model proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 parametric finite product lattice model proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 parametric finite product lattice model plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 parametric finite chain model proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 parametric finite chain model proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 parametric finite chain model plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 nontrivial finite model extension proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 nontrivial finite model extension proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 nontrivial finite model extension plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 combined assumption nonvacuity model proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 combined assumption nonvacuity model proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 combined assumption nonvacuity model plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 GDO integrated conditional closure summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO integrated conditional closure summary",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 GDO strict witness bridge integration",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO strict witness bridge integration",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO strict witness bridge integration plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 restricted to GDO strict witness bridge theorem proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 restricted to GDO strict witness bridge theorem proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 restricted to GDO strict witness bridge theorem plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 restricted to GDO strict witness bridge gap analysis",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 restricted to GDO strict witness bridge gap analysis",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 restricted toy strict witness closure summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 restricted toy strict witness closure summary",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 restricted toy strict witness existence proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 restricted toy strict witness existence proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 restricted toy strict witness existence plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 strict witness existence gap analysis",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 strict witness existence gap analysis",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 GDO conditional theorem closure summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO conditional theorem closure summary",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 GDO discharged dependency summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO discharged dependency summary",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 GDO strict witness sufficiency resolution attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO strict witness sufficiency resolution attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO strict witness sufficiency resolution plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 GDO order reflecting abstraction repair attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO order reflecting abstraction repair attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO order reflecting abstraction repair plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 GDO embedding abstraction lemma proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO embedding abstraction lemma proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO embedding abstraction lemma proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 GDO lemma short proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO lemma short proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO lemma short proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO lemma independence review",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO lemma independence review plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 GDO resolved theorem proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO resolved theorem proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO resolved theorem proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 GDO gap resolution plan",
+      "classes": [
+        "execute",
+        "plan"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 GDO gap resolution plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 generalized ordered-domain theorem gap analysis",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 generalized ordered-domain formalization",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 generalized ordered-domain formalization",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 generalized ordered-domain formalization plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 limited negative evidence boundary summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 limited negative evidence boundary summary",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 boundary candidate inspection",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Inspect VF-H2 boundary evidence candidates",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 evidence review summary",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 evidence review summary",
+      "classes": []
+    },
+    {
+      "subject": "Review VF-H2 candidate evidence files",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 existing experiment classification",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Classify VF-H2 existing experiments against claim ladder",
+      "classes": []
+    },
+    {
+      "subject": "Create VF-H2 claim ladder and evidence register",
+      "classes": []
+    },
+    {
+      "subject": "Audit VF-H2 proof chain consolidation",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 proof chain consolidation",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 proof chain consolidation plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 structural witness resolved proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 structural witness resolved proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 structural witness resolved proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 structural witness gap resolution analysis",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 structural witness gap resolution plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 toy theorem tightened proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 toy theorem tightened proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 toy theorem tightened proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 toy theorem assumption tightening analysis",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 toy theorem assumption tightening plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit VF-H2 toy theorem formal proof attempt",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Execute VF-H2 toy theorem formal proof attempt",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft VF-H2 toy theorem formal proof plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit polished limited technical note v2 artifact",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Create polished limited technical note v2 artifact",
+      "classes": []
+    },
+    {
+      "subject": "Draft limited technical note v2 polish edit plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Execute limited technical note v2 quality review",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Draft limited technical note v2 quality review plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit limited technical note v2 for VF-H2",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Create limited technical note v2 with related work integration",
+      "classes": []
+    },
+    {
+      "subject": "Draft limited technical note v2 related work integration plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit citation-inserted related work draft for VF-H2",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Insert verified citations into related work draft for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Draft citation insertion plan for VF-H2",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Verify candidate sources for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Record source search candidates for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Draft citation search query plan for VF-H2",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Draft source verification protocol for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Draft related work scaffold for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Draft literature mapping plan for VF-H2",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Audit limited technical note for overclaiming",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Draft limited technical note for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Draft limited technical note scaffold for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Formalize VF-H2 mathematical core",
+      "classes": []
+    },
+    {
+      "subject": "Write limited results section for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Interpret independent safe toy replication result",
+      "classes": []
+    },
+    {
+      "subject": "Run independent safe toy implementation replication",
+      "classes": []
+    },
+    {
+      "subject": "Design independent safe toy implementation replication",
+      "classes": []
+    },
+    {
+      "subject": "Interpret safe artifact-resistance and ablation results",
+      "classes": []
+    },
+    {
+      "subject": "Run safe artifact-resistance and ablation tests",
+      "classes": []
+    },
+    {
+      "subject": "Design safe artifact-resistance and ablation tests",
+      "classes": []
+    },
+    {
+      "subject": "Interpret preregistered larger safe toy robustness result",
+      "classes": []
+    },
+    {
+      "subject": "Run preregistered larger safe toy robustness check",
+      "classes": []
+    },
+    {
+      "subject": "Design preregistered larger safe toy robustness check",
+      "classes": []
+    },
+    {
+      "subject": "Interpret limited safe toy result without validation claim",
+      "classes": []
+    },
+    {
+      "subject": "Add limited safe toy simulation for VF-H2",
+      "classes": []
+    },
+    {
+      "subject": "Add limited safe toy simulation human decision record",
+      "classes": []
+    },
+    {
+      "subject": "Add safe dry-run external-facing limited summary",
+      "classes": []
+    },
+    {
+      "subject": "Add safe dry-run limited technical synthesis",
+      "classes": []
+    },
+    {
+      "subject": "Add safe dry-run infrastructure checkpoint",
+      "classes": []
+    },
+    {
+      "subject": "Add safe dry-run execution gate",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Add safe dry-run manifest builder regression",
+      "classes": []
+    },
+    {
+      "subject": "Add safe dry-run manifest builder",
+      "classes": []
+    },
+    {
+      "subject": "Add safe sweep dry-run protocol regression",
+      "classes": []
+    },
+    {
+      "subject": "Add safe sweep dry-run protocol",
+      "classes": []
+    },
+    {
+      "subject": "Add safe null-control template regression",
+      "classes": []
+    },
+    {
+      "subject": "Add safe null-control templates",
+      "classes": []
+    },
+    {
+      "subject": "Add safe sweep execution harness",
+      "classes": [
+        "execute"
+      ]
+    },
+    {
+      "subject": "Add safe sweep execution plan",
+      "classes": [
+        "execute",
+        "plan"
+      ]
+    },
+    {
+      "subject": "Add safe engine validation regression",
+      "classes": []
+    },
+    {
+      "subject": "Add safe sweep profile engine validation route",
+      "classes": []
+    },
+    {
+      "subject": "Add safe profile engine validation bridge",
+      "classes": []
+    },
+    {
+      "subject": "Add safe toy sweep profile scaffold",
+      "classes": []
+    },
+    {
+      "subject": "Add engine redesign implementation plan",
+      "classes": [
+        "plan"
+      ]
+    },
+    {
+      "subject": "Add engine redesign specification after v9.8 decision gate",
+      "classes": []
+    },
+    {
+      "subject": "Add limited technical note after v9.8 decision gate",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric v9.8 decision gate close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric v9.8 decision gate boundary check",
+      "classes": []
+    },
+    {
+      "subject": "Start v9.8 safe toy parameter sweep null-control stress test",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric safe toy replicate robustness close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric safe toy replicate grid robustness check",
+      "classes": []
+    },
+    {
+      "subject": "Start v9.7 safe toy replicate grid robustness check",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric safe toy scientific yield extraction close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric safe toy scientific yield extraction",
+      "classes": []
+    },
+    {
+      "subject": "Start v9.6 scientific yield extraction and theory reduction",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric toy evidence limitation and manuscript readiness gate close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric toy evidence limitation and manuscript readiness gate",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric results and falsification audit close notes",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Add Viruse Fabric results and falsification audit",
+      "classes": [
+        "audit"
+      ]
+    },
+    {
+      "subject": "Document Viruse Fabric safe toy baseline comparison close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric safe toy baseline comparison",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric minimal safe toy simulation engine close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric minimal safe toy simulation engine",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric abstract simulation specification close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric abstract simulation specification",
+      "classes": []
+    },
+    {
+      "subject": "Document Viruse Fabric abstract simulation reframing close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add Viruse Fabric abstract simulation reframing",
+      "classes": []
+    },
+    {
+      "subject": "Document safe abstract toy citation retrieval batch 1 source acceptance decision register close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add safe abstract toy citation retrieval batch 1 source acceptance decision register",
+      "classes": []
+    },
+    {
+      "subject": "Document safe abstract toy citation retrieval batch 1 source acceptance eligibility gate close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add safe abstract toy citation retrieval batch 1 source acceptance eligibility gate",
+      "classes": []
+    },
+    {
+      "subject": "Document safe abstract toy citation retrieval batch 1 source verification decision register close notes",
+      "classes": []
+    },
+    {
+      "subject": "Add safe abstract toy citation retrieval batch 1 source verification decision register",
+      "classes": []
+    }
+  ]
+}

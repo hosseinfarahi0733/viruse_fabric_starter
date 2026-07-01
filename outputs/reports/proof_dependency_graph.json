@@ -1,0 +1,6593 @@
+{
+  "tool": "build_dependency_graph.py",
+  "node_count": 123,
+  "edge_count": 94,
+  "nodes": [
+    "AAL-SDSCUF-T-VF-H2-001-R",
+    "ASM-VF-H2-001",
+    "ASM-VF-H2-002",
+    "ASM-VF-H2-003",
+    "ASM-VF-H2-004",
+    "ASM-VF-H2-005",
+    "ASM-VF-H2-006",
+    "ASM-VF-H2-007",
+    "BRG-VF-H2-001",
+    "BRG-VF-H2-002",
+    "BRG-VF-H2-003",
+    "BRG-VF-H2-004",
+    "BRG-VF-H2-005",
+    "BRG-VF-H2-006",
+    "BRG-VF-H2-007",
+    "CANM-T-VF-H2-001-R",
+    "CSUF-T-VF-H2-001-R",
+    "DEF-VF-H2-001",
+    "DEF-VF-H2-002",
+    "DEF-VF-H2-003",
+    "DEF-VF-H2-004",
+    "DEF-VF-H2-005",
+    "FFP-LYAP-T-VF-H2-001-R",
+    "FSP-R-VF-H2-001",
+    "FSP-R-VF-H2-001-R",
+    "GDO-INT-T-VF-H2-001-R",
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002",
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004",
+    "GDO-L-VF-H2-004-R",
+    "GDO-L-VF-H2-005",
+    "GDO-T-VF-H2-001",
+    "GDO-T-VF-H2-001-R",
+    "GDO-VF-H2-001",
+    "GDO-VF-H2-002",
+    "GDO-VF-H2-003",
+    "GDO-VF-H2-004",
+    "GDO-VF-H2-005",
+    "GDO-VF-H2-006",
+    "GDO-VF-H2-007",
+    "GDO-VF-H2-008",
+    "LEDGER-LYAP-R-VF-H2-001",
+    "LEDGER-LYAP-R-VF-H2-001-R",
+    "LEM-VF-H2-001",
+    "LEM-VF-H2-002",
+    "LEM-VF-H2-003",
+    "LEM-VF-H2-004",
+    "LEM-VF-H2-005",
+    "NIAGM-T-VF-H2-001-R",
+    "NTFM-T-VF-H2-001-R",
+    "OIBRIDGE-AAG-VF-H2-001-C",
+    "OIBRIDGE-VF-H2-001-C",
+    "OIMAP-VF-H2-001",
+    "ORD-R-VF-H2-001",
+    "ORD-R-VF-H2-001-R",
+    "PFCM-T-VF-H2-001-R",
+    "PFPL-T-VF-H2-001-R",
+    "PRIM-VF-H2-001",
+    "PRIM-VF-H2-002",
+    "PRIM-VF-H2-003",
+    "PRIM-VF-H2-004",
+    "PRIM-VF-H2-005",
+    "PRIM-VF-H2-006",
+    "PRIM-VF-H2-007",
+    "PRIM-VF-H2-008",
+    "PRIM-VF-H2-009",
+    "PRIM-VF-H2-010",
+    "PRIM-VF-H2-011",
+    "PRIM-VF-H2-012",
+    "P_R-STATEDEF-VF-H2-001-R",
+    "P_R_STATEDEF-VF-H2-001",
+    "RBRIDGE-VF-H2-001",
+    "RBRIDGE-VF-H2-001-R",
+    "RSW-VF-H2-001",
+    "RSW-VF-H2-002",
+    "RSW-VF-H2-003",
+    "RSW-VF-H2-004",
+    "RSW-VF-H2-005",
+    "RSW-VF-H2-006",
+    "RSW-VF-H2-007",
+    "RSWL-VF-H2-001",
+    "RSWL-VF-H2-002",
+    "RSWL-VF-H2-003",
+    "RSWL-VF-H2-004",
+    "RTGDO-T-VF-H2-001-R",
+    "RTSW-T-VF-H2-001-R",
+    "RUMAP-VF-H2-001",
+    "RUMAP-VF-H2-001-R",
+    "SDSCUF-T-VF-H2-001-R",
+    "SWC-VF-H2-001",
+    "SWC-VF-H2-002",
+    "SWC-VF-H2-003",
+    "SWC-VF-H2-004",
+    "SWC-VF-H2-005",
+    "SWC-VF-H2-006",
+    "SWG-VF-H2-001",
+    "SWG-VF-H2-002",
+    "SWG-VF-H2-003",
+    "SWG-VF-H2-004",
+    "SWG-VF-H2-005",
+    "SWG-VF-H2-006",
+    "SWL-VF-H2-001",
+    "SWL-VF-H2-002",
+    "SWL-VF-H2-003",
+    "TGAP-VF-H2-001",
+    "TGAP-VF-H2-002",
+    "TGAP-VF-H2-003",
+    "TIGHTEN-VF-H2-001",
+    "TIGHTEN-VF-H2-002",
+    "TIGHTEN-VF-H2-003",
+    "TIGHTEN-VF-H2-004",
+    "TIGHTEN-VF-H2-005",
+    "TTC-VF-H2-001",
+    "TTC-VF-H2-002",
+    "TTC-VF-H2-003",
+    "TTC-VF-H2-004",
+    "TTP-VF-H2-001",
+    "TTP-VF-H2-002",
+    "TTP-VF-H2-003",
+    "TTP-VF-H2-004",
+    "TTP-VF-H2-004-R",
+    "WCSUF-T-VF-H2-001-R"
+  ],
+  "edges": [
+    {
+      "from": "FFP-LYAP-T-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "FFP-LYAP-T-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "FFP-LYAP-T-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "FSP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "GDO-L-VF-H2-002",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-002",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-003",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-003",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-004",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-004",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-004-R",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-004-R",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-005",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md"
+    },
+    {
+      "from": "GDO-L-VF-H2-005",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_plan_v1.md"
+    },
+    {
+      "from": "GDO-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.md"
+    },
+    {
+      "from": "GDO-T-VF-H2-001-R",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_attempt_v1.md"
+    },
+    {
+      "from": "GDO-VF-H2-001",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "GDO-VF-H2-008",
+      "to": "GDO-L-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md"
+    },
+    {
+      "from": "LEDGER-LYAP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "LEDGER-LYAP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "LEDGER-LYAP-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "OIBRIDGE-VF-H2-001-C",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_formal_instantiation_map_v1.md"
+    },
+    {
+      "from": "OIMAP-VF-H2-001",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_finite_state_definition_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001",
+      "to": "OIMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "OIMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.md"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.json"
+    },
+    {
+      "from": "ORD-R-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "OIMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_plan_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "OIMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "ORD-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "ORD-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_v1.md"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.json"
+    },
+    {
+      "from": "P_R-STATEDEF-VF-H2-001-R",
+      "to": "RUMAP-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_v1.json"
+    },
+    {
+      "from": "RTGDO-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_plan_v1.md"
+    },
+    {
+      "from": "RTGDO-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.md"
+    },
+    {
+      "from": "RTSW-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_plan_v1.md"
+    },
+    {
+      "from": "RTSW-T-VF-H2-001-R",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.md"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.md"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.md"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.md"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.md"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "FSP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "LEDGER-LYAP-R-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json"
+    },
+    {
+      "from": "RUMAP-VF-H2-001-R",
+      "to": "RBRIDGE-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json"
+    },
+    {
+      "from": "TTP-VF-H2-004",
+      "to": "FFP-LYAP-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_v1_audit.md"
+    },
+    {
+      "from": "TTP-VF-H2-004",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_integrated_conditional_closure_summary_v1.md"
+    },
+    {
+      "from": "TTP-VF-H2-004",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.md"
+    },
+    {
+      "from": "TTP-VF-H2-004",
+      "to": "GDO-INT-T-VF-H2-001-R",
+      "source_file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1_audit.md"
+    },
+    {
+      "from": "TTP-VF-H2-004",
+      "to": "RSW-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_plan_v1.md"
+    },
+    {
+      "from": "TTP-VF-H2-004-R",
+      "to": "RSW-VF-H2-001",
+      "source_file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_plan_v1.md"
+    }
+  ],
+  "files": [
+    {
+      "file": "outputs/adm_a_definition_draft_execution_v8_137.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/adversarial_sensitivity_v2_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/attractor_class_bridge_authorization_plan_v8_75.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/attractor_class_bridge_execution_v8_76.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/attractor_class_scaffold_boundary_audit_v8_77.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/baseline_comparison_v2_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/bilingual_quality_report_v1_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/c_reg_definition_draft_execution_v8_138.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/candidate_source_metadata_audit_v6_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/carrier_domain_evidence_boundary_audit_plus_gap_resolution_decision_v8_89.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/citation_grounded_manuscript_revision_plan_v5_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/citation_placeholder_plan_v3_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/claim_to_citation_readiness_map_v4_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/completion_decision_boundary_audit_planning_v8_102.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/constructive_attractor_ablation_v2_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_adm_a_definition_completion_execution_v8_149.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_c_reg_definition_completion_execution_v8_150.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_dependent_object_completion_bundle_integration_v8_155.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_decision_execution_v8_35.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_decision_plan_v8_34.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_authorization_execution_v8_49.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_authorization_plan_v8_48.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_gate_execution_v8_47.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_gate_plan_v8_46.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_plan_v8_36.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_approval_execution_v8_45.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_approval_plan_v8_44.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_decision_execution_v8_43.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_decision_plan_v8_42.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_execution_v8_41.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_preflight_plan_v8_40.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_readiness_audit_v8_37.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_transition_decision_execution_v8_39.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_execution_transition_decision_plan_v8_38.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_approval_plan_v8_33.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_attempt_execution_v8_32.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_attempt_plan_v8_31.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_readiness_decision_execution_v8_30.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_readiness_decision_plan_v8_29.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_completion_readiness_plan_v8_28.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_execution_plan_v8_25.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_execution_trace_audit_v8_27.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_formal_definition_execution_v8_26.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_full_dependency_closure_boundary_audit_v8_156.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_001_lemma_proof_execution_v8_161.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_001_lemma_proof_strategy_planning_v8_160.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_002_lemma_proof_execution_v8_163.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_002_lemma_proof_strategy_planning_v8_162.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_003_lemma_proof_execution_v8_165.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_003_lemma_proof_strategy_planning_v8_164.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_004_lemma_proof_execution_v8_167.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_004_lemma_proof_strategy_planning_v8_166.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_005_lemma_proof_execution_v8_169.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_005_lemma_proof_strategy_planning_v8_168.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_006_lemma_proof_execution_v8_171.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_l_006_lemma_proof_strategy_planning_v8_170.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_m_c_definition_completion_execution_v8_152.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_pi_obs_definition_completion_execution_v8_151.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_r_a_definition_completion_execution_v8_153.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_sigma_a_definition_completion_execution_plan_v8_146.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_sigma_a_definition_completion_execution_v8_147.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_actual_presentation_deck_draft_v8_179.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_presentation_claim_package_v8_177.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_presentation_delivery_package_v8_180.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_presentation_export_package_v8_182.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_presentation_manuscript_proof_section_extraction_v8_176.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_proof_acceptance_boundary_audit_v8_175.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_proof_execution_strategy_planning_v8_173.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_proof_execution_v8_174.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_proof_obligation_lemma_planning_v8_159.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_proof_strategy_planning_v8_158.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_renderable_presentation_source_v8_181.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_slide_deck_content_extraction_v8_178.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_tc_001_supporting_lemma_chain_completion_audit_v8_172.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_theorem_candidate_planning_over_dependency_closed_bundle_v8_157.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/controlled_traj_a_definition_completion_execution_v8_154.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/core_formal_object_inventory_execution_v8_104.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/dependent_object_definition_completion_planning_v8_148.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/dependent_object_draft_bundle_integration_execution_v8_143.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/draft_boundary_resolution_authorization_plan_v8_64.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/draft_boundary_resolution_targeting_plan_v8_63.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/drafted_formal_definition_boundary_audit_v8_62.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/empty_search_log_audit_v5_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/equivalence_class_quotient_structure_theorem_attempt_v8_73.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/exclusion_and_failure_condition_evidence_execution_v8_94.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/exclusion_and_failure_evidence_boundary_audit_plus_gap_resolution_decision_v8_95.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/final_residual_condition_evidence_execution_v8_100.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/final_residual_evidence_boundary_audit_plus_gap_resolution_decision_v8_101.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_bounded_revised_claim_audit_v7_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_candidate_source_entry_creation_v6_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_candidate_source_entry_plan_v6_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_citation_grounded_manuscript_claim_revision_execution_v7_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_citation_grounded_manuscript_claim_revision_plan_v7_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_citation_integration_execution_v7_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_citation_integration_plan_v6_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_citation_record_audit_v7_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_controlled_formal_definition_drafting_execution_v8_61.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_controlled_live_search_execution_v5_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_evidence_matrix_population_execution_v6_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_evidence_matrix_population_plan_v6_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_evidence_matrix_row_audit_v6_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_full_manuscript_revision_package_audit_v8_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_full_manuscript_revision_package_execution_v7_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_full_manuscript_revision_package_plan_v7_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_literature_family_search_plan_v5_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_manual_proof_attempt_execution_v8_56.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_manuscript_citation_insertion_execution_v7_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_manuscript_citation_insertion_plan_v7_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_manuscript_citation_marker_audit_v7_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_minimal_formal_lemma_proof_execution_v8_65.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_path_kernel_theorem_attempt_v8_67.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_raw_result_screening_execution_v5_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_raw_result_screening_plan_v5_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_retained_source_decision_execution_v6_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_retained_source_decision_plan_v6_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_retained_source_role_audit_v6_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_search_run_artifact_audit_v5_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_search_run_artifact_v5_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_submission_readiness_audit_execution_v8_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/first_submission_readiness_criteria_plan_v8_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_candidate_registry_v8_52.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_approval_execution_v8_22.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_approval_plan_v8_21.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_decision_execution_v8_19.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_decision_plan_v8_18.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_readiness_decision_execution_v8_14.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_checklist_completion_readiness_decision_plan_v8_13.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_completion_criteria_plan_v8_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_completion_execution_authorization_plan_v8_59.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_completion_execution_authorization_v8_60.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_completion_targeting_plan_v8_58.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_controlled_checklist_completion_attempt_execution_v8_16.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_controlled_checklist_completion_attempt_plan_v8_15.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_controlled_checklist_completion_candidate_audit_v8_17.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_execution_readiness_approval_execution_v8_24.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_execution_readiness_approval_plan_v8_23.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_execution_readiness_gate_plan_v8_10.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_pre_execution_checklist_audit_v8_12.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_pre_execution_checklist_completion_v8_20.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_pre_execution_checklist_plan_v8_11.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_skeleton_audit_v8_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_definition_transition_boundary_audit_plan_v8_103.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_notation_scaffold_v3_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_proof_requirements_plan_v8_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_proof_skeleton_plan_v8_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/formal_proof_track_entry_and_proof_obligation_plan_v8_50.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/full_manuscript_draft_v3_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/integrated_manuscript_draft_v3_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/integrated_manuscript_quality_audit_v3_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/limited_theorem_pair_boundary_audit_v8_70.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/literature_family_evidence_matrix_v4_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/literature_search_log_empty_v5_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/literature_search_log_template_v5_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/literature_search_protocol_v4_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/local_persistence_evidence_boundary_audit_plus_gap_resolution_decision_v8_91.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/local_persistence_testability_evidence_execution_v8_90.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/m_c_definition_draft_execution_v8_140.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manual_proof_attempt_gap_audit_v8_57.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_integration_plan_v3_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_quality_audit_v3_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_skeleton_v3_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_submission_readiness_blocking_gap_register_v8_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_submission_readiness_decision_execution_v8_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/manuscript_submission_readiness_decision_plan_v8_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/minimal_adequacy_condition_evidence_execution_v8_96.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/minimal_adequacy_evidence_boundary_audit_plus_gap_resolution_decision_v8_97.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/minimal_path_lemma_dependency_expansion_v8_66.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/mutual_reachability_equivalence_theorem_attempt_v8_72.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/one_page_public_preview_audit_v4_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/one_page_public_preview_v4_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/parameter_sensitivity_v2_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/path_kernel_theorem_proof_boundary_audit_v8_68.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/path_kernel_theorem_stack_boundary_audit_v8_74.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/pi_obs_definition_draft_execution_v8_139.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/projection_perturbation_v2_9.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/proof_environment_selection_and_first_proof_attempt_plan_v8_55.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/proof_obligation_registry_execution_v8_51.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/proof_strategy_plan_v8_54.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_demo_report_v2_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_preview_quality_audit_v4_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_release_bundle_index_v4_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_release_checklist_v4_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_release_readiness_audit_v4_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/public_technical_preview_package_v4_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/r_a_definition_draft_execution_v8_141.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/reachability_preorder_theorem_attempt_v8_71.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/recurrence_witness_evidence_boundary_audit_plus_gap_resolution_decision_v8_93.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/recurrence_witness_evidence_execution_v8_92.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/related_work_positioning_v3_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/residual_ambiguity_condition_evidence_execution_v8_98.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/residual_ambiguity_evidence_boundary_audit_plus_gap_resolution_decision_v8_99.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_candidate_intake_v8_224.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register_v8_228.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_decision_register_v8_228.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_eligibility_gate_v8_227.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_acceptance_eligibility_gate_v8_227.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_decision_register_v8_226.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_decision_register_v8_226.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_evidence_packet_v8_225.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_batch_1_source_verification_evidence_packet_v8_225.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_candidate_ledger_schema_v8_222.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance_v8_223.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_empty_candidate_ledger_instance_v8_223.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_retrieval_readiness_gate_v8_221.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_slot_integration_plan_v8_219.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_citation_source_eligibility_and_query_plan_v8_220.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_constraint_sensitivity_sweep_v8_192.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_constraint_sensitivity_sweep_v8_192.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_dynamics_kernel_implementation_v8_189.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_dynamics_kernel_unit_test_package_v8_190.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_dynamics_run_export_and_metrics_report_v8_191.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_dynamics_run_export_v8_191.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_evaluation_design_plan_v8_217.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_evaluation_design_plan_v8_217.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_figure_ready_interpretation_package_v8_194.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_figure_ready_interpretation_package_v8_194.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_assembly_preview_package_v8_215.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_boundary_register_v8_208.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_package_audit_v8_210.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_package_audit_v8_210.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_package_v8_209.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_package_v8_209.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_audit_v8_212.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_audit_v8_212.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_v8_211.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_claim_language_placement_plan_v8_211.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_coherence_improvement_package_v8_218.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_consistency_audit_v8_197.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_consistency_audit_v8_197.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_integration_map_v8_196.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_integration_map_v8_196.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_checklist_audit_v8_203.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_checklist_audit_v8_203.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_checklist_v8_202.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_checklist_v8_202.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_consistency_audit_v8_207.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_consistency_audit_v8_207.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_v8_206.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_finding_register_v8_206.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_v8_205.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_audit_v8_205.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_v8_204.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_decision_ledger_v8_204.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_plan_v8_201.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_plan_v8_201.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_readiness_gate_v8_200.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_application_readiness_gate_v8_200.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_dry_run_package_v8_199.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_dry_run_package_v8_199.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_proposal_v8_198.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_patch_proposal_v8_198.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_section_draft_package_audit_v8_214.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_section_draft_package_audit_v8_214.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_manuscript_section_draft_package_v8_213.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_results_paragraph_and_caption_package_v8_195.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_results_paragraph_and_caption_package_v8_195.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_scientific_gap_and_evidence_upgrade_register_v8_216.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_sensitivity_ranking_and_baseline_delta_analysis_v8_193.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_abstract_toy_sensitivity_ranking_and_baseline_delta_analysis_v8_193.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_multidisciplinary_simulation_environment_scope_map_v8_183.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_synthetic_toy_fixture_catalog_package_v8_188.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_toy_simulation_architecture_specification_v8_184.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_toy_simulation_safety_guard_module_v8_186.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_toy_simulation_safety_guard_unit_test_package_v8_187.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/safe_toy_simulation_safety_test_scaffolding_v8_185.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/scenario_stress_report_v2_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/second_path_kernel_theorem_attempt_v8_69.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_and_time_index_refinement_plan_v8_107.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_draft_clause_creation_boundary_audit_v8_126.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_draft_clause_creation_execution_plan_v8_124.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_draft_clause_creation_execution_v8_125.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_level_draft_assembly_boundary_audit_v8_123.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_level_draft_assembly_execution_plan_v8_121.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_level_draft_assembly_execution_v8_122.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_type_option_audit_execution_v8_108.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_type_selection_decision_boundary_plan_v8_109.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_carrier_type_selection_decision_execution_v8_110.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_definition_completion_readiness_boundary_audit_v8_145.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_definition_completion_readiness_plan_v8_144.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_draft_consistency_boundary_audit_v8_106.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_formal_definition_draft_execution_v8_105.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_refinement_execution_plan_boundary_audit_v8_135.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_refinement_execution_plan_v8_134.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_refinement_execution_v8_136.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_audit_execution_v8_111.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_integration_boundary_audit_v8_117.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_integration_execution_plan_v8_115.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_integration_execution_v8_116.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_refinement_boundary_audit_v8_114.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_refinement_execution_plan_v8_112.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_component_slot_refinement_execution_v8_113.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_refinement_boundary_audit_v8_120.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_refinement_execution_plan_v8_118.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/sigma_a_typed_product_carrier_refinement_execution_v8_119.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_carrier_domain_exactness_evidence_execution_v8_88.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_completion_criteria_boundary_audit_v8_82.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_completion_criteria_plan_v8_81.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_completion_decision_execution_v8_85.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_completion_decision_plan_boundary_audit_v8_84.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_completion_decision_plan_v8_83.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_conditional_hold_gap_register_boundary_audit_v8_87.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_conditional_hold_gap_register_v8_86.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_controlled_definition_execution_v8_79.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_definition_plan_v8_78.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/stabilization_predicate_draft_boundary_audit_v8_80.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/theorem_and_lemma_skeleton_plan_v8_53.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/theory_chapter_fa_v1_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/theory_chapter_v1_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/theory_manifest_v2_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/time_index_refinement_boundary_audit_v8_133.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/time_index_refinement_execution_plan_boundary_audit_v8_131.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/time_index_refinement_execution_plan_v8_130.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/time_index_refinement_execution_v8_132.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/traj_a_definition_draft_execution_v8_142.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/validation_protocol_v2_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/validation_synthesis_v3_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_abstract_simulation_reframing_v9_0.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_abstract_simulation_reframing_v9_0.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_abstract_simulation_specification_v9_1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_abstract_simulation_specification_v9_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_inserted_related_work_draft_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_inserted_related_work_draft_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_inserted_related_work_draft_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_inserted_related_work_draft_v1_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_insertion_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_insertion_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_search_query_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_citation_search_query_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_engine_redesign_implementation_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_engine_redesign_implementation_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_engine_redesign_specification_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_engine_redesign_specification_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_implementation_replication_design_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_implementation_replication_design_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_implementation_replication_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_implementation_replication_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_replication_result_interpretation_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_independent_safe_toy_replication_result_interpretation_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_results_section_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_results_section_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_result_interpretation_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_result_interpretation_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_simulation_human_decision_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_simulation_human_decision_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_simulation_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_safe_toy_simulation_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_scaffold_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_scaffold_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v1_overclaim_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v1_overclaim_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polish_edit_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polish_edit_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polished_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polished_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polished_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_polished_v1_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_quality_review_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_quality_review_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_quality_review_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_quality_review_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_related_work_integration_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_limited_technical_note_v2_related_work_integration_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_literature_mapping_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_literature_mapping_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_minimal_safe_toy_simulation_engine_v9_2.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_minimal_safe_toy_simulation_engine_v9_2.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_check_design_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_check_design_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_check_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_check_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_result_interpretation_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_preregistered_larger_safe_toy_robustness_result_interpretation_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_related_work_scaffold_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_related_work_scaffold_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_results_and_falsification_audit_v9_4.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_results_and_falsification_audit_v9_4.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_result_interpretation_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_result_interpretation_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_test_design_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_test_design_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_tests_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_artifact_resistance_and_ablation_tests_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_execution_gate_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_execution_gate_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_external_facing_limited_summary_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_external_facing_limited_summary_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_infrastructure_checkpoint_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_infrastructure_checkpoint_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_limited_technical_synthesis_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_limited_technical_synthesis_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_manifest_builder_regression_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_manifest_builder_regression_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_manifest_builder_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_dry_run_manifest_builder_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_redesign_sweep_profile_scaffold_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_redesign_sweep_profile_scaffold_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_validation_regression_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_validation_regression_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_validation_safe_sweep_profile_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_engine_validation_safe_sweep_profile_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_null_control_template_regression_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_null_control_template_regression_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_null_control_templates_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_null_control_templates_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_profile_engine_validation_bridge_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_profile_engine_validation_bridge_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_dry_run_protocol_regression_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_dry_run_protocol_regression_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_dry_run_protocol_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_dry_run_protocol_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_execution_harness_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_execution_harness_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_execution_plan_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_sweep_execution_plan_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_baseline_comparison_v9_3.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test_v9_8.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_parameter_sweep_and_null_control_stress_test_v9_8.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check_v9_7.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_replicate_grid_and_signal_robustness_check_v9_7.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_safe_toy_scientific_yield_extraction_and_theory_reduction_v9_6.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_source_search_candidates_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_source_search_candidates_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_source_verification_protocol_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_source_verification_protocol_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_toy_evidence_limitation_and_manuscript_readiness_gate_v9_5.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_verified_candidate_sources_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_verified_candidate_sources_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_verified_related_work_references_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_plan_v1.json",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_plan_v1.md",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_v1.json",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_v1.md",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_v1_audit.json",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_v1_audit.md",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_boundary_candidate_manual_inspection_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_boundary_candidate_manual_inspection_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_boundary_candidate_manual_inspection_v1_audit.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_boundary_candidate_manual_inspection_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_candidate_evidence_manual_review_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_candidate_evidence_manual_review_v1.md",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_claim_ladder_evidence_register_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_claim_ladder_evidence_register_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_plan_v1.json",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_plan_v1.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "GDO-INT-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_proof_attempt_v1.json",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_proof_attempt_v1.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_proof_attempt_v1_audit.json",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_combined_assumption_nonvacuity_model_proof_attempt_v1_audit.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_plan_v1.json",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_plan_v1.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "PFPL-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_proof_attempt_v1.json",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_proof_attempt_v1.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_proof_attempt_v1_audit.json",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_coordinate_subset_update_family_proof_attempt_v1_audit.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_evidence_review_summary_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_evidence_review_summary_v1.md",
+      "targets": [
+        "RSWL-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_evidence_review_summary_v1_audit.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_evidence_review_summary_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_existing_experiment_classification_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_existing_experiment_classification_v1.md",
+      "targets": [
+        "TTP-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_existing_experiment_classification_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_existing_experiment_classification_v1_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_plan_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_v1_audit.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_v1_audit.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "TTP-VF-H2-004"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_draft_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_draft_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_draft_v1_audit.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_draft_v1_audit.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_plan_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_limited_technical_note_consolidation_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_plan_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_v1_audit.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_v1_audit.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_package_final_status_report_v1.json",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_fixed_set_finite_poset_package_final_status_report_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005"
+      ],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1_audit.json",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_conditional_theorem_closure_summary_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008"
+      ],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1_audit.json",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_discharged_dependency_summary_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_attempt_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-003"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_attempt_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_attempt_v1_audit.json",
+      "targets": [
+        "GDO-L-VF-H2-003"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_attempt_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-003"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_plan_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_embedding_abstraction_lemma_proof_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_gap_resolution_execution_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_gap_resolution_execution_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_gap_resolution_plan_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_gap_resolution_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_integrated_conditional_closure_summary_v1.json",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_integrated_conditional_closure_summary_v1.md",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "TTP-VF-H2-004"
+      ],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_integrated_conditional_closure_summary_v1_audit.json",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_integrated_conditional_closure_summary_v1_audit.md",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_independence_review_plan_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_independence_review_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_independence_review_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_independence_review_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_attempt_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_attempt_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-006",
+        "GDO-VF-H2-007",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_attempt_v1_audit.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_attempt_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_plan_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_lemma_short_proof_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-006",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_v1_audit.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_plan_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_order_reflecting_abstraction_repair_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_attempt_v1.json",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_attempt_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-003",
+        "GDO-VF-H2-006",
+        "GDO-VF-H2-007",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_attempt_v1_audit.json",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_attempt_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_plan_v1.json",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_resolved_theorem_proof_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_plan_v1.json",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_plan_v1.md",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.json",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1.md",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1_audit.json",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_bridge_integration_v1_audit.md",
+      "targets": [
+        "GDO-INT-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "TTP-VF-H2-004"
+      ],
+      "ids": [
+        "GDO-INT-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_attempt_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_attempt_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_attempt_v1_audit.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_attempt_v1_audit.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_plan_v1.json",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_gdo_strict_witness_sufficiency_resolution_plan_v1.md",
+      "targets": [
+        "GDO-L-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-L-VF-H2-001",
+        "GDO-L-VF-H2-002",
+        "GDO-L-VF-H2-003",
+        "GDO-L-VF-H2-004-R",
+        "GDO-L-VF-H2-005",
+        "GDO-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_plan_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_plan_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_v1.json",
+      "targets": [
+        "GDO-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-002",
+        "GDO-VF-H2-003",
+        "GDO-VF-H2-004",
+        "GDO-VF-H2-005",
+        "GDO-VF-H2-006",
+        "GDO-VF-H2-007",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_v1.md",
+      "targets": [
+        "GDO-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-002",
+        "GDO-VF-H2-003",
+        "GDO-VF-H2-004",
+        "GDO-VF-H2-005",
+        "GDO-VF-H2-006",
+        "GDO-VF-H2-007",
+        "GDO-VF-H2-008",
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_v1_audit.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_assumption_formalization_v1_audit.md",
+      "targets": [
+        "GDO-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_theorem_gap_analysis_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_generalized_order_domain_theorem_gap_analysis_v1.md",
+      "targets": [
+        "GDO-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-VF-H2-001",
+        "GDO-VF-H2-008",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_limited_negative_evidence_boundary_summary_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_limited_negative_evidence_boundary_summary_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_limited_negative_evidence_boundary_summary_v1_audit.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_limited_negative_evidence_boundary_summary_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_mathematical_core_formalization_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_mathematical_core_formalization_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nonidentity_activation_aggregate_model_plan_v1.json",
+      "targets": [
+        "NIAGM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "NIAGM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nonidentity_activation_aggregate_model_plan_v1.md",
+      "targets": [
+        "AAL-SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "AAL-SDSCUF-T-VF-H2-001-R",
+        "NIAGM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_plan_v1.json",
+      "targets": [
+        "NTFM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "NTFM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_plan_v1.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "NTFM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_proof_attempt_v1.json",
+      "targets": [
+        "NTFM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "NTFM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_proof_attempt_v1.md",
+      "targets": [
+        "NTFM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "NTFM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_proof_attempt_v1_audit.json",
+      "targets": [
+        "NTFM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "NTFM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_nontrivial_finite_model_extension_proof_attempt_v1_audit.md",
+      "targets": [
+        "NTFM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "NTFM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_plan_v1.json",
+      "targets": [
+        "ORD-R-VF-H2-001",
+        "ORD-R-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "ORD-R-VF-H2-001",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_plan_v1.md",
+      "targets": [
+        "OIMAP-VF-H2-001"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "OIMAP-VF-H2-001",
+        "ORD-R-VF-H2-001",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_v1.json",
+      "targets": [
+        "ORD-R-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_coordinatewise_order_definition_v1.md",
+      "targets": [
+        "ORD-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.json",
+      "targets": [
+        "RBRIDGE-VF-H2-001",
+        "RBRIDGE-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RBRIDGE-VF-H2-001",
+        "RBRIDGE-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RBRIDGE-VF-H2-001",
+        "RBRIDGE-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.json",
+      "targets": [
+        "RBRIDGE-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RBRIDGE-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_final_restricted_bridge_theorem_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RBRIDGE-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.json",
+      "targets": [
+        "FSP-R-VF-H2-001",
+        "FSP-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FSP-R-VF-H2-001",
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001",
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.json",
+      "targets": [
+        "FSP-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_fixed_set_and_strict_progressivity_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_formal_instantiation_map_plan_v1.json",
+      "targets": [
+        "OIMAP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIMAP-VF-H2-001"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_formal_instantiation_map_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIMAP-VF-H2-001",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_formal_instantiation_map_v1.json",
+      "targets": [
+        "OIMAP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIBRIDGE-AAG-VF-H2-001-C",
+        "OIBRIDGE-VF-H2-001-C",
+        "OIMAP-VF-H2-001"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_formal_instantiation_map_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIBRIDGE-VF-H2-001-C"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIBRIDGE-AAG-VF-H2-001-C",
+        "OIBRIDGE-VF-H2-001-C",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.json",
+      "targets": [
+        "LEDGER-LYAP-R-VF-H2-001",
+        "LEDGER-LYAP-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.json",
+      "targets": [
+        "LEDGER-LYAP-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "FSP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "ids": [
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_ledger_lyapunov_functional_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "FSP-R-VF-H2-001-R",
+        "LEDGER-LYAP-R-VF-H2-001-R",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_finite_state_definition_plan_v1.json",
+      "targets": [
+        "P_R_STATEDEF-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "OIMAP-VF-H2-001",
+        "P_R_STATEDEF-VF-H2-001"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_finite_state_definition_plan_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "OIMAP-VF-H2-001"
+      ],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIMAP-VF-H2-001",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_finite_state_definition_v1.json",
+      "targets": [
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "OIMAP-VF-H2-001",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_finite_state_definition_v1.md",
+      "targets": [
+        "FFP-LYAP-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "FFP-LYAP-T-VF-H2-001-R",
+        "OIMAP-VF-H2-001",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.json",
+      "targets": [
+        "RUMAP-VF-H2-001",
+        "RUMAP-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_plan_v1.md",
+      "targets": [
+        "OIMAP-VF-H2-001"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "OIMAP-VF-H2-001",
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_v1.json",
+      "targets": [
+        "RUMAP-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_original_theory_restricted_update_map_definition_v1.md",
+      "targets": [
+        "ORD-R-VF-H2-001-R"
+      ],
+      "dependencies": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R"
+      ],
+      "ids": [
+        "ORD-R-VF-H2-001-R",
+        "P_R-STATEDEF-VF-H2-001-R",
+        "RUMAP-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_plan_v1.json",
+      "targets": [
+        "PFCM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFCM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_plan_v1.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "NTFM-T-VF-H2-001-R",
+        "PFCM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_proof_attempt_v1.json",
+      "targets": [
+        "PFCM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFCM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_proof_attempt_v1.md",
+      "targets": [
+        "PFCM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFCM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_proof_attempt_v1_audit.json",
+      "targets": [
+        "PFCM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFCM-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_chain_model_proof_attempt_v1_audit.md",
+      "targets": [
+        "PFCM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFCM-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_plan_v1.json",
+      "targets": [
+        "PFPL-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFPL-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_plan_v1.md",
+      "targets": [
+        "CANM-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CANM-T-VF-H2-001-R",
+        "NTFM-T-VF-H2-001-R",
+        "PFCM-T-VF-H2-001-R",
+        "PFPL-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_proof_attempt_v1.json",
+      "targets": [
+        "PFPL-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFPL-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_proof_attempt_v1.md",
+      "targets": [
+        "PFPL-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFPL-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_proof_attempt_v1_audit.json",
+      "targets": [
+        "PFPL-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFPL-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_parametric_finite_product_lattice_model_proof_attempt_v1_audit.md",
+      "targets": [
+        "PFPL-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PFPL-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_plan_v1.json",
+      "targets": [
+        "TTP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_plan_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_proof_chain_consolidation_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_gap_analysis_v1.json",
+      "targets": [
+        "BRG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "BRG-VF-H2-001",
+        "BRG-VF-H2-002",
+        "BRG-VF-H2-003",
+        "BRG-VF-H2-004",
+        "BRG-VF-H2-005",
+        "BRG-VF-H2-006",
+        "BRG-VF-H2-007",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_gap_analysis_v1.md",
+      "targets": [
+        "BRG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "BRG-VF-H2-001",
+        "BRG-VF-H2-002",
+        "BRG-VF-H2-003",
+        "BRG-VF-H2-004",
+        "BRG-VF-H2-005",
+        "BRG-VF-H2-006",
+        "BRG-VF-H2-007",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_gap_analysis_v1_audit.json",
+      "targets": [
+        "BRG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "BRG-VF-H2-001",
+        "BRG-VF-H2-002",
+        "BRG-VF-H2-003",
+        "BRG-VF-H2-004",
+        "BRG-VF-H2-005",
+        "BRG-VF-H2-006",
+        "BRG-VF-H2-007",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_gap_analysis_v1_audit.md",
+      "targets": [
+        "BRG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "BRG-VF-H2-001",
+        "BRG-VF-H2-002",
+        "BRG-VF-H2-003",
+        "BRG-VF-H2-004",
+        "BRG-VF-H2-005",
+        "BRG-VF-H2-006",
+        "BRG-VF-H2-007",
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_plan_v1.json",
+      "targets": [
+        "RTGDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_plan_v1.md",
+      "targets": [
+        "RTGDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_proof_attempt_v1.json",
+      "targets": [
+        "RTGDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_proof_attempt_v1.md",
+      "targets": [
+        "RTGDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_proof_attempt_v1_audit.json",
+      "targets": [
+        "RTGDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_proof_attempt_v1_audit.md",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R",
+        "RTGDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_closure_summary_v1.json",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_closure_summary_v1.md",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_closure_summary_v1_audit.json",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_closure_summary_v1_audit.md",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_plan_v1.json",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_plan_v1.md",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_v1.json",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_v1.md",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_v1_audit.json",
+      "targets": [
+        "RTSW-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RTSW-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_v1_audit.md",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R",
+        "RTSW-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_plan_v1.json",
+      "targets": [
+        "SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_plan_v1.md",
+      "targets": [
+        "SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_v1.json",
+      "targets": [
+        "SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_v1.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "PFPL-T-VF-H2-001-R",
+        "SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_v1_audit.json",
+      "targets": [
+        "SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SDSCUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_v1_audit.md",
+      "targets": [
+        "SDSCUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SDSCUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_strict_witness_existence_gap_analysis_v1.json",
+      "targets": [
+        "SWG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SWG-VF-H2-001",
+        "SWG-VF-H2-002",
+        "SWG-VF-H2-003",
+        "SWG-VF-H2-004",
+        "SWG-VF-H2-005",
+        "SWG-VF-H2-006"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_strict_witness_existence_gap_analysis_v1.md",
+      "targets": [
+        "GDO-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "GDO-T-VF-H2-001-R",
+        "SWG-VF-H2-001",
+        "SWG-VF-H2-002",
+        "SWG-VF-H2-003",
+        "SWG-VF-H2-004",
+        "SWG-VF-H2-005",
+        "SWG-VF-H2-006",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_strict_witness_existence_gap_analysis_v1_audit.json",
+      "targets": [
+        "SWG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SWG-VF-H2-001",
+        "SWG-VF-H2-002",
+        "SWG-VF-H2-003",
+        "SWG-VF-H2-004",
+        "SWG-VF-H2-005",
+        "SWG-VF-H2-006"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_strict_witness_existence_gap_analysis_v1_audit.md",
+      "targets": [
+        "SWG-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SWG-VF-H2-001",
+        "SWG-VF-H2-002",
+        "SWG-VF-H2-003",
+        "SWG-VF-H2-004",
+        "SWG-VF-H2-005",
+        "SWG-VF-H2-006",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_gap_resolution_analysis_v1.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_gap_resolution_analysis_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_gap_resolution_plan_v1.json",
+      "targets": [
+        "SWL-VF-H2-001",
+        "SWL-VF-H2-002",
+        "SWL-VF-H2-003",
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SWC-VF-H2-001",
+        "SWC-VF-H2-002",
+        "SWC-VF-H2-003",
+        "SWC-VF-H2-004",
+        "SWC-VF-H2-005",
+        "SWC-VF-H2-006",
+        "SWL-VF-H2-001",
+        "SWL-VF-H2-002",
+        "SWL-VF-H2-003",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_gap_resolution_plan_v1.md",
+      "targets": [
+        "SWC-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "SWC-VF-H2-001",
+        "SWC-VF-H2-002",
+        "SWC-VF-H2-003",
+        "SWC-VF-H2-004",
+        "SWC-VF-H2-005",
+        "SWC-VF-H2-006",
+        "SWL-VF-H2-001",
+        "SWL-VF-H2-002",
+        "SWL-VF-H2-003",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_attempt_v1.json",
+      "targets": [
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_attempt_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_attempt_v1_audit.json",
+      "targets": [
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_attempt_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_plan_v1.json",
+      "targets": [
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_structural_witness_resolved_proof_plan_v1.md",
+      "targets": [
+        "RSW-VF-H2-001"
+      ],
+      "dependencies": [
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ],
+      "ids": [
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003",
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006",
+        "RSW-VF-H2-007",
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002",
+        "RSWL-VF-H2-003",
+        "RSWL-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-004",
+        "TTP-VF-H2-004-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_assumption_tightening_analysis_v1.json",
+      "targets": [
+        "PRIM-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PRIM-VF-H2-001",
+        "PRIM-VF-H2-002",
+        "PRIM-VF-H2-003",
+        "PRIM-VF-H2-004",
+        "PRIM-VF-H2-005",
+        "PRIM-VF-H2-006",
+        "PRIM-VF-H2-007",
+        "PRIM-VF-H2-008",
+        "PRIM-VF-H2-009",
+        "PRIM-VF-H2-010",
+        "PRIM-VF-H2-011",
+        "PRIM-VF-H2-012",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TGAP-VF-H2-003",
+        "TTC-VF-H2-001",
+        "TTC-VF-H2-002",
+        "TTC-VF-H2-003",
+        "TTC-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_assumption_tightening_analysis_v1.md",
+      "targets": [
+        "PRIM-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "PRIM-VF-H2-001",
+        "PRIM-VF-H2-002",
+        "PRIM-VF-H2-003",
+        "PRIM-VF-H2-004",
+        "PRIM-VF-H2-005",
+        "PRIM-VF-H2-006",
+        "PRIM-VF-H2-007",
+        "PRIM-VF-H2-008",
+        "PRIM-VF-H2-009",
+        "PRIM-VF-H2-010",
+        "PRIM-VF-H2-011",
+        "PRIM-VF-H2-012",
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TGAP-VF-H2-003",
+        "TTC-VF-H2-001",
+        "TTC-VF-H2-002",
+        "TTC-VF-H2-003",
+        "TTC-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_assumption_tightening_plan_v1.json",
+      "targets": [
+        "TIGHTEN-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TIGHTEN-VF-H2-001",
+        "TIGHTEN-VF-H2-002",
+        "TIGHTEN-VF-H2-003",
+        "TIGHTEN-VF-H2-004",
+        "TIGHTEN-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_assumption_tightening_plan_v1.md",
+      "targets": [
+        "TIGHTEN-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TIGHTEN-VF-H2-001",
+        "TIGHTEN-VF-H2-002",
+        "TIGHTEN-VF-H2-003",
+        "TIGHTEN-VF-H2-004",
+        "TIGHTEN-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_attempt_v1.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_attempt_v1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_attempt_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_attempt_v1_audit.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_plan_v1.json",
+      "targets": [
+        "LEM-VF-H2-001",
+        "LEM-VF-H2-002",
+        "LEM-VF-H2-003",
+        "LEM-VF-H2-004",
+        "LEM-VF-H2-005"
+      ],
+      "dependencies": [],
+      "ids": [
+        "ASM-VF-H2-001",
+        "ASM-VF-H2-002",
+        "ASM-VF-H2-003",
+        "ASM-VF-H2-004",
+        "ASM-VF-H2-005",
+        "ASM-VF-H2-006",
+        "ASM-VF-H2-007",
+        "DEF-VF-H2-001",
+        "DEF-VF-H2-002",
+        "DEF-VF-H2-003",
+        "DEF-VF-H2-004",
+        "DEF-VF-H2-005",
+        "LEM-VF-H2-001",
+        "LEM-VF-H2-002",
+        "LEM-VF-H2-003",
+        "LEM-VF-H2-004",
+        "LEM-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_formal_proof_plan_v1.md",
+      "targets": [
+        "ASM-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "ASM-VF-H2-001",
+        "ASM-VF-H2-002",
+        "ASM-VF-H2-003",
+        "ASM-VF-H2-004",
+        "ASM-VF-H2-005",
+        "ASM-VF-H2-006",
+        "ASM-VF-H2-007",
+        "DEF-VF-H2-001",
+        "DEF-VF-H2-002",
+        "DEF-VF-H2-003",
+        "DEF-VF-H2-004",
+        "DEF-VF-H2-005",
+        "LEM-VF-H2-001",
+        "LEM-VF-H2-002",
+        "LEM-VF-H2-003",
+        "LEM-VF-H2-004",
+        "LEM-VF-H2-005"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_attempt_v1.json",
+      "targets": [
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_attempt_v1.md",
+      "targets": [
+        "TGAP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_attempt_v1_audit.json",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_attempt_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_plan_v1.json",
+      "targets": [
+        "TGAP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTC-VF-H2-001",
+        "TTC-VF-H2-002",
+        "TTC-VF-H2-003",
+        "TTC-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_toy_theorem_tightened_proof_plan_v1.md",
+      "targets": [
+        "TGAP-VF-H2-001"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TGAP-VF-H2-001",
+        "TGAP-VF-H2-002",
+        "TTC-VF-H2-001",
+        "TTC-VF-H2-002",
+        "TTC-VF-H2-003",
+        "TTC-VF-H2-004",
+        "TTP-VF-H2-001",
+        "TTP-VF-H2-002",
+        "TTP-VF-H2-003",
+        "TTP-VF-H2-004"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_plan_v1.json",
+      "targets": [
+        "WCSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_plan_v1.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_v1.json",
+      "targets": [
+        "WCSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_v1.md",
+      "targets": [
+        "CSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "CSUF-T-VF-H2-001-R",
+        "PFPL-T-VF-H2-001-R",
+        "TTP-VF-H2-004",
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_v1_audit.json",
+      "targets": [
+        "WCSUF-T-VF-H2-001-R"
+      ],
+      "dependencies": [],
+      "ids": [
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/viruse_fabric_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_v1_audit.md",
+      "targets": [
+        "TTP-VF-H2-004"
+      ],
+      "dependencies": [],
+      "ids": [
+        "TTP-VF-H2-004",
+        "WCSUF-T-VF-H2-001-R"
+      ]
+    },
+    {
+      "file": "outputs/visual_explanation_report_v2_1.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/whole_sigma_a_draft_assembly_boundary_audit_v8_129.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/whole_sigma_a_draft_assembly_execution_plan_v8_127.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    },
+    {
+      "file": "outputs/whole_sigma_a_draft_assembly_execution_v8_128.md",
+      "targets": [],
+      "dependencies": [],
+      "ids": []
+    }
+  ]
+}
