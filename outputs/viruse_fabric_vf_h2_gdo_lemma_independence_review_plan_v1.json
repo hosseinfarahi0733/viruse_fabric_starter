@@ -1,0 +1,21 @@
+{
+  "action_id": "draft_vf_h2_gdo_lemma_independence_review_plan_no_claim_validation",
+  "source_head": "772a77c",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "conditional_theorem": "GDO-T-VF-H2-001-R",
+  "conditional_theorem_depends_on_lemmas": true,
+  "lemma_count_to_review": 5,
+  "lemmas_to_review": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002",
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004",
+    "GDO-L-VF-H2-005"
+  ],
+  "lemmas_independently_proved_now": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_lemma_independence_review_no_claim_validation"
+}
