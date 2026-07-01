@@ -11,5 +11,6 @@ lean_lib VFH2 where
   roots := #[
     `VFH2.RestrictedBridge.Scaffold,
     `VFH2.RestrictedBridge.ProofBasics,
-    `VFH2.RestrictedBridge.UpdateMap
+    `VFH2.RestrictedBridge.UpdateMap,
+    `VFH2.RestrictedBridge.UpdateMapBasics
   ]
