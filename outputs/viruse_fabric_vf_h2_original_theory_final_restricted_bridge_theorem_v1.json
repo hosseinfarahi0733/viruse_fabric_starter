@@ -1,0 +1,71 @@
+{
+  "action_id": "execute_vf_h2_original_theory_final_restricted_bridge_theorem_no_claim_full_theory",
+  "source_head": "d8a88e6",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchors": [
+    "P_R-STATEDEF-VF-H2-001-R",
+    "ORD-R-VF-H2-001-R",
+    "RUMAP-VF-H2-001-R",
+    "FSP-R-VF-H2-001-R",
+    "LEDGER-LYAP-R-VF-H2-001-R"
+  ],
+  "target_artifact": "RBRIDGE-VF-H2-001-R",
+  "target_theorem": "RBRIDGE-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "ledger_effect_size_R": {
+    "definition": "ledger_effect_size_R(x)=V_R(f_R(x))-V_R(x)",
+    "defined": true,
+    "well_defined": true,
+    "identity_by_definition": true
+  },
+  "proved_conclusions": {
+    "fixed_set_characterization": "F_R=Fix(f_R)",
+    "outside_fixed_set": "x notin F_R implies ledger_effect_size_R(x)>0",
+    "on_fixed_set": "x in F_R implies ledger_effect_size_R(x)=0"
+  },
+  "proof_routes": {
+    "direct_prior_theorem_route": {
+      "uses": "LEDGER-LYAP-R-VF-H2-001-R",
+      "positivity_outside_F_R_proved": true,
+      "zero_on_F_R_proved": true
+    },
+    "finite_poset_theorem_route": {
+      "uses": "FFP-LYAP-T-VF-H2-001-R",
+      "inputs_verified": {
+        "finite_poset_P_R_leq_R": true,
+        "update_map_f_R": true,
+        "fixed_set_F_R_equals_Fix_f_R": true,
+        "strict_progressivity_outside_F_R": true,
+        "strict_order_preserving_V_R": true
+      },
+      "route_proved": true
+    }
+  },
+  "restricted_original_theory_bridge_closed": true,
+  "resolved_obligations": [
+    "ledger_effect_size_R_defined",
+    "ledger_effect_size_R_well_defined",
+    "ledger_effect_size_R_identity_by_definition",
+    "final_restricted_bridge_theorem_proved",
+    "restricted_ledger_positivity_outside_fixed_set_proved",
+    "zero_ledger_effect_on_fixed_set_proved"
+  ],
+  "remaining_unresolved": [
+    "full_unrestricted_Viruse_Fabric_theory",
+    "original_unrestricted_TTP_VF_H2_004",
+    "infinite_or_continuous_state_generalization",
+    "unrestricted_activation_aggregate_semantics",
+    "empirical_validation",
+    "biological_validation",
+    "manuscript_readiness",
+    "submission_readiness"
+  ],
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_original_theory_restricted_bridge_audit_plan_no_claim_full_theory"
+}
