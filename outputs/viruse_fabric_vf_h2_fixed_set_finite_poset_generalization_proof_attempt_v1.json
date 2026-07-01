@@ -1,0 +1,46 @@
+{
+  "action_id": "execute_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_no_claim_validation",
+  "source_head": "c0d4c2a",
+  "scope": "safe_abstract_finite_order_theoretic_toy_vf_h2_only",
+  "external_endorsement_claimed": false,
+  "named_mathematician_endorsement_recorded": false,
+  "target_theorem": "FFP-LYAP-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "fixed_set_finite_poset_lyapunov_improvement",
+  "theorem": {
+    "P": "finite_poset",
+    "f": "map P -> P",
+    "F": "Fix(f)={x in P : f(x)=x}",
+    "assumption_1": "x notin F implies x < f(x)",
+    "assumption_2": "V strict order-preserving: x<y implies V(x)<V(y)",
+    "conclusion_1": "x notin F implies V(f(x)) > V(x)",
+    "conclusion_2": "x in F implies V(f(x)) = V(x)"
+  },
+  "fixed_point_condition_status": "definitional_when_F_equals_Fix_f",
+  "monotonicity_f_required_for_one_step_improvement": false,
+  "finite_dynamics_consequence": "trajectory_eventually_reaches_F_under_strict_progressivity_and_finiteness",
+  "multi_element_fixed_set_supported": true,
+  "top_only_formulation_required": false,
+  "product_lattice_vf_h2_corollary_proved": true,
+  "product_lattice_corollary": {
+    "domain": "D_{n,d}={0,1,...,n}^d",
+    "fixed_set": "{x : x_i=n for every active coordinate i in S}",
+    "rank_function": "rho(x)=sum_i x_i",
+    "ledger_effect": "rho(M_{S,h}(x))-rho(x)=sum_{i in S}(h_i(x_i)-x_i)"
+  },
+  "activation_aggregate_lift_corollary_proved_under_explicit_assumptions": true,
+  "activation_aggregate_lift": {
+    "activation_requirement": "x<f(x) implies A(x)<A(f(x)) on relevant update pairs",
+    "aggregate_requirement": "u<v implies G(v)-G(u)>0",
+    "conclusion_1": "x notin F implies G(A(f(x)))-G(A(x))>0",
+    "conclusion_2": "x in F implies G(A(f(x)))-G(A(x))=0"
+  },
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_no_claim_validation"
+}
