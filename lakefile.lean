@@ -45,5 +45,6 @@ lean_lib VFH2 where
     `VFH2.Product,
     `VFH2.Product.TimeLayer,
     `VFH2.Product.ProductIndex,
-    `VFH2.Product.ProductState
+    `VFH2.Product.ProductState,
+    `VFH2.Product.ProductParams
   ]
