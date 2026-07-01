@@ -1,0 +1,13 @@
+{
+  "action_id": "execute_vf_h2_claim_ladder_and_experiment_evidence_register_no_claim_validation",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "source_head": "a127f41",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "experiment_count_assumed_valid": 0,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "classify_vf_h2_existing_experiments_against_claim_ladder_no_claim_validation"
+}
