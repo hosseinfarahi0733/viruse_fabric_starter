@@ -1,0 +1,25 @@
+{
+  "action_id": "draft_vf_h2_gdo_discharged_dependency_summary_no_claim_validation",
+  "source_head": "9f1e880",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "theorem": "GDO-T-VF-H2-001-R",
+  "theorem_status": "scoped_conditional",
+  "conclusion_under_assumptions": "ledger_effect_size > 0",
+  "dependency_inventory": {
+    "GDO-L-VF-H2-001": "proved_under_monotonicity_assumptions",
+    "GDO-L-VF-H2-002": "proved_under_strict_positivity_preservation_assumptions",
+    "GDO-L-VF-H2-003": "proved_under_explicit_embedding_and_strict_witness_preserving_assumptions",
+    "GDO-L-VF-H2-004": "not_proved_as_originally_stated",
+    "GDO-L-VF-H2-004-R": "proved_under_order_reflecting_abstraction_assumption",
+    "GDO-L-VF-H2-005": "resolved_as_sufficiency_only_under_explicit_strict_witness_condition"
+  },
+  "strict_witness_existence_derived": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "literature_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_gdo_discharged_dependency_summary_no_claim_validation"
+}
