@@ -1,0 +1,34 @@
+{
+  "action_id": "audit_vf_h2_combined_assumption_nonvacuity_model_proof_attempt_no_claim_validation",
+  "audited_source_head": "be34af5",
+  "audit_passed": true,
+  "audit_status": "passed_with_toy_model_scope_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "target_theorem": "CANM-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "explicit_finite_toy_model_existence",
+  "model": {
+    "D": "{0,1}",
+    "order": "0 <= 1",
+    "M": {
+      "0": 1,
+      "1": 1
+    },
+    "A": "identity",
+    "G": "identity",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "ledger_effect_size": 1,
+  "ledger_effect_size_positive": true,
+  "combined_assumptions_nonvacuous": true,
+  "prior_plan_json_placeholder_noted_no_proof_impact": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_nontrivial_finite_model_extension_plan_no_claim_validation"
+}
