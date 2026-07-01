@@ -1,0 +1,60 @@
+name: Validate Proof Artifacts
+
+on:
+  push:
+    paths:
+      - "outputs/**"
+      - "tools/proofchain/**"
+      - ".github/workflows/validate-proof-artifacts.yml"
+  pull_request:
+    paths:
+      - "outputs/**"
+      - "tools/proofchain/**"
+      - ".github/workflows/validate-proof-artifacts.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Validate proof artifacts
+        run: python tools/proofchain/validate_artifacts.py
+
+      - name: Generate proof marker index
+        run: python tools/proofchain/extract_artifacts.py
+
+      - name: Generate proof status summary
+        run: python tools/proofchain/generate_summary.py
+
+      - name: Build dependency graph
+        run: python tools/proofchain/build_dependency_graph.py
+
+      - name: Detect plan-execute loops
+        run: python tools/proofchain/detect_loops.py --warn-only
+
+      - name: Upload proof reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: proofchain-reports
+          path: |
+            outputs/reports/*.json
+            outputs/reports/*.md
+            outputs/reports/*.dot
