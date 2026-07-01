@@ -1,0 +1,13 @@
+{
+  "action_id": "draft_vf_h2_generalized_order_domain_assumption_formalization_plan_no_claim_validation",
+  "source_head": "f23b835",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "generalized_order_domain_theorem_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "strict_activation_margin_derived": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_generalized_order_domain_assumption_formalization_no_claim_validation"
+}
