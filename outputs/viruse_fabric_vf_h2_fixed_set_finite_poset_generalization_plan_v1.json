@@ -1,0 +1,49 @@
+{
+  "action_id": "draft_vf_h2_fixed_set_finite_poset_generalization_plan_no_claim_validation",
+  "source_head": "987a521",
+  "scope": "safe_abstract_finite_order_theoretic_toy_vf_h2_only",
+  "based_on_user_provided_mathematical_review": true,
+  "external_endorsement_claimed": false,
+  "named_mathematician_endorsement_recorded": false,
+  "proof_path_redirect": {
+    "from": "additional_model_existence_construction_after_nonidentity_activation_aggregate_plan",
+    "to": "fixed_set_finite_poset_generalization",
+    "reason": "proof_compression_and_multi_element_fixed_set_generalization"
+  },
+  "target_theorem": "FFP-LYAP-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "target_statement": {
+    "P": "finite_poset",
+    "f": "map P -> P",
+    "F": "Fix(f)={x in P : f(x)=x}",
+    "assumption_1": "x notin F implies x < f(x)",
+    "assumption_2": "V strict order-preserving: x<y implies V(x)<V(y)",
+    "conclusion_1": "x notin F implies V(f(x)) > V(x)",
+    "conclusion_2": "x in F implies V(f(x)) = V(x)"
+  },
+  "fixed_point_condition_status": "definitional_when_F_equals_Fix_f",
+  "monotonicity_f_required_for_one_step_improvement": false,
+  "top_only_formulation_superseded": true,
+  "multi_element_fixed_set_supported": true,
+  "product_lattice_corollary_target": {
+    "domain": "D_{n,d}={0,1,...,n}^d",
+    "fixed_set": "{x : x_i=n for every active coordinate i in S}",
+    "rank_function": "rho(x)=sum_i x_i",
+    "ledger_effect": "rho(M_{S,h}(x))-rho(x)=sum_{i in S}(h_i(x_i)-x_i)"
+  },
+  "activation_aggregate_lift_corollary_target": {
+    "activation_requirement": "x<f(x) implies A(x)<A(f(x)) on relevant update pairs",
+    "aggregate_requirement": "u<v implies G(v)-G(u)>0",
+    "conclusion": "x notin F implies G(A(f(x)))-G(A(x))>0"
+  },
+  "nonidentity_activation_aggregate_plan_retained_but_not_executed_as_next_step": true,
+  "minimality_followup_needed": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_fixed_set_finite_poset_generalization_proof_attempt_no_claim_validation"
+}
