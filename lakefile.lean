@@ -25,5 +25,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.LedgerIncrease,
     `VFH2.RestrictedBridge.FinalRestrictedBridge,
     `VFH2.RestrictedBridge.ActiveRangeBridge,
-    `VFH2.RestrictedBridge.WellFormedDomain
+    `VFH2.RestrictedBridge.WellFormedDomain,
+    `VFH2.RestrictedBridge.OfficialRBridge
   ]
