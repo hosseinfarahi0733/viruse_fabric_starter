@@ -1,0 +1,26 @@
+{
+  "action_id": "audit_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_no_claim_validation",
+  "audited_source_head": "41cda01",
+  "audit_passed": true,
+  "audit_status": "passed_with_repaired_lemma_scope_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "repaired_lemma": "GDO-L-VF-H2-004-R",
+  "repaired_lemma_proved_under_assumptions": true,
+  "proved_under_assumption": "order_reflecting_abstraction_map",
+  "original_gdo_l_vf_h2_004_proved_as_stated": false,
+  "lemma_inventory": {
+    "GDO-L-VF-H2-001": "proved_under_monotonicity_assumptions",
+    "GDO-L-VF-H2-002": "proved_under_strict_positivity_preservation_assumptions",
+    "GDO-L-VF-H2-003": "proved_under_explicit_embedding_assumptions",
+    "GDO-L-VF-H2-004-R": "proved_under_order_reflecting_abstraction_assumption",
+    "GDO-L-VF-H2-005": "assumption_sensitive"
+  },
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_strict_witness_sufficiency_resolution_plan_no_claim_validation"
+}
