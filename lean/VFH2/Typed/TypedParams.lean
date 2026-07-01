@@ -64,7 +64,7 @@ def width
 theorem active_index_lt_width
     (p : TypedRestrictedParams)
     {i : WidthIndex p.d}
-    (hi : i ∈ p.active) :
+    (_hi : i ∈ p.active) :
     i.val < typedWidth p.d := by
   exact i.isLt
 
@@ -72,7 +72,7 @@ theorem active_index_lt_width
 theorem active_index_lt_param_width
     (p : TypedRestrictedParams)
     {i : WidthIndex p.d}
-    (hi : i ∈ p.active) :
+    (_hi : i ∈ p.active) :
     i.val < p.width := by
   exact i.isLt
 
