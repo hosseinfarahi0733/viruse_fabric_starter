@@ -1,0 +1,65 @@
+{
+  "action_id": "execute_vf_h2_original_theory_fixed_set_and_strict_progressivity_no_claim_validation",
+  "source_head": "d4e015b",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchors": [
+    "P_R-STATEDEF-VF-H2-001-R",
+    "ORD-R-VF-H2-001-R",
+    "RUMAP-VF-H2-001-R"
+  ],
+  "target_artifact": "FSP-R-VF-H2-001-R",
+  "target_theorem": "FSP-R-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "state_space": "P_R(n,d)=L_n^(T_3 x I_d)",
+  "order": "coordinatewise <=_R",
+  "update_map": "f_R",
+  "fixed_set": {
+    "F_R": "{x in P_R(n,d) : x_alpha=n for every alpha in A_R}",
+    "defined": true,
+    "proved_equal_to_Fix_f_R": true
+  },
+  "saturation": {
+    "saturated_R": "saturated_R(x) iff x_alpha=n for every alpha in A_R",
+    "defined": true,
+    "saturated_R_iff_x_in_F_R": true,
+    "saturated_R_iff_f_R_x_equals_x": true
+  },
+  "proofs": {
+    "F_R_subset_Fix_f_R": true,
+    "Fix_f_R_subset_F_R": true,
+    "Fix_f_R_equals_F_R": true,
+    "saturation_equivalence": true,
+    "strict_progressivity_outside_F_R": true
+  },
+  "bridge_obligations_resolved": [
+    "fixed_set_characterization",
+    "saturation_equivalence",
+    "strict_progressivity_outside_fixed_set"
+  ],
+  "bridge_status_after_execution": {
+    "finite_state_space_P_R": true,
+    "finite_poset_P_R_leq_R": true,
+    "well_defined_update_map_f_R": true,
+    "fixed_set_F_R_equals_Fix_f_R": true,
+    "strict_progressivity_outside_F_R": true,
+    "ledger_functional_V_R_defined": false,
+    "ledger_effect_size_identity_proved": false,
+    "final_restricted_bridge_theorem_proved": false
+  },
+  "remaining_blockers": [
+    "ledger_functional_V_R_not_defined",
+    "strict_order_preservation_of_V_R_not_proved",
+    "ledger_effect_size_identity_not_proved",
+    "activation_aggregate_assumptions_not_proved_if_used",
+    "final_restricted_bridge_theorem_not_proved"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_ledger_lyapunov_functional_plan_no_claim_validation",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_original_theory_ledger_lyapunov_functional_plan_no_claim_validation"
+}
