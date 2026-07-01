@@ -5,3 +5,4 @@ import VFH2.Product.ProductParams
 import VFH2.Product.ProductFixedSet
 import VFH2.Product.ProductUpdate
 import VFH2.Product.ProductNonfixedIncrease
+import VFH2.Product.ProductLedger
