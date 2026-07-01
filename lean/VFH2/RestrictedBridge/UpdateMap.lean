@@ -48,13 +48,29 @@ theorem updateCoordinateR_inactive
     updateCoordinateR p i a = a := by
   simp [updateCoordinateR, h]
 
+/-- Recursive helper for the scaffold-level restricted update map.
+
+The explicit index avoids relying on version-sensitive list enumeration APIs.
+-/
+def updateStateAuxR (p : RestrictedParams) : Nat → State → State
+  | _, [] => []
+  | i, a :: xs => updateCoordinateR p i a :: updateStateAuxR p (i + 1) xs
+
+theorem updateStateAuxR_length (p : RestrictedParams) (x : State) (i : Nat) :
+    (updateStateAuxR p i x).length = x.length := by
+  induction x generalizing i with
+  | nil =>
+      simp [updateStateAuxR]
+  | cons a xs ih =>
+      simp [updateStateAuxR, ih]
+
 /-- Scaffold-level restricted update map over flattened states. -/
 def updateStateR (p : RestrictedParams) (x : State) : State :=
-  x.enum.map (fun item => updateCoordinateR p item.1 item.2)
+  updateStateAuxR p 0 x
 
 theorem updateStateR_length (p : RestrictedParams) (x : State) :
     (updateStateR p x).length = x.length := by
-  simp [updateStateR]
+  simp [updateStateR, updateStateAuxR_length]
 
 theorem updateStateR_preserves_expected_width
     {p : RestrictedParams} {x : State}
