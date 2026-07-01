@@ -31,5 +31,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.ActiveWidthNecessity,
     `VFH2.RestrictedBridge.WellFormedParams,
     `VFH2.Typed.BoundedCoord,
-    `VFH2.Typed.WidthIndex
+    `VFH2.Typed.WidthIndex,
+    `VFH2.Typed.TypedState
   ]
