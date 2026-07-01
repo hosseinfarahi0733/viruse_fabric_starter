@@ -1,0 +1,184 @@
+{
+  "artifact": "vf_h2_structural_witness_resolved_proof_plan_v1",
+  "base_structural_witness_gap_resolution_analysis_commit": "3efcc25",
+  "biological_validation_claim_made": false,
+  "blocking_gap_for_next_restricted_proof_plan_count": 0,
+  "claim_expansion_allowed": false,
+  "complete_manuscript_created": false,
+  "core": "memory-ledger-driven toy dynamics",
+  "counters": {
+    "Biological validation claim count": 0,
+    "Blocking gap for next restricted proof plan count": 0,
+    "Complete manuscript created count": 0,
+    "Empirical validation count": 0,
+    "Full theory proved count": 0,
+    "Generalized order domain theorem ready count": 0,
+    "Immune evasion optimization count": 0,
+    "Literature validation claim count": 0,
+    "New theorem proved count": 0,
+    "Official tag created count": 0,
+    "Operational host targeting count": 0,
+    "Planned lemma count": 4,
+    "Proof order step count": 4,
+    "Proof plan readiness for TTP VF-H2 004 R count": 1,
+    "Real biological dataset import count": 0,
+    "Real host range prediction count": 0,
+    "Real pathogen simulation count": 0,
+    "Real receptor parameter count": 0,
+    "Real-world infectivity optimization count": 0,
+    "Resolved structural witness proof attempted count": 0,
+    "Resolved structural witness proof plan created count": 1,
+    "Restricted structural witness condition count": 7,
+    "Submission ready manuscript created count": 0,
+    "TTP VF-H2 004 R proved count": 0,
+    "TTP VF-H2 004 proved count": 0,
+    "Theory validation claim count": 0,
+    "Wet-lab protocol count": 0
+  },
+  "existing_conditional_toy_theorem_preserved": true,
+  "external_validation_claim_made": false,
+  "full_viruse_fabric_theory_proved": false,
+  "generalized_order_domain_theorem_ready": false,
+  "hypothesis": "VF-H2",
+  "independent_empirical_validation_claim_made": false,
+  "literature_support_claim_made": false,
+  "literature_validation_claim_made": false,
+  "manuscript_readiness_claim_made": false,
+  "new_theorem_proved": false,
+  "next_allowed_action": "execute_vf_h2_structural_witness_resolved_proof_attempt_no_claim_validation",
+  "passed": true,
+  "planned_lemma_count": 4,
+  "planned_lemmas": [
+    {
+      "depends_on": [
+        "TTP-VF-H2-001",
+        "RSW-VF-H2-001",
+        "RSW-VF-H2-002",
+        "RSW-VF-H2-003"
+      ],
+      "lemma_id": "RSWL-VF-H2-001",
+      "name": "coordinatewise dominance inheritance",
+      "planned_claim": "Under RSW-VF-H2-001 through RSW-VF-H2-003, the memory-ledger trajectory coordinatewise dominates the null trajectory.",
+      "status": "planned_not_proved"
+    },
+    {
+      "depends_on": [
+        "RSW-VF-H2-004",
+        "RSW-VF-H2-005",
+        "RSW-VF-H2-006"
+      ],
+      "lemma_id": "RSWL-VF-H2-002",
+      "name": "strict local activation witness",
+      "planned_claim": "Under RSW-VF-H2-004 through RSW-VF-H2-006, the witness coordinate has a strict memory-ledger advantage.",
+      "status": "planned_not_proved"
+    },
+    {
+      "depends_on": [
+        "RSWL-VF-H2-001",
+        "RSWL-VF-H2-002"
+      ],
+      "lemma_id": "RSWL-VF-H2-003",
+      "name": "derived strict witness condition",
+      "planned_claim": "The restricted structural witness conditions imply the strict witness condition required for strict positive ledger_effect_size.",
+      "status": "planned_not_proved"
+    },
+    {
+      "depends_on": [
+        "RSWL-VF-H2-003",
+        "RSW-VF-H2-007",
+        "TTP-VF-H2-002"
+      ],
+      "lemma_id": "RSWL-VF-H2-004",
+      "name": "positive aggregate conclusion",
+      "planned_claim": "A strict witness with positive aggregation weight and nonnegative weights implies ledger_effect_size > 0.",
+      "status": "planned_not_proved"
+    }
+  ],
+  "planned_theorem": {
+    "name": "restricted structural witness strict positivity theorem",
+    "planned_statement": "In the finite coordinatewise toy domain, if RSW-VF-H2-001 through RSW-VF-H2-007 hold, then ledger_effect_size > 0.",
+    "proof_status": "planned_not_proved",
+    "scope": "safe_abstract_toy_only",
+    "theorem_id": "TTP-VF-H2-004-R"
+  },
+  "planned_theorem_id": "TTP-VF-H2-004-R",
+  "primary_theorem_reference": "VF-H2-TOY-THEOREM-002",
+  "proof_order": [
+    "Use TTP-VF-H2-001 to inherit coordinatewise dominance under decomposed monotonicity.",
+    "Prove strict local activation witness from strict ledger readout advantage, strict activation margin, and non-saturation.",
+    "Combine dominance and strict local witness to derive the strict witness condition.",
+    "Use TTP-VF-H2-002 to convert strict witness plus positive aggregation weight into ledger_effect_size > 0."
+  ],
+  "proof_order_step_count": 4,
+  "proof_plan_readiness_for_ttp_vf_h2_004_r": true,
+  "proved_tightened_result_count_preserved": 3,
+  "remaining_boundaries": [
+    "The generalized ordered-domain theorem remains not ready.",
+    "The strict activation margin is an explicit sufficient condition, not derived from deeper primitives.",
+    "The theorem remains safe abstract toy only.",
+    "No empirical, biological, external, or literature validation is introduced."
+  ],
+  "resolved_structural_witness_proof_attempted": false,
+  "resolved_structural_witness_proof_plan_created": true,
+  "restricted_structural_witness_condition_count": 7,
+  "rsw_conditions": [
+    {
+      "condition_id": "RSW-VF-H2-001",
+      "name": "finite coordinatewise state domain",
+      "statement": "V is finite and x_t is in [0,1]^V with coordinatewise order."
+    },
+    {
+      "condition_id": "RSW-VF-H2-002",
+      "name": "matched coupled processes",
+      "statement": "Memory-ledger and null processes share initial state, horizon, graph, and symbolic inputs."
+    },
+    {
+      "condition_id": "RSW-VF-H2-003",
+      "name": "decomposed monotonicity",
+      "statement": "Ledger increments are nonnegative, ledger readout is order-preserving, the state component is order-preserving, and activation is monotone in ledger readout."
+    },
+    {
+      "condition_id": "RSW-VF-H2-004",
+      "name": "strict local ledger readout advantage",
+      "statement": "At a reachable witness pair, persistent ledger readout is strictly greater than null ledger readout."
+    },
+    {
+      "condition_id": "RSW-VF-H2-005",
+      "name": "strict activation margin",
+      "statement": "At the witness pair, the activation map is strictly increasing over the relevant ledger-readout interval."
+    },
+    {
+      "condition_id": "RSW-VF-H2-006",
+      "name": "non-saturation",
+      "statement": "The witness coordinate is not clipped or saturated in a way that removes the strict activation difference."
+    },
+    {
+      "condition_id": "RSW-VF-H2-007",
+      "name": "positive aggregation witness weight",
+      "statement": "The witness node-time pair has strictly positive aggregation weight and all aggregation weights are nonnegative."
+    }
+  ],
+  "safety_boundary": {
+    "host_range_prediction_allowed": false,
+    "immune_evasion_optimization_allowed": false,
+    "infectivity_optimization_allowed": false,
+    "operational_host_targeting_allowed": false,
+    "real_biological_dataset_import_allowed": false,
+    "real_pathogen_simulation_allowed": false,
+    "real_receptor_parameter_allowed": false,
+    "safe_abstract_toy_only": true,
+    "wet_lab_protocol_allowed": false
+  },
+  "scope": "draft-vf-h2-structural-witness-resolved-proof-plan-no-claim-validation",
+  "signal": "ledger_effect_size",
+  "source_gap_resolution_analysis_artifact": "vf_h2_structural_witness_gap_resolution_analysis_v1",
+  "source_gap_resolution_plan_artifact": "vf_h2_structural_witness_gap_resolution_plan_v1",
+  "source_tightened_proof_attempt_artifact": "vf_h2_toy_theorem_tightened_proof_attempt_v1",
+  "source_tightened_proof_attempt_audit_artifact": "vf_h2_toy_theorem_tightened_proof_attempt_v1_audit",
+  "submission_readiness_claim_made": false,
+  "submission_ready_manuscript_created": false,
+  "theory_validation_claim_made": false,
+  "ttp_vf_h2_004_proved": false,
+  "ttp_vf_h2_004_r_proved": false,
+  "vf_h2_empirically_validated": false
+}
