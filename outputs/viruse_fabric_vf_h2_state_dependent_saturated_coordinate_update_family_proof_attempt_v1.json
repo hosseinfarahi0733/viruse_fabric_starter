@@ -1,0 +1,47 @@
+{
+  "action_id": "execute_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_no_claim_validation",
+  "source_head": "e3f73d0",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "SDSCUF-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "parametric_finite_state_dependent_saturated_coordinate_update_family",
+  "parameters": {
+    "n": "n >= 1",
+    "d": "d >= 1",
+    "S": "nonempty subset of {1,...,d}",
+    "m": "|S|",
+    "h_i": "coordinate-local update function for every i in S"
+  },
+  "active_coordinate_update_function_assumptions": {
+    "monotone": "a <= b implies h_i(a) <= h_i(b)",
+    "extensive": "a <= h_i(a)",
+    "saturated_at_top": "h_i(n)=n",
+    "strictly_progressive_below_top": "a < n implies h_i(a) > a"
+  },
+  "model_family": {
+    "D_n_d": "{0,1,...,n}^d",
+    "order": "coordinatewise_order",
+    "M_S_h": "M_{S,h}(x)_i=h_i(x_i) if i in S, else x_i",
+    "A": "identity",
+    "G": "sum_coordinates",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "total_state_count": "(n+1)^d",
+  "ledger_effect_formula": "sum_{i in S} (h_i(x_i) - x_i)",
+  "strict_witness_condition": "exists i in S such that x_i < n",
+  "saturated_nonstrict_condition": "for every i in S, x_i = n",
+  "saturated_nonstrict_count": "(n+1)^(d-|S|)",
+  "strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "wcsuf_weighted_case_recovered_as_special_case": "h_i(a)=min(a+r_i,n)",
+  "csuf_unit_increment_case_recovered_as_special_case": "h_i(a)=min(a+1,n)",
+  "pfpl_all_coordinate_unit_increment_case_recovered_as_special_case": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_state_dependent_saturated_coordinate_update_family_proof_attempt_no_claim_validation"
+}
