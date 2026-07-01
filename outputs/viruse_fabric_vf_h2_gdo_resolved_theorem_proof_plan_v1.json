@@ -1,0 +1,22 @@
+{
+  "action_id": "draft_vf_h2_gdo_resolved_theorem_proof_plan_no_claim_validation",
+  "source_head": "f8a4712",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "target_theorem": "GDO-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "planned_lemma_count": 5,
+  "planned_lemmas": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002",
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004",
+    "GDO-L-VF-H2-005"
+  ],
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_order_domain_theorem_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_resolved_theorem_proof_attempt_no_claim_validation"
+}
