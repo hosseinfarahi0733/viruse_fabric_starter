@@ -1,0 +1,55 @@
+{
+  "action_id": "draft_vf_h2_original_theory_restricted_finite_state_definition_plan_no_claim_validation",
+  "source_head": "0147c29",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchor": "OIMAP-VF-H2-001",
+  "target_obligation": "define_restricted_finite_state_space_P_R",
+  "target_artifact": "P_R_STATEDEF-VF-H2-001",
+  "target_artifact_proved": false,
+  "proposed_state_space": {
+    "T_3": "{1,2,3}",
+    "I_d": "{1,2,...,d}",
+    "L_n": "{0,1,...,n}",
+    "P_R_n_d": "L_n^(T_3 x I_d)",
+    "state_form": "x=(x_{tau,i}) with tau in T_3, i in I_d, x_{tau,i} in L_n",
+    "cardinality_expected": "(n+1)^(3d)"
+  },
+  "requirements_addressed_by_plan": {
+    "finite_carrier_set": true,
+    "three_time_compatibility": true,
+    "safe_abstract_interpretation": true,
+    "compatible_with_later_coordinatewise_order": true,
+    "unrestricted_theory_claim": false
+  },
+  "optional_extension": {
+    "channel_set_C_k": "{1,2,...,k}",
+    "P_R_n_d_k": "L_n^(T_3 x I_d x C_k)",
+    "status": "defer_unless_needed"
+  },
+  "resolved_after_execution_expected": [
+    "P_R_explicitly_defined",
+    "P_R_finiteness_proved",
+    "P_R_cardinality_proved",
+    "finite_carrier_obligation_resolved_for_restricted_bridge"
+  ],
+  "remaining_blockers": [
+    "order_relation_leq_R_not_defined",
+    "partial_order_proof_missing",
+    "update_map_f_VF_not_defined",
+    "fixed_set_F_R_not_defined",
+    "saturation_equivalence_not_proved",
+    "strict_progressivity_outside_F_R_not_proved",
+    "ledger_functional_V_VF_not_defined",
+    "strict_order_preservation_of_V_VF_not_proved",
+    "ledger_effect_size_identity_not_proved"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_coordinatewise_order_definition_plan_no_claim_validation",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_original_theory_restricted_finite_state_definition_no_claim_validation"
+}
