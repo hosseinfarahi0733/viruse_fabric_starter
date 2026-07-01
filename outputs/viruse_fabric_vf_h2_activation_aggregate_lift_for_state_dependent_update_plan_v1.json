@@ -1,0 +1,32 @@
+{
+  "action_id": "draft_vf_h2_activation_aggregate_lift_for_state_dependent_update_plan_no_claim_validation",
+  "source_head": "577f401",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "AAL-SDSCUF-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "prior_anchor": "SDSCUF-T-VF-H2-001-R",
+  "base_domain": "D_{n,d}={0,1,...,n}^d",
+  "update_family": "M_{S,h}(x)_i=h_i(x_i) if i in S, else x_i",
+  "activation_assumptions": {
+    "activation_domain": "ordered_activation_domain_Y",
+    "monotone": "x <= y implies A(x) <=_Y A(y)",
+    "strictness_preserving_on_relevant_update_pairs": "x < M_{S,h}(x) implies A(x) <_Y A(M_{S,h}(x))"
+  },
+  "aggregate_assumptions": {
+    "strict_positivity": "u <_Y v implies G(v)-G(u)>0"
+  },
+  "lifted_ledger_effect": "G(A(M_{S,h}(x))) - G(A(x))",
+  "expected_strict_witness_condition": "exists i in S such that x_i < n",
+  "expected_saturated_nonstrict_condition": "for every i in S, x_i = n",
+  "expected_saturated_nonstrict_count": "(n+1)^(d-|S|)",
+  "expected_strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "sdsuf_identity_sum_case_included_as_special_case": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_no_claim_validation"
+}
