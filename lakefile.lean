@@ -3,7 +3,8 @@ open Lake DSL
 
 package «viruse_fabric_starter» where
   -- Restricted VF-H2 Lean scaffold only.
-  -- This package does not claim a completed machine-checked proof.
+  -- This package does not claim a completed machine-checked proof
+  -- of the full Viruse Fabric theory.
 
 @[default_target]
 lean_lib VFH2 where
@@ -21,5 +22,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.NonfixedWitness,
     `VFH2.RestrictedBridge.BoundBasics,
     `VFH2.RestrictedBridge.CoordinateIncrease,
-    `VFH2.RestrictedBridge.LedgerIncrease
+    `VFH2.RestrictedBridge.LedgerIncrease,
+    `VFH2.RestrictedBridge.FinalRestrictedBridge
   ]
