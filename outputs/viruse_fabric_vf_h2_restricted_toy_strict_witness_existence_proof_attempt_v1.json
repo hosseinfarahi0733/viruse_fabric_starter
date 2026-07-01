@@ -1,0 +1,19 @@
+{
+  "action_id": "execute_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_no_claim_validation",
+  "source_head": "a326a29",
+  "scope": "safe_abstract_finite_coordinatewise_restricted_toy_vf_h2_only",
+  "target_theorem": "RTSW-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "strict_witness_existence_derived": true,
+  "strict_witness_derivation_scope": "restricted_toy_only_under_explicit_assumptions",
+  "assumption_count": 7,
+  "generalized_strict_witness_existence_proved": false,
+  "unrestricted_strict_witness_existence_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_restricted_toy_strict_witness_existence_proof_attempt_no_claim_validation"
+}
