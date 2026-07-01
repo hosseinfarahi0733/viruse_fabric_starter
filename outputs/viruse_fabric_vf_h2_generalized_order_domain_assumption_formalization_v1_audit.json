@@ -1,0 +1,19 @@
+{
+  "action_id": "audit_vf_h2_generalized_order_domain_assumption_formalization_no_claim_validation",
+  "audited_source_head": "b70eaa1",
+  "audit_passed": true,
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "generalized_objects_defined": true,
+  "gdo_assumption_count": 8,
+  "candidate_generalized_theorem_shape_defined": true,
+  "candidate_generalized_theorem_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "strict_activation_margin_derived": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "next_allowed_action": "draft_vf_h2_generalized_order_domain_theorem_gap_analysis_no_claim_validation"
+}
