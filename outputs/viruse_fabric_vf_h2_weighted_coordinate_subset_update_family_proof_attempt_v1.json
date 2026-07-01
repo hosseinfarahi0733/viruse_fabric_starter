@@ -1,0 +1,40 @@
+{
+  "action_id": "execute_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_no_claim_validation",
+  "source_head": "159c7a8",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "WCSUF-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "parametric_finite_weighted_coordinate_subset_update_family",
+  "parameters": {
+    "n": "n >= 1",
+    "d": "d >= 1",
+    "S": "nonempty subset of {1,...,d}",
+    "m": "|S|",
+    "r_i": "positive integer step size in {1,...,n} for every i in S"
+  },
+  "model_family": {
+    "D_n_d": "{0,1,...,n}^d",
+    "order": "coordinatewise_order",
+    "M_S_r": "M_{S,r}(x)_i=min(x_i+r_i,n) if i in S, else x_i",
+    "A": "identity",
+    "G": "sum_coordinates",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "total_state_count": "(n+1)^d",
+  "ledger_effect_formula": "sum_{i in S} min(r_i, n - x_i)",
+  "strict_witness_condition": "exists i in S such that x_i < n",
+  "saturated_nonstrict_condition": "for every i in S, x_i = n",
+  "saturated_nonstrict_count": "(n+1)^(d-|S|)",
+  "strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "csuf_unit_increment_case_recovered_as_special_case": true,
+  "pfpl_all_coordinate_unit_increment_case_recovered_as_special_case": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_weighted_coordinate_subset_update_family_proof_attempt_no_claim_validation"
+}
