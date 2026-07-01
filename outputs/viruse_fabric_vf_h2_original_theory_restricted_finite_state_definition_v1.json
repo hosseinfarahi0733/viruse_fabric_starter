@@ -1,0 +1,56 @@
+{
+  "action_id": "execute_vf_h2_original_theory_restricted_finite_state_definition_no_claim_validation",
+  "source_head": "a0f6dc0",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchor": "OIMAP-VF-H2-001",
+  "target_artifact": "P_R-STATEDEF-VF-H2-001-R",
+  "target_artifact_proved": true,
+  "resolved_obligation": "restricted_finite_state_space_P_R",
+  "parameters": {
+    "n": "positive_integer_n_ge_1",
+    "d": "positive_integer_d_ge_1"
+  },
+  "definitions": {
+    "T_3": "{1,2,3}",
+    "I_d": "{1,2,...,d}",
+    "L_n": "{0,1,...,n}",
+    "P_R_n_d": "L_n^(T_3 x I_d)",
+    "state_form": "x=(x_{tau,i}) with tau in T_3, i in I_d, x_{tau,i} in L_n"
+  },
+  "finiteness": {
+    "T_3_cardinality": 3,
+    "I_d_cardinality": "d",
+    "index_set_cardinality": "3d",
+    "L_n_cardinality": "n+1",
+    "P_R_cardinality": "(n+1)^(3d)",
+    "P_R_finite": true
+  },
+  "finite_carrier_obligation_resolved_for_restricted_bridge": true,
+  "optional_channel_extension": {
+    "deferred": true,
+    "C_k": "{1,2,...,k}",
+    "P_R_n_d_k": "L_n^(T_3 x I_d x C_k)",
+    "cardinality": "(n+1)^(3dk)"
+  },
+  "remaining_blockers": [
+    "order_relation_leq_R_not_defined",
+    "partial_order_proof_missing",
+    "update_map_f_VF_not_defined",
+    "fixed_set_F_R_not_defined",
+    "saturation_equivalence_not_proved",
+    "strict_progressivity_outside_F_R_not_proved",
+    "ledger_functional_V_VF_not_defined",
+    "strict_order_preservation_of_V_VF_not_proved",
+    "ledger_effect_size_identity_not_proved",
+    "activation_aggregate_assumptions_not_proved_if_used"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_coordinatewise_order_definition_plan_no_claim_validation",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_original_theory_coordinatewise_order_definition_plan_no_claim_validation"
+}
