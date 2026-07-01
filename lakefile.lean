@@ -40,5 +40,6 @@ lean_lib VFH2 where
     `VFH2.Typed.TypedFixedZero,
     `VFH2.Typed.TypedNonfixedIncrease,
     `VFH2.Typed.TypedUpdateMonotone,
-    `VFH2.Typed.TypedPositiveLedger
+    `VFH2.Typed.TypedPositiveLedger,
+    `VFH2.Typed.TypedRestrictedBridge
   ]
