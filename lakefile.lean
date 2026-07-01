@@ -23,5 +23,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.BoundBasics,
     `VFH2.RestrictedBridge.CoordinateIncrease,
     `VFH2.RestrictedBridge.LedgerIncrease,
-    `VFH2.RestrictedBridge.FinalRestrictedBridge
+    `VFH2.RestrictedBridge.FinalRestrictedBridge,
+    `VFH2.RestrictedBridge.ActiveRangeBridge
   ]
