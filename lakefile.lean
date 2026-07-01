@@ -37,5 +37,6 @@ lean_lib VFH2 where
     `VFH2.Typed.TypedFixedSet,
     `VFH2.Typed.TypedUpdate,
     `VFH2.Typed.TypedLedger,
-    `VFH2.Typed.TypedFixedZero
+    `VFH2.Typed.TypedFixedZero,
+    `VFH2.Typed.TypedNonfixedIncrease
   ]
