@@ -1,0 +1,22 @@
+{
+  "action_id": "draft_vf_h2_gdo_order_reflecting_abstraction_repair_plan_no_claim_validation",
+  "source_head": "a543f72",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "failed_lemma": "GDO-L-VF-H2-004",
+  "repair_target": "GDO-L-VF-H2-004-R",
+  "failure_reason": "order_preserving_abstraction_does_not_imply_order_reflection",
+  "selected_repair_condition": "order_reflecting_abstraction_map",
+  "allowed_alternatives": [
+    "order_reflecting_Q",
+    "order_embedding_section_pair",
+    "explicit_sound_sufficient_condition_assumption"
+  ],
+  "repair_proved": false,
+  "gdo_l_vf_h2_005_remains_assumption_sensitive": true,
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "execute_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_no_claim_validation"
+}
