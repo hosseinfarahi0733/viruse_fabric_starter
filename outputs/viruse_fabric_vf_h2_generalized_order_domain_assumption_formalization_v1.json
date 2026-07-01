@@ -1,0 +1,34 @@
+{
+  "action_id": "execute_vf_h2_generalized_order_domain_assumption_formalization_no_claim_validation",
+  "source_head": "8c7fc80",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "generalized_objects_defined": [
+    "D",
+    "<=_D",
+    "P_D",
+    "L",
+    "M",
+    "A",
+    "G",
+    "ledger_effect_size"
+  ],
+  "gdo_assumptions_defined": [
+    "GDO-VF-H2-001",
+    "GDO-VF-H2-002",
+    "GDO-VF-H2-003",
+    "GDO-VF-H2-004",
+    "GDO-VF-H2-005",
+    "GDO-VF-H2-006",
+    "GDO-VF-H2-007",
+    "GDO-VF-H2-008"
+  ],
+  "candidate_generalized_theorem_defined": true,
+  "candidate_generalized_theorem_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "strict_activation_margin_derived": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "audit_vf_h2_generalized_order_domain_assumption_formalization_no_claim_validation"
+}
