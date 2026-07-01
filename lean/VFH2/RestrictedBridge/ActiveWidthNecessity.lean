@@ -46,9 +46,7 @@ theorem not_activeIndicesWithinWidth_activeWidthCounterexampleParams :
     activeWidthCounterexample_mem
   have hlt : 3 < expectedWidth activeWidthCounterexampleParams :=
     h 3 hmem
-  have hlt3 : 3 < 3 := by
-    simpa [activeWidthCounterexampleParams, expectedWidth] using hlt
-  exact (Nat.lt_irrefl 3) hlt3
+  simp [activeWidthCounterexampleParams, expectedWidth] at hlt
 
 /-- There exist lightweight restricted parameters that do not satisfy
 active-width well-formedness.
