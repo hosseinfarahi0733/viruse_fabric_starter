@@ -1,0 +1,34 @@
+{
+  "action_id": "draft_vf_h2_nonidentity_activation_aggregate_model_plan_no_claim_validation",
+  "source_head": "d65556b",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "NIAGM-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "prior_anchor": "AAL-SDSCUF-T-VF-H2-001-R",
+  "purpose": "show_activation_aggregate_lift_assumptions_nonvacuous_beyond_identity_sum",
+  "base_domain": "D_{n,d}={0,1,...,n}^d",
+  "base_order": "coordinatewise_order",
+  "update_family": "M_{S,h}(x)_i=h_i(x_i) if i in S, else x_i",
+  "activation_candidate": {
+    "Y": "{0,1,...,2dn}",
+    "A": "A(x)=2*sum_i x_i",
+    "not_identity": true,
+    "expected_monotone": true,
+    "expected_strictness_preserving_on_relevant_update_pairs": true
+  },
+  "aggregate_candidate": {
+    "G": "G(y)=y^2+y",
+    "not_coordinate_sum": true,
+    "expected_strict_positivity": true
+  },
+  "expected_strict_witness_implies_lifted_ledger_effect_positive": true,
+  "expected_saturated_nonstrict_implies_lifted_ledger_effect_zero": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_nonidentity_activation_aggregate_model_proof_attempt_no_claim_validation"
+}
