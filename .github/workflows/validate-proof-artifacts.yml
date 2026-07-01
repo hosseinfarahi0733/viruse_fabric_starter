@@ -47,6 +47,10 @@ jobs:
       - name: Build dependency graph
         run: python tools/proofchain/build_dependency_graph.py
 
+
+      - name: Run restricted bridge simulation sanity checks
+        run: python3 tools/simulations/restricted_bridge_sanity_check.py
+
       - name: Detect plan-execute loops
         run: python tools/proofchain/detect_loops.py --warn-only
 
@@ -58,3 +62,6 @@ jobs:
             outputs/reports/*.json
             outputs/reports/*.md
             outputs/reports/*.dot
+            outputs/simulations/*.json
+            outputs/simulations/*.csv
+            outputs/simulations/*.md

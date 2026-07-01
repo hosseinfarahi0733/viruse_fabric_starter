@@ -1,0 +1,128 @@
+{
+  "artifact": "restricted_bridge_simulation_sanity_check",
+  "scope": "restricted finite computational sanity check only",
+  "theorem_checked": "RBRIDGE-VF-H2-001-R",
+  "claim_checked": "x notin F_R => ledger_effect_size_R(x)>0; x in F_R => ledger_effect_size_R(x)=0",
+  "not_full_viruse_fabric_theory_proof": true,
+  "not_unrestricted_ttp_vf_h2_004_proof": true,
+  "not_empirical_validation": true,
+  "not_biological_validation": true,
+  "total_cases": 4,
+  "total_states_checked": 4860,
+  "total_violations": 0,
+  "passed": true,
+  "cases": [
+    {
+      "case_id": "RBSC-001-small-single-active",
+      "n": 1,
+      "d": 1,
+      "active_coords": [
+        [
+          1,
+          1
+        ]
+      ],
+      "h_mode": "increment_by_1",
+      "total_states": 8,
+      "fixed_states": 4,
+      "nonfixed_states": 4,
+      "positive_effect_count": 4,
+      "zero_effect_count": 4,
+      "min_effect": 0,
+      "max_effect": 1,
+      "violation_count": 0,
+      "violations_sample": [],
+      "passed": true
+    },
+    {
+      "case_id": "RBSC-002-all-time-active",
+      "n": 2,
+      "d": 1,
+      "active_coords": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "h_mode": "increment_by_1",
+      "total_states": 27,
+      "fixed_states": 1,
+      "nonfixed_states": 26,
+      "positive_effect_count": 26,
+      "zero_effect_count": 1,
+      "min_effect": 0,
+      "max_effect": 3,
+      "violation_count": 0,
+      "violations_sample": [],
+      "passed": true
+    },
+    {
+      "case_id": "RBSC-003-two-space-mixed-active",
+      "n": 2,
+      "d": 2,
+      "active_coords": [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "h_mode": "jump_to_top",
+      "total_states": 729,
+      "fixed_states": 27,
+      "nonfixed_states": 702,
+      "positive_effect_count": 702,
+      "zero_effect_count": 27,
+      "min_effect": 0,
+      "max_effect": 6,
+      "violation_count": 0,
+      "violations_sample": [],
+      "passed": true
+    },
+    {
+      "case_id": "RBSC-004-two-space-capped-increment",
+      "n": 3,
+      "d": 2,
+      "active_coords": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "h_mode": "increment_by_2_capped",
+      "total_states": 4096,
+      "fixed_states": 64,
+      "nonfixed_states": 4032,
+      "positive_effect_count": 4032,
+      "zero_effect_count": 64,
+      "min_effect": 0,
+      "max_effect": 6,
+      "violation_count": 0,
+      "violations_sample": [],
+      "passed": true
+    }
+  ]
+}

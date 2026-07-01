@@ -1,0 +1,5 @@
+case_id,n,d,h_mode,total_states,fixed_states,nonfixed_states,positive_effect_count,zero_effect_count,min_effect,max_effect,violation_count,passed
+RBSC-001-small-single-active,1,1,increment_by_1,8,4,4,4,4,0,1,0,True
+RBSC-002-all-time-active,2,1,increment_by_1,27,1,26,26,1,0,3,0,True
+RBSC-003-two-space-mixed-active,2,2,jump_to_top,729,27,702,702,27,0,6,0,True
+RBSC-004-two-space-capped-increment,3,2,increment_by_2_capped,4096,64,4032,4032,64,0,6,0,True
