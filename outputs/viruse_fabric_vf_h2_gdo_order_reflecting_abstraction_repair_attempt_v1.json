@@ -1,0 +1,16 @@
+{
+  "action_id": "execute_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_no_claim_validation",
+  "source_head": "bbe7c6c",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "repaired_lemma": "GDO-L-VF-H2-004-R",
+  "repaired_lemma_proved": true,
+  "proved_under_assumption": "order_reflecting_abstraction_map",
+  "original_gdo_l_vf_h2_004_proved_as_stated": false,
+  "gdo_l_vf_h2_005_remains_assumption_sensitive": true,
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "audit_vf_h2_gdo_order_reflecting_abstraction_repair_attempt_no_claim_validation"
+}
