@@ -1,0 +1,30 @@
+{
+  "action_id": "audit_vf_h2_restricted_to_gdo_strict_witness_bridge_gap_analysis_no_claim_validation",
+  "audited_source_head": "6d24207",
+  "audit_passed": true,
+  "audit_status": "passed_with_bridge_nonproof_confirmation",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "restricted_closed_theorem": "RTSW-T-VF-H2-001-R",
+  "restricted_to_gdo_bridge_proved": false,
+  "gdo_strict_witness_existence_proved": false,
+  "gap_count": 7,
+  "gap_ids": [
+    "BRG-VF-H2-001",
+    "BRG-VF-H2-002",
+    "BRG-VF-H2-003",
+    "BRG-VF-H2-004",
+    "BRG-VF-H2-005",
+    "BRG-VF-H2-006",
+    "BRG-VF-H2-007"
+  ],
+  "possible_bridge_theorem": "RTGDO-T-VF-H2-001-R",
+  "possible_bridge_theorem_proved": false,
+  "gdo_t_vf_h2_001_r_remains_scoped_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_plan_no_claim_validation"
+}
