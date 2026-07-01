@@ -1,0 +1,30 @@
+{
+  "action_id": "audit_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_no_claim_validation",
+  "audited_source_head": "9067723",
+  "audit_passed": true,
+  "audit_status": "passed_with_explicit_activation_aggregate_assumption_clarification",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "AAL-SDSCUF-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "activation_aggregate_lift_for_state_dependent_saturated_update",
+  "prior_anchor": "SDSCUF-T-VF-H2-001-R",
+  "activation_assumptions_confirmed": {
+    "monotone": true,
+    "strictness_preserving_on_relevant_update_pairs": true
+  },
+  "aggregate_assumptions_confirmed": {
+    "strict_positivity": true
+  },
+  "strict_witness_implies_lifted_ledger_effect_positive": true,
+  "saturated_nonstrict_implies_lifted_ledger_effect_zero": true,
+  "sdscuf_identity_sum_case_recovered_as_special_case": true,
+  "prior_plan_json_sdsuf_sdscuf_spelling_inconsistency_no_proof_impact": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_nonidentity_activation_aggregate_model_plan_no_claim_validation"
+}
