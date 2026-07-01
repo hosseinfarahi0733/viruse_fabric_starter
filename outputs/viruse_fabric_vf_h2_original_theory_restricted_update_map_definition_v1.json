@@ -1,0 +1,69 @@
+{
+  "action_id": "execute_vf_h2_original_theory_restricted_update_map_definition_no_claim_validation",
+  "source_head": "c2f06db",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchors": [
+    "P_R-STATEDEF-VF-H2-001-R",
+    "ORD-R-VF-H2-001-R"
+  ],
+  "target_artifact": "RUMAP-VF-H2-001-R",
+  "target_theorem": "RUMAP-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "state_space": "P_R(n,d)=L_n^(T_3 x I_d)",
+  "order": "coordinatewise <=_R",
+  "active_index_set": {
+    "A_R": "nonempty subset of T_3 x I_d",
+    "defined": true
+  },
+  "coordinate_update_functions": {
+    "h_alpha": "L_n -> L_n for alpha in A_R",
+    "assumptions": [
+      "well_defined_into_L_n",
+      "extensive",
+      "top_saturated_h_alpha_n_equals_n",
+      "strict_progress_below_top"
+    ],
+    "defined": true
+  },
+  "update_map": {
+    "f_R": "f_R(x)_alpha = h_alpha(x_alpha) if alpha in A_R, else x_alpha",
+    "defined": true,
+    "well_defined_P_R_to_P_R": true
+  },
+  "proved_properties": {
+    "inactive_coordinate_identity": true,
+    "active_coordinate_extensivity": true,
+    "global_extensivity_x_leq_R_f_R_x": true,
+    "local_strict_progress_below_top": true
+  },
+  "candidate_fixed_set": {
+    "F_R_cand": "{x in P_R : x_alpha=n for every alpha in A_R}",
+    "recorded": true,
+    "proved_equal_to_Fix_f_R": false
+  },
+  "resolved_obligations": [
+    "update_map_f_R_defined",
+    "update_map_f_R_well_defined",
+    "global_extensivity_established",
+    "local_strict_progress_below_top_established"
+  ],
+  "remaining_blockers": [
+    "fixed_set_F_R_equals_Fix_f_R_not_proved",
+    "saturation_predicate_not_defined",
+    "saturation_equivalence_not_proved",
+    "strict_progressivity_outside_F_R_not_proved",
+    "ledger_functional_V_R_not_defined",
+    "strict_order_preservation_of_V_R_not_proved",
+    "ledger_effect_size_identity_not_proved",
+    "activation_aggregate_assumptions_not_proved_if_used"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_no_claim_validation",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_original_theory_fixed_set_and_strict_progressivity_plan_no_claim_validation"
+}
