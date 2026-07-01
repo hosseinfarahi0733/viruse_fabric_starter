@@ -1,0 +1,59 @@
+{
+  "action_id": "draft_vf_h2_original_theory_ledger_lyapunov_functional_plan_no_claim_validation",
+  "source_head": "36641f2",
+  "scope": "safe_abstract_mathematical_formalization_only",
+  "prior_anchors": [
+    "P_R-STATEDEF-VF-H2-001-R",
+    "ORD-R-VF-H2-001-R",
+    "RUMAP-VF-H2-001-R",
+    "FSP-R-VF-H2-001-R"
+  ],
+  "target_artifact": "LEDGER-LYAP-R-VF-H2-001",
+  "target_theorem": "LEDGER-LYAP-R-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "state_space": "P_R(n,d)=L_n^(T_3 x I_d)",
+  "order": "coordinatewise <=_R",
+  "index_set": {
+    "Alpha_R": "T_3 x I_d",
+    "cardinality": "3d"
+  },
+  "functional_planned": {
+    "V_R": "V_R(x)=sum_{alpha in Alpha_R} x_alpha",
+    "type": "all_coordinate_unweighted_sum",
+    "reason": "strict_order_preservation_on_full_coordinatewise_order"
+  },
+  "optional_weighted_version": {
+    "V_w": "sum_{alpha in Alpha_R} w_alpha x_alpha",
+    "condition": "w_alpha>0 for every alpha",
+    "status": "deferred"
+  },
+  "proof_obligations": {
+    "V_R_well_defined": "planned",
+    "V_R_strict_order_preserving": "planned",
+    "update_increment_positive_outside_F_R": "planned",
+    "fixed_set_zero_increment": "planned"
+  },
+  "expected_resolved_after_execution": [
+    "V_R_defined",
+    "V_R_well_defined",
+    "V_R_strict_order_preserving",
+    "V_R_increment_positive_outside_F_R",
+    "V_R_increment_zero_on_F_R"
+  ],
+  "remaining_blockers_after_execution_expected": [
+    "ledger_effect_size_R_not_defined",
+    "ledger_effect_size_R_identity_not_proved",
+    "final_restricted_bridge_theorem_not_proved",
+    "activation_aggregate_assumptions_not_proved_if_used",
+    "full_original_unrestricted_VF_H2_not_proved"
+  ],
+  "candidate_next_action_after_execution": "draft_vf_h2_original_theory_final_restricted_bridge_theorem_plan_no_claim_full_theory",
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "generalized_theorem_without_assumptions_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_original_theory_ledger_lyapunov_functional_no_claim_validation"
+}
