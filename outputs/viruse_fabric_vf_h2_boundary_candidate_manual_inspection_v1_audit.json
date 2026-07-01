@@ -1,0 +1,18 @@
+{
+  "action_id": "audit_vf_h2_boundary_candidate_manual_inspection_no_claim_validation",
+  "audited_source_head": "9d84a51",
+  "audit_passed": true,
+  "boundary_candidate_count": 34,
+  "constraint_boundary_count": 25,
+  "general_boundary_count": 9,
+  "weak_boundary_candidate_count": 23,
+  "context_only_boundary_candidate_count": 11,
+  "report_usable_boundary_candidate_count": 0,
+  "new_experiments_run": false,
+  "inspection_is_proof": false,
+  "inspection_is_empirical_validation": false,
+  "inspection_is_biological_validation": false,
+  "full_theory_proved": false,
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "next_allowed_action": "draft_vf_h2_limited_negative_evidence_and_boundary_summary_no_claim_validation"
+}
