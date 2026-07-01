@@ -19,5 +19,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.FixedSetBridge,
     `VFH2.RestrictedBridge.ActiveIndexSoundness,
     `VFH2.RestrictedBridge.NonfixedWitness,
-    `VFH2.RestrictedBridge.BoundBasics
+    `VFH2.RestrictedBridge.BoundBasics,
+    `VFH2.RestrictedBridge.CoordinateIncrease
   ]
