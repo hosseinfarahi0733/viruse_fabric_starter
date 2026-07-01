@@ -1,0 +1,35 @@
+{
+  "action_id": "execute_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_no_claim_validation",
+  "source_head": "3a3ce68",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "AAL-SDSCUF-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "activation_aggregate_lift_for_state_dependent_saturated_update",
+  "prior_anchor": "SDSCUF-T-VF-H2-001-R",
+  "base_domain": "D_{n,d}={0,1,...,n}^d",
+  "update_family": "M_{S,h}(x)_i=h_i(x_i) if i in S, else x_i",
+  "activation_assumptions_used": {
+    "monotone": "x <= y implies A(x) <=_Y A(y)",
+    "strictness_preserving_on_relevant_update_pairs": "x < M_{S,h}(x) implies A(x) <_Y A(M_{S,h}(x))"
+  },
+  "aggregate_assumptions_used": {
+    "strict_positivity": "u <_Y v implies G(v)-G(u)>0"
+  },
+  "lifted_ledger_effect": "G(A(M_{S,h}(x))) - G(A(x))",
+  "strict_witness_condition": "exists i in S such that x_i < n",
+  "strict_witness_implies_lifted_ledger_effect_positive": true,
+  "saturated_nonstrict_condition": "for every i in S, x_i = n",
+  "saturated_nonstrict_implies_lifted_ledger_effect_zero": true,
+  "saturated_nonstrict_count": "(n+1)^(d-|S|)",
+  "strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "sdscuf_identity_sum_case_recovered_as_special_case": true,
+  "prior_plan_json_sdsuf_sdscuf_spelling_inconsistency_noted": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_activation_aggregate_lift_for_state_dependent_update_proof_attempt_no_claim_validation"
+}
