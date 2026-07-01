@@ -1,0 +1,30 @@
+{
+  "action_id": "draft_vf_h2_parametric_finite_chain_model_plan_no_claim_validation",
+  "source_head": "5453f92",
+  "scope": "safe_abstract_finite_toy_vf_h2_only",
+  "target_theorem": "PFCM-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "family": "D_n={0,1,...,n}, n>=1",
+  "model_candidate": {
+    "D_n": "{0,1,...,n}",
+    "order": "0 <= 1 <= ... <= n",
+    "M": "M(k)=min(k+1,n)",
+    "A": "identity",
+    "G": "identity",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "expected_strict_witness_states": "{0,1,...,n-1}",
+  "expected_strict_witness_count": "n",
+  "expected_saturated_nonstrict_state": "n",
+  "expected_saturated_nonstrict_state_count": 1,
+  "arbitrarily_large_finite_toy_family_planned": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_parametric_finite_chain_model_proof_attempt_no_claim_validation"
+}
