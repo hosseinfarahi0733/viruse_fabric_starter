@@ -29,5 +29,6 @@ lean_lib VFH2 where
     `VFH2.RestrictedBridge.OfficialRBridge,
     `VFH2.RestrictedBridge.ActiveRangeEquivalence,
     `VFH2.RestrictedBridge.ActiveWidthNecessity,
-    `VFH2.RestrictedBridge.WellFormedParams
+    `VFH2.RestrictedBridge.WellFormedParams,
+    `VFH2.Typed.BoundedCoord
   ]
