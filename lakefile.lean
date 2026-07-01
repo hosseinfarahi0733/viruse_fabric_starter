@@ -8,4 +8,7 @@ package «viruse_fabric_starter» where
 @[default_target]
 lean_lib VFH2 where
   srcDir := "lean"
-  roots := #[`VFH2.RestrictedBridge.Scaffold]
+  roots := #[
+    `VFH2.RestrictedBridge.Scaffold,
+    `VFH2.RestrictedBridge.ProofBasics
+  ]
