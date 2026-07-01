@@ -1,0 +1,81 @@
+{
+  "action_id": "execute_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_no_claim_validation",
+  "source_head": "f0d2431",
+  "scope": "safe_abstract_finite_order_theoretic_toy_vf_h2_only",
+  "prior_anchor": "FFP-LYAP-T-VF-H2-001-R",
+  "target_activity": "minimality_and_counterexample_execution",
+  "counterexample_suite_established": true,
+  "base_theorem_assumptions": {
+    "strict_progressivity_outside_F_necessary": true,
+    "strict_order_preserving_V_necessary": true,
+    "monotonicity_f_necessary_for_one_step_theorem": false
+  },
+  "external_F_case": {
+    "fixed_set_consistency_necessary_if_F_externally_specified": true,
+    "fixed_set_consistency_definitional_when_F_equals_Fix_f": true
+  },
+  "activation_aggregate_lift_assumptions": {
+    "A_strictness_preservation_necessary": true,
+    "G_strict_positivity_necessary": true
+  },
+  "counterexamples": {
+    "remove_strict_progressivity_outside_F": {
+      "established": true,
+      "P": "{a,b} incomparable",
+      "f": "f(a)=b, f(b)=b",
+      "F": "{b}",
+      "V": "V(a)=1,V(b)=0",
+      "failure": "a notin F but V(f(a))>V(a) fails"
+    },
+    "remove_strict_order_preserving_V": {
+      "established": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "F": "{b}",
+      "V": "V(a)=0,V(b)=0",
+      "failure": "strict progressivity holds but V(f(a))>V(a) fails"
+    },
+    "external_F_without_fixed_set_consistency": {
+      "established": true,
+      "P": "{a<b}",
+      "external_F": "{a}",
+      "f": "f(a)=b, f(b)=b",
+      "V": "V(a)=0,V(b)=1",
+      "failure": "x in external F but V(f(x))=V(x) fails"
+    },
+    "remove_A_strictness_preservation": {
+      "established": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "A": "constant activation into singleton Y",
+      "G": "G(0)=0",
+      "failure": "lifted positive effect collapses to zero"
+    },
+    "remove_G_strict_positivity": {
+      "established": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "A": "A(a)=0,A(b)=1",
+      "G": "constant aggregate",
+      "failure": "strict activation improvement exists but aggregate effect is zero"
+    }
+  },
+  "nonminimality_witness": {
+    "monotonicity_f_not_necessary": {
+      "established": true,
+      "P": "{a,b,c} with a<b, a<c, b and c incomparable",
+      "f": "f(a)=b, f(b)=b, f(c)=c",
+      "F": "{b,c}",
+      "V": "V(a)=0,V(b)=1,V(c)=1",
+      "result": "one_step_improvement_holds_while_f_not_monotone"
+    }
+  },
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_no_claim_validation"
+}
