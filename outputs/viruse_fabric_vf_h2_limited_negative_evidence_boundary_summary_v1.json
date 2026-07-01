@@ -1,0 +1,19 @@
+{
+  "action_id": "draft_vf_h2_limited_negative_evidence_and_boundary_summary_no_claim_validation",
+  "source_head": "778b245",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "experiment_scripts_classified": 334,
+  "candidate_evidence_files_reviewed": 45,
+  "boundary_evidence_candidates": 34,
+  "boundary_safety_review_candidates": 11,
+  "report_usable_boundary_candidates": 0,
+  "strong_direct_validation_candidates": 0,
+  "new_experiments_run": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_limited_negative_evidence_and_boundary_summary_no_claim_validation"
+}
