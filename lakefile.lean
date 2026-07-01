@@ -48,5 +48,6 @@ lean_lib VFH2 where
     `VFH2.Product.ProductState,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductFixedSet,
-    `VFH2.Product.ProductUpdate
+    `VFH2.Product.ProductUpdate,
+    `VFH2.Product.ProductNonfixedIncrease
   ]
