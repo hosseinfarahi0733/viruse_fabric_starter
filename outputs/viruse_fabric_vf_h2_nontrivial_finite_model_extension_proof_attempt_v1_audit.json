@@ -1,0 +1,25 @@
+{
+  "action_id": "audit_vf_h2_nontrivial_finite_model_extension_proof_attempt_no_claim_validation",
+  "audited_source_head": "b878bc1",
+  "audit_passed": true,
+  "audit_status": "passed_with_finite_toy_scope_clarification",
+  "target_theorem": "NTFM-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "model": "D={0,1,2}",
+  "strict_witness_states": [0, 1],
+  "strict_witness_count": 2,
+  "saturated_nonstrict_states": [2],
+  "saturated_nonstrict_state_count": 1,
+  "ledger_effect": {
+    "0": 1,
+    "1": 1,
+    "2": 0
+  },
+  "nonvacuity_beyond_minimal_model": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "draft_vf_h2_parametric_finite_chain_model_plan_no_claim_validation"
+}
