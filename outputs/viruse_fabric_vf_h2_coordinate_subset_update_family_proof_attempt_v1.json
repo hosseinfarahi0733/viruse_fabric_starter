@@ -1,0 +1,38 @@
+{
+  "action_id": "execute_vf_h2_coordinate_subset_update_family_proof_attempt_no_claim_validation",
+  "source_head": "df15063",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "CSUF-T-VF-H2-001-R",
+  "target_theorem_proved": true,
+  "proof_type": "parametric_finite_coordinate_subset_update_family",
+  "parameters": {
+    "n": "n >= 1",
+    "d": "d >= 1",
+    "S": "nonempty subset of {1,...,d}",
+    "m": "|S|"
+  },
+  "model_family": {
+    "D_n_d": "{0,1,...,n}^d",
+    "order": "coordinatewise_order",
+    "M_S": "M_S(x)_i=min(x_i+1,n) if i in S, else x_i",
+    "A": "identity",
+    "G": "sum_coordinates",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "total_state_count": "(n+1)^d",
+  "ledger_effect_formula": "number_of_active_coordinates_i_in_S_with_x_i_less_than_n",
+  "strict_witness_condition": "exists i in S such that x_i < n",
+  "saturated_nonstrict_condition": "for every i in S, x_i = n",
+  "saturated_nonstrict_count": "(n+1)^(d-|S|)",
+  "strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "pfpl_all_coordinate_case_recovered_as_special_case": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_coordinate_subset_update_family_proof_attempt_no_claim_validation"
+}
