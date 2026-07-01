@@ -1,0 +1,66 @@
+{
+  "action_id": "draft_vf_h2_fixed_set_finite_poset_minimality_counterexample_plan_no_claim_validation",
+  "source_head": "9e3aff9",
+  "scope": "safe_abstract_finite_order_theoretic_toy_vf_h2_only",
+  "prior_anchor": "FFP-LYAP-T-VF-H2-001-R",
+  "target_activity": "minimality_and_counterexample_plan",
+  "target_theorem_proved": false,
+  "counterexample_targets": {
+    "remove_strict_progressivity_outside_F": {
+      "planned": true,
+      "P": "{a,b} incomparable",
+      "f": "f(a)=b, f(b)=b",
+      "F": "{b}",
+      "V": "V(a)=1,V(b)=0",
+      "expected_failure": "V(f(a))>V(a) fails"
+    },
+    "remove_strict_order_preserving_V": {
+      "planned": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "F": "{b}",
+      "V": "constant",
+      "expected_failure": "strict improvement fails"
+    },
+    "external_F_without_fixed_set_consistency": {
+      "planned": true,
+      "P": "{a<b}",
+      "external_F": "{a}",
+      "f": "f(a)=b, f(b)=b",
+      "expected_failure": "fixed state zero-change conclusion fails"
+    },
+    "remove_A_strictness_preservation": {
+      "planned": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "A": "constant activation",
+      "expected_failure": "lifted positive effect collapses"
+    },
+    "remove_G_strict_positivity": {
+      "planned": true,
+      "P": "{a<b}",
+      "f": "f(a)=b, f(b)=b",
+      "A": "A(a)=0,A(b)=1",
+      "G": "constant aggregate",
+      "expected_failure": "lifted positive effect collapses"
+    }
+  },
+  "nonminimality_witness": {
+    "monotonicity_f_not_necessary": {
+      "planned": true,
+      "P": "{a,b,c} with a<b, a<c, b and c incomparable",
+      "f": "f(a)=b, f(b)=b, f(c)=c",
+      "F": "{b,c}",
+      "V": "V(a)=0,V(b)=1,V(c)=1",
+      "expected_result": "one_step_improvement_holds_while_f_not_monotone"
+    }
+  },
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_fixed_set_finite_poset_minimality_counterexample_proof_attempt_no_claim_validation"
+}
