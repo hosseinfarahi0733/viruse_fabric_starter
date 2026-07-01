@@ -1,0 +1,37 @@
+{
+  "action_id": "draft_vf_h2_coordinate_subset_update_family_plan_no_claim_validation",
+  "source_head": "21b71dc",
+  "scope": "safe_abstract_finite_coordinatewise_toy_vf_h2_only",
+  "target_theorem": "CSUF-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "parameters": {
+    "n": "n >= 1",
+    "d": "d >= 1",
+    "S": "nonempty subset of {1,...,d}",
+    "m": "|S|"
+  },
+  "model_candidate": {
+    "D_n_d": "{0,1,...,n}^d",
+    "order": "coordinatewise_order",
+    "M_S": "M_S(x)_i=min(x_i+1,n) if i in S, else x_i",
+    "A": "identity",
+    "G": "sum_coordinates",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "expected_ledger_effect_formula": "number_of_active_coordinates_i_in_S_with_x_i_less_than_n",
+  "expected_strict_witness_states": "states_with_at_least_one_active_coordinate_below_n",
+  "expected_saturated_nonstrict_states": "states_with_all_active_coordinates_equal_to_n",
+  "expected_total_state_count": "(n+1)^d",
+  "expected_saturated_nonstrict_state_count": "(n+1)^(d-|S|)",
+  "expected_strict_witness_count": "(n+1)^d - (n+1)^(d-|S|)",
+  "pfpl_all_coordinate_case_included_as_special_case": true,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_coordinate_subset_update_family_proof_attempt_no_claim_validation"
+}
