@@ -10,5 +10,6 @@ lean_lib VFH2 where
   srcDir := "lean"
   roots := #[
     `VFH2.RestrictedBridge.Scaffold,
-    `VFH2.RestrictedBridge.ProofBasics
+    `VFH2.RestrictedBridge.ProofBasics,
+    `VFH2.RestrictedBridge.UpdateMap
   ]

@@ -1,0 +1,16 @@
+{
+  "artifact": "restricted_bridge_lean_update_map_scaffold_status",
+  "scope": "Lean 4 scaffold-level update map for restricted finite bridge theorem",
+  "target_theorem": "RBRIDGE-VF-H2-001-R",
+  "lean_update_map_scaffold_created": true,
+  "lean_update_map_scaffold_build": true,
+  "update_map_basic_lemmas_created": true,
+  "machine_checked_restricted_bridge_theorem_proved": false,
+  "full_viruse_fabric_theory_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "boundary_ok": true
+}
