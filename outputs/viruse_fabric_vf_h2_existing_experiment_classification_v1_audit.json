@@ -1,0 +1,14 @@
+{
+  "action_id": "audit_vf_h2_existing_experiment_classification_no_claim_validation",
+  "audited_source_head": "6f6f8cc",
+  "audit_passed": true,
+  "experiment_script_count": 334,
+  "candidate_evidence_file_count": 45,
+  "irrelevant_or_unusable_count": 289,
+  "new_experiments_run": false,
+  "classification_is_proof": false,
+  "classification_is_empirical_validation": false,
+  "classification_is_biological_validation": false,
+  "full_theory_proved": false,
+  "next_allowed_action": "manual_review_vf_h2_candidate_evidence_files_no_claim_validation"
+}
