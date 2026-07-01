@@ -59,10 +59,10 @@ theorem updateCoordinateR_eq_self_of_activeTopStep
   unfold updateCoordinateR
   cases hidx : isActiveIndex p i with
   | false =>
-      simp [hidx]
+      simp
   | true =>
       have ha : a = p.n := h hidx
-      simp [hidx, ha]
+      simp [ha]
 
 /-- Active-top along the update traversal implies pointwise fixed update. -/
 theorem pointwiseFixedForUpdate_of_activeTopForUpdate
