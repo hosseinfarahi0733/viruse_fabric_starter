@@ -1,0 +1,27 @@
+{
+  "action_id": "audit_vf_h2_gdo_lemma_short_proof_attempt_no_claim_validation",
+  "audited_source_head": "a136852",
+  "audit_passed": true,
+  "audit_status": "passed_with_scoped_assumption_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_under_assumptions": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002"
+  ],
+  "proved_under_assumptions_count": 2,
+  "remaining_not_proved": [
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004"
+  ],
+  "assumption_sensitive": [
+    "GDO-L-VF-H2-005"
+  ],
+  "gdo_t_vf_h2_001_r_remains_conditional": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_embedding_and_abstraction_lemma_proof_plan_no_claim_validation"
+}
