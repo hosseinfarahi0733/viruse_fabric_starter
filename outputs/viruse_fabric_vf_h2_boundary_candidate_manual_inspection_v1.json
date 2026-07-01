@@ -1,0 +1,19 @@
+{
+  "action_id": "manual_inspect_vf_h2_boundary_evidence_candidates_no_claim_validation",
+  "source_head": "c78a980",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "boundary_candidate_count": 34,
+  "new_experiments_run": false,
+  "type_counts": {
+    "general_boundary": 9,
+    "constraint_boundary": 25
+  },
+  "decision_counts": {
+    "weak_boundary_candidate": 23,
+    "context_only_boundary_candidate": 11
+  },
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "audit_vf_h2_boundary_candidate_manual_inspection_no_claim_validation"
+}
