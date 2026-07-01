@@ -1,0 +1,23 @@
+{
+  "action_id": "audit_vf_h2_restricted_to_gdo_strict_witness_bridge_theorem_proof_attempt_no_claim_validation",
+  "audited_source_head": "1f5583a",
+  "audit_passed": true,
+  "audit_status": "passed_with_bridge_condition_clarification",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "target_bridge_theorem": "RTGDO-T-VF-H2-001-R",
+  "target_bridge_theorem_proved_under_explicit_bridge_assumptions": true,
+  "bridge_assumption_count": 9,
+  "restricted_anchor_theorem": "RTSW-T-VF-H2-001-R",
+  "gdo_strict_witness_existence_proved": true,
+  "gdo_strict_witness_existence_scope": "conditional_under_explicit_bridge_assumptions",
+  "generalized_strict_witness_without_assumptions_proved": false,
+  "unrestricted_strict_witness_existence_proved": false,
+  "gdo_t_vf_h2_001_r_remains_scoped_conditional_pending_integration": true,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "draft_vf_h2_gdo_strict_witness_bridge_integration_plan_no_claim_validation"
+}
