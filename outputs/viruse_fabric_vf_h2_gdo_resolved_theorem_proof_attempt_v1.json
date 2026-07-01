@@ -1,0 +1,26 @@
+{
+  "action_id": "execute_vf_h2_gdo_resolved_theorem_proof_attempt_no_claim_validation",
+  "source_head": "cf952cf",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "theorem_id": "GDO-T-VF-H2-001-R",
+  "theorem_proved": true,
+  "theorem_type": "scoped_conditional_generalized_ordered_domain_toy_theorem",
+  "conclusion": "ledger_effect_size > 0",
+  "required_lemmas_used": [
+    "GDO-L-VF-H2-001",
+    "GDO-L-VF-H2-002",
+    "GDO-L-VF-H2-003",
+    "GDO-L-VF-H2-004",
+    "GDO-L-VF-H2-005"
+  ],
+  "required_lemma_count": 5,
+  "prior_restricted_anchor": "TTP-VF-H2-004-R",
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "literature_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "audit_vf_h2_gdo_resolved_theorem_proof_attempt_no_claim_validation"
+}
