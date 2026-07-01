@@ -1,0 +1,18 @@
+{
+  "action_id": "audit_vf_h2_evidence_review_summary_no_claim_validation",
+  "audited_source_head": "4af0db1",
+  "audit_passed": true,
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "candidate_file_count": 45,
+  "boundary_evidence_candidate_count": 34,
+  "boundary_safety_review_count": 11,
+  "strong_direct_validation_candidate_count": 0,
+  "new_experiments_run": false,
+  "empirical_validation_claimed": false,
+  "biological_validation_claimed": false,
+  "full_theory_proved": false,
+  "manuscript_ready_claimed": false,
+  "submission_ready_claimed": false,
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "next_allowed_action": "manual_inspect_vf_h2_boundary_evidence_candidates_no_claim_validation"
+}
