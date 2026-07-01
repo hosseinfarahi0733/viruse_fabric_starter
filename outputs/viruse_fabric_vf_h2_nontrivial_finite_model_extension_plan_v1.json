@@ -1,0 +1,31 @@
+{
+  "action_id": "draft_vf_h2_nontrivial_finite_model_extension_plan_no_claim_validation",
+  "source_head": "7699f59",
+  "scope": "safe_abstract_finite_toy_vf_h2_only",
+  "target_theorem": "NTFM-T-VF-H2-001-R",
+  "target_theorem_proved": false,
+  "model_candidate": {
+    "D": "{0,1,2}",
+    "order": "0 <= 1 <= 2",
+    "M": {
+      "0": 1,
+      "1": 2,
+      "2": 2
+    },
+    "A": "identity",
+    "G": "identity",
+    "E": "identity",
+    "Q": "identity"
+  },
+  "expected_strict_witness_states": [0, 1],
+  "expected_strict_witness_count": 2,
+  "saturated_nonstrict_state": 2,
+  "generalized_theorem_without_assumptions_proved": false,
+  "original_unrestricted_ttp_vf_h2_004_proved": false,
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "manuscript_ready": false,
+  "submission_ready": false,
+  "next_allowed_action": "execute_vf_h2_nontrivial_finite_model_extension_proof_attempt_no_claim_validation"
+}
