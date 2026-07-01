@@ -1,0 +1,26 @@
+{
+  "action_id": "classify_vf_h2_existing_experiments_against_claim_ladder_no_claim_validation",
+  "source_head": "6753edd",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "experiment_script_count": 334,
+  "bucket_counts": {
+    "IRRELEVANT_OR_UNUSABLE": 289,
+    "TESTS_BOUNDARY": 36,
+    "SENSITIVITY_CHECK": 3,
+    "SUPPORTS_ASSUMPTIONS": 2,
+    "SUPPORTS_CLAIM_B": 2,
+    "ROBUSTNESS_CHECK": 2
+  },
+  "claim_counts": {
+    "none": 289,
+    "CLAIM-VF-H2-C-or-D": 36,
+    "CLAIM-VF-H2-B": 7,
+    "CLAIM-VF-H2-A": 2
+  },
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "new_experiments_run": false,
+  "classification_method": "filename_heuristic_v1_manual_review_required",
+  "next_allowed_action": "audit_vf_h2_existing_experiment_classification_no_claim_validation"
+}
