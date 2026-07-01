@@ -1,0 +1,20 @@
+{
+  "action_id": "draft_vf_h2_generalized_order_domain_theorem_gap_analysis_no_claim_validation",
+  "source_head": "0fbaf68",
+  "scope": "safe_abstract_toy_vf_h2_only",
+  "proved_anchor": "TTP-VF-H2-004-R",
+  "candidate_generalized_theorem_proved": false,
+  "generalized_theorem_ready_for_proof_attempt": false,
+  "gap_count": 5,
+  "open_gaps": [
+    "GDO-GAP-001-strict-witness-assumed-not-derived",
+    "GDO-GAP-002-monotonicity-transfer-not-proved",
+    "GDO-GAP-003-positivity-preservation-assumed",
+    "GDO-GAP-004-non-emptiness-not-shown",
+    "GDO-GAP-005-coordinatewise-proof-does-not-automatically-lift"
+  ],
+  "full_theory_proved": false,
+  "empirical_validation": false,
+  "biological_validation": false,
+  "next_allowed_action": "draft_vf_h2_gdo_gap_resolution_plan_no_claim_validation"
+}
