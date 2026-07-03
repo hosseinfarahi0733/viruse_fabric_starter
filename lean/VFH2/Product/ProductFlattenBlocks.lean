@@ -22,7 +22,8 @@ The first time layer is flattened into the first block `[0, d)`.
 -/
 theorem flatten_t1_lt_d {d : Nat} (s : SpaceIndex d) :
     (flatten (TimeLayer.t1, s)).val < d := by
-  simpa using s.isLt
+  rw [flatten_t1_val]
+  exact s.isLt
 
 /--
 The second time layer is flattened into the second block `[d, 2*d)`.
