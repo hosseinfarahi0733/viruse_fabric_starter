@@ -1,0 +1,24 @@
+{
+  "milestone": "v11.9.0",
+  "kind": "restricted_scaffold_audit_and_theorem_inventory",
+  "generated_at": "2026-07-04T23:20:06+03:30",
+  "base_tag": "v11.8.0",
+  "base_head_short": "03e40d7",
+  "base_head_full": "03e40d7eb8342b4c3f54374e152fc46578a74123",
+  "expected_base_short": "03e40d7",
+  "lake_build_before_audit": "passed",
+  "forbidden_marker_scan_product_typed": "clean",
+  "outputs": [
+    "outputs/v11_9_restricted_scaffold_audit.md",
+    "outputs/v11_9_theorem_inventory.txt",
+    "outputs/v11_9_transport_ladder_manifest.json"
+  ],
+  "safe_claim": "Lean-machine-checked restricted Product/Typed transport ladder certificate and manuscript-safe theorem inventory for the current restricted VF-H2 scaffold",
+  "unsupported_claims": [
+    "full_VF_H2_theory",
+    "unrestricted_theorem",
+    "empirical_validation",
+    "biological_validation",
+    "complete_full_theory_manuscript_readiness"
+  ]
+}

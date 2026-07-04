@@ -1,0 +1,51 @@
+VFH2.ProductIndex.flattenEquiv (d : Nat) : VFH2.ProductIndex.ProductWidthIndexEquiv d
+VFH2.ProductStateTransport.typedToProduct_productToTyped {n d : Nat} (x : VFH2.ProductTypedState n d) :
+  VFH2.ProductStateTransport.typedToProduct (VFH2.ProductStateTransport.productToTyped x) = x
+VFH2.ProductStateTransport.productToTyped_typedToProduct {n d : Nat} (x : VFH2.Typed.TypedState n d) :
+  VFH2.ProductStateTransport.productToTyped (VFH2.ProductStateTransport.typedToProduct x) = x
+VFH2.ProductParamsTransport.flatten_mem_typed_active_iff_mem_product_active {p : VFH2.ProductRestrictedParams}
+  {i : VFH2.ProductIndex p.d} : i.flatten ∈ (VFH2.ProductParamsTransport.typedParamsOfProduct p).active ↔ i ∈ p.active
+VFH2.ProductLedgerTypedValuesDecomposition.ledgerEquivalenceTarget (p : VFH2.ProductRestrictedParams) (x : p.State) :
+  VFH2.ProductLedgerEquivalenceTarget.ledgerEquivalenceTarget p x
+VFH2.ProductUpdateTransport.productToTyped_productUpdateState_eq_typedUpdateState (p : VFH2.ProductRestrictedParams)
+  (x : p.State) :
+  VFH2.ProductStateTransport.productToTyped (VFH2.productUpdateState p x) =
+    VFH2.Typed.typedUpdateState (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+      (VFH2.ProductStateTransport.productToTyped x)
+VFH2.ProductLedgerEffectTransport.typedLedgerEffect_eq_productLedgerEffect (p : VFH2.ProductRestrictedParams)
+  (x : p.State) :
+  VFH2.Typed.typedLedgerEffect (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+      (VFH2.ProductStateTransport.productToTyped x) =
+    VFH2.productLedgerEffect p x
+VFH2.ProductFixedSetTransport.typedFixedSet_iff_productFixedSet (p : VFH2.ProductRestrictedParams) (x : p.State) :
+  VFH2.Typed.TypedFixedSet (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+      (VFH2.ProductStateTransport.productToTyped x) ↔
+    VFH2.ProductFixedSet p x
+VFH2.ProductBridgeTransport.typedRestrictedBridgeTarget_iff_productRestrictedBridgeTarget
+  (p : VFH2.ProductRestrictedParams) (x : p.State) :
+  VFH2.Typed.typedRestrictedBridgeTarget (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+      (VFH2.ProductStateTransport.productToTyped x) ↔
+    VFH2.productRestrictedBridgeTarget p x
+VFH2.ProductTransportLadderCertificate.transportLadder_certificate (p : VFH2.ProductRestrictedParams) (x : p.State) :
+  (∀ (w : VFH2.Typed.WidthIndex p.d),
+      w ∈ (VFH2.ProductParamsTransport.typedParamsOfProduct p).active ↔ VFH2.ProductIndex.unflatten w ∈ p.active) ∧
+    VFH2.ProductStateTransport.productToTyped (VFH2.productUpdateState p x) =
+        VFH2.Typed.typedUpdateState (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+          (VFH2.ProductStateTransport.productToTyped x) ∧
+      VFH2.Typed.typedLedger (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+            (VFH2.ProductStateTransport.productToTyped x) =
+          VFH2.productLedger p x ∧
+        VFH2.Typed.typedLedgerEffect (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+              (VFH2.ProductStateTransport.productToTyped x) =
+            VFH2.productLedgerEffect p x ∧
+          (VFH2.Typed.TypedFixedSet (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+                (VFH2.ProductStateTransport.productToTyped x) ↔
+              VFH2.ProductFixedSet p x) ∧
+            (VFH2.Typed.typedRestrictedBridgeTarget (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+                (VFH2.ProductStateTransport.productToTyped x) ↔
+              VFH2.productRestrictedBridgeTarget p x)
+VFH2.ProductTransportLadderCertificate.productBridge_certificate_component (p : VFH2.ProductRestrictedParams)
+  (x : p.State) :
+  VFH2.productRestrictedBridgeTarget p x ↔
+    VFH2.Typed.typedRestrictedBridgeTarget (VFH2.ProductParamsTransport.typedParamsOfProduct p)
+      (VFH2.ProductStateTransport.productToTyped x)
