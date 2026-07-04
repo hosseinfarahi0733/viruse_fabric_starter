@@ -31,3 +31,4 @@ import VFH2.Product.ProductTransportLadderCertificate
 import VFH2.Product.ProductActiveSetGeneralization
 import VFH2.Product.ProductPointwiseTransportGeneralization
 import VFH2.Product.ProductFixedSetGeneralization
+import VFH2.Product.ProductUpdateGeneralization
