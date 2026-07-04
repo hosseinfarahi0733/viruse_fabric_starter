@@ -10,6 +10,7 @@ import VFH2.Product.ProductState
 import VFH2.Product.ProductStateTransport
 import VFH2.Product.ProductUpdateTransport
 import VFH2.Product.ProductLedgerEffectTransport
+import VFH2.Product.ProductFixedSetTransport
 import VFH2.Product.ProductParams
 import VFH2.Product.ProductParamsTransport
 import VFH2.Product.ProductFixedSet
