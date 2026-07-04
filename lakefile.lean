@@ -69,6 +69,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductConditionBridgeGeneralization,
     `VFH2.Product.ProductEffectConditionBridgeGeneralization,
     `VFH2.Product.ProductRestrictedEffectConditionBridgeRecovery,
+    `VFH2.Product.ProductBridgeAssemblyCertificate,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductParamsTransport,
     `VFH2.Product.ProductFixedSet,
