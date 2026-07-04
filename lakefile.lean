@@ -64,6 +64,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductFixedSetGeneralization,
     `VFH2.Product.ProductUpdateGeneralization,
     `VFH2.Product.ProductEffectTransportGeneralization,
+    `VFH2.Product.ProductBridgeGeneralization,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductParamsTransport,
     `VFH2.Product.ProductFixedSet,
