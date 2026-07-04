@@ -19,6 +19,7 @@ import VFH2.Product.ProductLedgerEquivalenceTarget
 import VFH2.Product.ProductLedgerTypedBlocks
 import VFH2.Product.ProductLedgerTypedValuesLength
 import VFH2.Product.ProductLedgerTypedValuesGetElem
+import VFH2.Product.ProductLedgerTypedValuesDecomposition
 import VFH2.Product.ProductFixedZero
 import VFH2.Product.ProductPositiveLedger
 import VFH2.Product.ProductRestrictedBridge

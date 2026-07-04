@@ -65,6 +65,9 @@ lean_lib VFH2 where
     `VFH2.Product.ProductLedgerTypedValuesLength,
 
     `VFH2.Product.ProductLedgerTypedValuesGetElem,
+
+
+    `VFH2.Product.ProductLedgerTypedValuesDecomposition,
     `VFH2.Product.ProductFixedZero,
     `VFH2.Product.ProductPositiveLedger,
     `VFH2.Product.ProductRestrictedBridge
