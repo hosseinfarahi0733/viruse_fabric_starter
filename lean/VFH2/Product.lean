@@ -41,3 +41,4 @@ import VFH2.Product.ProductRestrictedEffectConditionBridgeRecovery
 import VFH2.Product.ProductBridgeAssemblyCertificate
 import VFH2.Product.ProductEffectBoundBridgeSpecialization
 import VFH2.Product.ProductEffectBoundBridgeCertificate
+import VFH2.Product.ProductEffectBoundConditionMonotonicity
