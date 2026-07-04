@@ -28,3 +28,4 @@ import VFH2.Product.ProductFixedZero
 import VFH2.Product.ProductPositiveLedger
 import VFH2.Product.ProductRestrictedBridge
 import VFH2.Product.ProductTransportLadderCertificate
+import VFH2.Product.ProductActiveSetGeneralization
