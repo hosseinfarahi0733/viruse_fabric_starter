@@ -50,6 +50,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductFlattenInjective,
     `VFH2.Product.ProductFlattenFullInjective,
     `VFH2.Product.ProductFlattenEquiv,
+    `VFH2.Product.ProductUnflattenBlocks,
     `VFH2.Product.ProductState,
     `VFH2.Product.ProductStateTransport,
     `VFH2.Product.ProductParams,

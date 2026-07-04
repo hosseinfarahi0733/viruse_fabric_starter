@@ -5,6 +5,7 @@ import VFH2.Product.ProductFlattenBlocks
 import VFH2.Product.ProductFlattenInjective
 import VFH2.Product.ProductFlattenFullInjective
 import VFH2.Product.ProductFlattenEquiv
+import VFH2.Product.ProductUnflattenBlocks
 import VFH2.Product.ProductState
 import VFH2.Product.ProductStateTransport
 import VFH2.Product.ProductParams
