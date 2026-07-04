@@ -110,7 +110,7 @@ theorem generalizedTransportLadder_certificate
       ProductEffectTransportGeneralization.genericEffect_transport
         transport productUpdate typedUpdate productScore typedScore
         y hUpdate hBase hUpdated
-  · intro typedFixed productFixed typedCondition productCondition hFixed hCondition
+  · intro hFixed hCondition
     exact
       ProductBridgeGeneralization.genericBridgeTarget_transport
         hFixed hCondition
