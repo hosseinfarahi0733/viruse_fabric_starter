@@ -14,6 +14,7 @@ import VFH2.Product.ProductUpdate
 import VFH2.Product.ProductNonfixedIncrease
 import VFH2.Product.ProductLedger
 import VFH2.Product.ProductLedgerTransport
+import VFH2.Product.ProductLedgerEquivalenceTarget
 import VFH2.Product.ProductFixedZero
 import VFH2.Product.ProductPositiveLedger
 import VFH2.Product.ProductRestrictedBridge

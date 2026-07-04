@@ -59,6 +59,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductNonfixedIncrease,
     `VFH2.Product.ProductLedger,
     `VFH2.Product.ProductLedgerTransport,
+    `VFH2.Product.ProductLedgerEquivalenceTarget,
     `VFH2.Product.ProductFixedZero,
     `VFH2.Product.ProductPositiveLedger,
     `VFH2.Product.ProductRestrictedBridge
