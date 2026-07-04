@@ -1,0 +1,185 @@
+{
+  "milestone": "v13.0.0",
+  "type": "manuscript_claim_boundary_and_contribution_statement",
+  "created_utc": "2026-07-04T21:16:44.486406+00:00",
+  "branch": "master",
+  "head": "912f915dd0d339f8430389fc73cb6b66cd18e6a1",
+  "short_head": "912f915",
+  "baseline_build": "passed",
+  "surface_check": "passed",
+  "theorem_to_claim_mapping": [
+    {
+      "claim_id": "C1",
+      "paper_claim": "A ProductIndex active set can be transported to Typed.WidthIndex and back through flatten/unflatten membership equivalence.",
+      "formal_support": [
+        "VFH2.ProductActiveSetGeneralization.mem_map_flatten_iff_unflatten_mem",
+        "VFH2.ProductActiveSetGeneralization.restricted_mem_typed_active_iff_unflatten_mem"
+      ],
+      "scope": "arbitrary ProductIndex active lists plus restricted-parameter instance",
+      "safe_wording": "generalized active-set membership transport",
+      "unsafe_wording": "full semantic equivalence of all VF-H2 active sets"
+    },
+    {
+      "claim_id": "C2",
+      "paper_claim": "Pointwise predicates over product indices and typed width indices are transportable through the ProductIndex/Typed.WidthIndex equivalence.",
+      "formal_support": [
+        "VFH2.ProductPointwiseTransportGeneralization.forall_width_iff_forall_product",
+        "VFH2.ProductPointwiseTransportGeneralization.forall_width_mem_map_iff_forall_product_mem"
+      ],
+      "scope": "pointwise predicates and active-list restricted predicate transport",
+      "safe_wording": "generalized pointwise predicate transport",
+      "unsafe_wording": "all higher-order semantic properties are transported"
+    },
+    {
+      "claim_id": "C3",
+      "paper_claim": "Fixed-set conditions are preserved under Product/Typed transport for arbitrary ProductIndex active lists.",
+      "formal_support": [
+        "VFH2.ProductFixedSetGeneralization.generalized_fixedSet_transport",
+        "VFH2.ProductFixedSetGeneralization.restricted_fixedSet_transport_from_general"
+      ],
+      "scope": "fixed-set condition used by current ProductTypedState scaffold",
+      "safe_wording": "generalized fixed-set transport",
+      "unsafe_wording": "all fixed-point or equilibrium notions are verified"
+    },
+    {
+      "claim_id": "C4",
+      "paper_claim": "The active-update operation commutes with Product-to-Typed transport for arbitrary ProductIndex active lists.",
+      "formal_support": [
+        "VFH2.ProductUpdateGeneralization.productToTyped_generalizedProductUpdateState_eq_generalizedTypedUpdateState",
+        "VFH2.ProductUpdateGeneralization.restricted_update_transport_from_general"
+      ],
+      "scope": "active-update operation setting active coordinates to top in the current scaffold",
+      "safe_wording": "generalized active-update transport",
+      "unsafe_wording": "all VF-H2 dynamics commute under representation transport"
+    },
+    {
+      "claim_id": "C5",
+      "paper_claim": "A generic update-effect expression is transported when update commutation and score preservation hypotheses are available.",
+      "formal_support": [
+        "VFH2.ProductEffectTransportGeneralization.genericEffect_transport",
+        "VFH2.ProductEffectTransportGeneralization.restricted_ledgerEffect_transport_instance"
+      ],
+      "scope": "generic effect pattern and restricted ledger-effect instance",
+      "safe_wording": "generic effect-transport theorem",
+      "unsafe_wording": "all causal effects or biological effects are verified"
+    },
+    {
+      "claim_id": "C6",
+      "paper_claim": "Conjunction-shaped bridge targets are transported when their fixed and condition components are transported componentwise.",
+      "formal_support": [
+        "VFH2.ProductBridgeGeneralization.genericBridgeTarget_transport",
+        "VFH2.ProductBridgeGeneralization.restricted_bridgeTarget_transport_instance"
+      ],
+      "scope": "generic conjunction-shaped bridge targets and restricted bridge target instance",
+      "safe_wording": "generic bridge-target transport theorem",
+      "unsafe_wording": "unrestricted VF-H2 bridge theorem"
+    },
+    {
+      "claim_id": "C7",
+      "paper_claim": "The v12 generalized transport ladder certificate collects the verified transport layers into a single Lean-checked certificate.",
+      "formal_support": [
+        "VFH2.ProductGeneralizedTransportCertificate.generalizedTransportLadder_certificate",
+        "VFH2.ProductGeneralizedTransportCertificate.restrictedTransportInstance_certificate"
+      ],
+      "scope": "certificate collecting v12 generalized transport layers; clean build at v12.7.2",
+      "safe_wording": "generalized transport ladder certificate",
+      "unsafe_wording": "complete formal verification of the full VF-H2 theory"
+    }
+  ],
+  "recommended_title": "A Lean-Checked Transport Layer for Representation Consistency in a Restricted VF-H2 Scaffold",
+  "recommended_short_title": "Lean-Checked Transport for a Restricted VF-H2 Scaffold",
+  "contribution_statement": "The contribution is a Lean-machine-checked representation-transport layer, not a full VF-H2 proof. It establishes that the current restricted scaffold preserves selected structures and operations when moving between product-structured and typed representations, and it records these results in a generalized transport certificate.",
+  "claim_boundary": {
+    "allowed": [
+      "Lean-machine-checked transport layer for a restricted VF-H2 scaffold",
+      "generalized active-set membership transport",
+      "generalized pointwise predicate transport",
+      "generalized fixed-set transport",
+      "generalized active-update transport",
+      "generic effect-transport theorem under explicit hypotheses",
+      "generic bridge-target transport for conjunction-shaped bridge targets",
+      "clean generalized transport certificate at v12.7.2",
+      "manuscript-safe theorem inventory at v12.9.0"
+    ],
+    "forbidden": [
+      "full VF-H2 theory proven",
+      "unrestricted VF-H2 theorem proven",
+      "complete causal theory validated",
+      "biological validation",
+      "empirical validation",
+      "clinical or real-world validation",
+      "manuscript-ready full theory",
+      "clean theorem-bearing status for v12.7.0 or v12.7.1"
+    ]
+  },
+  "tag_notes": {
+    "v12.7.0": "build-failing, non-release-bearing",
+    "v12.7.1": "build-failing, non-release-bearing",
+    "v12.7.2": "clean release-bearing generalized certificate",
+    "v12.8.0": "release-correction audit",
+    "v12.9.0": "manuscript-safe theorem inventory"
+  },
+  "tag_commits": {
+    "v11.0.0": {
+      "peeled_commit": "a2de5ccbed7fac8eb56d216432a3912c27f0323a",
+      "short_peeled_commit": "a2de5cc"
+    },
+    "v11.8.0": {
+      "peeled_commit": "03e40d7eb8342b4c3f54374e152fc46578a74123",
+      "short_peeled_commit": "03e40d7"
+    },
+    "v11.9.0": {
+      "peeled_commit": "8a55c3765ad6bfd0a516bb96e3ffdf48562cb2fc",
+      "short_peeled_commit": "8a55c37"
+    },
+    "v12.1.0": {
+      "peeled_commit": "88fbe7e1bae040bc51b876ab90c12666247ea5e6",
+      "short_peeled_commit": "88fbe7e"
+    },
+    "v12.2.0": {
+      "peeled_commit": "7e575101145be1df8adea3ff45cf96fe901ef5c9",
+      "short_peeled_commit": "7e57510"
+    },
+    "v12.3.0": {
+      "peeled_commit": "2669641964db08d1ed7e05d02a9926e7efd2c601",
+      "short_peeled_commit": "2669641"
+    },
+    "v12.4.0": {
+      "peeled_commit": "f7a33fdafb8f734735e962f770f53803c4be2c80",
+      "short_peeled_commit": "f7a33fd"
+    },
+    "v12.5.0": {
+      "peeled_commit": "b53158af402a9c842fbb85699c627b4b498a5b26",
+      "short_peeled_commit": "b53158a"
+    },
+    "v12.6.0": {
+      "peeled_commit": "5de3a9d530d56e148c19d7fb47a901699ae1debd",
+      "short_peeled_commit": "5de3a9d"
+    },
+    "v12.7.0": {
+      "peeled_commit": "f737dec4cf009be5446b74fa77936f89b6afd8cc",
+      "short_peeled_commit": "f737dec"
+    },
+    "v12.7.1": {
+      "peeled_commit": "9b954548114e3a81d8c135cecc360b7a166fcb5b",
+      "short_peeled_commit": "9b95454"
+    },
+    "v12.7.2": {
+      "peeled_commit": "94b265ad86e138a05ee5e0dfb93c09876d6bd610",
+      "short_peeled_commit": "94b265a"
+    },
+    "v12.8.0": {
+      "peeled_commit": "824de8e89e1ad784f86ebee421c7c9c854d09344",
+      "short_peeled_commit": "824de8e"
+    },
+    "v12.9.0": {
+      "peeled_commit": "912f915dd0d339f8430389fc73cb6b66cd18e6a1",
+      "short_peeled_commit": "912f915"
+    }
+  },
+  "abstract_variants": {
+    "technical_note": "We present a Lean-machine-checked transport layer for a restricted VF-H2 computational scaffold. The formalization relates product-structured and typed representations through active-set membership, pointwise predicates, fixed-set conditions, active-update operations, generic update effects, and conjunction-shaped bridge targets. The main contribution is a generalized transport ladder certificate that collects these representation-consistency results in Lean. The result is a formal consistency scaffold rather than a proof of the full VF-H2 theory or an empirical/biological validation.",
+    "formal_methods": "This work develops a Lean-verified representation-transport framework for a restricted VF-H2 scaffold. We prove generalized transport theorems for active sets, pointwise predicates, fixed-set conditions, active updates, generic effect terms, and bridge-target components between product-structured and typed representations. A final certificate theorem records the verified ladder of transport results. The formal contribution is limited to representation consistency within the stated scaffold and does not claim unrestricted VF-H2 correctness or empirical validation.",
+    "very_conservative": "We formalize and verify a restricted representation-consistency layer for VF-H2 in Lean. The development proves that selected active-set, predicate, fixed-set, update, effect, and bridge-target constructions are preserved between product-structured and typed encodings. These results support a machine-checked scaffold for later extensions, while leaving unrestricted theory, empirical validation, and biological interpretation outside the present claim boundary."
+  }
+}
