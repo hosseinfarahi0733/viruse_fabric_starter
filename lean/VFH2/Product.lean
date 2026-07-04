@@ -6,6 +6,7 @@ import VFH2.Product.ProductFlattenInjective
 import VFH2.Product.ProductFlattenFullInjective
 import VFH2.Product.ProductFlattenEquiv
 import VFH2.Product.ProductState
+import VFH2.Product.ProductStateTransport
 import VFH2.Product.ProductParams
 import VFH2.Product.ProductFixedSet
 import VFH2.Product.ProductUpdate
