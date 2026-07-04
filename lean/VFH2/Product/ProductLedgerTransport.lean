@@ -125,6 +125,35 @@ theorem productLedgerValues_eq_productToTyped_flatten_blocks
   rw [← productToTyped_flatten_t2_values_eq_productLedgerValuesAtTime p x]
   rw [← productToTyped_flatten_t3_values_eq_productLedgerValuesAtTime p x]
 
+/--
+The product ledger is the fold-sum of the three transported flattened
+typed-state blocks.
+
+This is still not the full typed/product ledger equality, because it does
+not yet decompose `Typed.typedLedgerValues` over `WidthIndex d`.
+-/
+theorem productLedger_eq_productToTyped_flatten_block_fold
+    (p : ProductRestrictedParams)
+    (x : p.State) :
+    productLedger p x =
+      (List.ofFn
+        (fun s : SpaceIndex p.d =>
+          (ProductStateTransport.productToTyped x
+              (ProductIndex.flatten (TimeLayer.t1, s))).val)
+      ++
+      List.ofFn
+        (fun s : SpaceIndex p.d =>
+          (ProductStateTransport.productToTyped x
+              (ProductIndex.flatten (TimeLayer.t2, s))).val)
+      ++
+      List.ofFn
+        (fun s : SpaceIndex p.d =>
+          (ProductStateTransport.productToTyped x
+              (ProductIndex.flatten (TimeLayer.t3, s))).val)).foldl
+        (fun acc a => acc + a) 0 := by
+  rw [productLedger_def]
+  rw [productLedgerValues_eq_productToTyped_flatten_blocks]
+
 end ProductLedgerTransport
 
 end VFH2
