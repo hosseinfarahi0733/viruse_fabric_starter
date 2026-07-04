@@ -63,14 +63,35 @@ structure GeneralizedTransportLadderCertificate
       ProductEffectTransportGeneralization.genericEffect
           productUpdate productScore y
   bridgePattern :
-    ∀ {typedFixed productFixed typedCondition productCondition : Prop},
+    ∀ (typedFixed productFixed typedCondition productCondition : Prop),
       (typedFixed ↔ productFixed) →
       (typedCondition ↔ productCondition) →
+      (
+        ProductBridgeGeneralization.genericBridgeTarget
+            typedFixed typedCondition
+          ↔
+        ProductBridgeGeneralization.genericBridgeTarget
+            productFixed productCondition
+      )
+
+/--
+Bridge-pattern component kept outside the main record literal to avoid
+elaboration ambiguity around proposition binders.
+-/
+theorem bridgePattern_certificate_component
+    (typedFixed productFixed typedCondition productCondition : Prop)
+    (hFixed : typedFixed ↔ productFixed)
+    (hCondition : typedCondition ↔ productCondition) :
+    (
       ProductBridgeGeneralization.genericBridgeTarget
           typedFixed typedCondition
         ↔
       ProductBridgeGeneralization.genericBridgeTarget
           productFixed productCondition
+    ) := by
+  exact
+    ProductBridgeGeneralization.genericBridgeTarget_transport
+      hFixed hCondition
 
 /--
 Main v12 generalized transport ladder certificate theorem.
@@ -81,39 +102,32 @@ theorem generalizedTransportLadder_certificate
     (x : ProductTypedState n d)
     (P : ProductIndex d → Prop) :
     GeneralizedTransportLadderCertificate active x P := by
-  refine {
-    activeSet := ?_,
-    pointwise := ?_,
-    activePointwise := ?_,
-    fixedSet := ?_,
-    updateTransport := ?_,
-    effectPattern := ?_,
-    bridgePattern := ?_
-  }
-  · intro w
-    exact
-      ProductActiveSetGeneralization.mem_map_flatten_iff_unflatten_mem
-        active w
-  · exact
-      ProductPointwiseTransportGeneralization.forall_width_iff_forall_product P
-  · exact
+  exact {
+    activeSet := by
+      intro w
+      exact
+        ProductActiveSetGeneralization.mem_map_flatten_iff_unflatten_mem
+          active w,
+    pointwise :=
+      ProductPointwiseTransportGeneralization.forall_width_iff_forall_product P,
+    activePointwise :=
       ProductPointwiseTransportGeneralization.forall_width_mem_map_iff_forall_product_mem
-        active P
-  · exact
-      ProductFixedSetGeneralization.generalized_fixedSet_transport active x
-  · exact
+        active P,
+    fixedSet :=
+      ProductFixedSetGeneralization.generalized_fixedSet_transport active x,
+    updateTransport :=
       ProductUpdateGeneralization.productToTyped_generalizedProductUpdateState_eq_generalizedTypedUpdateState
-        active x
-  · intro PState TState transport productUpdate typedUpdate productScore typedScore y
-      hUpdate hBase hUpdated
-    exact
-      ProductEffectTransportGeneralization.genericEffect_transport
-        transport productUpdate typedUpdate productScore typedScore
-        y hUpdate hBase hUpdated
-  · intro hFixed hCondition
-    exact
-      ProductBridgeGeneralization.genericBridgeTarget_transport
-        hFixed hCondition
+        active x,
+    effectPattern := by
+      intro PState TState transport productUpdate typedUpdate productScore typedScore y
+        hUpdate hBase hUpdated
+      exact
+        ProductEffectTransportGeneralization.genericEffect_transport
+          transport productUpdate typedUpdate productScore typedScore
+          y hUpdate hBase hUpdated,
+    bridgePattern :=
+      bridgePattern_certificate_component
+  }
 
 /--
 Restricted-instance certificate structure for the current restricted VF-H2
@@ -160,29 +174,25 @@ theorem restrictedTransportInstance_certificate
     (p : ProductRestrictedParams)
     (x : p.State) :
     RestrictedTransportInstanceCertificate p x := by
-  refine {
-    activeSet := ?_,
-    fixedSet := ?_,
-    updateTransport := ?_,
-    ledgerEffect := ?_,
-    bridgeTarget := ?_
-  }
-  · intro w
-    exact
-      ProductActiveSetGeneralization.restricted_mem_typed_active_iff_unflatten_mem
-        p w
-  · exact
+  exact {
+    activeSet := by
+      intro w
+      exact
+        ProductActiveSetGeneralization.restricted_mem_typed_active_iff_unflatten_mem
+          p w,
+    fixedSet :=
       ProductFixedSetGeneralization.restricted_fixedSet_transport_from_general
-        p x
-  · exact
+        p x,
+    updateTransport :=
       ProductUpdateGeneralization.restricted_update_transport_from_general
-        p x
-  · exact
+        p x,
+    ledgerEffect :=
       ProductEffectTransportGeneralization.restricted_ledgerEffect_transport_instance
-        p x
-  · exact
+        p x,
+    bridgeTarget :=
       ProductBridgeGeneralization.restricted_bridgeTarget_transport_instance
         p x
+  }
 
 end ProductGeneralizedTransportCertificate
 
