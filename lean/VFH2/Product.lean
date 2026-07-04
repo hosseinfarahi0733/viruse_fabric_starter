@@ -36,3 +36,4 @@ import VFH2.Product.ProductEffectTransportGeneralization
 import VFH2.Product.ProductBridgeGeneralization
 import VFH2.Product.ProductGeneralizedTransportCertificate
 import VFH2.Product.ProductConditionBridgeGeneralization
+import VFH2.Product.ProductEffectConditionBridgeGeneralization
