@@ -1,0 +1,31 @@
+{
+  "milestone": "v12.0.0",
+  "type": "controlled_generalization_plan",
+  "baseline": {
+    "tag": "v11.9.0",
+    "commit_expected_at_execution": "8a55c37",
+    "certificate_theorem": "VFH2.ProductTransportLadderCertificate.transportLadder_certificate"
+  },
+  "allowed_claims": [
+    "Controlled generalization roadmap beyond the current restricted VF-H2 scaffold",
+    "Gap register for moving from the v11 restricted transport ladder toward future generalized milestones",
+    "Manuscript-safe claim boundary for v12 planning"
+  ],
+  "forbidden_claims": [
+    "Full VF-H2 theory proven",
+    "Unrestricted theorem proven",
+    "Empirical validation proven",
+    "Biological validation proven",
+    "Complete manuscript-ready full theory"
+  ],
+  "recommended_next_milestone": {
+    "tag": "v12.1.0",
+    "title": "Restriction inventory and definition-surface audit",
+    "goal": "Identify the exact Lean definitions and assumptions that make the current VF-H2 scaffold restricted."
+  },
+  "proof_hygiene": {
+    "requires_lake_build": true,
+    "forbidden_markers": ["sorry", "admit", "axiom", "unsafe"],
+    "claim_inflation_allowed": false
+  }
+}
