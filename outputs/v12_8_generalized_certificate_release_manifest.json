@@ -1,0 +1,53 @@
+{
+  "milestone": "v12.8.0",
+  "type": "release_correction_audit_and_manifest",
+  "created_utc": "2026-07-04T21:08:59.323338+00:00",
+  "branch": "master",
+  "head": "94b265ad86e138a05ee5e0dfb93c09876d6bd610",
+  "short_head": "94b265a",
+  "baseline_clean_release": {
+    "tag": "v12.7.2",
+    "commit": "94b265ad86e138a05ee5e0dfb93c09876d6bd610",
+    "short_commit": "94b265a",
+    "lake_build_status_at_v12_8_start": "passed"
+  },
+  "tag_correction_record": [
+    {
+      "tag": "v12.7.0",
+      "commit": "f737dec4cf009be5446b74fa77936f89b6afd8cc",
+      "status": "build_failing_attempt",
+      "release_bearing": false,
+      "note": "Do not attach theorem/release claims to this tag."
+    },
+    {
+      "tag": "v12.7.1",
+      "commit": "9b954548114e3a81d8c135cecc360b7a166fcb5b",
+      "status": "build_failing_attempt",
+      "release_bearing": false,
+      "note": "Do not attach theorem/release claims to this tag."
+    },
+    {
+      "tag": "v12.7.2",
+      "commit": "94b265ad86e138a05ee5e0dfb93c09876d6bd610",
+      "status": "clean_build_release",
+      "release_bearing": true,
+      "note": "First clean build for the generalized transport certificate."
+    }
+  ],
+  "tag_policy": {
+    "moved_tags": false,
+    "force_pushed_tags": false,
+    "correction_method": "new_patch_tag",
+    "clean_milestone_to_cite": "v12.7.2"
+  },
+  "allowed_claim": "v12.7.2 proves a Lean-machine-checked generalized transport ladder certificate collecting active-set membership, pointwise predicate transport, fixed-set generalization, active-update generalization, generic effect transport, and generic bridge-target transport.",
+  "forbidden_claims": [
+    "Full VF-H2 theory proven",
+    "Unrestricted VF-H2 theorem proven",
+    "Empirical validation proven",
+    "Biological validation proven",
+    "Manuscript-ready full theory proven",
+    "The build-failing v12.7.0 or v12.7.1 tags are clean releases"
+  ],
+  "v12_8_claim": "v12.8.0 records a release-correction audit and manifest for the generalized transport certificate, marking v12.7.2 as the clean release-bearing certificate tag and preserving v12.7.0/v12.7.1 as non-release-bearing failed attempts without moving tags."
+}
