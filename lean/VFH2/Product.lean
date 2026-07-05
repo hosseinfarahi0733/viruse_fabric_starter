@@ -55,4 +55,5 @@ import VFH2.Product.ProductRestrictedParamsUpdateScoreTransport
 import VFH2.Product.ProductRestrictedParamsUpdateScoreBound
 import VFH2.Product.ProductRestrictedParamsScoreEffectBinding
 import VFH2.Product.ProductRestrictedParamsScoreWindow
+import VFH2.Product.ProductRestrictedParamsScoreWindowPreservation
 import VFH2.Product.ProductEffectBoundConditionMonotonicity

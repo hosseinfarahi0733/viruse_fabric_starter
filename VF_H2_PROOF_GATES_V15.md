@@ -265,3 +265,33 @@ The theorem may use separate base and updated effects, but the final target must
 ## Rejected shape
 
 The milestone is rejected if the final target still leaves score-level lower/upper bounds separated without a window theorem.
+# VF-H2 Proof Gates v15.6 Addendum
+
+`v15.6.0` introduces the score-window preservation rule.
+
+The new theorem layer must use an existing base score-window target and produce an updated score-window target under raw update-score transport and updated score-effect binding.
+
+## Required direction
+
+The milestone must prove:
+
+```text
+base score-window target
++ raw update-score transport certificate
++ updatedEffect = productScore (productUpdate x)
++ updated strong bridge inputs
+→ base and updated score-window target
+```
+
+## Required final score-level projections
+
+The theorem surface must expose:
+
+```text
+thresholdLo ≤ productScore (productUpdate x)
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+## Rejected shape
+
+The milestone is rejected if it only repacks the v15.5 base-and-updated window theorem without taking a prior base window target as input.
