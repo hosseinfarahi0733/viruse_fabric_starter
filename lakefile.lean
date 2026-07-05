@@ -78,6 +78,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductRestrictedThresholdConditionedBridgeTheorem,
     `VFH2.Product.ProductRestrictedThresholdConditionedBridgeTransport,
     `VFH2.Product.ProductRestrictedThresholdConditionedBridgeRecovery,
+    `VFH2.Product.ProductRestrictedConcreteRecoveryInstantiation,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductParamsTransport,
     `VFH2.Product.ProductFixedSet,
