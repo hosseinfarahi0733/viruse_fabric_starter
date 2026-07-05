@@ -124,3 +124,41 @@ while preserving the restricted params bridge core target.
 ```
 
 Do not claim full VF-H2, unrestricted proof, empirical validation, or biological validation.
+# VF-H2 Proof Gates v15.2 Addendum
+
+`v15.2.0` tightens the update-score rule.
+
+A new theorem layer must not merely preserve a prebuilt alignment object.
+It should expose raw update-score transport equalities in the source/statement.
+
+## Required direction
+
+The theorem layer should mention:
+
+```text
+productUpdate
+productScore
+typedUpdate
+typedScore
+ProductStateTransport.productToTyped x
+ProductStateTransport.productToTyped (productUpdate x)
+RestrictedEffectBoundMonotoneTransportCertificate
+```
+
+## Main accepted shape
+
+```text
+raw update-score transport certificate
++ strong lower/upper bridge inputs
++ thresholdLo ≤ thresholdHi
+→ bridge target
++ preserved raw update-score transport certificate
+```
+
+## Rejected shape
+
+```text
+alignment source → alignment target
+```
+
+if it never exposes raw transport equalities.
