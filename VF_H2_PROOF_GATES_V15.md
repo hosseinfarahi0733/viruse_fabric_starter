@@ -230,3 +230,38 @@ effect
 ```
 
 without moving those bounds to `productScore`.
+# VF-H2 Proof Gates v15.5 Addendum
+
+`v15.5.0` introduces the score-window rule.
+
+The new theorem layer must combine separate score lower/upper bounds into explicit score windows.
+
+## Required direction
+
+The milestone must prove window targets over:
+
+```text
+productScore x
+productScore (productUpdate x)
+```
+
+not merely over:
+
+```text
+effect
+```
+
+## Accepted shape
+
+```text
+thresholdLo ≤ productScore x ∧ productScore x ≤ thresholdHi
+
+thresholdLo ≤ productScore (productUpdate x) ∧
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+The theorem may use separate base and updated effects, but the final target must be score-level.
+
+## Rejected shape
+
+The milestone is rejected if the final target still leaves score-level lower/upper bounds separated without a window theorem.
