@@ -375,3 +375,39 @@ productScore (productUpdate x) ≤ thresholdHi
 The milestone is rejected if the main theorem still asks the caller for a local pointwise preservation hypothesis.
 
 The milestone is also rejected if it reintroduces updated strong bridge inputs or updatedEffect as the main path.
+# VF-H2 Proof Gates v15.9 Addendum
+
+`v15.9.0` introduces the policy end-to-end score-window theorem.
+
+This milestone must consolidate the v15.0-v15.8 proof spine into a citeable, audit-friendly theorem surface.
+
+## Required direction
+
+The milestone must prove an end-to-end restricted theorem from:
+
+```text
+raw typed/product update-score equalities over ProductStateTransport.productToTyped
+baseEffect = productScore x
+base strong bridge inputs
+restrictedParamsScorePreservingUpdatePolicy
+```
+
+to:
+
+```text
+base and updated score-window target
+thresholdLo ≤ productScore (productUpdate x)
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+## Rejected shape
+
+The milestone is rejected if it introduces a new assumption family, returns only a certificate, or reintroduces:
+
+```text
+updatedEffect
+updated strong bridge inputs
+local hScorePreserved
+```
+
+The milestone is allowed to use base strong bridge inputs because v15.9 consolidates the current restricted proof spine rather than claiming the base side has already been discharged.
