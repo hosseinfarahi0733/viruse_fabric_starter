@@ -162,3 +162,27 @@ alignment source → alignment target
 ```
 
 if it never exposes raw transport equalities.
+# VF-H2 Proof Gates v15.3 Addendum
+
+`v15.3.0` introduces the update-score bound rule.
+
+The new theorem layer must derive explicit lower/upper projected bound targets from raw update-score transport equalities.
+
+## Required shape
+
+The main accepted theorem shape is:
+
+```text
+raw update-score equalities
++ strong lower/upper bridge inputs
++ ProductRestrictedParams / p.State
++ productUpdate / productScore / typedUpdate / typedScore / productToTyped
++ thresholdLo ≤ thresholdHi
+→ lower projected bound target
+→ upper projected bound target
+→ restricted certificate projection
+```
+
+## Rejected shape
+
+The milestone is rejected if it only returns a generic bridge target bundle without projection theorems for lower and upper bounds.
