@@ -186,3 +186,47 @@ raw update-score equalities
 ## Rejected shape
 
 The milestone is rejected if it only returns a generic bridge target bundle without projection theorems for lower and upper bounds.
+# VF-H2 Proof Gates v15.4 Addendum
+
+`v15.4.0` introduces the score-effect binding rule.
+
+The new theorem layer must not leave:
+
+```text
+effect : Int
+```
+
+floating without relation to the actual score.
+
+## Required direction
+
+A milestone must consume at least one explicit score-effect binding:
+
+```text
+effect = productScore x
+```
+
+or:
+
+```text
+effect = productScore (productUpdate x)
+```
+
+and produce a bound target over the score itself:
+
+```text
+thresholdLo ≤ productScore x
+productScore x ≤ thresholdHi
+thresholdLo ≤ productScore (productUpdate x)
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+## Rejected shape
+
+The milestone is rejected if it only proves bounds over:
+
+```text
+effect
+```
+
+without moving those bounds to `productScore`.

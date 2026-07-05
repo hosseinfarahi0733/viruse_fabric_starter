@@ -85,6 +85,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductRestrictedParamsUpdateScoreBridge,
     `VFH2.Product.ProductRestrictedParamsUpdateScoreTransport,
     `VFH2.Product.ProductRestrictedParamsUpdateScoreBound,
+    `VFH2.Product.ProductRestrictedParamsScoreEffectBinding,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductParamsTransport,
     `VFH2.Product.ProductFixedSet,

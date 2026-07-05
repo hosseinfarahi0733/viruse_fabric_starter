@@ -53,4 +53,5 @@ import VFH2.Product.ProductRestrictedParamsBridgeCorePivot
 import VFH2.Product.ProductRestrictedParamsUpdateScoreBridge
 import VFH2.Product.ProductRestrictedParamsUpdateScoreTransport
 import VFH2.Product.ProductRestrictedParamsUpdateScoreBound
+import VFH2.Product.ProductRestrictedParamsScoreEffectBinding
 import VFH2.Product.ProductEffectBoundConditionMonotonicity
