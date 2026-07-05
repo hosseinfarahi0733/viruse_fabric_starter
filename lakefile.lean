@@ -75,6 +75,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductEffectBoundConditionMonotonicity,
     `VFH2.Product.ProductEffectBoundBridgeMonotonicity,
     `VFH2.Product.ProductBridgeRelaxationCertificate,
+    `VFH2.Product.ProductRestrictedThresholdConditionedBridgeTheorem,
     `VFH2.Product.ProductParams,
     `VFH2.Product.ProductParamsTransport,
     `VFH2.Product.ProductFixedSet,
