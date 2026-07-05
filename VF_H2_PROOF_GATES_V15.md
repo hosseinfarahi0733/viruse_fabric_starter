@@ -411,3 +411,43 @@ local hScorePreserved
 ```
 
 The milestone is allowed to use base strong bridge inputs because v15.9 consolidates the current restricted proof spine rather than claiming the base side has already been discharged.
+# VF-H2 Proof Gates v16.0 Addendum
+
+`v16.0.0` is a freeze and audit milestone.
+
+It must not claim a new mathematical strengthening over `v15.9.0`.
+
+## Required direction
+
+The milestone must:
+
+```text
+freeze the v15.0-v15.9 restricted proof spine
+identify the citeable theorem surface
+record proven / assumed / not claimed
+record remaining blockers
+provide a Lean-checked freeze surface for stable citation
+```
+
+## Rejected shape
+
+The milestone is rejected if it:
+
+```text
+introduces a new assumption family
+claims full VF-H2
+claims unrestricted proof
+claims empirical or biological validation
+hides remaining assumptions
+```
+
+## Remaining accepted blockers
+
+The only accepted blockers after this freeze are:
+
+```text
+base strong bridge inputs
+restrictedParamsScorePreservingUpdatePolicy
+raw typed/product update-score equalities
+thresholdLo ≤ thresholdHi
+```
