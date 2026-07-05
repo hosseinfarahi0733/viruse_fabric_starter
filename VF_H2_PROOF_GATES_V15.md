@@ -295,3 +295,34 @@ productScore (productUpdate x) ≤ thresholdHi
 ## Rejected shape
 
 The milestone is rejected if it only repacks the v15.5 base-and-updated window theorem without taking a prior base window target as input.
+# VF-H2 Proof Gates v15.7 Addendum
+
+`v15.7.0` introduces the score-preserving update rule.
+
+The new theorem layer must reduce the dependency on updated strong bridge inputs.
+
+## Required direction
+
+The milestone must prove:
+
+```text
+base score-window target
++ raw update-score transport certificate
++ productScore (productUpdate x) = productScore x
+→ base and updated score-window target
+```
+
+## Required final score-level projections
+
+The theorem surface must expose:
+
+```text
+thresholdLo ≤ productScore (productUpdate x)
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+## Rejected shape
+
+The milestone is rejected if it requires updated strong bridge inputs as the main path to updated score-window preservation.
+
+The theorem may still use base strong bridge inputs in the raw-equality entry theorem, because v15.7 specifically reduces the updated side.
