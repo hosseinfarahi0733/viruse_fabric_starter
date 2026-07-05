@@ -451,3 +451,40 @@ restrictedParamsScorePreservingUpdatePolicy
 raw typed/product update-score equalities
 thresholdLo ≤ thresholdHi
 ```
+# VF-H2 Proof Gates v16.1 Addendum
+
+`v16.1.0` is a policy-instantiation milestone.
+
+It must reduce blocker B2 from v16.0.0:
+
+```text
+restrictedParamsScorePreservingUpdatePolicy
+```
+
+## Required direction
+
+The milestone must prove the score-preserving update policy from concrete sufficient conditions.
+
+Accepted sufficient conditions include:
+
+```text
+∀ y : p.State, productUpdate y = y
+```
+
+and:
+
+```text
+score factors through a key, and productUpdate preserves that key
+```
+
+## Rejected shape
+
+The milestone is rejected if it simply takes:
+
+```text
+restrictedParamsScorePreservingUpdatePolicy
+```
+
+as its main theorem assumption and forwards it to the frozen theorem.
+
+The milestone is also rejected if it claims that all product updates preserve score.
