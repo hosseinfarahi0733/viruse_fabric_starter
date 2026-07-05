@@ -81,3 +81,46 @@ ProductRestrictedParams + p.State
 ```
 
 This is not the final VF-H2 theorem, but it forces the chain back toward the restricted product/state layer.
+# VF-H2 Proof Gates v15.1 Addendum
+
+`v15.1.0` tightens the pivot rule.
+
+After `v15.0.0`, a new milestone should preferably move beyond:
+
+```text
+ProductRestrictedParams
+p.State
+```
+
+toward update/score/state transport objects.
+
+## v15.1 accepted direction
+
+The main theorem layer must mention these tokens:
+
+```text
+ProductRestrictedParams
+p.State
+productUpdate
+productScore
+typedUpdate
+typedScore
+productToTyped
+RestrictedEffectBoundMonotoneTransportCertificate
+```
+
+## Rejection rule
+
+A milestone is rejected if it only preserves a bridge target while ignoring update-score alignment.
+
+## Safe claim pattern
+
+Use:
+
+```text
+connects ProductRestrictedParams/p.State with productUpdate/productScore and
+typedUpdate/typedScore alignment over ProductStateTransport.productToTyped,
+while preserving the restricted params bridge core target.
+```
+
+Do not claim full VF-H2, unrestricted proof, empirical validation, or biological validation.
