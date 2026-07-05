@@ -42,4 +42,5 @@ import VFH2.Product.ProductBridgeAssemblyCertificate
 import VFH2.Product.ProductEffectBoundBridgeSpecialization
 import VFH2.Product.ProductEffectBoundBridgeCertificate
 import VFH2.Product.ProductEffectBoundBridgeMonotonicity
+import VFH2.Product.ProductBridgeRelaxationCertificate
 import VFH2.Product.ProductEffectBoundConditionMonotonicity
