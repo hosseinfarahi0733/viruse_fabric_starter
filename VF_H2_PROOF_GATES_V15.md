@@ -326,3 +326,52 @@ productScore (productUpdate x) ≤ thresholdHi
 The milestone is rejected if it requires updated strong bridge inputs as the main path to updated score-window preservation.
 
 The theorem may still use base strong bridge inputs in the raw-equality entry theorem, because v15.7 specifically reduces the updated side.
+# VF-H2 Proof Gates v15.8 Addendum
+
+`v15.8.0` introduces the score-preservation discharge gateway.
+
+The new theorem layer must replace a local pointwise score-preservation assumption with an explicit update policy.
+
+## Required direction
+
+The milestone must define:
+
+```text
+restrictedParamsScorePreservingUpdatePolicy
+```
+
+with the meaning:
+
+```text
+∀ y : p.State, productScore (productUpdate y) = productScore y
+```
+
+and prove that this policy discharges the local pointwise requirement used by v15.7:
+
+```text
+productScore (productUpdate x) = productScore x
+```
+
+## Required final target
+
+The theorem surface must prove:
+
+```text
+base score-window target
++ raw update-score transport certificate
++ restrictedParamsScorePreservingUpdatePolicy
+→ base and updated score-window target
+```
+
+and expose updated score-level projections:
+
+```text
+thresholdLo ≤ productScore (productUpdate x)
+productScore (productUpdate x) ≤ thresholdHi
+```
+
+## Rejected shape
+
+The milestone is rejected if the main theorem still asks the caller for a local pointwise preservation hypothesis.
+
+The milestone is also rejected if it reintroduces updated strong bridge inputs or updatedEffect as the main path.
