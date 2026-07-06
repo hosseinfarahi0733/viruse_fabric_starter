@@ -71,3 +71,34 @@ Consequence:
 ```text
 No new scientific tag for wrapper-only work.
 ```
+
+---
+
+## N5 — C8.2 did not derive pointwise score preservation from domain/update semantics
+
+After C8.1, the score-key condition is classified as equivalent to:
+
+```lean
+∀ y : p.State, productScore (productUpdate y) = productScore y
+```
+
+C8.2 audited the current product-side update/score surfaces and did not find a concrete domain/update semantic layer that derives this pointwise score preservation.
+
+Interpretation:
+
+```text
+Pointwise score preservation remains a fundamental domain/update assumption.
+```
+
+Consequence:
+
+```text
+C8.2 is a negative/classification result, not a new scientific proof milestone.
+```
+
+Forbidden claim:
+
+```text
+Do not claim that score preservation has been derived from domain dynamics.
+```
+

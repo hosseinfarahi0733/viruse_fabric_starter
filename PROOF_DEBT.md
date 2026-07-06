@@ -176,3 +176,34 @@ Priority:
 ```text
 future / outside current formal milestone
 ```
+
+---
+
+## D8 — Derive pointwise score preservation from domain/update semantics
+
+C8.1 classified the score-key condition as equivalent to pointwise score preservation.
+
+C8.2 did not find a current concrete semantic layer deriving:
+
+```lean
+∀ y : p.State, productScore (productUpdate y) = productScore y
+```
+
+Debt:
+
+```text
+Introduce or identify a concrete update/domain semantics from which pointwise score preservation can be derived.
+```
+
+Priority:
+
+```text
+critical
+```
+
+Current status:
+
+```text
+open
+```
+

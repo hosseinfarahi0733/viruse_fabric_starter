@@ -1,0 +1,232 @@
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:34:      productScore (productUpdate x)) : Prop where
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:133:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeCertificate.lean:34:      productScore (productUpdate x)) : Prop where
+lean/VFH2/Product/ProductEffectBoundBridgeCertificate.lean:119:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeCertificate.lean:273:      productScore (productUpdate x))
+lean/VFH2/Product/ProductEffectBoundBridgeCertificate.lean:306:      productScore (productUpdate x))
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:113:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:150:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:187:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:225:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:267:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundBridgeSpecialization.lean:309:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:218:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:261:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:304:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:347:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:493:      productScore (productUpdate x)) : Prop where
+lean/VFH2/Product/ProductEffectBoundConditionMonotonicity.lean:538:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectConditionBridgeGeneralization.lean:58:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectConditionBridgeGeneralization.lean:111:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectConditionBridgeGeneralization.lean:161:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectConditionBridgeGeneralization.lean:208:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectConditionBridgeGeneralization.lean:249:      productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectTransportGeneralization.lean:48:        productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectTransportGeneralization.lean:74:        productScore (productUpdate x)) :
+lean/VFH2/Product/ProductEffectTransportGeneralization.lean:101:        productScore (productUpdate x)) :
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:59:          productScore (productUpdate y) →
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:75:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:124:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:173:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:178:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:220:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:225:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:268:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:317:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:366:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:371:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:413:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:418:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:35:`productScore (productUpdate x) = productScore x`.
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:84:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:88:    productScore (productUpdate x) := by
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:121:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:159:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:194:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:219:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:251:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:289:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:324:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:349:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:32:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:78:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:123:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:133:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:168:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:178:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:40:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:91:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:142:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:189:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:236:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:283:    productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:134:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:171:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:281:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:318:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:15:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:70:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:108:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:146:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:151:    productScore (productUpdate x) = productScore x :=
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:193:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:198:    productScore (productUpdate x) = productScore x :=
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:22:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:27:    productScore (productUpdate x) = productScore x :=
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:55:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:60:    productScore (productUpdate x) = productScore x :=
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:166:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:200:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:22:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:32:      productScore (productUpdate x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:65:      (thresholdLo ≤ productScore (productUpdate x)) ∧
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:67:      (productScore (productUpdate x) ≤ thresholdHi)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:112:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:122:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:213:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:237:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:294:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:304:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:341:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:351:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:359:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:382:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:392:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:400:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:113:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:151:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:266:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:304:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:32:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:84:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:135:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:145:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:186:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:196:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:147:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:179:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:275:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:307:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:112:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:122:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:152:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:162:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:191:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:201:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:209:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:231:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:241:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:249:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:43:      (thresholdLo ≤ productScore (productUpdate x)) ∧
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:45:      (productScore (productUpdate x) ≤ thresholdHi) ∧
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:102:    (hEffectUpdated : effect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:115:      fixed (productScore (productUpdate x)) thresholdLo thresholdHi hThreshold hBound,
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:118:      fixed (productScore (productUpdate x)) thresholdLo thresholdHi hThreshold hBound,
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:121:      fixed (productScore (productUpdate x)) thresholdLo thresholdHi hThreshold hBound,
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:124:      fixed (productScore (productUpdate x)) thresholdLo thresholdHi hThreshold hBound
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:149:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:180:    (hEffectUpdated : effect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:189:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:269:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:291:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:317:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:356:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:386:    (hEffectUpdated : effect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:395:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:403:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:425:    (hEffectUpdated : effect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:434:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:442:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:20:theorem restrictedParams_policyPoint_to_scoreKeyCondition
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:24:    (hPolicyPoint : ∀ y : p.State, productScore (productUpdate y) = productScore y) :
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:40:theorem restrictedParams_scoreKeyCondition_iff_policyPoint
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:45:      (∀ y : p.State, productScore (productUpdate y) = productScore y) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:52:    exact restrictedParams_policyPoint_to_scoreKeyCondition
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:62:theorem restrictedParams_scoreKeyCondition_iff_scorePreservingPolicy
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:67:      VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean:74:    exact restrictedParams_policyPoint_to_scoreKeyCondition
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:7:def restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:11:  ∀ y : p.State, productScore (productUpdate y) = productScore y
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:31:    restrictedParamsScorePreservingUpdatePolicy p productUpdate productScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:56:      restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:58:    productScore (productUpdate x) = productScore x := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:59:  unfold restrictedParamsScorePreservingUpdatePolicy at hPolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:140:      restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:165:      restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:175:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:261:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:285:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:306:      restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:316:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:324:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:348:      restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:358:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:366:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:28:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:41:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:55:    productScore (productUpdate x) = productScore x := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:70:    productScore (productUpdate x) = productScore x := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:101:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:145:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:188:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:231:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:273:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:281:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:313:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:321:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:354:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:362:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:395:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:403:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:25:    productScore (productUpdate x) = productScore x
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:62:      productScore (productUpdate x) = productScore x) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:74:        (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:82:        (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:113:      productScore (productUpdate x) = productScore x) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:154:      productScore (productUpdate x) = productScore x := hSource.2.2
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:183:      productScore (productUpdate x) = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:192:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:280:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:303:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:323:      productScore (productUpdate x) = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:332:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:340:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:364:      productScore (productUpdate x) = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:373:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:381:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:26:      (thresholdLo ≤ productScore (productUpdate x)) ∧
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:28:      (productScore (productUpdate x) ≤ thresholdHi)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:148:        (thresholdLo ≤ productScore (productUpdate x)) :=
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:154:        (productScore (productUpdate x) ≤ thresholdHi) :=
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:184:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:215:    (hEffectUpdated : effect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:224:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:256:    (hEffectUpdated : updatedEffect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:265:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:332:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:347:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:25:    updatedEffect = productScore (productUpdate x) ∧
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:100:    (hEffectUpdated : updatedEffect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:109:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:244:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:269:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:293:    (hEffectUpdated : updatedEffect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:302:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:310:      (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:337:    (hEffectUpdated : updatedEffect = productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:346:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:354:      (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:35:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:77:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:119:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:125:    (thresholdLo ≤ productScore (productUpdate x)) := by
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:161:    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:167:    (productScore (productUpdate x) ≤ thresholdHi) := by
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:86:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:211:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:249:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:287:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:31:      productScore (productUpdate x)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:118:        productScore (productUpdate x))
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:29:      productScore (productUpdate x)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:193:      productScore (productUpdate x) := by

@@ -1,0 +1,18 @@
+VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParams_policyPoint_to_scoreKeyCondition
+  (p : VFH2.ProductRestrictedParams) (productUpdate : p.State → p.State) (productScore : p.State → Int)
+  (hPolicyPoint : ∀ (y : p.State), productScore (productUpdate y) = productScore y) :
+  VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParamsScoreKeyPreservingUpdateCondition p
+    productUpdate productScore
+VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParams_scoreKeyCondition_iff_policyPoint
+  (p : VFH2.ProductRestrictedParams) (productUpdate : p.State → p.State) (productScore : p.State → Int) :
+  VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParamsScoreKeyPreservingUpdateCondition p
+      productUpdate productScore ↔
+    ∀ (y : p.State), productScore (productUpdate y) = productScore y
+VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParams_scoreKeyCondition_iff_scorePreservingPolicy
+  (p : VFH2.ProductRestrictedParams) (productUpdate : p.State → p.State) (productScore : p.State → Int) :
+  VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParamsScoreKeyPreservingUpdateCondition p
+      productUpdate productScore ↔
+    VFH2.ProductRestrictedParamsScorePreservationDischarge.restrictedParamsScorePreservingUpdatePolicy p productUpdate
+      productScore
+VFH2.ProductRestrictedParamsScorePreservingPolicyInstantiation.restrictedParamsScoreKeyPreservingUpdateCondition
+  (p : VFH2.ProductRestrictedParams) (productUpdate : p.State → p.State) (productScore : p.State → Int) : Prop
