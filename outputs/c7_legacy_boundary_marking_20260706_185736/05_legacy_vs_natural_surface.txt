@@ -1,0 +1,455 @@
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:11:`genericBridgeTarget fixed (thresholdHi ≤ baseEffect)` to the two explicit
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:12:components `fixed` and `thresholdHi ≤ baseEffect`.
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:18:  (hLower : thresholdHi ≤ baseEffect) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:19:  VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect) := by
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:27:`genericBridgeTarget fixed (baseEffect ≤ thresholdLo)` to the two explicit
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:28:components `fixed` and `baseEffect ≤ thresholdLo`.
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:34:  (hUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:35:  VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo) := by
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:44:theorem restrictedParams_scoreKeyCondition_components_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:61:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:65:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:69:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:72:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:77:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:78:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:84:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:110:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:114:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:118:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:121:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:126:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:127:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:133:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:159:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:163:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:167:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:170:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:175:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:176:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:182:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:206:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:210:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:214:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:217:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:222:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:223:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:229:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:237:theorem restrictedParams_identityLikeUpdate_components_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:254:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:258:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:262:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:265:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:270:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:271:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:277:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:303:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:307:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:311:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:314:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:319:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:320:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:326:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:352:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:356:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:360:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:363:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:368:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:369:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:375:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:399:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:403:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:407:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:410:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:415:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:416:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:422:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:6:theorem restrictedParams_scoreKeyCondition_canonicalBaseEffect_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:18:  (hBaseLower : thresholdHi ≤ productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:19:  (hBaseUpper : productScore x ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:26:    VFH2.ProductRestrictedParamsCanonicalRawEqualities.restrictedParams_scoreKeyCondition_canonicalRaw_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:36:theorem restrictedParams_scoreKeyCondition_canonicalBaseEffect_to_frozenUpdatedBounds
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:48:  (hBaseLower : thresholdHi ≤ productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:49:  (hBaseUpper : productScore x ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:63:theorem restrictedParams_identityLikeUpdate_canonicalBaseEffect_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:75:  (hBaseLower : thresholdHi ≤ productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:76:  (hBaseUpper : productScore x ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:83:    VFH2.ProductRestrictedParamsCanonicalRawEqualities.restrictedParams_identityLikeUpdate_canonicalRaw_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:93:theorem restrictedParams_identityLikeUpdate_canonicalBaseEffect_to_frozenUpdatedBounds
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:105:  (hBaseLower : thresholdHi ≤ productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:106:  (hBaseUpper : productScore x ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:97:`hEffectBase`, `hFixed`, the two base bridge inequalities, and the concrete
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:100:theorem restrictedParams_scoreKeyCondition_canonicalRaw_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:108:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:113:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:114:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:126:    VFH2.ProductRestrictedParamsBridgeComponentsFrozenBridge.restrictedParams_scoreKeyCondition_components_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:131:      hEffectBase hCondition
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:149:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:154:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:155:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:169:      hEffectBase hCondition
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:186:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:191:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:192:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:198:      hEffectBase hCondition hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:211:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:216:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:217:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:223:      hEffectBase hCondition hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:230:theorem restrictedParams_identityLikeUpdate_canonicalRaw_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:238:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:243:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:244:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:256:    VFH2.ProductRestrictedParamsBridgeComponentsFrozenBridge.restrictedParams_identityLikeUpdate_components_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:261:      hEffectBase hIdentityLike
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:279:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:284:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:285:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:299:      hEffectBase hIdentityLike
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:316:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:321:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:322:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:328:      hEffectBase hIdentityLike hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:341:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:346:  (hBaseLower : thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:347:  (hBaseUpper : baseEffect ≤ thresholdLo) :
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:353:      hEffectBase hIdentityLike hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:30:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:38:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:40:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:46:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:76:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:84:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:86:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:92:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:121:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:129:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:131:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:137:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:166:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:174:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:176:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:182:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:29:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:33:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:36:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:38:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:42:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:44:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:48:    { hEffectBase := hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:52:      hTypedUpdate := hTypedUpdate
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:53:      hBaseScore := hBaseScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:54:      hUpdatedScore := hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:80:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:84:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:87:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:89:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:93:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:95:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:99:    { hEffectBase := hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:103:      hTypedUpdate := hTypedUpdate
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:104:      hBaseScore := hBaseScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:105:      hUpdatedScore := hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:131:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:135:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:138:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:140:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:144:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:146:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:154:        hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:178:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:182:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:185:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:187:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:191:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:193:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:201:        hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:225:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:229:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:232:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:234:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:238:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:240:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:248:        hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:272:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:276:  (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:279:  (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:281:  (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:285:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:287:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:295:        hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:7:namespace ProductRestrictedParamsFullNaturalProofSpine
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:126:theorem restrictedParams_scoreKeyCondition_naturalBase_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:173:theorem restrictedParams_identityLikeUpdate_naturalBase_to_restrictedProofSpineTarget
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:221:end ProductRestrictedParamsFullNaturalProofSpine
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:36:    ⟨⟨hSource.hTypedUpdate, hSource.hBaseScore, hSource.hUpdatedScore⟩,
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:68:    ⟨hSource.hEffectBase,
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:102:      hSource.hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:136:      hSource.hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:170:      hSource.hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:204:      hSource.hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:19:  hEffectBase :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:24:  hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:27:  hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:30:  hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:35:      (thresholdHi ≤ baseEffect)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:38:      (baseEffect ≤ thresholdLo)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:93:    hSource.hEffectBase hSource.hPolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:94:    hSource.hTypedUpdate hSource.hBaseScore hSource.hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:110:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:114:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:117:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:120:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:125:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:128:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:136:      hEffectBase := hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:138:      hTypedUpdate := hTypedUpdate
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:139:      hBaseScore := hBaseScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:140:      hUpdatedScore := hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:292:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:296:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:299:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:302:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:307:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:310:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:317:      hEffectBase := hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:319:      hTypedUpdate := hTypedUpdate
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:320:      hBaseScore := hBaseScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:321:      hUpdatedScore := hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:339:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:343:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:346:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:349:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:354:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:357:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:363:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:364:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:380:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:384:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:387:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:390:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:395:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:398:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:404:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:405:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:29:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:41:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:67:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:79:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:105:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:117:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:143:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:155:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:182:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:194:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:220:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:232:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:258:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:270:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:296:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:308:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:30:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:38:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:40:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:46:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:82:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:90:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:92:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:98:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:133:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:141:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:143:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:149:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:184:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:192:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:194:    VFH2.ProductBridgeGeneralization.genericBridgeTarget fixed (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:200:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:110:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:114:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:117:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:120:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:125:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:128:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:134:    fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:135:    hTypedUpdate hBaseScore hUpdatedScore hBaseLowerBridgeStrong hBaseUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:150:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:154:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:157:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:160:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:165:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:168:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:173:    fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:174:    hTypedUpdate hBaseScore hUpdatedScore hBaseLowerBridgeStrong hBaseUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:189:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:193:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:196:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:199:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:204:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:207:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:213:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:214:      hTypedUpdate hBaseScore hUpdatedScore hBaseLowerBridgeStrong hBaseUpperBridgeStrong).1
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:229:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:233:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:236:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:239:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:244:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:247:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:253:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:254:      hTypedUpdate hBaseScore hUpdatedScore hBaseLowerBridgeStrong hBaseUpperBridgeStrong).2
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:64:    (hEffectBase : effect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:140:    (hEffectBase : effect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:141:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:161:    fixed effect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:165:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:181:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:205:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:308:    (hEffectBase : effect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:309:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:331:      fixed effect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:332:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:347:    (hEffectBase : effect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:348:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:370:      fixed effect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:371:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:387:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:410:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:426:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:449:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:163:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:167:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:178:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:181:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:188:    fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:191:    hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:304:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:308:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:319:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:322:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:330:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:331:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:346:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:350:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:361:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:364:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:372:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hPolicy
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:373:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:90:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:93:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:96:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:99:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:104:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:107:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:114:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:117:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:133:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:137:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:140:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:143:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:148:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:151:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:158:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:161:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:177:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:180:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:183:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:186:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:191:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:194:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:200:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:203:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:219:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:223:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:226:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:229:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:234:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:237:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:243:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:246:      hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:262:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:265:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:268:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:271:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:276:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:279:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:285:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:286:      hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:302:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:305:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:308:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:311:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:316:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:319:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:325:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:326:      hIdentityLike hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:342:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:346:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:349:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:352:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:357:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:360:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:366:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:367:      hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:383:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:387:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:390:    (hBaseScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:393:    (hUpdatedScore :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:398:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:401:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:407:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:408:      hCondition hTypedUpdate hBaseScore hUpdatedScore
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:181:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:184:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:195:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:198:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:208:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:209:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:321:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:324:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:335:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:338:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:346:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hScorePreserved
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:347:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:362:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:365:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:376:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:379:        (baseEffect ≤ thresholdLo)) :
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:387:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase hScorePreserved
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:388:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:175:    (hEffectBase : effect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:176:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:199:      fixed effect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:200:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:216:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:240:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:255:    (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:257:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:268:        (thresholdHi ≤ baseEffect))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:271:        (baseEffect ≤ thresholdLo))
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:285:      fixed baseEffect thresholdLo thresholdHi hThreshold hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:286:      hTypedUpdate hBase hUpdated hBaseLowerBridgeStrong hBaseUpperBridgeStrong,
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:290:      hTypedUpdate hBase hUpdated hUpdatedLowerBridgeStrong hUpdatedUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:101:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:123:      ⟨⟨hTypedUpdate, ⟨hBase, hUpdated⟩⟩,
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:294:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:317:      hBaseWindowTarget hEffectUpdated hTypedUpdate hBase hUpdated
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:338:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:361:      hBaseWindowTarget hEffectUpdated hTypedUpdate hBase hUpdated
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:33:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:45:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:75:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:87:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:117:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:129:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:159:  (hEffectBase : baseEffect = productScore x)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:171:      hEffectBase
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:78:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:99:    ⟨⟨hTypedUpdate, ⟨hBase, hUpdated⟩⟩,
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:203:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:226:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:241:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:264:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:279:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:302:      hTypedUpdate hBase hUpdated hLowerBridgeStrong hUpperBridgeStrong)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:110:    (hTypedUpdate :
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:130:    ⟨hTypedUpdate, hBase, hUpdated⟩,
