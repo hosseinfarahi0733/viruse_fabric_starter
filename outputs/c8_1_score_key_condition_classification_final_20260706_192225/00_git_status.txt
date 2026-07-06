@@ -1,0 +1,3 @@
+ M lean/VFH2/Product/ProductRestrictedParamsScoreKeyConditionClassification.lean
+?? APPLY_C8_1_SCORE_KEY_CLASSIFICATION.sh
+?? REPAIR_C8_1_CLASSIFICATION_AND_AMEND.sh
