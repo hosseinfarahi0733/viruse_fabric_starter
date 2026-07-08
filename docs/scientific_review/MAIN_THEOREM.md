@@ -1,40 +1,40 @@
-# VF-H2 Main Theorem Candidate
+# VF-H2 Main Theorem
 
-## Current abstract-level theorem
+## Current best front-door theorem
 
-The current strongest theorem family proves the restricted proof-spine target from natural base interval assumptions under score-preserving or identity-like update routes and fixed-state evidence.
+ProductRestrictedParamsCurrentBestMainTheorem.restrictedParams_currentBestMainTheorem
 
-## Current theorem names
+## Informal statement
 
-Expected central theorem routes include:
+For the concrete update productUpdateState p, if the score is inactive-insensitive, the state is fixed on the active set, and the base score lies in the natural threshold window, then the restricted proof-spine target holds.
 
-- `VFH2.ProductRestrictedParamsFullNaturalProofSpine.restrictedParams_scoreKeyCondition_naturalBase_to_restrictedProofSpineTarget`
-- `VFH2.ProductRestrictedParamsFullNaturalProofSpine.restrictedParams_identityLikeUpdate_naturalBase_to_restrictedProofSpineTarget`
+## Formal route
 
-After fixedness specialization:
+Inputs:
+- p : ProductRestrictedParams
+- x : p.State
+- productScore : p.State -> Int
+- thresholdLo thresholdHi : Int
+- hThreshold : thresholdLo <= thresholdHi
+- hScoreInactive : productScoreInactiveInsensitive p productScore
+- hFixedSet : ProductFixedSet p x
+- hBaseLowerNatural : thresholdLo <= productScore x
+- hBaseUpperNatural : productScore x <= thresholdHi
 
-- `VFH2.ProductRestrictedParamsHFixedSemanticSpecialization.restrictedParams_scoreKeyCondition_naturalBase_productFixedSet_to_restrictedProofSpineTarget`
-- `VFH2.ProductRestrictedParamsHFixedSemanticSpecialization.restrictedParams_identityLikeUpdate_naturalBase_productFixedSet_to_restrictedProofSpineTarget`
+Conclusion:
+- restrictedProofSpineTarget for p, x, productUpdateState p, productScore, ProductFixedSet p x, and the threshold window.
 
 ## Scientific status
 
-These are conditional theorems.
+This is the cleanest current theorem after v17.5.0.
 
-They do not yet establish a fully assumption-free VF-H2 theory.
+It uses the C12 active-insensitive score route, so it avoids the abstract score-key preservation premise for the concrete update.
 
-## Abstract-safe claim
+It still depends on ProductFixedSet p x and natural base bounds.
 
-A conservative abstract-level claim would be:
+Therefore, the project is still a conditional proof framework, not an unconditional full VF-H2 proof.
 
-The Lean development proves a restricted product-index proof-spine target under explicit assumptions of score preservation, fixed-state evidence, and natural base score bounds. The repository further classifies several proof obligations and records that score preservation and fixed-state evidence are not currently derivable from the existing update/domain semantics.
+## Remaining proof debt
 
-## Claims to avoid
-
-Do not claim:
-
-- full VF-H2 is proven,
-- all assumptions are discharged,
-- score preservation is derived,
-- product fixedness is derived,
-- the model is empirically validated,
-- the framework is submission-ready.
+- A2: derive or justify ProductFixedSet p x.
+- A3: derive or justify natural base bounds.
