@@ -60,3 +60,25 @@ This partially reduces the natural base-bound burden for scores with verified bo
 Remaining proof debt:
 - ProductFixedSet p x remains undischarged.
 - Arbitrary product scores are not proven bounded.
+
+## C16 constructed fixed-state route
+
+After C16, the project has a constructed fixed-state front door:
+
+ProductRestrictedParamsFixedStateConstruction.restrictedParams_constantScore_fixedProductState_to_currentBestMainTheorem
+
+Informally:
+
+For the canonical fixed state fixedProductState p and the constant score constantProductScore p c, if thresholdLo <= thresholdHi, thresholdLo <= c, and c <= thresholdHi, then the restricted proof-spine target holds.
+
+This route derives:
+- ProductFixedSet p (fixedProductState p)
+- inactive-insensitive score semantics for the constant score
+- boundedness for the constant score from thresholdLo <= c and c <= thresholdHi
+
+This is the strongest concrete proof-spine route currently available.
+
+Remaining proof debt:
+- ProductFixedSet p x remains undischarged for arbitrary x.
+- Arbitrary product scores are not proven bounded.
+- The theorem is still conditional on the constant score value lying inside the threshold interval.
