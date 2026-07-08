@@ -81,3 +81,4 @@ import VFH2.Product.ProductRestrictedParamsActiveInsensitiveScore
 import VFH2.Product.ProductRestrictedParamsActiveInsensitiveProofSpine
 import VFH2.Product.ProductRestrictedParamsCurrentBestMainTheorem
 import VFH2.Product.ProductRestrictedParamsBoundedScore
+import VFH2.Product.ProductRestrictedParamsFixedStateConstruction
