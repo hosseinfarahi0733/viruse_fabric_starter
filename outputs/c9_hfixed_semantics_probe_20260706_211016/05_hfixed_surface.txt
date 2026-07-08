@@ -1,0 +1,785 @@
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:35:  fixedComponent :
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:37:      ProductConditionBridgeGeneralization.generalizedTypedFixedComponent
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:40:      ProductConditionBridgeGeneralization.generalizedProductFixedComponent
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:138:    fixedComponent :=
+lean/VFH2/Product/ProductBridgeAssemblyCertificate.lean:139:      ProductConditionBridgeGeneralization.generalized_fixedComponent_transport
+lean/VFH2/Product/ProductBridgeGeneralization.lean:16:    (fixedComponent : Prop)
+lean/VFH2/Product/ProductBridgeGeneralization.lean:19:  fixedComponent ∧ conditionComponent
+lean/VFH2/Product/ProductBridgeGeneralization.lean:29:    {typedFixed productFixed typedCondition productCondition : Prop}
+lean/VFH2/Product/ProductBridgeGeneralization.lean:30:    (hFixed : typedFixed ↔ productFixed)
+lean/VFH2/Product/ProductBridgeGeneralization.lean:32:    genericBridgeTarget typedFixed typedCondition ↔
+lean/VFH2/Product/ProductBridgeGeneralization.lean:33:      genericBridgeTarget productFixed productCondition := by
+lean/VFH2/Product/ProductBridgeGeneralization.lean:37:    exact ⟨hFixed.mp h.1, hCondition.mp h.2⟩
+lean/VFH2/Product/ProductBridgeGeneralization.lean:39:    exact ⟨hFixed.mpr h.1, hCondition.mpr h.2⟩
+lean/VFH2/Product/ProductBridgeGeneralization.lean:45:    {typedFixed productFixed typedCondition productCondition : Prop}
+lean/VFH2/Product/ProductBridgeGeneralization.lean:46:    (hFixed : typedFixed ↔ productFixed)
+lean/VFH2/Product/ProductBridgeGeneralization.lean:48:    genericBridgeTarget productFixed productCondition ↔
+lean/VFH2/Product/ProductBridgeGeneralization.lean:49:      genericBridgeTarget typedFixed typedCondition := by
+lean/VFH2/Product/ProductBridgeGeneralization.lean:50:  exact (genericBridgeTarget_transport hFixed hCondition).symm
+lean/VFH2/Product/ProductBridgeGeneralization.lean:57:    {typedFixed productFixed typedCondition productCondition : Prop}
+lean/VFH2/Product/ProductBridgeGeneralization.lean:58:    (hFixed : productFixed ↔ typedFixed)
+lean/VFH2/Product/ProductBridgeGeneralization.lean:60:    genericBridgeTarget typedFixed typedCondition ↔
+lean/VFH2/Product/ProductBridgeGeneralization.lean:61:      genericBridgeTarget productFixed productCondition := by
+lean/VFH2/Product/ProductBridgeGeneralization.lean:62:  exact genericBridgeTarget_transport hFixed.symm hCondition.symm
+lean/VFH2/Product/ProductBridgeGeneralization.lean:71:    {typedFixed productFixed typedCondition productCondition : Prop}
+lean/VFH2/Product/ProductBridgeGeneralization.lean:72:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductBridgeGeneralization.lean:74:    genericBridgeTarget typedFixed typedCondition →
+lean/VFH2/Product/ProductBridgeGeneralization.lean:75:      genericBridgeTarget productFixed productCondition := by
+lean/VFH2/Product/ProductBridgeGeneralization.lean:77:  exact ⟨hFixed h.1, hCondition h.2⟩
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:14:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:20:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:26:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:32:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:38:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:44:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:50:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:56:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:62:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:68:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:87:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:97:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:145:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:153:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:161:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeRelaxationCertificate.lean:169:    ∀ (fixed : Prop)
+lean/VFH2/Product/ProductBridgeTransport.lean:1:import VFH2.Product.ProductFixedSetTransport
+lean/VFH2/Product/ProductBridgeTransport.lean:26:    ProductFixedSetTransport.typedFixedSet_iff_productFixedSet,
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:13:def generalizedTypedFixedComponent {n d : Nat}
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:23:def generalizedProductFixedComponent {n d : Nat}
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:37:    (generalizedTypedFixedComponent active x)
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:48:    (generalizedProductFixedComponent active x)
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:54:theorem generalized_fixedComponent_transport
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:58:    generalizedTypedFixedComponent active x
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:60:    generalizedProductFixedComponent active x := by
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:61:  unfold generalizedTypedFixedComponent generalizedProductFixedComponent
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:63:    ProductFixedSetGeneralization.generalized_fixedSet_transport active x
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:86:      (generalized_fixedComponent_transport active x)
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:115:    (Typed.TypedFixedSet
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:128:    (ProductFixedSet p x)
+lean/VFH2/Product/ProductConditionBridgeGeneralization.lean:147:      (ProductFixedSetGeneralization.restricted_fixedSet_transport_from_general p x)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:29:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:41:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:49:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:57:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:65:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:73:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:81:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:89:    (fixed : Prop)
+lean/VFH2/Product/ProductEffectBoundBridgeMonotonicity.lean:97:    (fixed : Prop)
+lean/VFH2/Product/ProductFixedSet.lean:4:# VF-H2 v11 Product Fixed-Set Scaffold
+lean/VFH2/Product/ProductFixedSet.lean:9:- This is a restricted product-index fixed-set definition.
+lean/VFH2/Product/ProductFixedSet.lean:34:def ProductFixedSet
+lean/VFH2/Product/ProductFixedSet.lean:41:namespace ProductFixedSet
+lean/VFH2/Product/ProductFixedSet.lean:47:    (hfixed : ProductFixedSet p x)
+lean/VFH2/Product/ProductFixedSet.lean:60:    (hfixed : ProductFixedSet p x)
+lean/VFH2/Product/ProductFixedSet.lean:67:end ProductFixedSet
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:5:namespace ProductFixedSetGeneralization
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:10:This is the v12 generalized form behind the restricted fixed-set theorem:
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:14:theorem generalized_fixedSet_transport
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:30:theorem generalized_fixedSet_transport_product_first
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:38:  exact (generalized_fixedSet_transport active x).symm
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:41:The previous restricted Product/Typed fixed-set transport is recovered as an
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:44:theorem restricted_fixedSet_transport_from_general
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:47:    Typed.TypedFixedSet
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:51:    ProductFixedSet p x := by
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:52:  unfold Typed.TypedFixedSet ProductFixedSet
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:58:  exact generalized_fixedSet_transport p.active x
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:63:theorem restricted_fixedSet_transport_from_general_product_first
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:66:    ProductFixedSet p x
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:68:    Typed.TypedFixedSet
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:71:  exact (restricted_fixedSet_transport_from_general p x).symm
+lean/VFH2/Product/ProductFixedSetGeneralization.lean:73:end ProductFixedSetGeneralization
+lean/VFH2/Product/ProductFixedSetTransport.lean:6:namespace ProductFixedSetTransport
+lean/VFH2/Product/ProductFixedSetTransport.lean:15:theorem typedFixedSet_iff_productFixedSet
+lean/VFH2/Product/ProductFixedSetTransport.lean:18:    Typed.TypedFixedSet
+lean/VFH2/Product/ProductFixedSetTransport.lean:22:    ProductFixedSet p x := by
+lean/VFH2/Product/ProductFixedSetTransport.lean:23:  unfold Typed.TypedFixedSet ProductFixedSet
+lean/VFH2/Product/ProductFixedSetTransport.lean:50:theorem productFixedSet_iff_typedFixedSet
+lean/VFH2/Product/ProductFixedSetTransport.lean:53:    ProductFixedSet p x
+lean/VFH2/Product/ProductFixedSetTransport.lean:55:    Typed.TypedFixedSet
+lean/VFH2/Product/ProductFixedSetTransport.lean:58:  exact (typedFixedSet_iff_productFixedSet p x).symm
+lean/VFH2/Product/ProductFixedSetTransport.lean:60:end ProductFixedSetTransport
+lean/VFH2/Product/ProductFixedZero.lean:4:# VF-H2 v11 Product Fixed-Zero Ledger Effect
+lean/VFH2/Product/ProductFixedZero.lean:28:    (hfixed : ProductFixedSet p x)
+lean/VFH2/Product/ProductFixedZero.lean:47:    (hfixed : ProductFixedSet p x) :
+lean/VFH2/Product/ProductFixedZero.lean:61:    (hfixed : ProductFixedSet p x) :
+lean/VFH2/Product/ProductFixedZero.lean:73:    (hfixed : ProductFixedSet p x) :
+lean/VFH2/Product/ProductFixedZero.lean:79:/-- Fixed-zero target for the current v11 product-index typed scaffold. -/
+lean/VFH2/Product/ProductFixedZero.lean:80:def productFixedZeroLedgerEffectTarget
+lean/VFH2/Product/ProductFixedZero.lean:83:  ProductFixedSet p x → productLedgerEffect p x = 0
+lean/VFH2/Product/ProductFixedZero.lean:89:theorem productFixedZeroLedgerEffectTarget_proved
+lean/VFH2/Product/ProductFixedZero.lean:92:    productFixedZeroLedgerEffectTarget p x := by
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:34:  fixedSet :
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:66:    ∀ (typedFixed productFixed typedCondition productCondition : Prop),
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:67:      (typedFixed ↔ productFixed) →
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:71:            typedFixed typedCondition
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:74:            productFixed productCondition
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:82:    (typedFixed productFixed typedCondition productCondition : Prop)
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:83:    (hFixed : typedFixed ↔ productFixed)
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:87:          typedFixed typedCondition
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:90:          productFixed productCondition
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:94:      hFixed hCondition
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:116:    fixedSet :=
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:117:      ProductFixedSetGeneralization.generalized_fixedSet_transport active x,
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:144:  fixedSet :
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:145:    Typed.TypedFixedSet
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:149:    ProductFixedSet p x
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:183:    fixedSet :=
+lean/VFH2/Product/ProductGeneralizedTransportCertificate.lean:184:      ProductFixedSetGeneralization.restricted_fixedSet_transport_from_general
+lean/VFH2/Product/ProductNonfixedIncrease.lean:33:    (hnotfixed : ¬ ProductFixedSet p x) :
+lean/VFH2/Product/ProductNonfixedIncrease.lean:43:  · have hfixed : ProductFixedSet p x := by
+lean/VFH2/Product/ProductNonfixedIncrease.lean:44:      unfold ProductFixedSet
+lean/VFH2/Product/ProductNonfixedIncrease.lean:68:    (hnotfixed : ¬ ProductFixedSet p x) :
+lean/VFH2/Product/ProductPositiveLedger.lean:1:import VFH2.Product.ProductFixedZero
+lean/VFH2/Product/ProductPositiveLedger.lean:277:    (hnotfixed : ¬ ProductFixedSet p x) :
+lean/VFH2/Product/ProductPositiveLedger.lean:293:    (hnotfixed : ¬ ProductFixedSet p x) :
+lean/VFH2/Product/ProductPositiveLedger.lean:305:  ¬ ProductFixedSet p x → 0 < productLedgerEffect p x
+lean/VFH2/Product/ProductRestrictedBridge.lean:38:  (ProductFixedSet p x → productLedgerEffect p x = 0) ∧
+lean/VFH2/Product/ProductRestrictedBridge.lean:39:  (¬ ProductFixedSet p x → 0 < productLedgerEffect p x)
+lean/VFH2/Product/ProductRestrictedBridge.lean:55:/-- Fixed product states have zero product ledger effect. -/
+lean/VFH2/Product/ProductRestrictedBridge.lean:59:    (hfixed : ProductFixedSet p x) :
+lean/VFH2/Product/ProductRestrictedBridge.lean:67:    (hnotfixed : ¬ ProductFixedSet p x) :
+lean/VFH2/Product/ProductRestrictedBridge.lean:80:    (ProductFixedSet p x ∧ productLedgerEffect p x = 0)
+lean/VFH2/Product/ProductRestrictedBridge.lean:82:    (¬ ProductFixedSet p x ∧ 0 < productLedgerEffect p x) := by
+lean/VFH2/Product/ProductRestrictedBridge.lean:83:  by_cases hfixed : ProductFixedSet p x
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:8:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:16:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:24:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:39:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:51:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:63:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:79:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:91:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:104:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:117:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:130:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:154:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteBridgeAssemblySpecialization.lean:168:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:8:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:10:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:12:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:14:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:18:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:19:    thresholdHi thresholdHi hFixed hEffect (Int.le_refl thresholdHi) hBridge
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:22:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:24:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:26:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:28:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:32:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:33:    thresholdLo thresholdLo hFixed hEffect (Int.le_refl thresholdLo) hBridge
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:36:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:38:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:40:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:42:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:46:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:47:    thresholdHi thresholdHi hFixed hEffect (Int.le_refl thresholdHi) hBridge
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:50:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:52:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:54:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:56:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:60:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:61:    thresholdLo thresholdLo hFixed hEffect (Int.le_refl thresholdLo) hBridge
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:64:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:66:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:70:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:73:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:75:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:77:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:80:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:83:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:84:      thresholdHi hFixed hEffect)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:86:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:87:      thresholdLo hFixed hEffect)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:92:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:94:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:98:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:101:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:103:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:105:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:108:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:111:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:112:      thresholdHi hFixed hEffect)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:114:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:115:      thresholdLo hFixed hEffect)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:120:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:122:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:123:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:127:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:130:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:133:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:136:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:138:    (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:140:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:142:    (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:144:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:148:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:149:      thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:152:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:153:      thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:158:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:160:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:161:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:164:    ((ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:166:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:168:     (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:170:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:172:    ((ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:174:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:176:     (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:178:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:184:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:185:          thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold hBridge,
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:188:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:189:          thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold hBridge
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:194:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:195:          thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold hBridge,
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:198:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteRecoveryInstantiation.lean:199:          thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold hBridge
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:8:    (typedFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:10:  ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:12:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:16:    (productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:18:  ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:20:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:24:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:27:      typedFixed typedLedgerEffect thresholdLo thresholdHi ∧
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:29:      productFixed productLedgerEffect thresholdLo thresholdHi
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:32:    (productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:34:  ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:36:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:40:    (typedFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:42:  ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:44:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:48:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:51:      productFixed productLedgerEffect thresholdLo thresholdHi ∧
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:53:      typedFixed typedLedgerEffect thresholdLo thresholdHi
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:56:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:58:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:63:        typedFixed typedLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:65:      productFixed productLedgerEffect thresholdLo thresholdHi := by
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:69:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:70:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource.1 hSource.2
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:73:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:75:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:80:        productFixed productLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:82:      typedFixed typedLedgerEffect thresholdLo thresholdHi := by
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:86:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:87:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource.1 hSource.2
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:90:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:92:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:93:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:98:        typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:101:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:107:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:108:      thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold hSource.1,
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:110:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:111:      thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold hSource.2
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:115:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:117:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:118:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:122:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:125:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:128:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:131:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:134:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:137:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:138:    thresholdLo thresholdHi hFixedTypedToProduct hFixedProductToTyped
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:144:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:146:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:147:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:151:        typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:154:        typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:158:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:159:    thresholdLo thresholdHi hFixedTypedToProduct hFixedProductToTyped
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:163:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:165:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:170:        typedFixed typedLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:171:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:174:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:175:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource).1
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:178:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:180:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:185:        typedFixed typedLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:186:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:189:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:190:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource).2
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:193:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:195:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:200:        productFixed productLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:201:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:204:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:205:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource).1
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:208:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:210:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:215:        productFixed productLedgerEffect thresholdLo thresholdHi) :
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:216:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:219:    typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedConcreteThresholdBridgeAssembly.lean:220:    thresholdLo thresholdHi hFixed hEffect hThreshold hSource).2
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:15:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:17:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:20:  exact ⟨hFixed, hLower⟩
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:31:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:33:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:36:  exact ⟨hFixed, hUpper⟩
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:58:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:76:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:85:      (genericBridgeTarget_of_fixed_and_lower fixed baseEffect thresholdHi hFixed hBaseLower)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:86:      (genericBridgeTarget_of_fixed_and_upper fixed baseEffect thresholdLo hFixed hBaseUpper)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:107:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:125:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:134:      (genericBridgeTarget_of_fixed_and_lower fixed baseEffect thresholdHi hFixed hBaseLower)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:135:      (genericBridgeTarget_of_fixed_and_upper fixed baseEffect thresholdLo hFixed hBaseUpper)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:156:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:174:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:182:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:203:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:221:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:229:      hEffectBase hCondition hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:251:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:269:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:278:      (genericBridgeTarget_of_fixed_and_lower fixed baseEffect thresholdHi hFixed hBaseLower)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:279:      (genericBridgeTarget_of_fixed_and_upper fixed baseEffect thresholdLo hFixed hBaseUpper)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:300:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:318:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:327:      (genericBridgeTarget_of_fixed_and_lower fixed baseEffect thresholdHi hFixed hBaseLower)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:328:      (genericBridgeTarget_of_fixed_and_upper fixed baseEffect thresholdLo hFixed hBaseUpper)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:349:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:367:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:375:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:396:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:414:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsBridgeComponentsFrozenBridge.lean:422:      hEffectBase hIdentityLike hTypedUpdate hBaseScore hUpdatedScore hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:11:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:22:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:33:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:52:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:74:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:93:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:122:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsBridgeCorePivot.lean:145:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:11:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:17:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:32:      hFixed
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:41:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:47:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:59:      hFixed
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:68:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:74:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:89:      hFixed
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:98:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:104:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalBaseEffectFrozenBridge.lean:116:      hFixed
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:97:`hEffectBase`, `hFixed`, the two base bridge inequalities, and the concrete
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:105:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:112:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:135:      hFixed hBaseLower hBaseUpper
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:146:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:153:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:173:      hFixed hBaseLower hBaseUpper
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:183:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:190:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:198:      hEffectBase hCondition hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:208:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:215:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:223:      hEffectBase hCondition hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:235:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:242:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:265:      hFixed hBaseLower hBaseUpper
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:276:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:283:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:303:      hFixed hBaseLower hBaseUpper
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:313:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:320:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:328:      hEffectBase hIdentityLike hFixed hBaseLower hBaseUpper).1
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:338:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:345:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsCanonicalRawEqualities.lean:353:      hEffectBase hIdentityLike hFixed hBaseLower hBaseUpper).2
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:27:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:73:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:118:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsCertificateFrozenSpine.lean:163:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:27:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:78:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:128:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:175:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:222:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsConcretePolicyEndToEndFrozenBridge.lean:269:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:26:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:51:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:87:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:124:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:161:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:198:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:234:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:271:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsEffectBaseSourceFrozenSpine.lean:308:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:38:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:40:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:47:  · exact ⟨hFixed, hBaseLowerNatural⟩
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:48:  · exact ⟨hFixed, hBaseUpperNatural⟩
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:55:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:61:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:79:        hFixed hBaseLowerNatural hBaseUpperNatural
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:93:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:99:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:117:        hFixed hBaseLowerNatural hBaseUpperNatural
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:131:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:137:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:161:      hThreshold hCondition hFixed hBaseLowerNatural hBaseUpperNatural
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:178:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:184:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsFullNaturalProofSpine.lean:208:      hThreshold hIdentityLike hFixed hBaseLowerNatural hBaseUpperNatural
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:11:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:16:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:31:    · exact hFixed
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:35:    · exact hFixed
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:44:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:49:  (hFixed : fixed)
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:64:    · exact hFixed
+lean/VFH2/Product/ProductRestrictedParamsNaturalUpdatedBounds.lean:68:    · exact hFixed
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:28:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:60:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:91:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:125:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:159:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndFrozenSpineBridge.lean:193:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:50:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:62:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:79:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:107:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:155:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:180:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:205:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:229:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:253:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:289:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:336:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyEndToEndScoreWindow.lean:377:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:26:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:64:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:102:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:140:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:179:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:217:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:255:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsPolicyInstantiatedSourceFrozenSpine.lean:293:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:27:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:79:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:130:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRawTransportFrozenSpine.lean:181:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:25:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:51:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:76:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:108:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:140:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:172:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:204:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:236:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:268:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsReadySourceFrozenSpine.lean:300:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:33:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:45:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:60:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:84:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:107:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:147:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:186:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsRestrictedProofSpineFreeze.lean:226:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:39:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:61:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:99:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:137:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:177:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:217:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:239:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:261:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:283:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:305:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:344:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:383:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreEffectBinding.lean:422:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:23:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:43:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:72:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:101:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:129:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:160:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:203:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:228:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:253:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:277:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:301:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservationDischarge.lean:343:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:87:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:130:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:174:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:216:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:259:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:299:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:339:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingPolicyInstantiation.lean:380:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:37:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:54:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:105:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:136:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:178:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:224:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:248:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:272:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:295:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:318:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScorePreservingUpdate.lean:359:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:11:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:23:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:40:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:60:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:80:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:100:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:136:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:172:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:212:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:252:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:297:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:311:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:326:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:341:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:361:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindow.lean:383:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:41:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:58:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:93:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:136:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:160:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:184:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:210:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:236:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:261:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:286:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsScoreWindowPreservation.lean:330:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:30:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:72:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:114:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsSourceCertificateFrozenSpine.lean:156:  (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:17:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:39:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:75:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:112:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:134:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:156:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:178:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:200:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:238:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBound.lean:276:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:43:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:61:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:79:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:107:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:146:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:168:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:197:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:225:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreBridge.lean:253:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:41:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:60:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:79:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:110:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:139:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:162:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:185:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:208:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:238:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:268:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedParamsUpdateScoreTransport.lean:298:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:8:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:12:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:14:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:17:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:19:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:22:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:26:    productFixed productLedgerEffect thresholdLo thresholdHi hThreshold hProductBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:29:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:33:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:35:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:38:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:40:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:43:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:47:    productFixed productLedgerEffect thresholdLo thresholdHi hThreshold hProductBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:50:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:54:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:56:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:59:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:61:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:64:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:68:    typedFixed typedLedgerEffect thresholdLo thresholdHi hThreshold hTypedBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:71:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:75:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:77:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:80:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:82:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:85:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:89:    typedFixed typedLedgerEffect thresholdLo thresholdHi hThreshold hTypedBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:92:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:96:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:98:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:101:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:103:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:106:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:109:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:111:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:113:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:117:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:121:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:127:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:131:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:133:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:136:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:138:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:141:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:144:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:146:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:148:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:152:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:156:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:162:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:166:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:168:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:171:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:173:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:176:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:178:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:181:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:183:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:186:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:189:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:192:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:195:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:197:    (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:199:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:201:    (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:203:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:207:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:213:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:221:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:225:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:227:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:230:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:232:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:235:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:237:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:240:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:242:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:244:    ((ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:246:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:248:     (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:250:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:252:    ((ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:254:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:256:     (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:258:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:264:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:269:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:276:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeRecovery.lean:281:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:8:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:20:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:32:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:44:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:56:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:77:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:98:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTheorem.lean:131:    (fixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:8:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:10:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:14:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:16:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:19:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:22:      typedFixed typedLedgerEffect thresholdLo thresholdHi hThreshold hTypedBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:24:  exact ⟨hFixed hTypedRelaxed.1, by
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:28:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:30:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:34:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:36:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:39:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:42:      typedFixed typedLedgerEffect thresholdLo thresholdHi hThreshold hTypedBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:44:  exact ⟨hFixed hTypedRelaxed.1, by
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:48:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:50:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:54:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:56:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:59:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:62:      productFixed productLedgerEffect thresholdLo thresholdHi hThreshold hProductBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:64:  exact ⟨hFixed hProductRelaxed.1, by
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:68:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:70:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:74:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:76:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:79:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:82:      productFixed productLedgerEffect thresholdLo thresholdHi hThreshold hProductBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:84:  exact ⟨hFixed hProductRelaxed.1, by
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:88:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:90:    (hFixed : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:94:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:97:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:99:    ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:101:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:105:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:106:      thresholdLo thresholdHi hFixed hEffect hThreshold hTypedLowerBridgeStrong,
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:108:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:109:      thresholdLo thresholdHi hFixed hEffect hThreshold hTypedUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:113:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:115:    (hFixed : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:119:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:122:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:124:    ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:126:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:130:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:131:      thresholdLo thresholdHi hFixed hEffect hThreshold hProductLowerBridgeStrong,
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:133:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:134:      thresholdLo thresholdHi hFixed hEffect hThreshold hProductUpperBridgeStrong
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:138:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:140:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:141:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:145:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:148:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:151:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:154:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:156:    (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:158:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:160:    (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:162:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:166:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:167:      thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:170:      typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:171:      thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:176:    (typedFixed productFixed : Prop)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:178:    (hFixedTypedToProduct : typedFixed → productFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:179:    (hFixedProductToTyped : productFixed → typedFixed)
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:182:    ((ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:184:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:186:     (ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:188:      ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:190:    ((ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:192:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:194:     (ProductBridgeGeneralization.genericBridgeTarget productFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:196:      ProductBridgeGeneralization.genericBridgeTarget typedFixed
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:202:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:203:          thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold hBridge,
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:206:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:207:          thresholdLo thresholdHi hFixedTypedToProduct hEffect hThreshold hBridge
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:212:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:213:          thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold hBridge,
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:216:          typedFixed productFixed typedLedgerEffect productLedgerEffect
+lean/VFH2/Product/ProductRestrictedThresholdConditionedBridgeTransport.lean:217:          thresholdLo thresholdHi hFixedProductToTyped hEffect hThreshold hBridge
+lean/VFH2/Product/ProductTransportLadderCertificate.lean:3:import VFH2.Product.ProductFixedSetTransport
+lean/VFH2/Product/ProductTransportLadderCertificate.lean:43:    (Typed.TypedFixedSet
+lean/VFH2/Product/ProductTransportLadderCertificate.lean:47:    ProductFixedSet p x)
+lean/VFH2/Product/ProductTransportLadderCertificate.lean:64:  · exact ProductFixedSetTransport.typedFixedSet_iff_productFixedSet p x
+lean/VFH2/Product/ProductUpdate.lean:1:import VFH2.Product.ProductFixedSet
+lean/VFH2/Product/ProductUpdate.lean:102:    (hfixed : ProductFixedSet p x) :
+lean/VFH2/Product/ProductUpdateGeneralization.lean:1:import VFH2.Product.ProductFixedSetGeneralization

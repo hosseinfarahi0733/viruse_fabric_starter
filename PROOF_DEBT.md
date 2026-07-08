@@ -207,3 +207,38 @@ Current status:
 open
 ```
 
+---
+
+## D9 — Derive `hFixed` from concrete fixed-set/update semantics
+
+C9 found useful fixed-set infrastructure, but no current derivation of the arbitrary proof input:
+
+```lean
+hFixed : fixed
+```
+
+Debt:
+
+```text
+Introduce or identify a concrete semantic instantiation for `fixed`, such as `ProductFixedSet p x`, and prove the required fixed-state evidence from domain/update assumptions.
+```
+
+Possible next step:
+
+```text
+Create a C9.1 specialization theorem that instantiates `fixed := ProductFixedSet p x`.
+This would make the assumption semantic, but it would still require a source proof `hfixed : ProductFixedSet p x` unless that proof is derived separately.
+```
+
+Priority:
+
+```text
+critical
+```
+
+Current status:
+
+```text
+open
+```
+

@@ -102,3 +102,47 @@ Forbidden claim:
 Do not claim that score preservation has been derived from domain dynamics.
 ```
 
+---
+
+## N6 — C9 did not derive `hFixed` from fixed-set/update semantics
+
+C9 confirmed that the v17.4 full natural restricted proof-spine theorem still receives:
+
+```lean
+(fixed : Prop)
+(hFixed : fixed)
+```
+
+The current codebase contains fixed-set infrastructure, including product/typed fixed-set predicates and transport results such as:
+
+```lean
+ProductFixedSet p x
+Typed.TypedFixedSet ...
+ProductFixedSetTransport.typedFixedSet_iff_productFixedSet
+ProductFixedSetGeneralization.restricted_fixedSet_transport_from_general
+```
+
+However, C9 did not find a concrete fixed-set/update semantic layer that derives the arbitrary proof input:
+
+```lean
+hFixed : fixed
+```
+
+Interpretation:
+
+```text
+`hFixed` remains a fundamental fixed-state assumption unless `fixed` is semantically instantiated and proved from concrete model assumptions.
+```
+
+Consequence:
+
+```text
+C9 is a negative/classification result, not a new scientific proof milestone.
+```
+
+Forbidden claim:
+
+```text
+Do not claim that `hFixed` has been derived from fixed-set/update dynamics.
+```
+
