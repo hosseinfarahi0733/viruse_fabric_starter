@@ -80,3 +80,4 @@ import VFH2.Product.ProductRestrictedParamsHFixedSemanticSpecialization
 import VFH2.Product.ProductRestrictedParamsActiveInsensitiveScore
 import VFH2.Product.ProductRestrictedParamsActiveInsensitiveProofSpine
 import VFH2.Product.ProductRestrictedParamsCurrentBestMainTheorem
+import VFH2.Product.ProductRestrictedParamsBoundedScore
