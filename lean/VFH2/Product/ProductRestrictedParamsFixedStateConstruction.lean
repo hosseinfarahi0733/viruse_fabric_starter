@@ -145,3 +145,97 @@ theorem restrictedParams_boundedInactiveScore_fixedProductState_to_currentBestMa
 
 end ProductRestrictedParamsFixedStateConstruction
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsFixedStateConstruction
+
+/--
+C21 packages the two remaining score-side assumptions used by the C19
+constructed fixed-state route.
+
+This certificate does not derive boundedness. Instead, it makes the remaining
+score requirements explicit and reusable:
+
+* inactive-insensitivity of the score;
+* global boundedness of the score over the threshold interval.
+
+The scientific point is assumption accounting: future milestones can target this
+certificate directly instead of repeatedly threading the two assumptions through
+long proof-spine statements.
+-/
+structure BoundedInactiveScoreCertificate
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int) : Prop where
+  inactive :
+    VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive p productScore
+  bounded :
+    VFH2.ProductRestrictedParamsBoundedScore.productScoreBoundedBy p productScore thresholdLo thresholdHi
+
+/--
+C21 certificate-based restatement of the C19 constructed fixed-state route.
+
+The theorem is intentionally a repackaging rather than a new assumption-reducing
+result: the certificate makes the remaining score assumptions explicit and gives
+future work a single target to construct or discharge.
+-/
+theorem restrictedParams_scoreCertificate_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int)
+    (hThreshold : thresholdLo ≤ thresholdHi)
+    (hCert :
+      BoundedInactiveScoreCertificate p productScore thresholdLo thresholdHi) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      productScore
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        productScore)
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      thresholdLo
+      thresholdHi
+      hThreshold := by
+  exact
+    VFH2.ProductRestrictedParamsFixedStateConstruction.restrictedParams_boundedInactiveScore_fixedProductState_to_currentBestMainTheorem
+      p
+      productScore
+      thresholdLo
+      thresholdHi
+      hThreshold
+      hCert.inactive
+      hCert.bounded
+
+/--
+The old constant-score route can be viewed as an instance of the C21 score
+certificate.
+
+This lemma keeps the v17.7.0 constant-score construction connected to the newer
+certificate-based route without pretending that constant scores are the final
+scientific target.
+-/
+theorem constantProductScore_BoundedInactiveScoreCertificate
+    (p : VFH2.ProductRestrictedParams)
+    (c thresholdLo thresholdHi : Int)
+    (hLo : thresholdLo ≤ c)
+    (hHi : c ≤ thresholdHi) :
+    BoundedInactiveScoreCertificate p
+      (VFH2.ProductRestrictedParamsBoundedScore.constantProductScore p c)
+      thresholdLo
+      thresholdHi := by
+  exact {
+    inactive :=
+      VFH2.ProductRestrictedParamsBoundedScore.constantProductScore_inactiveInsensitive p c
+    bounded :=
+      VFH2.ProductRestrictedParamsBoundedScore.constantProductScore_boundedBy
+        p c thresholdLo thresholdHi hLo hHi
+  }
+
+end ProductRestrictedParamsFixedStateConstruction
+end VFH2
