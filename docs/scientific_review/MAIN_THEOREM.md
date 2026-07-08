@@ -38,3 +38,25 @@ Therefore, the project is still a conditional proof framework, not an unconditio
 
 - A2: derive or justify ProductFixedSet p x.
 - A3: derive or justify natural base bounds.
+
+## C15 bounded-score route
+
+After C15, the current best theorem has an additional bounded-score front door:
+
+ProductRestrictedParamsBoundedScore.restrictedParams_boundedScore_to_currentBestMainTheorem
+
+Informally:
+
+For the concrete update productUpdateState p, if the score is inactive-insensitive, globally bounded by the threshold interval, and the state satisfies ProductFixedSet p x, then the restricted proof-spine target holds.
+
+C15 also provides a concrete constant-score route:
+
+ProductRestrictedParamsBoundedScore.restrictedParams_constantScore_to_currentBestMainTheorem
+
+For constantProductScore p c, inactive-insensitivity and boundedness are derived from the construction, assuming thresholdLo <= c and c <= thresholdHi.
+
+This partially reduces the natural base-bound burden for scores with verified bounded constructions.
+
+Remaining proof debt:
+- ProductFixedSet p x remains undischarged.
+- Arbitrary product scores are not proven bounded.
