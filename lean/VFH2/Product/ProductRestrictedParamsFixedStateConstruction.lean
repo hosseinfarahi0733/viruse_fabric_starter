@@ -87,3 +87,61 @@ theorem restrictedParams_constantScore_fixedProductState_to_currentBestMainTheor
 end ProductRestrictedParamsFixedStateConstruction
 
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsFixedStateConstruction
+
+/--
+C19 generalizes the v17.7.0 constructed fixed-state route.
+
+Instead of using only the constant score `constantProductScore p c`, this theorem
+uses the constructed state `fixedProductState p` with an arbitrary product score,
+provided the score is inactive-insensitive and globally bounded by the threshold
+interval.
+
+This preserves the constructed-state contribution of v17.7.0 while removing the
+constant-score restriction.
+-/
+theorem restrictedParams_boundedInactiveScore_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int)
+    (hThreshold : thresholdLo ≤ thresholdHi)
+    (hScoreInactive :
+      VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive p productScore)
+    (hScoreBounded :
+      VFH2.ProductRestrictedParamsBoundedScore.productScoreBoundedBy p productScore thresholdLo thresholdHi) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      productScore
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        productScore)
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      thresholdLo
+      thresholdHi
+      hThreshold := by
+  have hBounds :=
+    hScoreBounded
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+  exact
+    VFH2.ProductRestrictedParamsCurrentBestMainTheorem.restrictedParams_currentBestMainTheorem
+      p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      productScore
+      thresholdLo
+      thresholdHi
+      hThreshold
+      hScoreInactive
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState_ProductFixedSet p)
+      hBounds.1
+      hBounds.2
+
+end ProductRestrictedParamsFixedStateConstruction
+end VFH2
