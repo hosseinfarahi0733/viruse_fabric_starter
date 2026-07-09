@@ -84,3 +84,4 @@ import VFH2.Product.ProductRestrictedParamsBoundedScore
 import VFH2.Product.ProductRestrictedParamsFixedStateConstruction
 import VFH2.Product.ProductRestrictedParamsInactiveCoordScore
 import VFH2.Product.ProductRestrictedParamsActiveCoverage
+import VFH2.Product.ProductRestrictedParamsActiveNoncoverageCertificate
