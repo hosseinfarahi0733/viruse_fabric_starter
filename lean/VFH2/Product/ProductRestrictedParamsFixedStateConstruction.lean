@@ -239,3 +239,105 @@ theorem constantProductScore_BoundedInactiveScoreCertificate
 
 end ProductRestrictedParamsFixedStateConstruction
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsFixedStateConstruction
+
+/--
+C23 introduces a reusable score-range certificate.
+
+The certificate records pointwise lower and upper score bounds over all product
+states. Unlike a concrete score construction, this is a bridge pattern: future
+nonconstant score constructions can target this range certificate and then obtain
+the existing bounded inactive score certificate.
+
+This does not by itself construct a natural nonconstant score.
+-/
+structure ScoreRangeCertificate
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int) : Prop where
+  lower :
+    ∀ y : p.State, thresholdLo ≤ productScore y
+  upper :
+    ∀ y : p.State, productScore y ≤ thresholdHi
+
+/--
+A score-range certificate discharges the global boundedness predicate used by
+the score-side proof-spine route.
+-/
+theorem ScoreRangeCertificate.to_productScoreBoundedBy
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int)
+    (hRange : ScoreRangeCertificate p productScore thresholdLo thresholdHi) :
+    VFH2.ProductRestrictedParamsBoundedScore.productScoreBoundedBy
+      p productScore thresholdLo thresholdHi := by
+  intro y
+  exact ⟨hRange.lower y, hRange.upper y⟩
+
+/--
+Combining inactive-insensitivity with a score-range certificate yields the C21
+bounded inactive score certificate.
+
+This is the C23 bridge from range-style score reasoning into the existing
+constructed fixed-state proof spine.
+-/
+theorem ScoreRangeCertificate.to_BoundedInactiveScoreCertificate
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int)
+    (hScoreInactive :
+      VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive p productScore)
+    (hRange : ScoreRangeCertificate p productScore thresholdLo thresholdHi) :
+    BoundedInactiveScoreCertificate p productScore thresholdLo thresholdHi := by
+  exact {
+    inactive := hScoreInactive
+    bounded :=
+      ScoreRangeCertificate.to_productScoreBoundedBy
+        p productScore thresholdLo thresholdHi hRange
+  }
+
+/--
+C23 range-certificate route to the constructed fixed-state proof-spine target.
+
+This theorem keeps the fixed-state construction from v17.7.0 and the score
+certificate route from C21, but replaces the direct boundedness assumption with a
+range certificate.
+-/
+theorem restrictedParams_scoreRangeCertificate_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (productScore : p.State → Int)
+    (thresholdLo thresholdHi : Int)
+    (hThreshold : thresholdLo ≤ thresholdHi)
+    (hScoreInactive :
+      VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive p productScore)
+    (hRange : ScoreRangeCertificate p productScore thresholdLo thresholdHi) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      productScore
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        productScore)
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      thresholdLo
+      thresholdHi
+      hThreshold := by
+  exact
+    VFH2.ProductRestrictedParamsFixedStateConstruction.restrictedParams_scoreCertificate_fixedProductState_to_currentBestMainTheorem
+      p
+      productScore
+      thresholdLo
+      thresholdHi
+      hThreshold
+      (ScoreRangeCertificate.to_BoundedInactiveScoreCertificate
+        p productScore thresholdLo thresholdHi hScoreInactive hRange)
+
+end ProductRestrictedParamsFixedStateConstruction
+end VFH2
