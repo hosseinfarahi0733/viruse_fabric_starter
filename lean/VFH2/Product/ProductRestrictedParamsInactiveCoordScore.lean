@@ -88,3 +88,63 @@ theorem restrictedParams_inactiveCoordScore_fixedProductState_to_currentBestMain
 
 end ProductRestrictedParamsInactiveCoordScore
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsInactiveCoordScore
+
+/--
+C26 discharges the inactive-insensitivity obligation for `inactiveCoordScore`
+under the exact inactive-index condition.
+
+The definition of `productScoreInactiveInsensitive` requires equality of the score
+whenever two states agree on every inactive coordinate. Since `inactiveCoordScore`
+reads only coordinate `i`, the score is inactive-insensitive whenever `i` is not
+in the active coordinate set.
+-/
+theorem inactiveCoordScore_inactiveInsensitive_of_inactive_index
+    (p : VFH2.ProductRestrictedParams)
+    (i : VFH2.ProductIndex p.d)
+    (hi : ¬ i ∈ p.active) :
+    VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive
+      p
+      (inactiveCoordScore p i) := by
+  intro x y hInactiveEq
+  dsimp [inactiveCoordScore]
+  exact congrArg Int.ofNat (hInactiveEq i hi)
+
+/--
+C26 closes the remaining C25 score-side hypothesis for inactive coordinates.
+
+For any coordinate `i` outside the active set, the coordinate score has:
+1. derived inactive-insensitivity;
+2. derived range bounds from C25;
+3. a route into the constructed fixed-state proof spine.
+-/
+theorem restrictedParams_inactiveCoordScore_inactiveIndex_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (i : VFH2.ProductIndex p.d)
+    (hi : ¬ i ∈ p.active) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      (inactiveCoordScore p i)
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        (inactiveCoordScore p i))
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      0
+      (Int.ofNat p.n)
+      (Int.natCast_nonneg p.n) := by
+  exact
+    restrictedParams_inactiveCoordScore_fixedProductState_to_currentBestMainTheorem
+      p
+      i
+      (inactiveCoordScore_inactiveInsensitive_of_inactive_index p i hi)
+
+end ProductRestrictedParamsInactiveCoordScore
+end VFH2
