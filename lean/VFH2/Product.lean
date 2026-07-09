@@ -83,3 +83,4 @@ import VFH2.Product.ProductRestrictedParamsCurrentBestMainTheorem
 import VFH2.Product.ProductRestrictedParamsBoundedScore
 import VFH2.Product.ProductRestrictedParamsFixedStateConstruction
 import VFH2.Product.ProductRestrictedParamsInactiveCoordScore
+import VFH2.Product.ProductRestrictedParamsActiveCoverage
