@@ -87,3 +87,4 @@ import VFH2.Product.ProductRestrictedParamsActiveCoverage
 import VFH2.Product.ProductRestrictedParamsActiveNoncoverageCertificate
 
 import VFH2.Product.ProductRestrictedParamsActiveCustomEnumKernel
+import VFH2.Product.ProductRestrictedParamsActiveLengthLowerBound
