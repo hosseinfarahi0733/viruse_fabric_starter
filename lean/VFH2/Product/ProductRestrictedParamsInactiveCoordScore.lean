@@ -240,3 +240,59 @@ theorem restrictedParams_inactiveIndexCertificate_fixedProductState_to_currentBe
 
 end ProductRestrictedParamsInactiveCoordScore
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsInactiveCoordScore
+
+/--
+C28 constructs an inactive-index certificate from the minimal non-coverage
+condition.
+
+This does not claim that an inactive coordinate exists unconditionally. It says
+that if the active list does not cover every coordinate, then the witness can be
+packaged as an `InactiveIndexCertificate`.
+
+The definition is noncomputable because it extracts a witness from an existential
+proof.
+-/
+noncomputable def InactiveIndexCertificate.of_exists_inactive
+    (p : VFH2.ProductRestrictedParams)
+    (hExists : ∃ i : VFH2.ProductIndex p.d, ¬ i ∈ p.active) :
+    InactiveIndexCertificate p :=
+  {
+    i := Classical.choose hExists
+    inactive := Classical.choose_spec hExists
+  }
+
+/--
+The minimal non-coverage condition supplies a certificate-selected coordinate
+score and therefore closes the C27 proof-spine route.
+-/
+theorem restrictedParams_existsInactiveIndex_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (hExists : ∃ i : VFH2.ProductIndex p.d, ¬ i ∈ p.active) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      (inactiveIndexCertificateScore p
+        (InactiveIndexCertificate.of_exists_inactive p hExists))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        (inactiveIndexCertificateScore p
+          (InactiveIndexCertificate.of_exists_inactive p hExists)))
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      0
+      (Int.ofNat p.n)
+      (Int.natCast_nonneg p.n) := by
+  exact
+    restrictedParams_inactiveIndexCertificate_fixedProductState_to_currentBestMainTheorem
+      p
+      (InactiveIndexCertificate.of_exists_inactive p hExists)
+
+end ProductRestrictedParamsInactiveCoordScore
+end VFH2
