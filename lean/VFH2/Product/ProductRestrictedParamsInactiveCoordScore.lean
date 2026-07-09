@@ -148,3 +148,95 @@ theorem restrictedParams_inactiveCoordScore_inactiveIndex_fixedProductState_to_c
 
 end ProductRestrictedParamsInactiveCoordScore
 end VFH2
+
+namespace VFH2
+namespace ProductRestrictedParamsInactiveCoordScore
+
+/--
+C27 packages the exact remaining coordinate-side data needed by C26.
+
+An `InactiveIndexCertificate p` provides a product coordinate together with a proof
+that this coordinate is outside the active set. This is the smallest parameter-side
+certificate needed to close the `inactiveCoordScore` route from C26.
+-/
+structure InactiveIndexCertificate
+    (p : VFH2.ProductRestrictedParams) : Type where
+  i : VFH2.ProductIndex p.d
+  inactive : ¬ i ∈ p.active
+
+/--
+The coordinate score selected by an inactive-index certificate.
+-/
+def inactiveIndexCertificateScore
+    (p : VFH2.ProductRestrictedParams)
+    (cert : InactiveIndexCertificate p) :
+    p.State → Int :=
+  inactiveCoordScore p cert.i
+
+/--
+An inactive-index certificate supplies the inactive-insensitivity proof for its
+associated coordinate score.
+-/
+theorem InactiveIndexCertificate.score_inactiveInsensitive
+    (p : VFH2.ProductRestrictedParams)
+    (cert : InactiveIndexCertificate p) :
+    VFH2.ProductRestrictedParamsActiveInsensitiveScore.productScoreInactiveInsensitive
+      p
+      (inactiveIndexCertificateScore p cert) := by
+  dsimp [inactiveIndexCertificateScore]
+  exact inactiveCoordScore_inactiveInsensitive_of_inactive_index
+    p
+    cert.i
+    cert.inactive
+
+/--
+An inactive-index certificate supplies the range certificate for its associated
+coordinate score.
+-/
+theorem InactiveIndexCertificate.score_range_zero_top
+    (p : VFH2.ProductRestrictedParams)
+    (cert : InactiveIndexCertificate p) :
+    VFH2.ProductRestrictedParamsFixedStateConstruction.ScoreRangeCertificate
+      p
+      (inactiveIndexCertificateScore p cert)
+      0
+      (Int.ofNat p.n) := by
+  dsimp [inactiveIndexCertificateScore]
+  exact inactiveCoordScore_range_zero_top p cert.i
+
+/--
+C27 packages the C26 inactive-coordinate route behind an inactive-index
+certificate.
+
+This theorem removes the need to pass a raw coordinate and inactive-membership
+proof separately. The proof-spine target follows from the certificate-selected
+coordinate score.
+-/
+theorem restrictedParams_inactiveIndexCertificate_fixedProductState_to_currentBestMainTheorem
+    (p : VFH2.ProductRestrictedParams)
+    (cert : InactiveIndexCertificate p) :
+    VFH2.ProductRestrictedParamsRestrictedProofSpineFreeze.restrictedProofSpineTarget p
+      (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+      (VFH2.productUpdateState p)
+      (inactiveIndexCertificateScore p cert)
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedUpdate p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p))
+      (VFH2.ProductRestrictedParamsCanonicalRawEqualities.canonicalRestrictedTypedScore p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p)
+        (VFH2.productUpdateState p)
+        (inactiveIndexCertificateScore p cert))
+      (VFH2.ProductFixedSet p
+        (VFH2.ProductRestrictedParamsFixedStateConstruction.fixedProductState p))
+      0
+      (Int.ofNat p.n)
+      (Int.natCast_nonneg p.n) := by
+  dsimp [inactiveIndexCertificateScore]
+  exact
+    restrictedParams_inactiveCoordScore_inactiveIndex_fixedProductState_to_currentBestMainTheorem
+      p
+      cert.i
+      cert.inactive
+
+end ProductRestrictedParamsInactiveCoordScore
+end VFH2
