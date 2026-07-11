@@ -90,3 +90,5 @@ import VFH2.Product.ProductRestrictedParamsActiveCustomEnumKernel
 import VFH2.Product.ProductRestrictedParamsActiveLengthLowerBound
 
 import VFH2.Product.ProductRestrictedParamsActiveEraseConstruction
+
+import VFH2.Product.ProductRestrictedParamsPreferredFrontDoor
