@@ -5,11 +5,21 @@ on:
     paths:
       - "outputs/**"
       - "tools/proofchain/**"
+      - "lean/**"
+      - "lakefile.lean"
+      - "lake-manifest.json"
+      - "lean-toolchain"
+      - "scripts/audit_product_restricted_frontdoors.sh"
       - ".github/workflows/validate-proof-artifacts.yml"
   pull_request:
     paths:
       - "outputs/**"
       - "tools/proofchain/**"
+      - "lean/**"
+      - "lakefile.lean"
+      - "lake-manifest.json"
+      - "lean-toolchain"
+      - "scripts/audit_product_restricted_frontdoors.sh"
       - ".github/workflows/validate-proof-artifacts.yml"
   workflow_dispatch:
 
@@ -65,3 +75,20 @@ jobs:
             outputs/simulations/*.json
             outputs/simulations/*.csv
             outputs/simulations/*.md
+
+  validate-lean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check preferred front-door hygiene
+        run: bash scripts/audit_product_restricted_frontdoors.sh
+
+      - name: Build Lean proof library
+        uses: leanprover/lean-action@v1
+        with:
+          auto-config: "false"
+          build: "true"
+          use-mathlib-cache: "false"

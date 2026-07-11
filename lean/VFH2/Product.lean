@@ -92,3 +92,5 @@ import VFH2.Product.ProductRestrictedParamsActiveLengthLowerBound
 import VFH2.Product.ProductRestrictedParamsActiveEraseConstruction
 
 import VFH2.Product.ProductRestrictedParamsPreferredFrontDoor
+
+import VFH2.Product.ProductRestrictedParamsPreferredUsageExample
