@@ -29,6 +29,7 @@ import VFH2.Product.ProductPositiveLedger
 import VFH2.Product.ProductRestrictedBridge
 import VFH2.Product.ProductOneStepStabilization
 import VFH2.Product.ProductFixedPointCharacterization
+import VFH2.Product.ProductCanonicalFixedCompletion
 import VFH2.Product.ProductTransportLadderCertificate
 import VFH2.Product.ProductActiveSetGeneralization
 import VFH2.Product.ProductPointwiseTransportGeneralization
