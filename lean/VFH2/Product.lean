@@ -30,6 +30,7 @@ import VFH2.Product.ProductRestrictedBridge
 import VFH2.Product.ProductOneStepStabilization
 import VFH2.Product.ProductFixedPointCharacterization
 import VFH2.Product.ProductFiniteTimeStabilization
+import VFH2.Product.ProductExactStabilizationTime
 import VFH2.Product.ProductCanonicalFixedCompletion
 import VFH2.Product.ProductUpdateFiberCharacterization
 import VFH2.Product.ProductUpdateRangeCharacterization
