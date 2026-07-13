@@ -33,6 +33,7 @@ import VFH2.Product.ProductFiniteTimeStabilization
 import VFH2.Product.ProductExactStabilizationTime
 import VFH2.Product.ProductTrajectoryStationarity
 import VFH2.Product.ProductRestrictedParamsTrajectoryProofSpineCharacterization
+import VFH2.Product.ProductRestrictedParamsPreferredTrajectoryProofSpineCharacterization
 import VFH2.Product.ProductCanonicalFixedCompletion
 import VFH2.Product.ProductUpdateFiberCharacterization
 import VFH2.Product.ProductUpdateRangeCharacterization
