@@ -110,3 +110,4 @@ import VFH2.Product.ProductRestrictedParamsActiveEraseConstruction
 import VFH2.Product.ProductRestrictedParamsPreferredFrontDoor
 
 import VFH2.Product.ProductRestrictedParamsPreferredUsageExample
+import VFH2.Product.ProductOfficialRestrictedBridgeStateTransport
