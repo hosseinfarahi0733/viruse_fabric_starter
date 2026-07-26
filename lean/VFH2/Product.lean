@@ -112,3 +112,4 @@ import VFH2.Product.ProductRestrictedParamsPreferredFrontDoor
 import VFH2.Product.ProductRestrictedParamsPreferredUsageExample
 import VFH2.Product.ProductOfficialRestrictedBridgeStateTransport
 import VFH2.Product.ProductOfficialRestrictedBridgeDynamicsTransport
+import VFH2.Product.ProductOfficialRestrictedBridgeTransitionReflection
