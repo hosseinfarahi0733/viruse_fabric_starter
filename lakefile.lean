@@ -45,6 +45,7 @@ lean_lib VFH2 where
     `VFH2.UnrestrictedBridge.ProductFiniteActiveGlobalLedgerEffectTrajectoryConservativity,
     `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerEffect,
     `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerConvergenceCharacterization,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerPositiveCharacterization,
     `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerTrajectoryStationarity,
     `VFH2.UnrestrictedBridge.CountableFiniteActiveToInfiniteActiveConservativity,
     `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerFinalCharacterization,
