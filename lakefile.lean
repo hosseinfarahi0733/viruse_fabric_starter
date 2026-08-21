@@ -2,7 +2,7 @@ import Lake
 open Lake DSL
 
 package «viruse_fabric_starter» where
-  -- Restricted VF-H2 Lean scaffold only.
+  -- Restricted VF-H2 core plus a countably indexed finite-observation bridge.
   -- This package does not claim a completed machine-checked proof
   -- of the full Viruse Fabric theory.
 
@@ -10,6 +10,48 @@ package «viruse_fabric_starter» where
 lean_lib VFH2 where
   srcDir := "lean"
   roots := #[
+    `VFH2.UnrestrictedBridge.Scaffold,
+    `VFH2.UnrestrictedBridge.OfficialRestrictedEmbedding,
+    `VFH2.UnrestrictedBridge.ProductConservativity,
+    `VFH2.UnrestrictedBridge.LedgerEffectCharacterization,
+    `VFH2.UnrestrictedBridge.LedgerEffectQuantitativeCharacterization,
+    `VFH2.UnrestrictedBridge.ProductAdmissibility,
+    `VFH2.UnrestrictedBridge.ProductLedgerEffectQuantitativeCharacterization,
+    `VFH2.UnrestrictedBridge.ProductLedgerEffectActiveSignedDifferenceAccounting,
+    `VFH2.UnrestrictedBridge.ProductLedgerEffectLevelSetCharacterization,
+    `VFH2.UnrestrictedBridge.ProductLedgerEffectRangeCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationCompleteness,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationLevelSetCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectFormula,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectRangeCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectNormalForm,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectStateSpaceNormalForm,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyStateSpaceNormalForm,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyFiberDecomposition,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyOrderCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyRecurrenceCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyIntervalRealization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyPrefixSaturationCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyAdjacentCoverCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedySuccessorCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyFiniteSuccessorChainRealization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyCapacityBlockOverlapCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyMetricCharacterization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationSignedLedgerEffectGreedyMetricIntervalRealization,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationDynamicProofSpineConservativity,
+    `VFH2.UnrestrictedBridge.ProductFiniteObservationProofSpineTrajectoryStationarityCharacterization,
+    `VFH2.UnrestrictedBridge.CountableFiniteActiveGlobalLedgerEffect,
+    `VFH2.UnrestrictedBridge.ProductFiniteActiveGlobalLedgerEffectConservativity,
+    `VFH2.UnrestrictedBridge.ProductFiniteActiveGlobalLedgerEffectTrajectoryConservativity,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerEffect,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerConvergenceCharacterization,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerTrajectoryStationarity,
+    `VFH2.UnrestrictedBridge.CountableFiniteActiveToInfiniteActiveConservativity,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveGlobalLedgerFinalCharacterization,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveOneStepSemanticClosure,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveInvariantScore,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveSemanticProofSpine,
+    `VFH2.UnrestrictedBridge.CountableInfiniteActiveFormalCompletion,
     `VFH2.RestrictedBridge.Scaffold,
     `VFH2.RestrictedBridge.ProofBasics,
     `VFH2.RestrictedBridge.UpdateMap,
