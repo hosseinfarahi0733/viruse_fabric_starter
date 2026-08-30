@@ -1,0 +1,11 @@
+import VFH2.Product.ThreeTimeCausalSemanticRecovery
+
+open VFH2 ThreeTime
+
+#print axioms downstreamIntervention_preserves_past
+#print axioms candidatePast_antitone_of_evidenceRefines
+#print axioms exists_strict_recontextualization_without_pastChange
+#print axioms relationOfBooleanConstraint_chainRepresentable_iff_all_defects_zero
+#print axioms evenParityBooleanConstraint_not_chainRepresentable
+#print axioms booleanParitySCM_realize_satisfies_evenParity
+#print axioms relationOfEvenParityBooleanConstraint_iff_evenParity

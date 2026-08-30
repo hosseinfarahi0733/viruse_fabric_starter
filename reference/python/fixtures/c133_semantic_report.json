@@ -1,0 +1,44 @@
+{
+  "claim_boundary": "finite mathematical semantics; no physical, biological, or empirical claim",
+  "constraint_geometry": {
+    "chain_all_defects_zero": true,
+    "chain_middle_rectangle_closed": true,
+    "parity_all_defects_zero": false,
+    "parity_defect_count": 4,
+    "parity_middle_rectangle_closed": false,
+    "renaming_preserves_parity_defect_count": true
+  },
+  "future_intervention": {
+    "future": true,
+    "past": false,
+    "present": false
+  },
+  "model": "boolean-parity-scm-v1",
+  "no_retrocausality": {
+    "future_intervention_preserves_past": true,
+    "future_intervention_preserves_present": true,
+    "present_intervention_preserves_past": true
+  },
+  "observational_state": {
+    "future": false,
+    "past": false,
+    "present": false
+  },
+  "observer_recontextualization": {
+    "actual_past_unchanged_and_retained": true,
+    "strict_refinement": true,
+    "strong_candidate_pasts": [
+      false
+    ],
+    "weak_candidate_pasts": [
+      false,
+      true
+    ]
+  },
+  "present_intervention": {
+    "future": true,
+    "past": false,
+    "present": true
+  },
+  "schema": "vfh2.c133.semantic-report.v1"
+}

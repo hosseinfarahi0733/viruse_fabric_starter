@@ -103,6 +103,7 @@ lean_lib VFH2 where
     `VFH2.Product.ProductLedgerEffectTransport,
   `VFH2.Product.ProductFixedSetTransport,
   `VFH2.Product.ProductBridgeTransport,
+    `VFH2.Product.ThreeTimeCausalSemanticRecovery,
     `VFH2.Product.ProductTransportLadderCertificate,
     `VFH2.Product.ProductActiveSetGeneralization,
     `VFH2.Product.ProductPointwiseTransportGeneralization,

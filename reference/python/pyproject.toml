@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vfh2-c133-reference"
+version = "0.1.0"
+description = "Independent executable oracle for VFH2 C133 tri-temporal causal semantics"
+requires-python = ">=3.11"
+license = {text = "Apache-2.0"}
+authors = [{name = "VFH2 Project"}]
+dependencies = []
+
+[project.scripts]
+vfh2-c133 = "vfh2_c133.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
