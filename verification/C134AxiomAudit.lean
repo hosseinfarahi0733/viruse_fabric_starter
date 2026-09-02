@@ -1,0 +1,8 @@
+import VFH2.Product.ThreeTimeInterventionalConstraintCausality
+
+open VFH2 ThreeTime
+
+#print axioms booleanParitySCM_evenParity_characterizesFutureLaw
+#print axioms booleanParitySCM_executableParity_characterizesFutureLaw
+#print axioms booleanParitySCM_presentCausalContrastAt_iff_present_ne
+#print axioms booleanParitySCM_presentHasCausalEffectOnFuture
