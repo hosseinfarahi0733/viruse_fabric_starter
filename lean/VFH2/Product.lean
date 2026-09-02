@@ -142,3 +142,4 @@ import VFH2.Product.ThreeTimeOperationalObservers
 import VFH2.Product.ThreeTimeFalsifiabilityContract
 import VFH2.Product.ThreeTimeConstraintGeometryMathematicalCompletion
 import VFH2.Product.ThreeTimeInterventionalConstraintCausality
+import VFH2.Product.ThreeTimeConstraintInterventionCharacterization
