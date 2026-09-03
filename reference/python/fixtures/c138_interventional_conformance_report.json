@@ -1,0 +1,1168 @@
+{
+  "canonical_order": {
+    "boolean_domain": [
+      false,
+      true
+    ],
+    "constraint_rows": [
+      "past=false,present=false,future=false",
+      "past=false,present=false,future=true",
+      "past=false,present=true,future=false",
+      "past=false,present=true,future=true",
+      "past=true,present=false,future=false",
+      "past=true,present=false,future=true",
+      "past=true,present=true,future=false",
+      "past=true,present=true,future=true"
+    ],
+    "future_rows": [
+      "past=false,present=false",
+      "past=false,present=true",
+      "past=true,present=false",
+      "past=true,present=true"
+    ],
+    "mask_rule": "row i is encoded by bit (1 << i)",
+    "model_index_rule": "16 * present_mask + future_mask",
+    "present_rows": [
+      "past=false",
+      "past=true"
+    ]
+  },
+  "claim_boundary": "exhaustive finite Boolean semantic conformance; not statistical identification, causal discovery, or empirical, biological, or physical validation",
+  "exhaustive_conformance": {
+    "all_checks_pass": true,
+    "constraint_rectangle_defect_histogram": {
+      "0": 100,
+      "1": 80,
+      "2": 56,
+      "3": 16,
+      "4": 4
+    },
+    "counts": {
+      "constraint_count": 256,
+      "distinct_law_graph_constraint_count": 16,
+      "effectful_model_count": 48,
+      "effectless_model_count": 16,
+      "explicit_witness_candidate_count": 2048,
+      "false_pointwise_case_count": 384,
+      "model_constraint_pair_count": 16384,
+      "model_count": 64,
+      "observational_different_causal_status_ordered_pair_count": 96,
+      "observational_different_causal_status_unordered_pair_count": 48,
+      "observational_equivalence_class_count": 16,
+      "observational_ordered_distinct_pair_count": 192,
+      "observational_ordered_pair_count_including_self": 256,
+      "observational_unordered_distinct_pair_count": 96,
+      "passing_global_case_count": 64,
+      "passing_pointwise_case_count": 512,
+      "qualified_pair_count": 64,
+      "qualified_pointwise_case_count": 512,
+      "satisfying_explicit_witness_count": 128,
+      "true_pointwise_case_count": 128,
+      "unqualified_pair_count": 16320
+    },
+    "expected_counts": {
+      "constraint_count": 256,
+      "distinct_law_graph_constraint_count": 16,
+      "effectful_model_count": 48,
+      "effectless_model_count": 16,
+      "explicit_witness_candidate_count": 2048,
+      "false_pointwise_case_count": 384,
+      "model_constraint_pair_count": 16384,
+      "model_count": 64,
+      "observational_different_causal_status_ordered_pair_count": 96,
+      "observational_different_causal_status_unordered_pair_count": 48,
+      "observational_equivalence_class_count": 16,
+      "observational_ordered_distinct_pair_count": 192,
+      "observational_ordered_pair_count_including_self": 256,
+      "observational_unordered_distinct_pair_count": 96,
+      "passing_global_case_count": 64,
+      "passing_pointwise_case_count": 512,
+      "qualified_pair_count": 64,
+      "qualified_pointwise_case_count": 512,
+      "satisfying_explicit_witness_count": 128,
+      "true_pointwise_case_count": 128,
+      "unqualified_pair_count": 16320
+    },
+    "failures": [],
+    "geometry_effect_model_counts": [
+      {
+        "middle_rectangle_closed": false,
+        "model_count": 8,
+        "present_effect": false
+      },
+      {
+        "middle_rectangle_closed": false,
+        "model_count": 40,
+        "present_effect": true
+      },
+      {
+        "middle_rectangle_closed": true,
+        "model_count": 8,
+        "present_effect": false
+      },
+      {
+        "middle_rectangle_closed": true,
+        "model_count": 8,
+        "present_effect": true
+      }
+    ],
+    "graph_constraint_model_count_histogram": {
+      "4": 16
+    },
+    "observation_class_size_histogram": {
+      "4": 16
+    },
+    "per_model": [
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 0,
+        "law_graph_mask": 85,
+        "matching_constraint_masks": [
+          85
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 0,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 0,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 1,
+        "law_graph_mask": 86,
+        "matching_constraint_masks": [
+          86
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 1,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 2,
+        "law_graph_mask": 89,
+        "matching_constraint_masks": [
+          89
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 2,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 3,
+        "law_graph_mask": 90,
+        "matching_constraint_masks": [
+          90
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 3,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 0,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 4,
+        "law_graph_mask": 101,
+        "matching_constraint_masks": [
+          101
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 4,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 5,
+        "law_graph_mask": 102,
+        "matching_constraint_masks": [
+          102
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 5,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 6,
+        "law_graph_mask": 105,
+        "matching_constraint_masks": [
+          105
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 6,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 7,
+        "law_graph_mask": 106,
+        "matching_constraint_masks": [
+          106
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 7,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 8,
+        "law_graph_mask": 149,
+        "matching_constraint_masks": [
+          149
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 8,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 9,
+        "law_graph_mask": 150,
+        "matching_constraint_masks": [
+          150
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 9,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 10,
+        "law_graph_mask": 153,
+        "matching_constraint_masks": [
+          153
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 10,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 11,
+        "law_graph_mask": 154,
+        "matching_constraint_masks": [
+          154
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 11,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 12,
+        "law_graph_mask": 165,
+        "matching_constraint_masks": [
+          165
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 12,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 0,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 13,
+        "law_graph_mask": 166,
+        "matching_constraint_masks": [
+          166
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 13,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 14,
+        "law_graph_mask": 169,
+        "matching_constraint_masks": [
+          169
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 14,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 0,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 15,
+        "law_graph_mask": 170,
+        "matching_constraint_masks": [
+          170
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 15,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 0,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 0,
+        "law_graph_mask": 85,
+        "matching_constraint_masks": [
+          85
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 16,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 1,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 1,
+        "law_graph_mask": 86,
+        "matching_constraint_masks": [
+          86
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 17,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 2,
+        "law_graph_mask": 89,
+        "matching_constraint_masks": [
+          89
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 18,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 3,
+        "law_graph_mask": 90,
+        "matching_constraint_masks": [
+          90
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 19,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 1,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 4,
+        "law_graph_mask": 101,
+        "matching_constraint_masks": [
+          101
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 20,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 5,
+        "law_graph_mask": 102,
+        "matching_constraint_masks": [
+          102
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 21,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 6,
+        "law_graph_mask": 105,
+        "matching_constraint_masks": [
+          105
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 22,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 7,
+        "law_graph_mask": 106,
+        "matching_constraint_masks": [
+          106
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 23,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 8,
+        "law_graph_mask": 149,
+        "matching_constraint_masks": [
+          149
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 24,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 9,
+        "law_graph_mask": 150,
+        "matching_constraint_masks": [
+          150
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 25,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 10,
+        "law_graph_mask": 153,
+        "matching_constraint_masks": [
+          153
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 26,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 11,
+        "law_graph_mask": 154,
+        "matching_constraint_masks": [
+          154
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 27,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 12,
+        "law_graph_mask": 165,
+        "matching_constraint_masks": [
+          165
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 28,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 1,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 13,
+        "law_graph_mask": 166,
+        "matching_constraint_masks": [
+          166
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 29,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 14,
+        "law_graph_mask": 169,
+        "matching_constraint_masks": [
+          169
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 30,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 1,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 15,
+        "law_graph_mask": 170,
+        "matching_constraint_masks": [
+          170
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 31,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 1,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 0,
+        "law_graph_mask": 85,
+        "matching_constraint_masks": [
+          85
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 32,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 2,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 1,
+        "law_graph_mask": 86,
+        "matching_constraint_masks": [
+          86
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 33,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 2,
+        "law_graph_mask": 89,
+        "matching_constraint_masks": [
+          89
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 34,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 3,
+        "law_graph_mask": 90,
+        "matching_constraint_masks": [
+          90
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 35,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 2,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 4,
+        "law_graph_mask": 101,
+        "matching_constraint_masks": [
+          101
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 36,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 5,
+        "law_graph_mask": 102,
+        "matching_constraint_masks": [
+          102
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 37,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 6,
+        "law_graph_mask": 105,
+        "matching_constraint_masks": [
+          105
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 38,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 7,
+        "law_graph_mask": 106,
+        "matching_constraint_masks": [
+          106
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 39,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 8,
+        "law_graph_mask": 149,
+        "matching_constraint_masks": [
+          149
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 40,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 9,
+        "law_graph_mask": 150,
+        "matching_constraint_masks": [
+          150
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 41,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 10,
+        "law_graph_mask": 153,
+        "matching_constraint_masks": [
+          153
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 42,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 11,
+        "law_graph_mask": 154,
+        "matching_constraint_masks": [
+          154
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 43,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 12,
+        "law_graph_mask": 165,
+        "matching_constraint_masks": [
+          165
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 44,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 2,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 13,
+        "law_graph_mask": 166,
+        "matching_constraint_masks": [
+          166
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 45,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 14,
+        "law_graph_mask": 169,
+        "matching_constraint_masks": [
+          169
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 46,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 2,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 15,
+        "law_graph_mask": 170,
+        "matching_constraint_masks": [
+          170
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 47,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 2,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 0,
+        "law_graph_mask": 85,
+        "matching_constraint_masks": [
+          85
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 48,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 3,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 1,
+        "law_graph_mask": 86,
+        "matching_constraint_masks": [
+          86
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 49,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 2,
+        "law_graph_mask": 89,
+        "matching_constraint_masks": [
+          89
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 50,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 3,
+        "law_graph_mask": 90,
+        "matching_constraint_masks": [
+          90
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 51,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 3,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 4,
+        "law_graph_mask": 101,
+        "matching_constraint_masks": [
+          101
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 52,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 5,
+        "law_graph_mask": 102,
+        "matching_constraint_masks": [
+          102
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 53,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 6,
+        "law_graph_mask": 105,
+        "matching_constraint_masks": [
+          105
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 54,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 7,
+        "law_graph_mask": 106,
+        "matching_constraint_masks": [
+          106
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 55,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 8,
+        "law_graph_mask": 149,
+        "matching_constraint_masks": [
+          149
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 56,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 9,
+        "law_graph_mask": 150,
+        "matching_constraint_masks": [
+          150
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 57,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 4,
+        "future_mask": 10,
+        "law_graph_mask": 153,
+        "matching_constraint_masks": [
+          153
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 58,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 4
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 11,
+        "law_graph_mask": 154,
+        "matching_constraint_masks": [
+          154
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 59,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 12,
+        "law_graph_mask": 165,
+        "matching_constraint_masks": [
+          165
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 60,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 3,
+        "rectangle_defect_count": 4,
+        "true_ordered_pointwise_contrast_count": 0
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 13,
+        "law_graph_mask": 166,
+        "matching_constraint_masks": [
+          166
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 61,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 2,
+        "future_mask": 14,
+        "law_graph_mask": 169,
+        "matching_constraint_masks": [
+          169
+        ],
+        "middle_rectangle_closed": false,
+        "model_index": 62,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": true,
+        "present_mask": 3,
+        "rectangle_defect_count": 2,
+        "true_ordered_pointwise_contrast_count": 2
+      },
+      {
+        "explicit_constraint_witness_count": 0,
+        "future_mask": 15,
+        "law_graph_mask": 170,
+        "matching_constraint_masks": [
+          170
+        ],
+        "middle_rectangle_closed": true,
+        "model_index": 63,
+        "pointwise_equivalence_pass_count": 8,
+        "present_effect": false,
+        "present_mask": 3,
+        "rectangle_defect_count": 0,
+        "true_ordered_pointwise_contrast_count": 0
+      }
+    ]
+  },
+  "fixtures": {
+    "c134_boolean_parity": {
+      "future_mask": 6,
+      "law_graph_mask": 105,
+      "model_index": 38,
+      "present_effect": true,
+      "present_mask": 2,
+      "rectangle_defect_count": 4,
+      "true_ordered_pointwise_contrasts": 4
+    },
+    "c136_geometry_causality": {
+      "past_copy": {
+        "law_graph_mask": 165,
+        "middle_rectangle_closed": false,
+        "model_index": 44,
+        "present_effect": false,
+        "rectangle_defect_count": 4
+      },
+      "present_copy": {
+        "law_graph_mask": 153,
+        "middle_rectangle_closed": true,
+        "model_index": 42,
+        "present_effect": true,
+        "rectangle_defect_count": 0,
+        "witness": {
+          "past": false,
+          "present_one": false,
+          "present_two": true
+        }
+      }
+    },
+    "c137_observational_nonidentifiability": {
+      "fieldwise_observational_equivalence": true,
+      "off_path_intervention_separation": [
+        {
+          "intervened_present": true,
+          "past": false,
+          "past_copy_future": false,
+          "present_copy_future": true
+        },
+        {
+          "intervened_present": false,
+          "past": true,
+          "past_copy_future": true,
+          "present_copy_future": false
+        }
+      ],
+      "past_copy_observations": [
+        {
+          "future": false,
+          "past": false,
+          "present": false
+        },
+        {
+          "future": true,
+          "past": true,
+          "present": true
+        }
+      ],
+      "past_copy_present_effect": false,
+      "present_copy_observations": [
+        {
+          "future": false,
+          "past": false,
+          "present": false
+        },
+        {
+          "future": true,
+          "past": true,
+          "present": true
+        }
+      ],
+      "present_copy_present_effect": true
+    },
+    "premise_is_necessary": {
+      "empty_constraint_with_present_copy": {
+        "characterizes_future_law": false,
+        "constraint_has_global_witness": false,
+        "constraint_mask": 0,
+        "model_has_effect": true
+      },
+      "universal_constraint_with_past_copy": {
+        "characterizes_future_law": false,
+        "constraint_has_global_witness": true,
+        "constraint_mask": 255,
+        "model_has_effect": false
+      }
+    }
+  },
+  "schema": "vfh2.c138.interventional-conformance.v1"
+}

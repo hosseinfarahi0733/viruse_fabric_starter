@@ -1,0 +1,9 @@
+import VFH2.Product.ThreeTimeObservationalNonidentifiability
+
+open VFH2 ThreeTime
+
+#print axioms constraintCharacterizesFutureLaw_presentCausalContrastAt_iff
+#print axioms constraintCharacterizesFutureLaw_presentHasCausalEffectOnFuture_iff
+#print axioms pastDrivenBooleanSCM_nonChain_without_presentCausalEffect
+#print axioms presentDrivenBooleanSCM_chain_with_presentCausalEffect
+#print axioms pastDriven_presentDriven_same_completeObservations_different_presentCausality
