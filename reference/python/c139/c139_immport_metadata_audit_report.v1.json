@@ -1,0 +1,412 @@
+{
+  "algorithm": "vfh2.c139.immport-metadata-audit.v1",
+  "base_commit": "3a107eb735bee8fc142f9b981e207aca506692ea",
+  "cohort_audit": {
+    "records": [
+      {
+        "candidate_roles": [
+          "DISCOVERY",
+          "REPLICATION_FALLBACK"
+        ],
+        "classification": "EXCLUDED",
+        "cohort_id": "SDY180_FLUZONE_2009_2010",
+        "complete_subject_upper_bound": 12,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "ARM_FILTER_REQUIRED",
+          "MIXED_VACCINE_MODALITIES"
+        ],
+        "reason_codes": [
+          "COMPLETE_SUBJECT_UPPER_BOUND_BELOW_25"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY180",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY269_TIV_2008",
+        "complete_subject_upper_bound": 28,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "MIXED_VACCINE_MODALITIES",
+          "STUDY_LEVEL_OVERLAP_REPORTED"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_POOLING_UNAMBIGUOUS",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY269",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY270_TIV_2009",
+        "complete_subject_upper_bound": 27,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "GEO_MAPPING_CONFLICT",
+          "MIXED_VACCINE_MODALITIES",
+          "STUDY_LEVEL_OVERLAP_REPORTED"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_PLATFORM_PROVENANCE_CLEAR",
+          "UNRESOLVED_POOLING_UNAMBIGUOUS",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY270",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "license_version_pinned",
+          "platform_provenance_clear",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY400_TIV_2012",
+        "complete_subject_upper_bound": 31,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "PUBLICATION_GEO_VS_IMMPORT_COUNT_DIFFERENCE",
+          "PLANNED_VISIT_RANGE_CROSSES_WINDOW"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_HAI_D28_35",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_POOLING_UNAMBIGUOUS",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR",
+          "UNRESOLVED_TRANSCRIPTOMICS_D1_3"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY400",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "hai_d28_35",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear",
+          "transcriptomics_d1_3"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY404_TIV_2011",
+        "complete_subject_upper_bound": 39,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+          "STUDY_LEVEL_OVERLAP_REPORTED"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_HAI_D28_35",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_POOLING_UNAMBIGUOUS",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR",
+          "UNRESOLVED_TRANSCRIPTOMICS_D1_3"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY404",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "hai_d28_35",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear",
+          "transcriptomics_d1_3"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "EXCLUDED",
+        "cohort_id": "SDY520_TIV_2013",
+        "complete_subject_upper_bound": 23,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+          "SPECIMEN_LABEL_CONFLICT"
+        ],
+        "reason_codes": [
+          "COMPLETE_SUBJECT_UPPER_BOUND_BELOW_25"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY520",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "hai_d28_35",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "EXCLUDED",
+        "cohort_id": "SDY640_TIV_2014",
+        "complete_subject_upper_bound": 19,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+          "SPECIMEN_LABEL_CONFLICT"
+        ],
+        "reason_codes": [
+          "COMPLETE_SUBJECT_UPPER_BOUND_BELOW_25"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY640",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "hai_d28_35",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY",
+          "REPLICATION_PREFERRED"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY1119_TIV_2011",
+        "complete_subject_upper_bound": 34,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "SUPER_SERIES_COLLISION_RISK"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_POOLING_UNAMBIGUOUS",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY1119",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "license_version_pinned",
+          "pooling_unambiguous",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      },
+      {
+        "candidate_roles": [
+          "DISCOVERY"
+        ],
+        "classification": "UNRESOLVED",
+        "cohort_id": "SDY56_TIV_2010",
+        "complete_subject_upper_bound": 52,
+        "confirmed_complete_subject_count": null,
+        "evidence_flags": [
+          "GEO_MAPPING_CONFLICT",
+          "SUPER_SERIES_COLLISION_RISK"
+        ],
+        "reason_codes": [
+          "SAME_SUBJECT_COMPLETE_COUNT_UNRESOLVED",
+          "UNRESOLVED_COMPARABLE_HAI",
+          "UNRESOLVED_LICENSE_VERSION_PINNED",
+          "UNRESOLVED_PLATFORM_PROVENANCE_CLEAR",
+          "UNRESOLVED_PUBLIC_DEIDENTIFIED_DATA_UNDER_DECLARED_TERMS",
+          "UNRESOLVED_SAME_SUBJECT_LINKAGE",
+          "UNRESOLVED_SUBJECT_MAPPING_CLEAR"
+        ],
+        "recruitment_institution": null,
+        "study_accession": "SDY56",
+        "unresolved_criteria": [
+          "comparable_hai",
+          "license_version_pinned",
+          "platform_provenance_clear",
+          "public_deidentified_data_under_declared_terms",
+          "same_subject_linkage",
+          "subject_mapping_clear"
+        ]
+      }
+    ],
+    "status_counts": {
+      "ELIGIBLE": 0,
+      "EXCLUDED": 3,
+      "UNRESOLVED": 6
+    }
+  },
+  "confirmed_gate": {
+    "power_assessment": {
+      "estimated_power_basis_points": null,
+      "status": "NOT_EVALUATED"
+    },
+    "strategies": [
+      {
+        "checks": {
+          "discovery_cohorts": false,
+          "discovery_complete_subjects": false,
+          "discovery_institutions": false,
+          "pairwise_disjoint": false,
+          "power": false,
+          "replication_complete_subjects": false
+        },
+        "confirmed_discovery_cohort_ids": [],
+        "confirmed_discovery_complete_subjects": 0,
+        "confirmed_discovery_institutions": [],
+        "confirmed_replication_complete_subjects": null,
+        "metadata_capacity_passes": false,
+        "passes": false,
+        "replication_cohort_id": "SDY1119_TIV_2011"
+      },
+      {
+        "checks": {
+          "discovery_cohorts": false,
+          "discovery_complete_subjects": false,
+          "discovery_institutions": false,
+          "pairwise_disjoint": false,
+          "power": false,
+          "replication_complete_subjects": false
+        },
+        "confirmed_discovery_cohort_ids": [],
+        "confirmed_discovery_complete_subjects": 0,
+        "confirmed_discovery_institutions": [],
+        "confirmed_replication_complete_subjects": null,
+        "metadata_capacity_passes": false,
+        "passes": false,
+        "replication_cohort_id": "SDY180_FLUZONE_2009_2010"
+      }
+    ]
+  },
+  "declared_artifact_contract": {
+    "content_scope": "PUBLIC_AGGREGATE_METADATA_ONLY",
+    "immport_authenticated_download_performed_by_c139_implementation": false,
+    "model_fitting_in_implementation": false,
+    "network_required_for_replay": false,
+    "outcome_measurements_in_artifact": false,
+    "raw_or_individual_data_in_artifact": false
+  },
+  "final_gate": {
+    "fitting_authorized": false,
+    "reason_codes": [
+      "BOTH_REPLICATION_BOUNDS_BELOW_50",
+      "NO_CONFIRMED_STRATEGY_PASSES",
+      "NO_ELIGIBLE_COHORTS",
+      "OPTIMISTIC_DISCOVERY_BOUND_BELOW_250",
+      "OVERLAP_NOT_CONFIRMED_DISJOINT",
+      "POWER_NOT_EVALUATED"
+    ],
+    "status": "INSUFFICIENT_EVIDENCE",
+    "thresholds_lowered": false
+  },
+  "limitations": [
+    "NO_CAUSAL_OR_BIOLOGICAL_CLAIM",
+    "NO_COMPLETE_CASE_OR_OUTCOME_VALUE_AUDIT",
+    "NO_EMPIRICAL_MODEL_FIT",
+    "NO_HUMAN_OUTCOME_BLINDNESS_ATTESTATION",
+    "UPSTREAM_PAYLOAD_BYTES_NOT_ARCHIVED"
+  ],
+  "manifest_schema": "vfh2.c139.immport-metadata-audit-manifest.v1",
+  "manifest_sha256": "7ceb2f9e8fcb54aba297ce79f1968f5b430925d700c84d7414e226cf574ac82d",
+  "optimistic_capacity_audit": {
+    "diagnostic_only": true,
+    "strategies": [
+      {
+        "discovery_cohort_ids": [
+          "SDY269_TIV_2008",
+          "SDY270_TIV_2009",
+          "SDY400_TIV_2012",
+          "SDY404_TIV_2011",
+          "SDY56_TIV_2010"
+        ],
+        "discovery_cohort_upper_bound": 5,
+        "discovery_complete_subject_upper_bound": 177,
+        "discovery_upper_bound_complete": true,
+        "ignores_unknown_criteria_and_overlap": true,
+        "missing_discovery_upper_bound_cohort_ids": [],
+        "replication_cohort_id": "SDY1119_TIV_2011",
+        "replication_complete_subject_upper_bound": 34,
+        "replication_threshold_impossible": true,
+        "replication_upper_bound_complete": true
+      },
+      {
+        "discovery_cohort_ids": [
+          "SDY269_TIV_2008",
+          "SDY270_TIV_2009",
+          "SDY400_TIV_2012",
+          "SDY404_TIV_2011",
+          "SDY1119_TIV_2011",
+          "SDY56_TIV_2010"
+        ],
+        "discovery_cohort_upper_bound": 6,
+        "discovery_complete_subject_upper_bound": 211,
+        "discovery_upper_bound_complete": true,
+        "ignores_unknown_criteria_and_overlap": true,
+        "missing_discovery_upper_bound_cohort_ids": [],
+        "replication_cohort_id": "SDY180_FLUZONE_2009_2010",
+        "replication_complete_subject_upper_bound": 12,
+        "replication_threshold_impossible": true,
+        "replication_upper_bound_complete": true
+      }
+    ]
+  },
+  "schema": "vfh2.c139.immport-metadata-audit-report.v1"
+}

@@ -1,0 +1,1722 @@
+{
+  "artifact_contract": {
+    "content_scope": "PUBLIC_AGGREGATE_METADATA_ONLY",
+    "immport_authenticated_download_performed_by_c139_implementation": false,
+    "model_fitting_in_implementation": false,
+    "network_required_for_replay": false,
+    "outcome_measurements_in_artifact": false,
+    "raw_or_individual_data_in_artifact": false
+  },
+  "audit_id": "VFH2-C139-IMMPORT-PUBLIC-METADATA-2026-09-04",
+  "base_commit": "3a107eb735bee8fc142f9b981e207aca506692ea",
+  "cohorts": [
+    {
+      "arm_label": "2009-2010 Fluzone influenza arm",
+      "candidate_roles": [
+        "DISCOVERY",
+        "REPLICATION_FALLBACK"
+      ],
+      "cohort_id": "SDY180_FLUZONE_2009_2010",
+      "complete_subject_upper_bound": {
+        "count": 12,
+        "source_ids": [
+          "geo-gse48762",
+          "immport-design-sdy180",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy180",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse48762",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse48762",
+            "immport-design-sdy180"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy180"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "ARM_FILTER_REQUIRED",
+        "MIXED_VACCINE_MODALITIES"
+      ],
+      "geo_series": [
+        "GSE48762"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse48762",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Illumina expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Texas"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy180"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2009-2010",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "whole blood"
+      },
+      "study_accession": "SDY180"
+    },
+    {
+      "arm_label": "TIV group 2008",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY269_TIV_2008",
+      "complete_subject_upper_bound": {
+        "count": 28,
+        "source_ids": [
+          "geo-gse29617"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy269"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy269"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "geo-gse29617",
+            "immport-design-sdy269"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse29617",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "geo-gse29617",
+            "immport-design-sdy269"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "geo-gse29617",
+            "immport-design-sdy269"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse29617",
+            "immport-design-sdy269"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "geo-gse29617"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "geo-gse29617"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "geo-gse29617"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "MIXED_VACCINE_MODALITIES",
+        "STUDY_LEVEL_OVERLAP_REPORTED"
+      ],
+      "geo_series": [
+        "GSE29617"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse29617",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Affymetrix expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Georgia"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "geo-gse29617",
+          "immport-design-sdy269"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2008-2009",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY269"
+    },
+    {
+      "arm_label": "TIV group 2009",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY270_TIV_2009",
+      "complete_subject_upper_bound": {
+        "count": 27,
+        "source_ids": [
+          "geo-gse74811",
+          "immport-design-sdy270"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy270"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy270"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "geo-gse74811",
+            "immport-design-sdy270"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse74811",
+            "immune-signatures-resource"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "geo-gse74811",
+            "immport-design-sdy270"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "geo-gse74811",
+            "immport-design-sdy270"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse74811",
+            "immune-signatures-resource"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "geo-gse74811"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "geo-gse74811"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "geo-gse74811"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "GEO_MAPPING_CONFLICT",
+        "MIXED_VACCINE_MODALITIES",
+        "STUDY_LEVEL_OVERLAP_REPORTED"
+      ],
+      "geo_series": [
+        "GSE74811"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse74811",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Affymetrix expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Georgia"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "geo-gse74811",
+          "immport-design-sdy270"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2009-2010",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY270"
+    },
+    {
+      "arm_label": "TIV 2012 young and older adult arms",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY400_TIV_2012",
+      "complete_subject_upper_bound": {
+        "count": 31,
+        "source_ids": [
+          "immport-design-sdy400"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy400",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse59743",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse59743",
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy400"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "PUBLICATION_GEO_VS_IMMPORT_COUNT_DIFFERENCE",
+        "PLANNED_VISIT_RANGE_CROSSES_WINDOW"
+      ],
+      "geo_series": [
+        "GSE59743"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse59743",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Illumina HumanHT-12 v4 array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Connecticut"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy400"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2012-2013",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY400"
+    },
+    {
+      "arm_label": "TIV 2011 young and older adult arms",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY404_TIV_2011",
+      "complete_subject_upper_bound": {
+        "count": 39,
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy404",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse59654",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse59654",
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy404"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+        "STUDY_LEVEL_OVERLAP_REPORTED"
+      ],
+      "geo_series": [
+        "GSE59654"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse59654",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Illumina HumanHT-12 v4 array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Connecticut"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy404"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2011-2012",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY404"
+    },
+    {
+      "arm_label": "TIV 2013 young and older adult arms",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY520_TIV_2013",
+      "complete_subject_upper_bound": {
+        "count": 23,
+        "source_ids": [
+          "immport-design-sdy520"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy520",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse101709",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse101709",
+            "immport-design-sdy520"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy520"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "geo-gse101709",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+        "SPECIMEN_LABEL_CONFLICT"
+      ],
+      "geo_series": [
+        "GSE101709"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse101709",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Illumina expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Connecticut"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy520"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2013-2014",
+      "specimen": {
+        "source_ids": [
+          "geo-gse101709",
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "study_accession": "SDY520"
+    },
+    {
+      "arm_label": "TIV 2014 young and older adult arms",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY640_TIV_2014",
+      "complete_subject_upper_bound": {
+        "count": 19,
+        "source_ids": [
+          "immport-design-sdy640"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy640",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse101710",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse101710",
+            "immport-design-sdy640"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy640"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "geo-gse101710",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "PLANNED_VISIT_RANGE_CROSSES_WINDOW",
+        "SPECIMEN_LABEL_CONFLICT"
+      ],
+      "geo_series": [
+        "GSE101710"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse101710",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Illumina expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Connecticut"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy640"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2014-2015",
+      "specimen": {
+        "source_ids": [
+          "geo-gse101710",
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "study_accession": "SDY640"
+    },
+    {
+      "arm_label": "TIV 2011 healthy and type 2 diabetes strata",
+      "candidate_roles": [
+        "DISCOVERY",
+        "REPLICATION_PREFERRED"
+      ],
+      "cohort_id": "SDY1119_TIV_2011",
+      "complete_subject_upper_bound": {
+        "count": 34,
+        "source_ids": [
+          "immport-design-sdy1119"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy1119"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy1119"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy1119",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse74816",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy1119"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "geo-gse74816",
+            "immport-design-sdy1119"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse74816",
+            "immport-design-sdy1119"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "geo-gse74816",
+            "immport-design-sdy1119"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "geo-gse74816",
+            "immport-design-sdy1119"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "geo-gse74816",
+            "immport-design-sdy1119"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "SUPER_SERIES_COLLISION_RISK"
+      ],
+      "geo_series": [
+        "GSE74816"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse74816",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Affymetrix expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource",
+          "immport-search-metadata"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource",
+          "immport-search-metadata"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "geo-gse74816",
+          "immport-design-sdy1119"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2011-2012",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY1119"
+    },
+    {
+      "arm_label": "TIV 2010 young and older adult arms",
+      "candidate_roles": [
+        "DISCOVERY"
+      ],
+      "cohort_id": "SDY56_TIV_2010",
+      "complete_subject_upper_bound": {
+        "count": 52,
+        "source_ids": [
+          "immport-design-sdy56"
+        ],
+        "status": "CONFIRMED"
+      },
+      "criteria": {
+        "comparable_hai": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "hai_d28_35": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "human": {
+          "source_ids": [
+            "immport-search-metadata"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "injectable_influenza_arm": {
+          "source_ids": [
+            "immport-design-sdy56",
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "license_version_pinned": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "platform_provenance_clear": {
+          "source_ids": [
+            "geo-gse74813",
+            "geo-gse74817",
+            "immune-signatures-resource"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "pooling_unambiguous": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "public_deidentified_data_under_declared_terms": {
+          "source_ids": [
+            "immport-download-guide",
+            "immport-dmsp-guide"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "same_subject_linkage": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "subject_mapping_clear": {
+          "source_ids": [
+            "geo-gse74813",
+            "geo-gse74817",
+            "immport-design-sdy56"
+          ],
+          "status": "UNRESOLVED"
+        },
+        "transcriptomics_d0": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d1_3": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "transcriptomics_d5_9": {
+          "source_ids": [
+            "immport-design-sdy56"
+          ],
+          "status": "CONFIRMED_TRUE"
+        },
+        "whole_blood_or_pbmc": {
+          "source_ids": [
+            "immune-signatures-resource"
+          ],
+          "status": "CONFIRMED_TRUE"
+        }
+      },
+      "evidence_flags": [
+        "GEO_MAPPING_CONFLICT",
+        "SUPER_SERIES_COLLISION_RISK"
+      ],
+      "geo_series": [
+        "GSE74813",
+        "GSE74817"
+      ],
+      "platform": {
+        "source_ids": [
+          "geo-gse74813",
+          "geo-gse74817",
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "Affymetrix expression array"
+      },
+      "recruitment_institution": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "UNRESOLVED",
+        "value": null
+      },
+      "reported_site_region": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "US: Georgia"
+      },
+      "same_subject_complete_count": {
+        "count": null,
+        "source_ids": [
+          "immport-design-sdy56"
+        ],
+        "status": "UNRESOLVED"
+      },
+      "season": "2010-2011",
+      "specimen": {
+        "source_ids": [
+          "immune-signatures-resource"
+        ],
+        "status": "CONFIRMED",
+        "value": "PBMC"
+      },
+      "study_accession": "SDY56"
+    }
+  ],
+  "gate_contract": {
+    "minimum_complete_subjects_per_cohort": 25,
+    "minimum_discovery_cohorts": 5,
+    "minimum_discovery_complete_subjects": 250,
+    "minimum_discovery_institutions": 3,
+    "minimum_replication_complete_subjects": 50,
+    "minimum_simulated_power_basis_points": 8000,
+    "replication_priority": [
+      "SDY1119_TIV_2011",
+      "SDY180_FLUZONE_2009_2010"
+    ],
+    "target_mse_improvement_basis_points": 500,
+    "windows": {
+      "baseline": {
+        "allowed_day_range": [
+          0,
+          0
+        ],
+        "target_day": 0,
+        "tie_break": "EARLIER_DAY_THEN_ACCESSION"
+      },
+      "early": {
+        "allowed_day_range": [
+          1,
+          3
+        ],
+        "target_day": 1,
+        "tie_break": "EARLIER_DAY_THEN_ACCESSION"
+      },
+      "middle": {
+        "allowed_day_range": [
+          5,
+          9
+        ],
+        "target_day": 7,
+        "tie_break": "EARLIER_DAY_THEN_ACCESSION"
+      },
+      "outcome": {
+        "allowed_day_range": [
+          28,
+          35
+        ],
+        "target_day": 28,
+        "tie_break": "EARLIER_DAY_THEN_ACCESSION"
+      }
+    }
+  },
+  "overlap_evidence": [
+    {
+      "left_cohort_id": "SDY1119_TIV_2011",
+      "right_cohort_id": "SDY56_TIV_2010",
+      "shared_subject_count": null,
+      "source_ids": [
+        "geo-gse74816",
+        "geo-gse74817",
+        "immune-signatures-resource"
+      ],
+      "status": "UNRESOLVED"
+    },
+    {
+      "left_cohort_id": "SDY269_TIV_2008",
+      "right_cohort_id": "SDY270_TIV_2009",
+      "shared_subject_count": null,
+      "source_ids": [
+        "immport-search-metadata"
+      ],
+      "status": "UNRESOLVED"
+    }
+  ],
+  "power_assessment": {
+    "estimated_power_basis_points": null,
+    "status": "NOT_EVALUATED"
+  },
+  "schema": "vfh2.c139.immport-metadata-audit-manifest.v1",
+  "snapshot_date": "2026-09-04",
+  "sources": [
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "DR58",
+        "study_mapping_common_dr67"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-search-metadata",
+      "url": "https://www.immport.org/shared/search"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_DOCUMENTATION",
+      "payload_archived": false,
+      "provenance_status": "NOT_APPLICABLE",
+      "release_labels": [],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-download-guide",
+      "url": "https://docs.immport.org/download/"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_DOCUMENTATION",
+      "payload_archived": false,
+      "provenance_status": "NOT_APPLICABLE",
+      "release_labels": [],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-dmsp-guide",
+      "url": "https://docs.immport.org/documents/dmsp/ImmPort_Data_Management_and_Sharing_Plan_Template_v1.pdf"
+    },
+    {
+      "kind": "PEER_REVIEWED_AGGREGATE_PUBLICATION",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "PMC9584267"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immune-signatures-resource",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9584267/"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-04",
+      "source_id": "immport-design-sdy180",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY180"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy269",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY269"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy270",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY270"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-04",
+      "source_id": "immport-design-sdy400",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY400"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy404",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY404"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy520",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY520"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy56",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY56"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "immport-design-sdy640",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY640"
+    },
+    {
+      "kind": "IMMPORT_PUBLIC_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "DR58"
+      ],
+      "retrieved_on": "2026-09-04",
+      "source_id": "immport-design-sdy1119",
+      "url": "https://www.immport.org/data/query/ui/study/design/SDY1119"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "GSE48762"
+      ],
+      "retrieved_on": "2026-09-04",
+      "source_id": "geo-gse48762",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48762"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "GSE29617"
+      ],
+      "retrieved_on": "2026-09-04",
+      "source_id": "geo-gse29617",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE29617"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "GSE74811",
+        "PMC9584267-table-2-mapping"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse74811",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74811"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "GSE59743"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse59743",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59743"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "GSE59654"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse59654",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE59654"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "GSE101709",
+        "PMC9584267-specimen-label"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse101709",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE101709"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "GSE101710",
+        "PMC9584267-specimen-label"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse101710",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE101710"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONSISTENT",
+      "release_labels": [
+        "GSE74816"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse74816",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74816"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "GSE74813",
+        "GSE74817-superseries"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse74813",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74813"
+    },
+    {
+      "kind": "PUBLIC_REPOSITORY_METADATA",
+      "payload_archived": false,
+      "provenance_status": "CONFLICTING_LABELS",
+      "release_labels": [
+        "GSE74817",
+        "multi-season-superseries"
+      ],
+      "retrieved_on": "2026-09-03",
+      "source_id": "geo-gse74817",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE74817"
+    }
+  ]
+}
